@@ -1,0 +1,35 @@
+{
+ "definition": "what categories the Quran cites alongside آیات (signs/evidence) — the evidence types it invokes",
+ "evidence_categories": {
+  "history_story": {
+   "fraction_of_sign_ayahs": 0.050992,
+   "sign_ayahs_also_containing": 18
+  },
+  "human_self": {
+   "fraction_of_sign_ayahs": 0.107649,
+   "sign_ayahs_also_containing": 38
+  },
+  "nature": {
+   "fraction_of_sign_ayahs": 0.21813,
+   "sign_ayahs_also_containing": 77
+  },
+  "reason": {
+   "fraction_of_sign_ayahs": 0.266289,
+   "sign_ayahs_also_containing": 94
+  },
+  "text": {
+   "fraction_of_sign_ayahs": 0.124646,
+   "sign_ayahs_also_containing": 44
+  }
+ },
+ "finding": "of 353 ayahs invoking آیات (signs), the most-co-cited evidence type is 'reason' — the Quran grounds its signs in reason, nature, text",
+ "method": "quranic-methodology-1.0",
+ "n_sign_ayahs": 353,
+ "ranked_evidence_types": [
+  "reason",
+  "nature",
+  "text",
+  "human_self",
+  "history_story"
+ ]
+}

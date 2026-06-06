@@ -1,0 +1,12 @@
+{
+ "finding": "the Quran offers an explicit, integrative methodology: observe the signs (in text, nature, history, self) and reason/reflect/remember. It is not a single-source method.",
+ "method": "quranic-methodology-1.0",
+ "process": "observe → recognize signs → reason/reflect → remember; grounded in text, nature, history, and the human self simultaneously",
+ "reconstructed_methodology": {
+  "integration": "text (كتاب) + nature + history (story/عبرت) + reason + observation, integrated",
+  "step_1_observe": "the Quran commands observation (نظر، بصر، سمع، سير) — 82 imperative tokens",
+  "step_2_recognize_signs": "it presents آیات (signs) in nature, history, and the self — 353 sign-ayahs",
+  "step_3_reason": "it commands and repeats reasoning/reflection (عقل، فكر، دبر) — most-repeated method 'علم'",
+  "step_4_remember": "it frames understanding as ذكر (remembrance) and presents itself as ذكر/هدى"
+ }
+}

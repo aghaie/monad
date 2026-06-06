@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-07. **Current phase complete:** Phase Σ (Internal Semantic
-Reconstruction Engine). **Next phase:** none — awaiting explicit instruction.
+**Last updated:** 2026-06-07. **Current phase complete:** Phase Q (Quranic Methodology
+Discovery Engine). **Next phase:** none — awaiting explicit instruction.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -32,6 +32,7 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 17 | Frequency Null Model Engine | ✅ complete | `generated/frequency_null/*.json` |
 | Ω | World Model Discovery Engine | ✅ complete | `generated/world_model/*.json` |
 | Σ | Internal Semantic Reconstruction Engine | ✅ complete | `generated/semantics/*.json` |
+| Q | Quranic Methodology Discovery Engine | ✅ complete | `generated/quranic_methodology/*.json` |
 
 ---
 
@@ -792,6 +793,53 @@ precise limit of internal semantic reconstruction.
 
 ---
 
+## Phase Q — Quranic Methodology Discovery Engine
+
+Shifts the question from *what the Quran is* to **how the Quran says it should be
+understood**. No method is imported from outside — not philosophical, theological,
+mystical, academic, traditional, modern, or even Monad's own. Only the method the
+Quran states *about itself*, measured descriptively from the corpus (root frequencies,
+imperative moods, ayah-level co-occurrence). Nothing is proved or defended; concepts
+stay opaque; Arabic roots are evidence, never glossed.
+
+- 11 data products in `generated/quranic_methodology/` (method vocabulary,
+  imperatives, evidence model, reasoning patterns, repetition, story function, nature
+  function, self-descriptions, methodology model, falsification, manifest)
+- Method: locate the corpus's own method-vocabulary roots (cognition, observation,
+  evidence/signs, inquiry, self-description, nature, story); count imperative (IMPV)
+  and imperfect (IMPF) moods from `features_raw`; measure ayah-level co-occurrence of
+  آيات (signs) with each evidence category; test six competing hypotheses
+- **Primary finding — the Quran DOES state an internal, INTEGRATIVE methodology:**
+  - **6,173 method-vocabulary tokens; 208 imperatives** commanding method-actions
+    (ذكر 56, نظر 48, علم 31, سؤال 16, سمع 13 …) — understanding is *commanded*
+  - The signs (آيات, 353 ayahs) are grounded in a **plurality** of evidence: reason
+    (94), nature (77), text (44), the human self (38), history (18) — no single source
+  - Recurring inference: **sign → cognition** (the "for a people who reason/reflect/
+    know" refrain — 334 imperfect tokens for علم, 71 for ذكر, 48 for عقل)
+  - Nature is cast **as sign** (25.5% of 1,141 nature-ayahs carry signs/cognition;
+    night 0.49, sky 0.37, earth 0.33); story is cast **as lesson** (عبرة, مثل); the
+    text describes itself **functionally** (clarification 64, guidance 34, reminder 33)
+- **Falsification:** H1 (no method), H2 (faith only), H3 (reason only), H4 (text
+  only), H5 (nature only) **all FALSIFIED**; **H6 (integrative method) SURVIVES**
+- **Honest limits:** descriptive co-occurrence only — states a method, does not judge
+  its validity; the contemplative roots (تدبّر 8, تفکّر 17 verbal calls) are *rare*,
+  the method's weight falls on knowing/remembering/looking/asking; nature-as-sign
+  concentrates in cosmological roots, not all of nature
+- Builder: `scripts/build_quranic_methodology.py`; Validator:
+  `scripts/validate_quranic_methodology.py` (133 checks, byte-identical rebuild)
+- Reports: `method-vocabulary-report.md`, `imperative-method-report.md`,
+  `evidence-model-report.md`, `reasoning-pattern-report.md`,
+  `method-repetition-report.md`, `story-function-report.md`,
+  `nature-function-report.md`, `quran-self-description-report.md`,
+  `methodology-falsification-report.md`, `phase-q-final-report.md`
+
+Methodology verdict: a reader with **only** the Quran — importing nothing — would be
+told *how to read it*: observe the signs (in text, nature, history, and the self), and
+reason / reflect / remember. The method is **integrative**, not single-source. This is
+the Quran's own stated method, recovered from the Quran alone.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -830,6 +878,7 @@ python3 scripts/build_hub_origin.py     && python3 scripts/validate_hub_origin.p
 python3 scripts/build_frequency_null.py && python3 scripts/validate_frequency_null.py --rebuild
 python3 scripts/build_world_model.py    && python3 scripts/validate_world_model.py    --rebuild
 python3 scripts/build_semantics.py      && python3 scripts/validate_semantics.py      --rebuild
+python3 scripts/build_quranic_methodology.py && python3 scripts/validate_quranic_methodology.py --rebuild
 ```
 
 ---
@@ -837,4 +886,5 @@ python3 scripts/build_semantics.py      && python3 scripts/validate_semantics.py
 ## Next
 
 No further phase is started by design. Open questions are recorded in
-`phase-sigma-final-report.md §10`. Awaiting explicit instruction.
+`phase-sigma-final-report.md §10` and `phase-q-final-report.md`. Awaiting explicit
+instruction.

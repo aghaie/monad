@@ -1,0 +1,45 @@
+{
+ "hypotheses": [
+  {
+   "evidence": "6173 method-vocabulary tokens and 208 commanding imperatives — method is pervasive",
+   "hypothesis": "the Quran offers no defined method of understanding",
+   "id": "H1",
+   "result": "FALSIFIED"
+  },
+  {
+   "evidence": "1468 reasoning-vocabulary tokens + 649 observation tokens — reason/observation are heavily invoked",
+   "hypothesis": "the Quran relies only on faith",
+   "id": "H2",
+   "result": "FALSIFIED"
+  },
+  {
+   "evidence": "it also invokes آیات (signs), observation (نظر/سمع), nature, and the text itself",
+   "hypothesis": "the Quran relies only on reason",
+   "id": "H3",
+   "result": "FALSIFIED"
+  },
+  {
+   "evidence": "it points outward to nature (291 nature-ayahs with signs/cognition) and history (stories)",
+   "hypothesis": "the Quran relies only on the text",
+   "id": "H4",
+   "result": "FALSIFIED"
+  },
+  {
+   "evidence": "it also invokes the text (كتاب/قرآن), reason, and history",
+   "hypothesis": "the Quran relies only on nature",
+   "id": "H5",
+   "result": "FALSIFIED"
+  },
+  {
+   "evidence": "it integrates observation + signs (nature/history/self) + reason/reflection + the text — no single source",
+   "hypothesis": "the Quran offers an integrative (combined) method",
+   "id": "H6",
+   "result": "SURVIVES"
+  }
+ ],
+ "method": "quranic-methodology-1.0",
+ "surviving_hypotheses": [
+  "H6"
+ ],
+ "verdict": "H1–H5 are falsified; H6 survives. The Quran offers an explicit, INTEGRATIVE methodology — observe the signs (in text, nature, history, self) and reason/reflect/remember — not a single-source method."
+}

@@ -1,0 +1,65 @@
+{
+ "constants": {
+  "ROUND": 6,
+  "method_groups": [
+   "cognition_reason",
+   "observation_perception",
+   "evidence_signs",
+   "inquiry_text",
+   "self_description",
+   "nature",
+   "story"
+  ]
+ },
+ "input_sha256": {
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "quranic-methodology-1.0",
+ "output_bytes": {
+  "evidence_model.json": 944,
+  "falsification_results.json": 1611,
+  "imperatives.json": 1529,
+  "method_vocabulary.json": 10125,
+  "methodology_model.json": 975,
+  "nature_functions.json": 2199,
+  "reasoning_patterns.json": 897,
+  "repetition_patterns.json": 2662,
+  "self_descriptions.json": 1139,
+  "story_functions.json": 463
+ },
+ "prohibitions_observed": [
+  "no external method imported",
+  "no philosophical method",
+  "no theological method",
+  "no mystical method",
+  "no academic method",
+  "no traditional method",
+  "no modern method",
+  "no Monad method imposed",
+  "prove nothing",
+  "defend no belief",
+  "confirm no prior result",
+  "only the method the Quran states about itself",
+  "honest non-emergence reported if found",
+  "descriptive corpus statistics, no interpretation",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "method_imperative_tokens": 208,
+  "methodology_emerges": true,
+  "n_sign_ayahs": 353,
+  "nature_methodological_fraction": 0.255039,
+  "ranked_evidence_types": [
+   "reason",
+   "nature",
+   "text",
+   "human_self",
+   "history_story"
+  ],
+  "surviving_hypotheses": [
+   "H6"
+  ],
+  "top_self_descriptor": "بين",
+  "total_method_tokens": 6173
+ }
+}

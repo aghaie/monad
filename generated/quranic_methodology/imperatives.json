@@ -1,0 +1,69 @@
+{
+ "commanded_method_actions": [
+  {
+   "category": "tadhakkur",
+   "imperative_tokens": 56,
+   "root_arabic": "ذكر"
+  },
+  {
+   "category": "nazar",
+   "imperative_tokens": 48,
+   "root_arabic": "نظر"
+  },
+  {
+   "category": "ʿilm",
+   "imperative_tokens": 31,
+   "root_arabic": "علم"
+  },
+  {
+   "category": "suʾal",
+   "imperative_tokens": 16,
+   "root_arabic": "سال"
+  },
+  {
+   "category": "samaʿ",
+   "imperative_tokens": 13,
+   "root_arabic": "سمع"
+  },
+  {
+   "category": "mushahadah",
+   "imperative_tokens": 10,
+   "root_arabic": "شهد"
+  },
+  {
+   "category": "hikmah",
+   "imperative_tokens": 7,
+   "root_arabic": "حكم"
+  },
+  {
+   "category": "sayr",
+   "imperative_tokens": 7,
+   "root_arabic": "سير"
+  },
+  {
+   "category": "tilawah",
+   "imperative_tokens": 7,
+   "root_arabic": "تلو"
+  },
+  {
+   "category": "qiraah",
+   "imperative_tokens": 6,
+   "root_arabic": "قرا"
+  },
+  {
+   "category": "basirah",
+   "imperative_tokens": 4,
+   "root_arabic": "بصر"
+  },
+  {
+   "category": "bayyinat",
+   "imperative_tokens": 3,
+   "root_arabic": "بين"
+  }
+ ],
+ "definition": "imperative-mood (IMPV) tokens of cognition/observation/inquiry roots — what the Quran COMMANDS the reader to do",
+ "finding": "the Quran issues 208 imperative tokens commanding method-actions (look, reflect, reason, travel, listen, read) — understanding is commanded, not merely described",
+ "method": "quranic-methodology-1.0",
+ "method_imperative_tokens": 208,
+ "total_imperative_tokens_corpus": 1876
+}

@@ -1,0 +1,40 @@
+{
+ "definition": "how the Quran describes itself: descriptors co-occurring with self-reference (كتاب/قرآن)",
+ "descriptors": {
+  "بين": {
+   "co_occurs_with_self_reference_ayahs": 64,
+   "descriptor": "bayan (clarification)",
+   "total_ayahs": 454
+  },
+  "ذكر": {
+   "co_occurs_with_self_reference_ayahs": 33,
+   "descriptor": "dhikr (reminder)",
+   "total_ayahs": 264
+  },
+  "فرق": {
+   "co_occurs_with_self_reference_ayahs": 16,
+   "descriptor": "furqan (criterion)",
+   "total_ayahs": 66
+  },
+  "نور": {
+   "co_occurs_with_self_reference_ayahs": 16,
+   "descriptor": "nur (light)",
+   "total_ayahs": 174
+  },
+  "هدي": {
+   "co_occurs_with_self_reference_ayahs": 34,
+   "descriptor": "huda (guidance)",
+   "total_ayahs": 268
+  }
+ },
+ "finding": "the Quran most often describes itself (alongside self-reference) as 'bayan (clarification)' — it presents itself as a cognitive instrument: guidance / reminder / clarification, not only an object of belief",
+ "method": "quranic-methodology-1.0",
+ "n_self_reference_ayahs": 348,
+ "ranked_descriptors": [
+  "بين",
+  "هدي",
+  "ذكر",
+  "نور",
+  "فرق"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "definition": "why nature is invoked: fraction of nature-ayahs also carrying signs/cognition vocabulary",
+ "finding": "26% of nature-ayahs also carry signs or cognition vocabulary — the Quran invokes nature AS signs to be reasoned about, not as mere description",
+ "fraction": 0.255039,
+ "method": "quranic-methodology-1.0",
+ "n_nature_ayahs": 1141,
+ "nature_ayahs_with_signs_or_cognition": 291,
+ "nature_roots": {
+  "ارض": {
+   "ayah_count": 440,
+   "category": "ard",
+   "methodological_fraction": 0.331818,
+   "with_cognition": 114,
+   "with_signs": 32
+  },
+  "انس": {
+   "ayah_count": 93,
+   "category": "ins",
+   "methodological_fraction": 0.182796,
+   "with_cognition": 15,
+   "with_signs": 2
+  },
+  "بشر": {
+   "ayah_count": 119,
+   "category": "bashar",
+   "methodological_fraction": 0.210084,
+   "with_cognition": 17,
+   "with_signs": 8
+  },
+  "خلق": {
+   "ayah_count": 218,
+   "category": "khalq",
+   "methodological_fraction": 0.293578,
+   "with_cognition": 49,
+   "with_signs": 15
+  },
+  "دبب": {
+   "ayah_count": 18,
+   "category": "dabbah",
+   "methodological_fraction": 0.555556,
+   "with_cognition": 6,
+   "with_signs": 4
+  },
+  "سمو": {
+   "ayah_count": 352,
+   "category": "sama",
+   "methodological_fraction": 0.372159,
+   "with_cognition": 103,
+   "with_signs": 28
+  },
+  "شجر": {
+   "ayah_count": 26,
+   "category": "shajar",
+   "methodological_fraction": 0.115385,
+   "with_cognition": 3,
+   "with_signs": 0
+  },
+  "ليل": {
+   "ayah_count": 81,
+   "category": "layl",
+   "methodological_fraction": 0.493827,
+   "with_cognition": 23,
+   "with_signs": 17
+  },
+  "مطر": {
+   "ayah_count": 9,
+   "category": "matar",
+   "methodological_fraction": 0.0,
+   "with_cognition": 0,
+   "with_signs": 0
+  },
+  "نبت": {
+   "ayah_count": 23,
+   "category": "nabt",
+   "methodological_fraction": 0.478261,
+   "with_cognition": 6,
+   "with_signs": 5
+  },
+  "نعم": {
+   "ayah_count": 128,
+   "category": "anʿam",
+   "methodological_fraction": 0.265625,
+   "with_cognition": 27,
+   "with_signs": 7
+  },
+  "نهر": {
+   "ayah_count": 102,
+   "category": "nahar",
+   "methodological_fraction": 0.323529,
+   "with_cognition": 18,
+   "with_signs": 15
+  }
+ }
+}

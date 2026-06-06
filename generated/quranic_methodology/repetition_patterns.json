@@ -1,0 +1,133 @@
+{
+ "definition": "the method-actions the Quran repeats most (imperative + imperfect verbal calls)",
+ "finding": "the most-repeated method-action is 'علم' (365 verbal calls). The Quran repeats METHODS of understanding, not just topics.",
+ "method": "quranic-methodology-1.0",
+ "most_repeated_methods": [
+  {
+   "category": "ʿilm",
+   "imperative": 31,
+   "imperfect": 334,
+   "root_arabic": "علم",
+   "total_verbal_calls": 365
+  },
+  {
+   "category": "tadhakkur",
+   "imperative": 56,
+   "imperfect": 71,
+   "root_arabic": "ذكر",
+   "total_verbal_calls": 127
+  },
+  {
+   "category": "nazar",
+   "imperative": 48,
+   "imperfect": 56,
+   "root_arabic": "نظر",
+   "total_verbal_calls": 104
+  },
+  {
+   "category": "suʾal",
+   "imperative": 16,
+   "imperfect": 78,
+   "root_arabic": "سال",
+   "total_verbal_calls": 94
+  },
+  {
+   "category": "samaʿ",
+   "imperative": 13,
+   "imperfect": 61,
+   "root_arabic": "سمع",
+   "total_verbal_calls": 74
+  },
+  {
+   "category": "tilawah",
+   "imperative": 7,
+   "imperfect": 51,
+   "root_arabic": "تلو",
+   "total_verbal_calls": 58
+  },
+  {
+   "category": "taʿaqqul",
+   "imperative": 0,
+   "imperfect": 48,
+   "root_arabic": "عقل",
+   "total_verbal_calls": 48
+  },
+  {
+   "category": "hikmah",
+   "imperative": 7,
+   "imperfect": 39,
+   "root_arabic": "حكم",
+   "total_verbal_calls": 46
+  },
+  {
+   "category": "bayyinat",
+   "imperative": 3,
+   "imperfect": 35,
+   "root_arabic": "بين",
+   "total_verbal_calls": 38
+  },
+  {
+   "category": "mushahadah",
+   "imperative": 10,
+   "imperfect": 24,
+   "root_arabic": "شهد",
+   "total_verbal_calls": 34
+  },
+  {
+   "category": "basirah",
+   "imperative": 4,
+   "imperfect": 25,
+   "root_arabic": "بصر",
+   "total_verbal_calls": 29
+  },
+  {
+   "category": "tafakkur",
+   "imperative": 0,
+   "imperfect": 17,
+   "root_arabic": "فكر",
+   "total_verbal_calls": 17
+  },
+  {
+   "category": "sayr",
+   "imperative": 7,
+   "imperfect": 10,
+   "root_arabic": "سير",
+   "total_verbal_calls": 17
+  },
+  {
+   "category": "qiraah",
+   "imperative": 6,
+   "imperfect": 5,
+   "root_arabic": "قرا",
+   "total_verbal_calls": 11
+  },
+  {
+   "category": "tadabbur",
+   "imperative": 0,
+   "imperfect": 8,
+   "root_arabic": "دبر",
+   "total_verbal_calls": 8
+  },
+  {
+   "category": "fahm",
+   "imperative": 0,
+   "imperfect": 0,
+   "root_arabic": "فهم",
+   "total_verbal_calls": 0
+  },
+  {
+   "category": "ayat",
+   "imperative": 0,
+   "imperfect": 0,
+   "root_arabic": "ايي",
+   "total_verbal_calls": 0
+  },
+  {
+   "category": "burhan",
+   "imperative": 0,
+   "imperfect": 0,
+   "root_arabic": "برهن",
+   "total_verbal_calls": 0
+  }
+ ]
+}

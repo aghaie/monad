@@ -1,0 +1,505 @@
+{
+ "definition": "frequency, distribution, and co-occurrence of the Quran's method-vocabulary roots",
+ "groups": {
+  "cognition_reason": [
+   {
+    "ayah_count": 728,
+    "category": "ʿilm",
+    "imperative_tokens": 31,
+    "imperfect_tokens": 334,
+    "meccan_ayahs": 436,
+    "medinan_ayahs": 292,
+    "root_arabic": "علم",
+    "root_id": 218,
+    "token_count": 854
+   },
+   {
+    "ayah_count": 264,
+    "category": "tadhakkur",
+    "imperative_tokens": 56,
+    "imperfect_tokens": 71,
+    "meccan_ayahs": 195,
+    "medinan_ayahs": 69,
+    "root_arabic": "ذكر",
+    "root_id": 72,
+    "token_count": 292
+   },
+   {
+    "ayah_count": 189,
+    "category": "hikmah",
+    "imperative_tokens": 7,
+    "imperfect_tokens": 39,
+    "meccan_ayahs": 86,
+    "medinan_ayahs": 103,
+    "root_arabic": "حكم",
+    "root_id": 316,
+    "token_count": 210
+   },
+   {
+    "ayah_count": 49,
+    "category": "taʿaqqul",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 48,
+    "meccan_ayahs": 30,
+    "medinan_ayahs": 19,
+    "root_arabic": "عقل",
+    "root_id": 237,
+    "token_count": 49
+   },
+   {
+    "ayah_count": 44,
+    "category": "tadabbur",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 8,
+    "meccan_ayahs": 28,
+    "medinan_ayahs": 16,
+    "root_arabic": "دبر",
+    "root_id": 575,
+    "token_count": 44
+   },
+   {
+    "ayah_count": 18,
+    "category": "tafakkur",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 17,
+    "meccan_ayahs": 13,
+    "medinan_ayahs": 5,
+    "root_arabic": "فكر",
+    "root_id": 635,
+    "token_count": 18
+   },
+   {
+    "ayah_count": 1,
+    "category": "fahm",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 0,
+    "meccan_ayahs": 1,
+    "medinan_ayahs": 0,
+    "root_arabic": "فهم",
+    "root_id": 629,
+    "token_count": 1
+   }
+  ],
+  "evidence_signs": [
+   {
+    "ayah_count": 454,
+    "category": "bayyinat",
+    "imperative_tokens": 3,
+    "imperfect_tokens": 35,
+    "meccan_ayahs": 269,
+    "medinan_ayahs": 185,
+    "root_arabic": "بين",
+    "root_id": 565,
+    "token_count": 523
+   },
+   {
+    "ayah_count": 353,
+    "category": "ayat",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 0,
+    "meccan_ayahs": 265,
+    "medinan_ayahs": 88,
+    "root_arabic": "ايي",
+    "root_id": 150,
+    "token_count": 382
+   },
+   {
+    "ayah_count": 8,
+    "category": "burhan",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 0,
+    "meccan_ayahs": 6,
+    "medinan_ayahs": 2,
+    "root_arabic": "برهن",
+    "root_id": 538,
+    "token_count": 8
+   }
+  ],
+  "inquiry_text": [
+   {
+    "ayah_count": 118,
+    "category": "suʾal",
+    "imperative_tokens": 16,
+    "imperfect_tokens": 78,
+    "meccan_ayahs": 84,
+    "medinan_ayahs": 34,
+    "root_arabic": "سال",
+    "root_id": 1299,
+    "token_count": 129
+   },
+   {
+    "ayah_count": 79,
+    "category": "qiraah",
+    "imperative_tokens": 6,
+    "imperfect_tokens": 5,
+    "meccan_ayahs": 69,
+    "medinan_ayahs": 10,
+    "root_arabic": "قرا",
+    "root_id": 1183,
+    "token_count": 88
+   },
+   {
+    "ayah_count": 61,
+    "category": "tilawah",
+    "imperative_tokens": 7,
+    "imperfect_tokens": 51,
+    "meccan_ayahs": 36,
+    "medinan_ayahs": 25,
+    "root_arabic": "تلو",
+    "root_id": 1412,
+    "token_count": 63
+   }
+  ],
+  "nature": [
+   {
+    "ayah_count": 440,
+    "category": "ard",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 0,
+    "meccan_ayahs": 316,
+    "medinan_ayahs": 124,
+    "root_arabic": "ارض",
+    "root_id": 127,
+    "token_count": 461
+   },
+   {
+    "ayah_count": 352,
+    "category": "sama",
+    "imperative_tokens": 1,
+    "imperfect_tokens": 2,
+    "meccan_ayahs": 251,
+    "medinan_ayahs": 101,
+    "root_arabic": "سمو",
+    "root_id": 1362,
+    "token_count": 381
+   },
+   {
+    "ayah_count": 218,
+    "category": "khalq",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 27,
+    "meccan_ayahs": 182,
+    "medinan_ayahs": 36,
+    "root_arabic": "خلق",
+    "root_id": 1558,
+    "token_count": 261
+   },
+   {
+    "ayah_count": 128,
+    "category": "anʿam",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 0,
+    "meccan_ayahs": 86,
+    "medinan_ayahs": 42,
+    "root_arabic": "نعم",
+    "root_id": 1039,
+    "token_count": 140
+   },
+   {
+    "ayah_count": 119,
+    "category": "bashar",
+    "imperative_tokens": 22,
+    "imperfect_tokens": 17,
+    "meccan_ayahs": 84,
+    "medinan_ayahs": 35,
+    "root_arabic": "بشر",
+    "root_id": 485,
+    "token_count": 123
+   },
+   {
+    "ayah_count": 102,
+    "category": "nahar",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 2,
+    "meccan_ayahs": 61,
+    "medinan_ayahs": 41,
+    "root_arabic": "نهر",
+    "root_id": 1080,
+    "token_count": 113
+   },
+   {
+    "ayah_count": 93,
+    "category": "ins",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 1,
+    "meccan_ayahs": 76,
+    "medinan_ayahs": 17,
+    "root_arabic": "انس",
+    "root_id": 124,
+    "token_count": 97
+   },
+   {
+    "ayah_count": 81,
+    "category": "layl",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 0,
+    "meccan_ayahs": 68,
+    "medinan_ayahs": 13,
+    "root_arabic": "ليل",
+    "root_id": 954,
+    "token_count": 92
+   },
+   {
+    "ayah_count": 26,
+    "category": "shajar",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 0,
+    "meccan_ayahs": 20,
+    "medinan_ayahs": 6,
+    "root_arabic": "شجر",
+    "root_id": 27,
+    "token_count": 27
+   },
+   {
+    "ayah_count": 23,
+    "category": "nabt",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 5,
+    "meccan_ayahs": 18,
+    "medinan_ayahs": 5,
+    "root_arabic": "نبت",
+    "root_id": 1061,
+    "token_count": 26
+   },
+   {
+    "ayah_count": 18,
+    "category": "dabbah",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 0,
+    "meccan_ayahs": 13,
+    "medinan_ayahs": 5,
+    "root_arabic": "دبب",
+    "root_id": 574,
+    "token_count": 18
+   },
+   {
+    "ayah_count": 9,
+    "category": "matar",
+    "imperative_tokens": 1,
+    "imperfect_tokens": 0,
+    "meccan_ayahs": 7,
+    "medinan_ayahs": 2,
+    "root_arabic": "مطر",
+    "root_id": 974,
+    "token_count": 15
+   }
+  ],
+  "observation_perception": [
+   {
+    "ayah_count": 163,
+    "category": "samaʿ",
+    "imperative_tokens": 13,
+    "imperfect_tokens": 61,
+    "meccan_ayahs": 104,
+    "medinan_ayahs": 59,
+    "root_arabic": "سمع",
+    "root_id": 1356,
+    "token_count": 185
+   },
+   {
+    "ayah_count": 123,
+    "category": "mushahadah",
+    "imperative_tokens": 10,
+    "imperfect_tokens": 24,
+    "meccan_ayahs": 58,
+    "medinan_ayahs": 65,
+    "root_arabic": "شهد",
+    "root_id": 23,
+    "token_count": 160
+   },
+   {
+    "ayah_count": 139,
+    "category": "basirah",
+    "imperative_tokens": 4,
+    "imperfect_tokens": 25,
+    "meccan_ayahs": 101,
+    "medinan_ayahs": 38,
+    "root_arabic": "بصر",
+    "root_id": 499,
+    "token_count": 148
+   },
+   {
+    "ayah_count": 115,
+    "category": "nazar",
+    "imperative_tokens": 48,
+    "imperfect_tokens": 56,
+    "meccan_ayahs": 89,
+    "medinan_ayahs": 26,
+    "root_arabic": "نظر",
+    "root_id": 1056,
+    "token_count": 129
+   },
+   {
+    "ayah_count": 25,
+    "category": "sayr",
+    "imperative_tokens": 7,
+    "imperfect_tokens": 10,
+    "meccan_ayahs": 20,
+    "medinan_ayahs": 5,
+    "root_arabic": "سير",
+    "root_id": 1403,
+    "token_count": 27
+   }
+  ],
+  "self_description": [
+   {
+    "ayah_count": 279,
+    "category": "kitab",
+    "imperative_tokens": 5,
+    "imperfect_tokens": 16,
+    "meccan_ayahs": 145,
+    "medinan_ayahs": 134,
+    "root_arabic": "كتب",
+    "root_id": 891,
+    "token_count": 319
+   },
+   {
+    "ayah_count": 268,
+    "category": "huda",
+    "imperative_tokens": 3,
+    "imperfect_tokens": 126,
+    "meccan_ayahs": 173,
+    "medinan_ayahs": 95,
+    "root_arabic": "هدي",
+    "root_id": 746,
+    "token_count": 316
+   },
+   {
+    "ayah_count": 174,
+    "category": "nur",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 0,
+    "meccan_ayahs": 90,
+    "medinan_ayahs": 84,
+    "root_arabic": "نور",
+    "root_id": 1122,
+    "token_count": 194
+   },
+   {
+    "ayah_count": 66,
+    "category": "furqan",
+    "imperative_tokens": 2,
+    "imperfect_tokens": 13,
+    "meccan_ayahs": 27,
+    "medinan_ayahs": 39,
+    "root_arabic": "فرق",
+    "root_id": 656,
+    "token_count": 72
+   }
+  ],
+  "story": [
+   {
+    "ayah_count": 148,
+    "category": "mathal",
+    "imperative_tokens": 0,
+    "imperfect_tokens": 0,
+    "meccan_ayahs": 95,
+    "medinan_ayahs": 53,
+    "root_arabic": "مثل",
+    "root_id": 1012,
+    "token_count": 169
+   },
+   {
+    "ayah_count": 25,
+    "category": "qasas",
+    "imperative_tokens": 2,
+    "imperfect_tokens": 14,
+    "meccan_ayahs": 19,
+    "medinan_ayahs": 6,
+    "root_arabic": "قصص",
+    "root_id": 1140,
+    "token_count": 30
+   },
+   {
+    "ayah_count": 9,
+    "category": "ʿibrah",
+    "imperative_tokens": 1,
+    "imperfect_tokens": 1,
+    "meccan_ayahs": 5,
+    "medinan_ayahs": 4,
+    "root_arabic": "عبر",
+    "root_id": 200,
+    "token_count": 9
+   }
+  ]
+ },
+ "method": "quranic-methodology-1.0",
+ "top_method_cooccurrences": [
+  {
+   "a": "ارض",
+   "b": "سمو",
+   "shared_ayahs": 224
+  },
+  {
+   "a": "ارض",
+   "b": "علم",
+   "shared_ayahs": 85
+  },
+  {
+   "a": "بين",
+   "b": "علم",
+   "shared_ayahs": 82
+  },
+  {
+   "a": "سمو",
+   "b": "علم",
+   "shared_ayahs": 72
+  },
+  {
+   "a": "حكم",
+   "b": "علم",
+   "shared_ayahs": 71
+  },
+  {
+   "a": "خلق",
+   "b": "سمو",
+   "shared_ayahs": 66
+  },
+  {
+   "a": "ارض",
+   "b": "خلق",
+   "shared_ayahs": 64
+  },
+  {
+   "a": "علم",
+   "b": "كتب",
+   "shared_ayahs": 61
+  },
+  {
+   "a": "ايي",
+   "b": "بين",
+   "shared_ayahs": 61
+  },
+  {
+   "a": "بين",
+   "b": "كتب",
+   "shared_ayahs": 57
+  },
+  {
+   "a": "ارض",
+   "b": "بين",
+   "shared_ayahs": 54
+  },
+  {
+   "a": "علم",
+   "b": "هدي",
+   "shared_ayahs": 46
+  },
+  {
+   "a": "ذكر",
+   "b": "علم",
+   "shared_ayahs": 44
+  },
+  {
+   "a": "سمع",
+   "b": "علم",
+   "shared_ayahs": 44
+  },
+  {
+   "a": "ايي",
+   "b": "علم",
+   "shared_ayahs": 43
+  }
+ ],
+ "total_method_tokens": 6173
+}

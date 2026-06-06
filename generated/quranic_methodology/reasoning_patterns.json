@@ -1,0 +1,29 @@
+{
+ "definition": "recurring reasoning patterns: signs→cognition, nature→signs, story→lesson",
+ "finding": "the dominant reasoning pattern is sign→cognition: ayahs invoking آیات recurrently co-occur with cognition verbs (the 'for a people who reason/reflect/know' refrain). Nature co-occurs with signs in 77 ayahs.",
+ "method": "quranic-methodology-1.0",
+ "nature_to_signs_ayahs": 77,
+ "signs_to_cognition": {
+  "دبر": {
+   "imperfect_refrain_tokens": 8,
+   "sign_plus_cognition_ayahs": 3
+  },
+  "ذكر": {
+   "imperfect_refrain_tokens": 71,
+   "sign_plus_cognition_ayahs": 24
+  },
+  "عقل": {
+   "imperfect_refrain_tokens": 48,
+   "sign_plus_cognition_ayahs": 13
+  },
+  "علم": {
+   "imperfect_refrain_tokens": 334,
+   "sign_plus_cognition_ayahs": 43
+  },
+  "فكر": {
+   "imperfect_refrain_tokens": 17,
+   "sign_plus_cognition_ayahs": 10
+  }
+ },
+ "story_to_signs_ayahs": 18
+}
