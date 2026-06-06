@@ -1,0 +1,85 @@
+{
+ "constants": {
+  "CYCLE_MAX_LEN": 4,
+  "DOMINANT_HUB": "CONCEPT_007",
+  "FOUNDATIONALITY_METRICS": [
+   "removal_impact_count",
+   "support_weighted_loss",
+   "dependency_impact",
+   "reach_reduction",
+   "fragmentation_components_added",
+   "information_loss_bits"
+  ],
+  "RECOVERY_TARGETS": [
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   0.95
+  ],
+  "REMOVAL_STEPS": [
+   1,
+   3,
+   5,
+   10,
+   20,
+   30,
+   50
+  ],
+  "ROUND": 6,
+  "TOP_BRIDGE_FRAC": 0.1
+ },
+ "input_sha256": {
+  "concept_candidates.json": "f6e530c581332171568147a851d1bda422d103c6f42be6e91f2123104fd0ee9a",
+  "concept_graph.json": "3f977021e27782dc0337fe5478f0424cce3d437314d574793d7c6eb80a127b77",
+  "concept_manifest.json": "697d11cf782e648161e1a59dd5609e00a029cedc49e937daf0e3fb0adec55d2c",
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "distribution_profiles.json": "645d1659142f14249adaf881649970083f7ad4b4935d39fbf391112c75ce2163",
+  "lemma_profiles.json": "049aebf57f81b0e37112cbe4fe061a9d88b55ab8542e948be9e52640640e9b2c",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c",
+  "proposition_candidates.json": "05bf114c331d58082004409ed129a35ba5811343ca5b7b2954e83d9b4c1a6fbf",
+  "proposition_graph.json": "c9033e1cbbf46a3a776613f9b338a43b466a442dddbd0e1d5373cf74b2f9ec35",
+  "proposition_manifest.json": "ec68fccba3b7e28163f2ba4b00fbb9a53ca357e9d91f1d3780cb80c9d7e1b554",
+  "root_profiles.json": "bcb656a7f4db2fd7d3d588d561479ac9bbc66f229e8fb117c3e71f96bbbb382d",
+  "semantic_neighbors.json": "599dfaee21a850264a0080c09cf95ce4d0aaafc9141b3249b54ca7261a0db4db"
+ },
+ "method": "phase5-compression-1.0",
+ "output_bytes": {
+  "compression_curve.json": 14594,
+  "compression_statistics.json": 7167,
+  "dependency_layers.json": 12413,
+  "foundationality_scores.json": 97027,
+  "hub_removal_analysis.json": 11194,
+  "irreducible_structures.json": 7396,
+  "reconstruction_sets.json": 9620
+ },
+ "prohibitions_observed": [
+  "not an axiom engine",
+  "not an ontology engine",
+  "not a theology engine",
+  "no concept naming",
+  "no concept translation",
+  "no interpretation",
+  "no inferred meanings",
+  "no ontology",
+  "no theology",
+  "no axioms",
+  "no contradiction engine",
+  "no doctrine",
+  "no divine origin claim",
+  "no human origin claim",
+  "no philosophical conclusions",
+  "no semantic labels",
+  "no external knowledge",
+  "prior phases never rebuilt"
+ ],
+ "reconstruction_definition": "A relation is reconstructable from a concept set S iff every participating concept is in S (set membership only).",
+ "totals": {
+  "concepts": 103,
+  "dependency_relations": 284,
+  "directed_graph_edges": 1474,
+  "relations": 6832,
+  "total_support": 282255
+ }
+}

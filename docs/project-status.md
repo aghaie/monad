@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 4 (Proposition
-Discovery Engine). **Next phase:** Phase 5 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 5 (Dependency
+Compression Engine). **Next phase:** Phase 6 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -17,7 +17,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 2 | Quran Internal Lexicon Engine | ✅ complete | `generated/lexicon/*.json` |
 | 3 | Concept Discovery Engine | ✅ complete | `generated/concepts/*.json` |
 | 4 | Proposition Discovery Engine | ✅ complete | `generated/propositions/*.json` |
-| 5 | (future) | ⛔ not started | — |
+| 5 | Dependency Compression Engine | ✅ complete | `generated/compression/*.json` |
+| 6 | (future) | ⛔ not started | — |
 
 ---
 
@@ -109,6 +110,40 @@ across the Quran.
 
 ---
 
+## Phase 5 — Dependency Compression Engine
+
+Measures whether the Phase-4 proposition structure compresses into a smaller set
+of foundational structures. **Not** an axiom / ontology / theology engine.
+Concept ids and relation types stay opaque; no meaning, ontology, axiom, or
+origin claim is produced. Reconstruction = full set membership (a relation is
+recovered iff every participating concept is retained).
+
+- 8 data products in `generated/compression/` (foundationality, reconstruction
+  sets, dependency layers, irreducible structures, statistics, curve, hub
+  removal, manifest)
+- **Primary finding:** only *partially* compressible — 80% of structure needs
+  **59 / 103 concepts** (ratio 0.573); 50% needs 39; 95% needs 76. Convex
+  compression curve (knee at k ≈ 66 → 88%); greedy AUC 0.612
+- **Single dominant core:** `CONCEPT_007` (composite 1.000 vs 0.402 next; 22.2%
+  of relations incident; sole fragmenting node). 15 concepts each destroy ≥ 5%
+  alone; 27 above mean necessity
+- **Hub removal → reorganize, not collapse:** 77.8% of relations survive,
+  `CONCEPT_016` + a size-9 SCC become the new core; all 4 hierarchical chains
+  (hub-terminated) vanish; short cycles fall 2,570 → 219
+- **8 dependency layers** (0–7, wide base / thin spire) · **7 irreducible
+  dependency cores** (largest size 9, all hub-independent) · one 94-node
+  directional SCC (ordering is globally cyclic)
+- Method: set-coverage reconstruction; six-metric composite foundationality;
+  greedy maximum-coverage; Tarjan SCC condensation + longest-path layering;
+  Brandes betweenness (Phase-4-consistent) on the hub-removed induced subgraph
+- Builder: `scripts/build_compression.py`; Validator:
+  `scripts/validate_compression.py` (byte-identical rebuild, all checks pass)
+- Reports: `foundationality-report.md`, `compression-analysis-report.md`,
+  `hub-removal-report.md`, `dependency-layer-report.md`,
+  `irreducibility-report.md`, `phase5-final-report.md`
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -130,11 +165,12 @@ python3 scripts/build_database.py     && python3 scripts/validate_database.py
 python3 scripts/build_lexicon.py      && python3 scripts/validate_lexicon.py     --rebuild
 python3 scripts/build_concepts.py     && python3 scripts/validate_concepts.py    --rebuild
 python3 scripts/build_propositions.py && python3 scripts/validate_propositions.py --rebuild
+python3 scripts/build_compression.py  && python3 scripts/validate_compression.py  --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 5 is **not started** by design. Recommendations are recorded in
-`phase4-final-report.md §7`. Awaiting explicit instruction to proceed.
+Phase 6 is **not started** by design. Open questions are recorded in
+`phase5-final-report.md §8`. Awaiting explicit instruction to proceed.

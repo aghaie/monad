@@ -1,0 +1,394 @@
+{
+ "definition": "An irreducible structure is a strongly-connected component (size ≥ 2) of a directed relation graph: a set of concepts that are mutually reachable and therefore cannot be linearised into a hierarchy or compressed away without breaking a cycle. Purely graph-theoretic; no meaning assigned.",
+ "dependency_irreducible": {
+  "components": [
+   {
+    "concepts": [
+     "CONCEPT_003",
+     "CONCEPT_004",
+     "CONCEPT_034",
+     "CONCEPT_053",
+     "CONCEPT_060",
+     "CONCEPT_061",
+     "CONCEPT_084",
+     "CONCEPT_085",
+     "CONCEPT_088"
+    ],
+    "edge_density": 0.277778,
+    "internal_edges": 20,
+    "size": 9
+   },
+   {
+    "concepts": [
+     "CONCEPT_039",
+     "CONCEPT_048",
+     "CONCEPT_076",
+     "CONCEPT_089"
+    ],
+    "edge_density": 0.583333,
+    "internal_edges": 7,
+    "size": 4
+   },
+   {
+    "concepts": [
+     "CONCEPT_002",
+     "CONCEPT_090",
+     "CONCEPT_091"
+    ],
+    "edge_density": 0.666667,
+    "internal_edges": 4,
+    "size": 3
+   },
+   {
+    "concepts": [
+     "CONCEPT_009",
+     "CONCEPT_035",
+     "CONCEPT_067"
+    ],
+    "edge_density": 0.666667,
+    "internal_edges": 4,
+    "size": 3
+   },
+   {
+    "concepts": [
+     "CONCEPT_027",
+     "CONCEPT_036",
+     "CONCEPT_072"
+    ],
+    "edge_density": 0.833333,
+    "internal_edges": 5,
+    "size": 3
+   },
+   {
+    "concepts": [
+     "CONCEPT_029",
+     "CONCEPT_068",
+     "CONCEPT_081"
+    ],
+    "edge_density": 0.666667,
+    "internal_edges": 4,
+    "size": 3
+   },
+   {
+    "concepts": [
+     "CONCEPT_073",
+     "CONCEPT_074"
+    ],
+    "edge_density": 1.0,
+    "internal_edges": 2,
+    "size": 2
+   }
+  ],
+  "count": 7,
+  "largest_size": 9,
+  "relation_types": [
+   "DEPENDS_ON",
+   "REQUIRES"
+  ]
+ },
+ "dependency_irreducible_without_hub": {
+  "components": [
+   {
+    "concepts": [
+     "CONCEPT_003",
+     "CONCEPT_004",
+     "CONCEPT_034",
+     "CONCEPT_053",
+     "CONCEPT_060",
+     "CONCEPT_061",
+     "CONCEPT_084",
+     "CONCEPT_085",
+     "CONCEPT_088"
+    ],
+    "edge_density": 0.277778,
+    "internal_edges": 20,
+    "size": 9
+   },
+   {
+    "concepts": [
+     "CONCEPT_039",
+     "CONCEPT_048",
+     "CONCEPT_076",
+     "CONCEPT_089"
+    ],
+    "edge_density": 0.583333,
+    "internal_edges": 7,
+    "size": 4
+   },
+   {
+    "concepts": [
+     "CONCEPT_002",
+     "CONCEPT_090",
+     "CONCEPT_091"
+    ],
+    "edge_density": 0.666667,
+    "internal_edges": 4,
+    "size": 3
+   },
+   {
+    "concepts": [
+     "CONCEPT_009",
+     "CONCEPT_035",
+     "CONCEPT_067"
+    ],
+    "edge_density": 0.666667,
+    "internal_edges": 4,
+    "size": 3
+   },
+   {
+    "concepts": [
+     "CONCEPT_027",
+     "CONCEPT_036",
+     "CONCEPT_072"
+    ],
+    "edge_density": 0.833333,
+    "internal_edges": 5,
+    "size": 3
+   },
+   {
+    "concepts": [
+     "CONCEPT_029",
+     "CONCEPT_068",
+     "CONCEPT_081"
+    ],
+    "edge_density": 0.666667,
+    "internal_edges": 4,
+    "size": 3
+   },
+   {
+    "concepts": [
+     "CONCEPT_073",
+     "CONCEPT_074"
+    ],
+    "edge_density": 1.0,
+    "internal_edges": 2,
+    "size": 2
+   }
+  ],
+  "count": 7,
+  "excluded": "CONCEPT_007",
+  "largest_size": 9
+ },
+ "directional_irreducible": {
+  "components": [
+   {
+    "concepts": [
+     "CONCEPT_001",
+     "CONCEPT_002",
+     "CONCEPT_003",
+     "CONCEPT_004",
+     "CONCEPT_005",
+     "CONCEPT_006",
+     "CONCEPT_007",
+     "CONCEPT_008",
+     "CONCEPT_009",
+     "CONCEPT_010",
+     "CONCEPT_011",
+     "CONCEPT_012",
+     "CONCEPT_013",
+     "CONCEPT_014",
+     "CONCEPT_015",
+     "CONCEPT_016",
+     "CONCEPT_017",
+     "CONCEPT_018",
+     "CONCEPT_019",
+     "CONCEPT_020",
+     "CONCEPT_021",
+     "CONCEPT_022",
+     "CONCEPT_023",
+     "CONCEPT_024",
+     "CONCEPT_025",
+     "CONCEPT_026",
+     "CONCEPT_027",
+     "CONCEPT_028",
+     "CONCEPT_029",
+     "CONCEPT_030",
+     "CONCEPT_031",
+     "CONCEPT_032",
+     "CONCEPT_033",
+     "CONCEPT_034",
+     "CONCEPT_035",
+     "CONCEPT_036",
+     "CONCEPT_037",
+     "CONCEPT_038",
+     "CONCEPT_039",
+     "CONCEPT_040",
+     "CONCEPT_042",
+     "CONCEPT_044",
+     "CONCEPT_045",
+     "CONCEPT_046",
+     "CONCEPT_047",
+     "CONCEPT_048",
+     "CONCEPT_049",
+     "CONCEPT_050",
+     "CONCEPT_053",
+     "CONCEPT_054",
+     "CONCEPT_055",
+     "CONCEPT_056",
+     "CONCEPT_058",
+     "CONCEPT_059",
+     "CONCEPT_060",
+     "CONCEPT_061",
+     "CONCEPT_062",
+     "CONCEPT_063",
+     "CONCEPT_064",
+     "CONCEPT_066",
+     "CONCEPT_067",
+     "CONCEPT_068",
+     "CONCEPT_069",
+     "CONCEPT_070",
+     "CONCEPT_071",
+     "CONCEPT_072",
+     "CONCEPT_073",
+     "CONCEPT_074",
+     "CONCEPT_075",
+     "CONCEPT_076",
+     "CONCEPT_077",
+     "CONCEPT_078",
+     "CONCEPT_079",
+     "CONCEPT_080",
+     "CONCEPT_081",
+     "CONCEPT_082",
+     "CONCEPT_083",
+     "CONCEPT_084",
+     "CONCEPT_085",
+     "CONCEPT_087",
+     "CONCEPT_088",
+     "CONCEPT_089",
+     "CONCEPT_090",
+     "CONCEPT_091",
+     "CONCEPT_092",
+     "CONCEPT_093",
+     "CONCEPT_094",
+     "CONCEPT_095",
+     "CONCEPT_096",
+     "CONCEPT_097",
+     "CONCEPT_098",
+     "CONCEPT_099",
+     "CONCEPT_101",
+     "CONCEPT_103"
+    ],
+    "edge_density": 0.100092,
+    "internal_edges": 875,
+    "size": 94
+   }
+  ],
+  "count": 1,
+  "largest_size": 94,
+  "relation_types": [
+   "DEPENDS_ON",
+   "PRECEDES",
+   "PREDICTS",
+   "REQUIRES"
+  ]
+ },
+ "directional_irreducible_without_hub": {
+  "components": [
+   {
+    "concepts": [
+     "CONCEPT_001",
+     "CONCEPT_002",
+     "CONCEPT_003",
+     "CONCEPT_004",
+     "CONCEPT_005",
+     "CONCEPT_006",
+     "CONCEPT_008",
+     "CONCEPT_009",
+     "CONCEPT_010",
+     "CONCEPT_011",
+     "CONCEPT_012",
+     "CONCEPT_013",
+     "CONCEPT_014",
+     "CONCEPT_015",
+     "CONCEPT_016",
+     "CONCEPT_017",
+     "CONCEPT_019",
+     "CONCEPT_020",
+     "CONCEPT_021",
+     "CONCEPT_022",
+     "CONCEPT_023",
+     "CONCEPT_024",
+     "CONCEPT_025",
+     "CONCEPT_026",
+     "CONCEPT_027",
+     "CONCEPT_028",
+     "CONCEPT_029",
+     "CONCEPT_030",
+     "CONCEPT_031",
+     "CONCEPT_033",
+     "CONCEPT_034",
+     "CONCEPT_035",
+     "CONCEPT_036",
+     "CONCEPT_037",
+     "CONCEPT_038",
+     "CONCEPT_039",
+     "CONCEPT_040",
+     "CONCEPT_042",
+     "CONCEPT_044",
+     "CONCEPT_045",
+     "CONCEPT_046",
+     "CONCEPT_047",
+     "CONCEPT_048",
+     "CONCEPT_049",
+     "CONCEPT_050",
+     "CONCEPT_053",
+     "CONCEPT_054",
+     "CONCEPT_055",
+     "CONCEPT_056",
+     "CONCEPT_058",
+     "CONCEPT_060",
+     "CONCEPT_061",
+     "CONCEPT_066",
+     "CONCEPT_067",
+     "CONCEPT_068",
+     "CONCEPT_069",
+     "CONCEPT_070",
+     "CONCEPT_071",
+     "CONCEPT_072",
+     "CONCEPT_073",
+     "CONCEPT_074",
+     "CONCEPT_075",
+     "CONCEPT_076",
+     "CONCEPT_077",
+     "CONCEPT_078",
+     "CONCEPT_079",
+     "CONCEPT_080",
+     "CONCEPT_081",
+     "CONCEPT_083",
+     "CONCEPT_084",
+     "CONCEPT_085",
+     "CONCEPT_087",
+     "CONCEPT_088",
+     "CONCEPT_089",
+     "CONCEPT_090",
+     "CONCEPT_091",
+     "CONCEPT_092",
+     "CONCEPT_093",
+     "CONCEPT_094",
+     "CONCEPT_095",
+     "CONCEPT_097",
+     "CONCEPT_098",
+     "CONCEPT_099",
+     "CONCEPT_101",
+     "CONCEPT_103"
+    ],
+    "edge_density": 0.094258,
+    "internal_edges": 673,
+    "size": 85
+   },
+   {
+    "concepts": [
+     "CONCEPT_018",
+     "CONCEPT_063"
+    ],
+    "edge_density": 1.0,
+    "internal_edges": 2,
+    "size": 2
+   }
+  ],
+  "count": 2,
+  "excluded": "CONCEPT_007",
+  "largest_size": 85
+ },
+ "method": "phase5-compression-1.0"
+}

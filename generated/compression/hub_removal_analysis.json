@@ -1,0 +1,640 @@
+{
+ "betweenness_leaderboard": [
+  {
+   "betweenness_centrality": 655.747247,
+   "concept_id": "CONCEPT_016",
+   "in_degree": 55,
+   "out_degree": 28
+  },
+  {
+   "betweenness_centrality": 510.272598,
+   "concept_id": "CONCEPT_061",
+   "in_degree": 42,
+   "out_degree": 26
+  },
+  {
+   "betweenness_centrality": 437.620646,
+   "concept_id": "CONCEPT_085",
+   "in_degree": 63,
+   "out_degree": 38
+  },
+  {
+   "betweenness_centrality": 377.916736,
+   "concept_id": "CONCEPT_004",
+   "in_degree": 92,
+   "out_degree": 50
+  },
+  {
+   "betweenness_centrality": 351.982775,
+   "concept_id": "CONCEPT_034",
+   "in_degree": 83,
+   "out_degree": 16
+  },
+  {
+   "betweenness_centrality": 258.444401,
+   "concept_id": "CONCEPT_081",
+   "in_degree": 66,
+   "out_degree": 20
+  },
+  {
+   "betweenness_centrality": 169.108232,
+   "concept_id": "CONCEPT_084",
+   "in_degree": 46,
+   "out_degree": 16
+  },
+  {
+   "betweenness_centrality": 158.859028,
+   "concept_id": "CONCEPT_053",
+   "in_degree": 38,
+   "out_degree": 16
+  },
+  {
+   "betweenness_centrality": 153.515416,
+   "concept_id": "CONCEPT_088",
+   "in_degree": 50,
+   "out_degree": 27
+  },
+  {
+   "betweenness_centrality": 132.288233,
+   "concept_id": "CONCEPT_003",
+   "in_degree": 51,
+   "out_degree": 15
+  },
+  {
+   "betweenness_centrality": 109.718927,
+   "concept_id": "CONCEPT_008",
+   "in_degree": 14,
+   "out_degree": 20
+  },
+  {
+   "betweenness_centrality": 99.850813,
+   "concept_id": "CONCEPT_060",
+   "in_degree": 22,
+   "out_degree": 17
+  },
+  {
+   "betweenness_centrality": 92.0,
+   "concept_id": "CONCEPT_059",
+   "in_degree": 3,
+   "out_degree": 3
+  },
+  {
+   "betweenness_centrality": 91.425242,
+   "concept_id": "CONCEPT_002",
+   "in_degree": 55,
+   "out_degree": 45
+  },
+  {
+   "betweenness_centrality": 64.310018,
+   "concept_id": "CONCEPT_038",
+   "in_degree": 8,
+   "out_degree": 18
+  }
+ ],
+ "comparison_to_phase4": {
+  "hierarchical_chains_delta": -4,
+  "hub_was_in_all_phase4_chains": true,
+  "phase4_bridges": [
+   "CONCEPT_007",
+   "CONCEPT_016",
+   "CONCEPT_061",
+   "CONCEPT_004",
+   "CONCEPT_085",
+   "CONCEPT_034",
+   "CONCEPT_081",
+   "CONCEPT_084",
+   "CONCEPT_053",
+   "CONCEPT_088"
+  ],
+  "phase4_hierarchical_chains": 4,
+  "phase4_recursive_cycles": 2570,
+  "recursive_cycles_delta": -2351
+ },
+ "connectivity": {
+  "components": 9,
+  "largest_component": 94,
+  "largest_fraction": 0.921569
+ },
+ "degree_leaderboard": [
+  {
+   "concept_id": "CONCEPT_004",
+   "in_degree": 92,
+   "out_degree": 50,
+   "total_degree": 142
+  },
+  {
+   "concept_id": "CONCEPT_085",
+   "in_degree": 63,
+   "out_degree": 38,
+   "total_degree": 101
+  },
+  {
+   "concept_id": "CONCEPT_002",
+   "in_degree": 55,
+   "out_degree": 45,
+   "total_degree": 100
+  },
+  {
+   "concept_id": "CONCEPT_034",
+   "in_degree": 83,
+   "out_degree": 16,
+   "total_degree": 99
+  },
+  {
+   "concept_id": "CONCEPT_081",
+   "in_degree": 66,
+   "out_degree": 20,
+   "total_degree": 86
+  },
+  {
+   "concept_id": "CONCEPT_016",
+   "in_degree": 55,
+   "out_degree": 28,
+   "total_degree": 83
+  },
+  {
+   "concept_id": "CONCEPT_088",
+   "in_degree": 50,
+   "out_degree": 27,
+   "total_degree": 77
+  },
+  {
+   "concept_id": "CONCEPT_061",
+   "in_degree": 42,
+   "out_degree": 26,
+   "total_degree": 68
+  },
+  {
+   "concept_id": "CONCEPT_003",
+   "in_degree": 51,
+   "out_degree": 15,
+   "total_degree": 66
+  },
+  {
+   "concept_id": "CONCEPT_001",
+   "in_degree": 32,
+   "out_degree": 31,
+   "total_degree": 63
+  },
+  {
+   "concept_id": "CONCEPT_084",
+   "in_degree": 46,
+   "out_degree": 16,
+   "total_degree": 62
+  },
+  {
+   "concept_id": "CONCEPT_090",
+   "in_degree": 20,
+   "out_degree": 39,
+   "total_degree": 59
+  },
+  {
+   "concept_id": "CONCEPT_053",
+   "in_degree": 38,
+   "out_degree": 16,
+   "total_degree": 54
+  },
+  {
+   "concept_id": "CONCEPT_091",
+   "in_degree": 19,
+   "out_degree": 35,
+   "total_degree": 54
+  },
+  {
+   "concept_id": "CONCEPT_035",
+   "in_degree": 13,
+   "out_degree": 31,
+   "total_degree": 44
+  }
+ ],
+ "emergent_core": {
+  "new_bridges": [
+   "CONCEPT_016",
+   "CONCEPT_061",
+   "CONCEPT_085",
+   "CONCEPT_004",
+   "CONCEPT_034",
+   "CONCEPT_081",
+   "CONCEPT_084",
+   "CONCEPT_053",
+   "CONCEPT_088",
+   "CONCEPT_003"
+  ],
+  "new_top_betweenness_concept": "CONCEPT_016",
+  "new_top_betweenness_value": 655.747247,
+  "new_top_degree_concept": "CONCEPT_004",
+  "new_top_degree_value": 142
+ },
+ "hierarchical_chains_without_hub": {
+  "chains": [],
+  "count": 0
+ },
+ "irreducible_dependency_cores_without_hub": {
+  "components": [
+   [
+    "CONCEPT_003",
+    "CONCEPT_004",
+    "CONCEPT_034",
+    "CONCEPT_053",
+    "CONCEPT_060",
+    "CONCEPT_061",
+    "CONCEPT_084",
+    "CONCEPT_085",
+    "CONCEPT_088"
+   ],
+   [
+    "CONCEPT_039",
+    "CONCEPT_048",
+    "CONCEPT_076",
+    "CONCEPT_089"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_090",
+    "CONCEPT_091"
+   ],
+   [
+    "CONCEPT_009",
+    "CONCEPT_035",
+    "CONCEPT_067"
+   ],
+   [
+    "CONCEPT_027",
+    "CONCEPT_036",
+    "CONCEPT_072"
+   ],
+   [
+    "CONCEPT_029",
+    "CONCEPT_068",
+    "CONCEPT_081"
+   ],
+   [
+    "CONCEPT_073",
+    "CONCEPT_074"
+   ]
+  ],
+  "count": 7
+ },
+ "method": "phase5-compression-1.0",
+ "note": "Recomputation of graph-theoretic structure over the INDUCED subgraph after deleting the dominant hub and every relation that touches it. This re-derives topology from the existing Phase-4 relations only; it does NOT regenerate statistical relations from the corpus (prior phases are never rebuilt).",
+ "recursive_cycles_without_hub": {
+  "count": 219,
+  "sample": [
+   [
+    "CONCEPT_001",
+    "CONCEPT_078",
+    "CONCEPT_061",
+    "CONCEPT_030",
+    "CONCEPT_001"
+   ],
+   [
+    "CONCEPT_001",
+    "CONCEPT_078",
+    "CONCEPT_088",
+    "CONCEPT_030",
+    "CONCEPT_001"
+   ],
+   [
+    "CONCEPT_001",
+    "CONCEPT_090",
+    "CONCEPT_061",
+    "CONCEPT_030",
+    "CONCEPT_001"
+   ],
+   [
+    "CONCEPT_001",
+    "CONCEPT_091",
+    "CONCEPT_016",
+    "CONCEPT_038",
+    "CONCEPT_001"
+   ],
+   [
+    "CONCEPT_001",
+    "CONCEPT_091",
+    "CONCEPT_088",
+    "CONCEPT_030",
+    "CONCEPT_001"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_005",
+    "CONCEPT_088",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_006",
+    "CONCEPT_034",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_006",
+    "CONCEPT_061",
+    "CONCEPT_091",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_006",
+    "CONCEPT_085",
+    "CONCEPT_004",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_010",
+    "CONCEPT_071",
+    "CONCEPT_004",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_013",
+    "CONCEPT_034",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_013",
+    "CONCEPT_071",
+    "CONCEPT_004",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_013",
+    "CONCEPT_091",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_022",
+    "CONCEPT_034",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_034",
+    "CONCEPT_003",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_034",
+    "CONCEPT_061",
+    "CONCEPT_091",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_034",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_035",
+    "CONCEPT_003",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_035",
+    "CONCEPT_008",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_035",
+    "CONCEPT_008",
+    "CONCEPT_091",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_035",
+    "CONCEPT_034",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_035",
+    "CONCEPT_061",
+    "CONCEPT_091",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_049",
+    "CONCEPT_003",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_055",
+    "CONCEPT_003",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_055",
+    "CONCEPT_034",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_078",
+    "CONCEPT_003",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_078",
+    "CONCEPT_013",
+    "CONCEPT_091",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_078",
+    "CONCEPT_061",
+    "CONCEPT_091",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_078",
+    "CONCEPT_088",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_083",
+    "CONCEPT_003",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_083",
+    "CONCEPT_004",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_083",
+    "CONCEPT_004",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_083",
+    "CONCEPT_004",
+    "CONCEPT_091",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_090",
+    "CONCEPT_061",
+    "CONCEPT_091",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_091",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_002",
+    "CONCEPT_091",
+    "CONCEPT_088",
+    "CONCEPT_090",
+    "CONCEPT_002"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_010",
+    "CONCEPT_071",
+    "CONCEPT_034",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_034",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_034",
+    "CONCEPT_060",
+    "CONCEPT_049",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_034",
+    "CONCEPT_061",
+    "CONCEPT_088",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_034",
+    "CONCEPT_074",
+    "CONCEPT_088",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_034",
+    "CONCEPT_090",
+    "CONCEPT_055",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_034",
+    "CONCEPT_097",
+    "CONCEPT_049",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_055",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_055",
+    "CONCEPT_034",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_088",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_088",
+    "CONCEPT_030",
+    "CONCEPT_034",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_088",
+    "CONCEPT_061",
+    "CONCEPT_034",
+    "CONCEPT_003"
+   ],
+   [
+    "CONCEPT_003",
+    "CONCEPT_088",
+    "CONCEPT_067",
+    "CONCEPT_035",
+    "CONCEPT_003"
+   ]
+  ]
+ },
+ "removed_hub": "CONCEPT_007",
+ "structure_retention": {
+  "dependencies_surviving": 188,
+  "dependency_retention": 0.661972,
+  "directed_edges_surviving": 1289,
+  "graph_integrity": 0.874491,
+  "proposition_retention": 0.777664,
+  "propositions_surviving": 5313
+ },
+ "surviving_concepts": 102,
+ "verdict": {
+  "another_core_emerges": true,
+  "classification": "reorganize",
+  "criteria": "collapse iff largest_component_fraction<0.5 AND proposition_retention<0.5; reorganize iff largest_component_fraction>=0.8; else partial_reorganize.",
+  "irreducible_cores_persist": true,
+  "largest_component_fraction": 0.921569,
+  "proposition_retention": 0.777664,
+  "recursive_structure_persists": true
+ }
+}
