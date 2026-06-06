@@ -1,0 +1,15 @@
+{
+ "bootstrap_runs": 200,
+ "finding": "the frequency-origin findings are robust: the hub is the top concept in 100% of bootstraps, and the frequency→degree correlation is stable (mean 0.964).",
+ "hub_remains_top1_probability": 1.0,
+ "method": "phase16-hub-origin-1.0",
+ "spearman_marginal_degree_bootstrap": {
+  "ci95_high": 0.974665,
+  "ci95_low": 0.953418,
+  "max": 0.976607,
+  "mean": 0.96423,
+  "min": 0.948151,
+  "n": 200,
+  "std": 0.005649
+ }
+}

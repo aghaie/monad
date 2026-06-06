@@ -1,0 +1,29 @@
+{
+ "counterfactual_removal": {
+  "finding": "removing the hub promotes CONCEPT_081 to top — but at only 42% activation vs the hub's 97%. The hub's *function* (dominant connector) is partially replaced; its *magnitude* is not. The hub is doing what the most-frequent concept mechanically does: co-occur with everything.",
+  "hub_share_vs_replacement": {
+   "hub": 0.968038,
+   "replacement": 0.418456
+  },
+  "method": "phase16-hub-origin-1.0",
+  "removed": "CONCEPT_007",
+  "replacement_hub_activation_share": 0.418456,
+  "replacement_hub_by_activation": "CONCEPT_081",
+  "replacement_hub_by_degree": "CONCEPT_081"
+ },
+ "definition": "decompose hub dominance: Spearman correlation of each dominance axis with activation frequency (marginal); the hub's rank on each axis.",
+ "finding": "frequency near-perfectly predicts connectivity (Spearman 0.966) and is itself near-perfectly predicted by lexical frequency (Spearman 0.998). The hub is rank-1 on activation, degree, and lexical frequency — its dominance reduces to frequency.",
+ "hub_activation_share": 0.968038,
+ "hub_rank_by_axis": {
+  "degree": 1,
+  "lexical_frequency": 1,
+  "marginal": 1,
+  "requires_in": 1
+ },
+ "method": "phase16-hub-origin-1.0",
+ "spearman_marginal_vs": {
+  "degree": 0.966184,
+  "lexical_frequency": 0.997694,
+  "requires_in": -0.36522
+ }
+}

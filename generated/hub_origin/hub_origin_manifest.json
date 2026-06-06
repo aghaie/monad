@@ -1,0 +1,61 @@
+{
+ "constants": {
+  "BOOT_RUNS": 200,
+  "PRED_FRACS": [
+   0.01,
+   0.05,
+   0.1,
+   0.2
+  ],
+  "REQ_CONF": 0.9,
+  "ROUND": 6,
+  "SEED": 20261616,
+  "SIM_RUNS": 20,
+  "SUPPORT_MIN": 5
+ },
+ "input_sha256": {
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "grammar_manifest.json": "659f6a09bfda25ec07ffe6059dbb540a0fc1b533d59971943d3f55d547892d32",
+  "irreducible_structures.json": "42da5540f82d91fadf668ea73e317c5fc7bae44a53b4d070ca4322439514715e",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "phase16-hub-origin-1.0",
+ "output_bytes": {
+  "hub_decomposition.json": 1322,
+  "hub_falsification.json": 2082,
+  "hub_necessity.json": 819,
+  "hub_predictability.json": 668,
+  "hub_reconstruction.json": 674,
+  "hub_redundancy.json": 535,
+  "hub_robustness.json": 452,
+  "hub_simulation.json": 908,
+  "hub_uniqueness.json": 696
+ },
+ "prohibitions_observed": [
+  "no theology",
+  "no tafsir",
+  "no translation",
+  "no meaning",
+  "no semantic interpretation",
+  "no divine origin claim",
+  "no human origin claim",
+  "no imported explanations",
+  "hub not protected",
+  "hub must earn survival",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "frequency_simulation_hub_share": 0.876675,
+  "hub_activation_share": 0.968038,
+  "hub_bootstrap_top1": 1.0,
+  "hub_is_lexical_rank1": true,
+  "hub_rank1_from_1pct": true,
+  "spearman_marginal_degree": 0.966184,
+  "spearman_marginal_lexfreq": 0.997694,
+  "surviving_hypotheses": [
+   "H1",
+   "H5"
+  ],
+  "verdict": "hub is frequency-driven (H1/H5); reducible to lexical frequency, not an irreducible structural primitive"
+ }
+}

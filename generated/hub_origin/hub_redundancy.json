@@ -1,0 +1,9 @@
+{
+ "definition": "is the hub function unique / replaceable / distributed?",
+ "finding": "the hub FUNCTION (a dominant connector) is partially replaceable — removing the hub promotes CONCEPT_081 — but its MAGNITUDE is unique: no other concept reaches even half the hub's share. The function is distributed in principle but concentrated in one lexically-heavy concept in practice.",
+ "function_replaceable": true,
+ "hub_share": 0.968038,
+ "magnitude_replaceable": false,
+ "method": "phase16-hub-origin-1.0",
+ "next_share": 0.418456
+}

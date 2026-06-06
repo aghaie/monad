@@ -1,0 +1,32 @@
+{
+ "finding": "dominance is UNIQUE, not 'strongest among many': the hub holds 96.8% activation, the next concept only 41.8% (ratio 0.43, gap 0.55). There is a single dominant concept with a large margin.",
+ "hub_minus_next_gap": 0.549582,
+ "method": "phase16-hub-origin-1.0",
+ "next_over_hub_ratio": 0.432272,
+ "top6_activation_shares": [
+  {
+   "concept": "CONCEPT_007",
+   "share": 0.968038
+  },
+  {
+   "concept": "CONCEPT_081",
+   "share": 0.418456
+  },
+  {
+   "concept": "CONCEPT_003",
+   "share": 0.266842
+  },
+  {
+   "concept": "CONCEPT_053",
+   "share": 0.207343
+  },
+  {
+   "concept": "CONCEPT_016",
+   "share": 0.196525
+  },
+  {
+   "concept": "CONCEPT_061",
+   "share": 0.195706
+  }
+ ]
+}

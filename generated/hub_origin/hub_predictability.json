@@ -1,0 +1,28 @@
+{
+ "definition": "is the hub already dominant in the first 1-20% of ayahs?",
+ "finding": "hub inevitability appears immediately: the hub is rank-1 from the first 1% of ayahs (share 100%). Because it aggregates the most frequent lexical items, it dominates any sample.",
+ "hub_rank1_from_1pct": true,
+ "method": "phase16-hub-origin-1.0",
+ "trajectory": [
+  {
+   "hub_rank": 1,
+   "hub_share": 1.0,
+   "revealed_fraction": 0.01
+  },
+  {
+   "hub_rank": 1,
+   "hub_share": 1.0,
+   "revealed_fraction": 0.05
+  },
+  {
+   "hub_rank": 1,
+   "hub_share": 1.0,
+   "revealed_fraction": 0.1
+  },
+  {
+   "hub_rank": 1,
+   "hub_share": 0.998361,
+   "revealed_fraction": 0.2
+  }
+ ]
+}

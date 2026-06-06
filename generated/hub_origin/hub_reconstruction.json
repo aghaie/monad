@@ -1,0 +1,17 @@
+{
+ "definition": "predict the hub from lexical frequency (member-root corpus token counts) alone",
+ "finding": "the hub is RECONSTRUCTIBLE from lexical frequency: the concept with the highest member-root corpus token frequency is exactly CONCEPT_007, and activation frequency tracks lexical frequency at Spearman 0.998. The hub is the concept that aggregates the corpus's most frequent lexical items.",
+ "hub_is_lexical_rank1": true,
+ "hub_member_root_count": 24,
+ "hub_top_member_roots_corpus_freq": [
+  2851,
+  1722,
+  1390,
+  879,
+  854,
+  660
+ ],
+ "lexical_frequency_rank1": "CONCEPT_007",
+ "method": "phase16-hub-origin-1.0",
+ "spearman_marginal_vs_lexfreq": 0.997694
+}

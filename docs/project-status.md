@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 15 (Consistency
-Propagation Engine). **Next phase:** Phase 16 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 16 (Hub Origin
+Discovery Engine). **Next phase:** Phase 17 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -28,7 +28,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 13 | Revelation Evolution Engine | ✅ complete | `generated/evolution/*.json` |
 | 14 | Structural Locality & Distribution Engine | ✅ complete | `generated/locality/*.json` |
 | 15 | Consistency Propagation Engine | ✅ complete | `generated/consistency_propagation/*.json` |
-| 16 | (future) | ⛔ not started | — |
+| 16 | Hub Origin Discovery Engine | ✅ complete | `generated/hub_origin/*.json` |
+| 17 | (future) | ⛔ not started | — |
 
 ---
 
@@ -601,6 +602,50 @@ corrupting the data itself.
 
 ---
 
+## Phase 16 — Hub Origin Discovery Engine
+
+Investigates the **structural origin** of CONCEPT_007's dominance — not its meaning.
+The hub is not protected; it must earn survival. No theology, tafsir, translation,
+meaning, semantic interpretation, or origin claim.
+
+- 10 data products in `generated/hub_origin/` (decomposition, reconstruction,
+  necessity, uniqueness, simulation, predictability, redundancy, falsification,
+  robustness, manifest)
+- Method: decompose hub dominance across axes; correlate with frequency; reconstruct
+  from lexical frequency; test Zipf necessity; simulate (frequency vs uniform vs
+  topology); measure uniqueness/predictability; falsify H1–H6; bootstrap
+- **Primary finding — the hub is FREQUENCY-DRIVEN, not an irreducible primitive:**
+  it is rank-1 on every axis (activation, degree, REQUIRES-in, lexical frequency),
+  but these are *one cause expressed many ways* — frequency predicts degree
+  (**Spearman 0.966**), and frequency is predicted by lexical frequency (**Spearman
+  0.998**). Every other dominance axis (motif, SCC, connectivity) is a mechanical
+  consequence
+- **Reconstructible & generable:** the lexical-frequency rank-1 concept is exactly
+  CONCEPT_007 (its member root has 2851 corpus tokens, the most of any). A
+  frequency-weighted simulation reproduces the hub (**~0.88** share) while uniform
+  frequencies do not (**0.21**) and the Phase-12 topology grammar cannot (**0.034**)
+  — locating the origin Phase 12 couldn't: **lexical frequency, not topology**
+- **Necessary** (Zipfian lexical tail required: uniform → no hub), **unique** (0.968
+  vs next 0.418, gap 0.55), **inevitable** (rank-1 from 1% of ayahs), **robust**
+  (top concept in 100% of 200 bootstraps)
+- **Hypotheses:** H1 frequency SURVIVES · H2 motif FALSIFIED · H3 grammar FALSIFIED
+  · H4 SCC FALSIFIED · H5 activation SURVIVES (=H1) · **H6 irreducible FALSIFIED**
+  (reduces to lexical frequency; irreducible only relative to topology)
+- Builder: `scripts/build_hub_origin.py`; Validator: `scripts/validate_hub_origin.py`
+  (75 checks incl. hub-earns-survival invariant, byte-identical rebuild)
+- Reports: `hub-decomposition-report.md`, `hub-reconstruction-report.md`,
+  `hub-necessity-report.md`, `hub-uniqueness-report.md`, `hub-simulation-report.md`,
+  `hub-predictability-report.md`, `hub-falsification-report.md`,
+  `hub-robustness-report.md`, `phase16-final-report.md`
+
+Hub-origin verdict (deflationary): the hub is the concept that aggregates the
+corpus's most frequent lexical items; its dominance, connectivity, necessity- and
+consistency-mediation, motif and SCC participation are all *consequences* of that
+one lexical fact. It is **not** an irreducible structural primitive — it reduces to
+the Zipfian lexical frequency distribution (irreducible only relative to topology).
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -635,11 +680,12 @@ python3 scripts/build_grammar.py        && python3 scripts/validate_grammar.py  
 python3 scripts/build_evolution.py      && python3 scripts/validate_evolution.py      --rebuild
 python3 scripts/build_locality.py       && python3 scripts/validate_locality.py       --rebuild
 python3 scripts/build_consistency_propagation.py && python3 scripts/validate_consistency_propagation.py --rebuild
+python3 scripts/build_hub_origin.py     && python3 scripts/validate_hub_origin.py     --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 16 is **not started** by design. Open questions are recorded in
-`phase15-final-report.md §11`. Awaiting explicit instruction to proceed.
+Phase 17 is **not started** by design. Open questions are recorded in
+`phase16-final-report.md §14`. Awaiting explicit instruction to proceed.

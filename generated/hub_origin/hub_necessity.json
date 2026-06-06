@@ -1,0 +1,16 @@
+{
+ "definition": "necessary/sufficient conditions for hub emergence",
+ "finding": "a hub is NECESSARY given the Zipfian lexical frequencies: under the real (Zipf) root frequencies a single concept reaches ~87% share; under uniform root frequencies the max concept share collapses to ~21%. Hub emergence requires the heavy lexical tail — it is not a property of the relational structure.",
+ "max_concept_share_uniform_roots": 0.2125,
+ "max_concept_share_zipf_roots": 0.8685,
+ "method": "phase16-hub-origin-1.0",
+ "necessary_condition": "a heavy-tailed (Zipfian) root-frequency distribution",
+ "root_frequency_distribution": {
+  "heavy_tailed": true,
+  "max": 2851,
+  "median": 5,
+  "top10_share": 0.2188,
+  "top1_share": 0.057057
+ },
+ "sufficient_condition": "a concept that aggregates the head of that distribution"
+}
