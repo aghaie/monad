@@ -1,0 +1,12 @@
+{
+ "bootstrap_runs": 20,
+ "finding": "the fraction of concepts with stable cross-half meaning is bootstrap-robust",
+ "method": "sigma-semantics-1.0",
+ "stable_fraction_bootstrap": {
+  "max": 1.0,
+  "mean": 0.982022,
+  "min": 0.955056,
+  "n": 20,
+  "std": 0.011997
+ }
+}

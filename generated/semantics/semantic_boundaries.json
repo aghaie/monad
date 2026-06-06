@@ -1,0 +1,1210 @@
+{
+ "concepts": {
+  "CONCEPT_005": {
+   "belongs": [
+    "CONCEPT_083",
+    "CONCEPT_024",
+    "CONCEPT_072",
+    "CONCEPT_023",
+    "CONCEPT_045"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_091",
+    "CONCEPT_012",
+    "CONCEPT_009",
+    "CONCEPT_044",
+    "CONCEPT_035"
+   ]
+  },
+  "CONCEPT_006": {
+   "belongs": [
+    "CONCEPT_101",
+    "CONCEPT_103",
+    "CONCEPT_040",
+    "CONCEPT_024",
+    "CONCEPT_049"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_091",
+    "CONCEPT_063",
+    "CONCEPT_009",
+    "CONCEPT_071",
+    "CONCEPT_073"
+   ]
+  },
+  "CONCEPT_007": {
+   "belongs": [
+    "CONCEPT_081",
+    "CONCEPT_084",
+    "CONCEPT_053",
+    "CONCEPT_003",
+    "CONCEPT_088"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_008": {
+   "belongs": [
+    "CONCEPT_017",
+    "CONCEPT_030",
+    "CONCEPT_045",
+    "CONCEPT_027",
+    "CONCEPT_001"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_009": {
+   "belongs": [
+    "CONCEPT_067",
+    "CONCEPT_056",
+    "CONCEPT_002",
+    "CONCEPT_035",
+    "CONCEPT_022"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_049",
+    "CONCEPT_020",
+    "CONCEPT_025",
+    "CONCEPT_021",
+    "CONCEPT_005"
+   ]
+  },
+  "CONCEPT_010": {
+   "belongs": [
+    "CONCEPT_071",
+    "CONCEPT_093",
+    "CONCEPT_062",
+    "CONCEPT_058",
+    "CONCEPT_038"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_054",
+    "CONCEPT_063",
+    "CONCEPT_067",
+    "CONCEPT_082",
+    "CONCEPT_083"
+   ]
+  },
+  "CONCEPT_011": {
+   "belongs": [
+    "CONCEPT_025",
+    "CONCEPT_092",
+    "CONCEPT_037",
+    "CONCEPT_082",
+    "CONCEPT_015"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_018",
+    "CONCEPT_078",
+    "CONCEPT_014",
+    "CONCEPT_019",
+    "CONCEPT_023"
+   ]
+  },
+  "CONCEPT_012": {
+   "belongs": [
+    "CONCEPT_044",
+    "CONCEPT_004",
+    "CONCEPT_027"
+   ],
+   "boundary_sharpness": 0.625,
+   "does_not_belong": [
+    "CONCEPT_005",
+    "CONCEPT_019",
+    "CONCEPT_023",
+    "CONCEPT_091",
+    "CONCEPT_063"
+   ]
+  },
+  "CONCEPT_014": {
+   "belongs": [
+    "CONCEPT_020"
+   ],
+   "boundary_sharpness": 0.833333,
+   "does_not_belong": [
+    "CONCEPT_037",
+    "CONCEPT_054",
+    "CONCEPT_063",
+    "CONCEPT_044",
+    "CONCEPT_011"
+   ]
+  },
+  "CONCEPT_015": {
+   "belongs": [
+    "CONCEPT_091",
+    "CONCEPT_019",
+    "CONCEPT_011",
+    "CONCEPT_027",
+    "CONCEPT_035"
+   ],
+   "boundary_sharpness": 0.166667,
+   "does_not_belong": [
+    "CONCEPT_045"
+   ]
+  },
+  "CONCEPT_016": {
+   "belongs": [
+    "CONCEPT_097",
+    "CONCEPT_060",
+    "CONCEPT_072",
+    "CONCEPT_049",
+    "CONCEPT_036"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_018": {
+   "belongs": [
+    "CONCEPT_101",
+    "CONCEPT_029",
+    "CONCEPT_063"
+   ],
+   "boundary_sharpness": 0.625,
+   "does_not_belong": [
+    "CONCEPT_090",
+    "CONCEPT_091",
+    "CONCEPT_035",
+    "CONCEPT_071",
+    "CONCEPT_027"
+   ]
+  },
+  "CONCEPT_019": {
+   "belongs": [
+    "CONCEPT_079",
+    "CONCEPT_038",
+    "CONCEPT_027",
+    "CONCEPT_098",
+    "CONCEPT_015"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_078",
+    "CONCEPT_012",
+    "CONCEPT_063",
+    "CONCEPT_011",
+    "CONCEPT_073"
+   ]
+  },
+  "CONCEPT_020": {
+   "belongs": [
+    "CONCEPT_042",
+    "CONCEPT_072",
+    "CONCEPT_001",
+    "CONCEPT_014",
+    "CONCEPT_025"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_032",
+    "CONCEPT_091",
+    "CONCEPT_009",
+    "CONCEPT_035",
+    "CONCEPT_067"
+   ]
+  },
+  "CONCEPT_021": {
+   "belongs": [
+    "CONCEPT_039",
+    "CONCEPT_089",
+    "CONCEPT_076",
+    "CONCEPT_048",
+    "CONCEPT_033"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_072",
+    "CONCEPT_009",
+    "CONCEPT_082",
+    "CONCEPT_073",
+    "CONCEPT_047"
+   ]
+  },
+  "CONCEPT_022": {
+   "belongs": [
+    "CONCEPT_056",
+    "CONCEPT_002",
+    "CONCEPT_001",
+    "CONCEPT_009",
+    "CONCEPT_090"
+   ],
+   "boundary_sharpness": 0.444444,
+   "does_not_belong": [
+    "CONCEPT_063",
+    "CONCEPT_038",
+    "CONCEPT_036",
+    "CONCEPT_045"
+   ]
+  },
+  "CONCEPT_023": {
+   "belongs": [
+    "CONCEPT_070",
+    "CONCEPT_005"
+   ],
+   "boundary_sharpness": 0.714286,
+   "does_not_belong": [
+    "CONCEPT_097",
+    "CONCEPT_026",
+    "CONCEPT_032",
+    "CONCEPT_090",
+    "CONCEPT_091"
+   ]
+  },
+  "CONCEPT_024": {
+   "belongs": [
+    "CONCEPT_086",
+    "CONCEPT_042",
+    "CONCEPT_037",
+    "CONCEPT_005",
+    "CONCEPT_026"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_090",
+    "CONCEPT_063",
+    "CONCEPT_009",
+    "CONCEPT_071",
+    "CONCEPT_073"
+   ]
+  },
+  "CONCEPT_025": {
+   "belongs": [
+    "CONCEPT_063",
+    "CONCEPT_073",
+    "CONCEPT_011",
+    "CONCEPT_028",
+    "CONCEPT_092"
+   ],
+   "boundary_sharpness": 0.444444,
+   "does_not_belong": [
+    "CONCEPT_009",
+    "CONCEPT_067",
+    "CONCEPT_103",
+    "CONCEPT_074"
+   ]
+  },
+  "CONCEPT_026": {
+   "belongs": [
+    "CONCEPT_069",
+    "CONCEPT_024",
+    "CONCEPT_080"
+   ],
+   "boundary_sharpness": 0.625,
+   "does_not_belong": [
+    "CONCEPT_023",
+    "CONCEPT_063",
+    "CONCEPT_009",
+    "CONCEPT_035",
+    "CONCEPT_071"
+   ]
+  },
+  "CONCEPT_027": {
+   "belongs": [
+    "CONCEPT_013",
+    "CONCEPT_001",
+    "CONCEPT_019",
+    "CONCEPT_079",
+    "CONCEPT_036"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_018",
+    "CONCEPT_037",
+    "CONCEPT_056",
+    "CONCEPT_063",
+    "CONCEPT_033"
+   ]
+  },
+  "CONCEPT_028": {
+   "belongs": [
+    "CONCEPT_029",
+    "CONCEPT_030",
+    "CONCEPT_025",
+    "CONCEPT_056",
+    "CONCEPT_097"
+   ],
+   "boundary_sharpness": 0.444444,
+   "does_not_belong": [
+    "CONCEPT_042",
+    "CONCEPT_074",
+    "CONCEPT_045",
+    "CONCEPT_094"
+   ]
+  },
+  "CONCEPT_029": {
+   "belongs": [
+    "CONCEPT_028",
+    "CONCEPT_075",
+    "CONCEPT_018",
+    "CONCEPT_074",
+    "CONCEPT_073"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_030": {
+   "belongs": [
+    "CONCEPT_050",
+    "CONCEPT_087",
+    "CONCEPT_089",
+    "CONCEPT_036",
+    "CONCEPT_028"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_009",
+    "CONCEPT_080",
+    "CONCEPT_067",
+    "CONCEPT_083",
+    "CONCEPT_042"
+   ]
+  },
+  "CONCEPT_031": {
+   "belongs": [
+    "CONCEPT_054"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_032": {
+   "belongs": [
+    "CONCEPT_093",
+    "CONCEPT_047",
+    "CONCEPT_010",
+    "CONCEPT_075",
+    "CONCEPT_071"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_020",
+    "CONCEPT_023",
+    "CONCEPT_044",
+    "CONCEPT_080",
+    "CONCEPT_082"
+   ]
+  },
+  "CONCEPT_033": {
+   "belongs": [
+    "CONCEPT_046",
+    "CONCEPT_039",
+    "CONCEPT_089",
+    "CONCEPT_005",
+    "CONCEPT_021"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_054",
+    "CONCEPT_056",
+    "CONCEPT_063",
+    "CONCEPT_044",
+    "CONCEPT_071"
+   ]
+  },
+  "CONCEPT_034": {
+   "belongs": [
+    "CONCEPT_060",
+    "CONCEPT_061",
+    "CONCEPT_003",
+    "CONCEPT_016",
+    "CONCEPT_007"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_035": {
+   "belongs": [
+    "CONCEPT_067",
+    "CONCEPT_091",
+    "CONCEPT_002",
+    "CONCEPT_009",
+    "CONCEPT_027"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_018",
+    "CONCEPT_049",
+    "CONCEPT_020",
+    "CONCEPT_005",
+    "CONCEPT_037"
+   ]
+  },
+  "CONCEPT_036": {
+   "belongs": [
+    "CONCEPT_072",
+    "CONCEPT_089",
+    "CONCEPT_030",
+    "CONCEPT_016",
+    "CONCEPT_027"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_022",
+    "CONCEPT_010",
+    "CONCEPT_024",
+    "CONCEPT_037",
+    "CONCEPT_026"
+   ]
+  },
+  "CONCEPT_037": {
+   "belongs": [
+    "CONCEPT_049",
+    "CONCEPT_077",
+    "CONCEPT_011",
+    "CONCEPT_024",
+    "CONCEPT_017"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_078",
+    "CONCEPT_014",
+    "CONCEPT_091",
+    "CONCEPT_009",
+    "CONCEPT_044"
+   ]
+  },
+  "CONCEPT_038": {
+   "belongs": [
+    "CONCEPT_080",
+    "CONCEPT_093",
+    "CONCEPT_055",
+    "CONCEPT_099",
+    "CONCEPT_059"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_022",
+    "CONCEPT_097",
+    "CONCEPT_012",
+    "CONCEPT_063",
+    "CONCEPT_009"
+   ]
+  },
+  "CONCEPT_039": {
+   "belongs": [
+    "CONCEPT_048",
+    "CONCEPT_089",
+    "CONCEPT_021",
+    "CONCEPT_076",
+    "CONCEPT_033"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_040": {
+   "belongs": [
+    "CONCEPT_101",
+    "CONCEPT_006",
+    "CONCEPT_004",
+    "CONCEPT_019"
+   ],
+   "boundary_sharpness": 0.555556,
+   "does_not_belong": [
+    "CONCEPT_023",
+    "CONCEPT_090",
+    "CONCEPT_054",
+    "CONCEPT_091",
+    "CONCEPT_063"
+   ]
+  },
+  "CONCEPT_042": {
+   "belongs": [
+    "CONCEPT_052",
+    "CONCEPT_020",
+    "CONCEPT_024",
+    "CONCEPT_069"
+   ],
+   "boundary_sharpness": 0.555556,
+   "does_not_belong": [
+    "CONCEPT_028",
+    "CONCEPT_021",
+    "CONCEPT_010",
+    "CONCEPT_078",
+    "CONCEPT_030"
+   ]
+  },
+  "CONCEPT_044": {
+   "belongs": [
+    "CONCEPT_012",
+    "CONCEPT_006",
+    "CONCEPT_010"
+   ],
+   "boundary_sharpness": 0.625,
+   "does_not_belong": [
+    "CONCEPT_005",
+    "CONCEPT_014",
+    "CONCEPT_037",
+    "CONCEPT_032",
+    "CONCEPT_023"
+   ]
+  },
+  "CONCEPT_045": {
+   "belongs": [
+    "CONCEPT_057",
+    "CONCEPT_008",
+    "CONCEPT_005",
+    "CONCEPT_072"
+   ],
+   "boundary_sharpness": 0.555556,
+   "does_not_belong": [
+    "CONCEPT_002",
+    "CONCEPT_015",
+    "CONCEPT_013",
+    "CONCEPT_028",
+    "CONCEPT_022"
+   ]
+  },
+  "CONCEPT_046": {
+   "belongs": [
+    "CONCEPT_033",
+    "CONCEPT_005",
+    "CONCEPT_083",
+    "CONCEPT_019"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_047": {
+   "belongs": [
+    "CONCEPT_032",
+    "CONCEPT_075"
+   ],
+   "boundary_sharpness": 0.714286,
+   "does_not_belong": [
+    "CONCEPT_018",
+    "CONCEPT_049",
+    "CONCEPT_013",
+    "CONCEPT_021",
+    "CONCEPT_006"
+   ]
+  },
+  "CONCEPT_048": {
+   "belongs": [
+    "CONCEPT_039",
+    "CONCEPT_076",
+    "CONCEPT_021",
+    "CONCEPT_089",
+    "CONCEPT_033"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_049": {
+   "belongs": [
+    "CONCEPT_037",
+    "CONCEPT_016",
+    "CONCEPT_097",
+    "CONCEPT_006",
+    "CONCEPT_072"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_063",
+    "CONCEPT_009",
+    "CONCEPT_035",
+    "CONCEPT_067",
+    "CONCEPT_073"
+   ]
+  },
+  "CONCEPT_050": {
+   "belongs": [
+    "CONCEPT_030",
+    "CONCEPT_004",
+    "CONCEPT_087",
+    "CONCEPT_035",
+    "CONCEPT_028"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_052": {
+   "belongs": [
+    "CONCEPT_042"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_053": {
+   "belongs": [
+    "CONCEPT_088",
+    "CONCEPT_081",
+    "CONCEPT_007",
+    "CONCEPT_003",
+    "CONCEPT_061"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_054": {
+   "belongs": [
+    "CONCEPT_031",
+    "CONCEPT_027"
+   ],
+   "boundary_sharpness": 0.714286,
+   "does_not_belong": [
+    "CONCEPT_010",
+    "CONCEPT_078",
+    "CONCEPT_014",
+    "CONCEPT_090",
+    "CONCEPT_091"
+   ]
+  },
+  "CONCEPT_055": {
+   "belongs": [
+    "CONCEPT_090",
+    "CONCEPT_038",
+    "CONCEPT_001",
+    "CONCEPT_002",
+    "CONCEPT_004"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_018",
+    "CONCEPT_021",
+    "CONCEPT_006",
+    "CONCEPT_026",
+    "CONCEPT_023"
+   ]
+  },
+  "CONCEPT_056": {
+   "belongs": [
+    "CONCEPT_009",
+    "CONCEPT_022",
+    "CONCEPT_067",
+    "CONCEPT_078",
+    "CONCEPT_028"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_063",
+    "CONCEPT_033",
+    "CONCEPT_067",
+    "CONCEPT_027",
+    "CONCEPT_047"
+   ]
+  },
+  "CONCEPT_057": {
+   "belongs": [
+    "CONCEPT_045"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_058": {
+   "belongs": [
+    "CONCEPT_077",
+    "CONCEPT_010",
+    "CONCEPT_017"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_059": {
+   "belongs": [
+    "CONCEPT_038",
+    "CONCEPT_082",
+    "CONCEPT_092",
+    "CONCEPT_080"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_060": {
+   "belongs": [
+    "CONCEPT_034",
+    "CONCEPT_016",
+    "CONCEPT_097",
+    "CONCEPT_004",
+    "CONCEPT_007"
+   ],
+   "boundary_sharpness": 0.166667,
+   "does_not_belong": [
+    "CONCEPT_103"
+   ]
+  },
+  "CONCEPT_061": {
+   "belongs": [
+    "CONCEPT_085",
+    "CONCEPT_088",
+    "CONCEPT_034",
+    "CONCEPT_007",
+    "CONCEPT_084"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_062": {
+   "belongs": [
+    "CONCEPT_010",
+    "CONCEPT_093"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_063": {
+   "belongs": [
+    "CONCEPT_025",
+    "CONCEPT_018",
+    "CONCEPT_092",
+    "CONCEPT_073"
+   ],
+   "boundary_sharpness": 0.555556,
+   "does_not_belong": [
+    "CONCEPT_049",
+    "CONCEPT_022",
+    "CONCEPT_010",
+    "CONCEPT_006",
+    "CONCEPT_024"
+   ]
+  },
+  "CONCEPT_066": {
+   "belongs": [
+    "CONCEPT_017",
+    "CONCEPT_077"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_067": {
+   "belongs": [
+    "CONCEPT_035",
+    "CONCEPT_009",
+    "CONCEPT_002",
+    "CONCEPT_091",
+    "CONCEPT_056"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_049",
+    "CONCEPT_020",
+    "CONCEPT_025",
+    "CONCEPT_010",
+    "CONCEPT_005"
+   ]
+  },
+  "CONCEPT_068": {
+   "belongs": [
+    "CONCEPT_078"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_069": {
+   "belongs": [
+    "CONCEPT_026",
+    "CONCEPT_042"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_070": {
+   "belongs": [
+    "CONCEPT_023"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_071": {
+   "belongs": [
+    "CONCEPT_010",
+    "CONCEPT_013",
+    "CONCEPT_005",
+    "CONCEPT_093",
+    "CONCEPT_083"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_018",
+    "CONCEPT_006",
+    "CONCEPT_024",
+    "CONCEPT_097",
+    "CONCEPT_026"
+   ]
+  },
+  "CONCEPT_072": {
+   "belongs": [
+    "CONCEPT_036",
+    "CONCEPT_016",
+    "CONCEPT_020",
+    "CONCEPT_025",
+    "CONCEPT_027"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_021",
+    "CONCEPT_091",
+    "CONCEPT_009",
+    "CONCEPT_035",
+    "CONCEPT_071"
+   ]
+  },
+  "CONCEPT_073": {
+   "belongs": [
+    "CONCEPT_074",
+    "CONCEPT_025",
+    "CONCEPT_013",
+    "CONCEPT_079",
+    "CONCEPT_001"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_049",
+    "CONCEPT_021",
+    "CONCEPT_005",
+    "CONCEPT_006",
+    "CONCEPT_024"
+   ]
+  },
+  "CONCEPT_074": {
+   "belongs": [
+    "CONCEPT_073",
+    "CONCEPT_079",
+    "CONCEPT_013",
+    "CONCEPT_015",
+    "CONCEPT_029"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_049",
+    "CONCEPT_020",
+    "CONCEPT_028",
+    "CONCEPT_025",
+    "CONCEPT_021"
+   ]
+  },
+  "CONCEPT_075": {
+   "belongs": [
+    "CONCEPT_029",
+    "CONCEPT_090",
+    "CONCEPT_055",
+    "CONCEPT_047",
+    "CONCEPT_032"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_076": {
+   "belongs": [
+    "CONCEPT_039",
+    "CONCEPT_048",
+    "CONCEPT_021",
+    "CONCEPT_089",
+    "CONCEPT_033"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_077": {
+   "belongs": [
+    "CONCEPT_017",
+    "CONCEPT_058",
+    "CONCEPT_037",
+    "CONCEPT_049",
+    "CONCEPT_066"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_078": {
+   "belongs": [
+    "CONCEPT_001",
+    "CONCEPT_068",
+    "CONCEPT_083",
+    "CONCEPT_053",
+    "CONCEPT_056"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_037",
+    "CONCEPT_019",
+    "CONCEPT_054",
+    "CONCEPT_080",
+    "CONCEPT_011"
+   ]
+  },
+  "CONCEPT_079": {
+   "belongs": [
+    "CONCEPT_098",
+    "CONCEPT_074",
+    "CONCEPT_019",
+    "CONCEPT_027",
+    "CONCEPT_073"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_080": {
+   "belongs": [
+    "CONCEPT_098",
+    "CONCEPT_038",
+    "CONCEPT_019",
+    "CONCEPT_093",
+    "CONCEPT_079"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_005",
+    "CONCEPT_097",
+    "CONCEPT_078",
+    "CONCEPT_032",
+    "CONCEPT_023"
+   ]
+  },
+  "CONCEPT_081": {
+   "belongs": [
+    "CONCEPT_053",
+    "CONCEPT_007",
+    "CONCEPT_088",
+    "CONCEPT_084",
+    "CONCEPT_003"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_082": {
+   "belongs": [
+    "CONCEPT_092",
+    "CONCEPT_059",
+    "CONCEPT_011",
+    "CONCEPT_025",
+    "CONCEPT_094"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_018",
+    "CONCEPT_020",
+    "CONCEPT_021",
+    "CONCEPT_010",
+    "CONCEPT_005"
+   ]
+  },
+  "CONCEPT_083": {
+   "belongs": [
+    "CONCEPT_005",
+    "CONCEPT_002",
+    "CONCEPT_078",
+    "CONCEPT_046",
+    "CONCEPT_071"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_010",
+    "CONCEPT_024",
+    "CONCEPT_037",
+    "CONCEPT_026",
+    "CONCEPT_019"
+   ]
+  },
+  "CONCEPT_084": {
+   "belongs": [
+    "CONCEPT_007",
+    "CONCEPT_085",
+    "CONCEPT_081",
+    "CONCEPT_061",
+    "CONCEPT_053"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_085": {
+   "belongs": [
+    "CONCEPT_061",
+    "CONCEPT_084",
+    "CONCEPT_088",
+    "CONCEPT_007",
+    "CONCEPT_081"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_086": {
+   "belongs": [
+    "CONCEPT_024",
+    "CONCEPT_035"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_087": {
+   "belongs": [
+    "CONCEPT_030",
+    "CONCEPT_001",
+    "CONCEPT_050",
+    "CONCEPT_089"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_088": {
+   "belongs": [
+    "CONCEPT_053",
+    "CONCEPT_081",
+    "CONCEPT_085",
+    "CONCEPT_061",
+    "CONCEPT_007"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_089": {
+   "belongs": [
+    "CONCEPT_039",
+    "CONCEPT_021",
+    "CONCEPT_036",
+    "CONCEPT_030",
+    "CONCEPT_048"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_090": {
+   "belongs": [
+    "CONCEPT_055",
+    "CONCEPT_001",
+    "CONCEPT_004",
+    "CONCEPT_002",
+    "CONCEPT_091"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_018",
+    "CONCEPT_024",
+    "CONCEPT_097",
+    "CONCEPT_023",
+    "CONCEPT_054"
+   ]
+  },
+  "CONCEPT_091": {
+   "belongs": [
+    "CONCEPT_035",
+    "CONCEPT_002",
+    "CONCEPT_001",
+    "CONCEPT_027",
+    "CONCEPT_015"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_018",
+    "CONCEPT_020",
+    "CONCEPT_005",
+    "CONCEPT_006",
+    "CONCEPT_037"
+   ]
+  },
+  "CONCEPT_092": {
+   "belongs": [
+    "CONCEPT_082",
+    "CONCEPT_025",
+    "CONCEPT_011",
+    "CONCEPT_059",
+    "CONCEPT_063"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_093": {
+   "belongs": [
+    "CONCEPT_038",
+    "CONCEPT_032",
+    "CONCEPT_010",
+    "CONCEPT_071",
+    "CONCEPT_080"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_094": {
+   "belongs": [
+    "CONCEPT_011",
+    "CONCEPT_082",
+    "CONCEPT_092"
+   ],
+   "boundary_sharpness": 0.625,
+   "does_not_belong": [
+    "CONCEPT_020",
+    "CONCEPT_028",
+    "CONCEPT_010",
+    "CONCEPT_005",
+    "CONCEPT_006"
+   ]
+  },
+  "CONCEPT_097": {
+   "belongs": [
+    "CONCEPT_016",
+    "CONCEPT_004",
+    "CONCEPT_060",
+    "CONCEPT_049",
+    "CONCEPT_034"
+   ],
+   "boundary_sharpness": 0.5,
+   "does_not_belong": [
+    "CONCEPT_023",
+    "CONCEPT_090",
+    "CONCEPT_063",
+    "CONCEPT_009",
+    "CONCEPT_071"
+   ]
+  },
+  "CONCEPT_098": {
+   "belongs": [
+    "CONCEPT_079",
+    "CONCEPT_080",
+    "CONCEPT_019",
+    "CONCEPT_015",
+    "CONCEPT_073"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_099": {
+   "belongs": [
+    "CONCEPT_038",
+    "CONCEPT_055",
+    "CONCEPT_080",
+    "CONCEPT_093"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_101": {
+   "belongs": [
+    "CONCEPT_040",
+    "CONCEPT_018",
+    "CONCEPT_006",
+    "CONCEPT_004",
+    "CONCEPT_103"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_102": {
+   "belongs": [
+    "CONCEPT_010"
+   ],
+   "boundary_sharpness": 0.0,
+   "does_not_belong": []
+  },
+  "CONCEPT_103": {
+   "belongs": [
+    "CONCEPT_006",
+    "CONCEPT_101",
+    "CONCEPT_080"
+   ],
+   "boundary_sharpness": 0.625,
+   "does_not_belong": [
+    "CONCEPT_060",
+    "CONCEPT_049",
+    "CONCEPT_020",
+    "CONCEPT_025",
+    "CONCEPT_024"
+   ]
+  }
+ },
+ "definition": "belongs = strongest neighbours; does_not_belong = strongest exclusions",
+ "method": "sigma-semantics-1.0",
+ "n_concepts": 89
+}

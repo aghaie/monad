@@ -1,0 +1,352 @@
+{
+ "definition": "Quran-internal equations (REQUIRES / BEHAVES_LIKE), tested against co-occurrence",
+ "equations": [
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_007",
+   "rhs": "CONCEPT_081",
+   "tested": true,
+   "weight": 0.408033
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_009",
+   "rhs": "CONCEPT_067",
+   "tested": true,
+   "weight": 0.461616
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_021",
+   "rhs": "CONCEPT_039",
+   "tested": true,
+   "weight": 0.583333
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_035",
+   "rhs": "CONCEPT_067",
+   "tested": true,
+   "weight": 0.544835
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_036",
+   "rhs": "CONCEPT_072",
+   "tested": true,
+   "weight": 0.6
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_037",
+   "rhs": "CONCEPT_049",
+   "tested": true,
+   "weight": 0.416298
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_039",
+   "rhs": "CONCEPT_048",
+   "tested": true,
+   "weight": 0.65
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_040",
+   "rhs": "CONCEPT_101",
+   "tested": true,
+   "weight": 0.603164
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_048",
+   "rhs": "CONCEPT_039",
+   "tested": true,
+   "weight": 0.65
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_049",
+   "rhs": "CONCEPT_037",
+   "tested": true,
+   "weight": 0.416298
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_053",
+   "rhs": "CONCEPT_088",
+   "tested": true,
+   "weight": 0.506829
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_055",
+   "rhs": "CONCEPT_090",
+   "tested": true,
+   "weight": 0.594493
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_067",
+   "rhs": "CONCEPT_035",
+   "tested": true,
+   "weight": 0.544835
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_072",
+   "rhs": "CONCEPT_036",
+   "tested": true,
+   "weight": 0.6
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_073",
+   "rhs": "CONCEPT_074",
+   "tested": true,
+   "weight": 0.619641
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_074",
+   "rhs": "CONCEPT_073",
+   "tested": true,
+   "weight": 0.619641
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_081",
+   "rhs": "CONCEPT_053",
+   "tested": true,
+   "weight": 0.49296
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_082",
+   "rhs": "CONCEPT_092",
+   "tested": true,
+   "weight": 0.666667
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_088",
+   "rhs": "CONCEPT_053",
+   "tested": true,
+   "weight": 0.506829
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_089",
+   "rhs": "CONCEPT_039",
+   "tested": true,
+   "weight": 0.59138
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_090",
+   "rhs": "CONCEPT_055",
+   "tested": true,
+   "weight": 0.594493
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_091",
+   "rhs": "CONCEPT_035",
+   "tested": true,
+   "weight": 0.5054
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_092",
+   "rhs": "CONCEPT_082",
+   "tested": true,
+   "weight": 0.666667
+  },
+  {
+   "equation": "BEHAVES_LIKE",
+   "form": "A behaves like B",
+   "holds": true,
+   "lhs": "CONCEPT_101",
+   "rhs": "CONCEPT_040",
+   "tested": true,
+   "weight": 0.603164
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_001",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_002",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_003",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_004",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_005",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_006",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_008",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_009",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_010",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_011",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_012",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_013",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_014",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_015",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_016",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  },
+  {
+   "equation": "REQUIRES",
+   "form": "A always accompanied by D",
+   "holds": true,
+   "lhs": "CONCEPT_017",
+   "rhs": "CONCEPT_007",
+   "tested": true
+  }
+ ],
+ "method": "sigma-semantics-1.0",
+ "n_equations": 124,
+ "n_holding": 124
+}

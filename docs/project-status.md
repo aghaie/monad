@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-07. **Current phase complete:** Phase Ω (World Model
-Discovery Engine). **Next phase:** none — awaiting explicit instruction.
+**Last updated:** 2026-06-07. **Current phase complete:** Phase Σ (Internal Semantic
+Reconstruction Engine). **Next phase:** none — awaiting explicit instruction.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -31,6 +31,7 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 16 | Hub Origin Discovery Engine | ✅ complete | `generated/hub_origin/*.json` |
 | 17 | Frequency Null Model Engine | ✅ complete | `generated/frequency_null/*.json` |
 | Ω | World Model Discovery Engine | ✅ complete | `generated/world_model/*.json` |
+| Σ | Internal Semantic Reconstruction Engine | ✅ complete | `generated/semantics/*.json` |
 
 ---
 
@@ -742,6 +743,55 @@ structural analysis.
 
 ---
 
+## Phase Σ — Internal Semantic Reconstruction Engine
+
+Tests whether the Quran can define its **own** meanings internally. Meaning is
+allowed; **external** meaning is forbidden — no dictionary, tafsir, translation,
+lexicon, embedding, or imported label. Distributional meaning applied
+Quran-internally: a concept is defined only by its relations to **other opaque
+concepts**; anchors are evidence, never glossed.
+
+- 13 data products in `generated/semantics/` (recoverability, definitions,
+  boundaries, contrasts, functional roles, equations, primitives, consistency,
+  anchors, internal dictionary, falsification, robustness, manifest)
+- Method: reconstruct co-occurrence; classify recoverability (Phase-7 anchor +
+  Phase-6 neighbourhood + contrasts); build Quran→Quran definitions; measure
+  contrasts (exclusions), functional roles, cross-corpus drift, definitional
+  centrality vs frequency
+- **Primary finding — a RELATIONAL semantic layer EMERGES; a REFERENTIAL one does
+  NOT:**
+  - **77 of 103 concepts relationally RECOVERABLE**; **89 defined Quran→Quran** (no
+    external word); **401 internal contrasts** (opposites that never co-occur);
+    **80/89 meaning-stable across corpus halves** (mean cosine 0.81)
+  - **Decisive positive result — semantic anchors are NOT the frequency hub:**
+    definitional centrality is its own structure. Low-frequency `CONCEPT_027`
+    (`ربو`, marginal 52) defines 12 concepts (residual **+11.2**), while the
+    frequency hub `CONCEPT_007` has residual **−81.4** (not a semantic anchor). The
+    semantic layer is genuine, not a frequency artifact — recovering ground that
+    Phases 16–17 appeared to remove
+  - **Referential meaning FAILS TO EMERGE:** the internal dictionary is
+    self-contained but referentially circular (concept→concepts only) — it never
+    grounds anything externally (the Phase-Ω limit)
+- **Falsification:** 3 relational claims SURVIVE (recoverable, consistent,
+  non-frequency anchoring); referential FAILS TO EMERGE. Robust under bootstrap
+- Builder: `scripts/build_semantics.py`; Validator: `scripts/validate_semantics.py`
+  (344 checks incl. no-external-meaning invariant, byte-identical rebuild)
+- Reports: `semantic-recoverability-report.md`, `definition-discovery-report.md`,
+  `semantic-boundary-report.md`, `contrast-report.md`, `functional-meaning-report.md`,
+  `semantic-equations-report.md`, `semantic-primitives-report.md`,
+  `semantic-consistency-report.md`, `semantic-anchor-report.md`,
+  `internal-dictionary-report.md`, `semantic-falsification-report.md`,
+  `phase-sigma-final-report.md`
+
+Semantic verdict (genuine, bounded): the Quran **does** define its concepts in terms
+of one another — a recoverable, stable, self-contained internal semantic network
+whose anchors are **not** the frequency hubs (genuine structure beyond frequency).
+But it is **relational** meaning (position), not **referential** meaning (reference).
+Meaning emerges from the Quran alone — as relation, not as reference. That is the
+precise limit of internal semantic reconstruction.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -779,11 +829,12 @@ python3 scripts/build_consistency_propagation.py && python3 scripts/validate_con
 python3 scripts/build_hub_origin.py     && python3 scripts/validate_hub_origin.py     --rebuild
 python3 scripts/build_frequency_null.py && python3 scripts/validate_frequency_null.py --rebuild
 python3 scripts/build_world_model.py    && python3 scripts/validate_world_model.py    --rebuild
+python3 scripts/build_semantics.py      && python3 scripts/validate_semantics.py      --rebuild
 ```
 
 ---
 
 ## Next
 
-No further phase is started by design (Phase Ω was the capstone). Open questions are
-recorded in `phase-omega-final-report.md §11`. Awaiting explicit instruction.
+No further phase is started by design. Open questions are recorded in
+`phase-sigma-final-report.md §10`. Awaiting explicit instruction.

@@ -1,0 +1,146 @@
+{
+ "definition": "semantic primitives = smallest set of concepts that appear in (define) most others",
+ "finding": "a small semantic core does not cover most definitions — but note (Phase 17) much of this is frequency; genuine semantic anchoring is tested in Phase I",
+ "greedy_order": [
+  {
+   "anchor": "يسر",
+   "cumulative_coverage": 0.11236,
+   "marginal": 429,
+   "primitive": "CONCEPT_001"
+  },
+  {
+   "anchor": "اله",
+   "cumulative_coverage": 0.202247,
+   "marginal": 5906,
+   "primitive": "CONCEPT_007"
+  },
+  {
+   "anchor": "ربو",
+   "cumulative_coverage": 0.292135,
+   "marginal": 52,
+   "primitive": "CONCEPT_027"
+  },
+  {
+   "anchor": "نشا",
+   "cumulative_coverage": 0.370787,
+   "marginal": 135,
+   "primitive": "CONCEPT_005"
+  },
+  {
+   "anchor": "غلب",
+   "cumulative_coverage": 0.449438,
+   "marginal": 56,
+   "primitive": "CONCEPT_080"
+  },
+  {
+   "anchor": "رضو",
+   "cumulative_coverage": 0.505618,
+   "marginal": 136,
+   "primitive": "CONCEPT_010"
+  },
+  {
+   "anchor": "نصح",
+   "cumulative_coverage": 0.561798,
+   "marginal": 51,
+   "primitive": "CONCEPT_011"
+  },
+  {
+   "anchor": "عصر",
+   "cumulative_coverage": 0.617978,
+   "marginal": 21,
+   "primitive": "CONCEPT_089"
+  },
+  {
+   "anchor": "رود",
+   "cumulative_coverage": 0.662921,
+   "marginal": 1005,
+   "primitive": "CONCEPT_004"
+  },
+  {
+   "anchor": "شجر",
+   "cumulative_coverage": 0.707865,
+   "marginal": 127,
+   "primitive": "CONCEPT_024"
+  },
+  {
+   "anchor": "قنطر",
+   "cumulative_coverage": 0.752809,
+   "marginal": 14,
+   "primitive": "CONCEPT_029"
+  },
+  {
+   "anchor": "قمر",
+   "cumulative_coverage": 0.786517,
+   "marginal": 105,
+   "primitive": "CONCEPT_037"
+  },
+  {
+   "anchor": "ولد",
+   "cumulative_coverage": 0.808989,
+   "marginal": 550,
+   "primitive": "CONCEPT_002"
+  },
+  {
+   "anchor": "روح",
+   "cumulative_coverage": 0.831461,
+   "marginal": 221,
+   "primitive": "CONCEPT_018"
+  },
+  {
+   "anchor": "حمم",
+   "cumulative_coverage": 0.853933,
+   "marginal": 44,
+   "primitive": "CONCEPT_036"
+  },
+  {
+   "anchor": "لبث",
+   "cumulative_coverage": 0.876404,
+   "marginal": 53,
+   "primitive": "CONCEPT_038"
+  },
+  {
+   "anchor": "ودي",
+   "cumulative_coverage": 0.898876,
+   "marginal": 37,
+   "primitive": "CONCEPT_042"
+  },
+  {
+   "anchor": "زوج",
+   "cumulative_coverage": 0.921348,
+   "marginal": 107,
+   "primitive": "CONCEPT_078"
+  },
+  {
+   "anchor": "غفر",
+   "cumulative_coverage": 0.932584,
+   "marginal": 1628,
+   "primitive": "CONCEPT_003"
+  },
+  {
+   "anchor": "خبت",
+   "cumulative_coverage": 0.94382,
+   "marginal": 16,
+   "primitive": "CONCEPT_017"
+  }
+ ],
+ "method": "sigma-semantics-1.0",
+ "minimum_sets": [
+  {
+   "primitives_required": 6,
+   "target": 0.5
+  },
+  {
+   "primitives_required": 10,
+   "target": 0.7
+  },
+  {
+   "primitives_required": 13,
+   "target": 0.8
+  },
+  {
+   "primitives_required": 18,
+   "target": 0.9
+  }
+ ],
+ "n_universe": 89
+}

@@ -1,0 +1,372 @@
+{
+ "concepts": {
+  "CONCEPT_005": {
+   "cross_half_cosine": 0.956944,
+   "stable": true
+  },
+  "CONCEPT_006": {
+   "cross_half_cosine": 0.934417,
+   "stable": true
+  },
+  "CONCEPT_007": {
+   "cross_half_cosine": 0.990206,
+   "stable": true
+  },
+  "CONCEPT_008": {
+   "cross_half_cosine": 0.976677,
+   "stable": true
+  },
+  "CONCEPT_009": {
+   "cross_half_cosine": 0.902293,
+   "stable": true
+  },
+  "CONCEPT_010": {
+   "cross_half_cosine": 0.977328,
+   "stable": true
+  },
+  "CONCEPT_011": {
+   "cross_half_cosine": 0.911157,
+   "stable": true
+  },
+  "CONCEPT_012": {
+   "cross_half_cosine": 0.919391,
+   "stable": true
+  },
+  "CONCEPT_014": {
+   "cross_half_cosine": 0.928051,
+   "stable": true
+  },
+  "CONCEPT_015": {
+   "cross_half_cosine": 0.981679,
+   "stable": true
+  },
+  "CONCEPT_016": {
+   "cross_half_cosine": 0.989278,
+   "stable": true
+  },
+  "CONCEPT_018": {
+   "cross_half_cosine": 0.968805,
+   "stable": true
+  },
+  "CONCEPT_019": {
+   "cross_half_cosine": 0.962084,
+   "stable": true
+  },
+  "CONCEPT_020": {
+   "cross_half_cosine": 0.931696,
+   "stable": true
+  },
+  "CONCEPT_021": {
+   "cross_half_cosine": 0.969249,
+   "stable": true
+  },
+  "CONCEPT_022": {
+   "cross_half_cosine": 0.970959,
+   "stable": true
+  },
+  "CONCEPT_023": {
+   "cross_half_cosine": 0.962421,
+   "stable": true
+  },
+  "CONCEPT_024": {
+   "cross_half_cosine": 0.942769,
+   "stable": true
+  },
+  "CONCEPT_025": {
+   "cross_half_cosine": 0.932374,
+   "stable": true
+  },
+  "CONCEPT_026": {
+   "cross_half_cosine": 0.959263,
+   "stable": true
+  },
+  "CONCEPT_027": {
+   "cross_half_cosine": 0.938216,
+   "stable": true
+  },
+  "CONCEPT_028": {
+   "cross_half_cosine": 0.969918,
+   "stable": true
+  },
+  "CONCEPT_029": {
+   "cross_half_cosine": 0.0,
+   "stable": false
+  },
+  "CONCEPT_030": {
+   "cross_half_cosine": 0.935785,
+   "stable": true
+  },
+  "CONCEPT_031": {
+   "cross_half_cosine": 0.0,
+   "stable": false
+  },
+  "CONCEPT_032": {
+   "cross_half_cosine": 0.971149,
+   "stable": true
+  },
+  "CONCEPT_033": {
+   "cross_half_cosine": 0.893553,
+   "stable": true
+  },
+  "CONCEPT_034": {
+   "cross_half_cosine": 0.99368,
+   "stable": true
+  },
+  "CONCEPT_035": {
+   "cross_half_cosine": 0.959403,
+   "stable": true
+  },
+  "CONCEPT_036": {
+   "cross_half_cosine": 0.872377,
+   "stable": true
+  },
+  "CONCEPT_037": {
+   "cross_half_cosine": 0.93252,
+   "stable": true
+  },
+  "CONCEPT_038": {
+   "cross_half_cosine": 0.908018,
+   "stable": true
+  },
+  "CONCEPT_039": {
+   "cross_half_cosine": 0.888679,
+   "stable": true
+  },
+  "CONCEPT_040": {
+   "cross_half_cosine": 0.944242,
+   "stable": true
+  },
+  "CONCEPT_042": {
+   "cross_half_cosine": 0.910708,
+   "stable": true
+  },
+  "CONCEPT_044": {
+   "cross_half_cosine": 0.953341,
+   "stable": true
+  },
+  "CONCEPT_045": {
+   "cross_half_cosine": 0.880038,
+   "stable": true
+  },
+  "CONCEPT_046": {
+   "cross_half_cosine": 0.743699,
+   "stable": true
+  },
+  "CONCEPT_047": {
+   "cross_half_cosine": 0.918402,
+   "stable": true
+  },
+  "CONCEPT_048": {
+   "cross_half_cosine": 0.611347,
+   "stable": true
+  },
+  "CONCEPT_049": {
+   "cross_half_cosine": 0.965302,
+   "stable": true
+  },
+  "CONCEPT_050": {
+   "cross_half_cosine": 0.878122,
+   "stable": true
+  },
+  "CONCEPT_052": {
+   "cross_half_cosine": 0.549125,
+   "stable": true
+  },
+  "CONCEPT_053": {
+   "cross_half_cosine": 0.988432,
+   "stable": true
+  },
+  "CONCEPT_054": {
+   "cross_half_cosine": 0.963975,
+   "stable": true
+  },
+  "CONCEPT_055": {
+   "cross_half_cosine": 0.851317,
+   "stable": true
+  },
+  "CONCEPT_056": {
+   "cross_half_cosine": 0.967053,
+   "stable": true
+  },
+  "CONCEPT_057": {
+   "cross_half_cosine": 0.0,
+   "stable": false
+  },
+  "CONCEPT_058": {
+   "cross_half_cosine": 0.852464,
+   "stable": true
+  },
+  "CONCEPT_059": {
+   "cross_half_cosine": 0.82038,
+   "stable": true
+  },
+  "CONCEPT_060": {
+   "cross_half_cosine": 0.987784,
+   "stable": true
+  },
+  "CONCEPT_061": {
+   "cross_half_cosine": 0.99274,
+   "stable": true
+  },
+  "CONCEPT_062": {
+   "cross_half_cosine": 0.879834,
+   "stable": true
+  },
+  "CONCEPT_063": {
+   "cross_half_cosine": 0.945428,
+   "stable": true
+  },
+  "CONCEPT_066": {
+   "cross_half_cosine": 0.749155,
+   "stable": true
+  },
+  "CONCEPT_067": {
+   "cross_half_cosine": 0.952801,
+   "stable": true
+  },
+  "CONCEPT_068": {
+   "cross_half_cosine": 0.0,
+   "stable": false
+  },
+  "CONCEPT_069": {
+   "cross_half_cosine": 0.801813,
+   "stable": true
+  },
+  "CONCEPT_070": {
+   "cross_half_cosine": 0.786646,
+   "stable": true
+  },
+  "CONCEPT_071": {
+   "cross_half_cosine": 0.957295,
+   "stable": true
+  },
+  "CONCEPT_072": {
+   "cross_half_cosine": 0.881726,
+   "stable": true
+  },
+  "CONCEPT_073": {
+   "cross_half_cosine": 0.870896,
+   "stable": true
+  },
+  "CONCEPT_074": {
+   "cross_half_cosine": 0.837869,
+   "stable": true
+  },
+  "CONCEPT_075": {
+   "cross_half_cosine": 0.80312,
+   "stable": true
+  },
+  "CONCEPT_076": {
+   "cross_half_cosine": 0.0,
+   "stable": false
+  },
+  "CONCEPT_077": {
+   "cross_half_cosine": 0.64365,
+   "stable": true
+  },
+  "CONCEPT_078": {
+   "cross_half_cosine": 0.9544,
+   "stable": true
+  },
+  "CONCEPT_079": {
+   "cross_half_cosine": 0.0,
+   "stable": false
+  },
+  "CONCEPT_080": {
+   "cross_half_cosine": 0.878633,
+   "stable": true
+  },
+  "CONCEPT_081": {
+   "cross_half_cosine": 0.98807,
+   "stable": true
+  },
+  "CONCEPT_082": {
+   "cross_half_cosine": 0.777863,
+   "stable": true
+  },
+  "CONCEPT_083": {
+   "cross_half_cosine": 0.834594,
+   "stable": true
+  },
+  "CONCEPT_084": {
+   "cross_half_cosine": 0.991303,
+   "stable": true
+  },
+  "CONCEPT_085": {
+   "cross_half_cosine": 0.983368,
+   "stable": true
+  },
+  "CONCEPT_086": {
+   "cross_half_cosine": 0.0,
+   "stable": false
+  },
+  "CONCEPT_087": {
+   "cross_half_cosine": 0.830049,
+   "stable": true
+  },
+  "CONCEPT_088": {
+   "cross_half_cosine": 0.993585,
+   "stable": true
+  },
+  "CONCEPT_089": {
+   "cross_half_cosine": 0.742806,
+   "stable": true
+  },
+  "CONCEPT_090": {
+   "cross_half_cosine": 0.962677,
+   "stable": true
+  },
+  "CONCEPT_091": {
+   "cross_half_cosine": 0.954263,
+   "stable": true
+  },
+  "CONCEPT_092": {
+   "cross_half_cosine": 0.822951,
+   "stable": true
+  },
+  "CONCEPT_093": {
+   "cross_half_cosine": 0.850649,
+   "stable": true
+  },
+  "CONCEPT_094": {
+   "cross_half_cosine": 0.832651,
+   "stable": true
+  },
+  "CONCEPT_097": {
+   "cross_half_cosine": 0.975231,
+   "stable": true
+  },
+  "CONCEPT_098": {
+   "cross_half_cosine": 0.646272,
+   "stable": true
+  },
+  "CONCEPT_099": {
+   "cross_half_cosine": 0.884274,
+   "stable": true
+  },
+  "CONCEPT_101": {
+   "cross_half_cosine": 0.0,
+   "stable": false
+  },
+  "CONCEPT_102": {
+   "cross_half_cosine": 0.0,
+   "stable": false
+  },
+  "CONCEPT_103": {
+   "cross_half_cosine": 0.85372,
+   "stable": true
+  }
+ },
+ "definition": "neighbour-profile cosine between corpus halves; stable >= 0.5",
+ "drift_distribution": {
+  "max": 0.99368,
+  "mean": 0.808724,
+  "min": 0.0,
+  "n": 89,
+  "std": 0.28523
+ },
+ "finding": "80 of 89 recoverable concepts keep a stable neighbourhood across corpus halves (cosine >= 0.5) — meaning is largely consistent, not fragmented",
+ "method": "sigma-semantics-1.0",
+ "n_concepts": 89,
+ "n_stable": 80
+}

@@ -1,0 +1,2734 @@
+{
+ "entries": {
+  "CONCEPT_005": {
+   "anchor_evidence": "نشا",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_083",
+     "weight": 0.191918
+    },
+    {
+     "concept": "CONCEPT_024",
+     "weight": 0.127617
+    },
+    {
+     "concept": "CONCEPT_072",
+     "weight": 0.114203
+    },
+    {
+     "concept": "CONCEPT_023",
+     "weight": 0.1088
+    },
+    {
+     "concept": "CONCEPT_045",
+     "weight": 0.101925
+    }
+   ],
+   "concept": "CONCEPT_005",
+   "contrasts_with": [
+    "CONCEPT_091",
+    "CONCEPT_012",
+    "CONCEPT_009"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_006": {
+   "anchor_evidence": "طلع",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_101",
+     "weight": 0.216234
+    },
+    {
+     "concept": "CONCEPT_103",
+     "weight": 0.124144
+    },
+    {
+     "concept": "CONCEPT_040",
+     "weight": 0.110479
+    },
+    {
+     "concept": "CONCEPT_024",
+     "weight": 0.073226
+    },
+    {
+     "concept": "CONCEPT_049",
+     "weight": 0.071989
+    }
+   ],
+   "concept": "CONCEPT_006",
+   "contrasts_with": [
+    "CONCEPT_091",
+    "CONCEPT_063",
+    "CONCEPT_009"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_007": {
+   "anchor_evidence": "اله",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_081",
+     "weight": 0.408033
+    },
+    {
+     "concept": "CONCEPT_084",
+     "weight": 0.293692
+    },
+    {
+     "concept": "CONCEPT_053",
+     "weight": 0.186729
+    },
+    {
+     "concept": "CONCEPT_003",
+     "weight": 0.135702
+    },
+    {
+     "concept": "CONCEPT_088",
+     "weight": 0.128292
+    }
+   ],
+   "concept": "CONCEPT_007",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": []
+  },
+  "CONCEPT_008": {
+   "anchor_evidence": "خلق",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_017",
+     "weight": 0.145507
+    },
+    {
+     "concept": "CONCEPT_030",
+     "weight": 0.141301
+    },
+    {
+     "concept": "CONCEPT_045",
+     "weight": 0.119682
+    },
+    {
+     "concept": "CONCEPT_027",
+     "weight": 0.109592
+    },
+    {
+     "concept": "CONCEPT_001",
+     "weight": 0.074644
+    }
+   ],
+   "concept": "CONCEPT_008",
+   "contrasts_with": [],
+   "preceded_by": [
+    "CONCEPT_014",
+    "CONCEPT_031",
+    "CONCEPT_038"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_009": {
+   "anchor_evidence": "كفي",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_067",
+     "weight": 0.461616
+    },
+    {
+     "concept": "CONCEPT_056",
+     "weight": 0.320686
+    },
+    {
+     "concept": "CONCEPT_002",
+     "weight": 0.183034
+    },
+    {
+     "concept": "CONCEPT_035",
+     "weight": 0.168859
+    },
+    {
+     "concept": "CONCEPT_022",
+     "weight": 0.024824
+    }
+   ],
+   "concept": "CONCEPT_009",
+   "contrasts_with": [
+    "CONCEPT_049",
+    "CONCEPT_020",
+    "CONCEPT_025"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_010": {
+   "anchor_evidence": "رضو",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_071",
+     "weight": 0.29221
+    },
+    {
+     "concept": "CONCEPT_093",
+     "weight": 0.220323
+    },
+    {
+     "concept": "CONCEPT_062",
+     "weight": 0.164623
+    },
+    {
+     "concept": "CONCEPT_058",
+     "weight": 0.103587
+    },
+    {
+     "concept": "CONCEPT_038",
+     "weight": 0.098465
+    }
+   ],
+   "concept": "CONCEPT_010",
+   "contrasts_with": [
+    "CONCEPT_054",
+    "CONCEPT_063",
+    "CONCEPT_067"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_011": {
+   "anchor_evidence": "نصح",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_025",
+     "weight": 0.158383
+    },
+    {
+     "concept": "CONCEPT_092",
+     "weight": 0.140602
+    },
+    {
+     "concept": "CONCEPT_037",
+     "weight": 0.130195
+    },
+    {
+     "concept": "CONCEPT_082",
+     "weight": 0.1272
+    },
+    {
+     "concept": "CONCEPT_015",
+     "weight": 0.111766
+    }
+   ],
+   "concept": "CONCEPT_011",
+   "contrasts_with": [
+    "CONCEPT_018",
+    "CONCEPT_078",
+    "CONCEPT_014"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_012": {
+   "anchor_evidence": "نقم",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_044",
+     "weight": 0.22743
+    },
+    {
+     "concept": "CONCEPT_004",
+     "weight": 0.103734
+    },
+    {
+     "concept": "CONCEPT_027",
+     "weight": 0.07724
+    }
+   ],
+   "concept": "CONCEPT_012",
+   "contrasts_with": [
+    "CONCEPT_005",
+    "CONCEPT_019",
+    "CONCEPT_023"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_014": {
+   "anchor_evidence": "حين",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_020",
+     "weight": 0.073694
+    }
+   ],
+   "concept": "CONCEPT_014",
+   "contrasts_with": [
+    "CONCEPT_037",
+    "CONCEPT_054",
+    "CONCEPT_063"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_015": {
+   "anchor_evidence": "سال",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_091",
+     "weight": 0.114113
+    },
+    {
+     "concept": "CONCEPT_019",
+     "weight": 0.112117
+    },
+    {
+     "concept": "CONCEPT_011",
+     "weight": 0.111766
+    },
+    {
+     "concept": "CONCEPT_027",
+     "weight": 0.098219
+    },
+    {
+     "concept": "CONCEPT_035",
+     "weight": 0.092827
+    }
+   ],
+   "concept": "CONCEPT_015",
+   "contrasts_with": [
+    "CONCEPT_045"
+   ],
+   "preceded_by": [
+    "CONCEPT_073"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_016": {
+   "anchor_evidence": "جنن",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_097",
+     "weight": 0.30134
+    },
+    {
+     "concept": "CONCEPT_060",
+     "weight": 0.224389
+    },
+    {
+     "concept": "CONCEPT_072",
+     "weight": 0.221944
+    },
+    {
+     "concept": "CONCEPT_049",
+     "weight": 0.174065
+    },
+    {
+     "concept": "CONCEPT_036",
+     "weight": 0.139264
+    }
+   ],
+   "concept": "CONCEPT_016",
+   "contrasts_with": [],
+   "preceded_by": [
+    "CONCEPT_010",
+    "CONCEPT_011",
+    "CONCEPT_012"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_018": {
+   "anchor_evidence": "روح",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_101",
+     "weight": 0.23366
+    },
+    {
+     "concept": "CONCEPT_029",
+     "weight": 0.184254
+    },
+    {
+     "concept": "CONCEPT_063",
+     "weight": 0.109937
+    }
+   ],
+   "concept": "CONCEPT_018",
+   "contrasts_with": [
+    "CONCEPT_090",
+    "CONCEPT_091",
+    "CONCEPT_035"
+   ],
+   "preceded_by": [
+    "CONCEPT_063"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_019": {
+   "anchor_evidence": "شفع",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_079",
+     "weight": 0.252178
+    },
+    {
+     "concept": "CONCEPT_038",
+     "weight": 0.152631
+    },
+    {
+     "concept": "CONCEPT_027",
+     "weight": 0.150604
+    },
+    {
+     "concept": "CONCEPT_098",
+     "weight": 0.113769
+    },
+    {
+     "concept": "CONCEPT_015",
+     "weight": 0.112117
+    }
+   ],
+   "concept": "CONCEPT_019",
+   "contrasts_with": [
+    "CONCEPT_078",
+    "CONCEPT_012",
+    "CONCEPT_063"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_020": {
+   "anchor_evidence": "شكر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_042",
+     "weight": 0.164178
+    },
+    {
+     "concept": "CONCEPT_072",
+     "weight": 0.134218
+    },
+    {
+     "concept": "CONCEPT_001",
+     "weight": 0.076049
+    },
+    {
+     "concept": "CONCEPT_014",
+     "weight": 0.073694
+    },
+    {
+     "concept": "CONCEPT_025",
+     "weight": 0.068338
+    }
+   ],
+   "concept": "CONCEPT_020",
+   "contrasts_with": [
+    "CONCEPT_032",
+    "CONCEPT_091",
+    "CONCEPT_009"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_021": {
+   "anchor_evidence": "ابو",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_039",
+     "weight": 0.583333
+    },
+    {
+     "concept": "CONCEPT_089",
+     "weight": 0.336688
+    },
+    {
+     "concept": "CONCEPT_076",
+     "weight": 0.280389
+    },
+    {
+     "concept": "CONCEPT_048",
+     "weight": 0.253406
+    },
+    {
+     "concept": "CONCEPT_033",
+     "weight": 0.083009
+    }
+   ],
+   "concept": "CONCEPT_021",
+   "contrasts_with": [
+    "CONCEPT_072",
+    "CONCEPT_009",
+    "CONCEPT_082"
+   ],
+   "preceded_by": [
+    "CONCEPT_039",
+    "CONCEPT_089"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_022": {
+   "anchor_evidence": "لعن",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_056",
+     "weight": 0.097746
+    },
+    {
+     "concept": "CONCEPT_002",
+     "weight": 0.092791
+    },
+    {
+     "concept": "CONCEPT_001",
+     "weight": 0.072398
+    },
+    {
+     "concept": "CONCEPT_009",
+     "weight": 0.024824
+    },
+    {
+     "concept": "CONCEPT_090",
+     "weight": 0.022116
+    }
+   ],
+   "concept": "CONCEPT_022",
+   "contrasts_with": [
+    "CONCEPT_063",
+    "CONCEPT_038",
+    "CONCEPT_036"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_023": {
+   "anchor_evidence": "غرر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_070",
+     "weight": 0.161515
+    },
+    {
+     "concept": "CONCEPT_005",
+     "weight": 0.1088
+    }
+   ],
+   "concept": "CONCEPT_023",
+   "contrasts_with": [
+    "CONCEPT_097",
+    "CONCEPT_026",
+    "CONCEPT_032"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_024": {
+   "anchor_evidence": "شجر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_086",
+     "weight": 0.24631
+    },
+    {
+     "concept": "CONCEPT_042",
+     "weight": 0.162229
+    },
+    {
+     "concept": "CONCEPT_037",
+     "weight": 0.129462
+    },
+    {
+     "concept": "CONCEPT_005",
+     "weight": 0.127617
+    },
+    {
+     "concept": "CONCEPT_026",
+     "weight": 0.099465
+    }
+   ],
+   "concept": "CONCEPT_024",
+   "contrasts_with": [
+    "CONCEPT_090",
+    "CONCEPT_063",
+    "CONCEPT_009"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_025": {
+   "anchor_evidence": "ظلل",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_063",
+     "weight": 0.345813
+    },
+    {
+     "concept": "CONCEPT_073",
+     "weight": 0.232647
+    },
+    {
+     "concept": "CONCEPT_011",
+     "weight": 0.158383
+    },
+    {
+     "concept": "CONCEPT_028",
+     "weight": 0.154035
+    },
+    {
+     "concept": "CONCEPT_092",
+     "weight": 0.144685
+    }
+   ],
+   "concept": "CONCEPT_025",
+   "contrasts_with": [
+    "CONCEPT_009",
+    "CONCEPT_067",
+    "CONCEPT_103"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_026": {
+   "anchor_evidence": "صرف",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_069",
+     "weight": 0.202374
+    },
+    {
+     "concept": "CONCEPT_024",
+     "weight": 0.099465
+    },
+    {
+     "concept": "CONCEPT_080",
+     "weight": 0.023509
+    }
+   ],
+   "concept": "CONCEPT_026",
+   "contrasts_with": [
+    "CONCEPT_023",
+    "CONCEPT_063",
+    "CONCEPT_009"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_027": {
+   "anchor_evidence": "ربو",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_013",
+     "weight": 0.258386
+    },
+    {
+     "concept": "CONCEPT_001",
+     "weight": 0.173512
+    },
+    {
+     "concept": "CONCEPT_019",
+     "weight": 0.150604
+    },
+    {
+     "concept": "CONCEPT_079",
+     "weight": 0.144733
+    },
+    {
+     "concept": "CONCEPT_036",
+     "weight": 0.131122
+    }
+   ],
+   "concept": "CONCEPT_027",
+   "contrasts_with": [
+    "CONCEPT_018",
+    "CONCEPT_037",
+    "CONCEPT_056"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_028": {
+   "anchor_evidence": "صدر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_029",
+     "weight": 0.222647
+    },
+    {
+     "concept": "CONCEPT_030",
+     "weight": 0.155506
+    },
+    {
+     "concept": "CONCEPT_025",
+     "weight": 0.154035
+    },
+    {
+     "concept": "CONCEPT_056",
+     "weight": 0.0279
+    },
+    {
+     "concept": "CONCEPT_097",
+     "weight": 0.020845
+    }
+   ],
+   "concept": "CONCEPT_028",
+   "contrasts_with": [
+    "CONCEPT_042",
+    "CONCEPT_074",
+    "CONCEPT_045"
+   ],
+   "preceded_by": [
+    "CONCEPT_058"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_029": {
+   "anchor_evidence": "قنطر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_028",
+     "weight": 0.222647
+    },
+    {
+     "concept": "CONCEPT_075",
+     "weight": 0.196329
+    },
+    {
+     "concept": "CONCEPT_018",
+     "weight": 0.184254
+    },
+    {
+     "concept": "CONCEPT_074",
+     "weight": 0.043098
+    },
+    {
+     "concept": "CONCEPT_073",
+     "weight": 0.0316
+    }
+   ],
+   "concept": "CONCEPT_029",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007",
+    "CONCEPT_081"
+   ]
+  },
+  "CONCEPT_030": {
+   "anchor_evidence": "حفظ",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_050",
+     "weight": 0.238448
+    },
+    {
+     "concept": "CONCEPT_087",
+     "weight": 0.231717
+    },
+    {
+     "concept": "CONCEPT_089",
+     "weight": 0.219708
+    },
+    {
+     "concept": "CONCEPT_036",
+     "weight": 0.199996
+    },
+    {
+     "concept": "CONCEPT_028",
+     "weight": 0.155506
+    }
+   ],
+   "concept": "CONCEPT_030",
+   "contrasts_with": [
+    "CONCEPT_009",
+    "CONCEPT_080",
+    "CONCEPT_067"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_031": {
+   "anchor_evidence": "رفت",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_054",
+     "weight": 0.13681
+    }
+   ],
+   "concept": "CONCEPT_031",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_032": {
+   "anchor_evidence": "عرب",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_093",
+     "weight": 0.227417
+    },
+    {
+     "concept": "CONCEPT_047",
+     "weight": 0.179352
+    },
+    {
+     "concept": "CONCEPT_010",
+     "weight": 0.035549
+    },
+    {
+     "concept": "CONCEPT_075",
+     "weight": 0.028861
+    },
+    {
+     "concept": "CONCEPT_071",
+     "weight": 0.021998
+    }
+   ],
+   "concept": "CONCEPT_032",
+   "contrasts_with": [
+    "CONCEPT_020",
+    "CONCEPT_023",
+    "CONCEPT_044"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_033": {
+   "anchor_evidence": "سبع",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_046",
+     "weight": 0.151234
+    },
+    {
+     "concept": "CONCEPT_039",
+     "weight": 0.142363
+    },
+    {
+     "concept": "CONCEPT_089",
+     "weight": 0.107668
+    },
+    {
+     "concept": "CONCEPT_005",
+     "weight": 0.101877
+    },
+    {
+     "concept": "CONCEPT_021",
+     "weight": 0.083009
+    }
+   ],
+   "concept": "CONCEPT_033",
+   "contrasts_with": [
+    "CONCEPT_054",
+    "CONCEPT_056",
+    "CONCEPT_063"
+   ],
+   "preceded_by": [
+    "CONCEPT_046"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_034": {
+   "anchor_evidence": "رحم",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_060",
+     "weight": 0.244345
+    },
+    {
+     "concept": "CONCEPT_061",
+     "weight": 0.195344
+    },
+    {
+     "concept": "CONCEPT_003",
+     "weight": 0.148983
+    },
+    {
+     "concept": "CONCEPT_016",
+     "weight": 0.123148
+    },
+    {
+     "concept": "CONCEPT_007",
+     "weight": 0.080694
+    }
+   ],
+   "concept": "CONCEPT_034",
+   "contrasts_with": [],
+   "preceded_by": [
+    "CONCEPT_001",
+    "CONCEPT_002",
+    "CONCEPT_009"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_035": {
+   "anchor_evidence": "فقر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_067",
+     "weight": 0.544835
+    },
+    {
+     "concept": "CONCEPT_091",
+     "weight": 0.5054
+    },
+    {
+     "concept": "CONCEPT_002",
+     "weight": 0.332349
+    },
+    {
+     "concept": "CONCEPT_009",
+     "weight": 0.168859
+    },
+    {
+     "concept": "CONCEPT_027",
+     "weight": 0.097672
+    }
+   ],
+   "concept": "CONCEPT_035",
+   "contrasts_with": [
+    "CONCEPT_018",
+    "CONCEPT_049",
+    "CONCEPT_020"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_036": {
+   "anchor_evidence": "حمم",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_072",
+     "weight": 0.6
+    },
+    {
+     "concept": "CONCEPT_089",
+     "weight": 0.220327
+    },
+    {
+     "concept": "CONCEPT_030",
+     "weight": 0.199996
+    },
+    {
+     "concept": "CONCEPT_016",
+     "weight": 0.139264
+    },
+    {
+     "concept": "CONCEPT_027",
+     "weight": 0.131122
+    }
+   ],
+   "concept": "CONCEPT_036",
+   "contrasts_with": [
+    "CONCEPT_022",
+    "CONCEPT_010",
+    "CONCEPT_024"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_037": {
+   "anchor_evidence": "قمر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_049",
+     "weight": 0.416298
+    },
+    {
+     "concept": "CONCEPT_077",
+     "weight": 0.20007
+    },
+    {
+     "concept": "CONCEPT_011",
+     "weight": 0.130195
+    },
+    {
+     "concept": "CONCEPT_024",
+     "weight": 0.129462
+    },
+    {
+     "concept": "CONCEPT_017",
+     "weight": 0.02577
+    }
+   ],
+   "concept": "CONCEPT_037",
+   "contrasts_with": [
+    "CONCEPT_078",
+    "CONCEPT_014",
+    "CONCEPT_091"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_038": {
+   "anchor_evidence": "لبث",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_080",
+     "weight": 0.242094
+    },
+    {
+     "concept": "CONCEPT_093",
+     "weight": 0.236892
+    },
+    {
+     "concept": "CONCEPT_055",
+     "weight": 0.233529
+    },
+    {
+     "concept": "CONCEPT_099",
+     "weight": 0.221268
+    },
+    {
+     "concept": "CONCEPT_059",
+     "weight": 0.215184
+    }
+   ],
+   "concept": "CONCEPT_038",
+   "contrasts_with": [
+    "CONCEPT_022",
+    "CONCEPT_097",
+    "CONCEPT_012"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_039": {
+   "anchor_evidence": "سجن",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_048",
+     "weight": 0.65
+    },
+    {
+     "concept": "CONCEPT_089",
+     "weight": 0.59138
+    },
+    {
+     "concept": "CONCEPT_021",
+     "weight": 0.583333
+    },
+    {
+     "concept": "CONCEPT_076",
+     "weight": 0.388176
+    },
+    {
+     "concept": "CONCEPT_033",
+     "weight": 0.142363
+    }
+   ],
+   "concept": "CONCEPT_039",
+   "contrasts_with": [],
+   "preceded_by": [
+    "CONCEPT_048",
+    "CONCEPT_076",
+    "CONCEPT_089"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_040": {
+   "anchor_evidence": "عتد",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_101",
+     "weight": 0.603164
+    },
+    {
+     "concept": "CONCEPT_006",
+     "weight": 0.110479
+    },
+    {
+     "concept": "CONCEPT_004",
+     "weight": 0.108168
+    },
+    {
+     "concept": "CONCEPT_019",
+     "weight": 0.078579
+    }
+   ],
+   "concept": "CONCEPT_040",
+   "contrasts_with": [
+    "CONCEPT_023",
+    "CONCEPT_090",
+    "CONCEPT_054"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_042": {
+   "anchor_evidence": "ودي",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_052",
+     "weight": 0.232772
+    },
+    {
+     "concept": "CONCEPT_020",
+     "weight": 0.164178
+    },
+    {
+     "concept": "CONCEPT_024",
+     "weight": 0.162229
+    },
+    {
+     "concept": "CONCEPT_069",
+     "weight": 0.025211
+    }
+   ],
+   "concept": "CONCEPT_042",
+   "contrasts_with": [
+    "CONCEPT_028",
+    "CONCEPT_021",
+    "CONCEPT_010"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_044": {
+   "anchor_evidence": "بسط",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_012",
+     "weight": 0.22743
+    },
+    {
+     "concept": "CONCEPT_006",
+     "weight": 0.053869
+    },
+    {
+     "concept": "CONCEPT_010",
+     "weight": 0.021847
+    }
+   ],
+   "concept": "CONCEPT_044",
+   "contrasts_with": [
+    "CONCEPT_005",
+    "CONCEPT_014",
+    "CONCEPT_037"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_045": {
+   "anchor_evidence": "سقط",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_057",
+     "weight": 0.194778
+    },
+    {
+     "concept": "CONCEPT_008",
+     "weight": 0.119682
+    },
+    {
+     "concept": "CONCEPT_005",
+     "weight": 0.101925
+    },
+    {
+     "concept": "CONCEPT_072",
+     "weight": 0.020879
+    }
+   ],
+   "concept": "CONCEPT_045",
+   "contrasts_with": [
+    "CONCEPT_002",
+    "CONCEPT_015",
+    "CONCEPT_013"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_046": {
+   "anchor_evidence": "غنم",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_033",
+     "weight": 0.151234
+    },
+    {
+     "concept": "CONCEPT_005",
+     "weight": 0.099115
+    },
+    {
+     "concept": "CONCEPT_083",
+     "weight": 0.036565
+    },
+    {
+     "concept": "CONCEPT_019",
+     "weight": 0.022785
+    }
+   ],
+   "concept": "CONCEPT_046",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_047": {
+   "anchor_evidence": "ركع",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_032",
+     "weight": 0.179352
+    },
+    {
+     "concept": "CONCEPT_075",
+     "weight": 0.031926
+    }
+   ],
+   "concept": "CONCEPT_047",
+   "contrasts_with": [
+    "CONCEPT_018",
+    "CONCEPT_049",
+    "CONCEPT_013"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_048": {
+   "anchor_evidence": "قمص",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_039",
+     "weight": 0.65
+    },
+    {
+     "concept": "CONCEPT_076",
+     "weight": 0.349548
+    },
+    {
+     "concept": "CONCEPT_021",
+     "weight": 0.253406
+    },
+    {
+     "concept": "CONCEPT_089",
+     "weight": 0.195613
+    },
+    {
+     "concept": "CONCEPT_033",
+     "weight": 0.068723
+    }
+   ],
+   "concept": "CONCEPT_048",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_049": {
+   "anchor_evidence": "ليل",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_037",
+     "weight": 0.416298
+    },
+    {
+     "concept": "CONCEPT_016",
+     "weight": 0.174065
+    },
+    {
+     "concept": "CONCEPT_097",
+     "weight": 0.075828
+    },
+    {
+     "concept": "CONCEPT_006",
+     "weight": 0.071989
+    },
+    {
+     "concept": "CONCEPT_072",
+     "weight": 0.034097
+    }
+   ],
+   "concept": "CONCEPT_049",
+   "contrasts_with": [
+    "CONCEPT_063",
+    "CONCEPT_009",
+    "CONCEPT_035"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_050": {
+   "anchor_evidence": "خول",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_030",
+     "weight": 0.238448
+    },
+    {
+     "concept": "CONCEPT_004",
+     "weight": 0.097589
+    },
+    {
+     "concept": "CONCEPT_087",
+     "weight": 0.026326
+    },
+    {
+     "concept": "CONCEPT_035",
+     "weight": 0.02479
+    },
+    {
+     "concept": "CONCEPT_028",
+     "weight": 0.0201
+    }
+   ],
+   "concept": "CONCEPT_050",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_052": {
+   "anchor_evidence": "سدر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_042",
+     "weight": 0.232772
+    }
+   ],
+   "concept": "CONCEPT_052",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_053": {
+   "anchor_evidence": "عذب",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_088",
+     "weight": 0.506829
+    },
+    {
+     "concept": "CONCEPT_081",
+     "weight": 0.49296
+    },
+    {
+     "concept": "CONCEPT_007",
+     "weight": 0.186729
+    },
+    {
+     "concept": "CONCEPT_003",
+     "weight": 0.074836
+    },
+    {
+     "concept": "CONCEPT_061",
+     "weight": 0.062936
+    }
+   ],
+   "concept": "CONCEPT_053",
+   "contrasts_with": [],
+   "preceded_by": [
+    "CONCEPT_009",
+    "CONCEPT_013",
+    "CONCEPT_017"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_054": {
+   "anchor_evidence": "عقل",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_031",
+     "weight": 0.13681
+    },
+    {
+     "concept": "CONCEPT_027",
+     "weight": 0.11993
+    }
+   ],
+   "concept": "CONCEPT_054",
+   "contrasts_with": [
+    "CONCEPT_010",
+    "CONCEPT_078",
+    "CONCEPT_014"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_055": {
+   "anchor_evidence": "لغو",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_090",
+     "weight": 0.594493
+    },
+    {
+     "concept": "CONCEPT_038",
+     "weight": 0.233529
+    },
+    {
+     "concept": "CONCEPT_001",
+     "weight": 0.137149
+    },
+    {
+     "concept": "CONCEPT_002",
+     "weight": 0.114489
+    },
+    {
+     "concept": "CONCEPT_004",
+     "weight": 0.075754
+    }
+   ],
+   "concept": "CONCEPT_055",
+   "contrasts_with": [
+    "CONCEPT_018",
+    "CONCEPT_021",
+    "CONCEPT_006"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_056": {
+   "anchor_evidence": "هون",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_009",
+     "weight": 0.320686
+    },
+    {
+     "concept": "CONCEPT_022",
+     "weight": 0.097746
+    },
+    {
+     "concept": "CONCEPT_067",
+     "weight": 0.062354
+    },
+    {
+     "concept": "CONCEPT_078",
+     "weight": 0.033811
+    },
+    {
+     "concept": "CONCEPT_028",
+     "weight": 0.0279
+    }
+   ],
+   "concept": "CONCEPT_056",
+   "contrasts_with": [
+    "CONCEPT_063",
+    "CONCEPT_033",
+    "CONCEPT_067"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_057": {
+   "anchor_evidence": "حتم",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_045",
+     "weight": 0.194778
+    }
+   ],
+   "concept": "CONCEPT_057",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_058": {
+   "anchor_evidence": "عصم",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_077",
+     "weight": 0.258412
+    },
+    {
+     "concept": "CONCEPT_010",
+     "weight": 0.103587
+    },
+    {
+     "concept": "CONCEPT_017",
+     "weight": 0.022858
+    }
+   ],
+   "concept": "CONCEPT_058",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_059": {
+   "anchor_evidence": "قصر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_038",
+     "weight": 0.215184
+    },
+    {
+     "concept": "CONCEPT_082",
+     "weight": 0.214269
+    },
+    {
+     "concept": "CONCEPT_092",
+     "weight": 0.043762
+    },
+    {
+     "concept": "CONCEPT_080",
+     "weight": 0.022574
+    }
+   ],
+   "concept": "CONCEPT_059",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_060": {
+   "anchor_evidence": "سوا",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_034",
+     "weight": 0.244345
+    },
+    {
+     "concept": "CONCEPT_016",
+     "weight": 0.224389
+    },
+    {
+     "concept": "CONCEPT_097",
+     "weight": 0.080206
+    },
+    {
+     "concept": "CONCEPT_004",
+     "weight": 0.034193
+    },
+    {
+     "concept": "CONCEPT_007",
+     "weight": 0.025138
+    }
+   ],
+   "concept": "CONCEPT_060",
+   "contrasts_with": [
+    "CONCEPT_103"
+   ],
+   "preceded_by": [
+    "CONCEPT_011",
+    "CONCEPT_032",
+    "CONCEPT_040"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_061": {
+   "anchor_evidence": "رسل",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_085",
+     "weight": 0.280694
+    },
+    {
+     "concept": "CONCEPT_088",
+     "weight": 0.258007
+    },
+    {
+     "concept": "CONCEPT_034",
+     "weight": 0.195344
+    },
+    {
+     "concept": "CONCEPT_007",
+     "weight": 0.095912
+    },
+    {
+     "concept": "CONCEPT_084",
+     "weight": 0.095776
+    }
+   ],
+   "concept": "CONCEPT_061",
+   "contrasts_with": [],
+   "preceded_by": [
+    "CONCEPT_009",
+    "CONCEPT_011",
+    "CONCEPT_012"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_062": {
+   "anchor_evidence": "ضيق",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_010",
+     "weight": 0.164623
+    },
+    {
+     "concept": "CONCEPT_093",
+     "weight": 0.02101
+    }
+   ],
+   "concept": "CONCEPT_062",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_063": {
+   "anchor_evidence": "سحر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_025",
+     "weight": 0.345813
+    },
+    {
+     "concept": "CONCEPT_018",
+     "weight": 0.109937
+    },
+    {
+     "concept": "CONCEPT_092",
+     "weight": 0.036664
+    },
+    {
+     "concept": "CONCEPT_073",
+     "weight": 0.024164
+    }
+   ],
+   "concept": "CONCEPT_063",
+   "contrasts_with": [
+    "CONCEPT_049",
+    "CONCEPT_022",
+    "CONCEPT_010"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_066": {
+   "anchor_evidence": "صفف",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_017",
+     "weight": 0.200591
+    },
+    {
+     "concept": "CONCEPT_077",
+     "weight": 0.033634
+    }
+   ],
+   "concept": "CONCEPT_066",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": []
+  },
+  "CONCEPT_067": {
+   "anchor_evidence": "كفي",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_035",
+     "weight": 0.544835
+    },
+    {
+     "concept": "CONCEPT_009",
+     "weight": 0.461616
+    },
+    {
+     "concept": "CONCEPT_002",
+     "weight": 0.211333
+    },
+    {
+     "concept": "CONCEPT_091",
+     "weight": 0.067142
+    },
+    {
+     "concept": "CONCEPT_056",
+     "weight": 0.062354
+    }
+   ],
+   "concept": "CONCEPT_067",
+   "contrasts_with": [
+    "CONCEPT_049",
+    "CONCEPT_020",
+    "CONCEPT_025"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_068": {
+   "anchor_evidence": "وطر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_078",
+     "weight": 0.040027
+    }
+   ],
+   "concept": "CONCEPT_068",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007",
+    "CONCEPT_081"
+   ]
+  },
+  "CONCEPT_069": {
+   "anchor_evidence": "صعق",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_026",
+     "weight": 0.202374
+    },
+    {
+     "concept": "CONCEPT_042",
+     "weight": 0.025211
+    }
+   ],
+   "concept": "CONCEPT_069",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_070": {
+   "anchor_evidence": "خيل",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_023",
+     "weight": 0.161515
+    }
+   ],
+   "concept": "CONCEPT_070",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_071": {
+   "anchor_evidence": "جهد",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_010",
+     "weight": 0.29221
+    },
+    {
+     "concept": "CONCEPT_013",
+     "weight": 0.246847
+    },
+    {
+     "concept": "CONCEPT_005",
+     "weight": 0.079375
+    },
+    {
+     "concept": "CONCEPT_093",
+     "weight": 0.034219
+    },
+    {
+     "concept": "CONCEPT_083",
+     "weight": 0.033502
+    }
+   ],
+   "concept": "CONCEPT_071",
+   "contrasts_with": [
+    "CONCEPT_018",
+    "CONCEPT_006",
+    "CONCEPT_024"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_072": {
+   "anchor_evidence": "شرب",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_036",
+     "weight": 0.6
+    },
+    {
+     "concept": "CONCEPT_016",
+     "weight": 0.221944
+    },
+    {
+     "concept": "CONCEPT_020",
+     "weight": 0.134218
+    },
+    {
+     "concept": "CONCEPT_025",
+     "weight": 0.130049
+    },
+    {
+     "concept": "CONCEPT_027",
+     "weight": 0.118498
+    }
+   ],
+   "concept": "CONCEPT_072",
+   "contrasts_with": [
+    "CONCEPT_021",
+    "CONCEPT_091",
+    "CONCEPT_009"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_073": {
+   "anchor_evidence": "كتم",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_074",
+     "weight": 0.619641
+    },
+    {
+     "concept": "CONCEPT_025",
+     "weight": 0.232647
+    },
+    {
+     "concept": "CONCEPT_013",
+     "weight": 0.132536
+    },
+    {
+     "concept": "CONCEPT_079",
+     "weight": 0.105949
+    },
+    {
+     "concept": "CONCEPT_001",
+     "weight": 0.061567
+    }
+   ],
+   "concept": "CONCEPT_073",
+   "contrasts_with": [
+    "CONCEPT_049",
+    "CONCEPT_021",
+    "CONCEPT_005"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_074": {
+   "anchor_evidence": "شري",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_073",
+     "weight": 0.619641
+    },
+    {
+     "concept": "CONCEPT_079",
+     "weight": 0.266758
+    },
+    {
+     "concept": "CONCEPT_013",
+     "weight": 0.099946
+    },
+    {
+     "concept": "CONCEPT_015",
+     "weight": 0.051708
+    },
+    {
+     "concept": "CONCEPT_029",
+     "weight": 0.043098
+    }
+   ],
+   "concept": "CONCEPT_074",
+   "contrasts_with": [
+    "CONCEPT_049",
+    "CONCEPT_020",
+    "CONCEPT_028"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_075": {
+   "anchor_evidence": "عزم",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_029",
+     "weight": 0.196329
+    },
+    {
+     "concept": "CONCEPT_090",
+     "weight": 0.04578
+    },
+    {
+     "concept": "CONCEPT_055",
+     "weight": 0.034408
+    },
+    {
+     "concept": "CONCEPT_047",
+     "weight": 0.031926
+    },
+    {
+     "concept": "CONCEPT_032",
+     "weight": 0.028861
+    }
+   ],
+   "concept": "CONCEPT_075",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_076": {
+   "anchor_evidence": "قمص",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_039",
+     "weight": 0.388176
+    },
+    {
+     "concept": "CONCEPT_048",
+     "weight": 0.349548
+    },
+    {
+     "concept": "CONCEPT_021",
+     "weight": 0.280389
+    },
+    {
+     "concept": "CONCEPT_089",
+     "weight": 0.118047
+    },
+    {
+     "concept": "CONCEPT_033",
+     "weight": 0.025962
+    }
+   ],
+   "concept": "CONCEPT_076",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_077": {
+   "anchor_evidence": "نقذ",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_017",
+     "weight": 0.398683
+    },
+    {
+     "concept": "CONCEPT_058",
+     "weight": 0.258412
+    },
+    {
+     "concept": "CONCEPT_037",
+     "weight": 0.20007
+    },
+    {
+     "concept": "CONCEPT_049",
+     "weight": 0.033868
+    },
+    {
+     "concept": "CONCEPT_066",
+     "weight": 0.033634
+    }
+   ],
+   "concept": "CONCEPT_077",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_078": {
+   "anchor_evidence": "زوج",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_001",
+     "weight": 0.087941
+    },
+    {
+     "concept": "CONCEPT_068",
+     "weight": 0.040027
+    },
+    {
+     "concept": "CONCEPT_083",
+     "weight": 0.038842
+    },
+    {
+     "concept": "CONCEPT_053",
+     "weight": 0.034468
+    },
+    {
+     "concept": "CONCEPT_056",
+     "weight": 0.033811
+    }
+   ],
+   "concept": "CONCEPT_078",
+   "contrasts_with": [
+    "CONCEPT_037",
+    "CONCEPT_019",
+    "CONCEPT_054"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_079": {
+   "anchor_evidence": "زلل",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_098",
+     "weight": 0.269426
+    },
+    {
+     "concept": "CONCEPT_074",
+     "weight": 0.266758
+    },
+    {
+     "concept": "CONCEPT_019",
+     "weight": 0.252178
+    },
+    {
+     "concept": "CONCEPT_027",
+     "weight": 0.144733
+    },
+    {
+     "concept": "CONCEPT_073",
+     "weight": 0.105949
+    }
+   ],
+   "concept": "CONCEPT_079",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_080": {
+   "anchor_evidence": "غلب",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_098",
+     "weight": 0.247531
+    },
+    {
+     "concept": "CONCEPT_038",
+     "weight": 0.242094
+    },
+    {
+     "concept": "CONCEPT_019",
+     "weight": 0.026645
+    },
+    {
+     "concept": "CONCEPT_093",
+     "weight": 0.024876
+    },
+    {
+     "concept": "CONCEPT_079",
+     "weight": 0.023932
+    }
+   ],
+   "concept": "CONCEPT_080",
+   "contrasts_with": [
+    "CONCEPT_005",
+    "CONCEPT_097",
+    "CONCEPT_078"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_081": {
+   "anchor_evidence": "اله",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_053",
+     "weight": 0.49296
+    },
+    {
+     "concept": "CONCEPT_007",
+     "weight": 0.408033
+    },
+    {
+     "concept": "CONCEPT_088",
+     "weight": 0.289394
+    },
+    {
+     "concept": "CONCEPT_084",
+     "weight": 0.096649
+    },
+    {
+     "concept": "CONCEPT_003",
+     "weight": 0.080974
+    }
+   ],
+   "concept": "CONCEPT_081",
+   "contrasts_with": [],
+   "preceded_by": [
+    "CONCEPT_009",
+    "CONCEPT_010",
+    "CONCEPT_012"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_082": {
+   "anchor_evidence": "الو",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_092",
+     "weight": 0.666667
+    },
+    {
+     "concept": "CONCEPT_059",
+     "weight": 0.214269
+    },
+    {
+     "concept": "CONCEPT_011",
+     "weight": 0.1272
+    },
+    {
+     "concept": "CONCEPT_025",
+     "weight": 0.030574
+    },
+    {
+     "concept": "CONCEPT_094",
+     "weight": 0.020019
+    }
+   ],
+   "concept": "CONCEPT_082",
+   "contrasts_with": [
+    "CONCEPT_018",
+    "CONCEPT_020",
+    "CONCEPT_021"
+   ],
+   "preceded_by": [],
+   "requires": []
+  },
+  "CONCEPT_083": {
+   "anchor_evidence": "انث",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_005",
+     "weight": 0.191918
+    },
+    {
+     "concept": "CONCEPT_002",
+     "weight": 0.078272
+    },
+    {
+     "concept": "CONCEPT_078",
+     "weight": 0.038842
+    },
+    {
+     "concept": "CONCEPT_046",
+     "weight": 0.036565
+    },
+    {
+     "concept": "CONCEPT_071",
+     "weight": 0.033502
+    }
+   ],
+   "concept": "CONCEPT_083",
+   "contrasts_with": [
+    "CONCEPT_010",
+    "CONCEPT_024",
+    "CONCEPT_037"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_084": {
+   "anchor_evidence": "قوم",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_007",
+     "weight": 0.293692
+    },
+    {
+     "concept": "CONCEPT_085",
+     "weight": 0.276208
+    },
+    {
+     "concept": "CONCEPT_081",
+     "weight": 0.096649
+    },
+    {
+     "concept": "CONCEPT_061",
+     "weight": 0.095776
+    },
+    {
+     "concept": "CONCEPT_053",
+     "weight": 0.057113
+    }
+   ],
+   "concept": "CONCEPT_084",
+   "contrasts_with": [],
+   "preceded_by": [
+    "CONCEPT_005",
+    "CONCEPT_011",
+    "CONCEPT_012"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_085": {
+   "anchor_evidence": "رسل",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_061",
+     "weight": 0.280694
+    },
+    {
+     "concept": "CONCEPT_084",
+     "weight": 0.276208
+    },
+    {
+     "concept": "CONCEPT_088",
+     "weight": 0.268129
+    },
+    {
+     "concept": "CONCEPT_007",
+     "weight": 0.079027
+    },
+    {
+     "concept": "CONCEPT_081",
+     "weight": 0.06925
+    }
+   ],
+   "concept": "CONCEPT_085",
+   "contrasts_with": [],
+   "preceded_by": [
+    "CONCEPT_009",
+    "CONCEPT_010",
+    "CONCEPT_011"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_086": {
+   "anchor_evidence": "حيف",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_024",
+     "weight": 0.24631
+    },
+    {
+     "concept": "CONCEPT_035",
+     "weight": 0.042191
+    }
+   ],
+   "concept": "CONCEPT_086",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": []
+  },
+  "CONCEPT_087": {
+   "anchor_evidence": "برهن",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_030",
+     "weight": 0.231717
+    },
+    {
+     "concept": "CONCEPT_001",
+     "weight": 0.056664
+    },
+    {
+     "concept": "CONCEPT_050",
+     "weight": 0.026326
+    },
+    {
+     "concept": "CONCEPT_089",
+     "weight": 0.020847
+    }
+   ],
+   "concept": "CONCEPT_087",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_088": {
+   "anchor_evidence": "رسل",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_053",
+     "weight": 0.506829
+    },
+    {
+     "concept": "CONCEPT_081",
+     "weight": 0.289394
+    },
+    {
+     "concept": "CONCEPT_085",
+     "weight": 0.268129
+    },
+    {
+     "concept": "CONCEPT_061",
+     "weight": 0.258007
+    },
+    {
+     "concept": "CONCEPT_007",
+     "weight": 0.128292
+    }
+   ],
+   "concept": "CONCEPT_088",
+   "contrasts_with": [],
+   "preceded_by": [
+    "CONCEPT_009",
+    "CONCEPT_010",
+    "CONCEPT_012"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_089": {
+   "anchor_evidence": "عصر",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_039",
+     "weight": 0.59138
+    },
+    {
+     "concept": "CONCEPT_021",
+     "weight": 0.336688
+    },
+    {
+     "concept": "CONCEPT_036",
+     "weight": 0.220327
+    },
+    {
+     "concept": "CONCEPT_030",
+     "weight": 0.219708
+    },
+    {
+     "concept": "CONCEPT_048",
+     "weight": 0.195613
+    }
+   ],
+   "concept": "CONCEPT_089",
+   "contrasts_with": [],
+   "preceded_by": [
+    "CONCEPT_039"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_090": {
+   "anchor_evidence": "حلل",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_055",
+     "weight": 0.594493
+    },
+    {
+     "concept": "CONCEPT_001",
+     "weight": 0.183683
+    },
+    {
+     "concept": "CONCEPT_004",
+     "weight": 0.163887
+    },
+    {
+     "concept": "CONCEPT_002",
+     "weight": 0.147258
+    },
+    {
+     "concept": "CONCEPT_091",
+     "weight": 0.076823
+    }
+   ],
+   "concept": "CONCEPT_090",
+   "contrasts_with": [
+    "CONCEPT_018",
+    "CONCEPT_024",
+    "CONCEPT_097"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007",
+    "CONCEPT_002"
+   ]
+  },
+  "CONCEPT_091": {
+   "anchor_evidence": "عرف",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_035",
+     "weight": 0.5054
+    },
+    {
+     "concept": "CONCEPT_002",
+     "weight": 0.158082
+    },
+    {
+     "concept": "CONCEPT_001",
+     "weight": 0.138826
+    },
+    {
+     "concept": "CONCEPT_027",
+     "weight": 0.128378
+    },
+    {
+     "concept": "CONCEPT_015",
+     "weight": 0.114113
+    }
+   ],
+   "concept": "CONCEPT_091",
+   "contrasts_with": [
+    "CONCEPT_018",
+    "CONCEPT_020",
+    "CONCEPT_005"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_002",
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_092": {
+   "anchor_evidence": "نحت",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_082",
+     "weight": 0.666667
+    },
+    {
+     "concept": "CONCEPT_025",
+     "weight": 0.144685
+    },
+    {
+     "concept": "CONCEPT_011",
+     "weight": 0.140602
+    },
+    {
+     "concept": "CONCEPT_059",
+     "weight": 0.043762
+    },
+    {
+     "concept": "CONCEPT_063",
+     "weight": 0.036664
+    }
+   ],
+   "concept": "CONCEPT_092",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_093": {
+   "anchor_evidence": "عوم",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_038",
+     "weight": 0.236892
+    },
+    {
+     "concept": "CONCEPT_032",
+     "weight": 0.227417
+    },
+    {
+     "concept": "CONCEPT_010",
+     "weight": 0.220323
+    },
+    {
+     "concept": "CONCEPT_071",
+     "weight": 0.034219
+    },
+    {
+     "concept": "CONCEPT_080",
+     "weight": 0.024876
+    }
+   ],
+   "concept": "CONCEPT_093",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_094": {
+   "anchor_evidence": "بغت",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_011",
+     "weight": 0.022008
+    },
+    {
+     "concept": "CONCEPT_082",
+     "weight": 0.020019
+    },
+    {
+     "concept": "CONCEPT_092",
+     "weight": 0.020019
+    }
+   ],
+   "concept": "CONCEPT_094",
+   "contrasts_with": [
+    "CONCEPT_020",
+    "CONCEPT_028",
+    "CONCEPT_010"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_097": {
+   "anchor_evidence": "جري",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_016",
+     "weight": 0.30134
+    },
+    {
+     "concept": "CONCEPT_004",
+     "weight": 0.108655
+    },
+    {
+     "concept": "CONCEPT_060",
+     "weight": 0.080206
+    },
+    {
+     "concept": "CONCEPT_049",
+     "weight": 0.075828
+    },
+    {
+     "concept": "CONCEPT_034",
+     "weight": 0.027712
+    }
+   ],
+   "concept": "CONCEPT_097",
+   "contrasts_with": [
+    "CONCEPT_023",
+    "CONCEPT_090",
+    "CONCEPT_063"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_098": {
+   "anchor_evidence": "غرف",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_079",
+     "weight": 0.269426
+    },
+    {
+     "concept": "CONCEPT_080",
+     "weight": 0.247531
+    },
+    {
+     "concept": "CONCEPT_019",
+     "weight": 0.113769
+    },
+    {
+     "concept": "CONCEPT_015",
+     "weight": 0.034664
+    },
+    {
+     "concept": "CONCEPT_073",
+     "weight": 0.022294
+    }
+   ],
+   "concept": "CONCEPT_098",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_099": {
+   "anchor_evidence": "درج",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_038",
+     "weight": 0.221268
+    },
+    {
+     "concept": "CONCEPT_055",
+     "weight": 0.022124
+    },
+    {
+     "concept": "CONCEPT_080",
+     "weight": 0.021934
+    },
+    {
+     "concept": "CONCEPT_093",
+     "weight": 0.020625
+    }
+   ],
+   "concept": "CONCEPT_099",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_101": {
+   "anchor_evidence": "كهف",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_040",
+     "weight": 0.603164
+    },
+    {
+     "concept": "CONCEPT_018",
+     "weight": 0.23366
+    },
+    {
+     "concept": "CONCEPT_006",
+     "weight": 0.216234
+    },
+    {
+     "concept": "CONCEPT_004",
+     "weight": 0.104528
+    },
+    {
+     "concept": "CONCEPT_103",
+     "weight": 0.024243
+    }
+   ],
+   "concept": "CONCEPT_101",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_102": {
+   "anchor_evidence": "جسس",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_010",
+     "weight": 0.024092
+    }
+   ],
+   "concept": "CONCEPT_102",
+   "contrasts_with": [],
+   "preceded_by": [],
+   "requires": []
+  },
+  "CONCEPT_103": {
+   "anchor_evidence": "مري",
+   "associated_with": [
+    {
+     "concept": "CONCEPT_006",
+     "weight": 0.124144
+    },
+    {
+     "concept": "CONCEPT_101",
+     "weight": 0.024243
+    },
+    {
+     "concept": "CONCEPT_080",
+     "weight": 0.021991
+    }
+   ],
+   "concept": "CONCEPT_103",
+   "contrasts_with": [
+    "CONCEPT_060",
+    "CONCEPT_049",
+    "CONCEPT_020"
+   ],
+   "preceded_by": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  }
+ },
+ "format": "CONCEPT_X defined using {associated, requires, contrasts, preceded_by} — all concepts",
+ "method": "sigma-semantics-1.0",
+ "n_entries": 89,
+ "no_external_language": true
+}

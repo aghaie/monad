@@ -1,0 +1,1636 @@
+{
+ "concepts": {
+  "CONCEPT_005": {
+   "amplifies_neighbors": [
+    "CONCEPT_083",
+    "CONCEPT_024",
+    "CONCEPT_072"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_091",
+    "CONCEPT_012",
+    "CONCEPT_009"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_045",
+    "CONCEPT_072"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_006": {
+   "amplifies_neighbors": [
+    "CONCEPT_101",
+    "CONCEPT_103",
+    "CONCEPT_040"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_091",
+    "CONCEPT_063",
+    "CONCEPT_009"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_101",
+    "CONCEPT_044"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_007": {
+   "amplifies_neighbors": [
+    "CONCEPT_081",
+    "CONCEPT_084",
+    "CONCEPT_053"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [],
+   "preceded_by_causes": [],
+   "requires": []
+  },
+  "CONCEPT_008": {
+   "amplifies_neighbors": [
+    "CONCEPT_017",
+    "CONCEPT_030",
+    "CONCEPT_045"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_027",
+    "CONCEPT_031"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_014",
+    "CONCEPT_031",
+    "CONCEPT_038"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_009": {
+   "amplifies_neighbors": [
+    "CONCEPT_067",
+    "CONCEPT_056",
+    "CONCEPT_002"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_049",
+    "CONCEPT_020",
+    "CONCEPT_025"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_067"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_010": {
+   "amplifies_neighbors": [
+    "CONCEPT_071",
+    "CONCEPT_093",
+    "CONCEPT_062"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_054",
+    "CONCEPT_063",
+    "CONCEPT_067"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_071",
+    "CONCEPT_093"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_011": {
+   "amplifies_neighbors": [
+    "CONCEPT_025",
+    "CONCEPT_092",
+    "CONCEPT_037"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_018",
+    "CONCEPT_078",
+    "CONCEPT_014"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_012": {
+   "amplifies_neighbors": [
+    "CONCEPT_044",
+    "CONCEPT_004",
+    "CONCEPT_027"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_005",
+    "CONCEPT_019",
+    "CONCEPT_023"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_014": {
+   "amplifies_neighbors": [
+    "CONCEPT_020"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_037",
+    "CONCEPT_054",
+    "CONCEPT_063"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_015": {
+   "amplifies_neighbors": [
+    "CONCEPT_091",
+    "CONCEPT_019",
+    "CONCEPT_011"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_045"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_011"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_073"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_016": {
+   "amplifies_neighbors": [
+    "CONCEPT_097",
+    "CONCEPT_060",
+    "CONCEPT_072"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_097",
+    "CONCEPT_077"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_010",
+    "CONCEPT_011",
+    "CONCEPT_012"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_018": {
+   "amplifies_neighbors": [
+    "CONCEPT_101",
+    "CONCEPT_029",
+    "CONCEPT_063"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_090",
+    "CONCEPT_091",
+    "CONCEPT_035"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_063"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_063"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_019": {
+   "amplifies_neighbors": [
+    "CONCEPT_079",
+    "CONCEPT_038",
+    "CONCEPT_027"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_078",
+    "CONCEPT_012",
+    "CONCEPT_063"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_040",
+    "CONCEPT_079"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_020": {
+   "amplifies_neighbors": [
+    "CONCEPT_042",
+    "CONCEPT_072",
+    "CONCEPT_001"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_032",
+    "CONCEPT_091",
+    "CONCEPT_009"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_072"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_021": {
+   "amplifies_neighbors": [
+    "CONCEPT_039",
+    "CONCEPT_089",
+    "CONCEPT_076"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_072",
+    "CONCEPT_009",
+    "CONCEPT_082"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_039",
+    "CONCEPT_089"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_039",
+    "CONCEPT_089"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_022": {
+   "amplifies_neighbors": [
+    "CONCEPT_056",
+    "CONCEPT_002",
+    "CONCEPT_001"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_063",
+    "CONCEPT_038",
+    "CONCEPT_036"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_023": {
+   "amplifies_neighbors": [
+    "CONCEPT_070",
+    "CONCEPT_005"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_097",
+    "CONCEPT_026",
+    "CONCEPT_032"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_070"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_024": {
+   "amplifies_neighbors": [
+    "CONCEPT_086",
+    "CONCEPT_042",
+    "CONCEPT_037"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_090",
+    "CONCEPT_063",
+    "CONCEPT_009"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_037",
+    "CONCEPT_042"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_025": {
+   "amplifies_neighbors": [
+    "CONCEPT_063",
+    "CONCEPT_073",
+    "CONCEPT_011"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_009",
+    "CONCEPT_067",
+    "CONCEPT_103"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_092",
+    "CONCEPT_072"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_026": {
+   "amplifies_neighbors": [
+    "CONCEPT_069",
+    "CONCEPT_024",
+    "CONCEPT_080"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_023",
+    "CONCEPT_063",
+    "CONCEPT_009"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_069"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_027": {
+   "amplifies_neighbors": [
+    "CONCEPT_013",
+    "CONCEPT_001",
+    "CONCEPT_019"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_018",
+    "CONCEPT_037",
+    "CONCEPT_056"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_036"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_028": {
+   "amplifies_neighbors": [
+    "CONCEPT_029",
+    "CONCEPT_030",
+    "CONCEPT_025"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_042",
+    "CONCEPT_074",
+    "CONCEPT_045"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_030"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_058"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_029": {
+   "amplifies_neighbors": [
+    "CONCEPT_028",
+    "CONCEPT_075",
+    "CONCEPT_018"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_081"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007",
+    "CONCEPT_081"
+   ]
+  },
+  "CONCEPT_030": {
+   "amplifies_neighbors": [
+    "CONCEPT_050",
+    "CONCEPT_087",
+    "CONCEPT_089"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_009",
+    "CONCEPT_080",
+    "CONCEPT_067"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_089"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_031": {
+   "amplifies_neighbors": [
+    "CONCEPT_054"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_032": {
+   "amplifies_neighbors": [
+    "CONCEPT_093",
+    "CONCEPT_047",
+    "CONCEPT_010"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_020",
+    "CONCEPT_023",
+    "CONCEPT_044"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_093"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_033": {
+   "amplifies_neighbors": [
+    "CONCEPT_046",
+    "CONCEPT_039",
+    "CONCEPT_089"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_054",
+    "CONCEPT_056",
+    "CONCEPT_063"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_046"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_046"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_034": {
+   "amplifies_neighbors": [
+    "CONCEPT_060",
+    "CONCEPT_061",
+    "CONCEPT_003"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_099",
+    "CONCEPT_079"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_001",
+    "CONCEPT_002",
+    "CONCEPT_009"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_035": {
+   "amplifies_neighbors": [
+    "CONCEPT_067",
+    "CONCEPT_091",
+    "CONCEPT_002"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_018",
+    "CONCEPT_049",
+    "CONCEPT_020"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_067"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_036": {
+   "amplifies_neighbors": [
+    "CONCEPT_072",
+    "CONCEPT_089",
+    "CONCEPT_030"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_022",
+    "CONCEPT_010",
+    "CONCEPT_024"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_089",
+    "CONCEPT_027"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_037": {
+   "amplifies_neighbors": [
+    "CONCEPT_049",
+    "CONCEPT_077",
+    "CONCEPT_011"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_078",
+    "CONCEPT_014",
+    "CONCEPT_091"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_038": {
+   "amplifies_neighbors": [
+    "CONCEPT_080",
+    "CONCEPT_093",
+    "CONCEPT_055"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_022",
+    "CONCEPT_097",
+    "CONCEPT_012"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_093"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_039": {
+   "amplifies_neighbors": [
+    "CONCEPT_048",
+    "CONCEPT_089",
+    "CONCEPT_021"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_048",
+    "CONCEPT_089"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_048",
+    "CONCEPT_076",
+    "CONCEPT_089"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_040": {
+   "amplifies_neighbors": [
+    "CONCEPT_101",
+    "CONCEPT_006",
+    "CONCEPT_004"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_023",
+    "CONCEPT_090",
+    "CONCEPT_054"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_101"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_042": {
+   "amplifies_neighbors": [
+    "CONCEPT_052",
+    "CONCEPT_020",
+    "CONCEPT_024"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_028",
+    "CONCEPT_021",
+    "CONCEPT_010"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_044": {
+   "amplifies_neighbors": [
+    "CONCEPT_012",
+    "CONCEPT_006",
+    "CONCEPT_010"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_005",
+    "CONCEPT_014",
+    "CONCEPT_037"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_045": {
+   "amplifies_neighbors": [
+    "CONCEPT_057",
+    "CONCEPT_008",
+    "CONCEPT_005"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_002",
+    "CONCEPT_015",
+    "CONCEPT_013"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_046": {
+   "amplifies_neighbors": [
+    "CONCEPT_033",
+    "CONCEPT_005",
+    "CONCEPT_083"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_047": {
+   "amplifies_neighbors": [
+    "CONCEPT_032",
+    "CONCEPT_075"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_018",
+    "CONCEPT_049",
+    "CONCEPT_013"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_048": {
+   "amplifies_neighbors": [
+    "CONCEPT_039",
+    "CONCEPT_076",
+    "CONCEPT_021"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_076",
+    "CONCEPT_039"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_049": {
+   "amplifies_neighbors": [
+    "CONCEPT_037",
+    "CONCEPT_016",
+    "CONCEPT_097"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_063",
+    "CONCEPT_009",
+    "CONCEPT_035"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_097",
+    "CONCEPT_037"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_050": {
+   "amplifies_neighbors": [
+    "CONCEPT_030",
+    "CONCEPT_004",
+    "CONCEPT_087"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_052": {
+   "amplifies_neighbors": [
+    "CONCEPT_042"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_053": {
+   "amplifies_neighbors": [
+    "CONCEPT_088",
+    "CONCEPT_081",
+    "CONCEPT_007"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_088",
+    "CONCEPT_079"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_009",
+    "CONCEPT_013",
+    "CONCEPT_017"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_054": {
+   "amplifies_neighbors": [
+    "CONCEPT_031",
+    "CONCEPT_027"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_010",
+    "CONCEPT_078",
+    "CONCEPT_014"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_055": {
+   "amplifies_neighbors": [
+    "CONCEPT_090",
+    "CONCEPT_038",
+    "CONCEPT_001"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_018",
+    "CONCEPT_021",
+    "CONCEPT_006"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_056": {
+   "amplifies_neighbors": [
+    "CONCEPT_009",
+    "CONCEPT_022",
+    "CONCEPT_067"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_063",
+    "CONCEPT_033",
+    "CONCEPT_067"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_057": {
+   "amplifies_neighbors": [
+    "CONCEPT_045"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_058": {
+   "amplifies_neighbors": [
+    "CONCEPT_077",
+    "CONCEPT_010",
+    "CONCEPT_017"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_077"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_059": {
+   "amplifies_neighbors": [
+    "CONCEPT_038",
+    "CONCEPT_082",
+    "CONCEPT_092"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_060": {
+   "amplifies_neighbors": [
+    "CONCEPT_034",
+    "CONCEPT_016",
+    "CONCEPT_097"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_103"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_048",
+    "CONCEPT_039"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_011",
+    "CONCEPT_032",
+    "CONCEPT_040"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_061": {
+   "amplifies_neighbors": [
+    "CONCEPT_085",
+    "CONCEPT_088",
+    "CONCEPT_034"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_085",
+    "CONCEPT_101"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_009",
+    "CONCEPT_011",
+    "CONCEPT_012"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_062": {
+   "amplifies_neighbors": [
+    "CONCEPT_010",
+    "CONCEPT_093"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_063": {
+   "amplifies_neighbors": [
+    "CONCEPT_025",
+    "CONCEPT_018",
+    "CONCEPT_092"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_049",
+    "CONCEPT_022",
+    "CONCEPT_010"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_066": {
+   "amplifies_neighbors": [
+    "CONCEPT_017",
+    "CONCEPT_077"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [],
+   "preceded_by_causes": [],
+   "requires": []
+  },
+  "CONCEPT_067": {
+   "amplifies_neighbors": [
+    "CONCEPT_035",
+    "CONCEPT_009",
+    "CONCEPT_002"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_049",
+    "CONCEPT_020",
+    "CONCEPT_025"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_009",
+    "CONCEPT_035"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_068": {
+   "amplifies_neighbors": [
+    "CONCEPT_078"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_081"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007",
+    "CONCEPT_081"
+   ]
+  },
+  "CONCEPT_069": {
+   "amplifies_neighbors": [
+    "CONCEPT_026",
+    "CONCEPT_042"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_070": {
+   "amplifies_neighbors": [
+    "CONCEPT_023"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_071": {
+   "amplifies_neighbors": [
+    "CONCEPT_010",
+    "CONCEPT_013",
+    "CONCEPT_005"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_018",
+    "CONCEPT_006",
+    "CONCEPT_024"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_072": {
+   "amplifies_neighbors": [
+    "CONCEPT_036",
+    "CONCEPT_016",
+    "CONCEPT_020"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_021",
+    "CONCEPT_091",
+    "CONCEPT_009"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_036",
+    "CONCEPT_027"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_073": {
+   "amplifies_neighbors": [
+    "CONCEPT_074",
+    "CONCEPT_025",
+    "CONCEPT_013"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_049",
+    "CONCEPT_021",
+    "CONCEPT_005"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_074"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_074": {
+   "amplifies_neighbors": [
+    "CONCEPT_073",
+    "CONCEPT_079",
+    "CONCEPT_013"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_049",
+    "CONCEPT_020",
+    "CONCEPT_028"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_073"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_075": {
+   "amplifies_neighbors": [
+    "CONCEPT_029",
+    "CONCEPT_090",
+    "CONCEPT_055"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_076": {
+   "amplifies_neighbors": [
+    "CONCEPT_039",
+    "CONCEPT_048",
+    "CONCEPT_021"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_048"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_077": {
+   "amplifies_neighbors": [
+    "CONCEPT_017",
+    "CONCEPT_058",
+    "CONCEPT_037"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_078": {
+   "amplifies_neighbors": [
+    "CONCEPT_001",
+    "CONCEPT_068",
+    "CONCEPT_083"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_037",
+    "CONCEPT_019",
+    "CONCEPT_054"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_079": {
+   "amplifies_neighbors": [
+    "CONCEPT_098",
+    "CONCEPT_074",
+    "CONCEPT_019"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_080": {
+   "amplifies_neighbors": [
+    "CONCEPT_098",
+    "CONCEPT_038",
+    "CONCEPT_019"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_005",
+    "CONCEPT_097",
+    "CONCEPT_078"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_098"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_081": {
+   "amplifies_neighbors": [
+    "CONCEPT_053",
+    "CONCEPT_007",
+    "CONCEPT_088"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_029",
+    "CONCEPT_068"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_009",
+    "CONCEPT_010",
+    "CONCEPT_012"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_082": {
+   "amplifies_neighbors": [
+    "CONCEPT_092",
+    "CONCEPT_059",
+    "CONCEPT_011"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_018",
+    "CONCEPT_020",
+    "CONCEPT_021"
+   ],
+   "depends_out": [
+    "CONCEPT_059"
+   ],
+   "preceded_by_causes": [],
+   "requires": []
+  },
+  "CONCEPT_083": {
+   "amplifies_neighbors": [
+    "CONCEPT_005",
+    "CONCEPT_002",
+    "CONCEPT_078"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_010",
+    "CONCEPT_024",
+    "CONCEPT_037"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_084": {
+   "amplifies_neighbors": [
+    "CONCEPT_007",
+    "CONCEPT_085",
+    "CONCEPT_081"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_079",
+    "CONCEPT_069"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_005",
+    "CONCEPT_011",
+    "CONCEPT_012"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_085": {
+   "amplifies_neighbors": [
+    "CONCEPT_061",
+    "CONCEPT_084",
+    "CONCEPT_088"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_095",
+    "CONCEPT_029"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_009",
+    "CONCEPT_010",
+    "CONCEPT_011"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_086": {
+   "amplifies_neighbors": [
+    "CONCEPT_024",
+    "CONCEPT_035"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [],
+   "preceded_by_causes": [],
+   "requires": []
+  },
+  "CONCEPT_087": {
+   "amplifies_neighbors": [
+    "CONCEPT_030",
+    "CONCEPT_001",
+    "CONCEPT_050"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_088": {
+   "amplifies_neighbors": [
+    "CONCEPT_053",
+    "CONCEPT_081",
+    "CONCEPT_085"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_053",
+    "CONCEPT_085"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_009",
+    "CONCEPT_010",
+    "CONCEPT_012"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_089": {
+   "amplifies_neighbors": [
+    "CONCEPT_039",
+    "CONCEPT_021",
+    "CONCEPT_036"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_039"
+   ],
+   "preceded_by_causes": [
+    "CONCEPT_039"
+   ],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_090": {
+   "amplifies_neighbors": [
+    "CONCEPT_055",
+    "CONCEPT_001",
+    "CONCEPT_004"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_018",
+    "CONCEPT_024",
+    "CONCEPT_097"
+   ],
+   "depends_out": [
+    "CONCEPT_007",
+    "CONCEPT_002",
+    "CONCEPT_055"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007",
+    "CONCEPT_002"
+   ]
+  },
+  "CONCEPT_091": {
+   "amplifies_neighbors": [
+    "CONCEPT_035",
+    "CONCEPT_002",
+    "CONCEPT_001"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_018",
+    "CONCEPT_020",
+    "CONCEPT_005"
+   ],
+   "depends_out": [
+    "CONCEPT_002",
+    "CONCEPT_007",
+    "CONCEPT_035"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_002",
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_092": {
+   "amplifies_neighbors": [
+    "CONCEPT_082",
+    "CONCEPT_025",
+    "CONCEPT_011"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_093": {
+   "amplifies_neighbors": [
+    "CONCEPT_038",
+    "CONCEPT_032",
+    "CONCEPT_010"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_094": {
+   "amplifies_neighbors": [
+    "CONCEPT_011",
+    "CONCEPT_082",
+    "CONCEPT_092"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_020",
+    "CONCEPT_028",
+    "CONCEPT_010"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_097": {
+   "amplifies_neighbors": [
+    "CONCEPT_016",
+    "CONCEPT_004",
+    "CONCEPT_060"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_023",
+    "CONCEPT_090",
+    "CONCEPT_063"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_098": {
+   "amplifies_neighbors": [
+    "CONCEPT_079",
+    "CONCEPT_080",
+    "CONCEPT_019"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_099": {
+   "amplifies_neighbors": [
+    "CONCEPT_038",
+    "CONCEPT_055",
+    "CONCEPT_080"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_101": {
+   "amplifies_neighbors": [
+    "CONCEPT_040",
+    "CONCEPT_018",
+    "CONCEPT_006"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  },
+  "CONCEPT_102": {
+   "amplifies_neighbors": [
+    "CONCEPT_010"
+   ],
+   "blocks_excludes": [],
+   "depends_out": [],
+   "preceded_by_causes": [],
+   "requires": []
+  },
+  "CONCEPT_103": {
+   "amplifies_neighbors": [
+    "CONCEPT_006",
+    "CONCEPT_101",
+    "CONCEPT_080"
+   ],
+   "blocks_excludes": [
+    "CONCEPT_060",
+    "CONCEPT_049",
+    "CONCEPT_020"
+   ],
+   "depends_out": [
+    "CONCEPT_007"
+   ],
+   "preceded_by_causes": [],
+   "requires": [
+    "CONCEPT_007"
+   ]
+  }
+ },
+ "definition": "functional role per concept: causes / requires / blocks / amplifies (all concepts)",
+ "method": "sigma-semantics-1.0",
+ "n_concepts": 89
+}

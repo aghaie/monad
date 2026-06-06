@@ -1,0 +1,92 @@
+{
+ "definition": "semantic anchor = high definitional centrality BEYOND frequency expectation (residual). Distinct from the frequency hub.",
+ "finding": "the genuine semantic anchors (high residual) are NOT the frequency hub: CONCEPT_007 has residual -81.4. Definitional centrality differs from frequency centrality — the semantic network has its own structure.",
+ "frequency_hub_as_semantic_anchor": {
+  "concept": "CONCEPT_007",
+  "is_semantic_anchor": false,
+  "residual": -81.417371
+ },
+ "method": "sigma-semantics-1.0",
+ "top_semantic_anchors": [
+  {
+   "anchor": "ربو",
+   "concept": "CONCEPT_027",
+   "definitional_centrality": 12,
+   "frequency_expected": 0.796089,
+   "marginal": 52,
+   "residual": 11.203911
+  },
+  {
+   "anchor": "عصر",
+   "concept": "CONCEPT_089",
+   "definitional_centrality": 8,
+   "frequency_expected": 0.321498,
+   "marginal": 21,
+   "residual": 7.678502
+  },
+  {
+   "anchor": "يسر",
+   "concept": "CONCEPT_001",
+   "definitional_centrality": 14,
+   "frequency_expected": 6.567737,
+   "marginal": 429,
+   "residual": 7.432263
+  },
+  {
+   "anchor": "عوم",
+   "concept": "CONCEPT_093",
+   "definitional_centrality": 7,
+   "frequency_expected": 0.183713,
+   "marginal": 12,
+   "residual": 6.816287
+  },
+  {
+   "anchor": "كتم",
+   "concept": "CONCEPT_073",
+   "definitional_centrality": 7,
+   "frequency_expected": 0.734852,
+   "marginal": 48,
+   "residual": 6.265148
+  },
+  {
+   "anchor": "لبث",
+   "concept": "CONCEPT_038",
+   "definitional_centrality": 7,
+   "frequency_expected": 0.811399,
+   "marginal": 53,
+   "residual": 6.188601
+  },
+  {
+   "anchor": "غلب",
+   "concept": "CONCEPT_080",
+   "definitional_centrality": 7,
+   "frequency_expected": 0.857327,
+   "marginal": 56,
+   "residual": 6.142673
+  },
+  {
+   "anchor": "فقر",
+   "concept": "CONCEPT_035",
+   "definitional_centrality": 7,
+   "frequency_expected": 0.887946,
+   "marginal": 58,
+   "residual": 6.112054
+  },
+  {
+   "anchor": "نحت",
+   "concept": "CONCEPT_092",
+   "definitional_centrality": 6,
+   "frequency_expected": 0.122475,
+   "marginal": 8,
+   "residual": 5.877525
+  },
+  {
+   "anchor": "زلل",
+   "concept": "CONCEPT_079",
+   "definitional_centrality": 6,
+   "frequency_expected": 0.168404,
+   "marginal": 11,
+   "residual": 5.831596
+  }
+ ]
+}

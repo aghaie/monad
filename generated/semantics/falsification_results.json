@@ -1,0 +1,38 @@
+{
+ "method": "sigma-semantics-1.0",
+ "n_surviving": 3,
+ "tests": [
+  {
+   "claim": "relational meaning is recoverable",
+   "evidence": "77 concepts relationally recoverable",
+   "result": "SURVIVES"
+  },
+  {
+   "claim": "meaning is consistent across the corpus (not fragmented)",
+   "evidence": "80/89 stable; 9 drift",
+   "result": "SURVIVES"
+  },
+  {
+   "claim": "semantic anchoring is distinct from frequency",
+   "evidence": "frequency hub residual -81.417371",
+   "result": "SURVIVES"
+  },
+  {
+   "claim": "REFERENTIAL meaning is recoverable (what concepts denote)",
+   "evidence": "definitions are purely relational (concept-to-concept); what a concept DENOTES cannot be recovered without external grounding (Phase Ω)",
+   "result": "FAILS TO EMERGE"
+  }
+ ],
+ "unstable_concepts": [
+  "CONCEPT_029",
+  "CONCEPT_031",
+  "CONCEPT_057",
+  "CONCEPT_068",
+  "CONCEPT_076",
+  "CONCEPT_079",
+  "CONCEPT_086",
+  "CONCEPT_101",
+  "CONCEPT_102"
+ ],
+ "verdict": "RELATIONAL meaning emerges and survives (recoverable, consistent, non-frequency anchoring); REFERENTIAL meaning does NOT emerge. The Quran defines its concepts in terms of one another, but not what they denote."
+}

@@ -1,0 +1,630 @@
+{
+ "concepts": {
+  "CONCEPT_001": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "resists",
+   "top_neighbor_weight": 0.272258
+  },
+  "CONCEPT_002": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 1,
+   "tier": "resists",
+   "top_neighbor_weight": 0.332349
+  },
+  "CONCEPT_003": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "resists",
+   "top_neighbor_weight": 0.148983
+  },
+  "CONCEPT_004": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "resists",
+   "top_neighbor_weight": 0.272258
+  },
+  "CONCEPT_005": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 11,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.191918
+  },
+  "CONCEPT_006": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 9,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.216234
+  },
+  "CONCEPT_007": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.408033
+  },
+  "CONCEPT_008": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.145507
+  },
+  "CONCEPT_009": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 31,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.461616
+  },
+  "CONCEPT_010": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 9,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.29221
+  },
+  "CONCEPT_011": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 22,
+   "tier": "weak",
+   "top_neighbor_weight": 0.158383
+  },
+  "CONCEPT_012": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 16,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.22743
+  },
+  "CONCEPT_013": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 2,
+   "tier": "resists",
+   "top_neighbor_weight": 0.258386
+  },
+  "CONCEPT_014": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 9,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.073694
+  },
+  "CONCEPT_015": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 1,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.114113
+  },
+  "CONCEPT_016": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.30134
+  },
+  "CONCEPT_017": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "resists",
+   "top_neighbor_weight": 0.398683
+  },
+  "CONCEPT_018": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 9,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.23366
+  },
+  "CONCEPT_019": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 9,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.252178
+  },
+  "CONCEPT_020": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 9,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.164178
+  },
+  "CONCEPT_021": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 9,
+   "tier": "strong",
+   "top_neighbor_weight": 0.583333
+  },
+  "CONCEPT_022": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 4,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.097746
+  },
+  "CONCEPT_023": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 17,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.161515
+  },
+  "CONCEPT_024": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 10,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.24631
+  },
+  "CONCEPT_025": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 4,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.345813
+  },
+  "CONCEPT_026": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 12,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.202374
+  },
+  "CONCEPT_027": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 12,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.258386
+  },
+  "CONCEPT_028": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 4,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.222647
+  },
+  "CONCEPT_029": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.222647
+  },
+  "CONCEPT_030": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 6,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.238448
+  },
+  "CONCEPT_031": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.13681
+  },
+  "CONCEPT_032": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 9,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.227417
+  },
+  "CONCEPT_033": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 11,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.151234
+  },
+  "CONCEPT_034": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.244345
+  },
+  "CONCEPT_035": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 19,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.544835
+  },
+  "CONCEPT_036": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 25,
+   "tier": "strong",
+   "top_neighbor_weight": 0.6
+  },
+  "CONCEPT_037": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 14,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.416298
+  },
+  "CONCEPT_038": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 17,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.242094
+  },
+  "CONCEPT_039": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.65
+  },
+  "CONCEPT_040": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 17,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.603164
+  },
+  "CONCEPT_041": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "weak",
+   "top_neighbor_weight": 0.0
+  },
+  "CONCEPT_042": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 23,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.232772
+  },
+  "CONCEPT_043": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "weak",
+   "top_neighbor_weight": 0.0
+  },
+  "CONCEPT_044": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 19,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.22743
+  },
+  "CONCEPT_045": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 30,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.194778
+  },
+  "CONCEPT_046": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.151234
+  },
+  "CONCEPT_047": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 25,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.179352
+  },
+  "CONCEPT_048": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.65
+  },
+  "CONCEPT_049": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 8,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.416298
+  },
+  "CONCEPT_050": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.238448
+  },
+  "CONCEPT_051": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.0
+  },
+  "CONCEPT_052": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.232772
+  },
+  "CONCEPT_053": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.506829
+  },
+  "CONCEPT_054": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 23,
+   "tier": "strong",
+   "top_neighbor_weight": 0.13681
+  },
+  "CONCEPT_055": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 18,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.594493
+  },
+  "CONCEPT_056": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 9,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.320686
+  },
+  "CONCEPT_057": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.194778
+  },
+  "CONCEPT_058": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.258412
+  },
+  "CONCEPT_059": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.215184
+  },
+  "CONCEPT_060": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 1,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.244345
+  },
+  "CONCEPT_061": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.280694
+  },
+  "CONCEPT_062": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.164623
+  },
+  "CONCEPT_063": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 29,
+   "tier": "strong",
+   "top_neighbor_weight": 0.345813
+  },
+  "CONCEPT_064": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.0
+  },
+  "CONCEPT_065": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.0
+  },
+  "CONCEPT_066": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.200591
+  },
+  "CONCEPT_067": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 28,
+   "tier": "strong",
+   "top_neighbor_weight": 0.544835
+  },
+  "CONCEPT_068": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.040027
+  },
+  "CONCEPT_069": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.202374
+  },
+  "CONCEPT_070": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.161515
+  },
+  "CONCEPT_071": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 24,
+   "tier": "strong",
+   "top_neighbor_weight": 0.29221
+  },
+  "CONCEPT_072": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 10,
+   "tier": "strong",
+   "top_neighbor_weight": 0.6
+  },
+  "CONCEPT_073": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 22,
+   "tier": "strong",
+   "top_neighbor_weight": 0.619641
+  },
+  "CONCEPT_074": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 28,
+   "tier": "strong",
+   "top_neighbor_weight": 0.619641
+  },
+  "CONCEPT_075": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.196329
+  },
+  "CONCEPT_076": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.388176
+  },
+  "CONCEPT_077": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.398683
+  },
+  "CONCEPT_078": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 9,
+   "tier": "strong",
+   "top_neighbor_weight": 0.087941
+  },
+  "CONCEPT_079": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.269426
+  },
+  "CONCEPT_080": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 18,
+   "tier": "strong",
+   "top_neighbor_weight": 0.247531
+  },
+  "CONCEPT_081": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.49296
+  },
+  "CONCEPT_082": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 29,
+   "tier": "strong",
+   "top_neighbor_weight": 0.666667
+  },
+  "CONCEPT_083": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 19,
+   "tier": "strong",
+   "top_neighbor_weight": 0.191918
+  },
+  "CONCEPT_084": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.293692
+  },
+  "CONCEPT_085": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.280694
+  },
+  "CONCEPT_086": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.24631
+  },
+  "CONCEPT_087": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.231717
+  },
+  "CONCEPT_088": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.506829
+  },
+  "CONCEPT_089": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.59138
+  },
+  "CONCEPT_090": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 10,
+   "tier": "strong",
+   "top_neighbor_weight": 0.594493
+  },
+  "CONCEPT_091": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 18,
+   "tier": "strong",
+   "top_neighbor_weight": 0.5054
+  },
+  "CONCEPT_092": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.666667
+  },
+  "CONCEPT_093": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.236892
+  },
+  "CONCEPT_094": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 38,
+   "tier": "strong",
+   "top_neighbor_weight": 0.022008
+  },
+  "CONCEPT_095": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.0
+  },
+  "CONCEPT_096": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.0
+  },
+  "CONCEPT_097": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 11,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.30134
+  },
+  "CONCEPT_098": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.269426
+  },
+  "CONCEPT_099": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.221268
+  },
+  "CONCEPT_100": {
+   "classification": "NON_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.0
+  },
+  "CONCEPT_101": {
+   "classification": "RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "strong",
+   "top_neighbor_weight": 0.603164
+  },
+  "CONCEPT_102": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 0,
+   "tier": "moderate",
+   "top_neighbor_weight": 0.024092
+  },
+  "CONCEPT_103": {
+   "classification": "PARTIALLY_RECOVERABLE",
+   "n_contrasts": 25,
+   "tier": "strong",
+   "top_neighbor_weight": 0.124144
+  }
+ },
+ "definition": "a concept is RECOVERABLE if independent Quranic evidence converges: a falsification-surviving identity anchor (Phase 7), a distinctive neighbourhood (Phase 6), and contrasts. No external meaning is used.",
+ "finding": "77 of 103 concepts are relationally RECOVERABLE, 12 partial, 14 non-recoverable",
+ "method": "sigma-semantics-1.0",
+ "tally": {
+  "NON_RECOVERABLE": 14,
+  "PARTIALLY_RECOVERABLE": 12,
+  "RECOVERABLE": 77
+ }
+}

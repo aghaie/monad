@@ -1,0 +1,68 @@
+{
+ "constants": {
+  "BOOT_RUNS": 100,
+  "DEFINE_TOP": 5,
+  "DRIFT_STABLE": 0.5,
+  "MARGINAL_MIN": 30,
+  "NPMI_MIN": 0.2,
+  "RECOVER_NEIGHBOR_MIN": 0.15,
+  "ROUND": 6,
+  "SEED": 20261901,
+  "SUPPORT_MIN": 5
+ },
+ "input_sha256": {
+  "concept_atlas.json": "caa393eb61d1f42357b08565786fea6f13e3f1be293a109bd22a637f88505cc4",
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "dominant_roots.json": "b0436631d85f79206e9e7254f86215c88003a5d8313e071143c9df27b5114120",
+  "identity_confidence.json": "49cfc36fd00ecdaf3d9007feeea189b93d07757d215abc054d90d4ea8ac0231f",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c",
+  "proposition_candidates.json": "05bf114c331d58082004409ed129a35ba5811343ca5b7b2954e83d9b4c1a6fbf"
+ },
+ "method": "sigma-semantics-1.0",
+ "output_bytes": {
+  "contrasts.json": 2243,
+  "definitions.json": 47308,
+  "falsification_results.json": 1172,
+  "functional_roles.json": 27333,
+  "internal_dictionary.json": 47227,
+  "recoverability.json": 14813,
+  "robustness_results.json": 268,
+  "semantic_anchors.json": 2280,
+  "semantic_boundaries.json": 21034,
+  "semantic_consistency.json": 7157,
+  "semantic_equations.json": 7084,
+  "semantic_primitives.json": 2945
+ },
+ "prohibitions_observed": [
+  "no dictionary",
+  "no tafsir",
+  "no translation",
+  "no hadith",
+  "no theology",
+  "no ontology",
+  "no philosophy",
+  "no lexicon",
+  "no embeddings",
+  "no LLM knowledge",
+  "no imported meanings",
+  "no imported labels",
+  "no religious interpretation",
+  "no apologetics",
+  "no assumption a meaning exists",
+  "no assumption it does not",
+  "definitions stay inside the Quranic concept network",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "falsification_survivors": 3,
+  "frequency_hub_is_semantic_anchor": false,
+  "n_contrast_pairs": 401,
+  "n_defined": 89,
+  "n_stable_meaning": 80,
+  "non_recoverable": 14,
+  "partially_recoverable": 12,
+  "recoverable": 77,
+  "referential_meaning_emerges": false,
+  "relational_meaning_emerges": true
+ }
+}

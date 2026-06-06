@@ -1,0 +1,112 @@
+{
+ "definition": "Quran-internal opposites = concepts that never co-occur despite both being frequent (co = 0, both marginals >= 30). Not lexical opposites.",
+ "method": "sigma-semantics-1.0",
+ "n_contrast_pairs": 401,
+ "strongest_contrasts": [
+  {
+   "a": "CONCEPT_103",
+   "anchor_a": "مري",
+   "anchor_b": "سوا",
+   "b": "CONCEPT_060",
+   "combined_marginal": 663
+  },
+  {
+   "a": "CONCEPT_002",
+   "anchor_a": "ولد",
+   "anchor_b": "سقط",
+   "b": "CONCEPT_045",
+   "combined_marginal": 582
+  },
+  {
+   "a": "CONCEPT_045",
+   "anchor_a": "سقط",
+   "anchor_b": "سال",
+   "b": "CONCEPT_015",
+   "combined_marginal": 358
+  },
+  {
+   "a": "CONCEPT_018",
+   "anchor_a": "روح",
+   "anchor_b": "حلل",
+   "b": "CONCEPT_090",
+   "combined_marginal": 305
+  },
+  {
+   "a": "CONCEPT_091",
+   "anchor_a": "عرف",
+   "anchor_b": "روح",
+   "b": "CONCEPT_018",
+   "combined_marginal": 300
+  },
+  {
+   "a": "CONCEPT_035",
+   "anchor_a": "فقر",
+   "anchor_b": "روح",
+   "b": "CONCEPT_018",
+   "combined_marginal": 279
+  },
+  {
+   "a": "CONCEPT_071",
+   "anchor_a": "جهد",
+   "anchor_b": "روح",
+   "b": "CONCEPT_018",
+   "combined_marginal": 278
+  },
+  {
+   "a": "CONCEPT_020",
+   "anchor_a": "شكر",
+   "anchor_b": "عرب",
+   "b": "CONCEPT_032",
+   "combined_marginal": 273
+  },
+  {
+   "a": "CONCEPT_027",
+   "anchor_a": "ربو",
+   "anchor_b": "روح",
+   "b": "CONCEPT_018",
+   "combined_marginal": 273
+  },
+  {
+   "a": "CONCEPT_063",
+   "anchor_a": "سحر",
+   "anchor_b": "ليل",
+   "b": "CONCEPT_049",
+   "combined_marginal": 272
+  },
+  {
+   "a": "CONCEPT_011",
+   "anchor_a": "نصح",
+   "anchor_b": "روح",
+   "b": "CONCEPT_018",
+   "combined_marginal": 272
+  },
+  {
+   "a": "CONCEPT_082",
+   "anchor_a": "الو",
+   "anchor_b": "روح",
+   "b": "CONCEPT_018",
+   "combined_marginal": 271
+  },
+  {
+   "a": "CONCEPT_047",
+   "anchor_a": "ركع",
+   "anchor_b": "روح",
+   "b": "CONCEPT_018",
+   "combined_marginal": 268
+  },
+  {
+   "a": "CONCEPT_055",
+   "anchor_a": "لغو",
+   "anchor_b": "روح",
+   "b": "CONCEPT_018",
+   "combined_marginal": 265
+  },
+  {
+   "a": "CONCEPT_009",
+   "anchor_a": "كفي",
+   "anchor_b": "ليل",
+   "b": "CONCEPT_049",
+   "combined_marginal": 263
+  }
+ ]
+}
