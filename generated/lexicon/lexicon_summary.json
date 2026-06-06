@@ -1,0 +1,55 @@
+{
+ "constants": {
+  "GRAPH_EDGES_PER_NODE": 12,
+  "GRAPH_MIN_COOC": 2,
+  "MIN_SIM": 0.05,
+  "ROUND": 6,
+  "SIM_W_CHAPTER": 0.3,
+  "SIM_W_DISTRIB": 0.7,
+  "TOP_CTX_DIMS": 100,
+  "TOP_NEIGHBORS": 20,
+  "WINDOW_SIZES": [
+   3,
+   5,
+   10
+  ]
+ },
+ "method": "phase2-lexicon-1.0",
+ "output_bytes": {
+  "context_windows.json": 75620171,
+  "cooccurrence_graph.json": 5633535,
+  "distribution_profiles.json": 2116926,
+  "lemma_profiles.json": 19487790,
+  "root_profiles.json": 7753951,
+  "semantic_neighbors.json": 20740777
+ },
+ "prohibitions_observed": [
+  "no external dictionaries",
+  "no tafsir",
+  "no translations",
+  "no theology",
+  "no pretrained embeddings",
+  "no concepts",
+  "no ontology",
+  "no propositions",
+  "no axioms",
+  "no contradiction engine",
+  "no interpretation",
+  "no origin claims"
+ ],
+ "source_database": "monad.db",
+ "totals": {
+  "ayahs": 6236,
+  "context_windows": 77429,
+  "graph_edges": 28968,
+  "graph_nodes": 6473,
+  "lemmas": 4831,
+  "lemmas_with_neighbors": 4791,
+  "roots": 1642,
+  "roots_with_neighbors": 1633,
+  "surahs": 114,
+  "tokens_with_lemma": 74122,
+  "tokens_with_root": 49959,
+  "word_tokens": 77429
+ }
+}
