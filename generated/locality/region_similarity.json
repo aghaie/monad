@@ -1,0 +1,2970 @@
+{
+ "definition": "per-surah top similar surahs (cosine of activation profiles)",
+ "method": "phase14-locality-1.0",
+ "top_similar": {
+  "1": [
+   {
+    "discriminative_cosine": 0.565609,
+    "surah": 7
+   },
+   {
+    "discriminative_cosine": 0.522493,
+    "surah": 108
+   },
+   {
+    "discriminative_cosine": 0.495357,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.471546,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.448556,
+    "surah": 60
+   },
+   {
+    "discriminative_cosine": 0.447761,
+    "surah": 85
+   }
+  ],
+  "2": [
+   {
+    "discriminative_cosine": 0.717703,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.702252,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.701255,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.684915,
+    "surah": 3
+   },
+   {
+    "discriminative_cosine": 0.661773,
+    "surah": 31
+   },
+   {
+    "discriminative_cosine": 0.643181,
+    "surah": 6
+   }
+  ],
+  "3": [
+   {
+    "discriminative_cosine": 0.684915,
+    "surah": 2
+   },
+   {
+    "discriminative_cosine": 0.635247,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.619886,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.607692,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.605136,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.591214,
+    "surah": 14
+   }
+  ],
+  "4": [
+   {
+    "discriminative_cosine": 0.650124,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.643099,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.636835,
+    "surah": 2
+   },
+   {
+    "discriminative_cosine": 0.603944,
+    "surah": 46
+   },
+   {
+    "discriminative_cosine": 0.583798,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.583451,
+    "surah": 41
+   }
+  ],
+  "5": [
+   {
+    "discriminative_cosine": 0.742266,
+    "surah": 64
+   },
+   {
+    "discriminative_cosine": 0.729389,
+    "surah": 42
+   },
+   {
+    "discriminative_cosine": 0.704669,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.702252,
+    "surah": 2
+   },
+   {
+    "discriminative_cosine": 0.689253,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.681166,
+    "surah": 40
+   }
+  ],
+  "6": [
+   {
+    "discriminative_cosine": 0.785253,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.766343,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.764125,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.762995,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.757563,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.756907,
+    "surah": 43
+   }
+  ],
+  "7": [
+   {
+    "discriminative_cosine": 0.775364,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.746359,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.74197,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.734073,
+    "surah": 45
+   },
+   {
+    "discriminative_cosine": 0.722726,
+    "surah": 42
+   },
+   {
+    "discriminative_cosine": 0.721087,
+    "surah": 25
+   }
+  ],
+  "8": [
+   {
+    "discriminative_cosine": 0.691501,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.630939,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.618276,
+    "surah": 58
+   },
+   {
+    "discriminative_cosine": 0.617486,
+    "surah": 30
+   },
+   {
+    "discriminative_cosine": 0.614505,
+    "surah": 46
+   },
+   {
+    "discriminative_cosine": 0.606564,
+    "surah": 57
+   }
+  ],
+  "9": [
+   {
+    "discriminative_cosine": 0.739272,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.666505,
+    "surah": 31
+   },
+   {
+    "discriminative_cosine": 0.663758,
+    "surah": 57
+   },
+   {
+    "discriminative_cosine": 0.658781,
+    "surah": 58
+   },
+   {
+    "discriminative_cosine": 0.649981,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.647385,
+    "surah": 35
+   }
+  ],
+  "10": [
+   {
+    "discriminative_cosine": 0.781619,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.778475,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.775142,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.772503,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.766343,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.761129,
+    "surah": 45
+   }
+  ],
+  "11": [
+   {
+    "discriminative_cosine": 0.594119,
+    "surah": 45
+   },
+   {
+    "discriminative_cosine": 0.580409,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.56551,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.563259,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.5611,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.560386,
+    "surah": 25
+   }
+  ],
+  "12": [
+   {
+    "discriminative_cosine": 0.677994,
+    "surah": 83
+   },
+   {
+    "discriminative_cosine": 0.481304,
+    "surah": 72
+   },
+   {
+    "discriminative_cosine": 0.36215,
+    "surah": 37
+   },
+   {
+    "discriminative_cosine": 0.283823,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.283068,
+    "surah": 26
+   },
+   {
+    "discriminative_cosine": 0.275915,
+    "surah": 30
+   }
+  ],
+  "13": [
+   {
+    "discriminative_cosine": 0.754676,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.740736,
+    "surah": 41
+   },
+   {
+    "discriminative_cosine": 0.734102,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.731811,
+    "surah": 30
+   },
+   {
+    "discriminative_cosine": 0.707377,
+    "surah": 71
+   },
+   {
+    "discriminative_cosine": 0.699351,
+    "surah": 6
+   }
+  ],
+  "14": [
+   {
+    "discriminative_cosine": 0.808734,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.795731,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.783748,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.777627,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.776298,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.773483,
+    "surah": 45
+   }
+  ],
+  "15": [
+   {
+    "discriminative_cosine": 0.698684,
+    "surah": 63
+   },
+   {
+    "discriminative_cosine": 0.639495,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.624469,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.621497,
+    "surah": 38
+   },
+   {
+    "discriminative_cosine": 0.617578,
+    "surah": 54
+   },
+   {
+    "discriminative_cosine": 0.616332,
+    "surah": 36
+   }
+  ],
+  "16": [
+   {
+    "discriminative_cosine": 0.808734,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.807842,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.788721,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.771786,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.764371,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.764125,
+    "surah": 6
+   }
+  ],
+  "17": [
+   {
+    "discriminative_cosine": 0.361635,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.331521,
+    "surah": 4
+   },
+   {
+    "discriminative_cosine": 0.321836,
+    "surah": 46
+   },
+   {
+    "discriminative_cosine": 0.317849,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.317566,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.316957,
+    "surah": 29
+   }
+  ],
+  "18": [
+   {
+    "discriminative_cosine": 0.54346,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.517527,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.51528,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.514872,
+    "surah": 71
+   },
+   {
+    "discriminative_cosine": 0.51218,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.507661,
+    "surah": 29
+   }
+  ],
+  "19": [
+   {
+    "discriminative_cosine": 0.481896,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.468007,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.457527,
+    "surah": 42
+   },
+   {
+    "discriminative_cosine": 0.455515,
+    "surah": 7
+   },
+   {
+    "discriminative_cosine": 0.45411,
+    "surah": 45
+   },
+   {
+    "discriminative_cosine": 0.451332,
+    "surah": 25
+   }
+  ],
+  "20": [
+   {
+    "discriminative_cosine": 0.559647,
+    "surah": 77
+   },
+   {
+    "discriminative_cosine": 0.510341,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.483015,
+    "surah": 26
+   },
+   {
+    "discriminative_cosine": 0.482596,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.456411,
+    "surah": 51
+   },
+   {
+    "discriminative_cosine": 0.437388,
+    "surah": 7
+   }
+  ],
+  "21": [
+   {
+    "discriminative_cosine": 0.453521,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.450056,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.442844,
+    "surah": 45
+   },
+   {
+    "discriminative_cosine": 0.441011,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.437383,
+    "surah": 7
+   },
+   {
+    "discriminative_cosine": 0.433715,
+    "surah": 10
+   }
+  ],
+  "22": [
+   {
+    "discriminative_cosine": 0.338237,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.316499,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.312981,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.306007,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.299538,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.295529,
+    "surah": 40
+   }
+  ],
+  "23": [
+   {
+    "discriminative_cosine": 0.785253,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.771786,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.752468,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.74276,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.732018,
+    "surah": 30
+   },
+   {
+    "discriminative_cosine": 0.720201,
+    "surah": 43
+   }
+  ],
+  "24": [
+   {
+    "discriminative_cosine": 0.568744,
+    "surah": 2
+   },
+   {
+    "discriminative_cosine": 0.559698,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.553844,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.552617,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.543476,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.539089,
+    "surah": 41
+   }
+  ],
+  "25": [
+   {
+    "discriminative_cosine": 0.799605,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.777627,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.775142,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.751377,
+    "surah": 46
+   },
+   {
+    "discriminative_cosine": 0.743928,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.733514,
+    "surah": 43
+   }
+  ],
+  "26": [
+   {
+    "discriminative_cosine": 0.770026,
+    "surah": 51
+   },
+   {
+    "discriminative_cosine": 0.730172,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.723934,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.702511,
+    "surah": 7
+   },
+   {
+    "discriminative_cosine": 0.672462,
+    "surah": 54
+   },
+   {
+    "discriminative_cosine": 0.622403,
+    "surah": 37
+   }
+  ],
+  "27": [
+   {
+    "discriminative_cosine": 0.650806,
+    "surah": 46
+   },
+   {
+    "discriminative_cosine": 0.639123,
+    "surah": 41
+   },
+   {
+    "discriminative_cosine": 0.549284,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.522457,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.521821,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.511784,
+    "surah": 43
+   }
+  ],
+  "28": [
+   {
+    "discriminative_cosine": 0.44628,
+    "surah": 7
+   },
+   {
+    "discriminative_cosine": 0.41874,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.412048,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.406142,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.405017,
+    "surah": 26
+   },
+   {
+    "discriminative_cosine": 0.404081,
+    "surah": 6
+   }
+  ],
+  "29": [
+   {
+    "discriminative_cosine": 0.799605,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.771437,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.748679,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.739272,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.733903,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.732334,
+    "surah": 6
+   }
+  ],
+  "30": [
+   {
+    "discriminative_cosine": 0.79238,
+    "surah": 45
+   },
+   {
+    "discriminative_cosine": 0.760589,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.750762,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.745261,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.736544,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.732018,
+    "surah": 23
+   }
+  ],
+  "31": [
+   {
+    "discriminative_cosine": 0.666505,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.661773,
+    "surah": 2
+   },
+   {
+    "discriminative_cosine": 0.644929,
+    "surah": 47
+   },
+   {
+    "discriminative_cosine": 0.637926,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.633573,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.625336,
+    "surah": 16
+   }
+  ],
+  "32": [
+   {
+    "discriminative_cosine": 0.681373,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.658946,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.632203,
+    "surah": 30
+   },
+   {
+    "discriminative_cosine": 0.627438,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.619615,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.601532,
+    "surah": 43
+   }
+  ],
+  "33": [
+   {
+    "discriminative_cosine": 0.581485,
+    "surah": 4
+   },
+   {
+    "discriminative_cosine": 0.531868,
+    "surah": 64
+   },
+   {
+    "discriminative_cosine": 0.518906,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.51808,
+    "surah": 66
+   },
+   {
+    "discriminative_cosine": 0.491549,
+    "surah": 2
+   },
+   {
+    "discriminative_cosine": 0.486057,
+    "surah": 40
+   }
+  ],
+  "34": [
+   {
+    "discriminative_cosine": 0.662052,
+    "surah": 13
+   },
+   {
+    "discriminative_cosine": 0.580373,
+    "surah": 53
+   },
+   {
+    "discriminative_cosine": 0.564645,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.560011,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.548056,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.5443,
+    "surah": 39
+   }
+  ],
+  "35": [
+   {
+    "discriminative_cosine": 0.807842,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.783748,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.752468,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.748579,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.73063,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.70678,
+    "surah": 42
+   }
+  ],
+  "36": [
+   {
+    "discriminative_cosine": 0.694939,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.684678,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.654261,
+    "surah": 50
+   },
+   {
+    "discriminative_cosine": 0.641957,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.639055,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.635191,
+    "surah": 63
+   }
+  ],
+  "37": [
+   {
+    "discriminative_cosine": 0.70448,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.668707,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.651276,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.646268,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.637897,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.63387,
+    "surah": 35
+   }
+  ],
+  "38": [
+   {
+    "discriminative_cosine": 0.678884,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.647853,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.646151,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.626603,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.625405,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.622785,
+    "surah": 40
+   }
+  ],
+  "39": [
+   {
+    "discriminative_cosine": 0.81851,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.788721,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.771437,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.765463,
+    "surah": 41
+   },
+   {
+    "discriminative_cosine": 0.762953,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.757563,
+    "surah": 6
+   }
+  ],
+  "40": [
+   {
+    "discriminative_cosine": 0.81851,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.795731,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.78187,
+    "surah": 57
+   },
+   {
+    "discriminative_cosine": 0.780374,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.778475,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.764371,
+    "surah": 16
+   }
+  ],
+  "41": [
+   {
+    "discriminative_cosine": 0.765463,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.740736,
+    "surah": 13
+   },
+   {
+    "discriminative_cosine": 0.728122,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.705113,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.693628,
+    "surah": 30
+   },
+   {
+    "discriminative_cosine": 0.670092,
+    "surah": 29
+   }
+  ],
+  "42": [
+   {
+    "discriminative_cosine": 0.729389,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.722726,
+    "surah": 7
+   },
+   {
+    "discriminative_cosine": 0.710449,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.707643,
+    "surah": 45
+   },
+   {
+    "discriminative_cosine": 0.70678,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.697529,
+    "surah": 39
+   }
+  ],
+  "43": [
+   {
+    "discriminative_cosine": 0.781619,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.780374,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.776298,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.775364,
+    "surah": 7
+   },
+   {
+    "discriminative_cosine": 0.756907,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.733514,
+    "surah": 25
+   }
+  ],
+  "44": [
+   {
+    "discriminative_cosine": 0.709629,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.663607,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.62872,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.608905,
+    "surah": 31
+   },
+   {
+    "discriminative_cosine": 0.59762,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.589762,
+    "surah": 25
+   }
+  ],
+  "45": [
+   {
+    "discriminative_cosine": 0.79238,
+    "surah": 30
+   },
+   {
+    "discriminative_cosine": 0.773483,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.763979,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.761129,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.73984,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.734073,
+    "surah": 7
+   }
+  ],
+  "46": [
+   {
+    "discriminative_cosine": 0.751377,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.728668,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.708944,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.69115,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.677908,
+    "surah": 45
+   },
+   {
+    "discriminative_cosine": 0.673744,
+    "surah": 39
+   }
+  ],
+  "47": [
+   {
+    "discriminative_cosine": 0.686943,
+    "surah": 59
+   },
+   {
+    "discriminative_cosine": 0.663022,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.658382,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.644929,
+    "surah": 31
+   },
+   {
+    "discriminative_cosine": 0.641212,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.630981,
+    "surah": 39
+   }
+  ],
+  "48": [
+   {
+    "discriminative_cosine": 0.603573,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.603481,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.599536,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.594847,
+    "surah": 87
+   },
+   {
+    "discriminative_cosine": 0.594184,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.591163,
+    "surah": 39
+   }
+  ],
+  "49": [
+   {
+    "discriminative_cosine": 0.330945,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.31661,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.309948,
+    "surah": 47
+   },
+   {
+    "discriminative_cosine": 0.304713,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.303341,
+    "surah": 57
+   },
+   {
+    "discriminative_cosine": 0.302668,
+    "surah": 16
+   }
+  ],
+  "50": [
+   {
+    "discriminative_cosine": 0.674898,
+    "surah": 86
+   },
+   {
+    "discriminative_cosine": 0.654261,
+    "surah": 36
+   },
+   {
+    "discriminative_cosine": 0.648679,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.613046,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.578737,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.572924,
+    "surah": 82
+   }
+  ],
+  "51": [
+   {
+    "discriminative_cosine": 0.770026,
+    "surah": 26
+   },
+   {
+    "discriminative_cosine": 0.735925,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.673977,
+    "surah": 7
+   },
+   {
+    "discriminative_cosine": 0.657078,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.656188,
+    "surah": 54
+   },
+   {
+    "discriminative_cosine": 0.618496,
+    "surah": 40
+   }
+  ],
+  "52": [
+   {
+    "discriminative_cosine": 0.636793,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.625937,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.610949,
+    "surah": 41
+   },
+   {
+    "discriminative_cosine": 0.584134,
+    "surah": 61
+   },
+   {
+    "discriminative_cosine": 0.576277,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.572645,
+    "surah": 14
+   }
+  ],
+  "53": [
+   {
+    "discriminative_cosine": 0.580373,
+    "surah": 34
+   },
+   {
+    "discriminative_cosine": 0.437798,
+    "surah": 13
+   },
+   {
+    "discriminative_cosine": 0.368093,
+    "surah": 56
+   },
+   {
+    "discriminative_cosine": 0.337681,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.323896,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.313379,
+    "surah": 40
+   }
+  ],
+  "54": [
+   {
+    "discriminative_cosine": 0.672462,
+    "surah": 26
+   },
+   {
+    "discriminative_cosine": 0.662182,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.656188,
+    "surah": 51
+   },
+   {
+    "discriminative_cosine": 0.638793,
+    "surah": 7
+   },
+   {
+    "discriminative_cosine": 0.633321,
+    "surah": 36
+   },
+   {
+    "discriminative_cosine": 0.625335,
+    "surah": 14
+   }
+  ],
+  "55": [
+   {
+    "discriminative_cosine": 0.346856,
+    "surah": 77
+   },
+   {
+    "discriminative_cosine": 0.267309,
+    "surah": 37
+   },
+   {
+    "discriminative_cosine": 0.22461,
+    "surah": 53
+   },
+   {
+    "discriminative_cosine": 0.203617,
+    "surah": 38
+   },
+   {
+    "discriminative_cosine": 0.186928,
+    "surah": 15
+   },
+   {
+    "discriminative_cosine": 0.16637,
+    "surah": 48
+   }
+  ],
+  "56": [
+   {
+    "discriminative_cosine": 0.578293,
+    "surah": 76
+   },
+   {
+    "discriminative_cosine": 0.516585,
+    "surah": 78
+   },
+   {
+    "discriminative_cosine": 0.511328,
+    "surah": 38
+   },
+   {
+    "discriminative_cosine": 0.475986,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.472466,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.442844,
+    "surah": 69
+   }
+  ],
+  "57": [
+   {
+    "discriminative_cosine": 0.78187,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.663758,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.659576,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.649799,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.641495,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.637665,
+    "surah": 45
+   }
+  ],
+  "58": [
+   {
+    "discriminative_cosine": 0.688863,
+    "surah": 64
+   },
+   {
+    "discriminative_cosine": 0.658781,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.652412,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.642662,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.633237,
+    "surah": 42
+   },
+   {
+    "discriminative_cosine": 0.626036,
+    "surah": 68
+   }
+  ],
+  "59": [
+   {
+    "discriminative_cosine": 0.686943,
+    "surah": 47
+   },
+   {
+    "discriminative_cosine": 0.670296,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.650849,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.644698,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.630942,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.617608,
+    "surah": 57
+   }
+  ],
+  "60": [
+   {
+    "discriminative_cosine": 0.644165,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.632788,
+    "surah": 42
+   },
+   {
+    "discriminative_cosine": 0.603322,
+    "surah": 64
+   },
+   {
+    "discriminative_cosine": 0.581725,
+    "surah": 2
+   },
+   {
+    "discriminative_cosine": 0.577747,
+    "surah": 58
+   },
+   {
+    "discriminative_cosine": 0.576497,
+    "surah": 7
+   }
+  ],
+  "61": [
+   {
+    "discriminative_cosine": 0.636267,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.584134,
+    "surah": 52
+   },
+   {
+    "discriminative_cosine": 0.578355,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.567066,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.55623,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.55535,
+    "surah": 51
+   }
+  ],
+  "62": [
+   {
+    "discriminative_cosine": 0.619448,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.533141,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.53149,
+    "surah": 30
+   },
+   {
+    "discriminative_cosine": 0.520498,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.518871,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.51822,
+    "surah": 6
+   }
+  ],
+  "63": [
+   {
+    "discriminative_cosine": 0.698684,
+    "surah": 15
+   },
+   {
+    "discriminative_cosine": 0.667935,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.649368,
+    "surah": 64
+   },
+   {
+    "discriminative_cosine": 0.635574,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.635191,
+    "surah": 36
+   },
+   {
+    "discriminative_cosine": 0.61284,
+    "surah": 57
+   }
+  ],
+  "64": [
+   {
+    "discriminative_cosine": 0.742266,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.723621,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.707872,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.69306,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.688863,
+    "surah": 58
+   },
+   {
+    "discriminative_cosine": 0.666319,
+    "surah": 42
+   }
+  ],
+  "65": [
+   {
+    "discriminative_cosine": 0.623122,
+    "surah": 47
+   },
+   {
+    "discriminative_cosine": 0.616555,
+    "surah": 2
+   },
+   {
+    "discriminative_cosine": 0.595682,
+    "surah": 64
+   },
+   {
+    "discriminative_cosine": 0.589356,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.572822,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.571874,
+    "surah": 10
+   }
+  ],
+  "66": [
+   {
+    "discriminative_cosine": 0.593686,
+    "surah": 42
+   },
+   {
+    "discriminative_cosine": 0.589018,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.565832,
+    "surah": 64
+   },
+   {
+    "discriminative_cosine": 0.544708,
+    "surah": 58
+   },
+   {
+    "discriminative_cosine": 0.530011,
+    "surah": 2
+   },
+   {
+    "discriminative_cosine": 0.526503,
+    "surah": 5
+   }
+  ],
+  "67": [
+   {
+    "discriminative_cosine": 0.603449,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.589572,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.583619,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.580928,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.578552,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.574208,
+    "surah": 47
+   }
+  ],
+  "68": [
+   {
+    "discriminative_cosine": 0.626036,
+    "surah": 58
+   },
+   {
+    "discriminative_cosine": 0.56922,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.552655,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.551087,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.540148,
+    "surah": 46
+   },
+   {
+    "discriminative_cosine": 0.530205,
+    "surah": 6
+   }
+  ],
+  "69": [
+   {
+    "discriminative_cosine": 0.617232,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.571936,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.565041,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.563852,
+    "surah": 38
+   },
+   {
+    "discriminative_cosine": 0.560784,
+    "surah": 71
+   },
+   {
+    "discriminative_cosine": 0.549763,
+    "surah": 14
+   }
+  ],
+  "70": [
+   {
+    "discriminative_cosine": 0.541025,
+    "surah": 32
+   },
+   {
+    "discriminative_cosine": 0.515731,
+    "surah": 50
+   },
+   {
+    "discriminative_cosine": 0.470998,
+    "surah": 86
+   },
+   {
+    "discriminative_cosine": 0.46974,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.458565,
+    "surah": 90
+   },
+   {
+    "discriminative_cosine": 0.44477,
+    "surah": 44
+   }
+  ],
+  "71": [
+   {
+    "discriminative_cosine": 0.707377,
+    "surah": 13
+   },
+   {
+    "discriminative_cosine": 0.661281,
+    "surah": 41
+   },
+   {
+    "discriminative_cosine": 0.655308,
+    "surah": 30
+   },
+   {
+    "discriminative_cosine": 0.641055,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.640122,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.63098,
+    "surah": 45
+   }
+  ],
+  "72": [
+   {
+    "discriminative_cosine": 0.481304,
+    "surah": 12
+   },
+   {
+    "discriminative_cosine": 0.471856,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.441544,
+    "surah": 62
+   },
+   {
+    "discriminative_cosine": 0.437301,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.422306,
+    "surah": 57
+   },
+   {
+    "discriminative_cosine": 0.421315,
+    "surah": 25
+   }
+  ],
+  "73": [
+   {
+    "discriminative_cosine": 0.612466,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.59139,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.584149,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.567804,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.566772,
+    "surah": 48
+   },
+   {
+    "discriminative_cosine": 0.550255,
+    "surah": 45
+   }
+  ],
+  "74": [
+   {
+    "discriminative_cosine": 0.56966,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.558447,
+    "surah": 54
+   },
+   {
+    "discriminative_cosine": 0.551744,
+    "surah": 51
+   },
+   {
+    "discriminative_cosine": 0.537827,
+    "surah": 7
+   },
+   {
+    "discriminative_cosine": 0.536629,
+    "surah": 26
+   },
+   {
+    "discriminative_cosine": 0.495254,
+    "surah": 98
+   }
+  ],
+  "75": [
+   {
+    "discriminative_cosine": 0.602798,
+    "surah": 71
+   },
+   {
+    "discriminative_cosine": 0.510457,
+    "surah": 13
+   },
+   {
+    "discriminative_cosine": 0.495107,
+    "surah": 41
+   },
+   {
+    "discriminative_cosine": 0.433856,
+    "surah": 52
+   },
+   {
+    "discriminative_cosine": 0.429353,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.404722,
+    "surah": 59
+   }
+  ],
+  "76": [
+   {
+    "discriminative_cosine": 0.634716,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.614415,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.584825,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.578293,
+    "surah": 56
+   },
+   {
+    "discriminative_cosine": 0.559584,
+    "surah": 52
+   },
+   {
+    "discriminative_cosine": 0.517626,
+    "surah": 38
+   }
+  ],
+  "77": [
+   {
+    "discriminative_cosine": 0.559647,
+    "surah": 20
+   },
+   {
+    "discriminative_cosine": 0.466888,
+    "surah": 38
+   },
+   {
+    "discriminative_cosine": 0.461692,
+    "surah": 47
+   },
+   {
+    "discriminative_cosine": 0.442591,
+    "surah": 76
+   },
+   {
+    "discriminative_cosine": 0.412325,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.388364,
+    "surah": 7
+   }
+  ],
+  "78": [
+   {
+    "discriminative_cosine": 0.516585,
+    "surah": 56
+   },
+   {
+    "discriminative_cosine": 0.514275,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.502989,
+    "surah": 38
+   },
+   {
+    "discriminative_cosine": 0.494544,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.493151,
+    "surah": 76
+   },
+   {
+    "discriminative_cosine": 0.487004,
+    "surah": 10
+   }
+  ],
+  "79": [
+   {
+    "discriminative_cosine": 0.538081,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.531664,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.492544,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.492366,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.489833,
+    "surah": 43
+   },
+   {
+    "discriminative_cosine": 0.485284,
+    "surah": 69
+   }
+  ],
+  "80": [
+   {
+    "discriminative_cosine": 0.574411,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.502371,
+    "surah": 54
+   },
+   {
+    "discriminative_cosine": 0.498764,
+    "surah": 13
+   },
+   {
+    "discriminative_cosine": 0.496203,
+    "surah": 8
+   },
+   {
+    "discriminative_cosine": 0.487659,
+    "surah": 30
+   },
+   {
+    "discriminative_cosine": 0.480838,
+    "surah": 37
+   }
+  ],
+  "81": [
+   {
+    "discriminative_cosine": 0.448452,
+    "surah": 69
+   },
+   {
+    "discriminative_cosine": 0.422027,
+    "surah": 91
+   },
+   {
+    "discriminative_cosine": 0.402463,
+    "surah": 25
+   },
+   {
+    "discriminative_cosine": 0.387926,
+    "surah": 77
+   },
+   {
+    "discriminative_cosine": 0.358768,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.357996,
+    "surah": 38
+   }
+  ],
+  "82": [
+   {
+    "discriminative_cosine": 0.572924,
+    "surah": 50
+   },
+   {
+    "discriminative_cosine": 0.562179,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.443477,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.440304,
+    "surah": 80
+   },
+   {
+    "discriminative_cosine": 0.435116,
+    "surah": 31
+   },
+   {
+    "discriminative_cosine": 0.417179,
+    "surah": 23
+   }
+  ],
+  "83": [
+   {
+    "discriminative_cosine": 0.677994,
+    "surah": 12
+   },
+   {
+    "discriminative_cosine": 0.563271,
+    "surah": 103
+   },
+   {
+    "discriminative_cosine": 0.371838,
+    "surah": 37
+   },
+   {
+    "discriminative_cosine": 0.362239,
+    "surah": 47
+   },
+   {
+    "discriminative_cosine": 0.344855,
+    "surah": 78
+   },
+   {
+    "discriminative_cosine": 0.308265,
+    "surah": 72
+   }
+  ],
+  "84": [
+   {
+    "discriminative_cosine": 0.73875,
+    "surah": 100
+   },
+   {
+    "discriminative_cosine": 0.651098,
+    "surah": 90
+   },
+   {
+    "discriminative_cosine": 0.435942,
+    "surah": 70
+   },
+   {
+    "discriminative_cosine": 0.292111,
+    "surah": 95
+   },
+   {
+    "discriminative_cosine": 0.258421,
+    "surah": 74
+   },
+   {
+    "discriminative_cosine": 0.250746,
+    "surah": 39
+   }
+  ],
+  "85": [
+   {
+    "discriminative_cosine": 0.498438,
+    "surah": 86
+   },
+   {
+    "discriminative_cosine": 0.447761,
+    "surah": 1
+   },
+   {
+    "discriminative_cosine": 0.419547,
+    "surah": 57
+   },
+   {
+    "discriminative_cosine": 0.394684,
+    "surah": 50
+   },
+   {
+    "discriminative_cosine": 0.371952,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.370673,
+    "surah": 31
+   }
+  ],
+  "86": [
+   {
+    "discriminative_cosine": 0.674898,
+    "surah": 50
+   },
+   {
+    "discriminative_cosine": 0.498438,
+    "surah": 85
+   },
+   {
+    "discriminative_cosine": 0.470998,
+    "surah": 70
+   },
+   {
+    "discriminative_cosine": 0.377418,
+    "surah": 82
+   },
+   {
+    "discriminative_cosine": 0.35523,
+    "surah": 41
+   },
+   {
+    "discriminative_cosine": 0.338016,
+    "surah": 25
+   }
+  ],
+  "87": [
+   {
+    "discriminative_cosine": 0.594847,
+    "surah": 48
+   },
+   {
+    "discriminative_cosine": 0.282364,
+    "surah": 8
+   },
+   {
+    "discriminative_cosine": 0.282222,
+    "surah": 114
+   },
+   {
+    "discriminative_cosine": 0.259959,
+    "surah": 38
+   },
+   {
+    "discriminative_cosine": 0.233208,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.221196,
+    "surah": 2
+   }
+  ],
+  "88": [
+   {
+    "discriminative_cosine": 0.460787,
+    "surah": 89
+   },
+   {
+    "discriminative_cosine": 0.456647,
+    "surah": 78
+   },
+   {
+    "discriminative_cosine": 0.437938,
+    "surah": 67
+   },
+   {
+    "discriminative_cosine": 0.373898,
+    "surah": 52
+   },
+   {
+    "discriminative_cosine": 0.368713,
+    "surah": 61
+   },
+   {
+    "discriminative_cosine": 0.359706,
+    "surah": 58
+   }
+  ],
+  "89": [
+   {
+    "discriminative_cosine": 0.546413,
+    "surah": 93
+   },
+   {
+    "discriminative_cosine": 0.489198,
+    "surah": 107
+   },
+   {
+    "discriminative_cosine": 0.460787,
+    "surah": 88
+   },
+   {
+    "discriminative_cosine": 0.372566,
+    "surah": 52
+   },
+   {
+    "discriminative_cosine": 0.37193,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.3694,
+    "surah": 59
+   }
+  ],
+  "90": [
+   {
+    "discriminative_cosine": 0.651098,
+    "surah": 84
+   },
+   {
+    "discriminative_cosine": 0.634314,
+    "surah": 100
+   },
+   {
+    "discriminative_cosine": 0.521825,
+    "surah": 107
+   },
+   {
+    "discriminative_cosine": 0.502471,
+    "surah": 93
+   },
+   {
+    "discriminative_cosine": 0.458565,
+    "surah": 70
+   },
+   {
+    "discriminative_cosine": 0.352099,
+    "surah": 59
+   }
+  ],
+  "91": [
+   {
+    "discriminative_cosine": 0.500379,
+    "surah": 92
+   },
+   {
+    "discriminative_cosine": 0.47356,
+    "surah": 97
+   },
+   {
+    "discriminative_cosine": 0.422027,
+    "surah": 81
+   },
+   {
+    "discriminative_cosine": 0.409078,
+    "surah": 71
+   },
+   {
+    "discriminative_cosine": 0.364995,
+    "surah": 73
+   },
+   {
+    "discriminative_cosine": 0.342615,
+    "surah": 47
+   }
+  ],
+  "92": [
+   {
+    "discriminative_cosine": 0.500379,
+    "surah": 91
+   },
+   {
+    "discriminative_cosine": 0.48528,
+    "surah": 99
+   },
+   {
+    "discriminative_cosine": 0.36343,
+    "surah": 59
+   },
+   {
+    "discriminative_cosine": 0.361791,
+    "surah": 32
+   },
+   {
+    "discriminative_cosine": 0.361694,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.359516,
+    "surah": 47
+   }
+  ],
+  "93": [
+   {
+    "discriminative_cosine": 0.957194,
+    "surah": 107
+   },
+   {
+    "discriminative_cosine": 0.546413,
+    "surah": 89
+   },
+   {
+    "discriminative_cosine": 0.502471,
+    "surah": 90
+   },
+   {
+    "discriminative_cosine": 0.41511,
+    "surah": 59
+   },
+   {
+    "discriminative_cosine": 0.355004,
+    "surah": 4
+   },
+   {
+    "discriminative_cosine": 0.308866,
+    "surah": 75
+   }
+  ],
+  "94": [
+   {
+    "discriminative_cosine": 0.315234,
+    "surah": 65
+   },
+   {
+    "discriminative_cosine": 0.284973,
+    "surah": 63
+   },
+   {
+    "discriminative_cosine": 0.252263,
+    "surah": 114
+   },
+   {
+    "discriminative_cosine": 0.250594,
+    "surah": 8
+   },
+   {
+    "discriminative_cosine": 0.246074,
+    "surah": 88
+   },
+   {
+    "discriminative_cosine": 0.245998,
+    "surah": 48
+   }
+  ],
+  "95": [
+   {
+    "discriminative_cosine": 0.567291,
+    "surah": 6
+   },
+   {
+    "discriminative_cosine": 0.503392,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.494429,
+    "surah": 45
+   },
+   {
+    "discriminative_cosine": 0.473777,
+    "surah": 23
+   },
+   {
+    "discriminative_cosine": 0.43621,
+    "surah": 13
+   },
+   {
+    "discriminative_cosine": 0.436138,
+    "surah": 7
+   }
+  ],
+  "96": [
+   {
+    "discriminative_cosine": 0.685551,
+    "surah": 112
+   },
+   {
+    "discriminative_cosine": 0.433225,
+    "surah": 65
+   },
+   {
+    "discriminative_cosine": 0.407958,
+    "surah": 64
+   },
+   {
+    "discriminative_cosine": 0.399602,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.391927,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.388262,
+    "surah": 42
+   }
+  ],
+  "97": [
+   {
+    "discriminative_cosine": 0.616848,
+    "surah": 106
+   },
+   {
+    "discriminative_cosine": 0.47356,
+    "surah": 91
+   },
+   {
+    "discriminative_cosine": 0.407982,
+    "surah": 8
+   },
+   {
+    "discriminative_cosine": 0.392783,
+    "surah": 80
+   },
+   {
+    "discriminative_cosine": 0.33508,
+    "surah": 54
+   },
+   {
+    "discriminative_cosine": 0.313958,
+    "surah": 37
+   }
+  ],
+  "98": [
+   {
+    "discriminative_cosine": 0.651369,
+    "surah": 45
+   },
+   {
+    "discriminative_cosine": 0.634591,
+    "surah": 10
+   },
+   {
+    "discriminative_cosine": 0.627798,
+    "surah": 29
+   },
+   {
+    "discriminative_cosine": 0.623374,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.61813,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.610138,
+    "surah": 51
+   }
+  ],
+  "99": [
+   {
+    "discriminative_cosine": 0.48528,
+    "surah": 92
+   },
+   {
+    "discriminative_cosine": 0.39527,
+    "surah": 32
+   },
+   {
+    "discriminative_cosine": 0.38962,
+    "surah": 70
+   },
+   {
+    "discriminative_cosine": 0.32933,
+    "surah": 114
+   },
+   {
+    "discriminative_cosine": 0.230664,
+    "surah": 59
+   },
+   {
+    "discriminative_cosine": 0.217222,
+    "surah": 39
+   }
+  ],
+  "100": [
+   {
+    "discriminative_cosine": 0.73875,
+    "surah": 84
+   },
+   {
+    "discriminative_cosine": 0.634314,
+    "surah": 90
+   },
+   {
+    "discriminative_cosine": 0.407015,
+    "surah": 70
+   },
+   {
+    "discriminative_cosine": 0.299434,
+    "surah": 113
+   },
+   {
+    "discriminative_cosine": 0.229719,
+    "surah": 68
+   },
+   {
+    "discriminative_cosine": 0.189822,
+    "surah": 88
+   }
+  ],
+  "101": [
+   {
+    "discriminative_cosine": 0.435009,
+    "surah": 9
+   },
+   {
+    "discriminative_cosine": 0.429306,
+    "surah": 16
+   },
+   {
+    "discriminative_cosine": 0.317568,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.269321,
+    "surah": 52
+   },
+   {
+    "discriminative_cosine": 0.267813,
+    "surah": 41
+   },
+   {
+    "discriminative_cosine": 0.261117,
+    "surah": 69
+   }
+  ],
+  "102": [
+   {
+    "discriminative_cosine": 0.439081,
+    "surah": 104
+   },
+   {
+    "discriminative_cosine": 0.295387,
+    "surah": 82
+   },
+   {
+    "discriminative_cosine": 0.280126,
+    "surah": 31
+   },
+   {
+    "discriminative_cosine": 0.238481,
+    "surah": 63
+   },
+   {
+    "discriminative_cosine": 0.237238,
+    "surah": 70
+   },
+   {
+    "discriminative_cosine": 0.225654,
+    "surah": 35
+   }
+  ],
+  "103": [
+   {
+    "discriminative_cosine": 0.563271,
+    "surah": 83
+   },
+   {
+    "discriminative_cosine": 0.403743,
+    "surah": 78
+   },
+   {
+    "discriminative_cosine": 0.273314,
+    "surah": 47
+   },
+   {
+    "discriminative_cosine": 0.262726,
+    "surah": 12
+   },
+   {
+    "discriminative_cosine": 0.147423,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.147224,
+    "surah": 24
+   }
+  ],
+  "104": [
+   {
+    "discriminative_cosine": 0.439081,
+    "surah": 102
+   },
+   {
+    "discriminative_cosine": 0.373814,
+    "surah": 108
+   },
+   {
+    "discriminative_cosine": 0.325242,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.314846,
+    "surah": 89
+   },
+   {
+    "discriminative_cosine": 0.310216,
+    "surah": 35
+   },
+   {
+    "discriminative_cosine": 0.308051,
+    "surah": 85
+   }
+  ],
+  "105": [
+   {
+    "discriminative_cosine": 0.515,
+    "surah": 51
+   },
+   {
+    "discriminative_cosine": 0.462234,
+    "surah": 26
+   },
+   {
+    "discriminative_cosine": 0.446543,
+    "surah": 54
+   },
+   {
+    "discriminative_cosine": 0.398283,
+    "surah": 38
+   },
+   {
+    "discriminative_cosine": 0.396037,
+    "surah": 15
+   },
+   {
+    "discriminative_cosine": 0.388783,
+    "surah": 74
+   }
+  ],
+  "106": [
+   {
+    "discriminative_cosine": 0.616848,
+    "surah": 97
+   },
+   {
+    "discriminative_cosine": 0.484429,
+    "surah": 8
+   },
+   {
+    "discriminative_cosine": 0.43251,
+    "surah": 80
+   },
+   {
+    "discriminative_cosine": 0.304383,
+    "surah": 37
+   },
+   {
+    "discriminative_cosine": 0.266485,
+    "surah": 32
+   },
+   {
+    "discriminative_cosine": 0.194424,
+    "surah": 30
+   }
+  ],
+  "107": [
+   {
+    "discriminative_cosine": 0.957194,
+    "surah": 93
+   },
+   {
+    "discriminative_cosine": 0.521825,
+    "surah": 90
+   },
+   {
+    "discriminative_cosine": 0.489198,
+    "surah": 89
+   },
+   {
+    "discriminative_cosine": 0.400708,
+    "surah": 59
+   },
+   {
+    "discriminative_cosine": 0.348548,
+    "surah": 4
+   },
+   {
+    "discriminative_cosine": 0.281195,
+    "surah": 76
+   }
+  ],
+  "108": [
+   {
+    "discriminative_cosine": 0.522493,
+    "surah": 1
+   },
+   {
+    "discriminative_cosine": 0.494722,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.373814,
+    "surah": 104
+   },
+   {
+    "discriminative_cosine": 0.269165,
+    "surah": 85
+   },
+   {
+    "discriminative_cosine": 0.265187,
+    "surah": 89
+   },
+   {
+    "discriminative_cosine": 0.236224,
+    "surah": 32
+   }
+  ],
+  "109": [
+   {
+    "discriminative_cosine": 0.589933,
+    "surah": 64
+   },
+   {
+    "discriminative_cosine": 0.55053,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.493279,
+    "surah": 14
+   },
+   {
+    "discriminative_cosine": 0.491653,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.477261,
+    "surah": 54
+   },
+   {
+    "discriminative_cosine": 0.455567,
+    "surah": 41
+   }
+  ],
+  "110": [
+   {
+    "discriminative_cosine": 0.550064,
+    "surah": 57
+   },
+   {
+    "discriminative_cosine": 0.54654,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.541999,
+    "surah": 64
+   },
+   {
+    "discriminative_cosine": 0.540961,
+    "surah": 98
+   },
+   {
+    "discriminative_cosine": 0.517867,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.513722,
+    "surah": 45
+   }
+  ],
+  "111": [
+   {
+    "discriminative_cosine": 0.429295,
+    "surah": 79
+   },
+   {
+    "discriminative_cosine": 0.286702,
+    "surah": 60
+   },
+   {
+    "discriminative_cosine": 0.228401,
+    "surah": 36
+   },
+   {
+    "discriminative_cosine": 0.20715,
+    "surah": 83
+   },
+   {
+    "discriminative_cosine": 0.206111,
+    "surah": 50
+   },
+   {
+    "discriminative_cosine": 0.205863,
+    "surah": 12
+   }
+  ],
+  "112": [
+   {
+    "discriminative_cosine": 0.685551,
+    "surah": 96
+   },
+   {
+    "discriminative_cosine": 0.364361,
+    "surah": 64
+   },
+   {
+    "discriminative_cosine": 0.358888,
+    "surah": 24
+   },
+   {
+    "discriminative_cosine": 0.352673,
+    "surah": 42
+   },
+   {
+    "discriminative_cosine": 0.339359,
+    "surah": 72
+   },
+   {
+    "discriminative_cosine": 0.33268,
+    "surah": 59
+   }
+  ],
+  "113": [
+   {
+    "discriminative_cosine": 0.413601,
+    "surah": 58
+   },
+   {
+    "discriminative_cosine": 0.336687,
+    "surah": 88
+   },
+   {
+    "discriminative_cosine": 0.299434,
+    "surah": 100
+   },
+   {
+    "discriminative_cosine": 0.277117,
+    "surah": 5
+   },
+   {
+    "discriminative_cosine": 0.264372,
+    "surah": 2
+   },
+   {
+    "discriminative_cosine": 0.257916,
+    "surah": 42
+   }
+  ],
+  "114": [
+   {
+    "discriminative_cosine": 0.32933,
+    "surah": 99
+   },
+   {
+    "discriminative_cosine": 0.311388,
+    "surah": 32
+   },
+   {
+    "discriminative_cosine": 0.282222,
+    "surah": 87
+   },
+   {
+    "discriminative_cosine": 0.274818,
+    "surah": 40
+   },
+   {
+    "discriminative_cosine": 0.261682,
+    "surah": 39
+   },
+   {
+    "discriminative_cosine": 0.252263,
+    "surah": 94
+   }
+  ]
+ }
+}

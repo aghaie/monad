@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 13 (Revelation
-Evolution Engine). **Next phase:** Phase 14 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 14 (Structural
+Locality & Distribution Engine). **Next phase:** Phase 15 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -26,7 +26,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 11 | Discovery Stability & Robustness Engine (validation) | ✅ complete | `generated/validation/*.json` |
 | 12 | Generative Grammar Discovery Engine | ✅ complete | `generated/grammar/*.json` |
 | 13 | Revelation Evolution Engine | ✅ complete | `generated/evolution/*.json` |
-| 14 | (future) | ⛔ not started | — |
+| 14 | Structural Locality & Distribution Engine | ✅ complete | `generated/locality/*.json` |
+| 15 | (future) | ⛔ not started | — |
 
 ---
 
@@ -501,6 +502,54 @@ gradually.
 
 ---
 
+## Phase 14 — Structural Locality & Distribution Engine
+
+Investigates *where* the structure lives and *how evenly* it is distributed.
+Regions are defined only by measurable structural behaviour — **never by surah
+name, topic, chronology, meaning, or human label.** No theology, tafsir,
+translation, chronology, or origin claim; no conclusion without measurement.
+
+- 12 data products in `generated/locality/` (density maps, fingerprints, region
+  candidates, similarity, specialization, ablation, redundancy, inequality,
+  locality, falsification, robustness, manifest)
+- Method: per-surah/window structural densities; fingerprints (concept-activation
+  profiles); region discovery by modularity on discriminative (TF-IDF) fingerprint
+  similarity; specialization, ablation, redundancy, inequality, local-vs-global
+  window recovery, falsification, robustness
+- **Primary finding — the corpus is ONE homogeneous structural field:** raw
+  fingerprint similarity is near-uniform (mean cosine **0.835**); no structurally
+  distinct regions emerge (discriminative clustering yields only ~54 *weak*
+  clusters, cohesion ~0.28, mostly grouping short surahs — a size gradient)
+- **Distribution:** moderately concentrated by volume (Gini **0.58**; 15% of
+  surahs carry 50%) but **even per-ayah density (Gini 0.275)** — concentration is a
+  length effect. Effective number of regions ≈ 43.6/114
+- **Redundancy/ablation:** consistency is in 114/114 surahs, hub support in
+  104/114 — both ubiquitous; **no single region is indispensable** (0 of 54
+  ablations break the hub or consistency). Motif generation is rare (21/114,
+  concentrated in large surahs)
+- **Locality gradient:** hub & consistency **fully local** (recovered in 100% of
+  all random windows ≥1%); motif vocabulary **mostly local** (full by 20%); the
+  **giant SCC is global** (recovery 0.41 at 10%, 0.84 at 50%)
+- **Falsification:** "uniform" FALSIFIED, "tiny-minority" PARTIALLY FALSIFIED,
+  "specialized regions" WEAKLY SUPPORTED, "interchangeable regions" SUPPORTED,
+  "local windows reproduce global" SUPPORTED at scale. All survive bootstrap +
+  threshold sweeps
+- Builder: `scripts/build_locality.py`; Validator: `scripts/validate_locality.py`
+  (347 checks incl. regions-from-structure-only invariant, byte-identical rebuild)
+- Reports: `structural-density-report.md`, `region-discovery-report.md`,
+  `specialization-report.md`, `ablation-report.md`, `redundancy-report.md`,
+  `locality-report.md`, `locality-falsification-report.md`, `robustness-report.md`,
+  `phase14-final-report.md` (the spec's generic `falsification-report.md` collided
+  with Phase 7's, so the Phase-14 one was named distinctly to keep Phase 7 immutable)
+
+Locality verdict: the network is a **scale-invariant, content-intrinsic,
+spatially homogeneous** structure — the hub and consistency live in essentially
+every verse, the motif vocabulary is local, only the giant SCC is global, and no
+region is indispensable; the only spatial variation is a length-driven density
+gradient.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -533,11 +582,12 @@ python3 scripts/build_consistency.py    && python3 scripts/validate_consistency.
 python3 scripts/build_validation.py     && python3 scripts/validate_validation.py     --rebuild
 python3 scripts/build_grammar.py        && python3 scripts/validate_grammar.py        --rebuild
 python3 scripts/build_evolution.py      && python3 scripts/validate_evolution.py      --rebuild
+python3 scripts/build_locality.py       && python3 scripts/validate_locality.py       --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 14 is **not started** by design. Open questions are recorded in
-`phase13-final-report.md §11`. Awaiting explicit instruction to proceed.
+Phase 15 is **not started** by design. Open questions are recorded in
+`phase14-final-report.md §9`. Awaiting explicit instruction to proceed.

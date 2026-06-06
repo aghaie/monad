@@ -1,0 +1,659 @@
+{
+ "definition": "per-region structural-function contribution; general-purpose if it covers >=70% of concepts",
+ "global_reference": {
+  "concepts": 103,
+  "largest_scc": 91,
+  "motif_classes": 12
+ },
+ "method": "phase14-locality-1.0",
+ "regions": {
+  "REGION_001": {
+   "contribution": {
+    "concept_coverage": 57,
+    "consistency_overlap": 0,
+    "hub_support": 171.000001,
+    "identity_recognizable": 0.291847,
+    "motif_classes": 8,
+    "scc_size": 12
+   },
+   "general_purpose": false,
+   "n_surahs": 8
+  },
+  "REGION_002": {
+   "contribution": {
+    "concept_coverage": 53,
+    "consistency_overlap": 0,
+    "hub_support": 140.999963,
+    "identity_recognizable": 0.238047,
+    "motif_classes": 7,
+    "scc_size": 15
+   },
+   "general_purpose": false,
+   "n_surahs": 8
+  },
+  "REGION_003": {
+   "contribution": {
+    "concept_coverage": 72,
+    "consistency_overlap": 0,
+    "hub_support": 319.999987,
+    "identity_recognizable": 0.289304,
+    "motif_classes": 12,
+    "scc_size": 32
+   },
+   "general_purpose": false,
+   "n_surahs": 7
+  },
+  "REGION_004": {
+   "contribution": {
+    "concept_coverage": 65,
+    "consistency_overlap": 0,
+    "hub_support": 315.000058,
+    "identity_recognizable": 0.309853,
+    "motif_classes": 9,
+    "scc_size": 17
+   },
+   "general_purpose": false,
+   "n_surahs": 6
+  },
+  "REGION_005": {
+   "contribution": {
+    "concept_coverage": 64,
+    "consistency_overlap": 0,
+    "hub_support": 142.000001,
+    "identity_recognizable": 0.266835,
+    "motif_classes": 12,
+    "scc_size": 25
+   },
+   "general_purpose": false,
+   "n_surahs": 4
+  },
+  "REGION_006": {
+   "contribution": {
+    "concept_coverage": 79,
+    "consistency_overlap": 0,
+    "hub_support": 324.0,
+    "identity_recognizable": 0.351629,
+    "motif_classes": 12,
+    "scc_size": 36
+   },
+   "general_purpose": true,
+   "n_surahs": 4
+  },
+  "REGION_007": {
+   "contribution": {
+    "concept_coverage": 69,
+    "consistency_overlap": 0,
+    "hub_support": 322.999895,
+    "identity_recognizable": 0.37116,
+    "motif_classes": 4,
+    "scc_size": 19
+   },
+   "general_purpose": false,
+   "n_surahs": 4
+  },
+  "REGION_008": {
+   "contribution": {
+    "concept_coverage": 59,
+    "consistency_overlap": 0,
+    "hub_support": 321.999923,
+    "identity_recognizable": 0.49119,
+    "motif_classes": 8,
+    "scc_size": 19
+   },
+   "general_purpose": false,
+   "n_surahs": 4
+  },
+  "REGION_009": {
+   "contribution": {
+    "concept_coverage": 38,
+    "consistency_overlap": 0,
+    "hub_support": 95.999992,
+    "identity_recognizable": 0.240852,
+    "motif_classes": 5,
+    "scc_size": 7
+   },
+   "general_purpose": false,
+   "n_surahs": 4
+  },
+  "REGION_010": {
+   "contribution": {
+    "concept_coverage": 60,
+    "consistency_overlap": 0,
+    "hub_support": 151.999984,
+    "identity_recognizable": 0.411783,
+    "motif_classes": 8,
+    "scc_size": 17
+   },
+   "general_purpose": false,
+   "n_surahs": 3
+  },
+  "REGION_011": {
+   "contribution": {
+    "concept_coverage": 44,
+    "consistency_overlap": 0,
+    "hub_support": 118.000005,
+    "identity_recognizable": 0.30827,
+    "motif_classes": 4,
+    "scc_size": 11
+   },
+   "general_purpose": false,
+   "n_surahs": 3
+  },
+  "REGION_012": {
+   "contribution": {
+    "concept_coverage": 29,
+    "consistency_overlap": 0,
+    "hub_support": 45.000001,
+    "identity_recognizable": 0.261343,
+    "motif_classes": 5,
+    "scc_size": 9
+   },
+   "general_purpose": false,
+   "n_surahs": 3
+  },
+  "REGION_013": {
+   "contribution": {
+    "concept_coverage": 38,
+    "consistency_overlap": 0,
+    "hub_support": 72.999981,
+    "identity_recognizable": 0.253108,
+    "motif_classes": 5,
+    "scc_size": 11
+   },
+   "general_purpose": false,
+   "n_surahs": 3
+  },
+  "REGION_014": {
+   "contribution": {
+    "concept_coverage": 28,
+    "consistency_overlap": 0,
+    "hub_support": 31.0,
+    "identity_recognizable": 0.428571,
+    "motif_classes": 6,
+    "scc_size": 7
+   },
+   "general_purpose": false,
+   "n_surahs": 3
+  },
+  "REGION_015": {
+   "contribution": {
+    "concept_coverage": 71,
+    "consistency_overlap": 0,
+    "hub_support": 290.00002,
+    "identity_recognizable": 0.418341,
+    "motif_classes": 10,
+    "scc_size": 30
+   },
+   "general_purpose": false,
+   "n_surahs": 2
+  },
+  "REGION_016": {
+   "contribution": {
+    "concept_coverage": 56,
+    "consistency_overlap": 0,
+    "hub_support": 126.99999,
+    "identity_recognizable": 0.198718,
+    "motif_classes": 7,
+    "scc_size": 22
+   },
+   "general_purpose": false,
+   "n_surahs": 2
+  },
+  "REGION_017": {
+   "contribution": {
+    "concept_coverage": 50,
+    "consistency_overlap": 0,
+    "hub_support": 152.000013,
+    "identity_recognizable": 0.375,
+    "motif_classes": 4,
+    "scc_size": 12
+   },
+   "general_purpose": false,
+   "n_surahs": 2
+  },
+  "REGION_018": {
+   "contribution": {
+    "concept_coverage": 58,
+    "consistency_overlap": 0,
+    "hub_support": 198.999968,
+    "identity_recognizable": 0.467391,
+    "motif_classes": 9,
+    "scc_size": 14
+   },
+   "general_purpose": false,
+   "n_surahs": 2
+  },
+  "REGION_019": {
+   "contribution": {
+    "concept_coverage": 56,
+    "consistency_overlap": 0,
+    "hub_support": 127.0,
+    "identity_recognizable": 0.413889,
+    "motif_classes": 6,
+    "scc_size": 15
+   },
+   "general_purpose": false,
+   "n_surahs": 2
+  },
+  "REGION_020": {
+   "contribution": {
+    "concept_coverage": 41,
+    "consistency_overlap": 0,
+    "hub_support": 46.000003,
+    "identity_recognizable": 0.345122,
+    "motif_classes": 5,
+    "scc_size": 11
+   },
+   "general_purpose": false,
+   "n_surahs": 2
+  },
+  "REGION_021": {
+   "contribution": {
+    "concept_coverage": 25,
+    "consistency_overlap": 0,
+    "hub_support": 22.999998,
+    "identity_recognizable": 0.2,
+    "motif_classes": 6,
+    "scc_size": 6
+   },
+   "general_purpose": false,
+   "n_surahs": 2
+  },
+  "REGION_022": {
+   "contribution": {
+    "concept_coverage": 35,
+    "consistency_overlap": 0,
+    "hub_support": 47.00001,
+    "identity_recognizable": 0.524554,
+    "motif_classes": 5,
+    "scc_size": 7
+   },
+   "general_purpose": false,
+   "n_surahs": 2
+  },
+  "REGION_023": {
+   "contribution": {
+    "concept_coverage": 31,
+    "consistency_overlap": 0,
+    "hub_support": 59.999998,
+    "identity_recognizable": 0.347902,
+    "motif_classes": 3,
+    "scc_size": 3
+   },
+   "general_purpose": false,
+   "n_surahs": 2
+  },
+  "REGION_024": {
+   "contribution": {
+    "concept_coverage": 12,
+    "consistency_overlap": 0,
+    "hub_support": 16.0,
+    "identity_recognizable": 0.275,
+    "motif_classes": 0,
+    "scc_size": 0
+   },
+   "general_purpose": false,
+   "n_surahs": 2
+  },
+  "REGION_025": {
+   "contribution": {
+    "concept_coverage": 79,
+    "consistency_overlap": 0,
+    "hub_support": 285.0,
+    "identity_recognizable": 0.303797,
+    "motif_classes": 12,
+    "scc_size": 40
+   },
+   "general_purpose": true,
+   "n_surahs": 1
+  },
+  "REGION_026": {
+   "contribution": {
+    "concept_coverage": 73,
+    "consistency_overlap": 0,
+    "hub_support": 199.0,
+    "identity_recognizable": 0.369863,
+    "motif_classes": 12,
+    "scc_size": 20
+   },
+   "general_purpose": true,
+   "n_surahs": 1
+  },
+  "REGION_027": {
+   "contribution": {
+    "concept_coverage": 58,
+    "consistency_overlap": 0,
+    "hub_support": 165.0,
+    "identity_recognizable": 0.448276,
+    "motif_classes": 10,
+    "scc_size": 18
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_028": {
+   "contribution": {
+    "concept_coverage": 48,
+    "consistency_overlap": 0,
+    "hub_support": 109.0,
+    "identity_recognizable": 0.5625,
+    "motif_classes": 7,
+    "scc_size": 17
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_029": {
+   "contribution": {
+    "concept_coverage": 55,
+    "consistency_overlap": 0,
+    "hub_support": 123.0,
+    "identity_recognizable": 0.436364,
+    "motif_classes": 9,
+    "scc_size": 15
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_030": {
+   "contribution": {
+    "concept_coverage": 40,
+    "consistency_overlap": 0,
+    "hub_support": 49.999976,
+    "identity_recognizable": 0.375,
+    "motif_classes": 8,
+    "scc_size": 12
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_031": {
+   "contribution": {
+    "concept_coverage": 43,
+    "consistency_overlap": 0,
+    "hub_support": 96.000003,
+    "identity_recognizable": 0.488372,
+    "motif_classes": 6,
+    "scc_size": 7
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_032": {
+   "contribution": {
+    "concept_coverage": 56,
+    "consistency_overlap": 0,
+    "hub_support": 127.000064,
+    "identity_recognizable": 0.464286,
+    "motif_classes": 7,
+    "scc_size": 15
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_033": {
+   "contribution": {
+    "concept_coverage": 53,
+    "consistency_overlap": 0,
+    "hub_support": 110.0,
+    "identity_recognizable": 0.358491,
+    "motif_classes": 4,
+    "scc_size": 16
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_034": {
+   "contribution": {
+    "concept_coverage": 62,
+    "consistency_overlap": 0,
+    "hub_support": 78.0,
+    "identity_recognizable": 0.306452,
+    "motif_classes": 9,
+    "scc_size": 16
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_035": {
+   "contribution": {
+    "concept_coverage": 48,
+    "consistency_overlap": 0,
+    "hub_support": 77.0,
+    "identity_recognizable": 0.541667,
+    "motif_classes": 5,
+    "scc_size": 13
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_036": {
+   "contribution": {
+    "concept_coverage": 48,
+    "consistency_overlap": 0,
+    "hub_support": 68.0,
+    "identity_recognizable": 0.416667,
+    "motif_classes": 6,
+    "scc_size": 11
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_037": {
+   "contribution": {
+    "concept_coverage": 39,
+    "consistency_overlap": 0,
+    "hub_support": 58.000009,
+    "identity_recognizable": 0.512821,
+    "motif_classes": 5,
+    "scc_size": 11
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_038": {
+   "contribution": {
+    "concept_coverage": 42,
+    "consistency_overlap": 0,
+    "hub_support": 32.000001,
+    "identity_recognizable": 0.5,
+    "motif_classes": 5,
+    "scc_size": 6
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_039": {
+   "contribution": {
+    "concept_coverage": 25,
+    "consistency_overlap": 0,
+    "hub_support": 29.0,
+    "identity_recognizable": 0.24,
+    "motif_classes": 3,
+    "scc_size": 3
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_040": {
+   "contribution": {
+    "concept_coverage": 47,
+    "consistency_overlap": 0,
+    "hub_support": 45.0,
+    "identity_recognizable": 0.404255,
+    "motif_classes": 10,
+    "scc_size": 11
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_041": {
+   "contribution": {
+    "concept_coverage": 47,
+    "consistency_overlap": 0,
+    "hub_support": 165.999981,
+    "identity_recognizable": 0.531915,
+    "motif_classes": 8,
+    "scc_size": 8
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_042": {
+   "contribution": {
+    "concept_coverage": 53,
+    "consistency_overlap": 0,
+    "hub_support": 75.0,
+    "identity_recognizable": 0.471698,
+    "motif_classes": 9,
+    "scc_size": 11
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_043": {
+   "contribution": {
+    "concept_coverage": 43,
+    "consistency_overlap": 0,
+    "hub_support": 82.99998,
+    "identity_recognizable": 0.55814,
+    "motif_classes": 8,
+    "scc_size": 13
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_044": {
+   "contribution": {
+    "concept_coverage": 48,
+    "consistency_overlap": 0,
+    "hub_support": 53.0,
+    "identity_recognizable": 0.416667,
+    "motif_classes": 5,
+    "scc_size": 9
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_045": {
+   "contribution": {
+    "concept_coverage": 40,
+    "consistency_overlap": 0,
+    "hub_support": 51.0,
+    "identity_recognizable": 0.375,
+    "motif_classes": 6,
+    "scc_size": 14
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_046": {
+   "contribution": {
+    "concept_coverage": 37,
+    "consistency_overlap": 0,
+    "hub_support": 35.999984,
+    "identity_recognizable": 0.27027,
+    "motif_classes": 6,
+    "scc_size": 10
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_047": {
+   "contribution": {
+    "concept_coverage": 28,
+    "consistency_overlap": 0,
+    "hub_support": 18.0,
+    "identity_recognizable": 0.464286,
+    "motif_classes": 8,
+    "scc_size": 9
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_048": {
+   "contribution": {
+    "concept_coverage": 37,
+    "consistency_overlap": 0,
+    "hub_support": 37.999962,
+    "identity_recognizable": 0.378378,
+    "motif_classes": 0,
+    "scc_size": 2
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_049": {
+   "contribution": {
+    "concept_coverage": 29,
+    "consistency_overlap": 0,
+    "hub_support": 29.0,
+    "identity_recognizable": 0.413793,
+    "motif_classes": 10,
+    "scc_size": 9
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_050": {
+   "contribution": {
+    "concept_coverage": 27,
+    "consistency_overlap": 0,
+    "hub_support": 14.0,
+    "identity_recognizable": 0.407407,
+    "motif_classes": 2,
+    "scc_size": 2
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_051": {
+   "contribution": {
+    "concept_coverage": 21,
+    "consistency_overlap": 0,
+    "hub_support": 11.0,
+    "identity_recognizable": 0.333333,
+    "motif_classes": 2,
+    "scc_size": 2
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_052": {
+   "contribution": {
+    "concept_coverage": 6,
+    "consistency_overlap": 0,
+    "hub_support": 7.0,
+    "identity_recognizable": 0.4,
+    "motif_classes": 0,
+    "scc_size": 0
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_053": {
+   "contribution": {
+    "concept_coverage": 16,
+    "consistency_overlap": 0,
+    "hub_support": 8.0,
+    "identity_recognizable": 0.25,
+    "motif_classes": 0,
+    "scc_size": 1
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  },
+  "REGION_054": {
+   "contribution": {
+    "concept_coverage": 4,
+    "consistency_overlap": 0,
+    "hub_support": 6.0,
+    "identity_recognizable": 0.75,
+    "motif_classes": 0,
+    "scc_size": 0
+   },
+   "general_purpose": false,
+   "n_surahs": 1
+  }
+ }
+}

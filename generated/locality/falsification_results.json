@@ -1,0 +1,30 @@
+{
+ "method": "phase14-locality-1.0",
+ "tests": [
+  {
+   "claim": "structure is uniformly distributed",
+   "evidence": "Gini(activations)=0.580486; 17/114 surahs (0.149123) carry 50% of activations",
+   "result": "FALSIFIED"
+  },
+  {
+   "claim": "structure is regionally concentrated in a tiny minority",
+   "evidence": "50% needs 17 surahs (0.149123) — a minority, but not tiny; per-ayah density Gini=0.275388 is low (concentration is largely a length effect)",
+   "result": "PARTIALLY FALSIFIED"
+  },
+  {
+   "claim": "distinct specialized regions exist",
+   "evidence": "raw fingerprint homogeneity is high (mean cosine 0.834905 → one field); 54 weak discriminative clusters emerge (mean cohesion 0.461556); the only real specialization is functional: motif generation is concentrated in larger surahs",
+   "result": "WEAKLY SUPPORTED"
+  },
+  {
+   "claim": "regions are interchangeable / redundant",
+   "evidence": "no single region removal breaks the hub or consistency (hub broken: False, consistency broken: False)",
+   "result": "SUPPORTED"
+  },
+  {
+   "claim": "local windows reproduce global structure",
+   "evidence": "at 10% window, motif recovery 0.9375, hub-rank1 prob 1.0, consistency 1.0",
+   "result": "SUPPORTED at scale"
+  }
+ ]
+}

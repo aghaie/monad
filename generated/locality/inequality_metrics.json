@@ -1,0 +1,32 @@
+{
+ "definition": "Gini / entropy / participation-ratio across the 114 surahs",
+ "method": "phase14-locality-1.0",
+ "metrics": {
+  "activation_density": {
+   "gini": 0.275388,
+   "note": "per-ayah density Gini — far lower than totals, showing concentration is largely a length effect"
+  },
+  "activations": {
+   "effective_number": 43.586213,
+   "entropy_bits": 5.973614,
+   "gini": 0.580486,
+   "max_entropy_bits": 6.83289,
+   "participation_ratio": 43.586213
+  },
+  "ayahs": {
+   "effective_number": 57.7245,
+   "entropy_bits": 6.231024,
+   "gini": 0.499652,
+   "max_entropy_bits": 6.83289,
+   "participation_ratio": 57.7245
+  },
+  "hub_support": {
+   "effective_number": 56.361409,
+   "entropy_bits": 6.203848,
+   "gini": 0.510124,
+   "max_entropy_bits": 6.83289,
+   "participation_ratio": 56.361409
+  }
+ },
+ "verdict": "structure totals are concentrated (length-driven); per-ayah density is even"
+}

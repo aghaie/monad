@@ -1,0 +1,32 @@
+{
+ "consistency_holds_all_regions": true,
+ "gini_bootstrap": {
+  "ci95_high": 0.631934,
+  "ci95_low": 0.515361,
+  "max": 0.652749,
+  "mean": 0.577371,
+  "min": 0.503407,
+  "n": 100,
+  "std": 0.032236
+ },
+ "hub_robust_all_ablations": true,
+ "method": "phase14-locality-1.0",
+ "similarity_threshold_sweep": [
+  {
+   "n_edges": 2824,
+   "n_regions": 62,
+   "threshold": 0.3
+  },
+  {
+   "n_edges": 1855,
+   "n_regions": 54,
+   "threshold": 0.4
+  },
+  {
+   "n_edges": 1011,
+   "n_regions": 54,
+   "threshold": 0.5
+  }
+ ],
+ "verdict": "concentration (Gini~0.58) and hub/consistency robustness survive bootstrap and threshold sweeps"
+}

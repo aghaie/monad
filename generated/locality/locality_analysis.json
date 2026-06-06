@@ -1,0 +1,131 @@
+{
+ "definition": "random contiguous windows of increasing size; structure recovery vs global",
+ "global_reference": {
+  "largest_scc": 91,
+  "triad_classes": 12
+ },
+ "method": "phase14-locality-1.0",
+ "verdict": "how much of the global structure a local window reproduces",
+ "windows": {
+  "10pct": {
+   "consistency_recovery": 1.0,
+   "hub_rank1_probability": 1.0,
+   "motif_class_recovery": {
+    "ci95_high": 1.0,
+    "ci95_low": 0.75,
+    "max": 1.0,
+    "mean": 0.9375,
+    "min": 0.75,
+    "n": 40,
+    "std": 0.069096
+   },
+   "samples": 40,
+   "scc_recovery": {
+    "ci95_high": 0.51978,
+    "ci95_low": 0.229945,
+    "max": 0.648352,
+    "mean": 0.409615,
+    "min": 0.197802,
+    "n": 40,
+    "std": 0.084229
+   },
+   "window_ayahs": 610
+  },
+  "1pct": {
+   "consistency_recovery": 1.0,
+   "hub_rank1_probability": 1.0,
+   "motif_class_recovery": {
+    "ci95_high": 1.0,
+    "ci95_low": 0.083333,
+    "max": 1.0,
+    "mean": 0.495833,
+    "min": 0.083333,
+    "n": 40,
+    "std": 0.237134
+   },
+   "samples": 40,
+   "scc_recovery": {
+    "ci95_high": 0.198901,
+    "ci95_low": 0.010989,
+    "max": 0.241758,
+    "mean": 0.113736,
+    "min": 0.010989,
+    "n": 40,
+    "std": 0.060517
+   },
+   "window_ayahs": 61
+  },
+  "20pct": {
+   "consistency_recovery": 1.0,
+   "hub_rank1_probability": 1.0,
+   "motif_class_recovery": {
+    "ci95_high": 1.083333,
+    "ci95_low": 0.916667,
+    "max": 1.083333,
+    "mean": 1.020833,
+    "min": 0.916667,
+    "n": 40,
+    "std": 0.048412
+   },
+   "samples": 40,
+   "scc_recovery": {
+    "ci95_high": 0.747527,
+    "ci95_low": 0.395604,
+    "max": 0.758242,
+    "mean": 0.617033,
+    "min": 0.395604,
+    "n": 40,
+    "std": 0.093101
+   },
+   "window_ayahs": 1220
+  },
+  "50pct": {
+   "consistency_recovery": 1.0,
+   "hub_rank1_probability": 1.0,
+   "motif_class_recovery": {
+    "ci95_high": 1.083333,
+    "ci95_low": 1.0,
+    "max": 1.083333,
+    "mean": 1.035417,
+    "min": 1.0,
+    "n": 40,
+    "std": 0.041195
+   },
+   "samples": 40,
+   "scc_recovery": {
+    "ci95_high": 0.923077,
+    "ci95_low": 0.736264,
+    "max": 0.923077,
+    "mean": 0.839835,
+    "min": 0.736264,
+    "n": 40,
+    "std": 0.054275
+   },
+   "window_ayahs": 3050
+  },
+  "5pct": {
+   "consistency_recovery": 1.0,
+   "hub_rank1_probability": 1.0,
+   "motif_class_recovery": {
+    "ci95_high": 1.002083,
+    "ci95_low": 0.583333,
+    "max": 1.083333,
+    "mean": 0.883333,
+    "min": 0.583333,
+    "n": 40,
+    "std": 0.147667
+   },
+   "samples": 40,
+   "scc_recovery": {
+    "ci95_high": 0.450824,
+    "ci95_low": 0.131593,
+    "max": 0.461538,
+    "mean": 0.281319,
+    "min": 0.120879,
+    "n": 40,
+    "std": 0.079691
+   },
+   "window_ayahs": 305
+  }
+ }
+}

@@ -1,0 +1,608 @@
+{
+ "definition": "regions = modularity communities of the surah fingerprint-similarity graph",
+ "method": "phase14-locality-1.0",
+ "n_regions": 54,
+ "regions": {
+  "REGION_001": {
+   "cohesion": 0.22339,
+   "n_surahs": 8,
+   "separation": 0.82605,
+   "surahs": [
+    8,
+    80,
+    81,
+    91,
+    92,
+    97,
+    99,
+    106
+   ],
+   "total_activations": 613.0,
+   "total_ayahs": 191
+  },
+  "REGION_002": {
+   "cohesion": 0.341916,
+   "n_surahs": 8,
+   "separation": 0.829688,
+   "surahs": [
+    59,
+    70,
+    84,
+    89,
+    90,
+    93,
+    100,
+    107
+   ],
+   "total_activations": 445.0,
+   "total_ayahs": 160
+  },
+  "REGION_003": {
+   "cohesion": 0.245061,
+   "n_surahs": 7,
+   "separation": 0.801739,
+   "surahs": [
+    9,
+    12,
+    62,
+    72,
+    83,
+    101,
+    103
+   ],
+   "total_activations": 1728.0,
+   "total_ayahs": 325
+  },
+  "REGION_004": {
+   "cohesion": 0.494984,
+   "n_surahs": 6,
+   "separation": 0.700345,
+   "surahs": [
+    38,
+    52,
+    56,
+    69,
+    76,
+    78
+   ],
+   "total_activations": 885.0,
+   "total_ayahs": 336
+  },
+  "REGION_005": {
+   "cohesion": 0.457225,
+   "n_surahs": 4,
+   "separation": 0.747983,
+   "surahs": [
+    1,
+    5,
+    60,
+    108
+   ],
+   "total_activations": 1018.0,
+   "total_ayahs": 143
+  },
+  "REGION_006": {
+   "cohesion": 0.475846,
+   "n_surahs": 4,
+   "separation": 0.680506,
+   "surahs": [
+    4,
+    24,
+    33,
+    66
+   ],
+   "total_activations": 2234.0,
+   "total_ayahs": 324
+  },
+  "REGION_007": {
+   "cohesion": 0.447843,
+   "n_surahs": 4,
+   "separation": 0.700398,
+   "surahs": [
+    20,
+    23,
+    74,
+    77
+   ],
+   "total_activations": 992.0,
+   "total_ayahs": 336
+  },
+  "REGION_008": {
+   "cohesion": 0.587075,
+   "n_surahs": 4,
+   "separation": 0.692957,
+   "surahs": [
+    26,
+    51,
+    54,
+    105
+   ],
+   "total_activations": 934.0,
+   "total_ayahs": 340
+  },
+  "REGION_009": {
+   "cohesion": 0.463799,
+   "n_surahs": 4,
+   "separation": 0.758102,
+   "surahs": [
+    50,
+    82,
+    85,
+    86
+   ],
+   "total_activations": 268.0,
+   "total_ayahs": 98
+  },
+  "REGION_010": {
+   "cohesion": 0.560074,
+   "n_surahs": 3,
+   "separation": 0.696447,
+   "surahs": [
+    13,
+    34,
+    53
+   ],
+   "total_activations": 626.0,
+   "total_ayahs": 154
+  },
+  "REGION_011": {
+   "cohesion": 0.374556,
+   "n_surahs": 3,
+   "separation": 0.775233,
+   "surahs": [
+    36,
+    79,
+    111
+   ],
+   "total_activations": 363.0,
+   "total_ayahs": 123
+  },
+  "REGION_012": {
+   "cohesion": 0.469532,
+   "n_surahs": 3,
+   "separation": 0.696431,
+   "surahs": [
+    45,
+    95,
+    110
+   ],
+   "total_activations": 186.0,
+   "total_ayahs": 46
+  },
+  "REGION_013": {
+   "cohesion": 0.421623,
+   "n_surahs": 3,
+   "separation": 0.750853,
+   "surahs": [
+    58,
+    68,
+    113
+   ],
+   "total_activations": 270.0,
+   "total_ayahs": 74
+  },
+  "REGION_014": {
+   "cohesion": 0.464921,
+   "n_surahs": 3,
+   "separation": 0.749853,
+   "surahs": [
+    65,
+    96,
+    112
+   ],
+   "total_activations": 129.0,
+   "total_ayahs": 31
+  },
+  "REGION_015": {
+   "cohesion": 0.44628,
+   "n_surahs": 2,
+   "separation": 0.664087,
+   "surahs": [
+    7,
+    28
+   ],
+   "total_activations": 1465.0,
+   "total_ayahs": 292
+  },
+  "REGION_016": {
+   "cohesion": 0.430774,
+   "n_surahs": 2,
+   "separation": 0.679866,
+   "surahs": [
+    18,
+    73
+   ],
+   "total_activations": 622.0,
+   "total_ayahs": 130
+  },
+  "REGION_017": {
+   "cohesion": 0.406981,
+   "n_surahs": 2,
+   "separation": 0.685661,
+   "surahs": [
+    19,
+    44
+   ],
+   "total_activations": 536.0,
+   "total_ayahs": 155
+  },
+  "REGION_018": {
+   "cohesion": 0.450056,
+   "n_surahs": 2,
+   "separation": 0.655895,
+   "surahs": [
+    21,
+    43
+   ],
+   "total_activations": 723.0,
+   "total_ayahs": 200
+  },
+  "REGION_019": {
+   "cohesion": 0.650806,
+   "n_surahs": 2,
+   "separation": 0.658645,
+   "surahs": [
+    27,
+    46
+   ],
+   "total_activations": 547.0,
+   "total_ayahs": 127
+  },
+  "REGION_020": {
+   "cohesion": 0.594847,
+   "n_surahs": 2,
+   "separation": 0.769724,
+   "surahs": [
+    48,
+    87
+   ],
+   "total_activations": 249.0,
+   "total_ayahs": 48
+  },
+  "REGION_021": {
+   "cohesion": 0.589933,
+   "n_surahs": 2,
+   "separation": 0.676019,
+   "surahs": [
+    64,
+    109
+   ],
+   "total_activations": 109.0,
+   "total_ayahs": 24
+  },
+  "REGION_022": {
+   "cohesion": 0.437938,
+   "n_surahs": 2,
+   "separation": 0.739348,
+   "surahs": [
+    67,
+    88
+   ],
+   "total_activations": 143.0,
+   "total_ayahs": 55
+  },
+  "REGION_023": {
+   "cohesion": 0.602798,
+   "n_surahs": 2,
+   "separation": 0.692441,
+   "surahs": [
+    71,
+    75
+   ],
+   "total_activations": 175.0,
+   "total_ayahs": 65
+  },
+  "REGION_024": {
+   "cohesion": 0.439081,
+   "n_surahs": 2,
+   "separation": 0.897923,
+   "surahs": [
+    102,
+    104
+   ],
+   "total_activations": 31.0,
+   "total_ayahs": 17
+  },
+  "REGION_025": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.597604,
+   "surahs": [
+    2
+   ],
+   "total_activations": 1887.0,
+   "total_ayahs": 285
+  },
+  "REGION_026": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.641623,
+   "surahs": [
+    3
+   ],
+   "total_activations": 1185.0,
+   "total_ayahs": 199
+  },
+  "REGION_027": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.545978,
+   "surahs": [
+    6
+   ],
+   "total_activations": 796.0,
+   "total_ayahs": 165
+  },
+  "REGION_028": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.559878,
+   "surahs": [
+    10
+   ],
+   "total_activations": 484.0,
+   "total_ayahs": 109
+  },
+  "REGION_029": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.676039,
+   "surahs": [
+    11
+   ],
+   "total_activations": 611.0,
+   "total_ayahs": 123
+  },
+  "REGION_030": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.544693,
+   "surahs": [
+    14
+   ],
+   "total_activations": 293.0,
+   "total_ayahs": 52
+  },
+  "REGION_031": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.634193,
+   "surahs": [
+    15
+   ],
+   "total_activations": 247.0,
+   "total_ayahs": 99
+  },
+  "REGION_032": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.560173,
+   "surahs": [
+    16
+   ],
+   "total_activations": 627.0,
+   "total_ayahs": 128
+  },
+  "REGION_033": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.812036,
+   "surahs": [
+    17
+   ],
+   "total_activations": 505.0,
+   "total_ayahs": 110
+  },
+  "REGION_034": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.813846,
+   "surahs": [
+    22
+   ],
+   "total_activations": 431.0,
+   "total_ayahs": 78
+  },
+  "REGION_035": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.559651,
+   "surahs": [
+    25
+   ],
+   "total_activations": 344.0,
+   "total_ayahs": 77
+  },
+  "REGION_036": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.564558,
+   "surahs": [
+    29
+   ],
+   "total_activations": 327.0,
+   "total_ayahs": 68
+  },
+  "REGION_037": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.583329,
+   "surahs": [
+    30
+   ],
+   "total_activations": 279.0,
+   "total_ayahs": 59
+  },
+  "REGION_038": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.622538,
+   "surahs": [
+    31
+   ],
+   "total_activations": 170.0,
+   "total_ayahs": 33
+  },
+  "REGION_039": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.626779,
+   "surahs": [
+    32
+   ],
+   "total_activations": 99.0,
+   "total_ayahs": 29
+  },
+  "REGION_040": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.55734,
+   "surahs": [
+    35
+   ],
+   "total_activations": 261.0,
+   "total_ayahs": 45
+  },
+  "REGION_041": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.610247,
+   "surahs": [
+    37
+   ],
+   "total_activations": 408.0,
+   "total_ayahs": 177
+  },
+  "REGION_042": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.545637,
+   "surahs": [
+    39
+   ],
+   "total_activations": 384.0,
+   "total_ayahs": 75
+  },
+  "REGION_043": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.542635,
+   "surahs": [
+    40
+   ],
+   "total_activations": 393.0,
+   "total_ayahs": 84
+  },
+  "REGION_044": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.584966,
+   "surahs": [
+    41
+   ],
+   "total_activations": 245.0,
+   "total_ayahs": 53
+  },
+  "REGION_045": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.590822,
+   "surahs": [
+    42
+   ],
+   "total_activations": 266.0,
+   "total_ayahs": 51
+  },
+  "REGION_046": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.610298,
+   "surahs": [
+    47
+   ],
+   "total_activations": 200.0,
+   "total_ayahs": 38
+  },
+  "REGION_047": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.822938,
+   "surahs": [
+    49
+   ],
+   "total_activations": 118.0,
+   "total_ayahs": 18
+  },
+  "REGION_048": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.949809,
+   "surahs": [
+    55
+   ],
+   "total_activations": 149.0,
+   "total_ayahs": 77
+  },
+  "REGION_049": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.610845,
+   "surahs": [
+    57
+   ],
+   "total_activations": 174.0,
+   "total_ayahs": 29
+  },
+  "REGION_050": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.688425,
+   "surahs": [
+    61
+   ],
+   "total_activations": 80.0,
+   "total_ayahs": 14
+  },
+  "REGION_051": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.647845,
+   "surahs": [
+    63
+   ],
+   "total_activations": 67.0,
+   "total_ayahs": 11
+  },
+  "REGION_052": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.913005,
+   "surahs": [
+    94
+   ],
+   "total_activations": 14.0,
+   "total_ayahs": 7
+  },
+  "REGION_053": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.648252,
+   "surahs": [
+    98
+   ],
+   "total_activations": 45.0,
+   "total_ayahs": 8
+  },
+  "REGION_054": {
+   "cohesion": 0.0,
+   "n_surahs": 1,
+   "separation": 0.897786,
+   "surahs": [
+    114
+   ],
+   "total_activations": 9.0,
+   "total_ayahs": 6
+  }
+ },
+ "similarity_threshold": 0.4
+}

@@ -1,0 +1,69 @@
+{
+ "constants": {
+  "ASYM_MIN": 0.3,
+  "BOOT_RUNS": 100,
+  "MARGINAL_MIN": 30,
+  "NPMI_MIN": 0.2,
+  "ORDER_SUP": 10,
+  "REQ_CONF": 0.9,
+  "ROUND": 6,
+  "SEED": 20261414,
+  "SIM_THRESHOLD": 0.4,
+  "SUPPORT_MIN": 5,
+  "WINDOW_FRACS": [
+   0.01,
+   0.05,
+   0.1,
+   0.2,
+   0.5
+  ],
+  "WINDOW_SAMPLES": 40
+ },
+ "input_sha256": {
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "dominant_roots.json": "b0436631d85f79206e9e7254f86215c88003a5d8313e071143c9df27b5114120",
+  "irreducible_structures.json": "42da5540f82d91fadf668ea73e317c5fc7bae44a53b4d070ca4322439514715e",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "phase14-locality-1.0",
+ "output_bytes": {
+  "ablation_analysis.json": 19083,
+  "density_maps.json": 70125,
+  "falsification_results.json": 1249,
+  "inequality_metrics.json": 903,
+  "locality_analysis.json": 2679,
+  "redundancy_analysis.json": 765,
+  "region_candidates.json": 9887,
+  "region_similarity.json": 46729,
+  "robustness_results.json": 628,
+  "specialization_analysis.json": 14446,
+  "structural_fingerprints.json": 71289
+ },
+ "prohibitions_observed": [
+  "no theology",
+  "no tafsir",
+  "no translation",
+  "no meanings",
+  "no chronology claims",
+  "no authorship claims",
+  "no divine origin claims",
+  "no human origin claims",
+  "no imported labels",
+  "no human-defined regions",
+  "no interpretation",
+  "no conclusion without measurement",
+  "regions emerge from structure only",
+  "prior phases immutable"
+ ],
+ "totals": {
+  "any_ablation_breaks_consistency": false,
+  "any_ablation_breaks_hub": false,
+  "gini_activations": 0.580486,
+  "gini_density": 0.275388,
+  "motif_recovery_10pct_window": 0.9375,
+  "n_regions": 54,
+  "n_surahs": 114,
+  "surahs_for_50pct": 17,
+  "surahs_for_80pct": 42
+ }
+}

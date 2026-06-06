@@ -1,0 +1,27 @@
+{
+ "definition": "number of surahs substantially providing each structural function (hub>=0.8 participation; motif>=8 classes; scc>=9; consistency=all)",
+ "function_redundancy": {
+  "consistency": {
+   "fraction_of_corpus": 1.0,
+   "providing_surahs": 114,
+   "redundancy": "ubiquitous"
+  },
+  "hub_support": {
+   "fraction_of_corpus": 0.912281,
+   "providing_surahs": 104,
+   "redundancy": "ubiquitous"
+  },
+  "motif_generation": {
+   "fraction_of_corpus": 0.184211,
+   "providing_surahs": 21,
+   "redundancy": "rare"
+  },
+  "scc_support": {
+   "fraction_of_corpus": 0.377193,
+   "providing_surahs": 43,
+   "redundancy": "common"
+  }
+ },
+ "interpretation": "high providing counts = high backup; functions are not single-points",
+ "method": "phase14-locality-1.0"
+}
