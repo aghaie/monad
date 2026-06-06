@@ -1,0 +1,62 @@
+{
+ "constants": {
+  "ROUND": 6,
+  "SURVIVE_RETENTION": 0.5,
+  "TARGETS": [
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   0.95
+  ]
+ },
+ "input_sha256": {
+  "concept_graph.json": "3f977021e27782dc0337fe5478f0424cce3d437314d574793d7c6eb80a127b77",
+  "concept_relationships.json": "e8b40c467c149ed9285384d3986be7afa6ed72d52bb1270719d207ac96868035",
+  "foundationality_scores.json": "bb8d74fce06994ca956d519a53cc3f151e0c023568076c804441a470317184bb",
+  "identity_confidence.json": "49cfc36fd00ecdaf3d9007feeea189b93d07757d215abc054d90d4ea8ac0231f",
+  "proposition_candidates.json": "05bf114c331d58082004409ed129a35ba5811343ca5b7b2954e83d9b4c1a6fbf",
+  "proposition_graph.json": "c9033e1cbbf46a3a776613f9b338a43b466a442dddbd0e1d5373cf74b2f9ec35"
+ },
+ "method": "phase8-principles-1.0",
+ "output_bytes": {
+  "irreducible_principles.json": 849,
+  "principle_candidates.json": 18815,
+  "principle_coverage.json": 7848,
+  "principle_dependencies.json": 7093,
+  "principle_falsification.json": 18050,
+  "principle_hierarchy.json": 2430,
+  "principle_reconstruction.json": 5672,
+  "principle_removal.json": 5345
+ },
+ "prohibitions_observed": [
+  "no semantic meaning assigned",
+  "no principle names",
+  "no principle translation",
+  "no theology",
+  "no doctrine",
+  "no ontology",
+  "no apologetics",
+  "no contradiction engine",
+  "no divine origin inferred",
+  "no human origin inferred",
+  "no success claimed before testing",
+  "no small principle set forced",
+  "principles emerge from discovered structure, never invented or imported",
+  "prior phases never rebuilt or modified"
+ ],
+ "totals": {
+  "falsification_fail": 16,
+  "falsification_survive": 0,
+  "incidence_coverage_ceiling": 1.0,
+  "inter_principle_fraction": 0.900615,
+  "internal_coverage_ceiling": 0.099385,
+  "intra_principle_fraction": 0.099385,
+  "largest_irreducible_size": 11,
+  "modularity": 0.294429,
+  "n_irreducible_principle_clusters": 1,
+  "n_principles": 16,
+  "n_relations": 6832
+ }
+}

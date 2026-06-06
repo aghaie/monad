@@ -1,0 +1,27 @@
+{
+ "definition": "Irreducible principle clusters = strongly-connected components (size>=2) of the principle dependency graph — mutually dependent principles that cannot be ordered or reduced. Irreducible explanatory residue = relations no single principle generates (inter-principle).",
+ "irreducible_explanatory_residue_fraction": 0.900615,
+ "irreducible_explanatory_residue_relations": 6153,
+ "irreducible_principle_clusters": [
+  {
+   "internal_dependency_edges": 69,
+   "principles": [
+    "PRINCIPLE_002",
+    "PRINCIPLE_005",
+    "PRINCIPLE_007",
+    "PRINCIPLE_008",
+    "PRINCIPLE_009",
+    "PRINCIPLE_010",
+    "PRINCIPLE_011",
+    "PRINCIPLE_012",
+    "PRINCIPLE_013",
+    "PRINCIPLE_014",
+    "PRINCIPLE_015"
+   ],
+   "size": 11
+  }
+ ],
+ "largest_irreducible_size": 11,
+ "method": "phase8-principles-1.0",
+ "n_irreducible_clusters": 1
+}

@@ -1,0 +1,201 @@
+{
+ "base_components": 9,
+ "definition": "Removing a principle deletes all its member concepts; relations_lost = relations incident to any member; fragmentation_added = increase in concept-graph components.",
+ "method": "phase8-principles-1.0",
+ "principles": {
+  "PRINCIPLE_001": {
+   "components_after": 3,
+   "components_before": 9,
+   "dependencies_lost": 99,
+   "dependencies_lost_fraction": 0.348592,
+   "fragmentation_added": -6,
+   "reconstruction_loss_internal": 45,
+   "relations_lost": 1697,
+   "relations_lost_fraction": 0.24839,
+   "size": 13
+  },
+  "PRINCIPLE_002": {
+   "components_after": 10,
+   "components_before": 9,
+   "dependencies_lost": 75,
+   "dependencies_lost_fraction": 0.264085,
+   "fragmentation_added": 1,
+   "reconstruction_loss_internal": 250,
+   "relations_lost": 2511,
+   "relations_lost_fraction": 0.367535,
+   "size": 11
+  },
+  "PRINCIPLE_003": {
+   "components_after": 9,
+   "components_before": 9,
+   "dependencies_lost": 27,
+   "dependencies_lost_fraction": 0.09507,
+   "fragmentation_added": 0,
+   "reconstruction_loss_internal": 38,
+   "relations_lost": 1490,
+   "relations_lost_fraction": 0.218091,
+   "size": 9
+  },
+  "PRINCIPLE_004": {
+   "components_after": 9,
+   "components_before": 9,
+   "dependencies_lost": 30,
+   "dependencies_lost_fraction": 0.105634,
+   "fragmentation_added": 0,
+   "reconstruction_loss_internal": 60,
+   "relations_lost": 650,
+   "relations_lost_fraction": 0.095141,
+   "size": 9
+  },
+  "PRINCIPLE_005": {
+   "components_after": 10,
+   "components_before": 9,
+   "dependencies_lost": 28,
+   "dependencies_lost_fraction": 0.098592,
+   "fragmentation_added": 1,
+   "reconstruction_loss_internal": 44,
+   "relations_lost": 1340,
+   "relations_lost_fraction": 0.196136,
+   "size": 8
+  },
+  "PRINCIPLE_006": {
+   "components_after": 10,
+   "components_before": 9,
+   "dependencies_lost": 12,
+   "dependencies_lost_fraction": 0.042254,
+   "fragmentation_added": 1,
+   "reconstruction_loss_internal": 18,
+   "relations_lost": 657,
+   "relations_lost_fraction": 0.096165,
+   "size": 8
+  },
+  "PRINCIPLE_007": {
+   "components_after": 11,
+   "components_before": 9,
+   "dependencies_lost": 35,
+   "dependencies_lost_fraction": 0.123239,
+   "fragmentation_added": 2,
+   "reconstruction_loss_internal": 71,
+   "relations_lost": 1236,
+   "relations_lost_fraction": 0.180913,
+   "size": 8
+  },
+  "PRINCIPLE_008": {
+   "components_after": 9,
+   "components_before": 9,
+   "dependencies_lost": 19,
+   "dependencies_lost_fraction": 0.066901,
+   "fragmentation_added": 0,
+   "reconstruction_loss_internal": 32,
+   "relations_lost": 610,
+   "relations_lost_fraction": 0.089286,
+   "size": 7
+  },
+  "PRINCIPLE_009": {
+   "components_after": 10,
+   "components_before": 9,
+   "dependencies_lost": 14,
+   "dependencies_lost_fraction": 0.049296,
+   "fragmentation_added": 1,
+   "reconstruction_loss_internal": 16,
+   "relations_lost": 434,
+   "relations_lost_fraction": 0.063525,
+   "size": 6
+  },
+  "PRINCIPLE_010": {
+   "components_after": 9,
+   "components_before": 9,
+   "dependencies_lost": 18,
+   "dependencies_lost_fraction": 0.06338,
+   "fragmentation_added": 0,
+   "reconstruction_loss_internal": 14,
+   "relations_lost": 775,
+   "relations_lost_fraction": 0.113437,
+   "size": 5
+  },
+  "PRINCIPLE_011": {
+   "components_after": 8,
+   "components_before": 9,
+   "dependencies_lost": 45,
+   "dependencies_lost_fraction": 0.158451,
+   "fragmentation_added": -1,
+   "reconstruction_loss_internal": 42,
+   "relations_lost": 1976,
+   "relations_lost_fraction": 0.289227,
+   "size": 5
+  },
+  "PRINCIPLE_012": {
+   "components_after": 9,
+   "components_before": 9,
+   "dependencies_lost": 14,
+   "dependencies_lost_fraction": 0.049296,
+   "fragmentation_added": 0,
+   "reconstruction_loss_internal": 6,
+   "relations_lost": 267,
+   "relations_lost_fraction": 0.039081,
+   "size": 4
+  },
+  "PRINCIPLE_013": {
+   "components_after": 9,
+   "components_before": 9,
+   "dependencies_lost": 11,
+   "dependencies_lost_fraction": 0.038732,
+   "fragmentation_added": 0,
+   "reconstruction_loss_internal": 7,
+   "relations_lost": 501,
+   "relations_lost_fraction": 0.073331,
+   "size": 3
+  },
+  "PRINCIPLE_014": {
+   "components_after": 9,
+   "components_before": 9,
+   "dependencies_lost": 17,
+   "dependencies_lost_fraction": 0.059859,
+   "fragmentation_added": 0,
+   "reconstruction_loss_internal": 16,
+   "relations_lost": 509,
+   "relations_lost_fraction": 0.074502,
+   "size": 3
+  },
+  "PRINCIPLE_015": {
+   "components_after": 9,
+   "components_before": 9,
+   "dependencies_lost": 20,
+   "dependencies_lost_fraction": 0.070423,
+   "fragmentation_added": 0,
+   "reconstruction_loss_internal": 20,
+   "relations_lost": 957,
+   "relations_lost_fraction": 0.140076,
+   "size": 3
+  },
+  "PRINCIPLE_016": {
+   "components_after": 8,
+   "components_before": 9,
+   "dependencies_lost": 0,
+   "dependencies_lost_fraction": 0.0,
+   "fragmentation_added": -1,
+   "reconstruction_loss_internal": 0,
+   "relations_lost": 0,
+   "relations_lost_fraction": 0.0,
+   "size": 1
+  }
+ },
+ "ranking_by_impact": [
+  "PRINCIPLE_002",
+  "PRINCIPLE_011",
+  "PRINCIPLE_001",
+  "PRINCIPLE_003",
+  "PRINCIPLE_005",
+  "PRINCIPLE_007",
+  "PRINCIPLE_015",
+  "PRINCIPLE_010",
+  "PRINCIPLE_006",
+  "PRINCIPLE_004",
+  "PRINCIPLE_008",
+  "PRINCIPLE_014",
+  "PRINCIPLE_013",
+  "PRINCIPLE_009",
+  "PRINCIPLE_012",
+  "PRINCIPLE_016"
+ ]
+}

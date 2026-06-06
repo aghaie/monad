@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 7 (Semantic
-Revelation Engine). **Next phase:** Phase 8 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 8 (Foundational
+Principle Discovery Engine). **Next phase:** Phase 9 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -20,7 +20,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 5 | Dependency Compression Engine | ✅ complete | `generated/compression/*.json` |
 | 6 | Concept Identification Engine | ✅ complete | `generated/identification/*.json` |
 | 7 | Semantic Revelation Engine | ✅ complete | `generated/revelation/*.json` |
-| 8 | (future) | ⛔ not started | — |
+| 8 | Foundational Principle Discovery Engine | ✅ complete | `generated/principles/*.json` |
+| 9 | (future) | ⛔ not started | — |
 
 ---
 
@@ -230,6 +231,47 @@ and what competing explanations coexist.
 
 ---
 
+## Phase 8 — Foundational Principle Discovery Engine
+
+Tests — never assumes — whether the discovered structure reduces to a small set of
+**foundational principles** (structural patterns, not words/roots/lemmas/concepts).
+Principles emerge from the structure, carry opaque ids, and are never named,
+translated, or interpreted. **No theology, doctrine, ontology, apologetics, or
+origin claim; success is not claimed before testing; no small set is forced.**
+
+- 9 data products in `generated/principles/` (candidates, coverage, removal,
+  reconstruction, hierarchy, dependencies, irreducible, falsification, manifest)
+- **Principle = maximal cohesive module** of the integrated concept graph
+  (Phase-3 overlap ⊕ Phase-4 propositions) via deterministic greedy modularity →
+  **16 principles** (modularity 0.294)
+- **Primary finding — hypothesis tested, NOT supported:** only **9.9% of the
+  6,832 relations are internal to a single principle; 90.1% are inter-principle.**
+  No principle generates > 3.7%; the internal (generating) coverage ceiling is
+  **9.9%** at any set size. A small set *governs* most structure (4→80%, 8→95%)
+  only because large modules hold the most-connected concepts
+- **No dominant principle** (top governs 36.8%, generates 3.7%). **One irreducible
+  size-11 cyclic principle cluster**; the principle layer is globally cyclic
+  (shallow 4-layer hierarchy, 14/16 recursive). The Phase-5 size-9 concept SCC is
+  split across 5 principles — modules and dependency cycles are orthogonal
+- **Falsification: 0 of 16 principles survive** as self-contained patterns
+  (internal retention 0.000–0.100; every module leaks ≥ 90%)
+- Method: integrated-graph modularity (CNM); incidence vs internal coverage;
+  greedy minimum sets; principle-level dependency lift + Tarjan SCC + longest-path
+  layering; self-containment falsification
+- Builder: `scripts/build_principles.py`; Validator:
+  `scripts/validate_principles.py` (189 checks incl. partition + emerge-not-invent
+  invariants, byte-identical rebuild)
+- Reports: `principle-discovery-report.md`, `principle-coverage-report.md`,
+  `principle-hierarchy-report.md`, `principle-falsification-report.md`,
+  `irreducible-principles-report.md`, `phase8-final-report.md`
+
+Verdict (structural, no meaning): the discovered Quranic structure does **not**
+reduce to a small set of self-contained foundational principles — it is a dense,
+globally interwoven relational web at the principle level too, confirming Phase 5
+one level up.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -256,11 +298,12 @@ python3 scripts/build_propositions.py && python3 scripts/validate_propositions.p
 python3 scripts/build_compression.py  && python3 scripts/validate_compression.py  --rebuild
 python3 scripts/build_identification.py && python3 scripts/validate_identification.py --rebuild
 python3 scripts/build_revelation.py     && python3 scripts/validate_revelation.py     --rebuild
+python3 scripts/build_principles.py     && python3 scripts/validate_principles.py     --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 8 is **not started** by design. Open questions are recorded in
-`phase7-final-report.md §9`. Awaiting explicit instruction to proceed.
+Phase 9 is **not started** by design. Open questions are recorded in
+`phase8-final-report.md §12`. Awaiting explicit instruction to proceed.

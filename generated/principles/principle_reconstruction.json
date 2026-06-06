@@ -1,0 +1,290 @@
+{
+ "definition": "Greedy maximum-coverage over principles. incidence = relations governed (>=1 participant in a chosen principle); internal = relations generated (all participants inside one chosen principle). The internal ceiling bounds self-contained explanation.",
+ "incidence_coverage_ceiling": 1.0,
+ "incidence_greedy_order": [
+  {
+   "cumulative_fraction": 0.367535,
+   "principle_id": "PRINCIPLE_002",
+   "set_size": 1
+  },
+  {
+   "cumulative_fraction": 0.590896,
+   "principle_id": "PRINCIPLE_011",
+   "set_size": 2
+  },
+  {
+   "cumulative_fraction": 0.732728,
+   "principle_id": "PRINCIPLE_001",
+   "set_size": 3
+  },
+  {
+   "cumulative_fraction": 0.817037,
+   "principle_id": "PRINCIPLE_007",
+   "set_size": 4
+  },
+  {
+   "cumulative_fraction": 0.880855,
+   "principle_id": "PRINCIPLE_003",
+   "set_size": 5
+  },
+  {
+   "cumulative_fraction": 0.921692,
+   "principle_id": "PRINCIPLE_005",
+   "set_size": 6
+  },
+  {
+   "cumulative_fraction": 0.94555,
+   "principle_id": "PRINCIPLE_015",
+   "set_size": 7
+  },
+  {
+   "cumulative_fraction": 0.960626,
+   "principle_id": "PRINCIPLE_010",
+   "set_size": 8
+  },
+  {
+   "cumulative_fraction": 0.972775,
+   "principle_id": "PRINCIPLE_004",
+   "set_size": 9
+  },
+  {
+   "cumulative_fraction": 0.98346,
+   "principle_id": "PRINCIPLE_008",
+   "set_size": 10
+  },
+  {
+   "cumulative_fraction": 0.989754,
+   "principle_id": "PRINCIPLE_006",
+   "set_size": 11
+  },
+  {
+   "cumulative_fraction": 0.994292,
+   "principle_id": "PRINCIPLE_013",
+   "set_size": 12
+  },
+  {
+   "cumulative_fraction": 0.99678,
+   "principle_id": "PRINCIPLE_014",
+   "set_size": 13
+  },
+  {
+   "cumulative_fraction": 0.999122,
+   "principle_id": "PRINCIPLE_009",
+   "set_size": 14
+  },
+  {
+   "cumulative_fraction": 1.0,
+   "principle_id": "PRINCIPLE_012",
+   "set_size": 15
+  }
+ ],
+ "incidence_minimum_sets": [
+  {
+   "compression_ratio": 0.125,
+   "principle_set": [
+    "PRINCIPLE_002",
+    "PRINCIPLE_011"
+   ],
+   "reachable": true,
+   "set_size": 2,
+   "target_fraction": 0.5
+  },
+  {
+   "compression_ratio": 0.1875,
+   "principle_set": [
+    "PRINCIPLE_002",
+    "PRINCIPLE_011",
+    "PRINCIPLE_001"
+   ],
+   "reachable": true,
+   "set_size": 3,
+   "target_fraction": 0.6
+  },
+  {
+   "compression_ratio": 0.1875,
+   "principle_set": [
+    "PRINCIPLE_002",
+    "PRINCIPLE_011",
+    "PRINCIPLE_001"
+   ],
+   "reachable": true,
+   "set_size": 3,
+   "target_fraction": 0.7
+  },
+  {
+   "compression_ratio": 0.25,
+   "principle_set": [
+    "PRINCIPLE_002",
+    "PRINCIPLE_011",
+    "PRINCIPLE_001",
+    "PRINCIPLE_007"
+   ],
+   "reachable": true,
+   "set_size": 4,
+   "target_fraction": 0.8
+  },
+  {
+   "compression_ratio": 0.375,
+   "principle_set": [
+    "PRINCIPLE_002",
+    "PRINCIPLE_011",
+    "PRINCIPLE_001",
+    "PRINCIPLE_007",
+    "PRINCIPLE_003",
+    "PRINCIPLE_005"
+   ],
+   "reachable": true,
+   "set_size": 6,
+   "target_fraction": 0.9
+  },
+  {
+   "compression_ratio": 0.5,
+   "principle_set": [
+    "PRINCIPLE_002",
+    "PRINCIPLE_011",
+    "PRINCIPLE_001",
+    "PRINCIPLE_007",
+    "PRINCIPLE_003",
+    "PRINCIPLE_005",
+    "PRINCIPLE_015",
+    "PRINCIPLE_010"
+   ],
+   "reachable": true,
+   "set_size": 8,
+   "target_fraction": 0.95
+  }
+ ],
+ "internal_coverage_ceiling": 0.099385,
+ "internal_greedy_order": [
+  {
+   "cumulative_fraction": 0.036593,
+   "principle_id": "PRINCIPLE_002",
+   "set_size": 1
+  },
+  {
+   "cumulative_fraction": 0.046985,
+   "principle_id": "PRINCIPLE_007",
+   "set_size": 2
+  },
+  {
+   "cumulative_fraction": 0.055767,
+   "principle_id": "PRINCIPLE_004",
+   "set_size": 3
+  },
+  {
+   "cumulative_fraction": 0.062354,
+   "principle_id": "PRINCIPLE_001",
+   "set_size": 4
+  },
+  {
+   "cumulative_fraction": 0.068794,
+   "principle_id": "PRINCIPLE_005",
+   "set_size": 5
+  },
+  {
+   "cumulative_fraction": 0.074941,
+   "principle_id": "PRINCIPLE_011",
+   "set_size": 6
+  },
+  {
+   "cumulative_fraction": 0.080504,
+   "principle_id": "PRINCIPLE_003",
+   "set_size": 7
+  },
+  {
+   "cumulative_fraction": 0.085187,
+   "principle_id": "PRINCIPLE_008",
+   "set_size": 8
+  },
+  {
+   "cumulative_fraction": 0.088115,
+   "principle_id": "PRINCIPLE_015",
+   "set_size": 9
+  },
+  {
+   "cumulative_fraction": 0.090749,
+   "principle_id": "PRINCIPLE_006",
+   "set_size": 10
+  },
+  {
+   "cumulative_fraction": 0.093091,
+   "principle_id": "PRINCIPLE_009",
+   "set_size": 11
+  },
+  {
+   "cumulative_fraction": 0.095433,
+   "principle_id": "PRINCIPLE_014",
+   "set_size": 12
+  },
+  {
+   "cumulative_fraction": 0.097482,
+   "principle_id": "PRINCIPLE_010",
+   "set_size": 13
+  },
+  {
+   "cumulative_fraction": 0.098507,
+   "principle_id": "PRINCIPLE_013",
+   "set_size": 14
+  },
+  {
+   "cumulative_fraction": 0.099385,
+   "principle_id": "PRINCIPLE_012",
+   "set_size": 15
+  }
+ ],
+ "internal_minimum_sets": [
+  {
+   "ceiling": 0.099385,
+   "principle_set": null,
+   "reachable": false,
+   "set_size": null,
+   "target_fraction": 0.5
+  },
+  {
+   "ceiling": 0.099385,
+   "principle_set": null,
+   "reachable": false,
+   "set_size": null,
+   "target_fraction": 0.6
+  },
+  {
+   "ceiling": 0.099385,
+   "principle_set": null,
+   "reachable": false,
+   "set_size": null,
+   "target_fraction": 0.7
+  },
+  {
+   "ceiling": 0.099385,
+   "principle_set": null,
+   "reachable": false,
+   "set_size": null,
+   "target_fraction": 0.8
+  },
+  {
+   "ceiling": 0.099385,
+   "principle_set": null,
+   "reachable": false,
+   "set_size": null,
+   "target_fraction": 0.9
+  },
+  {
+   "ceiling": 0.099385,
+   "principle_set": null,
+   "reachable": false,
+   "set_size": null,
+   "target_fraction": 0.95
+  }
+ ],
+ "method": "phase8-principles-1.0",
+ "n_principles": 16,
+ "n_relations": 6832,
+ "targets": [
+  0.5,
+  0.6,
+  0.7,
+  0.8,
+  0.9,
+  0.95
+ ]
+}

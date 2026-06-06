@@ -1,0 +1,436 @@
+{
+ "definition": "principle-level DEPENDS_ON/REQUIRES dependency graph",
+ "directed": true,
+ "edge_count": 66,
+ "edges": [
+  {
+   "src": "PRINCIPLE_002",
+   "tgt": "PRINCIPLE_001",
+   "weight": 11
+  },
+  {
+   "src": "PRINCIPLE_004",
+   "tgt": "PRINCIPLE_001",
+   "weight": 9
+  },
+  {
+   "src": "PRINCIPLE_007",
+   "tgt": "PRINCIPLE_001",
+   "weight": 9
+  },
+  {
+   "src": "PRINCIPLE_003",
+   "tgt": "PRINCIPLE_001",
+   "weight": 8
+  },
+  {
+   "src": "PRINCIPLE_005",
+   "tgt": "PRINCIPLE_001",
+   "weight": 7
+  },
+  {
+   "src": "PRINCIPLE_006",
+   "tgt": "PRINCIPLE_001",
+   "weight": 7
+  },
+  {
+   "src": "PRINCIPLE_002",
+   "tgt": "PRINCIPLE_004",
+   "weight": 6
+  },
+  {
+   "src": "PRINCIPLE_008",
+   "tgt": "PRINCIPLE_001",
+   "weight": 6
+  },
+  {
+   "src": "PRINCIPLE_009",
+   "tgt": "PRINCIPLE_001",
+   "weight": 6
+  },
+  {
+   "src": "PRINCIPLE_002",
+   "tgt": "PRINCIPLE_014",
+   "weight": 5
+  },
+  {
+   "src": "PRINCIPLE_010",
+   "tgt": "PRINCIPLE_001",
+   "weight": 5
+  },
+  {
+   "src": "PRINCIPLE_011",
+   "tgt": "PRINCIPLE_003",
+   "weight": 5
+  },
+  {
+   "src": "PRINCIPLE_002",
+   "tgt": "PRINCIPLE_003",
+   "weight": 4
+  },
+  {
+   "src": "PRINCIPLE_002",
+   "tgt": "PRINCIPLE_005",
+   "weight": 4
+  },
+  {
+   "src": "PRINCIPLE_011",
+   "tgt": "PRINCIPLE_001",
+   "weight": 4
+  },
+  {
+   "src": "PRINCIPLE_011",
+   "tgt": "PRINCIPLE_005",
+   "weight": 4
+  },
+  {
+   "src": "PRINCIPLE_012",
+   "tgt": "PRINCIPLE_001",
+   "weight": 4
+  },
+  {
+   "src": "PRINCIPLE_013",
+   "tgt": "PRINCIPLE_001",
+   "weight": 4
+  },
+  {
+   "src": "PRINCIPLE_011",
+   "tgt": "PRINCIPLE_002",
+   "weight": 3
+  },
+  {
+   "src": "PRINCIPLE_011",
+   "tgt": "PRINCIPLE_010",
+   "weight": 3
+  },
+  {
+   "src": "PRINCIPLE_011",
+   "tgt": "PRINCIPLE_012",
+   "weight": 3
+  },
+  {
+   "src": "PRINCIPLE_011",
+   "tgt": "PRINCIPLE_014",
+   "weight": 3
+  },
+  {
+   "src": "PRINCIPLE_014",
+   "tgt": "PRINCIPLE_001",
+   "weight": 3
+  },
+  {
+   "src": "PRINCIPLE_015",
+   "tgt": "PRINCIPLE_001",
+   "weight": 3
+  },
+  {
+   "src": "PRINCIPLE_002",
+   "tgt": "PRINCIPLE_007",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_002",
+   "tgt": "PRINCIPLE_009",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_002",
+   "tgt": "PRINCIPLE_012",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_005",
+   "tgt": "PRINCIPLE_002",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_007",
+   "tgt": "PRINCIPLE_009",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_008",
+   "tgt": "PRINCIPLE_007",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_010",
+   "tgt": "PRINCIPLE_003",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_010",
+   "tgt": "PRINCIPLE_011",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_011",
+   "tgt": "PRINCIPLE_008",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_011",
+   "tgt": "PRINCIPLE_015",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_015",
+   "tgt": "PRINCIPLE_004",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_015",
+   "tgt": "PRINCIPLE_007",
+   "weight": 2
+  },
+  {
+   "src": "PRINCIPLE_002",
+   "tgt": "PRINCIPLE_008",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_002",
+   "tgt": "PRINCIPLE_010",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_002",
+   "tgt": "PRINCIPLE_011",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_005",
+   "tgt": "PRINCIPLE_008",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_005",
+   "tgt": "PRINCIPLE_011",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_005",
+   "tgt": "PRINCIPLE_015",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_006",
+   "tgt": "PRINCIPLE_007",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_007",
+   "tgt": "PRINCIPLE_003",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_007",
+   "tgt": "PRINCIPLE_004",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_007",
+   "tgt": "PRINCIPLE_008",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_007",
+   "tgt": "PRINCIPLE_015",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_008",
+   "tgt": "PRINCIPLE_010",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_009",
+   "tgt": "PRINCIPLE_007",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_010",
+   "tgt": "PRINCIPLE_005",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_010",
+   "tgt": "PRINCIPLE_012",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_010",
+   "tgt": "PRINCIPLE_013",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_011",
+   "tgt": "PRINCIPLE_004",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_011",
+   "tgt": "PRINCIPLE_013",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_012",
+   "tgt": "PRINCIPLE_008",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_013",
+   "tgt": "PRINCIPLE_003",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_013",
+   "tgt": "PRINCIPLE_007",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_013",
+   "tgt": "PRINCIPLE_009",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_013",
+   "tgt": "PRINCIPLE_010",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_014",
+   "tgt": "PRINCIPLE_005",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_015",
+   "tgt": "PRINCIPLE_002",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_015",
+   "tgt": "PRINCIPLE_003",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_015",
+   "tgt": "PRINCIPLE_005",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_015",
+   "tgt": "PRINCIPLE_011",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_015",
+   "tgt": "PRINCIPLE_012",
+   "weight": 1
+  },
+  {
+   "src": "PRINCIPLE_015",
+   "tgt": "PRINCIPLE_014",
+   "weight": 1
+  }
+ ],
+ "method": "phase8-principles-1.0",
+ "nodes": [
+  {
+   "in_degree": 14,
+   "out_degree": 0,
+   "principle_id": "PRINCIPLE_001",
+   "self_dependencies": 13
+  },
+  {
+   "in_degree": 3,
+   "out_degree": 11,
+   "principle_id": "PRINCIPLE_002",
+   "self_dependencies": 30
+  },
+  {
+   "in_degree": 6,
+   "out_degree": 1,
+   "principle_id": "PRINCIPLE_003",
+   "self_dependencies": 5
+  },
+  {
+   "in_degree": 4,
+   "out_degree": 1,
+   "principle_id": "PRINCIPLE_004",
+   "self_dependencies": 11
+  },
+  {
+   "in_degree": 5,
+   "out_degree": 5,
+   "principle_id": "PRINCIPLE_005",
+   "self_dependencies": 5
+  },
+  {
+   "in_degree": 0,
+   "out_degree": 2,
+   "principle_id": "PRINCIPLE_006",
+   "self_dependencies": 4
+  },
+  {
+   "in_degree": 6,
+   "out_degree": 6,
+   "principle_id": "PRINCIPLE_007",
+   "self_dependencies": 11
+  },
+  {
+   "in_degree": 5,
+   "out_degree": 3,
+   "principle_id": "PRINCIPLE_008",
+   "self_dependencies": 4
+  },
+  {
+   "in_degree": 3,
+   "out_degree": 2,
+   "principle_id": "PRINCIPLE_009",
+   "self_dependencies": 2
+  },
+  {
+   "in_degree": 4,
+   "out_degree": 6,
+   "principle_id": "PRINCIPLE_010",
+   "self_dependencies": 0
+  },
+  {
+   "in_degree": 4,
+   "out_degree": 11,
+   "principle_id": "PRINCIPLE_011",
+   "self_dependencies": 9
+  },
+  {
+   "in_degree": 4,
+   "out_degree": 2,
+   "principle_id": "PRINCIPLE_012",
+   "self_dependencies": 2
+  },
+  {
+   "in_degree": 2,
+   "out_degree": 5,
+   "principle_id": "PRINCIPLE_013",
+   "self_dependencies": 1
+  },
+  {
+   "in_degree": 3,
+   "out_degree": 2,
+   "principle_id": "PRINCIPLE_014",
+   "self_dependencies": 4
+  },
+  {
+   "in_degree": 3,
+   "out_degree": 9,
+   "principle_id": "PRINCIPLE_015",
+   "self_dependencies": 3
+  },
+  {
+   "in_degree": 0,
+   "out_degree": 0,
+   "principle_id": "PRINCIPLE_016",
+   "self_dependencies": 0
+  }
+ ]
+}

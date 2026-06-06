@@ -1,0 +1,738 @@
+{
+ "definition": "A principle is a maximal cohesive structural module of the integrated concept graph (Phase-3 semantic overlap ⊕ Phase-4 proposition weight), discovered by deterministic greedy modularity maximisation. Opaque ids; no names. member-concept anchors are evidence, not principle names.",
+ "method": "phase8-principles-1.0",
+ "modularity": 0.294429,
+ "n_principles": 16,
+ "principles": {
+  "PRINCIPLE_001": {
+   "boundary_edge_weight": 38.104593,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_007",
+     "foundationality_composite": 1.0,
+     "foundationality_rank": 1,
+     "identity_anchor_arabic": "اله",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_014",
+     "foundationality_composite": 0.064492,
+     "foundationality_rank": 61,
+     "identity_anchor_arabic": "حين",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_023",
+     "foundationality_composite": 0.060488,
+     "foundationality_rank": 64,
+     "identity_anchor_arabic": "غرر",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_094",
+     "foundationality_composite": 0.044646,
+     "foundationality_rank": 79,
+     "identity_anchor_arabic": "بغت",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_070",
+     "foundationality_composite": 0.039543,
+     "foundationality_rank": 84,
+     "identity_anchor_arabic": "خيل",
+     "identity_tier": "moderate"
+    }
+   ],
+   "internal_edge_weight": 4.544568,
+   "member_concepts": [
+    "CONCEPT_007",
+    "CONCEPT_014",
+    "CONCEPT_023",
+    "CONCEPT_041",
+    "CONCEPT_043",
+    "CONCEPT_051",
+    "CONCEPT_062",
+    "CONCEPT_064",
+    "CONCEPT_065",
+    "CONCEPT_070",
+    "CONCEPT_094",
+    "CONCEPT_096",
+    "CONCEPT_103"
+   ],
+   "size": 13
+  },
+  "PRINCIPLE_002": {
+   "boundary_edge_weight": 32.538228,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_004",
+     "foundationality_composite": 0.314029,
+     "foundationality_rank": 3,
+     "identity_anchor_arabic": null,
+     "identity_tier": "resists"
+    },
+    {
+     "concept_id": "CONCEPT_002",
+     "foundationality_composite": 0.237388,
+     "foundationality_rank": 8,
+     "identity_anchor_arabic": null,
+     "identity_tier": "resists"
+    },
+    {
+     "concept_id": "CONCEPT_001",
+     "foundationality_composite": 0.19184,
+     "foundationality_rank": 13,
+     "identity_anchor_arabic": null,
+     "identity_tier": "resists"
+    },
+    {
+     "concept_id": "CONCEPT_090",
+     "foundationality_composite": 0.131932,
+     "foundationality_rank": 16,
+     "identity_anchor_arabic": "حلل",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_091",
+     "foundationality_composite": 0.104961,
+     "foundationality_rank": 20,
+     "identity_anchor_arabic": "عرف",
+     "identity_tier": "strong"
+    }
+   ],
+   "internal_edge_weight": 21.288636,
+   "member_concepts": [
+    "CONCEPT_001",
+    "CONCEPT_002",
+    "CONCEPT_004",
+    "CONCEPT_009",
+    "CONCEPT_035",
+    "CONCEPT_055",
+    "CONCEPT_067",
+    "CONCEPT_075",
+    "CONCEPT_078",
+    "CONCEPT_090",
+    "CONCEPT_091"
+   ],
+   "size": 11
+  },
+  "PRINCIPLE_003": {
+   "boundary_edge_weight": 22.032112,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_081",
+     "foundationality_composite": 0.401566,
+     "foundationality_rank": 2,
+     "identity_anchor_arabic": "اله",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_022",
+     "foundationality_composite": 0.090117,
+     "foundationality_rank": 30,
+     "identity_anchor_arabic": "لعن",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_056",
+     "foundationality_composite": 0.085128,
+     "foundationality_rank": 36,
+     "identity_anchor_arabic": "هون",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_058",
+     "foundationality_composite": 0.062027,
+     "foundationality_rank": 63,
+     "identity_anchor_arabic": "عصم",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_029",
+     "foundationality_composite": 0.060115,
+     "foundationality_rank": 65,
+     "identity_anchor_arabic": "قنطر",
+     "identity_tier": "moderate"
+    }
+   ],
+   "internal_edge_weight": 5.607728,
+   "member_concepts": [
+    "CONCEPT_017",
+    "CONCEPT_022",
+    "CONCEPT_029",
+    "CONCEPT_056",
+    "CONCEPT_058",
+    "CONCEPT_066",
+    "CONCEPT_068",
+    "CONCEPT_077",
+    "CONCEPT_081"
+   ],
+   "size": 9
+  },
+  "PRINCIPLE_004": {
+   "boundary_edge_weight": 11.769859,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_030",
+     "foundationality_composite": 0.092684,
+     "foundationality_rank": 28,
+     "identity_anchor_arabic": "حفظ",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_028",
+     "foundationality_composite": 0.081688,
+     "foundationality_rank": 39,
+     "identity_anchor_arabic": "صدر",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_021",
+     "foundationality_composite": 0.073014,
+     "foundationality_rank": 49,
+     "identity_anchor_arabic": "ابو",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_050",
+     "foundationality_composite": 0.072144,
+     "foundationality_rank": 50,
+     "identity_anchor_arabic": "خول",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_039",
+     "foundationality_composite": 0.068148,
+     "foundationality_rank": 55,
+     "identity_anchor_arabic": "سجن",
+     "identity_tier": "moderate"
+    }
+   ],
+   "internal_edge_weight": 11.593111,
+   "member_concepts": [
+    "CONCEPT_021",
+    "CONCEPT_028",
+    "CONCEPT_030",
+    "CONCEPT_039",
+    "CONCEPT_048",
+    "CONCEPT_050",
+    "CONCEPT_076",
+    "CONCEPT_087",
+    "CONCEPT_089"
+   ],
+   "size": 9
+  },
+  "PRINCIPLE_005": {
+   "boundary_edge_weight": 21.968179,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_003",
+     "foundationality_composite": 0.283657,
+     "foundationality_rank": 4,
+     "identity_anchor_arabic": null,
+     "identity_tier": "resists"
+    },
+    {
+     "concept_id": "CONCEPT_010",
+     "foundationality_composite": 0.110412,
+     "foundationality_rank": 19,
+     "identity_anchor_arabic": "رضو",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_071",
+     "foundationality_composite": 0.082551,
+     "foundationality_rank": 37,
+     "identity_anchor_arabic": "جهد",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_038",
+     "foundationality_composite": 0.076376,
+     "foundationality_rank": 45,
+     "identity_anchor_arabic": "لبث",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_032",
+     "foundationality_composite": 0.075705,
+     "foundationality_rank": 46,
+     "identity_anchor_arabic": "عرب",
+     "identity_tier": "moderate"
+    }
+   ],
+   "internal_edge_weight": 4.970533,
+   "member_concepts": [
+    "CONCEPT_003",
+    "CONCEPT_010",
+    "CONCEPT_032",
+    "CONCEPT_038",
+    "CONCEPT_047",
+    "CONCEPT_071",
+    "CONCEPT_093",
+    "CONCEPT_102"
+   ],
+   "size": 8
+  },
+  "PRINCIPLE_006": {
+   "boundary_edge_weight": 10.272705,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_025",
+     "foundationality_composite": 0.115108,
+     "foundationality_rank": 18,
+     "identity_anchor_arabic": "ظلل",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_015",
+     "foundationality_composite": 0.099432,
+     "foundationality_rank": 26,
+     "identity_anchor_arabic": "سال",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_018",
+     "foundationality_composite": 0.077251,
+     "foundationality_rank": 44,
+     "identity_anchor_arabic": "روح",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_063",
+     "foundationality_composite": 0.062112,
+     "foundationality_rank": 62,
+     "identity_anchor_arabic": "سحر",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_011",
+     "foundationality_composite": 0.059788,
+     "foundationality_rank": 66,
+     "identity_anchor_arabic": "نصح",
+     "identity_tier": "weak"
+    }
+   ],
+   "internal_edge_weight": 4.859979,
+   "member_concepts": [
+    "CONCEPT_011",
+    "CONCEPT_015",
+    "CONCEPT_018",
+    "CONCEPT_025",
+    "CONCEPT_059",
+    "CONCEPT_063",
+    "CONCEPT_082",
+    "CONCEPT_092"
+   ],
+   "size": 8
+  },
+  "PRINCIPLE_007": {
+   "boundary_edge_weight": 20.752856,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_016",
+     "foundationality_composite": 0.251588,
+     "foundationality_rank": 6,
+     "identity_anchor_arabic": "جنن",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_097",
+     "foundationality_composite": 0.102138,
+     "foundationality_rank": 24,
+     "identity_anchor_arabic": "جري",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_072",
+     "foundationality_composite": 0.102046,
+     "foundationality_rank": 25,
+     "identity_anchor_arabic": "شرب",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_036",
+     "foundationality_composite": 0.092321,
+     "foundationality_rank": 29,
+     "identity_anchor_arabic": "حمم",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_020",
+     "foundationality_composite": 0.089897,
+     "foundationality_rank": 31,
+     "identity_anchor_arabic": "شكر",
+     "identity_tier": "moderate"
+    }
+   ],
+   "internal_edge_weight": 7.249178,
+   "member_concepts": [
+    "CONCEPT_016",
+    "CONCEPT_020",
+    "CONCEPT_027",
+    "CONCEPT_036",
+    "CONCEPT_042",
+    "CONCEPT_052",
+    "CONCEPT_072",
+    "CONCEPT_097"
+   ],
+   "size": 8
+  },
+  "PRINCIPLE_008": {
+   "boundary_edge_weight": 10.871115,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_049",
+     "foundationality_composite": 0.103145,
+     "foundationality_rank": 23,
+     "identity_anchor_arabic": "ليل",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_006",
+     "foundationality_composite": 0.079571,
+     "foundationality_rank": 42,
+     "identity_anchor_arabic": "طلع",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_024",
+     "foundationality_composite": 0.073629,
+     "foundationality_rank": 48,
+     "identity_anchor_arabic": "شجر",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_040",
+     "foundationality_composite": 0.070662,
+     "foundationality_rank": 53,
+     "identity_anchor_arabic": "عتد",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_037",
+     "foundationality_composite": 0.066993,
+     "foundationality_rank": 59,
+     "identity_anchor_arabic": "قمر",
+     "identity_tier": "moderate"
+    }
+   ],
+   "internal_edge_weight": 5.033897,
+   "member_concepts": [
+    "CONCEPT_006",
+    "CONCEPT_024",
+    "CONCEPT_037",
+    "CONCEPT_040",
+    "CONCEPT_049",
+    "CONCEPT_086",
+    "CONCEPT_101"
+   ],
+   "size": 7
+  },
+  "PRINCIPLE_009": {
+   "boundary_edge_weight": 10.300628,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_005",
+     "foundationality_composite": 0.082308,
+     "foundationality_rank": 38,
+     "identity_anchor_arabic": "نشا",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_083",
+     "foundationality_composite": 0.072028,
+     "foundationality_rank": 51,
+     "identity_anchor_arabic": "انث",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_033",
+     "foundationality_composite": 0.067869,
+     "foundationality_rank": 57,
+     "identity_anchor_arabic": "سبع",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_046",
+     "foundationality_composite": 0.05636,
+     "foundationality_rank": 72,
+     "identity_anchor_arabic": "غنم",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_045",
+     "foundationality_composite": 0.050568,
+     "foundationality_rank": 76,
+     "identity_anchor_arabic": "سقط",
+     "identity_tier": "moderate"
+    }
+   ],
+   "internal_edge_weight": 2.587765,
+   "member_concepts": [
+    "CONCEPT_005",
+    "CONCEPT_033",
+    "CONCEPT_045",
+    "CONCEPT_046",
+    "CONCEPT_057",
+    "CONCEPT_083"
+   ],
+   "size": 6
+  },
+  "PRINCIPLE_010": {
+   "boundary_edge_weight": 12.467622,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_084",
+     "foundationality_composite": 0.196064,
+     "foundationality_rank": 12,
+     "identity_anchor_arabic": "قوم",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_044",
+     "foundationality_composite": 0.080371,
+     "foundationality_rank": 40,
+     "identity_anchor_arabic": "بسط",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_012",
+     "foundationality_composite": 0.07116,
+     "foundationality_rank": 52,
+     "identity_anchor_arabic": "نقم",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_054",
+     "foundationality_composite": 0.056627,
+     "foundationality_rank": 70,
+     "identity_anchor_arabic": "عقل",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_031",
+     "foundationality_composite": 0.044268,
+     "foundationality_rank": 82,
+     "identity_anchor_arabic": "رفت",
+     "identity_tier": "moderate"
+    }
+   ],
+   "internal_edge_weight": 1.261768,
+   "member_concepts": [
+    "CONCEPT_012",
+    "CONCEPT_031",
+    "CONCEPT_044",
+    "CONCEPT_054",
+    "CONCEPT_084"
+   ],
+   "size": 5
+  },
+  "PRINCIPLE_011": {
+   "boundary_edge_weight": 25.942539,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_088",
+     "foundationality_composite": 0.258041,
+     "foundationality_rank": 5,
+     "identity_anchor_arabic": "رسل",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_053",
+     "foundationality_composite": 0.250591,
+     "foundationality_rank": 7,
+     "identity_anchor_arabic": "عذب",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_085",
+     "foundationality_composite": 0.236727,
+     "foundationality_rank": 9,
+     "identity_anchor_arabic": "رسل",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_061",
+     "foundationality_composite": 0.221901,
+     "foundationality_rank": 11,
+     "identity_anchor_arabic": "رسل",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_095",
+     "foundationality_composite": 0.038947,
+     "foundationality_rank": 87,
+     "identity_anchor_arabic": "صيح",
+     "identity_tier": "strong"
+    }
+   ],
+   "internal_edge_weight": 4.674799,
+   "member_concepts": [
+    "CONCEPT_053",
+    "CONCEPT_061",
+    "CONCEPT_085",
+    "CONCEPT_088",
+    "CONCEPT_095"
+   ],
+   "size": 5
+  },
+  "PRINCIPLE_012": {
+   "boundary_edge_weight": 9.433168,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_019",
+     "foundationality_composite": 0.079299,
+     "foundationality_rank": 43,
+     "identity_anchor_arabic": "شفع",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_080",
+     "foundationality_composite": 0.056399,
+     "foundationality_rank": 71,
+     "identity_anchor_arabic": "غلب",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_079",
+     "foundationality_composite": 0.056239,
+     "foundationality_rank": 73,
+     "identity_anchor_arabic": "زلل",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_098",
+     "foundationality_composite": 0.050475,
+     "foundationality_rank": 77,
+     "identity_anchor_arabic": "غرف",
+     "identity_tier": "strong"
+    }
+   ],
+   "internal_edge_weight": 2.049623,
+   "member_concepts": [
+    "CONCEPT_019",
+    "CONCEPT_079",
+    "CONCEPT_080",
+    "CONCEPT_098"
+   ],
+   "size": 4
+  },
+  "PRINCIPLE_013": {
+   "boundary_edge_weight": 6.649405,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_008",
+     "foundationality_composite": 0.164379,
+     "foundationality_rank": 15,
+     "identity_anchor_arabic": "خلق",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_026",
+     "foundationality_composite": 0.066235,
+     "foundationality_rank": 60,
+     "identity_anchor_arabic": "صرف",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_069",
+     "foundationality_composite": 0.044318,
+     "foundationality_rank": 81,
+     "identity_anchor_arabic": "صعق",
+     "identity_tier": "strong"
+    }
+   ],
+   "internal_edge_weight": 0.789576,
+   "member_concepts": [
+    "CONCEPT_008",
+    "CONCEPT_026",
+    "CONCEPT_069"
+   ],
+   "size": 3
+  },
+  "PRINCIPLE_014": {
+   "boundary_edge_weight": 11.778431,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_013",
+     "foundationality_composite": 0.131783,
+     "foundationality_rank": 17,
+     "identity_anchor_arabic": null,
+     "identity_tier": "resists"
+    },
+    {
+     "concept_id": "CONCEPT_073",
+     "foundationality_composite": 0.089288,
+     "foundationality_rank": 32,
+     "identity_anchor_arabic": "كتم",
+     "identity_tier": "strong"
+    },
+    {
+     "concept_id": "CONCEPT_074",
+     "foundationality_composite": 0.086262,
+     "foundationality_rank": 35,
+     "identity_anchor_arabic": "شري",
+     "identity_tier": "strong"
+    }
+   ],
+   "internal_edge_weight": 2.676135,
+   "member_concepts": [
+    "CONCEPT_013",
+    "CONCEPT_073",
+    "CONCEPT_074"
+   ],
+   "size": 3
+  },
+  "PRINCIPLE_015": {
+   "boundary_edge_weight": 13.542423,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_034",
+     "foundationality_composite": 0.226013,
+     "foundationality_rank": 10,
+     "identity_anchor_arabic": "رحم",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_060",
+     "foundationality_composite": 0.170013,
+     "foundationality_rank": 14,
+     "identity_anchor_arabic": "سوا",
+     "identity_tier": "moderate"
+    },
+    {
+     "concept_id": "CONCEPT_099",
+     "foundationality_composite": 0.070256,
+     "foundationality_rank": 54,
+     "identity_anchor_arabic": "درج",
+     "identity_tier": "strong"
+    }
+   ],
+   "internal_edge_weight": 1.443819,
+   "member_concepts": [
+    "CONCEPT_034",
+    "CONCEPT_060",
+    "CONCEPT_099"
+   ],
+   "size": 3
+  },
+  "PRINCIPLE_016": {
+   "boundary_edge_weight": 0.0,
+   "dominant_member_concepts": [
+    {
+     "concept_id": "CONCEPT_100",
+     "foundationality_composite": 0.0,
+     "foundationality_rank": 102,
+     "identity_anchor_arabic": "كدح",
+     "identity_tier": "strong"
+    }
+   ],
+   "internal_edge_weight": 0.0,
+   "member_concepts": [
+    "CONCEPT_100"
+   ],
+   "size": 1
+  }
+ }
+}

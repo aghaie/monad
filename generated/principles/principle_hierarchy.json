@@ -1,0 +1,132 @@
+{
+ "cyclic_principle_clusters": [
+  [
+   "PRINCIPLE_002",
+   "PRINCIPLE_005",
+   "PRINCIPLE_007",
+   "PRINCIPLE_008",
+   "PRINCIPLE_009",
+   "PRINCIPLE_010",
+   "PRINCIPLE_011",
+   "PRINCIPLE_012",
+   "PRINCIPLE_013",
+   "PRINCIPLE_014",
+   "PRINCIPLE_015"
+  ]
+ ],
+ "definition": "Principle dependency graph lifts Phase-4 DEPENDS_ON/REQUIRES to the principle level; SCC condensation + longest-path layering. Cyclic principles = SCCs (size>=2); recursive = principles with intra-principle dependencies; hierarchy = layers.",
+ "layers": [
+  {
+   "components": [
+    {
+     "component_index": 4,
+     "principles": [
+      "PRINCIPLE_006"
+     ],
+     "size": 1
+    },
+    {
+     "component_index": 5,
+     "principles": [
+      "PRINCIPLE_016"
+     ],
+     "size": 1
+    }
+   ],
+   "level": 0,
+   "n_principles": 2
+  },
+  {
+   "components": [
+    {
+     "component_index": 3,
+     "principles": [
+      "PRINCIPLE_002",
+      "PRINCIPLE_005",
+      "PRINCIPLE_007",
+      "PRINCIPLE_008",
+      "PRINCIPLE_009",
+      "PRINCIPLE_010",
+      "PRINCIPLE_011",
+      "PRINCIPLE_012",
+      "PRINCIPLE_013",
+      "PRINCIPLE_014",
+      "PRINCIPLE_015"
+     ],
+     "size": 11
+    }
+   ],
+   "level": 1,
+   "n_principles": 11
+  },
+  {
+   "components": [
+    {
+     "component_index": 1,
+     "principles": [
+      "PRINCIPLE_003"
+     ],
+     "size": 1
+    },
+    {
+     "component_index": 2,
+     "principles": [
+      "PRINCIPLE_004"
+     ],
+     "size": 1
+    }
+   ],
+   "level": 2,
+   "n_principles": 2
+  },
+  {
+   "components": [
+    {
+     "component_index": 0,
+     "principles": [
+      "PRINCIPLE_001"
+     ],
+     "size": 1
+    }
+   ],
+   "level": 3,
+   "n_principles": 1
+  }
+ ],
+ "max_level": 3,
+ "method": "phase8-principles-1.0",
+ "n_layers": 4,
+ "n_principle_dependency_edges": 66,
+ "recursive_principles": [
+  "PRINCIPLE_001",
+  "PRINCIPLE_002",
+  "PRINCIPLE_003",
+  "PRINCIPLE_004",
+  "PRINCIPLE_005",
+  "PRINCIPLE_006",
+  "PRINCIPLE_007",
+  "PRINCIPLE_008",
+  "PRINCIPLE_009",
+  "PRINCIPLE_011",
+  "PRINCIPLE_012",
+  "PRINCIPLE_013",
+  "PRINCIPLE_014",
+  "PRINCIPLE_015"
+ ],
+ "self_dependency_counts": {
+  "PRINCIPLE_001": 13,
+  "PRINCIPLE_002": 30,
+  "PRINCIPLE_003": 5,
+  "PRINCIPLE_004": 11,
+  "PRINCIPLE_005": 5,
+  "PRINCIPLE_006": 4,
+  "PRINCIPLE_007": 11,
+  "PRINCIPLE_008": 4,
+  "PRINCIPLE_009": 2,
+  "PRINCIPLE_011": 9,
+  "PRINCIPLE_012": 2,
+  "PRINCIPLE_013": 1,
+  "PRINCIPLE_014": 4,
+  "PRINCIPLE_015": 3
+ }
+}

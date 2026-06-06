@@ -1,0 +1,698 @@
+{
+ "constant_survive_retention": 0.5,
+ "definition": "A principle is falsified as a self-contained constraining pattern if its members' relations leak outside more than they stay inside (internal_relation_retention < 0.50). contradicting_members = members whose strongest proposition partner lies in another principle.",
+ "method": "phase8-principles-1.0",
+ "n_fail": 16,
+ "n_survive": 0,
+ "principles": {
+  "PRINCIPLE_001": {
+   "boundary_leakage": 0.973483,
+   "contradicting_member_count": 1,
+   "contradicting_member_fraction": 0.076923,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_007",
+     "partner_principle": "PRINCIPLE_012",
+     "strongest_partner": "CONCEPT_019",
+     "weight": 1.0
+    }
+   ],
+   "internal_relation_retention": 0.026517,
+   "relations_incident": 1697,
+   "relations_internal": 45,
+   "size": 13,
+   "survives": false
+  },
+  "PRINCIPLE_002": {
+   "boundary_leakage": 0.900438,
+   "contradicting_member_count": 10,
+   "contradicting_member_fraction": 0.909091,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_075",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_090",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_009",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.983607
+    },
+    {
+     "concept_id": "CONCEPT_035",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.982759
+    },
+    {
+     "concept_id": "CONCEPT_078",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.981308
+    },
+    {
+     "concept_id": "CONCEPT_067",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.981132
+    },
+    {
+     "concept_id": "CONCEPT_004",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.979104
+    },
+    {
+     "concept_id": "CONCEPT_002",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.978182
+    }
+   ],
+   "internal_relation_retention": 0.099562,
+   "relations_incident": 2511,
+   "relations_internal": 250,
+   "size": 11,
+   "survives": false
+  },
+  "PRINCIPLE_003": {
+   "boundary_leakage": 0.974497,
+   "contradicting_member_count": 9,
+   "contradicting_member_fraction": 1.0,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_017",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_029",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_056",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_058",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_068",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_077",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_081",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_022",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.993007
+    }
+   ],
+   "internal_relation_retention": 0.025503,
+   "relations_incident": 1490,
+   "relations_internal": 38,
+   "size": 9,
+   "survives": false
+  },
+  "PRINCIPLE_004": {
+   "boundary_leakage": 0.907692,
+   "contradicting_member_count": 9,
+   "contradicting_member_fraction": 1.0,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_039",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_048",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_050",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_076",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_028",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.994048
+    },
+    {
+     "concept_id": "CONCEPT_030",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.989362
+    },
+    {
+     "concept_id": "CONCEPT_021",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.957143
+    },
+    {
+     "concept_id": "CONCEPT_089",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.952381
+    }
+   ],
+   "internal_relation_retention": 0.092308,
+   "relations_incident": 650,
+   "relations_internal": 60,
+   "size": 9,
+   "survives": false
+  },
+  "PRINCIPLE_005": {
+   "boundary_leakage": 0.967164,
+   "contradicting_member_count": 7,
+   "contradicting_member_fraction": 0.875,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_071",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_093",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_032",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.989796
+    },
+    {
+     "concept_id": "CONCEPT_003",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.987715
+    },
+    {
+     "concept_id": "CONCEPT_010",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.985294
+    },
+    {
+     "concept_id": "CONCEPT_038",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.981132
+    },
+    {
+     "concept_id": "CONCEPT_047",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.957447
+    }
+   ],
+   "internal_relation_retention": 0.032836,
+   "relations_incident": 1340,
+   "relations_internal": 44,
+   "size": 8,
+   "survives": false
+  },
+  "PRINCIPLE_006": {
+   "boundary_leakage": 0.972603,
+   "contradicting_member_count": 8,
+   "contradicting_member_fraction": 1.0,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_059",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_092",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_015",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.984663
+    },
+    {
+     "concept_id": "CONCEPT_011",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.980392
+    },
+    {
+     "concept_id": "CONCEPT_018",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.972851
+    },
+    {
+     "concept_id": "CONCEPT_063",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.971429
+    },
+    {
+     "concept_id": "CONCEPT_025",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.960526
+    },
+    {
+     "concept_id": "CONCEPT_082",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.777778
+    }
+   ],
+   "internal_relation_retention": 0.027397,
+   "relations_incident": 657,
+   "relations_internal": 18,
+   "size": 8,
+   "survives": false
+  },
+  "PRINCIPLE_007": {
+   "boundary_leakage": 0.942557,
+   "contradicting_member_count": 8,
+   "contradicting_member_fraction": 1.0,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_027",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_042",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_052",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_016",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.983319
+    },
+    {
+     "concept_id": "CONCEPT_020",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.965714
+    },
+    {
+     "concept_id": "CONCEPT_097",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.964602
+    },
+    {
+     "concept_id": "CONCEPT_072",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.956522
+    },
+    {
+     "concept_id": "CONCEPT_036",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.954545
+    }
+   ],
+   "internal_relation_retention": 0.057443,
+   "relations_incident": 1236,
+   "relations_internal": 71,
+   "size": 8,
+   "survives": false
+  },
+  "PRINCIPLE_008": {
+   "boundary_leakage": 0.947541,
+   "contradicting_member_count": 6,
+   "contradicting_member_fraction": 0.857143,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_040",
+     "partner_principle": "PRINCIPLE_011",
+     "strongest_partner": "CONCEPT_085",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_101",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_024",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.952756
+    },
+    {
+     "concept_id": "CONCEPT_049",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.945545
+    },
+    {
+     "concept_id": "CONCEPT_006",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.938931
+    },
+    {
+     "concept_id": "CONCEPT_037",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.92381
+    }
+   ],
+   "internal_relation_retention": 0.052459,
+   "relations_incident": 610,
+   "relations_internal": 32,
+   "size": 7,
+   "survives": false
+  },
+  "PRINCIPLE_009": {
+   "boundary_leakage": 0.963134,
+   "contradicting_member_count": 6,
+   "contradicting_member_fraction": 1.0,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_046",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_057",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_083",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.978261
+    },
+    {
+     "concept_id": "CONCEPT_033",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.969231
+    },
+    {
+     "concept_id": "CONCEPT_005",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.955556
+    },
+    {
+     "concept_id": "CONCEPT_045",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.90625
+    }
+   ],
+   "internal_relation_retention": 0.036866,
+   "relations_incident": 434,
+   "relations_internal": 16,
+   "size": 6,
+   "survives": false
+  },
+  "PRINCIPLE_010": {
+   "boundary_leakage": 0.981935,
+   "contradicting_member_count": 5,
+   "contradicting_member_fraction": 1.0,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_031",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_054",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_084",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.995745
+    },
+    {
+     "concept_id": "CONCEPT_012",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.985915
+    },
+    {
+     "concept_id": "CONCEPT_044",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.983051
+    }
+   ],
+   "internal_relation_retention": 0.018065,
+   "relations_incident": 775,
+   "relations_internal": 14,
+   "size": 5,
+   "survives": false
+  },
+  "PRINCIPLE_011": {
+   "boundary_leakage": 0.978745,
+   "contradicting_member_count": 5,
+   "contradicting_member_fraction": 1.0,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_085",
+     "partner_principle": "PRINCIPLE_008",
+     "strongest_partner": "CONCEPT_040",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_053",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.989723
+    },
+    {
+     "concept_id": "CONCEPT_088",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.989343
+    },
+    {
+     "concept_id": "CONCEPT_061",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.988275
+    },
+    {
+     "concept_id": "CONCEPT_095",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.833333
+    }
+   ],
+   "internal_relation_retention": 0.021255,
+   "relations_incident": 1976,
+   "relations_internal": 42,
+   "size": 5,
+   "survives": false
+  },
+  "PRINCIPLE_012": {
+   "boundary_leakage": 0.977528,
+   "contradicting_member_count": 4,
+   "contradicting_member_fraction": 1.0,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_019",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_079",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_098",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_080",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.960784
+    }
+   ],
+   "internal_relation_retention": 0.022472,
+   "relations_incident": 267,
+   "relations_internal": 6,
+   "size": 4,
+   "survives": false
+  },
+  "PRINCIPLE_013": {
+   "boundary_leakage": 0.986028,
+   "contradicting_member_count": 3,
+   "contradicting_member_fraction": 1.0,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_069",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_026",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.990385
+    },
+    {
+     "concept_id": "CONCEPT_008",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.986957
+    }
+   ],
+   "internal_relation_retention": 0.013972,
+   "relations_incident": 501,
+   "relations_internal": 7,
+   "size": 3,
+   "survives": false
+  },
+  "PRINCIPLE_014": {
+   "boundary_leakage": 0.968566,
+   "contradicting_member_count": 3,
+   "contradicting_member_fraction": 1.0,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_073",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_074",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_013",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.994872
+    }
+   ],
+   "internal_relation_retention": 0.031434,
+   "relations_incident": 509,
+   "relations_internal": 16,
+   "size": 3,
+   "survives": false
+  },
+  "PRINCIPLE_015": {
+   "boundary_leakage": 0.979101,
+   "contradicting_member_count": 3,
+   "contradicting_member_fraction": 1.0,
+   "contradicting_members": [
+    {
+     "concept_id": "CONCEPT_099",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 1.0
+    },
+    {
+     "concept_id": "CONCEPT_034",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.994401
+    },
+    {
+     "concept_id": "CONCEPT_060",
+     "partner_principle": "PRINCIPLE_001",
+     "strongest_partner": "CONCEPT_007",
+     "weight": 0.987118
+    }
+   ],
+   "internal_relation_retention": 0.020899,
+   "relations_incident": 957,
+   "relations_internal": 20,
+   "size": 3,
+   "survives": false
+  },
+  "PRINCIPLE_016": {
+   "boundary_leakage": 1.0,
+   "contradicting_member_count": 0,
+   "contradicting_member_fraction": 0.0,
+   "contradicting_members": [],
+   "internal_relation_retention": 0.0,
+   "relations_incident": 0,
+   "relations_internal": 0,
+   "size": 1,
+   "survives": false
+  }
+ }
+}
