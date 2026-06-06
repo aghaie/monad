@@ -1,0 +1,200 @@
+{
+ "definition": "A motif is falsified as a genuine recurring structural pattern if it fails any of: recurrence (freq>=30), broad concept support (>=10 concepts), stability (>=0.50), hub-removal survival (>=0.10), concept replaceability.",
+ "method": "phase9-motifs-1.0",
+ "motifs": {
+  "MOTIF_001": {
+   "broad_concept_support": true,
+   "distinct_concepts": 91,
+   "failures": [
+    "concept_bound"
+   ],
+   "frequency": 4092,
+   "recurs": true,
+   "stability": 0.9975,
+   "stable": true,
+   "survives": false,
+   "survives_hub_removal": true,
+   "survives_replacement": false
+  },
+  "MOTIF_002": {
+   "broad_concept_support": true,
+   "distinct_concepts": 99,
+   "failures": [],
+   "frequency": 3315,
+   "recurs": true,
+   "stability": 1.188619,
+   "stable": true,
+   "survives": true,
+   "survives_hub_removal": true,
+   "survives_replacement": true
+  },
+  "MOTIF_003": {
+   "broad_concept_support": true,
+   "distinct_concepts": 97,
+   "failures": [],
+   "frequency": 3127,
+   "recurs": true,
+   "stability": 1.122824,
+   "stable": true,
+   "survives": true,
+   "survives_hub_removal": true,
+   "survives_replacement": true
+  },
+  "MOTIF_004": {
+   "broad_concept_support": true,
+   "distinct_concepts": 100,
+   "failures": [],
+   "frequency": 2253,
+   "recurs": true,
+   "stability": 1.250603,
+   "stable": true,
+   "survives": true,
+   "survives_hub_removal": true,
+   "survives_replacement": true
+  },
+  "MOTIF_005": {
+   "broad_concept_support": true,
+   "distinct_concepts": 94,
+   "failures": [],
+   "frequency": 1930,
+   "recurs": true,
+   "stability": 1.317396,
+   "stable": true,
+   "survives": true,
+   "survives_hub_removal": true,
+   "survives_replacement": true
+  },
+  "MOTIF_006": {
+   "broad_concept_support": true,
+   "distinct_concepts": 87,
+   "failures": [],
+   "frequency": 863,
+   "recurs": true,
+   "stability": 1.199601,
+   "stable": true,
+   "survives": true,
+   "survives_hub_removal": true,
+   "survives_replacement": true
+  },
+  "MOTIF_007": {
+   "broad_concept_support": true,
+   "distinct_concepts": 92,
+   "failures": [
+    "concept_bound"
+   ],
+   "frequency": 675,
+   "recurs": true,
+   "stability": 1.277465,
+   "stable": true,
+   "survives": false,
+   "survives_hub_removal": true,
+   "survives_replacement": false
+  },
+  "MOTIF_008": {
+   "broad_concept_support": true,
+   "distinct_concepts": 100,
+   "failures": [],
+   "frequency": 411,
+   "recurs": true,
+   "stability": null,
+   "stable": true,
+   "survives": true,
+   "survives_hub_removal": true,
+   "survives_replacement": true
+  },
+  "MOTIF_009": {
+   "broad_concept_support": true,
+   "distinct_concepts": 85,
+   "failures": [
+    "concept_bound"
+   ],
+   "frequency": 387,
+   "recurs": true,
+   "stability": 0.908223,
+   "stable": true,
+   "survives": false,
+   "survives_hub_removal": true,
+   "survives_replacement": false
+  },
+  "MOTIF_010": {
+   "broad_concept_support": true,
+   "distinct_concepts": 92,
+   "failures": [],
+   "frequency": 324,
+   "recurs": true,
+   "stability": null,
+   "stable": true,
+   "survives": true,
+   "survives_hub_removal": true,
+   "survives_replacement": true
+  },
+  "MOTIF_011": {
+   "broad_concept_support": true,
+   "distinct_concepts": 78,
+   "failures": [],
+   "frequency": 249,
+   "recurs": true,
+   "stability": 1.253867,
+   "stable": true,
+   "survives": true,
+   "survives_hub_removal": true,
+   "survives_replacement": true
+  },
+  "MOTIF_012": {
+   "broad_concept_support": true,
+   "distinct_concepts": 78,
+   "failures": [],
+   "frequency": 240,
+   "recurs": true,
+   "stability": 1.332111,
+   "stable": true,
+   "survives": true,
+   "survives_hub_removal": true,
+   "survives_replacement": true
+  },
+  "MOTIF_013": {
+   "broad_concept_support": true,
+   "distinct_concepts": 71,
+   "failures": [],
+   "frequency": 125,
+   "recurs": true,
+   "stability": 1.854505,
+   "stable": true,
+   "survives": true,
+   "survives_hub_removal": true,
+   "survives_replacement": true
+  },
+  "MOTIF_014": {
+   "broad_concept_support": true,
+   "distinct_concepts": 57,
+   "failures": [
+    "concept_bound"
+   ],
+   "frequency": 86,
+   "recurs": true,
+   "stability": 1.779828,
+   "stable": true,
+   "survives": false,
+   "survives_hub_removal": true,
+   "survives_replacement": false
+  },
+  "MOTIF_015": {
+   "broad_concept_support": false,
+   "distinct_concepts": 8,
+   "failures": [
+    "non_recurrence",
+    "narrow_concept_support",
+    "concept_bound"
+   ],
+   "frequency": 3,
+   "recurs": false,
+   "stability": 2.0,
+   "stable": true,
+   "survives": false,
+   "survives_hub_removal": true,
+   "survives_replacement": false
+  }
+ },
+ "n_fail": 5,
+ "n_survive": 10
+}

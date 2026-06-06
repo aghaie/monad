@@ -1,0 +1,141 @@
+{
+ "definition": "Motifs are concept-agnostic isomorphism classes; a motif survives replacement iff it recurs across many distinct concepts (>=10) with no single concept dominating its instances (<50%).",
+ "method": "phase9-motifs-1.0",
+ "motifs": {
+  "MOTIF_001": {
+   "distinct_concepts": 91,
+   "instances": 4092,
+   "instances_without_top_fraction": 0.257576,
+   "instances_without_top_participant": 1054,
+   "max_single_concept_share": 0.742424,
+   "most_frequent_participant": "CONCEPT_007",
+   "survives_replacement": false
+  },
+  "MOTIF_002": {
+   "distinct_concepts": 99,
+   "instances": 3315,
+   "instances_without_top_fraction": 0.742986,
+   "instances_without_top_participant": 2463,
+   "max_single_concept_share": 0.257014,
+   "most_frequent_participant": "CONCEPT_007",
+   "survives_replacement": true
+  },
+  "MOTIF_003": {
+   "distinct_concepts": 97,
+   "instances": 3127,
+   "instances_without_top_fraction": 0.797889,
+   "instances_without_top_participant": 2495,
+   "max_single_concept_share": 0.202111,
+   "most_frequent_participant": "CONCEPT_034",
+   "survives_replacement": true
+  },
+  "MOTIF_004": {
+   "distinct_concepts": 100,
+   "instances": 2253,
+   "instances_without_top_fraction": 0.844208,
+   "instances_without_top_participant": 1902,
+   "max_single_concept_share": 0.155792,
+   "most_frequent_participant": "CONCEPT_061",
+   "survives_replacement": true
+  },
+  "MOTIF_005": {
+   "distinct_concepts": 94,
+   "instances": 1930,
+   "instances_without_top_fraction": 0.828497,
+   "instances_without_top_participant": 1599,
+   "max_single_concept_share": 0.171503,
+   "most_frequent_participant": "CONCEPT_004",
+   "survives_replacement": true
+  },
+  "MOTIF_006": {
+   "distinct_concepts": 87,
+   "instances": 863,
+   "instances_without_top_fraction": 0.836616,
+   "instances_without_top_participant": 722,
+   "max_single_concept_share": 0.163384,
+   "most_frequent_participant": "CONCEPT_061",
+   "survives_replacement": true
+  },
+  "MOTIF_007": {
+   "distinct_concepts": 92,
+   "instances": 675,
+   "instances_without_top_fraction": 0.420741,
+   "instances_without_top_participant": 284,
+   "max_single_concept_share": 0.579259,
+   "most_frequent_participant": "CONCEPT_007",
+   "survives_replacement": false
+  },
+  "MOTIF_008": {
+   "distinct_concepts": 100,
+   "instances": 411,
+   "instances_without_top_fraction": 0.895377,
+   "instances_without_top_participant": 368,
+   "max_single_concept_share": 0.104623,
+   "most_frequent_participant": "CONCEPT_016",
+   "survives_replacement": true
+  },
+  "MOTIF_009": {
+   "distinct_concepts": 85,
+   "instances": 387,
+   "instances_without_top_fraction": 0.400517,
+   "instances_without_top_participant": 155,
+   "max_single_concept_share": 0.599483,
+   "most_frequent_participant": "CONCEPT_007",
+   "survives_replacement": false
+  },
+  "MOTIF_010": {
+   "distinct_concepts": 92,
+   "instances": 324,
+   "instances_without_top_fraction": 0.734568,
+   "instances_without_top_participant": 238,
+   "max_single_concept_share": 0.265432,
+   "most_frequent_participant": "CONCEPT_007",
+   "survives_replacement": true
+  },
+  "MOTIF_011": {
+   "distinct_concepts": 78,
+   "instances": 249,
+   "instances_without_top_fraction": 0.722892,
+   "instances_without_top_participant": 180,
+   "max_single_concept_share": 0.277108,
+   "most_frequent_participant": "CONCEPT_034",
+   "survives_replacement": true
+  },
+  "MOTIF_012": {
+   "distinct_concepts": 78,
+   "instances": 240,
+   "instances_without_top_fraction": 0.691667,
+   "instances_without_top_participant": 166,
+   "max_single_concept_share": 0.308333,
+   "most_frequent_participant": "CONCEPT_034",
+   "survives_replacement": true
+  },
+  "MOTIF_013": {
+   "distinct_concepts": 71,
+   "instances": 125,
+   "instances_without_top_fraction": 0.784,
+   "instances_without_top_participant": 98,
+   "max_single_concept_share": 0.216,
+   "most_frequent_participant": "CONCEPT_085",
+   "survives_replacement": true
+  },
+  "MOTIF_014": {
+   "distinct_concepts": 57,
+   "instances": 86,
+   "instances_without_top_fraction": 0.465116,
+   "instances_without_top_participant": 40,
+   "max_single_concept_share": 0.534884,
+   "most_frequent_participant": "CONCEPT_034",
+   "survives_replacement": false
+  },
+  "MOTIF_015": {
+   "distinct_concepts": 8,
+   "instances": 3,
+   "instances_without_top_fraction": 0.333333,
+   "instances_without_top_participant": 1,
+   "max_single_concept_share": 0.666667,
+   "most_frequent_participant": "CONCEPT_085",
+   "survives_replacement": false
+  }
+ }
+}

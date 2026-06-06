@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 8 (Foundational
-Principle Discovery Engine). **Next phase:** Phase 9 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 9 (Structural
+Motif Discovery Engine). **Next phase:** Phase 10 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -21,7 +21,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 6 | Concept Identification Engine | ✅ complete | `generated/identification/*.json` |
 | 7 | Semantic Revelation Engine | ✅ complete | `generated/revelation/*.json` |
 | 8 | Foundational Principle Discovery Engine | ✅ complete | `generated/principles/*.json` |
-| 9 | (future) | ⛔ not started | — |
+| 9 | Structural Motif Discovery Engine | ✅ complete | `generated/motifs/*.json` |
+| 10 | (future) | ⛔ not started | — |
 
 ---
 
@@ -272,6 +273,50 @@ one level up.
 
 ---
 
+## Phase 9 — Structural Motif Discovery Engine
+
+Tests the Phase-8 follow-up hypothesis: that the structure is organised around
+recurring **structural motifs** (recurring directed subgraph patterns) rather than
+foundational principles. Motifs carry opaque ids and a neutral graph-theoretic
+descriptor; **none is named, translated, or interpreted. No theology, doctrine,
+ontology, apologetics, intention, authorship, or origin claim; no significance
+without evidence.**
+
+- 9 data products in `generated/motifs/` (catalog, statistics, coverage,
+  compression, replacement, survival, scc_analysis, falsification, manifest)
+- **Motif = isomorphism class of small connected directed subgraph** over the
+  Phase-4 proposition graph → the 17,345 connected triads fall into exactly the
+  **13 canonical directed triad classes** + 2 dyad classes = **15 motifs**
+- **Primary finding — hypothesis SUPPORTED (with caveat):** recurring motifs
+  exist and are highly explanatory. **3 motifs cover 50% of triads, 5 cover 80%,
+  8 cover 95%** — a tiny structural vocabulary, vs Phase 8's 9.9% principle
+  ceiling. Top motifs touch 88–96% of concepts
+- **Significance vs degree-preserving null:** reciprocity & convergence
+  over-represented (fully-mutual triangle z=+29, mutual-path +10, out-fork +9,
+  in-merge +6); long directed chains under-represented. Directed 3-cycles nearly
+  absent (3 instances)
+- **Robustness:** 10/13 triad motifs survive hub removal (72% of triads retained,
+  0 collapse); all 13 classes persist inside the 94-node directional SCC and the
+  61-concept principle SCC; **10/15 motifs survive falsification** (vs 0/16
+  principles). Caveat: the single most-common motif (mutual-path) is hub-bound
+  (74% via CONCEPT_007)
+- Method: canonical triad/dyad census; fixed-seed degree-preserving null z-scores;
+  edge-subsampling stability; greedy motif compression; hub-removal & SCC-restricted
+  censuses; multi-criterion falsification
+- Builder: `scripts/build_motifs.py`; Validator: `scripts/validate_motifs.py`
+  (299 checks incl. structural-only invariant, byte-identical rebuild)
+- Reports: `motif-discovery-report.md`, `motif-coverage-report.md`,
+  `motif-compression-report.md`, `motif-survival-report.md`,
+  `motif-falsification-report.md`, `phase9-final-report.md`
+
+Verdict (structural, no meaning): the Quranic network is **structurally repetitive
+but not reducible** — built from ~5 recurring local relational patterns woven into
+one irreducible global web. Motifs explain relational *form* far better than
+principles explained relational *substance*, but they are a descriptive vocabulary,
+not a generative foundation.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -299,11 +344,12 @@ python3 scripts/build_compression.py  && python3 scripts/validate_compression.py
 python3 scripts/build_identification.py && python3 scripts/validate_identification.py --rebuild
 python3 scripts/build_revelation.py     && python3 scripts/validate_revelation.py     --rebuild
 python3 scripts/build_principles.py     && python3 scripts/validate_principles.py     --rebuild
+python3 scripts/build_motifs.py         && python3 scripts/validate_motifs.py         --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 9 is **not started** by design. Open questions are recorded in
-`phase8-final-report.md §12`. Awaiting explicit instruction to proceed.
+Phase 10 is **not started** by design. Open questions are recorded in
+`phase9-final-report.md §10`. Awaiting explicit instruction to proceed.

@@ -1,0 +1,69 @@
+{
+ "constants": {
+  "HUB": "CONCEPT_007",
+  "MIN_DISTINCT_CONCEPTS": 10,
+  "MIN_FREQUENCY": 30,
+  "MIN_HUB_SURVIVAL": 0.1,
+  "MIN_STABILITY": 0.5,
+  "NULL_SAMPLES": 20,
+  "NULL_SWAP_FACTOR": 10,
+  "PERTURB_LEVELS": [
+   0.05,
+   0.1
+  ],
+  "ROUND": 6,
+  "SEED": 20260606,
+  "TARGETS": [
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   0.95
+  ]
+ },
+ "input_sha256": {
+  "irreducible_principles.json": "d4c04dedc622dc32062d8cd9522b8add7bd738e8b1b713d81cdbd4867c4c323b",
+  "irreducible_structures.json": "42da5540f82d91fadf668ea73e317c5fc7bae44a53b4d070ca4322439514715e",
+  "principle_candidates.json": "12499c522a35ff7ff410a56608e35f4ef41fdd71cbe33558e3169e8611fed4f8",
+  "proposition_graph.json": "c9033e1cbbf46a3a776613f9b338a43b466a442dddbd0e1d5373cf74b2f9ec35"
+ },
+ "method": "phase9-motifs-1.0",
+ "output_bytes": {
+  "motif_catalog.json": 43419,
+  "motif_compression.json": 2618,
+  "motif_coverage.json": 2786,
+  "motif_falsification.json": 4602,
+  "motif_replacement.json": 4501,
+  "motif_scc_analysis.json": 1268,
+  "motif_statistics.json": 669,
+  "motif_survival.json": 2196
+ },
+ "prohibitions_observed": [
+  "no meanings assigned",
+  "no motif names",
+  "no motif translation",
+  "no theology",
+  "no doctrine",
+  "no ontology",
+  "no apologetics",
+  "no divine origin inferred",
+  "no human origin inferred",
+  "no intention inferred",
+  "no authorship inferred",
+  "no significance claimed without evidence",
+  "motifs are opaque structural patterns only",
+  "prior phases never rebuilt or modified"
+ ],
+ "totals": {
+  "falsification_fail": 5,
+  "falsification_survive": 10,
+  "hub_removal_triads_lost_fraction": 0.279677,
+  "most_common_motif": "MOTIF_001",
+  "motifs_for_80pct_triads": 5,
+  "n_dyad_classes": 2,
+  "n_motifs": 15,
+  "n_triad_classes": 13,
+  "total_triad_instances": 17345
+ }
+}

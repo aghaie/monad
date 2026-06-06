@@ -1,0 +1,58 @@
+{
+ "definition": "Triad census restricted to irreducible SCC node sets. Persistence = which motif classes still occur inside each SCC.",
+ "method": "phase9-motifs-1.0",
+ "scopes": {
+  "concept_scc_largest": {
+   "connected_triads": 33,
+   "motif_frequencies": {
+    "MOTIF_001": 18,
+    "MOTIF_002": 4,
+    "MOTIF_005": 4,
+    "MOTIF_007": 2,
+    "MOTIF_009": 5
+   },
+   "size": 9,
+   "triad_classes_present": 5
+  },
+  "directional_scc": {
+   "connected_triads": 16725,
+   "motif_frequencies": {
+    "MOTIF_001": 4092,
+    "MOTIF_002": 2791,
+    "MOTIF_003": 3062,
+    "MOTIF_004": 2223,
+    "MOTIF_005": 1930,
+    "MOTIF_006": 863,
+    "MOTIF_007": 675,
+    "MOTIF_009": 387,
+    "MOTIF_011": 249,
+    "MOTIF_012": 239,
+    "MOTIF_013": 125,
+    "MOTIF_014": 86,
+    "MOTIF_015": 3
+   },
+   "size": 94,
+   "triad_classes_present": 13
+  },
+  "principle_scc_concepts": {
+   "connected_triads": 6552,
+   "motif_frequencies": {
+    "MOTIF_001": 639,
+    "MOTIF_002": 1348,
+    "MOTIF_003": 1400,
+    "MOTIF_004": 984,
+    "MOTIF_005": 958,
+    "MOTIF_006": 442,
+    "MOTIF_007": 196,
+    "MOTIF_009": 122,
+    "MOTIF_011": 173,
+    "MOTIF_012": 160,
+    "MOTIF_013": 78,
+    "MOTIF_014": 51,
+    "MOTIF_015": 1
+   },
+   "size": 61,
+   "triad_classes_present": 13
+  }
+ }
+}

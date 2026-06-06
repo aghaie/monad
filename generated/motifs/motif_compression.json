@@ -1,0 +1,155 @@
+{
+ "greedy_order": [
+  {
+   "cumulative_fraction": 0.235918,
+   "motif_id": "MOTIF_001",
+   "set_size": 1
+  },
+  {
+   "cumulative_fraction": 0.427039,
+   "motif_id": "MOTIF_002",
+   "set_size": 2
+  },
+  {
+   "cumulative_fraction": 0.607322,
+   "motif_id": "MOTIF_003",
+   "set_size": 3
+  },
+  {
+   "cumulative_fraction": 0.737215,
+   "motif_id": "MOTIF_004",
+   "set_size": 4
+  },
+  {
+   "cumulative_fraction": 0.848487,
+   "motif_id": "MOTIF_005",
+   "set_size": 5
+  },
+  {
+   "cumulative_fraction": 0.898242,
+   "motif_id": "MOTIF_006",
+   "set_size": 6
+  },
+  {
+   "cumulative_fraction": 0.937158,
+   "motif_id": "MOTIF_007",
+   "set_size": 7
+  },
+  {
+   "cumulative_fraction": 0.95947,
+   "motif_id": "MOTIF_009",
+   "set_size": 8
+  },
+  {
+   "cumulative_fraction": 0.973825,
+   "motif_id": "MOTIF_011",
+   "set_size": 9
+  },
+  {
+   "cumulative_fraction": 0.987662,
+   "motif_id": "MOTIF_012",
+   "set_size": 10
+  },
+  {
+   "cumulative_fraction": 0.994869,
+   "motif_id": "MOTIF_013",
+   "set_size": 11
+  },
+  {
+   "cumulative_fraction": 0.999827,
+   "motif_id": "MOTIF_014",
+   "set_size": 12
+  },
+  {
+   "cumulative_fraction": 1.0,
+   "motif_id": "MOTIF_015",
+   "set_size": 13
+  }
+ ],
+ "method": "phase9-motifs-1.0",
+ "minimum_sets": [
+  {
+   "compression_ratio": 0.230769,
+   "motif_set": [
+    "MOTIF_001",
+    "MOTIF_002",
+    "MOTIF_003"
+   ],
+   "motifs_required": 3,
+   "target_fraction": 0.5
+  },
+  {
+   "compression_ratio": 0.230769,
+   "motif_set": [
+    "MOTIF_001",
+    "MOTIF_002",
+    "MOTIF_003"
+   ],
+   "motifs_required": 3,
+   "target_fraction": 0.6
+  },
+  {
+   "compression_ratio": 0.307692,
+   "motif_set": [
+    "MOTIF_001",
+    "MOTIF_002",
+    "MOTIF_003",
+    "MOTIF_004"
+   ],
+   "motifs_required": 4,
+   "target_fraction": 0.7
+  },
+  {
+   "compression_ratio": 0.384615,
+   "motif_set": [
+    "MOTIF_001",
+    "MOTIF_002",
+    "MOTIF_003",
+    "MOTIF_004",
+    "MOTIF_005"
+   ],
+   "motifs_required": 5,
+   "target_fraction": 0.8
+  },
+  {
+   "compression_ratio": 0.538462,
+   "motif_set": [
+    "MOTIF_001",
+    "MOTIF_002",
+    "MOTIF_003",
+    "MOTIF_004",
+    "MOTIF_005",
+    "MOTIF_006",
+    "MOTIF_007"
+   ],
+   "motifs_required": 7,
+   "target_fraction": 0.9
+  },
+  {
+   "compression_ratio": 0.615385,
+   "motif_set": [
+    "MOTIF_001",
+    "MOTIF_002",
+    "MOTIF_003",
+    "MOTIF_004",
+    "MOTIF_005",
+    "MOTIF_006",
+    "MOTIF_007",
+    "MOTIF_009"
+   ],
+   "motifs_required": 8,
+   "target_fraction": 0.95
+  }
+ ],
+ "n_triad_classes": 13,
+ "targets": [
+  0.5,
+  0.6,
+  0.7,
+  0.8,
+  0.9,
+  0.95
+ ],
+ "total_triad_instances": 17345,
+ "universe": "connected triad instances"
+}

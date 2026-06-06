@@ -1,0 +1,98 @@
+{
+ "emergent_motifs": [
+  "MOTIF_003",
+  "MOTIF_004",
+  "MOTIF_006",
+  "MOTIF_011",
+  "MOTIF_012",
+  "MOTIF_013",
+  "MOTIF_014",
+  "MOTIF_015"
+ ],
+ "method": "phase9-motifs-1.0",
+ "motifs": {
+  "MOTIF_001": {
+   "frequency_with_hub": 4092,
+   "frequency_without_hub": 1054,
+   "retained_fraction": 0.257576,
+   "status": "weakened"
+  },
+  "MOTIF_002": {
+   "frequency_with_hub": 3315,
+   "frequency_without_hub": 2463,
+   "retained_fraction": 0.742986,
+   "status": "survives"
+  },
+  "MOTIF_003": {
+   "frequency_with_hub": 3127,
+   "frequency_without_hub": 3082,
+   "retained_fraction": 0.985609,
+   "status": "survives"
+  },
+  "MOTIF_004": {
+   "frequency_with_hub": 2253,
+   "frequency_without_hub": 2223,
+   "retained_fraction": 0.986684,
+   "status": "survives"
+  },
+  "MOTIF_005": {
+   "frequency_with_hub": 1930,
+   "frequency_without_hub": 1683,
+   "retained_fraction": 0.872021,
+   "status": "survives"
+  },
+  "MOTIF_006": {
+   "frequency_with_hub": 863,
+   "frequency_without_hub": 860,
+   "retained_fraction": 0.996524,
+   "status": "survives"
+  },
+  "MOTIF_007": {
+   "frequency_with_hub": 675,
+   "frequency_without_hub": 284,
+   "retained_fraction": 0.420741,
+   "status": "weakened"
+  },
+  "MOTIF_009": {
+   "frequency_with_hub": 387,
+   "frequency_without_hub": 155,
+   "retained_fraction": 0.400517,
+   "status": "weakened"
+  },
+  "MOTIF_011": {
+   "frequency_with_hub": 249,
+   "frequency_without_hub": 248,
+   "retained_fraction": 0.995984,
+   "status": "survives"
+  },
+  "MOTIF_012": {
+   "frequency_with_hub": 240,
+   "frequency_without_hub": 237,
+   "retained_fraction": 0.9875,
+   "status": "survives"
+  },
+  "MOTIF_013": {
+   "frequency_with_hub": 125,
+   "frequency_without_hub": 116,
+   "retained_fraction": 0.928,
+   "status": "survives"
+  },
+  "MOTIF_014": {
+   "frequency_with_hub": 86,
+   "frequency_without_hub": 86,
+   "retained_fraction": 1.0,
+   "status": "survives"
+  },
+  "MOTIF_015": {
+   "frequency_with_hub": 3,
+   "frequency_without_hub": 3,
+   "retained_fraction": 1.0,
+   "status": "survives"
+  }
+ },
+ "removed": "CONCEPT_007",
+ "total_triads_with_hub": 17345,
+ "total_triads_without_hub": 12494,
+ "triads_lost": 4851,
+ "triads_lost_fraction": 0.279677
+}

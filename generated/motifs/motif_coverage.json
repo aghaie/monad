@@ -1,0 +1,115 @@
+{
+ "collective_concept_coverage": 0.970874,
+ "method": "phase9-motifs-1.0",
+ "motifs": {
+  "MOTIF_001": {
+   "concept_coverage": 0.883495,
+   "dependency_coverage": 0.852113,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.606232,
+   "size": 3
+  },
+  "MOTIF_002": {
+   "concept_coverage": 0.961165,
+   "dependency_coverage": 0.929577,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.943343,
+   "size": 3
+  },
+  "MOTIF_003": {
+   "concept_coverage": 0.941748,
+   "dependency_coverage": 0.080986,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.350331,
+   "size": 3
+  },
+  "MOTIF_004": {
+   "concept_coverage": 0.970874,
+   "dependency_coverage": 0.140845,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.387158,
+   "size": 3
+  },
+  "MOTIF_005": {
+   "concept_coverage": 0.912621,
+   "dependency_coverage": 0.954225,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.929178,
+   "size": 3
+  },
+  "MOTIF_006": {
+   "concept_coverage": 0.84466,
+   "dependency_coverage": 0.105634,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.346553,
+   "size": 3
+  },
+  "MOTIF_007": {
+   "concept_coverage": 0.893204,
+   "dependency_coverage": 0.876761,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.89424,
+   "size": 3
+  },
+  "MOTIF_008": {
+   "concept_coverage": 0.970874,
+   "dependency_coverage": 0.140845,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.388102,
+   "size": 2
+  },
+  "MOTIF_009": {
+   "concept_coverage": 0.825243,
+   "dependency_coverage": 0.830986,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.598678,
+   "size": 3
+  },
+  "MOTIF_010": {
+   "concept_coverage": 0.893204,
+   "dependency_coverage": 0.859155,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.611898,
+   "size": 2
+  },
+  "MOTIF_011": {
+   "concept_coverage": 0.757282,
+   "dependency_coverage": 0.327465,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.454202,
+   "size": 3
+  },
+  "MOTIF_012": {
+   "concept_coverage": 0.757282,
+   "dependency_coverage": 0.172535,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.328612,
+   "size": 3
+  },
+  "MOTIF_013": {
+   "concept_coverage": 0.68932,
+   "dependency_coverage": 0.28169,
+   "principle_coverage": 0.875,
+   "proposition_coverage": 0.308782,
+   "size": 3
+  },
+  "MOTIF_014": {
+   "concept_coverage": 0.553398,
+   "dependency_coverage": 0.017606,
+   "principle_coverage": 0.9375,
+   "proposition_coverage": 0.141643,
+   "size": 3
+  },
+  "MOTIF_015": {
+   "concept_coverage": 0.07767,
+   "dependency_coverage": 0.003521,
+   "principle_coverage": 0.4375,
+   "proposition_coverage": 0.008499,
+   "size": 3
+  }
+ },
+ "n_concepts": 103,
+ "n_dependencies": 284,
+ "n_propositions": 1059,
+ "principles": null
+}
