@@ -1,0 +1,16 @@
+{
+ "definition": "member-root within-ayah cohesion (observed vs root-frequency null)",
+ "finding": "concept member-roots co-occur more than the frequency null → concept clusters exceed frequency",
+ "method": "phase17-frequency-null-1.0",
+ "null_cohesion": {
+  "max": 2.765058,
+  "mean": 2.577978,
+  "min": 2.444099,
+  "n": 200,
+  "std": 0.053289
+ },
+ "observed_cohesion": 4.167842,
+ "ratio_obs_over_null": 1.616709,
+ "structure_fraction": 0.38146,
+ "zscore": 29.834586
+}

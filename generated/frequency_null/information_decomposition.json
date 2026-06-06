@@ -1,0 +1,48 @@
+{
+ "definition": "structure% = max(0, (observed - null_mean)/observed); frequency% = 100 - structure%",
+ "discoveries": {
+  "concept_clustering": {
+   "frequency_pct": 61.854,
+   "structure_pct": 38.146
+  },
+  "consistency": {
+   "frequency_pct": 100.0,
+   "structure_pct": 0.0
+  },
+  "grammar_reciprocity": {
+   "frequency_pct": 100.0,
+   "structure_pct": 0.0
+  },
+  "grammar_transitivity": {
+   "frequency_pct": 68.7231,
+   "structure_pct": 31.2769
+  },
+  "hub_dominance": {
+   "frequency_pct": 100.0,
+   "structure_pct": 0.0
+  },
+  "identity_anchors": {
+   "frequency_pct": 68.932,
+   "structure_pct": 31.068
+  },
+  "motif_distribution": {
+   "frequency_pct": 67.7,
+   "structure_pct": 32.3
+  },
+  "proposition_edges": {
+   "frequency_pct": 25.3436,
+   "structure_pct": 74.6564
+  },
+  "proposition_strong_assoc": {
+   "frequency_pct": 31.3406,
+   "structure_pct": 68.6594
+  },
+  "scc": {
+   "frequency_pct": 27.8234,
+   "structure_pct": 72.1766
+  }
+ },
+ "mean_frequency_pct": 65.17167,
+ "mean_structure_pct": 34.82833,
+ "method": "phase17-frequency-null-1.0"
+}

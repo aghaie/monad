@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 16 (Hub Origin
-Discovery Engine). **Next phase:** Phase 17 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 17 (Frequency Null
+Model Engine). **Next phase:** Phase 18 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -29,7 +29,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 14 | Structural Locality & Distribution Engine | ✅ complete | `generated/locality/*.json` |
 | 15 | Consistency Propagation Engine | ✅ complete | `generated/consistency_propagation/*.json` |
 | 16 | Hub Origin Discovery Engine | ✅ complete | `generated/hub_origin/*.json` |
-| 17 | (future) | ⛔ not started | — |
+| 17 | Frequency Null Model Engine | ✅ complete | `generated/frequency_null/*.json` |
+| 18 | (future) | ⛔ not started | — |
 
 ---
 
@@ -646,6 +647,54 @@ the Zipfian lexical frequency distribution (irreducible only relative to topolog
 
 ---
 
+## Phase 17 — Frequency Null Model Engine
+
+Asks the deepest validation question: **how much of Monad is genuine structure vs a
+consequence of lexical frequency?** Frequency is the strongest known confounder.
+No discovery is protected; any may fail or survive — both reported. No theology,
+tafsir, translation, meaning, or apologetics.
+
+- 13 data products in `generated/frequency_null/` (null corpora, concept/
+  proposition/motif/consistency/identity/scc/grammar survival, information
+  decomposition, survivor analysis, falsification, robustness, manifest)
+- Method: two frequency-preserving configuration nulls — concept-level (1,000
+  realizations) and root-level (200) — preserve root/lemma/concept frequencies +
+  ayah sizes, destroy co-occurrence/proposition/motif structure. Recompute every
+  discovery; compare by z-score, ratio, structure-fraction
+- **Primary finding — Monad is ~35% structure, ~65% frequency:**
+  - **GENUINE STRUCTURE (survives, 3–4× null):** proposition edges (**74.7%
+    structure, 3.9×**), strongly-connected core (**72.2%, 3.6×**), strong
+    associations (**68.7%, z=+19.7, 3.2×**); concept clustering significant
+    (**z=+29.8**, moderate magnitude). **Strongest surviving discovery: the
+    proposition/co-occurrence network**
+  - **FREQUENCY ONLY (0% structure, null reproduces exactly):** consistency
+    (every null equally consistent — confirms Phase 15), hub dominance (Phase 16),
+    grammar reciprocity
+  - **MOSTLY FREQUENCY:** identity anchors (69% = most-frequent member root),
+    motif distribution (3/13 classes survive), grammar transitivity
+- **Hypotheses:** H1 concept SURVIVES · H2 proposition SURVIVES · H3 motif SURVIVES
+  · H4 consistency FALSIFIED · H5 identity FALSIFIED (mostly) · H6 grammar MIXED ·
+  **H7 irreducible structure SURVIVES**. Robust under bootstrap
+- Builder: `scripts/build_frequency_null.py`; Validator:
+  `scripts/validate_frequency_null.py` (126 checks incl. no-protection invariant,
+  byte-identical rebuild)
+- Reports: `frequency-null-model-report.md`, `concept-survival-report.md`,
+  `proposition-survival-report.md`, `motif-frequency-survival-report.md`,
+  `consistency-survival-report.md`, `identity-survival-report.md`,
+  `scc-survival-report.md`, `grammar-survival-report.md`,
+  `information-decomposition-report.md`, `frequency-survivor-analysis-report.md`,
+  `phase17-final-report.md` (two generic spec names collided with Phase 9/11, so
+  the Phase-17 motif-survival and survivor-analysis reports were renamed to keep
+  those phases immutable)
+
+Frequency-null verdict (honest): Monad is part frequency, part structure. The hub,
+consistency, identity anchors, and generative grammar are largely/wholly frequency
+artifacts; but the **proposition/co-occurrence network and the strongly-connected
+core are genuine structure (3–4× the frequency null)** — Monad's real contribution
+is the discovery of a specific relational web beyond word frequency.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -681,11 +730,12 @@ python3 scripts/build_evolution.py      && python3 scripts/validate_evolution.py
 python3 scripts/build_locality.py       && python3 scripts/validate_locality.py       --rebuild
 python3 scripts/build_consistency_propagation.py && python3 scripts/validate_consistency_propagation.py --rebuild
 python3 scripts/build_hub_origin.py     && python3 scripts/validate_hub_origin.py     --rebuild
+python3 scripts/build_frequency_null.py && python3 scripts/validate_frequency_null.py --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 17 is **not started** by design. Open questions are recorded in
-`phase16-final-report.md §14`. Awaiting explicit instruction to proceed.
+Phase 18 is **not started** by design. Open questions are recorded in
+`phase17-final-report.md §12`. Awaiting explicit instruction to proceed.

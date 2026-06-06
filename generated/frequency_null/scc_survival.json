@@ -1,0 +1,18 @@
+{
+ "finding": "the giant SCC's observed size exceeds the frequency-null size by ratio 3.6 — strongly-connected core structure exceeds frequency",
+ "largest_scc": {
+  "null": {
+   "max": 55.0,
+   "mean": 21.424,
+   "min": 10.0,
+   "n": 1000,
+   "std": 8.324796
+  },
+  "null_mean": 21.424,
+  "observed": 77,
+  "ratio_obs_over_null": 3.5941,
+  "structure_fraction": 0.721766,
+  "zscore": 6.67596
+ },
+ "method": "phase17-frequency-null-1.0"
+}

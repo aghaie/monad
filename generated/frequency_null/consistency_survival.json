@@ -1,0 +1,13 @@
+{
+ "consistency_exceeds_null": false,
+ "finding": "consistency does NOT exceed the null: the null has 0.00 contradictions on average vs the observed 0. Consistency is generic to frequency-preserving data, not a structural achievement (confirms Phase 15)",
+ "method": "phase17-frequency-null-1.0",
+ "null_contradictions": {
+  "max": 0.0,
+  "mean": 0.0,
+  "min": 0.0,
+  "n": 1000,
+  "std": 0.0
+ },
+ "observed_contradictions": 0
+}

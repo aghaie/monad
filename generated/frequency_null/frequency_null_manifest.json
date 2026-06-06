@@ -1,0 +1,65 @@
+{
+ "constants": {
+  "MARGINAL_MIN": 30,
+  "NPMI_MIN": 0.2,
+  "N_NULL": 1000,
+  "N_NULL_ROOT": 200,
+  "REQ_CONF": 0.9,
+  "ROUND": 6,
+  "SEED": 20261717,
+  "SUPPORT_MIN": 5
+ },
+ "input_sha256": {
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "dominant_roots.json": "b0436631d85f79206e9e7254f86215c88003a5d8313e071143c9df27b5114120",
+  "irreducible_structures.json": "42da5540f82d91fadf668ea73e317c5fc7bae44a53b4d070ca4322439514715e",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c",
+  "motif_catalog.json": "9ace0ec6595c3c696093f28b5f64f88290f700e8157b37be6c603a6150270ef8"
+ },
+ "method": "phase17-frequency-null-1.0",
+ "output_bytes": {
+  "concept_survival.json": 472,
+  "consistency_survival.json": 427,
+  "frequency_falsification.json": 1785,
+  "grammar_survival.json": 800,
+  "identity_survival.json": 456,
+  "information_decomposition.json": 1063,
+  "motif_survival.json": 2842,
+  "null_corpora.json": 573,
+  "proposition_survival.json": 884,
+  "robustness.json": 397,
+  "scc_survival.json": 440,
+  "survivor_analysis.json": 1463
+ },
+ "prohibitions_observed": [
+  "no theology",
+  "no tafsir",
+  "no translation",
+  "no meaning",
+  "no apologetics",
+  "no protection of previous discoveries",
+  "no preserving desirable results",
+  "any discovery may fail",
+  "any discovery may survive",
+  "both reported",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "edges_ratio_obs_over_null": 3.945768,
+  "mean_frequency_pct": 65.17167,
+  "mean_structure_pct": 34.82833,
+  "scc_ratio_obs_over_null": 3.5941,
+  "strongest_surviving_discovery": "proposition_edges",
+  "surviving_hypotheses": [
+   "H1",
+   "H2",
+   "H3",
+   "H7"
+  ],
+  "survivor_tally": {
+   "FREQUENCY ONLY": 3,
+   "MOSTLY FREQUENCY": 4,
+   "MOSTLY STRUCTURE": 3
+  }
+ }
+}

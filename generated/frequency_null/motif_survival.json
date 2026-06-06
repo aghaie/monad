@@ -1,0 +1,126 @@
+{
+ "finding": "3 of 13 triad motif classes deviate significantly from the frequency null (|z|>=2) — these carry structure beyond frequency",
+ "method": "phase17-frequency-null-1.0",
+ "motifs": {
+  "MOTIF_001": {
+   "descriptor": "triad:path:mutual",
+   "null_mean": 93.068,
+   "observed": 618,
+   "structure_fraction": 0.849405,
+   "survives": true,
+   "zscore": 31.241449
+  },
+  "MOTIF_002": {
+   "descriptor": "triad:path:in-merge",
+   "null_mean": 41.584089,
+   "observed": 6,
+   "structure_fraction": 0.0,
+   "survives": false,
+   "zscore": -1.954522
+  },
+  "MOTIF_003": {
+   "descriptor": "triad:path:in-merge",
+   "null_mean": 9.47548,
+   "observed": 4391,
+   "structure_fraction": 0.997842,
+   "survives": true,
+   "zscore": 525.706088
+  },
+  "MOTIF_004": {
+   "descriptor": "triad:path:chain",
+   "null_mean": 0.0,
+   "observed": 0,
+   "structure_fraction": 0.0,
+   "survives": false,
+   "zscore": null
+  },
+  "MOTIF_005": {
+   "descriptor": "triad:path:out-fork",
+   "null_mean": 1.524752,
+   "observed": 2,
+   "structure_fraction": 0.237624,
+   "survives": false,
+   "zscore": 0.591557
+  },
+  "MOTIF_006": {
+   "descriptor": "triad:path:out-fork",
+   "null_mean": 0.0,
+   "observed": 0,
+   "structure_fraction": 0.0,
+   "survives": false,
+   "zscore": null
+  },
+  "MOTIF_007": {
+   "descriptor": "triad:triangle:cyclic-mixed",
+   "null_mean": 1.494318,
+   "observed": 0,
+   "structure_fraction": 0.0,
+   "survives": false,
+   "zscore": -1.953407
+  },
+  "MOTIF_009": {
+   "descriptor": "triad:triangle:fully-mutual",
+   "null_mean": 15.478,
+   "observed": 95,
+   "structure_fraction": 0.837074,
+   "survives": true,
+   "zscore": 15.923674
+  },
+  "MOTIF_011": {
+   "descriptor": "triad:triangle:transitive",
+   "null_mean": 0.0,
+   "observed": 168,
+   "structure_fraction": 1.0,
+   "survives": false,
+   "zscore": null
+  },
+  "MOTIF_012": {
+   "descriptor": "triad:triangle:transitive",
+   "null_mean": 1.0,
+   "observed": 0,
+   "structure_fraction": 0.0,
+   "survives": false,
+   "zscore": null
+  },
+  "MOTIF_013": {
+   "descriptor": "triad:triangle:cyclic-mixed",
+   "null_mean": 0.0,
+   "observed": 0,
+   "structure_fraction": 0.0,
+   "survives": false,
+   "zscore": null
+  },
+  "MOTIF_014": {
+   "descriptor": "triad:triangle:transitive",
+   "null_mean": 0.0,
+   "observed": 2,
+   "structure_fraction": 1.0,
+   "survives": false,
+   "zscore": null
+  },
+  "MOTIF_015": {
+   "descriptor": "triad:triangle:3-cycle",
+   "null_mean": 0.0,
+   "observed": 0,
+   "structure_fraction": 0.0,
+   "survives": false,
+   "zscore": null
+  }
+ },
+ "n_surviving": 3,
+ "n_triad_motifs": 13,
+ "triad_classes_survival": {
+  "null": {
+   "max": 7.0,
+   "mean": 4.739,
+   "min": 2.0,
+   "n": 1000,
+   "std": 0.84195
+  },
+  "null_mean": 4.739,
+  "observed": 7,
+  "ratio_obs_over_null": 1.477105,
+  "structure_fraction": 0.323,
+  "zscore": 2.685434
+ }
+}

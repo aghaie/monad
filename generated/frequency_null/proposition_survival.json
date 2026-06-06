@@ -1,0 +1,46 @@
+{
+ "edges": {
+  "null": {
+   "max": 147.0,
+   "mean": 111.005,
+   "min": 77.0,
+   "n": 1000,
+   "std": 11.945584
+  },
+  "null_mean": 111.005,
+  "observed": 438,
+  "ratio_obs_over_null": 3.945768,
+  "structure_fraction": 0.746564,
+  "zscore": 27.373714
+ },
+ "finding": "proposition structure compared against the frequency null",
+ "method": "phase17-frequency-null-1.0",
+ "requires": {
+  "null": {
+   "max": 11.0,
+   "mean": 4.514,
+   "min": 0.0,
+   "n": 1000,
+   "std": 1.991935
+  },
+  "null_mean": 4.514,
+  "observed": 100,
+  "ratio_obs_over_null": 22.153301,
+  "structure_fraction": 0.95486,
+  "zscore": 47.936309
+ },
+ "strong_associations": {
+  "null": {
+   "max": 70.0,
+   "mean": 53.279,
+   "min": 37.0,
+   "n": 1000,
+   "std": 5.921415
+  },
+  "null_mean": 53.279,
+  "observed": 170,
+  "ratio_obs_over_null": 3.190751,
+  "structure_fraction": 0.686594,
+  "zscore": 19.711673
+ }
+}

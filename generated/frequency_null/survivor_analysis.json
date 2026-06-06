@@ -1,0 +1,70 @@
+{
+ "categories": [
+  "FREQUENCY ONLY",
+  "MOSTLY FREQUENCY",
+  "MIXED",
+  "MOSTLY STRUCTURE",
+  "STRUCTURE ONLY"
+ ],
+ "discoveries": {
+  "concept_clustering": {
+   "category": "MOSTLY FREQUENCY",
+   "structure_pct": 38.146
+  },
+  "consistency": {
+   "category": "FREQUENCY ONLY",
+   "structure_pct": 0.0
+  },
+  "grammar_reciprocity": {
+   "category": "FREQUENCY ONLY",
+   "structure_pct": 0.0
+  },
+  "grammar_transitivity": {
+   "category": "MOSTLY FREQUENCY",
+   "structure_pct": 31.2769
+  },
+  "hub_dominance": {
+   "category": "FREQUENCY ONLY",
+   "structure_pct": 0.0
+  },
+  "identity_anchors": {
+   "category": "MOSTLY FREQUENCY",
+   "structure_pct": 31.068
+  },
+  "motif_distribution": {
+   "category": "MOSTLY FREQUENCY",
+   "structure_pct": 32.3
+  },
+  "proposition_edges": {
+   "category": "MOSTLY STRUCTURE",
+   "structure_pct": 74.6564
+  },
+  "proposition_strong_assoc": {
+   "category": "MOSTLY STRUCTURE",
+   "structure_pct": 68.6594
+  },
+  "scc": {
+   "category": "MOSTLY STRUCTURE",
+   "structure_pct": 72.1766
+  }
+ },
+ "method": "phase17-frequency-null-1.0",
+ "strongest_surviving_discovery": "proposition_edges",
+ "survival_ranking": [
+  "proposition_edges",
+  "scc",
+  "proposition_strong_assoc",
+  "concept_clustering",
+  "motif_distribution",
+  "grammar_transitivity",
+  "identity_anchors",
+  "consistency",
+  "grammar_reciprocity",
+  "hub_dominance"
+ ],
+ "tally": {
+  "FREQUENCY ONLY": 3,
+  "MOSTLY FREQUENCY": 4,
+  "MOSTLY STRUCTURE": 3
+ }
+}

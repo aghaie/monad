@@ -1,0 +1,9 @@
+{
+ "anchor_equals_most_frequent_root": 71,
+ "definition": "is the Phase-7 identity anchor simply the most-frequent member root?",
+ "finding": "69% of identity anchors are exactly the most-frequent member root → identity is MOSTLY frequency; the remaining 31% reflect structure (co-occurrence/coherence, not raw frequency)",
+ "frequency_explained_fraction": 0.68932,
+ "method": "phase17-frequency-null-1.0",
+ "structure_fraction": 0.31068,
+ "total": 103
+}

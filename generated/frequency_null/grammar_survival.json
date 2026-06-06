@@ -1,0 +1,33 @@
+{
+ "attachment_note": "degree-proportional attachment IS frequency (degree∝marginal, Phase 16 Spearman 0.966) — it does not exceed the null",
+ "finding": "reciprocity/transitivity compared against the frequency null",
+ "method": "phase17-frequency-null-1.0",
+ "reciprocity": {
+  "null": {
+   "max": 1.0,
+   "mean": 0.959725,
+   "min": 0.899083,
+   "n": 1000,
+   "std": 0.017694
+  },
+  "null_mean": 0.959725,
+  "observed": 0.776256,
+  "ratio_obs_over_null": 0.808832,
+  "structure_fraction": 0.0,
+  "zscore": -10.368988
+ },
+ "transitivity": {
+  "null": {
+   "max": 0.539062,
+   "mean": 0.289966,
+   "min": 0.098361,
+   "n": 1000,
+   "std": 0.065116
+  },
+  "null_mean": 0.289966,
+  "observed": 0.421933,
+  "ratio_obs_over_null": 1.455114,
+  "structure_fraction": 0.312769,
+  "zscore": 2.026653
+ }
+}

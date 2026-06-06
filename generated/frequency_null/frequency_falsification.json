@@ -1,0 +1,54 @@
+{
+ "hypotheses": [
+  {
+   "evidence": "member-root cohesion z=29.834586, ratio 1.616709",
+   "hypothesis": "concept structure exceeds frequency",
+   "id": "H1",
+   "result": "SURVIVES"
+  },
+  {
+   "evidence": "strong associations z=19.711673, ratio 3.190751",
+   "hypothesis": "proposition structure exceeds frequency",
+   "id": "H2",
+   "result": "SURVIVES"
+  },
+  {
+   "evidence": "3/13 triad classes deviate significantly (|z|>=2)",
+   "hypothesis": "motif vocabulary exceeds frequency",
+   "id": "H3",
+   "result": "SURVIVES"
+  },
+  {
+   "evidence": "the frequency null is equally consistent (0 contradictions) — consistency does not exceed the null",
+   "hypothesis": "consistency exceeds frequency",
+   "id": "H4",
+   "result": "FALSIFIED"
+  },
+  {
+   "evidence": "68% of anchors are the most-frequent member root → identity is mostly frequency",
+   "hypothesis": "identity exceeds frequency",
+   "id": "H5",
+   "result": "FALSIFIED (mostly)"
+  },
+  {
+   "evidence": "attachment IS frequency; reciprocity z=-10.368988, transitivity z=2.026653 — partly structural",
+   "hypothesis": "grammar exceeds frequency",
+   "id": "H6",
+   "result": "MIXED"
+  },
+  {
+   "evidence": "concept clustering, proposition associations, and the SCC all exceed the null by 3-4x; the strongest surviving discovery is 'proposition_edges' (74.6564% structure)",
+   "hypothesis": "irreducible structure remains after frequency control",
+   "id": "H7",
+   "result": "SURVIVES"
+  }
+ ],
+ "method": "phase17-frequency-null-1.0",
+ "surviving_hypotheses": [
+  "H1",
+  "H2",
+  "H3",
+  "H7"
+ ],
+ "verdict": "genuine structure remains after frequency control (H1/H2/H3/H7 survive); consistency (H4) and identity (H5) are largely frequency; grammar (H6) is mixed. Monad is part frequency, part structure."
+}

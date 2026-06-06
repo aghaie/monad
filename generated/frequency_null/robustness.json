@@ -1,0 +1,13 @@
+{
+ "bootstrap_runs": 50,
+ "edges_obs_over_null_ratio_bootstrap": {
+  "max": 5.414171,
+  "mean": 4.852034,
+  "min": 4.351155,
+  "n": 50,
+  "std": 0.270336
+ },
+ "finding": "the structure-over-null ratios are stable under bootstrap; the survival findings are robust",
+ "method": "phase17-frequency-null-1.0",
+ "second_null_generator": "ayah bootstrap re-measured against the concept-frequency null"
+}

@@ -1,0 +1,19 @@
+{
+ "definition": "two frequency-preserving configuration nulls: CONCEPT-level (preserve concept marginals + ayah sizes) and ROOT-level (preserve member-root occurrences + ayah root-counts); co-occurrence/verse/proposition/motif structure is destroyed",
+ "destroyed": [
+  "verse structure",
+  "co-occurrence",
+  "proposition",
+  "motif",
+  "dependency"
+ ],
+ "method": "phase17-frequency-null-1.0",
+ "n_concept_nulls": 1000,
+ "n_root_nulls": 200,
+ "preserved": [
+  "concept frequencies",
+  "root frequencies (member)",
+  "ayah sizes"
+ ],
+ "sanity_marginals_preserved": true
+}
