@@ -1,0 +1,85 @@
+{
+ "constants": {
+  "DEPENDS_CONF_MIN": 0.3,
+  "DEPENDS_LIFT_MIN": 2.0,
+  "EVIDENCE_TOP": 5,
+  "MED_CONF_MIN": 0.7,
+  "MED_ISO_MIN": 0.5,
+  "MED_SUPPORT_MIN": 5,
+  "NPMI_MIN": 0.2,
+  "ORDER_ASYM_MIN": 0.3,
+  "ORDER_SUPPORT_MIN": 10,
+  "PERTURB": [
+   -1,
+   1
+  ],
+  "PREDICT_CONF_MIN": 0.2,
+  "PREDICT_LIFT_MIN": 1.5,
+  "PREDICT_SUPPORT_MIN": 5,
+  "PREDICT_WINDOWS": [
+   1,
+   2,
+   3
+  ],
+  "REQUIRES_CONF_MIN": 0.9,
+  "ROUND": 6,
+  "SUPPORT_MIN": 5,
+  "SYNERGY_MIN": 0.15,
+  "SYNERGY_SUPPORT_MIN": 5,
+  "TOP_BRIDGE_FRAC": 0.1,
+  "TRIPLE_PREFILTER": 3
+ },
+ "input_sha256": {
+  "concept_candidates.json": "f6e530c581332171568147a851d1bda422d103c6f42be6e91f2123104fd0ee9a",
+  "concept_graph.json": "3f977021e27782dc0337fe5478f0424cce3d437314d574793d7c6eb80a127b77",
+  "concept_manifest.json": "697d11cf782e648161e1a59dd5609e00a029cedc49e937daf0e3fb0adec55d2c",
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "distribution_profiles.json": "645d1659142f14249adaf881649970083f7ad4b4935d39fbf391112c75ce2163",
+  "lemma_profiles.json": "049aebf57f81b0e37112cbe4fe061a9d88b55ab8542e948be9e52640640e9b2c",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c",
+  "root_profiles.json": "bcb656a7f4db2fd7d3d588d561479ac9bbc66f229e8fb117c3e71f96bbbb382d",
+  "semantic_neighbors.json": "599dfaee21a850264a0080c09cf95ce4d0aaafc9141b3249b54ca7261a0db4db"
+ },
+ "method": "phase4-propositions-1.0",
+ "output_bytes": {
+  "bridge_patterns.json": 1367834,
+  "conditional_patterns.json": 551631,
+  "dependency_candidates.json": 139289,
+  "implication_candidates.json": 143615,
+  "proposition_candidates.json": 3584791,
+  "proposition_graph.json": 331424
+ },
+ "prohibitions_observed": [
+  "no ontology",
+  "no axioms",
+  "no contradiction engine",
+  "no theology",
+  "no interpretation",
+  "no doctrine",
+  "no origin claims",
+  "no concept translation",
+  "no proposition naming",
+  "no semantic labels",
+  "no external knowledge",
+  "propositions discovered not invented"
+ ],
+ "totals": {
+  "active_ayahs": 6101,
+  "bridges": 10,
+  "causal_pairs": 28,
+  "concept_count": 103,
+  "edges_ASSOCIATES_WITH": 170,
+  "edges_CONDITIONAL_EMERGES": 1663,
+  "edges_CO_OCCURS": 1215,
+  "edges_DEPENDS_ON": 184,
+  "edges_FOLLOWS": 303,
+  "edges_MEDIATES": 2347,
+  "edges_PRECEDES": 303,
+  "edges_PREDICTS": 547,
+  "edges_REQUIRES": 100,
+  "edges_total": 6832,
+  "graph_edges": 1474,
+  "hierarchical_chains": 4,
+  "recursive_cycles": 2570
+ }
+}

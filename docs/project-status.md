@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 3 (Concept
-Discovery Engine). **Next phase:** Phase 4 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 4 (Proposition
+Discovery Engine). **Next phase:** Phase 5 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -16,7 +16,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 1 | Canonical Quran Database | ✅ complete | `generated/monad.db` |
 | 2 | Quran Internal Lexicon Engine | ✅ complete | `generated/lexicon/*.json` |
 | 3 | Concept Discovery Engine | ✅ complete | `generated/concepts/*.json` |
-| 4 | (future) | ⛔ not started | — |
+| 4 | Proposition Discovery Engine | ✅ complete | `generated/propositions/*.json` |
+| 5 | (future) | ⛔ not started | — |
 
 ---
 
@@ -48,9 +49,6 @@ similarity.
 - Reports: `root-analysis-report.md`, `lemma-analysis-report.md`,
   `semantic-neighborhood-report.md`, `distribution-analysis-report.md`,
   `phase2-final-report.md`
-- Notable: the lexicon reconstructs Quranic verse-clusters purely
-  distributionally (e.g. coherent forbidden-meat, food, and paradise-river
-  vocabulary groupings).
 
 ---
 
@@ -74,9 +72,40 @@ name, translation, or interpretation is assigned.**
   `concept-centrality-report.md`, `concept-cluster-report.md`,
   `phase3-final-report.md`
 
-Monad can now answer, without assigning meanings: how many concept candidates
-exist (103), which are central, which bridge distant regions, which are highly
-stable, and which are highly specialized.
+---
+
+## Phase 4 — Proposition Discovery Engine
+
+Discovery of emergent *relational* structures between Phase-3 concepts.
+Propositions carry opaque relation types over opaque concept ids; **no meaning,
+name, theology, or interpretation is assigned.**
+
+- 7 data products in `generated/propositions/` (candidates, graph, dependency,
+  implication, conditional, bridge, manifest)
+- **6,832 candidate relations** across 9 relation types over 103 concepts
+- ASSOCIATES_WITH 170 · CO_OCCURS 1,215 · DEPENDS_ON 184 · REQUIRES 100 ·
+  PRECEDES / FOLLOWS 303 / 303 · PREDICTS 547 (windows 1/2/3) · MEDIATES 2,347
+  · CONDITIONAL_EMERGES 1,663
+- Proposition graph: 103 nodes / 1,474 directed edges / 14.0 % pairwise density
+  / 3 isolated / 10 bridges (top-decile betweenness)
+- Mean (in + out) degree 28.6 · max 185 · mean relation diversity 5.48 / 9 ·
+  mean unweighted betweenness 40.92
+- 4 depth-3 hierarchical chains · 28 potential causal pairs · 2,570 directed
+  cycles of length ≤ 4 · 59 global / 65 localized relations
+- Method: per-ayah concept-activation matrix → marginal / pair / triple counts;
+  PMI / NPMI; conditional probability + lift; intra-ayah positional asymmetry;
+  sequence-window conditional probability; triadic mediation; synergy triples;
+  unweighted Brandes betweenness on the undirected projection
+- Builder: `scripts/build_propositions.py`; Validator:
+  `scripts/validate_propositions.py` (99 checks, byte-identical rebuild)
+- Reports: `proposition-discovery-report.md`, `dependency-analysis-report.md`,
+  `implication-analysis-report.md`, `proposition-topology-report.md`,
+  `phase4-final-report.md`
+
+Monad can now answer, without assigning meanings: which concepts are
+structurally related, which appear dependent, which act as bridges, which
+appear foundational, which appear derivative, and which structures are stable
+across the Quran.
 
 ---
 
@@ -87,23 +116,25 @@ stable, and which are highly specialized.
   modified or rebuilt by a later phase.
 - Every engine is deterministic, reproducible, and byte-identically rebuildable,
   with a dedicated validator.
-- No ontology, propositions, contradiction engine, axioms, theology,
-  interpretation, doctrine, or origin claims have been produced. Work remains at
-  the lexical / statistical / structural layer.
+- No ontology, contradiction engine, axioms, theology, interpretation, doctrine,
+  or origin claims have been produced. Work remains at the lexical /
+  statistical / structural layer. Concept ids and relation types are opaque
+  throughout.
 
 ---
 
 ## Reproduce the full stack
 
 ```bash
-python3 scripts/build_database.py   && python3 scripts/validate_database.py
-python3 scripts/build_lexicon.py    && python3 scripts/validate_lexicon.py  --rebuild
-python3 scripts/build_concepts.py   && python3 scripts/validate_concepts.py --rebuild
+python3 scripts/build_database.py     && python3 scripts/validate_database.py
+python3 scripts/build_lexicon.py      && python3 scripts/validate_lexicon.py     --rebuild
+python3 scripts/build_concepts.py     && python3 scripts/validate_concepts.py    --rebuild
+python3 scripts/build_propositions.py && python3 scripts/validate_propositions.py --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 4 is **not started** by design. Recommendations are recorded in
-`phase3-final-report.md §7`. Awaiting explicit instruction to proceed.
+Phase 5 is **not started** by design. Recommendations are recorded in
+`phase4-final-report.md §7`. Awaiting explicit instruction to proceed.

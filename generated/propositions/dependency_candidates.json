@@ -1,0 +1,9023 @@
+{
+ "constants": {
+  "DEPENDS_CONF_MIN": 0.3,
+  "DEPENDS_LIFT_MIN": 2.0,
+  "REQUIRES_CONF_MIN": 0.9,
+  "SUPPORT_MIN": 5
+ },
+ "depends_on": [
+  {
+   "concept_src": "CONCEPT_076",
+   "concept_tgt": "CONCEPT_048",
+   "confidence": 0.6,
+   "evidence_paths": [
+    {
+     "ayah": 18,
+     "surah": 12
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 26,
+     "surah": 12
+    },
+    {
+     "ayah": 27,
+     "surah": 12
+    },
+    {
+     "ayah": 28,
+     "surah": 12
+    }
+   ],
+   "lift": 305.05,
+   "p_src_given_tgt": 0.6,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_048",
+   "concept_tgt": "CONCEPT_076",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 18,
+     "surah": 12
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 26,
+     "surah": 12
+    },
+    {
+     "ayah": 27,
+     "surah": 12
+    },
+    {
+     "ayah": 28,
+     "surah": 12
+    }
+   ],
+   "lift": 305.05,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_058",
+   "concept_tgt": "CONCEPT_077",
+   "confidence": 0.714286,
+   "evidence_paths": [
+    {
+     "ayah": 103,
+     "surah": 3
+    },
+    {
+     "ayah": 73,
+     "surah": 22
+    },
+    {
+     "ayah": 23,
+     "surah": 36
+    },
+    {
+     "ayah": 43,
+     "surah": 36
+    },
+    {
+     "ayah": 19,
+     "surah": 39
+    }
+   ],
+   "lift": 189.47205,
+   "p_src_given_tgt": 0.714286,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_039",
+   "concept_tgt": "CONCEPT_048",
+   "confidence": 0.8,
+   "evidence_paths": [
+    {
+     "ayah": 18,
+     "surah": 12
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 26,
+     "surah": 12
+    },
+    {
+     "ayah": 27,
+     "surah": 12
+    },
+    {
+     "ayah": 28,
+     "surah": 12
+    }
+   ],
+   "lift": 187.723077,
+   "p_src_given_tgt": 0.8,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 8
+  },
+  {
+   "concept_src": "CONCEPT_048",
+   "concept_tgt": "CONCEPT_039",
+   "confidence": 0.307692,
+   "evidence_paths": [
+    {
+     "ayah": 18,
+     "surah": 12
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 26,
+     "surah": 12
+    },
+    {
+     "ayah": 27,
+     "surah": 12
+    },
+    {
+     "ayah": 28,
+     "surah": 12
+    }
+   ],
+   "lift": 187.723077,
+   "p_src_given_tgt": 0.307692,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 8
+  },
+  {
+   "concept_src": "CONCEPT_039",
+   "concept_tgt": "CONCEPT_089",
+   "confidence": 0.571429,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 32,
+     "surah": 12
+    },
+    {
+     "ayah": 33,
+     "surah": 12
+    },
+    {
+     "ayah": 35,
+     "surah": 12
+    },
+    {
+     "ayah": 36,
+     "surah": 12
+    }
+   ],
+   "lift": 134.087912,
+   "p_src_given_tgt": 0.571429,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 12
+  },
+  {
+   "concept_src": "CONCEPT_089",
+   "concept_tgt": "CONCEPT_039",
+   "confidence": 0.461538,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 32,
+     "surah": 12
+    },
+    {
+     "ayah": 33,
+     "surah": 12
+    },
+    {
+     "ayah": 35,
+     "surah": 12
+    },
+    {
+     "ayah": 36,
+     "surah": 12
+    }
+   ],
+   "lift": 134.087912,
+   "p_src_given_tgt": 0.461538,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 12
+  },
+  {
+   "concept_src": "CONCEPT_039",
+   "concept_tgt": "CONCEPT_076",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 18,
+     "surah": 12
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 26,
+     "surah": 12
+    },
+    {
+     "ayah": 27,
+     "surah": 12
+    },
+    {
+     "ayah": 28,
+     "surah": 12
+    }
+   ],
+   "lift": 117.326923,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_073",
+   "concept_tgt": "CONCEPT_074",
+   "confidence": 0.823529,
+   "evidence_paths": [
+    {
+     "ayah": 16,
+     "surah": 2
+    },
+    {
+     "ayah": 41,
+     "surah": 2
+    },
+    {
+     "ayah": 79,
+     "surah": 2
+    },
+    {
+     "ayah": 86,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    }
+   ],
+   "lift": 104.67402,
+   "p_src_given_tgt": 0.823529,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 28
+  },
+  {
+   "concept_src": "CONCEPT_074",
+   "concept_tgt": "CONCEPT_073",
+   "confidence": 0.583333,
+   "evidence_paths": [
+    {
+     "ayah": 16,
+     "surah": 2
+    },
+    {
+     "ayah": 41,
+     "surah": 2
+    },
+    {
+     "ayah": 79,
+     "surah": 2
+    },
+    {
+     "ayah": 86,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    }
+   ],
+   "lift": 104.67402,
+   "p_src_given_tgt": 0.583333,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 28
+  },
+  {
+   "concept_src": "CONCEPT_082",
+   "concept_tgt": "CONCEPT_059",
+   "confidence": 0.647059,
+   "evidence_paths": [
+    {
+     "ayah": 101,
+     "surah": 4
+    },
+    {
+     "ayah": 74,
+     "surah": 7
+    },
+    {
+     "ayah": 202,
+     "surah": 7
+    },
+    {
+     "ayah": 45,
+     "surah": 22
+    },
+    {
+     "ayah": 10,
+     "surah": 25
+    }
+   ],
+   "lift": 78.954118,
+   "p_src_given_tgt": 0.647059,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 11
+  },
+  {
+   "concept_src": "CONCEPT_038",
+   "concept_tgt": "CONCEPT_093",
+   "confidence": 0.666667,
+   "evidence_paths": [
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 28,
+     "surah": 9
+    },
+    {
+     "ayah": 37,
+     "surah": 9
+    },
+    {
+     "ayah": 126,
+     "surah": 9
+    },
+    {
+     "ayah": 49,
+     "surah": 12
+    }
+   ],
+   "lift": 76.742138,
+   "p_src_given_tgt": 0.666667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 8
+  },
+  {
+   "concept_src": "CONCEPT_009",
+   "concept_tgt": "CONCEPT_067",
+   "confidence": 0.641509,
+   "evidence_paths": [
+    {
+     "ayah": 137,
+     "surah": 2
+    },
+    {
+     "ayah": 124,
+     "surah": 3
+    },
+    {
+     "ayah": 2,
+     "surah": 4
+    },
+    {
+     "ayah": 3,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 4
+    }
+   ],
+   "lift": 64.16146,
+   "p_src_given_tgt": 0.641509,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 34
+  },
+  {
+   "concept_src": "CONCEPT_067",
+   "concept_tgt": "CONCEPT_009",
+   "confidence": 0.557377,
+   "evidence_paths": [
+    {
+     "ayah": 137,
+     "surah": 2
+    },
+    {
+     "ayah": 124,
+     "surah": 3
+    },
+    {
+     "ayah": 2,
+     "surah": 4
+    },
+    {
+     "ayah": 3,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 4
+    }
+   ],
+   "lift": 64.16146,
+   "p_src_given_tgt": 0.557377,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 34
+  },
+  {
+   "concept_src": "CONCEPT_080",
+   "concept_tgt": "CONCEPT_098",
+   "confidence": 0.45,
+   "evidence_paths": [
+    {
+     "ayah": 249,
+     "surah": 2
+    },
+    {
+     "ayah": 13,
+     "surah": 3
+    },
+    {
+     "ayah": 88,
+     "surah": 4
+    },
+    {
+     "ayah": 16,
+     "surah": 8
+    },
+    {
+     "ayah": 19,
+     "surah": 8
+    }
+   ],
+   "lift": 49.025893,
+   "p_src_given_tgt": 0.45,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 9
+  },
+  {
+   "concept_src": "CONCEPT_040",
+   "concept_tgt": "CONCEPT_101",
+   "confidence": 0.416667,
+   "evidence_paths": [
+    {
+     "ayah": 69,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 5
+    },
+    {
+     "ayah": 16,
+     "surah": 18
+    },
+    {
+     "ayah": 29,
+     "surah": 18
+    },
+    {
+     "ayah": 31,
+     "surah": 18
+    }
+   ],
+   "lift": 47.075617,
+   "p_src_given_tgt": 0.416667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_036",
+   "concept_tgt": "CONCEPT_089",
+   "confidence": 0.333333,
+   "evidence_paths": [
+    {
+     "ayah": 219,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 5
+    },
+    {
+     "ayah": 91,
+     "surah": 5
+    },
+    {
+     "ayah": 36,
+     "surah": 12
+    },
+    {
+     "ayah": 41,
+     "surah": 12
+    }
+   ],
+   "lift": 46.219697,
+   "p_src_given_tgt": 0.333333,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_035",
+   "concept_tgt": "CONCEPT_067",
+   "confidence": 0.415094,
+   "evidence_paths": [
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 177,
+     "surah": 2
+    },
+    {
+     "ayah": 215,
+     "surah": 2
+    },
+    {
+     "ayah": 220,
+     "surah": 2
+    },
+    {
+     "ayah": 2,
+     "surah": 4
+    }
+   ],
+   "lift": 43.66363,
+   "p_src_given_tgt": 0.415094,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 22
+  },
+  {
+   "concept_src": "CONCEPT_067",
+   "concept_tgt": "CONCEPT_035",
+   "confidence": 0.37931,
+   "evidence_paths": [
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 177,
+     "surah": 2
+    },
+    {
+     "ayah": 215,
+     "surah": 2
+    },
+    {
+     "ayah": 220,
+     "surah": 2
+    },
+    {
+     "ayah": 2,
+     "surah": 4
+    }
+   ],
+   "lift": 43.66363,
+   "p_src_given_tgt": 0.37931,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 22
+  },
+  {
+   "concept_src": "CONCEPT_027",
+   "concept_tgt": "CONCEPT_036",
+   "confidence": 0.363636,
+   "evidence_paths": [
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 132,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 264,
+     "surah": 2
+    },
+    {
+     "ayah": 33,
+     "surah": 3
+    }
+   ],
+   "lift": 42.664336,
+   "p_src_given_tgt": 0.363636,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 16
+  },
+  {
+   "concept_src": "CONCEPT_036",
+   "concept_tgt": "CONCEPT_027",
+   "confidence": 0.307692,
+   "evidence_paths": [
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 132,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 264,
+     "surah": 2
+    },
+    {
+     "ayah": 33,
+     "surah": 3
+    }
+   ],
+   "lift": 42.664336,
+   "p_src_given_tgt": 0.307692,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 16
+  },
+  {
+   "concept_src": "CONCEPT_072",
+   "concept_tgt": "CONCEPT_036",
+   "confidence": 0.477273,
+   "evidence_paths": [
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 132,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 264,
+     "surah": 2
+    },
+    {
+     "ayah": 33,
+     "surah": 3
+    }
+   ],
+   "lift": 42.200593,
+   "p_src_given_tgt": 0.477273,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 21
+  },
+  {
+   "concept_src": "CONCEPT_036",
+   "concept_tgt": "CONCEPT_072",
+   "confidence": 0.304348,
+   "evidence_paths": [
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 132,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 264,
+     "surah": 2
+    },
+    {
+     "ayah": 33,
+     "surah": 3
+    }
+   ],
+   "lift": 42.200593,
+   "p_src_given_tgt": 0.304348,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 21
+  },
+  {
+   "concept_src": "CONCEPT_033",
+   "concept_tgt": "CONCEPT_046",
+   "confidence": 0.375,
+   "evidence_paths": [
+    {
+     "ayah": 67,
+     "surah": 2
+    },
+    {
+     "ayah": 68,
+     "surah": 2
+    },
+    {
+     "ayah": 69,
+     "surah": 2
+    },
+    {
+     "ayah": 70,
+     "surah": 2
+    },
+    {
+     "ayah": 71,
+     "surah": 2
+    }
+   ],
+   "lift": 35.198077,
+   "p_src_given_tgt": 0.375,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 9
+  },
+  {
+   "concept_src": "CONCEPT_021",
+   "concept_tgt": "CONCEPT_039",
+   "confidence": 0.769231,
+   "evidence_paths": [
+    {
+     "ayah": 170,
+     "surah": 2
+    },
+    {
+     "ayah": 19,
+     "surah": 12
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 32,
+     "surah": 12
+    },
+    {
+     "ayah": 33,
+     "surah": 12
+    }
+   ],
+   "lift": 33.521978,
+   "p_src_given_tgt": 0.769231,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 20
+  },
+  {
+   "concept_src": "CONCEPT_019",
+   "concept_tgt": "CONCEPT_040",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 81,
+     "surah": 2
+    },
+    {
+     "ayah": 255,
+     "surah": 2
+    },
+    {
+     "ayah": 120,
+     "surah": 3
+    },
+    {
+     "ayah": 108,
+     "surah": 4
+    }
+   ],
+   "lift": 30.813131,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 27
+  },
+  {
+   "concept_src": "CONCEPT_010",
+   "concept_tgt": "CONCEPT_071",
+   "confidence": 0.684211,
+   "evidence_paths": [
+    {
+     "ayah": 218,
+     "surah": 2
+    },
+    {
+     "ayah": 282,
+     "surah": 2
+    },
+    {
+     "ayah": 142,
+     "surah": 3
+    },
+    {
+     "ayah": 29,
+     "surah": 4
+    },
+    {
+     "ayah": 95,
+     "surah": 4
+    }
+   ],
+   "lift": 30.693885,
+   "p_src_given_tgt": 0.684211,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 39
+  },
+  {
+   "concept_src": "CONCEPT_023",
+   "concept_tgt": "CONCEPT_070",
+   "confidence": 0.466667,
+   "evidence_paths": [
+    {
+     "ayah": 36,
+     "surah": 4
+    },
+    {
+     "ayah": 10,
+     "surah": 11
+    },
+    {
+     "ayah": 64,
+     "surah": 17
+    },
+    {
+     "ayah": 18,
+     "surah": 31
+    },
+    {
+     "ayah": 14,
+     "surah": 55
+    }
+   ],
+   "lift": 30.288652,
+   "p_src_given_tgt": 0.466667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_090",
+   "concept_tgt": "CONCEPT_055",
+   "confidence": 0.409091,
+   "evidence_paths": [
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 183,
+     "surah": 2
+    },
+    {
+     "ayah": 184,
+     "surah": 2
+    },
+    {
+     "ayah": 185,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    }
+   ],
+   "lift": 29.712662,
+   "p_src_given_tgt": 0.409091,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 18
+  },
+  {
+   "concept_src": "CONCEPT_005",
+   "concept_tgt": "CONCEPT_045",
+   "confidence": 0.625,
+   "evidence_paths": [
+    {
+     "ayah": 266,
+     "surah": 2
+    },
+    {
+     "ayah": 99,
+     "surah": 6
+    },
+    {
+     "ayah": 141,
+     "surah": 6
+    },
+    {
+     "ayah": 4,
+     "surah": 13
+    },
+    {
+     "ayah": 11,
+     "surah": 16
+    }
+   ],
+   "lift": 28.24537,
+   "p_src_given_tgt": 0.625,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 20
+  },
+  {
+   "concept_src": "CONCEPT_019",
+   "concept_tgt": "CONCEPT_079",
+   "confidence": 0.454545,
+   "evidence_paths": [
+    {
+     "ayah": 184,
+     "surah": 2
+    },
+    {
+     "ayah": 249,
+     "surah": 2
+    },
+    {
+     "ayah": 267,
+     "surah": 2
+    },
+    {
+     "ayah": 286,
+     "surah": 2
+    },
+    {
+     "ayah": 180,
+     "surah": 3
+    }
+   ],
+   "lift": 28.011938,
+   "p_src_given_tgt": 0.454545,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_030",
+   "concept_tgt": "CONCEPT_089",
+   "confidence": 0.428571,
+   "evidence_paths": [
+    {
+     "ayah": 219,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 5
+    },
+    {
+     "ayah": 91,
+     "surah": 5
+    },
+    {
+     "ayah": 35,
+     "surah": 12
+    },
+    {
+     "ayah": 36,
+     "surah": 12
+    }
+   ],
+   "lift": 27.816109,
+   "p_src_given_tgt": 0.428571,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 9
+  },
+  {
+   "concept_src": "CONCEPT_072",
+   "concept_tgt": "CONCEPT_027",
+   "confidence": 0.307692,
+   "evidence_paths": [
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 132,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 264,
+     "surah": 2
+    },
+    {
+     "ayah": 33,
+     "surah": 3
+    }
+   ],
+   "lift": 27.206243,
+   "p_src_given_tgt": 0.307692,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 16
+  },
+  {
+   "concept_src": "CONCEPT_006",
+   "concept_tgt": "CONCEPT_101",
+   "confidence": 0.583333,
+   "evidence_paths": [
+    {
+     "ayah": 9,
+     "surah": 18
+    },
+    {
+     "ayah": 10,
+     "surah": 18
+    },
+    {
+     "ayah": 11,
+     "surah": 18
+    },
+    {
+     "ayah": 16,
+     "surah": 18
+    },
+    {
+     "ayah": 17,
+     "surah": 18
+    }
+   ],
+   "lift": 27.167303,
+   "p_src_given_tgt": 0.583333,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_021",
+   "concept_tgt": "CONCEPT_089",
+   "confidence": 0.619048,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 32,
+     "surah": 12
+    },
+    {
+     "ayah": 33,
+     "surah": 12
+    },
+    {
+     "ayah": 35,
+     "surah": 12
+    },
+    {
+     "ayah": 36,
+     "surah": 12
+    }
+   ],
+   "lift": 26.977211,
+   "p_src_given_tgt": 0.619048,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 13
+  },
+  {
+   "concept_src": "CONCEPT_010",
+   "concept_tgt": "CONCEPT_093",
+   "confidence": 0.583333,
+   "evidence_paths": [
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 28,
+     "surah": 9
+    },
+    {
+     "ayah": 37,
+     "surah": 9
+    },
+    {
+     "ayah": 126,
+     "surah": 9
+    },
+    {
+     "ayah": 49,
+     "surah": 12
+    }
+   ],
+   "lift": 26.168505,
+   "p_src_given_tgt": 0.583333,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_032",
+   "concept_tgt": "CONCEPT_093",
+   "confidence": 0.416667,
+   "evidence_paths": [
+    {
+     "ayah": 37,
+     "surah": 9
+    },
+    {
+     "ayah": 120,
+     "surah": 9
+    },
+    {
+     "ayah": 27,
+     "surah": 33
+    },
+    {
+     "ayah": 25,
+     "surah": 48
+    },
+    {
+     "ayah": 6,
+     "surah": 73
+    }
+   ],
+   "lift": 25.939626,
+   "p_src_given_tgt": 0.416667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_025",
+   "concept_tgt": "CONCEPT_092",
+   "confidence": 0.625,
+   "evidence_paths": [
+    {
+     "ayah": 60,
+     "surah": 2
+    },
+    {
+     "ayah": 74,
+     "surah": 7
+    },
+    {
+     "ayah": 85,
+     "surah": 11
+    },
+    {
+     "ayah": 183,
+     "surah": 26
+    },
+    {
+     "ayah": 36,
+     "surah": 29
+    }
+   ],
+   "lift": 25.086349,
+   "p_src_given_tgt": 0.625,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_091",
+   "concept_tgt": "CONCEPT_035",
+   "confidence": 0.310345,
+   "evidence_paths": [
+    {
+     "ayah": 232,
+     "surah": 2
+    },
+    {
+     "ayah": 235,
+     "surah": 2
+    },
+    {
+     "ayah": 268,
+     "surah": 2
+    },
+    {
+     "ayah": 271,
+     "surah": 2
+    },
+    {
+     "ayah": 273,
+     "surah": 2
+    }
+   ],
+   "lift": 23.967263,
+   "p_src_given_tgt": 0.310345,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 18
+  },
+  {
+   "concept_src": "CONCEPT_018",
+   "concept_tgt": "CONCEPT_063",
+   "confidence": 0.842857,
+   "evidence_paths": [
+    {
+     "ayah": 102,
+     "surah": 2
+    },
+    {
+     "ayah": 17,
+     "surah": 3
+    },
+    {
+     "ayah": 110,
+     "surah": 5
+    },
+    {
+     "ayah": 7,
+     "surah": 6
+    },
+    {
+     "ayah": 109,
+     "surah": 7
+    }
+   ],
+   "lift": 23.268197,
+   "p_src_given_tgt": 0.842857,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 59
+  },
+  {
+   "concept_src": "CONCEPT_013",
+   "concept_tgt": "CONCEPT_074",
+   "confidence": 0.705882,
+   "evidence_paths": [
+    {
+     "ayah": 16,
+     "surah": 2
+    },
+    {
+     "ayah": 41,
+     "surah": 2
+    },
+    {
+     "ayah": 79,
+     "surah": 2
+    },
+    {
+     "ayah": 86,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    }
+   ],
+   "lift": 22.085068,
+   "p_src_given_tgt": 0.705882,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 24
+  },
+  {
+   "concept_src": "CONCEPT_026",
+   "concept_tgt": "CONCEPT_069",
+   "confidence": 0.375,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 20,
+     "surah": 2
+    },
+    {
+     "ayah": 12,
+     "surah": 13
+    },
+    {
+     "ayah": 43,
+     "surah": 24
+    },
+    {
+     "ayah": 24,
+     "surah": 30
+    }
+   ],
+   "lift": 21.998798,
+   "p_src_given_tgt": 0.375,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_025",
+   "concept_tgt": "CONCEPT_072",
+   "confidence": 0.507246,
+   "evidence_paths": [
+    {
+     "ayah": 60,
+     "surah": 2
+    },
+    {
+     "ayah": 93,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    },
+    {
+     "ayah": 249,
+     "surah": 2
+    },
+    {
+     "ayah": 259,
+     "surah": 2
+    }
+   ],
+   "lift": 20.359935,
+   "p_src_given_tgt": 0.507246,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 35
+  },
+  {
+   "concept_src": "CONCEPT_020",
+   "concept_tgt": "CONCEPT_072",
+   "confidence": 0.550725,
+   "evidence_paths": [
+    {
+     "ayah": 60,
+     "surah": 2
+    },
+    {
+     "ayah": 93,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    },
+    {
+     "ayah": 249,
+     "surah": 2
+    },
+    {
+     "ayah": 259,
+     "surah": 2
+    }
+   ],
+   "lift": 19.199834,
+   "p_src_given_tgt": 0.550725,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 38
+  },
+  {
+   "concept_src": "CONCEPT_006",
+   "concept_tgt": "CONCEPT_044",
+   "confidence": 0.389831,
+   "evidence_paths": [
+    {
+     "ayah": 245,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 11,
+     "surah": 5
+    },
+    {
+     "ayah": 28,
+     "surah": 5
+    },
+    {
+     "ayah": 64,
+     "surah": 5
+    }
+   ],
+   "lift": 18.155389,
+   "p_src_given_tgt": 0.389831,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 23
+  },
+  {
+   "concept_src": "CONCEPT_024",
+   "concept_tgt": "CONCEPT_037",
+   "confidence": 0.361905,
+   "evidence_paths": [
+    {
+     "ayah": 96,
+     "surah": 3
+    },
+    {
+     "ayah": 92,
+     "surah": 6
+    },
+    {
+     "ayah": 141,
+     "surah": 6
+    },
+    {
+     "ayah": 155,
+     "surah": 6
+    },
+    {
+     "ayah": 54,
+     "surah": 7
+    }
+   ],
+   "lift": 17.385677,
+   "p_src_given_tgt": 0.361905,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 38
+  },
+  {
+   "concept_src": "CONCEPT_013",
+   "concept_tgt": "CONCEPT_073",
+   "confidence": 0.541667,
+   "evidence_paths": [
+    {
+     "ayah": 16,
+     "surah": 2
+    },
+    {
+     "ayah": 41,
+     "surah": 2
+    },
+    {
+     "ayah": 79,
+     "surah": 2
+    },
+    {
+     "ayah": 86,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    }
+   ],
+   "lift": 16.947222,
+   "p_src_given_tgt": 0.541667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 26
+  },
+  {
+   "concept_src": "CONCEPT_005",
+   "concept_tgt": "CONCEPT_072",
+   "confidence": 0.347826,
+   "evidence_paths": [
+    {
+     "ayah": 22,
+     "surah": 2
+    },
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 126,
+     "surah": 2
+    },
+    {
+     "ayah": 155,
+     "surah": 2
+    },
+    {
+     "ayah": 266,
+     "surah": 2
+    }
+   ],
+   "lift": 15.719163,
+   "p_src_given_tgt": 0.347826,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 24
+  },
+  {
+   "concept_src": "CONCEPT_024",
+   "concept_tgt": "CONCEPT_042",
+   "confidence": 0.324324,
+   "evidence_paths": [
+    {
+     "ayah": 17,
+     "surah": 2
+    },
+    {
+     "ayah": 24,
+     "surah": 2
+    },
+    {
+     "ayah": 10,
+     "surah": 3
+    },
+    {
+     "ayah": 64,
+     "surah": 5
+    },
+    {
+     "ayah": 17,
+     "surah": 13
+    }
+   ],
+   "lift": 15.580336,
+   "p_src_given_tgt": 0.324324,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 12
+  },
+  {
+   "concept_src": "CONCEPT_049",
+   "concept_tgt": "CONCEPT_097",
+   "confidence": 0.442478,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 164,
+     "surah": 2
+    },
+    {
+     "ayah": 266,
+     "surah": 2
+    },
+    {
+     "ayah": 15,
+     "surah": 3
+    },
+    {
+     "ayah": 136,
+     "surah": 3
+    }
+   ],
+   "lift": 13.364146,
+   "p_src_given_tgt": 0.442478,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 50
+  },
+  {
+   "concept_src": "CONCEPT_049",
+   "concept_tgt": "CONCEPT_037",
+   "confidence": 0.409524,
+   "evidence_paths": [
+    {
+     "ayah": 27,
+     "surah": 3
+    },
+    {
+     "ayah": 77,
+     "surah": 6
+    },
+    {
+     "ayah": 96,
+     "surah": 6
+    },
+    {
+     "ayah": 97,
+     "surah": 6
+    },
+    {
+     "ayah": 54,
+     "surah": 7
+    }
+   ],
+   "lift": 12.368835,
+   "p_src_given_tgt": 0.409524,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 43
+  },
+  {
+   "concept_src": "CONCEPT_028",
+   "concept_tgt": "CONCEPT_030",
+   "confidence": 0.340426,
+   "evidence_paths": [
+    {
+     "ayah": 33,
+     "surah": 2
+    },
+    {
+     "ayah": 271,
+     "surah": 2
+    },
+    {
+     "ayah": 284,
+     "surah": 2
+    },
+    {
+     "ayah": 29,
+     "surah": 3
+    },
+    {
+     "ayah": 118,
+     "surah": 3
+    }
+   ],
+   "lift": 12.362715,
+   "p_src_given_tgt": 0.340426,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 32
+  },
+  {
+   "concept_src": "CONCEPT_013",
+   "concept_tgt": "CONCEPT_071",
+   "confidence": 0.350877,
+   "evidence_paths": [
+    {
+     "ayah": 16,
+     "surah": 2
+    },
+    {
+     "ayah": 226,
+     "surah": 2
+    },
+    {
+     "ayah": 228,
+     "surah": 2
+    },
+    {
+     "ayah": 234,
+     "surah": 2
+    },
+    {
+     "ayah": 282,
+     "surah": 2
+    }
+   ],
+   "lift": 10.977958,
+   "p_src_given_tgt": 0.350877,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 20
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_091",
+   "confidence": 0.949367,
+   "evidence_paths": [
+    {
+     "ayah": 89,
+     "surah": 2
+    },
+    {
+     "ayah": 146,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 180,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    }
+   ],
+   "lift": 10.53107,
+   "p_src_given_tgt": 0.949367,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 75
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_090",
+   "confidence": 0.904762,
+   "evidence_paths": [
+    {
+     "ayah": 52,
+     "surah": 2
+    },
+    {
+     "ayah": 109,
+     "surah": 2
+    },
+    {
+     "ayah": 168,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    }
+   ],
+   "lift": 10.036277,
+   "p_src_given_tgt": 0.904762,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 76
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_035",
+   "confidence": 0.87931,
+   "evidence_paths": [
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 177,
+     "surah": 2
+    },
+    {
+     "ayah": 215,
+     "surah": 2
+    },
+    {
+     "ayah": 220,
+     "surah": 2
+    },
+    {
+     "ayah": 221,
+     "surah": 2
+    }
+   ],
+   "lift": 9.75395,
+   "p_src_given_tgt": 0.87931,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 51
+  },
+  {
+   "concept_src": "CONCEPT_001",
+   "concept_tgt": "CONCEPT_087",
+   "confidence": 0.6,
+   "evidence_paths": [
+    {
+     "ayah": 187,
+     "surah": 2
+    },
+    {
+     "ayah": 106,
+     "surah": 3
+    },
+    {
+     "ayah": 107,
+     "surah": 3
+    },
+    {
+     "ayah": 108,
+     "surah": 7
+    },
+    {
+     "ayah": 84,
+     "surah": 12
+    }
+   ],
+   "lift": 8.532867,
+   "p_src_given_tgt": 0.6,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 12
+  },
+  {
+   "concept_src": "CONCEPT_001",
+   "concept_tgt": "CONCEPT_090",
+   "confidence": 0.583333,
+   "evidence_paths": [
+    {
+     "ayah": 52,
+     "surah": 2
+    },
+    {
+     "ayah": 109,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 183,
+     "surah": 2
+    },
+    {
+     "ayah": 184,
+     "surah": 2
+    }
+   ],
+   "lift": 8.295843,
+   "p_src_given_tgt": 0.583333,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 49
+  },
+  {
+   "concept_src": "CONCEPT_015",
+   "concept_tgt": "CONCEPT_011",
+   "confidence": 0.431373,
+   "evidence_paths": [
+    {
+     "ayah": 7,
+     "surah": 1
+    },
+    {
+     "ayah": 61,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    },
+    {
+     "ayah": 112,
+     "surah": 3
+    },
+    {
+     "ayah": 93,
+     "surah": 4
+    }
+   ],
+   "lift": 8.073018,
+   "p_src_given_tgt": 0.431373,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 22
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_083",
+   "confidence": 0.717391,
+   "evidence_paths": [
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 36,
+     "surah": 3
+    },
+    {
+     "ayah": 195,
+     "surah": 3
+    },
+    {
+     "ayah": 3,
+     "surah": 4
+    },
+    {
+     "ayah": 11,
+     "surah": 4
+    }
+   ],
+   "lift": 7.957826,
+   "p_src_given_tgt": 0.717391,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 33
+  },
+  {
+   "concept_src": "CONCEPT_001",
+   "concept_tgt": "CONCEPT_073",
+   "confidence": 0.458333,
+   "evidence_paths": [
+    {
+     "ayah": 33,
+     "surah": 2
+    },
+    {
+     "ayah": 42,
+     "surah": 2
+    },
+    {
+     "ayah": 72,
+     "surah": 2
+    },
+    {
+     "ayah": 140,
+     "surah": 2
+    },
+    {
+     "ayah": 146,
+     "surah": 2
+    }
+   ],
+   "lift": 6.518162,
+   "p_src_given_tgt": 0.458333,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 22
+  },
+  {
+   "concept_src": "CONCEPT_060",
+   "concept_tgt": "CONCEPT_048",
+   "confidence": 0.6,
+   "evidence_paths": [
+    {
+     "ayah": 23,
+     "surah": 12
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 26,
+     "surah": 12
+    },
+    {
+     "ayah": 51,
+     "surah": 12
+    },
+    {
+     "ayah": 93,
+     "surah": 12
+    }
+   ],
+   "lift": 5.894686,
+   "p_src_given_tgt": 0.6,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_001",
+   "concept_tgt": "CONCEPT_055",
+   "confidence": 0.363636,
+   "evidence_paths": [
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 183,
+     "surah": 2
+    },
+    {
+     "ayah": 184,
+     "surah": 2
+    },
+    {
+     "ayah": 185,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    }
+   ],
+   "lift": 5.171435,
+   "p_src_given_tgt": 0.363636,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 16
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_067",
+   "confidence": 0.45283,
+   "evidence_paths": [
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 177,
+     "surah": 2
+    },
+    {
+     "ayah": 215,
+     "surah": 2
+    },
+    {
+     "ayah": 220,
+     "surah": 2
+    },
+    {
+     "ayah": 124,
+     "surah": 3
+    }
+   ],
+   "lift": 5.023122,
+   "p_src_given_tgt": 0.45283,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 24
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_075",
+   "confidence": 0.4375,
+   "evidence_paths": [
+    {
+     "ayah": 227,
+     "surah": 2
+    },
+    {
+     "ayah": 233,
+     "surah": 2
+    },
+    {
+     "ayah": 235,
+     "surah": 2
+    },
+    {
+     "ayah": 159,
+     "surah": 3
+    },
+    {
+     "ayah": 17,
+     "surah": 31
+    }
+   ],
+   "lift": 4.853068,
+   "p_src_given_tgt": 0.4375,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_090",
+   "confidence": 0.797619,
+   "evidence_paths": [
+    {
+     "ayah": 52,
+     "surah": 2
+    },
+    {
+     "ayah": 109,
+     "surah": 2
+    },
+    {
+     "ayah": 168,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 183,
+     "surah": 2
+    }
+   ],
+   "lift": 4.842063,
+   "p_src_given_tgt": 0.797619,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 67
+  },
+  {
+   "concept_src": "CONCEPT_001",
+   "concept_tgt": "CONCEPT_078",
+   "confidence": 0.336449,
+   "evidence_paths": [
+    {
+     "ayah": 35,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    },
+    {
+     "ayah": 222,
+     "surah": 2
+    },
+    {
+     "ayah": 229,
+     "surah": 2
+    },
+    {
+     "ayah": 230,
+     "surah": 2
+    }
+   ],
+   "lift": 4.784785,
+   "p_src_given_tgt": 0.336449,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 36
+  },
+  {
+   "concept_src": "CONCEPT_001",
+   "concept_tgt": "CONCEPT_089",
+   "confidence": 0.333333,
+   "evidence_paths": [
+    {
+     "ayah": 219,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 5
+    },
+    {
+     "ayah": 91,
+     "surah": 5
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 36,
+     "surah": 12
+    }
+   ],
+   "lift": 4.740482,
+   "p_src_given_tgt": 0.333333,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_093",
+   "confidence": 0.416667,
+   "evidence_paths": [
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 28,
+     "surah": 9
+    },
+    {
+     "ayah": 37,
+     "surah": 9
+    },
+    {
+     "ayah": 14,
+     "surah": 31
+    },
+    {
+     "ayah": 25,
+     "surah": 48
+    }
+   ],
+   "lift": 4.62197,
+   "p_src_given_tgt": 0.416667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_001",
+   "concept_tgt": "CONCEPT_091",
+   "confidence": 0.316456,
+   "evidence_paths": [
+    {
+     "ayah": 146,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 180,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    },
+    {
+     "ayah": 228,
+     "surah": 2
+    }
+   ],
+   "lift": 4.500457,
+   "p_src_given_tgt": 0.316456,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 25
+  },
+  {
+   "concept_src": "CONCEPT_001",
+   "concept_tgt": "CONCEPT_075",
+   "confidence": 0.3125,
+   "evidence_paths": [
+    {
+     "ayah": 227,
+     "surah": 2
+    },
+    {
+     "ayah": 233,
+     "surah": 2
+    },
+    {
+     "ayah": 159,
+     "surah": 3
+    },
+    {
+     "ayah": 186,
+     "surah": 3
+    },
+    {
+     "ayah": 10,
+     "surah": 34
+    }
+   ],
+   "lift": 4.444202,
+   "p_src_given_tgt": 0.3125,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_034",
+   "concept_tgt": "CONCEPT_099",
+   "confidence": 0.608696,
+   "evidence_paths": [
+    {
+     "ayah": 228,
+     "surah": 2
+    },
+    {
+     "ayah": 253,
+     "surah": 2
+    },
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 34,
+     "surah": 4
+    },
+    {
+     "ayah": 95,
+     "surah": 4
+    }
+   ],
+   "lift": 4.158625,
+   "p_src_given_tgt": 0.608696,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 14
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_055",
+   "confidence": 0.363636,
+   "evidence_paths": [
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    },
+    {
+     "ayah": 225,
+     "surah": 2
+    },
+    {
+     "ayah": 233,
+     "surah": 2
+    }
+   ],
+   "lift": 4.033719,
+   "p_src_given_tgt": 0.363636,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 16
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_078",
+   "confidence": 0.35514,
+   "evidence_paths": [
+    {
+     "ayah": 35,
+     "surah": 2
+    },
+    {
+     "ayah": 116,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    },
+    {
+     "ayah": 222,
+     "surah": 2
+    },
+    {
+     "ayah": 229,
+     "surah": 2
+    }
+   ],
+   "lift": 3.939473,
+   "p_src_given_tgt": 0.35514,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 38
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_095",
+   "confidence": 0.571429,
+   "evidence_paths": [
+    {
+     "ayah": 67,
+     "surah": 11
+    },
+    {
+     "ayah": 94,
+     "surah": 11
+    },
+    {
+     "ayah": 73,
+     "surah": 15
+    },
+    {
+     "ayah": 83,
+     "surah": 15
+    },
+    {
+     "ayah": 41,
+     "surah": 23
+    }
+   ],
+   "lift": 3.921581,
+   "p_src_given_tgt": 0.571429,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 8
+  },
+  {
+   "concept_src": "CONCEPT_008",
+   "concept_tgt": "CONCEPT_027",
+   "confidence": 0.442308,
+   "evidence_paths": [
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 264,
+     "surah": 2
+    },
+    {
+     "ayah": 265,
+     "surah": 2
+    },
+    {
+     "ayah": 275,
+     "surah": 2
+    },
+    {
+     "ayah": 276,
+     "surah": 2
+    }
+   ],
+   "lift": 3.910897,
+   "p_src_given_tgt": 0.442308,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 23
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_097",
+   "confidence": 0.761062,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 103,
+     "surah": 2
+    },
+    {
+     "ayah": 164,
+     "surah": 2
+    },
+    {
+     "ayah": 266,
+     "surah": 2
+    },
+    {
+     "ayah": 15,
+     "surah": 3
+    }
+   ],
+   "lift": 3.872593,
+   "p_src_given_tgt": 0.761062,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 86
+  },
+  {
+   "concept_src": "CONCEPT_008",
+   "concept_tgt": "CONCEPT_031",
+   "confidence": 0.416667,
+   "evidence_paths": [
+    {
+     "ayah": 5,
+     "surah": 17
+    },
+    {
+     "ayah": 49,
+     "surah": 17
+    },
+    {
+     "ayah": 51,
+     "surah": 17
+    },
+    {
+     "ayah": 79,
+     "surah": 17
+    },
+    {
+     "ayah": 98,
+     "surah": 17
+    }
+   ],
+   "lift": 3.684179,
+   "p_src_given_tgt": 0.416667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_048",
+   "confidence": 0.6,
+   "evidence_paths": [
+    {
+     "ayah": 23,
+     "surah": 12
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 26,
+     "surah": 12
+    },
+    {
+     "ayah": 30,
+     "surah": 12
+    },
+    {
+     "ayah": 51,
+     "surah": 12
+    }
+   ],
+   "lift": 3.642388,
+   "p_src_given_tgt": 0.6,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_077",
+   "confidence": 0.714286,
+   "evidence_paths": [
+    {
+     "ayah": 103,
+     "surah": 3
+    },
+    {
+     "ayah": 54,
+     "surah": 7
+    },
+    {
+     "ayah": 41,
+     "surah": 18
+    },
+    {
+     "ayah": 73,
+     "surah": 22
+    },
+    {
+     "ayah": 19,
+     "surah": 39
+    }
+   ],
+   "lift": 3.634576,
+   "p_src_given_tgt": 0.714286,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_050",
+   "confidence": 0.586207,
+   "evidence_paths": [
+    {
+     "ayah": 23,
+     "surah": 4
+    },
+    {
+     "ayah": 65,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 5
+    },
+    {
+     "ayah": 125,
+     "surah": 6
+    },
+    {
+     "ayah": 2,
+     "surah": 7
+    }
+   ],
+   "lift": 3.558655,
+   "p_src_given_tgt": 0.586207,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 17
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_019",
+   "confidence": 0.313131,
+   "evidence_paths": [
+    {
+     "ayah": 115,
+     "surah": 2
+    },
+    {
+     "ayah": 233,
+     "surah": 2
+    },
+    {
+     "ayah": 236,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 255,
+     "surah": 2
+    }
+   ],
+   "lift": 3.47348,
+   "p_src_given_tgt": 0.313131,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 31
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_017",
+   "confidence": 0.3125,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 5
+    },
+    {
+     "ayah": 2,
+     "surah": 22
+    },
+    {
+     "ayah": 28,
+     "surah": 22
+    },
+    {
+     "ayah": 33,
+     "surah": 22
+    },
+    {
+     "ayah": 72,
+     "surah": 22
+    }
+   ],
+   "lift": 3.466477,
+   "p_src_given_tgt": 0.3125,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_035",
+   "confidence": 0.568966,
+   "evidence_paths": [
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 177,
+     "surah": 2
+    },
+    {
+     "ayah": 215,
+     "surah": 2
+    },
+    {
+     "ayah": 230,
+     "surah": 2
+    },
+    {
+     "ayah": 232,
+     "surah": 2
+    }
+   ],
+   "lift": 3.453989,
+   "p_src_given_tgt": 0.568966,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 33
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_050",
+   "confidence": 0.310345,
+   "evidence_paths": [
+    {
+     "ayah": 23,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 5
+    },
+    {
+     "ayah": 94,
+     "surah": 6
+    },
+    {
+     "ayah": 31,
+     "surah": 24
+    },
+    {
+     "ayah": 58,
+     "surah": 24
+    }
+   ],
+   "lift": 3.442571,
+   "p_src_given_tgt": 0.310345,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 9
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_029",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 14,
+     "surah": 3
+    },
+    {
+     "ayah": 49,
+     "surah": 3
+    },
+    {
+     "ayah": 61,
+     "surah": 3
+    },
+    {
+     "ayah": 75,
+     "surah": 3
+    },
+    {
+     "ayah": 140,
+     "surah": 3
+    }
+   ],
+   "lift": 3.431384,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_013",
+   "confidence": 0.307692,
+   "evidence_paths": [
+    {
+     "ayah": 158,
+     "surah": 2
+    },
+    {
+     "ayah": 180,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    },
+    {
+     "ayah": 198,
+     "surah": 2
+    },
+    {
+     "ayah": 226,
+     "surah": 2
+    }
+   ],
+   "lift": 3.413147,
+   "p_src_given_tgt": 0.307692,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 60
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_071",
+   "confidence": 0.561404,
+   "evidence_paths": [
+    {
+     "ayah": 218,
+     "surah": 2
+    },
+    {
+     "ayah": 226,
+     "surah": 2
+    },
+    {
+     "ayah": 228,
+     "surah": 2
+    },
+    {
+     "ayah": 234,
+     "surah": 2
+    },
+    {
+     "ayah": 282,
+     "surah": 2
+    }
+   ],
+   "lift": 3.408082,
+   "p_src_given_tgt": 0.561404,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 32
+  },
+  {
+   "concept_src": "CONCEPT_060",
+   "concept_tgt": "CONCEPT_039",
+   "confidence": 0.346154,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 26,
+     "surah": 12
+    },
+    {
+     "ayah": 36,
+     "surah": 12
+    },
+    {
+     "ayah": 62,
+     "surah": 12
+    },
+    {
+     "ayah": 65,
+     "surah": 12
+    }
+   ],
+   "lift": 3.40078,
+   "p_src_given_tgt": 0.346154,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 9
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_072",
+   "confidence": 0.666667,
+   "evidence_paths": [
+    {
+     "ayah": 22,
+     "surah": 2
+    },
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 126,
+     "surah": 2
+    },
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 132,
+     "surah": 2
+    }
+   ],
+   "lift": 3.392271,
+   "p_src_given_tgt": 0.666667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 46
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_064",
+   "confidence": 0.666667,
+   "evidence_paths": [
+    {
+     "ayah": 17,
+     "surah": 27
+    },
+    {
+     "ayah": 18,
+     "surah": 27
+    },
+    {
+     "ayah": 19,
+     "surah": 27
+    },
+    {
+     "ayah": 39,
+     "surah": 27
+    },
+    {
+     "ayah": 19,
+     "surah": 41
+    }
+   ],
+   "lift": 3.392271,
+   "p_src_given_tgt": 0.666667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_008",
+   "concept_tgt": "CONCEPT_017",
+   "confidence": 0.375,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 5
+    },
+    {
+     "ayah": 2,
+     "surah": 22
+    },
+    {
+     "ayah": 5,
+     "surah": 22
+    },
+    {
+     "ayah": 29,
+     "surah": 22
+    },
+    {
+     "ayah": 33,
+     "surah": 22
+    }
+   ],
+   "lift": 3.315761,
+   "p_src_given_tgt": 0.375,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_079",
+   "confidence": 0.545455,
+   "evidence_paths": [
+    {
+     "ayah": 184,
+     "surah": 2
+    },
+    {
+     "ayah": 267,
+     "surah": 2
+    },
+    {
+     "ayah": 286,
+     "surah": 2
+    },
+    {
+     "ayah": 155,
+     "surah": 3
+    },
+    {
+     "ayah": 157,
+     "surah": 7
+    }
+   ],
+   "lift": 3.311262,
+   "p_src_given_tgt": 0.545455,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_053",
+   "concept_tgt": "CONCEPT_088",
+   "confidence": 0.67762,
+   "evidence_paths": [
+    {
+     "ayah": 6,
+     "surah": 2
+    },
+    {
+     "ayah": 7,
+     "surah": 2
+    },
+    {
+     "ayah": 10,
+     "surah": 2
+    },
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 24,
+     "surah": 2
+    }
+   ],
+   "lift": 3.26811,
+   "p_src_given_tgt": 0.67762,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 763
+  },
+  {
+   "concept_src": "CONCEPT_088",
+   "concept_tgt": "CONCEPT_053",
+   "confidence": 0.603162,
+   "evidence_paths": [
+    {
+     "ayah": 6,
+     "surah": 2
+    },
+    {
+     "ayah": 7,
+     "surah": 2
+    },
+    {
+     "ayah": 10,
+     "surah": 2
+    },
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 24,
+     "surah": 2
+    }
+   ],
+   "lift": 3.26811,
+   "p_src_given_tgt": 0.603162,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 763
+  },
+  {
+   "concept_src": "CONCEPT_088",
+   "concept_tgt": "CONCEPT_085",
+   "confidence": 0.591676,
+   "evidence_paths": [
+    {
+     "ayah": 49,
+     "surah": 2
+    },
+    {
+     "ayah": 87,
+     "surah": 2
+    },
+    {
+     "ayah": 93,
+     "surah": 2
+    },
+    {
+     "ayah": 98,
+     "surah": 2
+    },
+    {
+     "ayah": 101,
+     "surah": 2
+    }
+   ],
+   "lift": 3.205875,
+   "p_src_given_tgt": 0.591676,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 526
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_088",
+   "confidence": 0.46714,
+   "evidence_paths": [
+    {
+     "ayah": 49,
+     "surah": 2
+    },
+    {
+     "ayah": 87,
+     "surah": 2
+    },
+    {
+     "ayah": 93,
+     "surah": 2
+    },
+    {
+     "ayah": 98,
+     "surah": 2
+    },
+    {
+     "ayah": 101,
+     "surah": 2
+    }
+   ],
+   "lift": 3.205875,
+   "p_src_given_tgt": 0.46714,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 526
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_079",
+   "confidence": 0.454545,
+   "evidence_paths": [
+    {
+     "ayah": 267,
+     "surah": 2
+    },
+    {
+     "ayah": 286,
+     "surah": 2
+    },
+    {
+     "ayah": 81,
+     "surah": 3
+    },
+    {
+     "ayah": 157,
+     "surah": 7
+    },
+    {
+     "ayah": 94,
+     "surah": 16
+    }
+   ],
+   "lift": 3.11944,
+   "p_src_given_tgt": 0.454545,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_034",
+   "concept_tgt": "CONCEPT_079",
+   "confidence": 0.454545,
+   "evidence_paths": [
+    {
+     "ayah": 36,
+     "surah": 2
+    },
+    {
+     "ayah": 286,
+     "surah": 2
+    },
+    {
+     "ayah": 155,
+     "surah": 3
+    },
+    {
+     "ayah": 180,
+     "surah": 3
+    },
+    {
+     "ayah": 94,
+     "surah": 16
+    }
+   ],
+   "lift": 3.105467,
+   "p_src_given_tgt": 0.454545,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_053",
+   "concept_tgt": "CONCEPT_079",
+   "confidence": 0.636364,
+   "evidence_paths": [
+    {
+     "ayah": 36,
+     "surah": 2
+    },
+    {
+     "ayah": 184,
+     "surah": 2
+    },
+    {
+     "ayah": 249,
+     "surah": 2
+    },
+    {
+     "ayah": 286,
+     "surah": 2
+    },
+    {
+     "ayah": 155,
+     "surah": 3
+    }
+   ],
+   "lift": 3.069134,
+   "p_src_given_tgt": 0.636364,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_002",
+   "confidence": 0.505455,
+   "evidence_paths": [
+    {
+     "ayah": 35,
+     "surah": 2
+    },
+    {
+     "ayah": 49,
+     "surah": 2
+    },
+    {
+     "ayah": 52,
+     "surah": 2
+    },
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 109,
+     "surah": 2
+    }
+   ],
+   "lift": 3.068436,
+   "p_src_given_tgt": 0.505455,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 278
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_101",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 69,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 5
+    },
+    {
+     "ayah": 16,
+     "surah": 18
+    },
+    {
+     "ayah": 17,
+     "surah": 18
+    },
+    {
+     "ayah": 29,
+     "surah": 18
+    }
+   ],
+   "lift": 3.035323,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_049",
+   "confidence": 0.594059,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 51,
+     "surah": 2
+    },
+    {
+     "ayah": 74,
+     "surah": 2
+    },
+    {
+     "ayah": 164,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    }
+   ],
+   "lift": 3.022816,
+   "p_src_given_tgt": 0.594059,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 120
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_091",
+   "confidence": 0.493671,
+   "evidence_paths": [
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 180,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    },
+    {
+     "ayah": 228,
+     "surah": 2
+    },
+    {
+     "ayah": 229,
+     "surah": 2
+    }
+   ],
+   "lift": 2.996902,
+   "p_src_given_tgt": 0.493671,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 39
+  },
+  {
+   "concept_src": "CONCEPT_034",
+   "concept_tgt": "CONCEPT_060",
+   "confidence": 0.433172,
+   "evidence_paths": [
+    {
+     "ayah": 11,
+     "surah": 2
+    },
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 49,
+     "surah": 2
+    },
+    {
+     "ayah": 58,
+     "surah": 2
+    },
+    {
+     "ayah": 62,
+     "surah": 2
+    }
+   ],
+   "lift": 2.959445,
+   "p_src_given_tgt": 0.433172,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 269
+  },
+  {
+   "concept_src": "CONCEPT_060",
+   "concept_tgt": "CONCEPT_034",
+   "confidence": 0.301232,
+   "evidence_paths": [
+    {
+     "ayah": 11,
+     "surah": 2
+    },
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 49,
+     "surah": 2
+    },
+    {
+     "ayah": 58,
+     "surah": 2
+    },
+    {
+     "ayah": 62,
+     "surah": 2
+    }
+   ],
+   "lift": 2.959445,
+   "p_src_given_tgt": 0.301232,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 269
+  },
+  {
+   "concept_src": "CONCEPT_060",
+   "concept_tgt": "CONCEPT_097",
+   "confidence": 0.300885,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 148,
+     "surah": 3
+    },
+    {
+     "ayah": 195,
+     "surah": 3
+    },
+    {
+     "ayah": 13,
+     "surah": 4
+    },
+    {
+     "ayah": 57,
+     "surah": 4
+    }
+   ],
+   "lift": 2.956037,
+   "p_src_given_tgt": 0.300885,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 34
+  },
+  {
+   "concept_src": "CONCEPT_008",
+   "concept_tgt": "CONCEPT_070",
+   "confidence": 0.333333,
+   "evidence_paths": [
+    {
+     "ayah": 60,
+     "surah": 8
+    },
+    {
+     "ayah": 8,
+     "surah": 16
+    },
+    {
+     "ayah": 37,
+     "surah": 17
+    },
+    {
+     "ayah": 14,
+     "surah": 55
+    },
+    {
+     "ayah": 20,
+     "surah": 57
+    }
+   ],
+   "lift": 2.947343,
+   "p_src_given_tgt": 0.333333,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_027",
+   "confidence": 0.576923,
+   "evidence_paths": [
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 132,
+     "surah": 2
+    },
+    {
+     "ayah": 171,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 264,
+     "surah": 2
+    }
+   ],
+   "lift": 2.935619,
+   "p_src_given_tgt": 0.576923,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 30
+  },
+  {
+   "concept_src": "CONCEPT_061",
+   "concept_tgt": "CONCEPT_085",
+   "confidence": 0.572553,
+   "evidence_paths": [
+    {
+     "ayah": 54,
+     "surah": 2
+    },
+    {
+     "ayah": 67,
+     "surah": 2
+    },
+    {
+     "ayah": 87,
+     "surah": 2
+    },
+    {
+     "ayah": 92,
+     "surah": 2
+    },
+    {
+     "ayah": 93,
+     "surah": 2
+    }
+   ],
+   "lift": 2.925585,
+   "p_src_given_tgt": 0.572553,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 509
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_061",
+   "confidence": 0.426298,
+   "evidence_paths": [
+    {
+     "ayah": 54,
+     "surah": 2
+    },
+    {
+     "ayah": 67,
+     "surah": 2
+    },
+    {
+     "ayah": 87,
+     "surah": 2
+    },
+    {
+     "ayah": 92,
+     "surah": 2
+    },
+    {
+     "ayah": 93,
+     "surah": 2
+    }
+   ],
+   "lift": 2.925585,
+   "p_src_given_tgt": 0.426298,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 509
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_055",
+   "confidence": 0.477273,
+   "evidence_paths": [
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 183,
+     "surah": 2
+    },
+    {
+     "ayah": 184,
+     "surah": 2
+    },
+    {
+     "ayah": 185,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    }
+   ],
+   "lift": 2.897354,
+   "p_src_given_tgt": 0.477273,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 21
+  },
+  {
+   "concept_src": "CONCEPT_088",
+   "concept_tgt": "CONCEPT_056",
+   "confidence": 0.525,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    },
+    {
+     "ayah": 96,
+     "surah": 2
+    },
+    {
+     "ayah": 105,
+     "surah": 2
+    },
+    {
+     "ayah": 109,
+     "surah": 2
+    }
+   ],
+   "lift": 2.844605,
+   "p_src_given_tgt": 0.525,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 42
+  },
+  {
+   "concept_src": "CONCEPT_084",
+   "concept_tgt": "CONCEPT_079",
+   "confidence": 0.545455,
+   "evidence_paths": [
+    {
+     "ayah": 209,
+     "surah": 2
+    },
+    {
+     "ayah": 267,
+     "surah": 2
+    },
+    {
+     "ayah": 286,
+     "surah": 2
+    },
+    {
+     "ayah": 81,
+     "surah": 3
+    },
+    {
+     "ayah": 180,
+     "surah": 3
+    }
+   ],
+   "lift": 2.832186,
+   "p_src_given_tgt": 0.545455,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_060",
+   "confidence": 0.549114,
+   "evidence_paths": [
+    {
+     "ayah": 11,
+     "surah": 2
+    },
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 58,
+     "surah": 2
+    },
+    {
+     "ayah": 62,
+     "surah": 2
+    },
+    {
+     "ayah": 81,
+     "surah": 2
+    }
+   ],
+   "lift": 2.794117,
+   "p_src_given_tgt": 0.549114,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 341
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_042",
+   "confidence": 0.540541,
+   "evidence_paths": [
+    {
+     "ayah": 17,
+     "surah": 2
+    },
+    {
+     "ayah": 24,
+     "surah": 2
+    },
+    {
+     "ayah": 10,
+     "surah": 3
+    },
+    {
+     "ayah": 64,
+     "surah": 5
+    },
+    {
+     "ayah": 121,
+     "surah": 9
+    }
+   ],
+   "lift": 2.75049,
+   "p_src_given_tgt": 0.540541,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 20
+  },
+  {
+   "concept_src": "CONCEPT_008",
+   "concept_tgt": "CONCEPT_083",
+   "confidence": 0.304348,
+   "evidence_paths": [
+    {
+     "ayah": 3,
+     "surah": 4
+    },
+    {
+     "ayah": 12,
+     "surah": 5
+    },
+    {
+     "ayah": 106,
+     "surah": 5
+    },
+    {
+     "ayah": 36,
+     "surah": 9
+    },
+    {
+     "ayah": 46,
+     "surah": 34
+    }
+   ],
+   "lift": 2.691052,
+   "p_src_given_tgt": 0.304348,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 14
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_097",
+   "confidence": 0.442478,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 125,
+     "surah": 2
+    },
+    {
+     "ayah": 222,
+     "surah": 2
+    },
+    {
+     "ayah": 232,
+     "surah": 2
+    },
+    {
+     "ayah": 266,
+     "surah": 2
+    }
+   ],
+   "lift": 2.686127,
+   "p_src_given_tgt": 0.442478,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 50
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_017",
+   "confidence": 0.4375,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 5
+    },
+    {
+     "ayah": 2,
+     "surah": 22
+    },
+    {
+     "ayah": 9,
+     "surah": 22
+    },
+    {
+     "ayah": 27,
+     "surah": 22
+    },
+    {
+     "ayah": 36,
+     "surah": 22
+    }
+   ],
+   "lift": 2.655908,
+   "p_src_given_tgt": 0.4375,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_075",
+   "confidence": 0.4375,
+   "evidence_paths": [
+    {
+     "ayah": 233,
+     "surah": 2
+    },
+    {
+     "ayah": 235,
+     "surah": 2
+    },
+    {
+     "ayah": 159,
+     "surah": 3
+    },
+    {
+     "ayah": 115,
+     "surah": 20
+    },
+    {
+     "ayah": 17,
+     "surah": 31
+    }
+   ],
+   "lift": 2.655908,
+   "p_src_given_tgt": 0.4375,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_071",
+   "confidence": 0.385965,
+   "evidence_paths": [
+    {
+     "ayah": 218,
+     "surah": 2
+    },
+    {
+     "ayah": 95,
+     "surah": 4
+    },
+    {
+     "ayah": 141,
+     "surah": 4
+    },
+    {
+     "ayah": 35,
+     "surah": 5
+    },
+    {
+     "ayah": 54,
+     "surah": 5
+    }
+   ],
+   "lift": 2.648787,
+   "p_src_given_tgt": 0.385965,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 22
+  },
+  {
+   "concept_src": "CONCEPT_034",
+   "concept_tgt": "CONCEPT_090",
+   "confidence": 0.380952,
+   "evidence_paths": [
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    },
+    {
+     "ayah": 228,
+     "surah": 2
+    },
+    {
+     "ayah": 235,
+     "surah": 2
+    },
+    {
+     "ayah": 237,
+     "surah": 2
+    }
+   ],
+   "lift": 2.602677,
+   "p_src_given_tgt": 0.380952,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 32
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_089",
+   "confidence": 0.428571,
+   "evidence_paths": [
+    {
+     "ayah": 219,
+     "surah": 2
+    },
+    {
+     "ayah": 266,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 5
+    },
+    {
+     "ayah": 91,
+     "surah": 5
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    }
+   ],
+   "lift": 2.601706,
+   "p_src_given_tgt": 0.428571,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 9
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_029",
+   "confidence": 0.428571,
+   "evidence_paths": [
+    {
+     "ayah": 14,
+     "surah": 3
+    },
+    {
+     "ayah": 61,
+     "surah": 3
+    },
+    {
+     "ayah": 75,
+     "surah": 3
+    },
+    {
+     "ayah": 159,
+     "surah": 3
+    },
+    {
+     "ayah": 20,
+     "surah": 4
+    }
+   ],
+   "lift": 2.601706,
+   "p_src_given_tgt": 0.428571,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_084",
+   "concept_tgt": "CONCEPT_069",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 20,
+     "surah": 2
+    },
+    {
+     "ayah": 55,
+     "surah": 2
+    },
+    {
+     "ayah": 153,
+     "surah": 4
+    },
+    {
+     "ayah": 24,
+     "surah": 30
+    }
+   ],
+   "lift": 2.59617,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 8
+  },
+  {
+   "concept_src": "CONCEPT_084",
+   "concept_tgt": "CONCEPT_029",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 61,
+     "surah": 3
+    },
+    {
+     "ayah": 75,
+     "surah": 3
+    },
+    {
+     "ayah": 140,
+     "surah": 3
+    },
+    {
+     "ayah": 154,
+     "surah": 3
+    },
+    {
+     "ayah": 172,
+     "surah": 3
+    }
+   ],
+   "lift": 2.59617,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_084",
+   "concept_tgt": "CONCEPT_095",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 67,
+     "surah": 11
+    },
+    {
+     "ayah": 94,
+     "surah": 11
+    },
+    {
+     "ayah": 73,
+     "surah": 15
+    },
+    {
+     "ayah": 83,
+     "surah": 15
+    },
+    {
+     "ayah": 41,
+     "surah": 23
+    }
+   ],
+   "lift": 2.59617,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_084",
+   "concept_tgt": "CONCEPT_093",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 28,
+     "surah": 9
+    },
+    {
+     "ayah": 37,
+     "surah": 9
+    },
+    {
+     "ayah": 49,
+     "surah": 12
+    },
+    {
+     "ayah": 14,
+     "surah": 29
+    }
+   ],
+   "lift": 2.59617,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_003",
+   "concept_tgt": "CONCEPT_010",
+   "confidence": 0.683824,
+   "evidence_paths": [
+    {
+     "ayah": 120,
+     "surah": 2
+    },
+    {
+     "ayah": 144,
+     "surah": 2
+    },
+    {
+     "ayah": 207,
+     "surah": 2
+    },
+    {
+     "ayah": 218,
+     "surah": 2
+    },
+    {
+     "ayah": 232,
+     "surah": 2
+    }
+   ],
+   "lift": 2.562658,
+   "p_src_given_tgt": 0.683824,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 93
+  },
+  {
+   "concept_src": "CONCEPT_061",
+   "concept_tgt": "CONCEPT_101",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 49,
+     "surah": 3
+    },
+    {
+     "ayah": 69,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 5
+    },
+    {
+     "ayah": 110,
+     "surah": 5
+    },
+    {
+     "ayah": 10,
+     "surah": 18
+    }
+   ],
+   "lift": 2.554858,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_053",
+   "concept_tgt": "CONCEPT_074",
+   "confidence": 0.529412,
+   "evidence_paths": [
+    {
+     "ayah": 36,
+     "surah": 2
+    },
+    {
+     "ayah": 41,
+     "surah": 2
+    },
+    {
+     "ayah": 86,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    },
+    {
+     "ayah": 96,
+     "surah": 2
+    }
+   ],
+   "lift": 2.553313,
+   "p_src_given_tgt": 0.529412,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 18
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_045",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 266,
+     "surah": 2
+    },
+    {
+     "ayah": 99,
+     "surah": 6
+    },
+    {
+     "ayah": 141,
+     "surah": 6
+    },
+    {
+     "ayah": 4,
+     "surah": 13
+    },
+    {
+     "ayah": 11,
+     "surah": 16
+    }
+   ],
+   "lift": 2.544204,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 16
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_001",
+   "confidence": 0.417249,
+   "evidence_paths": [
+    {
+     "ayah": 10,
+     "surah": 2
+    },
+    {
+     "ayah": 35,
+     "surah": 2
+    },
+    {
+     "ayah": 52,
+     "surah": 2
+    },
+    {
+     "ayah": 96,
+     "surah": 2
+    },
+    {
+     "ayah": 109,
+     "surah": 2
+    }
+   ],
+   "lift": 2.532974,
+   "p_src_given_tgt": 0.417249,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 179
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_031",
+   "confidence": 0.416667,
+   "evidence_paths": [
+    {
+     "ayah": 26,
+     "surah": 17
+    },
+    {
+     "ayah": 51,
+     "surah": 17
+    },
+    {
+     "ayah": 69,
+     "surah": 17
+    },
+    {
+     "ayah": 78,
+     "surah": 17
+    },
+    {
+     "ayah": 97,
+     "surah": 17
+    }
+   ],
+   "lift": 2.529436,
+   "p_src_given_tgt": 0.416667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_003",
+   "concept_tgt": "CONCEPT_101",
+   "confidence": 0.666667,
+   "evidence_paths": [
+    {
+     "ayah": 49,
+     "surah": 3
+    },
+    {
+     "ayah": 69,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 5
+    },
+    {
+     "ayah": 110,
+     "surah": 5
+    },
+    {
+     "ayah": 10,
+     "surah": 18
+    }
+   ],
+   "lift": 2.498362,
+   "p_src_given_tgt": 0.666667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 8
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_013",
+   "confidence": 0.405128,
+   "evidence_paths": [
+    {
+     "ayah": 102,
+     "surah": 2
+    },
+    {
+     "ayah": 158,
+     "surah": 2
+    },
+    {
+     "ayah": 180,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    },
+    {
+     "ayah": 198,
+     "surah": 2
+    }
+   ],
+   "lift": 2.45939,
+   "p_src_given_tgt": 0.405128,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 79
+  },
+  {
+   "concept_src": "CONCEPT_061",
+   "concept_tgt": "CONCEPT_088",
+   "confidence": 0.476021,
+   "evidence_paths": [
+    {
+     "ayah": 87,
+     "surah": 2
+    },
+    {
+     "ayah": 89,
+     "surah": 2
+    },
+    {
+     "ayah": 93,
+     "surah": 2
+    },
+    {
+     "ayah": 98,
+     "surah": 2
+    },
+    {
+     "ayah": 101,
+     "surah": 2
+    }
+   ],
+   "lift": 2.432333,
+   "p_src_given_tgt": 0.476021,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 536
+  },
+  {
+   "concept_src": "CONCEPT_088",
+   "concept_tgt": "CONCEPT_061",
+   "confidence": 0.448911,
+   "evidence_paths": [
+    {
+     "ayah": 87,
+     "surah": 2
+    },
+    {
+     "ayah": 89,
+     "surah": 2
+    },
+    {
+     "ayah": 93,
+     "surah": 2
+    },
+    {
+     "ayah": 98,
+     "surah": 2
+    },
+    {
+     "ayah": 101,
+     "surah": 2
+    }
+   ],
+   "lift": 2.432333,
+   "p_src_given_tgt": 0.448911,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 536
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_036",
+   "confidence": 0.477273,
+   "evidence_paths": [
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 132,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 264,
+     "surah": 2
+    },
+    {
+     "ayah": 33,
+     "surah": 3
+    }
+   ],
+   "lift": 2.428558,
+   "p_src_given_tgt": 0.477273,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 21
+  },
+  {
+   "concept_src": "CONCEPT_034",
+   "concept_tgt": "CONCEPT_097",
+   "confidence": 0.353982,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 136,
+     "surah": 3
+    },
+    {
+     "ayah": 195,
+     "surah": 3
+    },
+    {
+     "ayah": 13,
+     "surah": 4
+    },
+    {
+     "ayah": 57,
+     "surah": 4
+    }
+   ],
+   "lift": 2.418417,
+   "p_src_given_tgt": 0.353982,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 40
+  },
+  {
+   "concept_src": "CONCEPT_053",
+   "concept_tgt": "CONCEPT_056",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    },
+    {
+     "ayah": 96,
+     "surah": 2
+    },
+    {
+     "ayah": 105,
+     "surah": 2
+    },
+    {
+     "ayah": 109,
+     "surah": 2
+    }
+   ],
+   "lift": 2.411462,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 40
+  },
+  {
+   "concept_src": "CONCEPT_053",
+   "concept_tgt": "CONCEPT_029",
+   "confidence": 0.5,
+   "evidence_paths": [
+    {
+     "ayah": 7,
+     "surah": 3
+    },
+    {
+     "ayah": 14,
+     "surah": 3
+    },
+    {
+     "ayah": 41,
+     "surah": 3
+    },
+    {
+     "ayah": 140,
+     "surah": 3
+    },
+    {
+     "ayah": 141,
+     "surah": 3
+    }
+   ],
+   "lift": 2.411462,
+   "p_src_given_tgt": 0.5,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_034",
+   "concept_tgt": "CONCEPT_074",
+   "confidence": 0.352941,
+   "evidence_paths": [
+    {
+     "ayah": 36,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    },
+    {
+     "ayah": 175,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 207,
+     "surah": 2
+    }
+   ],
+   "lift": 2.411304,
+   "p_src_given_tgt": 0.352941,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 12
+  },
+  {
+   "concept_src": "CONCEPT_003",
+   "concept_tgt": "CONCEPT_090",
+   "confidence": 0.642857,
+   "evidence_paths": [
+    {
+     "ayah": 109,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 185,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    }
+   ],
+   "lift": 2.409135,
+   "p_src_given_tgt": 0.642857,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 54
+  },
+  {
+   "concept_src": "CONCEPT_088",
+   "concept_tgt": "CONCEPT_074",
+   "confidence": 0.441176,
+   "evidence_paths": [
+    {
+     "ayah": 41,
+     "surah": 2
+    },
+    {
+     "ayah": 86,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    },
+    {
+     "ayah": 96,
+     "surah": 2
+    },
+    {
+     "ayah": 102,
+     "surah": 2
+    }
+   ],
+   "lift": 2.390424,
+   "p_src_given_tgt": 0.441176,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 15
+  },
+  {
+   "concept_src": "CONCEPT_081",
+   "concept_tgt": "CONCEPT_029",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 7,
+     "surah": 3
+    },
+    {
+     "ayah": 14,
+     "surah": 3
+    },
+    {
+     "ayah": 41,
+     "surah": 3
+    },
+    {
+     "ayah": 49,
+     "surah": 3
+    },
+    {
+     "ayah": 61,
+     "surah": 3
+    }
+   ],
+   "lift": 2.389738,
+   "p_src_given_tgt": 1.0,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 14
+  },
+  {
+   "concept_src": "CONCEPT_081",
+   "concept_tgt": "CONCEPT_068",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 4,
+     "surah": 33
+    },
+    {
+     "ayah": 18,
+     "surah": 33
+    },
+    {
+     "ayah": 19,
+     "surah": 33
+    },
+    {
+     "ayah": 23,
+     "surah": 33
+    },
+    {
+     "ayah": 37,
+     "surah": 33
+    }
+   ],
+   "lift": 2.389738,
+   "p_src_given_tgt": 1.0,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_003",
+   "concept_tgt": "CONCEPT_034",
+   "confidence": 0.636058,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 1
+    },
+    {
+     "ayah": 3,
+     "surah": 1
+    },
+    {
+     "ayah": 26,
+     "surah": 2
+    },
+    {
+     "ayah": 37,
+     "surah": 2
+    },
+    {
+     "ayah": 47,
+     "surah": 2
+    }
+   ],
+   "lift": 2.383656,
+   "p_src_given_tgt": 0.636058,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 568
+  },
+  {
+   "concept_src": "CONCEPT_034",
+   "concept_tgt": "CONCEPT_003",
+   "confidence": 0.348894,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 1
+    },
+    {
+     "ayah": 3,
+     "surah": 1
+    },
+    {
+     "ayah": 26,
+     "surah": 2
+    },
+    {
+     "ayah": 37,
+     "surah": 2
+    },
+    {
+     "ayah": 47,
+     "surah": 2
+    }
+   ],
+   "lift": 2.383656,
+   "p_src_given_tgt": 0.348894,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 568
+  },
+  {
+   "concept_src": "CONCEPT_061",
+   "concept_tgt": "CONCEPT_034",
+   "confidence": 0.459127,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 1
+    },
+    {
+     "ayah": 3,
+     "surah": 1
+    },
+    {
+     "ayah": 37,
+     "surah": 2
+    },
+    {
+     "ayah": 54,
+     "surah": 2
+    },
+    {
+     "ayah": 64,
+     "surah": 2
+    }
+   ],
+   "lift": 2.346006,
+   "p_src_given_tgt": 0.459127,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 410
+  },
+  {
+   "concept_src": "CONCEPT_034",
+   "concept_tgt": "CONCEPT_061",
+   "confidence": 0.343384,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 1
+    },
+    {
+     "ayah": 3,
+     "surah": 1
+    },
+    {
+     "ayah": 37,
+     "surah": 2
+    },
+    {
+     "ayah": 54,
+     "surah": 2
+    },
+    {
+     "ayah": 64,
+     "surah": 2
+    }
+   ],
+   "lift": 2.346006,
+   "p_src_given_tgt": 0.343384,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 410
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_074",
+   "confidence": 0.382353,
+   "evidence_paths": [
+    {
+     "ayah": 96,
+     "surah": 2
+    },
+    {
+     "ayah": 102,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 283,
+     "surah": 2
+    },
+    {
+     "ayah": 75,
+     "surah": 3
+    }
+   ],
+   "lift": 2.32113,
+   "p_src_given_tgt": 0.382353,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 13
+  },
+  {
+   "concept_src": "CONCEPT_061",
+   "concept_tgt": "CONCEPT_050",
+   "confidence": 0.448276,
+   "evidence_paths": [
+    {
+     "ayah": 23,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 5
+    },
+    {
+     "ayah": 94,
+     "surah": 6
+    },
+    {
+     "ayah": 91,
+     "surah": 9
+    },
+    {
+     "ayah": 78,
+     "surah": 22
+    }
+   ],
+   "lift": 2.290562,
+   "p_src_given_tgt": 0.448276,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 13
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_009",
+   "confidence": 0.377049,
+   "evidence_paths": [
+    {
+     "ayah": 2,
+     "surah": 4
+    },
+    {
+     "ayah": 3,
+     "surah": 4
+    },
+    {
+     "ayah": 24,
+     "surah": 4
+    },
+    {
+     "ayah": 25,
+     "surah": 4
+    },
+    {
+     "ayah": 27,
+     "surah": 4
+    }
+   ],
+   "lift": 2.288932,
+   "p_src_given_tgt": 0.377049,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 23
+  },
+  {
+   "concept_src": "CONCEPT_088",
+   "concept_tgt": "CONCEPT_093",
+   "confidence": 0.416667,
+   "evidence_paths": [
+    {
+     "ayah": 37,
+     "surah": 9
+    },
+    {
+     "ayah": 120,
+     "surah": 9
+    },
+    {
+     "ayah": 14,
+     "surah": 29
+    },
+    {
+     "ayah": 14,
+     "surah": 34
+    },
+    {
+     "ayah": 25,
+     "surah": 48
+    }
+   ],
+   "lift": 2.257623,
+   "p_src_given_tgt": 0.416667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_084",
+   "concept_tgt": "CONCEPT_085",
+   "confidence": 0.433071,
+   "evidence_paths": [
+    {
+     "ayah": 48,
+     "surah": 2
+    },
+    {
+     "ayah": 51,
+     "surah": 2
+    },
+    {
+     "ayah": 54,
+     "surah": 2
+    },
+    {
+     "ayah": 55,
+     "surah": 2
+    },
+    {
+     "ayah": 63,
+     "surah": 2
+    }
+   ],
+   "lift": 2.248651,
+   "p_src_given_tgt": 0.433071,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 385
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_084",
+   "confidence": 0.32766,
+   "evidence_paths": [
+    {
+     "ayah": 48,
+     "surah": 2
+    },
+    {
+     "ayah": 51,
+     "surah": 2
+    },
+    {
+     "ayah": 54,
+     "surah": 2
+    },
+    {
+     "ayah": 55,
+     "surah": 2
+    },
+    {
+     "ayah": 63,
+     "surah": 2
+    }
+   ],
+   "lift": 2.248651,
+   "p_src_given_tgt": 0.32766,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 385
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_033",
+   "confidence": 0.369231,
+   "evidence_paths": [
+    {
+     "ayah": 196,
+     "surah": 2
+    },
+    {
+     "ayah": 261,
+     "surah": 2
+    },
+    {
+     "ayah": 13,
+     "surah": 3
+    },
+    {
+     "ayah": 25,
+     "surah": 4
+    },
+    {
+     "ayah": 43,
+     "surah": 4
+    }
+   ],
+   "lift": 2.24147,
+   "p_src_given_tgt": 0.369231,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 24
+  },
+  {
+   "concept_src": "CONCEPT_061",
+   "concept_tgt": "CONCEPT_075",
+   "confidence": 0.4375,
+   "evidence_paths": [
+    {
+     "ayah": 159,
+     "surah": 3
+    },
+    {
+     "ayah": 186,
+     "surah": 3
+    },
+    {
+     "ayah": 17,
+     "surah": 31
+    },
+    {
+     "ayah": 38,
+     "surah": 42
+    },
+    {
+     "ayah": 43,
+     "surah": 42
+    }
+   ],
+   "lift": 2.2355,
+   "p_src_given_tgt": 0.4375,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_027",
+   "confidence": 0.365385,
+   "evidence_paths": [
+    {
+     "ayah": 144,
+     "surah": 2
+    },
+    {
+     "ayah": 149,
+     "surah": 2
+    },
+    {
+     "ayah": 150,
+     "surah": 2
+    },
+    {
+     "ayah": 267,
+     "surah": 2
+    },
+    {
+     "ayah": 273,
+     "surah": 2
+    }
+   ],
+   "lift": 2.218121,
+   "p_src_given_tgt": 0.365385,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 19
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_078",
+   "confidence": 0.364486,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 35,
+     "surah": 2
+    },
+    {
+     "ayah": 102,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    },
+    {
+     "ayah": 222,
+     "surah": 2
+    }
+   ],
+   "lift": 2.212666,
+   "p_src_given_tgt": 0.364486,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 39
+  },
+  {
+   "concept_src": "CONCEPT_088",
+   "concept_tgt": "CONCEPT_040",
+   "confidence": 0.407407,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 120,
+     "surah": 3
+    },
+    {
+     "ayah": 18,
+     "surah": 4
+    },
+    {
+     "ayah": 37,
+     "surah": 4
+    },
+    {
+     "ayah": 69,
+     "surah": 4
+    }
+   ],
+   "lift": 2.207453,
+   "p_src_given_tgt": 0.407407,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 22
+  },
+  {
+   "concept_src": "CONCEPT_061",
+   "concept_tgt": "CONCEPT_091",
+   "confidence": 0.43038,
+   "evidence_paths": [
+    {
+     "ayah": 89,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 228,
+     "surah": 2
+    },
+    {
+     "ayah": 263,
+     "surah": 2
+    },
+    {
+     "ayah": 268,
+     "surah": 2
+    }
+   ],
+   "lift": 2.199118,
+   "p_src_given_tgt": 0.43038,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 34
+  },
+  {
+   "concept_src": "CONCEPT_061",
+   "concept_tgt": "CONCEPT_029",
+   "confidence": 0.428571,
+   "evidence_paths": [
+    {
+     "ayah": 7,
+     "surah": 3
+    },
+    {
+     "ayah": 49,
+     "surah": 3
+    },
+    {
+     "ayah": 61,
+     "surah": 3
+    },
+    {
+     "ayah": 154,
+     "surah": 3
+    },
+    {
+     "ayah": 159,
+     "surah": 3
+    }
+   ],
+   "lift": 2.189878,
+   "p_src_given_tgt": 0.428571,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_005",
+   "confidence": 0.42963,
+   "evidence_paths": [
+    {
+     "ayah": 22,
+     "surah": 2
+    },
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 118,
+     "surah": 2
+    },
+    {
+     "ayah": 126,
+     "surah": 2
+    },
+    {
+     "ayah": 155,
+     "surah": 2
+    }
+   ],
+   "lift": 2.18613,
+   "p_src_given_tgt": 0.42963,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 58
+  },
+  {
+   "concept_src": "CONCEPT_084",
+   "concept_tgt": "CONCEPT_022",
+   "confidence": 0.41958,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 27,
+     "surah": 2
+    },
+    {
+     "ayah": 63,
+     "surah": 2
+    },
+    {
+     "ayah": 74,
+     "surah": 2
+    },
+    {
+     "ayah": 75,
+     "surah": 2
+    }
+   ],
+   "lift": 2.178604,
+   "p_src_given_tgt": 0.41958,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 60
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_073",
+   "confidence": 0.354167,
+   "evidence_paths": [
+    {
+     "ayah": 102,
+     "surah": 2
+    },
+    {
+     "ayah": 136,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 228,
+     "surah": 2
+    },
+    {
+     "ayah": 283,
+     "surah": 2
+    }
+   ],
+   "lift": 2.150021,
+   "p_src_given_tgt": 0.354167,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 17
+  },
+  {
+   "concept_src": "CONCEPT_088",
+   "concept_tgt": "CONCEPT_073",
+   "confidence": 0.395833,
+   "evidence_paths": [
+    {
+     "ayah": 41,
+     "surah": 2
+    },
+    {
+     "ayah": 86,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    },
+    {
+     "ayah": 102,
+     "surah": 2
+    },
+    {
+     "ayah": 174,
+     "surah": 2
+    }
+   ],
+   "lift": 2.144742,
+   "p_src_given_tgt": 0.395833,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 19
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_069",
+   "confidence": 0.3125,
+   "evidence_paths": [
+    {
+     "ayah": 55,
+     "surah": 2
+    },
+    {
+     "ayah": 153,
+     "surah": 4
+    },
+    {
+     "ayah": 13,
+     "surah": 13
+    },
+    {
+     "ayah": 17,
+     "surah": 41
+    },
+    {
+     "ayah": 44,
+     "surah": 51
+    }
+   ],
+   "lift": 2.144615,
+   "p_src_given_tgt": 0.3125,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_085",
+   "confidence": 0.353206,
+   "evidence_paths": [
+    {
+     "ayah": 49,
+     "surah": 2
+    },
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 108,
+     "surah": 2
+    },
+    {
+     "ayah": 125,
+     "surah": 2
+    },
+    {
+     "ayah": 154,
+     "surah": 2
+    }
+   ],
+   "lift": 2.144188,
+   "p_src_given_tgt": 0.353206,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 314
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_004",
+   "confidence": 0.312438,
+   "evidence_paths": [
+    {
+     "ayah": 49,
+     "surah": 2
+    },
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 108,
+     "surah": 2
+    },
+    {
+     "ayah": 125,
+     "surah": 2
+    },
+    {
+     "ayah": 154,
+     "surah": 2
+    }
+   ],
+   "lift": 2.144188,
+   "p_src_given_tgt": 0.312438,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 314
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_010",
+   "confidence": 0.352941,
+   "evidence_paths": [
+    {
+     "ayah": 144,
+     "surah": 2
+    },
+    {
+     "ayah": 218,
+     "surah": 2
+    },
+    {
+     "ayah": 232,
+     "surah": 2
+    },
+    {
+     "ayah": 233,
+     "surah": 2
+    },
+    {
+     "ayah": 282,
+     "surah": 2
+    }
+   ],
+   "lift": 2.142581,
+   "p_src_given_tgt": 0.352941,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 48
+  },
+  {
+   "concept_src": "CONCEPT_034",
+   "concept_tgt": "CONCEPT_056",
+   "confidence": 0.3125,
+   "evidence_paths": [
+    {
+     "ayah": 90,
+     "surah": 2
+    },
+    {
+     "ayah": 105,
+     "surah": 2
+    },
+    {
+     "ayah": 235,
+     "surah": 2
+    },
+    {
+     "ayah": 243,
+     "surah": 2
+    },
+    {
+     "ayah": 27,
+     "surah": 4
+    }
+   ],
+   "lift": 2.135008,
+   "p_src_given_tgt": 0.3125,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 25
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_099",
+   "confidence": 0.304348,
+   "evidence_paths": [
+    {
+     "ayah": 253,
+     "surah": 2
+    },
+    {
+     "ayah": 34,
+     "surah": 4
+    },
+    {
+     "ayah": 95,
+     "surah": 4
+    },
+    {
+     "ayah": 20,
+     "surah": 9
+    },
+    {
+     "ayah": 76,
+     "surah": 12
+    }
+   ],
+   "lift": 2.088668,
+   "p_src_given_tgt": 0.304348,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_003",
+   "concept_tgt": "CONCEPT_088",
+   "confidence": 0.555062,
+   "evidence_paths": [
+    {
+     "ayah": 6,
+     "surah": 2
+    },
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 24,
+     "surah": 2
+    },
+    {
+     "ayah": 26,
+     "surah": 2
+    },
+    {
+     "ayah": 28,
+     "surah": 2
+    }
+   ],
+   "lift": 2.080119,
+   "p_src_given_tgt": 0.555062,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 625
+  },
+  {
+   "concept_src": "CONCEPT_088",
+   "concept_tgt": "CONCEPT_003",
+   "confidence": 0.383907,
+   "evidence_paths": [
+    {
+     "ayah": 6,
+     "surah": 2
+    },
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 24,
+     "surah": 2
+    },
+    {
+     "ayah": 26,
+     "surah": 2
+    },
+    {
+     "ayah": 28,
+     "surah": 2
+    }
+   ],
+   "lift": 2.080119,
+   "p_src_given_tgt": 0.383907,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 625
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_047",
+   "confidence": 0.340426,
+   "evidence_paths": [
+    {
+     "ayah": 43,
+     "surah": 2
+    },
+    {
+     "ayah": 49,
+     "surah": 2
+    },
+    {
+     "ayah": 125,
+     "surah": 2
+    },
+    {
+     "ayah": 273,
+     "surah": 2
+    },
+    {
+     "ayah": 14,
+     "surah": 3
+    }
+   ],
+   "lift": 2.066603,
+   "p_src_given_tgt": 0.340426,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 16
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_067",
+   "confidence": 0.339623,
+   "evidence_paths": [
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 177,
+     "surah": 2
+    },
+    {
+     "ayah": 215,
+     "surah": 2
+    },
+    {
+     "ayah": 2,
+     "surah": 4
+    },
+    {
+     "ayah": 3,
+     "surah": 4
+    }
+   ],
+   "lift": 2.061729,
+   "p_src_given_tgt": 0.339623,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 18
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_098",
+   "confidence": 0.3,
+   "evidence_paths": [
+    {
+     "ayah": 286,
+     "surah": 2
+    },
+    {
+     "ayah": 13,
+     "surah": 3
+    },
+    {
+     "ayah": 88,
+     "surah": 4
+    },
+    {
+     "ayah": 138,
+     "surah": 7
+    },
+    {
+     "ayah": 90,
+     "surah": 10
+    }
+   ],
+   "lift": 2.05883,
+   "p_src_given_tgt": 0.3,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_003",
+   "concept_tgt": "CONCEPT_055",
+   "confidence": 0.545455,
+   "evidence_paths": [
+    {
+     "ayah": 143,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 185,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    }
+   ],
+   "lift": 2.044114,
+   "p_src_given_tgt": 0.545455,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 24
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_066",
+   "confidence": 0.333333,
+   "evidence_paths": [
+    {
+     "ayah": 43,
+     "surah": 14
+    },
+    {
+     "ayah": 36,
+     "surah": 22
+    },
+    {
+     "ayah": 41,
+     "surah": 24
+    },
+    {
+     "ayah": 25,
+     "surah": 48
+    },
+    {
+     "ayah": 4,
+     "surah": 61
+    }
+   ],
+   "lift": 2.023549,
+   "p_src_given_tgt": 0.333333,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_088",
+   "concept_tgt": "CONCEPT_044",
+   "confidence": 0.372881,
+   "evidence_paths": [
+    {
+     "ayah": 279,
+     "surah": 2
+    },
+    {
+     "ayah": 167,
+     "surah": 3
+    },
+    {
+     "ayah": 33,
+     "surah": 5
+    },
+    {
+     "ayah": 41,
+     "surah": 5
+    },
+    {
+     "ayah": 64,
+     "surah": 5
+    }
+   ],
+   "lift": 2.020381,
+   "p_src_given_tgt": 0.372881,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 1.0,
+   "support_count": 22
+  },
+  {
+   "concept_src": "CONCEPT_053",
+   "concept_tgt": "CONCEPT_031",
+   "confidence": 0.416667,
+   "evidence_paths": [
+    {
+     "ayah": 27,
+     "surah": 17
+    },
+    {
+     "ayah": 62,
+     "surah": 17
+    },
+    {
+     "ayah": 69,
+     "surah": 17
+    },
+    {
+     "ayah": 97,
+     "surah": 17
+    },
+    {
+     "ayah": 98,
+     "surah": 17
+    }
+   ],
+   "lift": 2.009552,
+   "p_src_given_tgt": 0.416667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_053",
+   "concept_tgt": "CONCEPT_093",
+   "confidence": 0.416667,
+   "evidence_paths": [
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 37,
+     "surah": 9
+    },
+    {
+     "ayah": 120,
+     "surah": 9
+    },
+    {
+     "ayah": 14,
+     "surah": 34
+    },
+    {
+     "ayah": 25,
+     "surah": 48
+    }
+   ],
+   "lift": 2.009552,
+   "p_src_given_tgt": 0.416667,
+   "relation_type": "DEPENDS_ON",
+   "stability_score": 0.5,
+   "support_count": 5
+  }
+ ],
+ "hierarchical_chains": [
+  [
+   "CONCEPT_029",
+   "CONCEPT_081",
+   "CONCEPT_007"
+  ],
+  [
+   "CONCEPT_068",
+   "CONCEPT_081",
+   "CONCEPT_007"
+  ],
+  [
+   "CONCEPT_090",
+   "CONCEPT_002",
+   "CONCEPT_007"
+  ],
+  [
+   "CONCEPT_091",
+   "CONCEPT_002",
+   "CONCEPT_007"
+  ]
+ ],
+ "method": "phase4-propositions-1.0",
+ "requires": [
+  {
+   "concept_src": "CONCEPT_081",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 1
+    },
+    {
+     "ayah": 2,
+     "surah": 1
+    },
+    {
+     "ayah": 4,
+     "surah": 1
+    },
+    {
+     "ayah": 6,
+     "surah": 2
+    },
+    {
+     "ayah": 7,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 2553
+  },
+  {
+   "concept_src": "CONCEPT_090",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 52,
+     "surah": 2
+    },
+    {
+     "ayah": 109,
+     "surah": 2
+    },
+    {
+     "ayah": 168,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 183,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 84
+  },
+  {
+   "concept_src": "CONCEPT_054",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 18,
+     "surah": 2
+    },
+    {
+     "ayah": 44,
+     "surah": 2
+    },
+    {
+     "ayah": 73,
+     "surah": 2
+    },
+    {
+     "ayah": 75,
+     "surah": 2
+    },
+    {
+     "ayah": 76,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 81
+  },
+  {
+   "concept_src": "CONCEPT_056",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    },
+    {
+     "ayah": 96,
+     "surah": 2
+    },
+    {
+     "ayah": 105,
+     "surah": 2
+    },
+    {
+     "ayah": 109,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 80
+  },
+  {
+   "concept_src": "CONCEPT_071",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 16,
+     "surah": 2
+    },
+    {
+     "ayah": 218,
+     "surah": 2
+    },
+    {
+     "ayah": 226,
+     "surah": 2
+    },
+    {
+     "ayah": 228,
+     "surah": 2
+    },
+    {
+     "ayah": 234,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 57
+  },
+  {
+   "concept_src": "CONCEPT_027",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 132,
+     "surah": 2
+    },
+    {
+     "ayah": 144,
+     "surah": 2
+    },
+    {
+     "ayah": 149,
+     "surah": 2
+    },
+    {
+     "ayah": 150,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 52
+  },
+  {
+   "concept_src": "CONCEPT_073",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 16,
+     "surah": 2
+    },
+    {
+     "ayah": 33,
+     "surah": 2
+    },
+    {
+     "ayah": 41,
+     "surah": 2
+    },
+    {
+     "ayah": 42,
+     "surah": 2
+    },
+    {
+     "ayah": 72,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 48
+  },
+  {
+   "concept_src": "CONCEPT_042",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 17,
+     "surah": 2
+    },
+    {
+     "ayah": 24,
+     "surah": 2
+    },
+    {
+     "ayah": 10,
+     "surah": 3
+    },
+    {
+     "ayah": 92,
+     "surah": 4
+    },
+    {
+     "ayah": 64,
+     "surah": 5
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 37
+  },
+  {
+   "concept_src": "CONCEPT_074",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 16,
+     "surah": 2
+    },
+    {
+     "ayah": 36,
+     "surah": 2
+    },
+    {
+     "ayah": 41,
+     "surah": 2
+    },
+    {
+     "ayah": 79,
+     "surah": 2
+    },
+    {
+     "ayah": 86,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 34
+  },
+  {
+   "concept_src": "CONCEPT_094",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 189,
+     "surah": 2
+    },
+    {
+     "ayah": 103,
+     "surah": 4
+    },
+    {
+     "ayah": 31,
+     "surah": 6
+    },
+    {
+     "ayah": 44,
+     "surah": 6
+    },
+    {
+     "ayah": 47,
+     "surah": 6
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 30
+  },
+  {
+   "concept_src": "CONCEPT_050",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 23,
+     "surah": 4
+    },
+    {
+     "ayah": 65,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 5
+    },
+    {
+     "ayah": 94,
+     "surah": 6
+    },
+    {
+     "ayah": 125,
+     "surah": 6
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 29
+  },
+  {
+   "concept_src": "CONCEPT_039",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 170,
+     "surah": 2
+    },
+    {
+     "ayah": 18,
+     "surah": 12
+    },
+    {
+     "ayah": 19,
+     "surah": 12
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 26,
+     "surah": 12
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 26
+  },
+  {
+   "concept_src": "CONCEPT_046",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 67,
+     "surah": 2
+    },
+    {
+     "ayah": 68,
+     "surah": 2
+    },
+    {
+     "ayah": 69,
+     "surah": 2
+    },
+    {
+     "ayah": 70,
+     "surah": 2
+    },
+    {
+     "ayah": 71,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 24
+  },
+  {
+   "concept_src": "CONCEPT_058",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 101,
+     "surah": 3
+    },
+    {
+     "ayah": 103,
+     "surah": 3
+    },
+    {
+     "ayah": 112,
+     "surah": 3
+    },
+    {
+     "ayah": 146,
+     "surah": 4
+    },
+    {
+     "ayah": 175,
+     "surah": 4
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 23
+  },
+  {
+   "concept_src": "CONCEPT_099",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 228,
+     "surah": 2
+    },
+    {
+     "ayah": 253,
+     "surah": 2
+    },
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 163,
+     "surah": 3
+    },
+    {
+     "ayah": 34,
+     "surah": 4
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 23
+  },
+  {
+   "concept_src": "CONCEPT_098",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 184,
+     "surah": 2
+    },
+    {
+     "ayah": 249,
+     "surah": 2
+    },
+    {
+     "ayah": 286,
+     "surah": 2
+    },
+    {
+     "ayah": 13,
+     "surah": 3
+    },
+    {
+     "ayah": 180,
+     "surah": 3
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 20
+  },
+  {
+   "concept_src": "CONCEPT_059",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 78,
+     "surah": 4
+    },
+    {
+     "ayah": 101,
+     "surah": 4
+    },
+    {
+     "ayah": 74,
+     "surah": 7
+    },
+    {
+     "ayah": 202,
+     "surah": 7
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 17
+  },
+  {
+   "concept_src": "CONCEPT_017",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 5
+    },
+    {
+     "ayah": 23,
+     "surah": 11
+    },
+    {
+     "ayah": 2,
+     "surah": 22
+    },
+    {
+     "ayah": 5,
+     "surah": 22
+    },
+    {
+     "ayah": 9,
+     "surah": 22
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 16
+  },
+  {
+   "concept_src": "CONCEPT_062",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 125,
+     "surah": 6
+    },
+    {
+     "ayah": 25,
+     "surah": 9
+    },
+    {
+     "ayah": 57,
+     "surah": 9
+    },
+    {
+     "ayah": 118,
+     "surah": 9
+    },
+    {
+     "ayah": 12,
+     "surah": 11
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 16
+  },
+  {
+   "concept_src": "CONCEPT_069",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 20,
+     "surah": 2
+    },
+    {
+     "ayah": 55,
+     "surah": 2
+    },
+    {
+     "ayah": 153,
+     "surah": 4
+    },
+    {
+     "ayah": 143,
+     "surah": 7
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 16
+  },
+  {
+   "concept_src": "CONCEPT_075",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 227,
+     "surah": 2
+    },
+    {
+     "ayah": 233,
+     "surah": 2
+    },
+    {
+     "ayah": 235,
+     "surah": 2
+    },
+    {
+     "ayah": 159,
+     "surah": 3
+    },
+    {
+     "ayah": 186,
+     "surah": 3
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 16
+  },
+  {
+   "concept_src": "CONCEPT_070",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 14,
+     "surah": 3
+    },
+    {
+     "ayah": 36,
+     "surah": 4
+    },
+    {
+     "ayah": 60,
+     "surah": 8
+    },
+    {
+     "ayah": 10,
+     "surah": 11
+    },
+    {
+     "ayah": 8,
+     "surah": 16
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 15
+  },
+  {
+   "concept_src": "CONCEPT_029",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 7,
+     "surah": 3
+    },
+    {
+     "ayah": 14,
+     "surah": 3
+    },
+    {
+     "ayah": 41,
+     "surah": 3
+    },
+    {
+     "ayah": 49,
+     "surah": 3
+    },
+    {
+     "ayah": 61,
+     "surah": 3
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 14
+  },
+  {
+   "concept_src": "CONCEPT_029",
+   "concept_tgt": "CONCEPT_081",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 7,
+     "surah": 3
+    },
+    {
+     "ayah": 14,
+     "surah": 3
+    },
+    {
+     "ayah": 41,
+     "surah": 3
+    },
+    {
+     "ayah": 49,
+     "surah": 3
+    },
+    {
+     "ayah": 61,
+     "surah": 3
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 14
+  },
+  {
+   "concept_src": "CONCEPT_031",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 5,
+     "surah": 17
+    },
+    {
+     "ayah": 26,
+     "surah": 17
+    },
+    {
+     "ayah": 27,
+     "surah": 17
+    },
+    {
+     "ayah": 49,
+     "surah": 17
+    },
+    {
+     "ayah": 51,
+     "surah": 17
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 12
+  },
+  {
+   "concept_src": "CONCEPT_076",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 9,
+     "surah": 12
+    },
+    {
+     "ayah": 10,
+     "surah": 12
+    },
+    {
+     "ayah": 13,
+     "surah": 12
+    },
+    {
+     "ayah": 14,
+     "surah": 12
+    },
+    {
+     "ayah": 15,
+     "surah": 12
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 12
+  },
+  {
+   "concept_src": "CONCEPT_093",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 28,
+     "surah": 9
+    },
+    {
+     "ayah": 37,
+     "surah": 9
+    },
+    {
+     "ayah": 120,
+     "surah": 9
+    },
+    {
+     "ayah": 126,
+     "surah": 9
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 12
+  },
+  {
+   "concept_src": "CONCEPT_096",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 59,
+     "surah": 6
+    },
+    {
+     "ayah": 22,
+     "surah": 7
+    },
+    {
+     "ayah": 19,
+     "surah": 18
+    },
+    {
+     "ayah": 40,
+     "surah": 20
+    },
+    {
+     "ayah": 120,
+     "surah": 20
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 12
+  },
+  {
+   "concept_src": "CONCEPT_101",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 49,
+     "surah": 3
+    },
+    {
+     "ayah": 69,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 5
+    },
+    {
+     "ayah": 110,
+     "surah": 5
+    },
+    {
+     "ayah": 9,
+     "surah": 18
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 12
+  },
+  {
+   "concept_src": "CONCEPT_079",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 36,
+     "surah": 2
+    },
+    {
+     "ayah": 184,
+     "surah": 2
+    },
+    {
+     "ayah": 209,
+     "surah": 2
+    },
+    {
+     "ayah": 249,
+     "surah": 2
+    },
+    {
+     "ayah": 267,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 11
+  },
+  {
+   "concept_src": "CONCEPT_048",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 18,
+     "surah": 12
+    },
+    {
+     "ayah": 23,
+     "surah": 12
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    },
+    {
+     "ayah": 26,
+     "surah": 12
+    },
+    {
+     "ayah": 27,
+     "surah": 12
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 10
+  },
+  {
+   "concept_src": "CONCEPT_064",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 119,
+     "surah": 3
+    },
+    {
+     "ayah": 17,
+     "surah": 27
+    },
+    {
+     "ayah": 18,
+     "surah": 27
+    },
+    {
+     "ayah": 19,
+     "surah": 27
+    },
+    {
+     "ayah": 20,
+     "surah": 27
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 9
+  },
+  {
+   "concept_src": "CONCEPT_092",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 60,
+     "surah": 2
+    },
+    {
+     "ayah": 74,
+     "surah": 7
+    },
+    {
+     "ayah": 85,
+     "surah": 11
+    },
+    {
+     "ayah": 82,
+     "surah": 15
+    },
+    {
+     "ayah": 149,
+     "surah": 26
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 8
+  },
+  {
+   "concept_src": "CONCEPT_043",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 31,
+     "surah": 11
+    },
+    {
+     "ayah": 44,
+     "surah": 11
+    },
+    {
+     "ayah": 69,
+     "surah": 11
+    },
+    {
+     "ayah": 74,
+     "surah": 11
+    },
+    {
+     "ayah": 99,
+     "surah": 11
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_051",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 15,
+     "surah": 28
+    },
+    {
+     "ayah": 23,
+     "surah": 28
+    },
+    {
+     "ayah": 29,
+     "surah": 28
+    },
+    {
+     "ayah": 30,
+     "surah": 28
+    },
+    {
+     "ayah": 71,
+     "surah": 28
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_052",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 17,
+     "surah": 13
+    },
+    {
+     "ayah": 12,
+     "surah": 34
+    },
+    {
+     "ayah": 13,
+     "surah": 34
+    },
+    {
+     "ayah": 16,
+     "surah": 34
+    },
+    {
+     "ayah": 14,
+     "surah": 53
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_077",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 103,
+     "surah": 3
+    },
+    {
+     "ayah": 54,
+     "surah": 7
+    },
+    {
+     "ayah": 41,
+     "surah": 18
+    },
+    {
+     "ayah": 73,
+     "surah": 22
+    },
+    {
+     "ayah": 23,
+     "surah": 36
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 7
+  },
+  {
+   "concept_src": "CONCEPT_041",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 11,
+     "surah": 21
+    },
+    {
+     "ayah": 30,
+     "surah": 21
+    },
+    {
+     "ayah": 46,
+     "surah": 21
+    },
+    {
+     "ayah": 79,
+     "surah": 21
+    },
+    {
+     "ayah": 87,
+     "surah": 21
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 6
+  },
+  {
+   "concept_src": "CONCEPT_057",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 4,
+     "surah": 19
+    },
+    {
+     "ayah": 13,
+     "surah": 19
+    },
+    {
+     "ayah": 23,
+     "surah": 19
+    },
+    {
+     "ayah": 71,
+     "surah": 19
+    },
+    {
+     "ayah": 82,
+     "surah": 19
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_068",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 4,
+     "surah": 33
+    },
+    {
+     "ayah": 18,
+     "surah": 33
+    },
+    {
+     "ayah": 19,
+     "surah": 33
+    },
+    {
+     "ayah": 23,
+     "surah": 33
+    },
+    {
+     "ayah": 37,
+     "surah": 33
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_068",
+   "concept_tgt": "CONCEPT_081",
+   "confidence": 1.0,
+   "evidence_paths": [
+    {
+     "ayah": 4,
+     "surah": 33
+    },
+    {
+     "ayah": 18,
+     "surah": 33
+    },
+    {
+     "ayah": 19,
+     "surah": 33
+    },
+    {
+     "ayah": 23,
+     "surah": 33
+    },
+    {
+     "ayah": 37,
+     "surah": 33
+    }
+   ],
+   "p_tgt_given_src": 1.0,
+   "relation_type": "REQUIRES",
+   "stability_score": 0.5,
+   "support_count": 5
+  },
+  {
+   "concept_src": "CONCEPT_084",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.995745,
+   "evidence_paths": [
+    {
+     "ayah": 6,
+     "surah": 1
+    },
+    {
+     "ayah": 3,
+     "surah": 2
+    },
+    {
+     "ayah": 17,
+     "surah": 2
+    },
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 20,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.995745,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 1170
+  },
+  {
+   "concept_src": "CONCEPT_013",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.994872,
+   "evidence_paths": [
+    {
+     "ayah": 13,
+     "surah": 2
+    },
+    {
+     "ayah": 16,
+     "surah": 2
+    },
+    {
+     "ayah": 34,
+     "surah": 2
+    },
+    {
+     "ayah": 41,
+     "surah": 2
+    },
+    {
+     "ayah": 48,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.994872,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 194
+  },
+  {
+   "concept_src": "CONCEPT_034",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.994401,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 1
+    },
+    {
+     "ayah": 3,
+     "surah": 1
+    },
+    {
+     "ayah": 7,
+     "surah": 2
+    },
+    {
+     "ayah": 11,
+     "surah": 2
+    },
+    {
+     "ayah": 25,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.994401,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 888
+  },
+  {
+   "concept_src": "CONCEPT_028",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.994048,
+   "evidence_paths": [
+    {
+     "ayah": 33,
+     "surah": 2
+    },
+    {
+     "ayah": 57,
+     "surah": 2
+    },
+    {
+     "ayah": 67,
+     "surah": 2
+    },
+    {
+     "ayah": 125,
+     "surah": 2
+    },
+    {
+     "ayah": 158,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.994048,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 167
+  },
+  {
+   "concept_src": "CONCEPT_022",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.993007,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 27,
+     "surah": 2
+    },
+    {
+     "ayah": 63,
+     "surah": 2
+    },
+    {
+     "ayah": 74,
+     "surah": 2
+    },
+    {
+     "ayah": 75,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.993007,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 142
+  },
+  {
+   "concept_src": "CONCEPT_026",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.990385,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 20,
+     "surah": 2
+    },
+    {
+     "ayah": 71,
+     "surah": 2
+    },
+    {
+     "ayah": 96,
+     "surah": 2
+    },
+    {
+     "ayah": 164,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.990385,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 103
+  },
+  {
+   "concept_src": "CONCEPT_019",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.989899,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 30,
+     "surah": 2
+    },
+    {
+     "ayah": 48,
+     "surah": 2
+    },
+    {
+     "ayah": 69,
+     "surah": 2
+    },
+    {
+     "ayah": 71,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.989899,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 98
+  },
+  {
+   "concept_src": "CONCEPT_032",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.989796,
+   "evidence_paths": [
+    {
+     "ayah": 17,
+     "surah": 2
+    },
+    {
+     "ayah": 124,
+     "surah": 2
+    },
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 143,
+     "surah": 2
+    },
+    {
+     "ayah": 233,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.989796,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 97
+  },
+  {
+   "concept_src": "CONCEPT_053",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.989723,
+   "evidence_paths": [
+    {
+     "ayah": 4,
+     "surah": 1
+    },
+    {
+     "ayah": 4,
+     "surah": 2
+    },
+    {
+     "ayah": 6,
+     "surah": 2
+    },
+    {
+     "ayah": 7,
+     "surah": 2
+    },
+    {
+     "ayah": 8,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.989723,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 1252
+  },
+  {
+   "concept_src": "CONCEPT_030",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.989362,
+   "evidence_paths": [
+    {
+     "ayah": 33,
+     "surah": 2
+    },
+    {
+     "ayah": 219,
+     "surah": 2
+    },
+    {
+     "ayah": 228,
+     "surah": 2
+    },
+    {
+     "ayah": 238,
+     "surah": 2
+    },
+    {
+     "ayah": 255,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.989362,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 93
+  },
+  {
+   "concept_src": "CONCEPT_088",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.989343,
+   "evidence_paths": [
+    {
+     "ayah": 6,
+     "surah": 2
+    },
+    {
+     "ayah": 7,
+     "surah": 2
+    },
+    {
+     "ayah": 10,
+     "surah": 2
+    },
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 24,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.989343,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 1114
+  },
+  {
+   "concept_src": "CONCEPT_061",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.988275,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 1
+    },
+    {
+     "ayah": 3,
+     "surah": 1
+    },
+    {
+     "ayah": 27,
+     "surah": 2
+    },
+    {
+     "ayah": 37,
+     "surah": 2
+    },
+    {
+     "ayah": 38,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.988275,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 1180
+  },
+  {
+   "concept_src": "CONCEPT_003",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.987715,
+   "evidence_paths": [
+    {
+     "ayah": 1,
+     "surah": 1
+    },
+    {
+     "ayah": 3,
+     "surah": 1
+    },
+    {
+     "ayah": 4,
+     "surah": 1
+    },
+    {
+     "ayah": 7,
+     "surah": 1
+    },
+    {
+     "ayah": 6,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.987715,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 1608
+  },
+  {
+   "concept_src": "CONCEPT_060",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.987118,
+   "evidence_paths": [
+    {
+     "ayah": 11,
+     "surah": 2
+    },
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 49,
+     "surah": 2
+    },
+    {
+     "ayah": 58,
+     "surah": 2
+    },
+    {
+     "ayah": 62,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.987118,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 613
+  },
+  {
+   "concept_src": "CONCEPT_008",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.986957,
+   "evidence_paths": [
+    {
+     "ayah": 2,
+     "surah": 2
+    },
+    {
+     "ayah": 21,
+     "surah": 2
+    },
+    {
+     "ayah": 23,
+     "surah": 2
+    },
+    {
+     "ayah": 29,
+     "surah": 2
+    },
+    {
+     "ayah": 36,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.986957,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 681
+  },
+  {
+   "concept_src": "CONCEPT_012",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.985915,
+   "evidence_paths": [
+    {
+     "ayah": 5,
+     "surah": 1
+    },
+    {
+     "ayah": 45,
+     "surah": 2
+    },
+    {
+     "ayah": 68,
+     "surah": 2
+    },
+    {
+     "ayah": 153,
+     "surah": 2
+    },
+    {
+     "ayah": 264,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.985915,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 70
+  },
+  {
+   "concept_src": "CONCEPT_010",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.985294,
+   "evidence_paths": [
+    {
+     "ayah": 120,
+     "surah": 2
+    },
+    {
+     "ayah": 144,
+     "surah": 2
+    },
+    {
+     "ayah": 207,
+     "surah": 2
+    },
+    {
+     "ayah": 218,
+     "surah": 2
+    },
+    {
+     "ayah": 232,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.985294,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 134
+  },
+  {
+   "concept_src": "CONCEPT_015",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.984663,
+   "evidence_paths": [
+    {
+     "ayah": 7,
+     "surah": 1
+    },
+    {
+     "ayah": 36,
+     "surah": 2
+    },
+    {
+     "ayah": 38,
+     "surah": 2
+    },
+    {
+     "ayah": 59,
+     "surah": 2
+    },
+    {
+     "ayah": 61,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.984663,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 321
+  },
+  {
+   "concept_src": "CONCEPT_085",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.984252,
+   "evidence_paths": [
+    {
+     "ayah": 22,
+     "surah": 2
+    },
+    {
+     "ayah": 40,
+     "surah": 2
+    },
+    {
+     "ayah": 47,
+     "surah": 2
+    },
+    {
+     "ayah": 48,
+     "surah": 2
+    },
+    {
+     "ayah": 49,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.984252,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 875
+  },
+  {
+   "concept_src": "CONCEPT_009",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.983607,
+   "evidence_paths": [
+    {
+     "ayah": 137,
+     "surah": 2
+    },
+    {
+     "ayah": 124,
+     "surah": 3
+    },
+    {
+     "ayah": 2,
+     "surah": 4
+    },
+    {
+     "ayah": 3,
+     "surah": 4
+    },
+    {
+     "ayah": 6,
+     "surah": 4
+    }
+   ],
+   "p_tgt_given_src": 0.983607,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 60
+  },
+  {
+   "concept_src": "CONCEPT_016",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.983319,
+   "evidence_paths": [
+    {
+     "ayah": 2,
+     "surah": 2
+    },
+    {
+     "ayah": 11,
+     "surah": 2
+    },
+    {
+     "ayah": 17,
+     "surah": 2
+    },
+    {
+     "ayah": 21,
+     "surah": 2
+    },
+    {
+     "ayah": 22,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.983319,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 1179
+  },
+  {
+   "concept_src": "CONCEPT_044",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.983051,
+   "evidence_paths": [
+    {
+     "ayah": 245,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 279,
+     "surah": 2
+    },
+    {
+     "ayah": 37,
+     "surah": 3
+    },
+    {
+     "ayah": 39,
+     "surah": 3
+    }
+   ],
+   "p_tgt_given_src": 0.983051,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 58
+  },
+  {
+   "concept_src": "CONCEPT_035",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.982759,
+   "evidence_paths": [
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 177,
+     "surah": 2
+    },
+    {
+     "ayah": 215,
+     "surah": 2
+    },
+    {
+     "ayah": 220,
+     "surah": 2
+    },
+    {
+     "ayah": 221,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.982759,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 57
+  },
+  {
+   "concept_src": "CONCEPT_078",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.981308,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 35,
+     "surah": 2
+    },
+    {
+     "ayah": 102,
+     "surah": 2
+    },
+    {
+     "ayah": 116,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.981308,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 105
+  },
+  {
+   "concept_src": "CONCEPT_014",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.981132,
+   "evidence_paths": [
+    {
+     "ayah": 9,
+     "surah": 2
+    },
+    {
+     "ayah": 12,
+     "surah": 2
+    },
+    {
+     "ayah": 36,
+     "surah": 2
+    },
+    {
+     "ayah": 86,
+     "surah": 2
+    },
+    {
+     "ayah": 154,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.981132,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 104
+  },
+  {
+   "concept_src": "CONCEPT_038",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.981132,
+   "evidence_paths": [
+    {
+     "ayah": 233,
+     "surah": 2
+    },
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 261,
+     "surah": 2
+    },
+    {
+     "ayah": 5,
+     "surah": 4
+    },
+    {
+     "ayah": 34,
+     "surah": 4
+    }
+   ],
+   "p_tgt_given_src": 0.981132,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 52
+  },
+  {
+   "concept_src": "CONCEPT_067",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.981132,
+   "evidence_paths": [
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 137,
+     "surah": 2
+    },
+    {
+     "ayah": 177,
+     "surah": 2
+    },
+    {
+     "ayah": 215,
+     "surah": 2
+    },
+    {
+     "ayah": 220,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.981132,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 52
+  },
+  {
+   "concept_src": "CONCEPT_011",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.980392,
+   "evidence_paths": [
+    {
+     "ayah": 7,
+     "surah": 1
+    },
+    {
+     "ayah": 61,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    },
+    {
+     "ayah": 106,
+     "surah": 2
+    },
+    {
+     "ayah": 112,
+     "surah": 3
+    }
+   ],
+   "p_tgt_given_src": 0.980392,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 50
+  },
+  {
+   "concept_src": "CONCEPT_004",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.979104,
+   "evidence_paths": [
+    {
+     "ayah": 3,
+     "surah": 2
+    },
+    {
+     "ayah": 10,
+     "surah": 2
+    },
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 26,
+     "surah": 2
+    },
+    {
+     "ayah": 35,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.979104,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 984
+  },
+  {
+   "concept_src": "CONCEPT_083",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.978261,
+   "evidence_paths": [
+    {
+     "ayah": 60,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 36,
+     "surah": 3
+    },
+    {
+     "ayah": 195,
+     "surah": 3
+    },
+    {
+     "ayah": 3,
+     "surah": 4
+    }
+   ],
+   "p_tgt_given_src": 0.978261,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 45
+  },
+  {
+   "concept_src": "CONCEPT_002",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.978182,
+   "evidence_paths": [
+    {
+     "ayah": 17,
+     "surah": 2
+    },
+    {
+     "ayah": 35,
+     "surah": 2
+    },
+    {
+     "ayah": 49,
+     "surah": 2
+    },
+    {
+     "ayah": 51,
+     "surah": 2
+    },
+    {
+     "ayah": 52,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.978182,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 538
+  },
+  {
+   "concept_src": "CONCEPT_055",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.977273,
+   "evidence_paths": [
+    {
+     "ayah": 143,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 183,
+     "surah": 2
+    },
+    {
+     "ayah": 184,
+     "surah": 2
+    },
+    {
+     "ayah": 185,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.977273,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 43
+  },
+  {
+   "concept_src": "CONCEPT_103",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.97619,
+   "evidence_paths": [
+    {
+     "ayah": 147,
+     "surah": 2
+    },
+    {
+     "ayah": 36,
+     "surah": 3
+    },
+    {
+     "ayah": 60,
+     "surah": 3
+    },
+    {
+     "ayah": 125,
+     "surah": 3
+    },
+    {
+     "ayah": 4,
+     "surah": 5
+    }
+   ],
+   "p_tgt_given_src": 0.97619,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 41
+  },
+  {
+   "concept_src": "CONCEPT_018",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.972851,
+   "evidence_paths": [
+    {
+     "ayah": 30,
+     "surah": 2
+    },
+    {
+     "ayah": 54,
+     "surah": 2
+    },
+    {
+     "ayah": 87,
+     "surah": 2
+    },
+    {
+     "ayah": 102,
+     "surah": 2
+    },
+    {
+     "ayah": 164,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.972851,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 215
+  },
+  {
+   "concept_src": "CONCEPT_001",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.972028,
+   "evidence_paths": [
+    {
+     "ayah": 10,
+     "surah": 2
+    },
+    {
+     "ayah": 24,
+     "surah": 2
+    },
+    {
+     "ayah": 33,
+     "surah": 2
+    },
+    {
+     "ayah": 35,
+     "surah": 2
+    },
+    {
+     "ayah": 42,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.972028,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 417
+  },
+  {
+   "concept_src": "CONCEPT_063",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.971429,
+   "evidence_paths": [
+    {
+     "ayah": 60,
+     "surah": 2
+    },
+    {
+     "ayah": 102,
+     "surah": 2
+    },
+    {
+     "ayah": 17,
+     "surah": 3
+    },
+    {
+     "ayah": 110,
+     "surah": 5
+    },
+    {
+     "ayah": 7,
+     "surah": 6
+    }
+   ],
+   "p_tgt_given_src": 0.971429,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 68
+  },
+  {
+   "concept_src": "CONCEPT_033",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.969231,
+   "evidence_paths": [
+    {
+     "ayah": 29,
+     "surah": 2
+    },
+    {
+     "ayah": 67,
+     "surah": 2
+    },
+    {
+     "ayah": 68,
+     "surah": 2
+    },
+    {
+     "ayah": 69,
+     "surah": 2
+    },
+    {
+     "ayah": 70,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.969231,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 63
+  },
+  {
+   "concept_src": "CONCEPT_023",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.968085,
+   "evidence_paths": [
+    {
+     "ayah": 69,
+     "surah": 2
+    },
+    {
+     "ayah": 179,
+     "surah": 2
+    },
+    {
+     "ayah": 197,
+     "surah": 2
+    },
+    {
+     "ayah": 269,
+     "surah": 2
+    },
+    {
+     "ayah": 7,
+     "surah": 3
+    }
+   ],
+   "p_tgt_given_src": 0.968085,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 91
+  },
+  {
+   "concept_src": "CONCEPT_020",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.965714,
+   "evidence_paths": [
+    {
+     "ayah": 42,
+     "surah": 2
+    },
+    {
+     "ayah": 50,
+     "surah": 2
+    },
+    {
+     "ayah": 52,
+     "surah": 2
+    },
+    {
+     "ayah": 56,
+     "surah": 2
+    },
+    {
+     "ayah": 60,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.965714,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 169
+  },
+  {
+   "concept_src": "CONCEPT_097",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.964602,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 103,
+     "surah": 2
+    },
+    {
+     "ayah": 125,
+     "surah": 2
+    },
+    {
+     "ayah": 164,
+     "surah": 2
+    },
+    {
+     "ayah": 222,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.964602,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 109
+  },
+  {
+   "concept_src": "CONCEPT_040",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.962963,
+   "evidence_paths": [
+    {
+     "ayah": 19,
+     "surah": 2
+    },
+    {
+     "ayah": 81,
+     "surah": 2
+    },
+    {
+     "ayah": 255,
+     "surah": 2
+    },
+    {
+     "ayah": 120,
+     "surah": 3
+    },
+    {
+     "ayah": 18,
+     "surah": 4
+    }
+   ],
+   "p_tgt_given_src": 0.962963,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 52
+  },
+  {
+   "concept_src": "CONCEPT_025",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.960526,
+   "evidence_paths": [
+    {
+     "ayah": 24,
+     "surah": 2
+    },
+    {
+     "ayah": 57,
+     "surah": 2
+    },
+    {
+     "ayah": 60,
+     "surah": 2
+    },
+    {
+     "ayah": 74,
+     "surah": 2
+    },
+    {
+     "ayah": 93,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.960526,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 146
+  },
+  {
+   "concept_src": "CONCEPT_047",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.957447,
+   "evidence_paths": [
+    {
+     "ayah": 43,
+     "surah": 2
+    },
+    {
+     "ayah": 49,
+     "surah": 2
+    },
+    {
+     "ayah": 125,
+     "surah": 2
+    },
+    {
+     "ayah": 273,
+     "surah": 2
+    },
+    {
+     "ayah": 14,
+     "surah": 3
+    }
+   ],
+   "p_tgt_given_src": 0.957447,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 45
+  },
+  {
+   "concept_src": "CONCEPT_021",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.957143,
+   "evidence_paths": [
+    {
+     "ayah": 133,
+     "surah": 2
+    },
+    {
+     "ayah": 170,
+     "surah": 2
+    },
+    {
+     "ayah": 200,
+     "surah": 2
+    },
+    {
+     "ayah": 11,
+     "surah": 4
+    },
+    {
+     "ayah": 22,
+     "surah": 4
+    }
+   ],
+   "p_tgt_given_src": 0.957143,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 134
+  },
+  {
+   "concept_src": "CONCEPT_072",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.956522,
+   "evidence_paths": [
+    {
+     "ayah": 22,
+     "surah": 2
+    },
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 60,
+     "surah": 2
+    },
+    {
+     "ayah": 93,
+     "surah": 2
+    },
+    {
+     "ayah": 126,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.956522,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 66
+  },
+  {
+   "concept_src": "CONCEPT_005",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.955556,
+   "evidence_paths": [
+    {
+     "ayah": 22,
+     "surah": 2
+    },
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 70,
+     "surah": 2
+    },
+    {
+     "ayah": 118,
+     "surah": 2
+    },
+    {
+     "ayah": 126,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.955556,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 129
+  },
+  {
+   "concept_src": "CONCEPT_036",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.954545,
+   "evidence_paths": [
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 132,
+     "surah": 2
+    },
+    {
+     "ayah": 219,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 264,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.954545,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 42
+  },
+  {
+   "concept_src": "CONCEPT_024",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.952756,
+   "evidence_paths": [
+    {
+     "ayah": 17,
+     "surah": 2
+    },
+    {
+     "ayah": 20,
+     "surah": 2
+    },
+    {
+     "ayah": 24,
+     "surah": 2
+    },
+    {
+     "ayah": 35,
+     "surah": 2
+    },
+    {
+     "ayah": 71,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.952756,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 121
+  },
+  {
+   "concept_src": "CONCEPT_089",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.952381,
+   "evidence_paths": [
+    {
+     "ayah": 219,
+     "surah": 2
+    },
+    {
+     "ayah": 266,
+     "surah": 2
+    },
+    {
+     "ayah": 90,
+     "surah": 5
+    },
+    {
+     "ayah": 91,
+     "surah": 5
+    },
+    {
+     "ayah": 25,
+     "surah": 12
+    }
+   ],
+   "p_tgt_given_src": 0.952381,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 20
+  },
+  {
+   "concept_src": "CONCEPT_091",
+   "concept_tgt": "CONCEPT_002",
+   "confidence": 0.949367,
+   "evidence_paths": [
+    {
+     "ayah": 89,
+     "surah": 2
+    },
+    {
+     "ayah": 146,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 180,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.949367,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 75
+  },
+  {
+   "concept_src": "CONCEPT_091",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.949367,
+   "evidence_paths": [
+    {
+     "ayah": 89,
+     "surah": 2
+    },
+    {
+     "ayah": 146,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 180,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.949367,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 75
+  },
+  {
+   "concept_src": "CONCEPT_049",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.945545,
+   "evidence_paths": [
+    {
+     "ayah": 25,
+     "surah": 2
+    },
+    {
+     "ayah": 51,
+     "surah": 2
+    },
+    {
+     "ayah": 74,
+     "surah": 2
+    },
+    {
+     "ayah": 164,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.945545,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 191
+  },
+  {
+   "concept_src": "CONCEPT_006",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.938931,
+   "evidence_paths": [
+    {
+     "ayah": 115,
+     "surah": 2
+    },
+    {
+     "ayah": 142,
+     "surah": 2
+    },
+    {
+     "ayah": 177,
+     "surah": 2
+    },
+    {
+     "ayah": 245,
+     "surah": 2
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.938931,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 123
+  },
+  {
+   "concept_src": "CONCEPT_037",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.92381,
+   "evidence_paths": [
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 27,
+     "surah": 3
+    },
+    {
+     "ayah": 96,
+     "surah": 3
+    },
+    {
+     "ayah": 77,
+     "surah": 6
+    },
+    {
+     "ayah": 92,
+     "surah": 6
+    }
+   ],
+   "p_tgt_given_src": 0.92381,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 97
+  },
+  {
+   "concept_src": "CONCEPT_080",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.910714,
+   "evidence_paths": [
+    {
+     "ayah": 96,
+     "surah": 2
+    },
+    {
+     "ayah": 243,
+     "surah": 2
+    },
+    {
+     "ayah": 249,
+     "surah": 2
+    },
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 261,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.910714,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 51
+  },
+  {
+   "concept_src": "CONCEPT_045",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.90625,
+   "evidence_paths": [
+    {
+     "ayah": 266,
+     "surah": 2
+    },
+    {
+     "ayah": 59,
+     "surah": 6
+    },
+    {
+     "ayah": 99,
+     "surah": 6
+    },
+    {
+     "ayah": 141,
+     "surah": 6
+    },
+    {
+     "ayah": 149,
+     "surah": 7
+    }
+   ],
+   "p_tgt_given_src": 0.90625,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 29
+  },
+  {
+   "concept_src": "CONCEPT_090",
+   "concept_tgt": "CONCEPT_002",
+   "confidence": 0.904762,
+   "evidence_paths": [
+    {
+     "ayah": 52,
+     "surah": 2
+    },
+    {
+     "ayah": 109,
+     "surah": 2
+    },
+    {
+     "ayah": 168,
+     "surah": 2
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    }
+   ],
+   "p_tgt_given_src": 0.904762,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 76
+  },
+  {
+   "concept_src": "CONCEPT_087",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.9,
+   "evidence_paths": [
+    {
+     "ayah": 111,
+     "surah": 2
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    },
+    {
+     "ayah": 106,
+     "surah": 3
+    },
+    {
+     "ayah": 107,
+     "surah": 3
+    },
+    {
+     "ayah": 174,
+     "surah": 4
+    }
+   ],
+   "p_tgt_given_src": 0.9,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 18
+  },
+  {
+   "concept_src": "CONCEPT_065",
+   "concept_tgt": "CONCEPT_007",
+   "confidence": 0.9,
+   "evidence_paths": [
+    {
+     "ayah": 39,
+     "surah": 20
+    },
+    {
+     "ayah": 85,
+     "surah": 20
+    },
+    {
+     "ayah": 87,
+     "surah": 20
+    },
+    {
+     "ayah": 95,
+     "surah": 20
+    },
+    {
+     "ayah": 97,
+     "surah": 20
+    }
+   ],
+   "p_tgt_given_src": 0.9,
+   "relation_type": "REQUIRES",
+   "stability_score": 1.0,
+   "support_count": 9
+  }
+ ]
+}
