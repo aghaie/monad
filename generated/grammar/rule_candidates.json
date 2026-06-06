@@ -1,0 +1,144 @@
+{
+ "definition": "Production rules are empirically-measured edge-formation transformations, fit to reproduce the observed reciprocity, transitivity, and triad distribution. Opaque ids; no names. Constraints N=100, M=1059 are measured, not rules.",
+ "fit_grid": [
+  {
+   "f_recip": 0.38,
+   "f_trans": 0.15,
+   "fit_distance": 0.116972,
+   "gamma": 1.0,
+   "sim_reciprocity": 0.597419,
+   "sim_transitivity": 0.260389,
+   "sim_triad_cosine": 0.907986
+  },
+  {
+   "f_recip": 0.42,
+   "f_trans": 0.15,
+   "fit_distance": 0.120264,
+   "gamma": 1.0,
+   "sim_reciprocity": 0.614416,
+   "sim_transitivity": 0.270138,
+   "sim_triad_cosine": 0.902482
+  },
+  {
+   "f_recip": 0.38,
+   "f_trans": 0.2,
+   "fit_distance": 0.122432,
+   "gamma": 1.0,
+   "sim_reciprocity": 0.605603,
+   "sim_transitivity": 0.269885,
+   "sim_triad_cosine": 0.903839
+  },
+  {
+   "f_recip": 0.42,
+   "f_trans": 0.2,
+   "fit_distance": 0.131811,
+   "gamma": 1.0,
+   "sim_reciprocity": 0.625748,
+   "sim_transitivity": 0.280389,
+   "sim_triad_cosine": 0.912518
+  },
+  {
+   "f_recip": 0.38,
+   "f_trans": 0.25,
+   "fit_distance": 0.158119,
+   "gamma": 1.0,
+   "sim_reciprocity": 0.620711,
+   "sim_transitivity": 0.29757,
+   "sim_triad_cosine": 0.898354
+  },
+  {
+   "f_recip": 0.34,
+   "f_trans": 0.2,
+   "fit_distance": 0.166463,
+   "gamma": 1.0,
+   "sim_reciprocity": 0.592383,
+   "sim_transitivity": 0.298723,
+   "sim_triad_cosine": 0.901865
+  },
+  {
+   "f_recip": 0.34,
+   "f_trans": 0.15,
+   "fit_distance": 0.16934,
+   "gamma": 1.0,
+   "sim_reciprocity": 0.554611,
+   "sim_transitivity": 0.241464,
+   "sim_triad_cosine": 0.896392
+  },
+  {
+   "f_recip": 0.38,
+   "f_trans": 0.3,
+   "fit_distance": 0.171783,
+   "gamma": 1.0,
+   "sim_reciprocity": 0.629525,
+   "sim_transitivity": 0.317347,
+   "sim_triad_cosine": 0.913281
+  },
+  {
+   "f_recip": 0.34,
+   "f_trans": 0.25,
+   "fit_distance": 0.180187,
+   "gamma": 1.0,
+   "sim_reciprocity": 0.570349,
+   "sim_transitivity": 0.291168,
+   "sim_triad_cosine": 0.90262
+  },
+  {
+   "f_recip": 0.34,
+   "f_trans": 0.3,
+   "fit_distance": 0.181421,
+   "gamma": 1.0,
+   "sim_reciprocity": 0.589865,
+   "sim_transitivity": 0.308747,
+   "sim_triad_cosine": 0.89945
+  }
+ ],
+ "fitted_parameters": {
+  "f_recip": 0.38,
+  "f_trans": 0.15,
+  "fit_distance": 0.116972,
+  "gamma": 1.0,
+  "sim_reciprocity": 0.597419,
+  "sim_transitivity": 0.260389,
+  "sim_triad_cosine": 0.907986
+ },
+ "measured_targets": {
+  "M": 1059,
+  "N": 100,
+  "hub_share": 0.087347,
+  "largest_scc": 94,
+  "reciprocity": 0.611898,
+  "transitivity": 0.24991,
+  "triad_classes": 13
+ },
+ "method": "phase12-grammar-1.0",
+ "n_rules": 3,
+ "rules": {
+  "RULE_001": {
+   "generates": "degree skew, in-merge / out-fork motifs",
+   "measured_parameter": {
+    "fraction": 0.47,
+    "gamma": 1.0
+   },
+   "operation": "fresh edge: source ∝ (outdeg+1)^γ, target ∝ (indeg+1)^γ",
+   "transformation": "degree-proportional attachment"
+  },
+  "RULE_002": {
+   "generates": "mutual dyads, mutual / fully-mutual triangles",
+   "measured_parameter": {
+    "fraction": 0.38,
+    "target_reciprocity": 0.611898
+   },
+   "operation": "copy the reverse of an existing edge",
+   "transformation": "reciprocity"
+  },
+  "RULE_003": {
+   "generates": "transitive triangles",
+   "measured_parameter": {
+    "fraction": 0.15,
+    "target_transitivity": 0.24991
+   },
+   "operation": "close an existing 2-path A→B→C with A→C",
+   "transformation": "transitive closure"
+  }
+ }
+}

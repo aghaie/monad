@@ -1,0 +1,82 @@
+{
+ "cumulative_curve": [
+  {
+   "n_rules": 1,
+   "rules": [
+    "attach"
+   ],
+   "triad_cosine": {
+    "ci95_high": 0.625614,
+    "ci95_low": 0.560105,
+    "max": 0.625886,
+    "mean": 0.595232,
+    "min": 0.558591,
+    "n": 15,
+    "std": 0.020631
+   }
+  },
+  {
+   "n_rules": 2,
+   "rules": [
+    "attach",
+    "recip"
+   ],
+   "triad_cosine": {
+    "ci95_high": 0.913028,
+    "ci95_low": 0.890668,
+    "max": 0.916646,
+    "mean": 0.901164,
+    "min": 0.88983,
+    "n": 15,
+    "std": 0.006544
+   }
+  },
+  {
+   "n_rules": 3,
+   "rules": [
+    "attach",
+    "recip",
+    "trans"
+   ],
+   "triad_cosine": {
+    "ci95_high": 0.918148,
+    "ci95_low": 0.87961,
+    "max": 0.919247,
+    "mean": 0.900696,
+    "min": 0.87472,
+    "n": 15,
+    "std": 0.011301
+   }
+  }
+ ],
+ "definition": "reproduction measured as triad-distribution cosine vs observed; rules added cumulatively (attachment is mandatory: it provides the edge budget).",
+ "full_model_cosine": 0.900696,
+ "method": "phase12-grammar-1.0",
+ "minimum_sets": [
+  {
+   "rules_required": 1,
+   "target_fraction_of_full": 0.5
+  },
+  {
+   "rules_required": 1,
+   "target_fraction_of_full": 0.6
+  },
+  {
+   "rules_required": 2,
+   "target_fraction_of_full": 0.7
+  },
+  {
+   "rules_required": 2,
+   "target_fraction_of_full": 0.8
+  },
+  {
+   "rules_required": 2,
+   "target_fraction_of_full": 0.9
+  },
+  {
+   "rules_required": 2,
+   "target_fraction_of_full": 0.95
+  }
+ ],
+ "note": "RULE_001 (attachment) alone already reaches most of the cosine; RULE_002/003 refine reciprocity/transitivity"
+}

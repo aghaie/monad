@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 11 (Discovery
-Stability & Robustness Engine). **Next phase:** Phase 12 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 12 (Generative
+Grammar Discovery Engine). **Next phase:** Phase 13 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -24,7 +24,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 9 | Structural Motif Discovery Engine | ✅ complete | `generated/motifs/*.json` |
 | 10 | Contradiction & Consistency Discovery Engine | ✅ complete | `generated/consistency/*.json` |
 | 11 | Discovery Stability & Robustness Engine (validation) | ✅ complete | `generated/validation/*.json` |
-| 12 | (future) | ⛔ not started | — |
+| 12 | Generative Grammar Discovery Engine | ✅ complete | `generated/grammar/*.json` |
+| 13 | (future) | ⛔ not started | — |
 
 ---
 
@@ -412,6 +413,47 @@ not as fixed facts.
 
 ---
 
+## Phase 12 — Generative Grammar Discovery Engine
+
+Tests whether the observed proposition network can be *generated* by a small set
+of structural production rules (measured transformations, not concepts/motifs).
+Rules carry opaque ids; none named. **No meaning, theology, translation, or tafsir;
+no external graph theory cited as explanation; generation claimed only where
+simulation confirms it.**
+
+- 8 data products in `generated/grammar/` (rule candidates, statistics,
+  generation, simulation, ablation, falsification, robustness, manifest)
+- **3 production rules discovered, parameters measured from the graph (N=100,
+  M=1059):** RULE_001 degree-proportional attachment (γ=1.0); RULE_002 reciprocity
+  (frac 0.38, target 0.612); RULE_003 transitive closure (frac 0.15, target 0.250)
+- **Primary finding — generation is PARTIAL and LOCAL:** from an empty graph the
+  rules regenerate the **13-class motif vocabulary at triad cosine 0.905** [0.887,
+  0.922] (all 13 classes), reciprocity (ratio 0.97), transitivity (1.04), and the
+  giant-SCC size (ratio 0.97). But they do **NOT** generate the extreme hub (ratio
+  **0.39** — super-linear attachment never closes the gap → hub is an irreducible
+  primitive) or Phase-10 consistency (a property of the activation matrix, not
+  topology — out of scope)
+- **Minimum set:** {attachment + reciprocity} = 2 rules reach ~100% of achievable
+  cosine; transitive closure near-redundant. **Ablation:** RULE_002 (reciprocity)
+  essential (cosine drop 0.357), RULE_001 0.027, RULE_003 0.005 — the local
+  structure is dominated by one reciprocity process. **More compressive than the
+  motif description** for local structure
+- **Falsification:** 1 claim SURVIVES (motif vocabulary), 2 FALSIFIED (hub,
+  consistency), 1 PARTIAL (SCC). **Robustness:** rule parameters stable under
+  10–20% edge removal
+- Builder: `scripts/build_grammar.py`; Validator: `scripts/validate_grammar.py`
+  (70 checks incl. simulation-confirms-generation invariant, byte-identical rebuild)
+- Reports: `rule-discovery-report.md`, `rule-generation-report.md`,
+  `rule-simulation-report.md`, `rule-ablation-report.md`,
+  `rule-falsification-report.md`, `phase12-final-report.md`
+
+Grammar verdict: the network's **local form** is the output of a simple robust
+generative process (degree-biased reciprocal edge formation, ~90% reproduced); its
+**global hub** and its **consistency** are irreducible primitives no local rule
+generates.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -442,11 +484,12 @@ python3 scripts/build_principles.py     && python3 scripts/validate_principles.p
 python3 scripts/build_motifs.py         && python3 scripts/validate_motifs.py         --rebuild
 python3 scripts/build_consistency.py    && python3 scripts/validate_consistency.py    --rebuild
 python3 scripts/build_validation.py     && python3 scripts/validate_validation.py     --rebuild
+python3 scripts/build_grammar.py        && python3 scripts/validate_grammar.py        --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 12 is **not started** by design. Open questions are recorded in
-`phase11-final-report.md §12`. Awaiting explicit instruction to proceed.
+Phase 13 is **not started** by design. Open questions are recorded in
+`phase12-final-report.md §10`. Awaiting explicit instruction to proceed.

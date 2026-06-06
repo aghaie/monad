@@ -1,0 +1,36 @@
+{
+ "definition": "each generation claim is attacked; only claims confirmed by simulation survive",
+ "method": "phase12-grammar-1.0",
+ "n_falsified": 2,
+ "n_survived": 1,
+ "tests": [
+  {
+   "claim": "rules generate the observed hub dominance",
+   "evidence": "simulated hub share 0.034 vs observed 0.087; super-linear attachment does not close the gap — the hub is not generated",
+   "observed": 0.087347,
+   "result": "FALSIFIED",
+   "simulated_mean": 0.033805
+  },
+  {
+   "claim": "rules generate Phase-10 consistency",
+   "evidence": "consistency is a property of the activation matrix M, not of graph topology; the grammar models only topology",
+   "result": "FALSIFIED (out of scope)"
+  },
+  {
+   "claim": "rules generate the exact giant SCC",
+   "evidence": "a large SCC emerges but its size/membership is not matched exactly",
+   "observed": 94,
+   "result": "PARTIAL",
+   "simulated_mean": 90.933333
+  },
+  {
+   "claim": "rules generate the 13-class motif vocabulary",
+   "evidence": "all 13 classes reproduced; triad-distribution cosine 0.91",
+   "observed": 13,
+   "result": "SURVIVES",
+   "simulated_cosine": 0.905465,
+   "simulated_mean": 13.0
+  }
+ ],
+ "verdict": "local generation (motif vocabulary) survives; global generation (hub, consistency, exact SCC) is falsified or out of scope — generation is PARTIAL and LOCAL"
+}

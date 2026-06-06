@@ -1,0 +1,99 @@
+{
+ "definition": "rule parameters (reciprocity, transitivity, hub share) re-measured under edge-removal perturbation of the observed graph",
+ "method": "phase12-grammar-1.0",
+ "observed": {
+  "hub_share": 0.087347,
+  "reciprocity": 0.611898,
+  "transitivity": 0.24991
+ },
+ "parameter_stability": {
+  "hub_share": {
+   "ci95_high": 0.091228,
+   "ci95_low": 0.084809,
+   "max": 0.091837,
+   "mean": 0.087836,
+   "min": 0.084507,
+   "n": 16,
+   "std": 0.001738
+  },
+  "reciprocity": {
+   "ci95_high": 0.563402,
+   "ci95_low": 0.479366,
+   "max": 0.566353,
+   "mean": 0.51995,
+   "min": 0.476415,
+   "n": 16,
+   "std": 0.029742
+  },
+  "transitivity": {
+   "ci95_high": 0.232878,
+   "ci95_low": 0.192319,
+   "max": 0.233684,
+   "mean": 0.213588,
+   "min": 0.191074,
+   "n": 16,
+   "std": 0.014066
+  }
+ },
+ "regimes": {
+  "edge_removal_10pct": {
+   "hub_share": {
+    "ci95_high": 0.0914,
+    "ci95_low": 0.085533,
+    "max": 0.091837,
+    "mean": 0.08818,
+    "min": 0.085313,
+    "n": 8,
+    "std": 0.001812
+   },
+   "reciprocity": {
+    "ci95_high": 0.564976,
+    "ci95_low": 0.52162,
+    "max": 0.566353,
+    "mean": 0.546753,
+    "min": 0.518359,
+    "n": 8,
+    "std": 0.014356
+   },
+   "transitivity": {
+    "ci95_high": 0.233308,
+    "ci95_low": 0.216917,
+    "max": 0.233684,
+    "mean": 0.225913,
+    "min": 0.216635,
+    "n": 8,
+    "std": 0.006188
+   }
+  },
+  "edge_removal_20pct": {
+   "hub_share": {
+    "ci95_high": 0.089903,
+    "ci95_low": 0.084819,
+    "max": 0.090212,
+    "mean": 0.087492,
+    "min": 0.084507,
+    "n": 8,
+    "std": 0.001587
+   },
+   "reciprocity": {
+    "ci95_high": 0.507576,
+    "ci95_low": 0.477792,
+    "max": 0.507711,
+    "mean": 0.493146,
+    "min": 0.476415,
+    "n": 8,
+    "std": 0.011235
+   },
+   "transitivity": {
+    "ci95_high": 0.211583,
+    "ci95_low": 0.191655,
+    "max": 0.212098,
+    "mean": 0.201263,
+    "min": 0.191074,
+    "n": 8,
+    "std": 0.00732
+   }
+  }
+ },
+ "verdict": "rule parameters are stable under perturbation — the rules are robust"
+}

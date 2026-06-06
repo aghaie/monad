@@ -1,0 +1,60 @@
+{
+ "ablations": {
+  "RULE_001": {
+   "classes_without": 13.0,
+   "cosine_drop": 0.026853,
+   "reciprocity_without": 0.53497,
+   "removed_transformation": "degree-proportional attachment",
+   "transitivity_without": 0.139818,
+   "triad_cosine_without": {
+    "ci95_high": 0.890719,
+    "ci95_low": 0.860957,
+    "max": 0.891752,
+    "mean": 0.878612,
+    "min": 0.859258,
+    "n": 15,
+    "std": 0.009343
+   }
+  },
+  "RULE_002": {
+   "classes_without": 12.733333,
+   "cosine_drop": 0.357321,
+   "reciprocity_without": 0.070255,
+   "removed_transformation": "reciprocity",
+   "transitivity_without": 0.426812,
+   "triad_cosine_without": {
+    "ci95_high": 0.590113,
+    "ci95_low": 0.524638,
+    "max": 0.596369,
+    "mean": 0.548144,
+    "min": 0.524038,
+    "n": 15,
+    "std": 0.020366
+   }
+  },
+  "RULE_003": {
+   "classes_without": 13.0,
+   "cosine_drop": 0.005155,
+   "reciprocity_without": 0.567705,
+   "removed_transformation": "transitive closure",
+   "transitivity_without": 0.213376,
+   "triad_cosine_without": {
+    "ci95_high": 0.918294,
+    "ci95_low": 0.881236,
+    "max": 0.922448,
+    "mean": 0.90031,
+    "min": 0.879919,
+    "n": 15,
+    "std": 0.010917
+   }
+  }
+ },
+ "full_model_cosine": 0.905465,
+ "importance_ranking": [
+  "RULE_002",
+  "RULE_001",
+  "RULE_003"
+ ],
+ "method": "phase12-grammar-1.0",
+ "most_important_rule": "RULE_002"
+}

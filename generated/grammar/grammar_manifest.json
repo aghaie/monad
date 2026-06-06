@@ -1,0 +1,81 @@
+{
+ "constants": {
+  "FIT_GAMMA": [
+   1.0,
+   1.5
+  ],
+  "FIT_RECIP": [
+   0.25,
+   0.3,
+   0.34,
+   0.38,
+   0.42
+  ],
+  "FIT_TRANS": [
+   0.15,
+   0.2,
+   0.25,
+   0.3
+  ],
+  "PROPERTY_TARGETS": [
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   0.95
+  ],
+  "ROBUST_RUNS": 8,
+  "ROUND": 6,
+  "SEED": 20261212,
+  "SIM_RUNS": 30
+ },
+ "input_sha256": {
+  "consistency_manifest.json": "11b56e5bc6a828906a78d1fdd3a8b1b74fab89945c34b386f682c2b85c0d9e23",
+  "motif_catalog.json": "9ace0ec6595c3c696093f28b5f64f88290f700e8157b37be6c603a6150270ef8",
+  "proposition_graph.json": "c9033e1cbbf46a3a776613f9b338a43b466a442dddbd0e1d5373cf74b2f9ec35",
+  "survivor_analysis.json": "7e799c852e5cfa2872d26739ac1b567cdf3e63ab92f43142a1e1ecded80d5bef"
+ },
+ "method": "phase12-grammar-1.0",
+ "output_bytes": {
+  "rule_ablation.json": 1356,
+  "rule_candidates.json": 3431,
+  "rule_falsification.json": 1339,
+  "rule_generation.json": 2007,
+  "rule_robustness.json": 2006,
+  "rule_simulation.json": 1865,
+  "rule_statistics.json": 1544
+ },
+ "prohibitions_observed": [
+  "no meaning",
+  "no theology",
+  "no translation",
+  "no tafsir",
+  "no external graph theory cited as explanation",
+  "no invented rules",
+  "no semantic rule names",
+  "generation claimed only where simulation confirms",
+  "rules are opaque measured transformations",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "falsification_falsified": 2,
+  "falsification_survived": 1,
+  "fitted_parameters": {
+   "f_recip": 0.38,
+   "f_trans": 0.15,
+   "fit_distance": 0.116972,
+   "gamma": 1.0,
+   "sim_reciprocity": 0.597419,
+   "sim_transitivity": 0.260389,
+   "sim_triad_cosine": 0.907986
+  },
+  "global_hub_generation": "falsified",
+  "hub_share_ratio": 0.387022,
+  "local_generation": "confirmed",
+  "most_important_rule": "RULE_002",
+  "motif_classes_reproduced": "13.0/13",
+  "n_rules": 3,
+  "triad_cosine": 0.905465
+ }
+}

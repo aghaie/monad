@@ -1,0 +1,63 @@
+{
+ "global_generation": {
+  "consistency_generated": false,
+  "consistency_note": "consistency is a property of the activation matrix M, not of graph topology; a topological grammar cannot generate it — out of scope, not a failure of the rules",
+  "hub_generated": false,
+  "hub_share_observed": 0.087347,
+  "hub_share_simulated": {
+   "ci95_high": 0.040864,
+   "ci95_low": 0.02755,
+   "max": 0.041549,
+   "mean": 0.033805,
+   "min": 0.025496,
+   "n": 30,
+   "std": 0.004121
+  },
+  "largest_scc_observed": 94,
+  "largest_scc_simulated": {
+   "ci95_high": 96.55,
+   "ci95_low": 85.625,
+   "max": 98.0,
+   "mean": 90.933333,
+   "min": 82.0,
+   "n": 30,
+   "std": 3.345976
+  },
+  "scc_generated": true,
+  "scope": "hub formation, giant SCC, compression, consistency",
+  "verdict": "the extreme hub is NOT generated — it is not an emergent product of the local rules (super-linear attachment does not reproduce it); it is an irreducible primitive (cf. Phase 11 hub SURVIVES STRONGLY). The giant SCC *size* is largely reproduced (ratio ~0.97) as an emergent consequence of reciprocity + density, but its exact membership is not tested. Consistency is out of scope (a property of the activation matrix, not of topology)."
+ },
+ "local_generation": {
+  "motif_classes_reproduced": "13.0/13",
+  "reciprocity_reproduced": {
+   "ci95_high": 0.630123,
+   "ci95_low": 0.554721,
+   "max": 0.638338,
+   "mean": 0.591313,
+   "min": 0.553352,
+   "n": 30,
+   "std": 0.021733
+  },
+  "scope": "motifs, small dependency chains, local graph structure",
+  "transitivity_reproduced": {
+   "ci95_high": 0.30193,
+   "ci95_low": 0.224332,
+   "max": 0.309961,
+   "mean": 0.26025,
+   "min": 0.217457,
+   "n": 30,
+   "std": 0.021155
+  },
+  "triad_distribution_cosine": {
+   "ci95_high": 0.922086,
+   "ci95_low": 0.886897,
+   "max": 0.922339,
+   "mean": 0.905465,
+   "min": 0.872617,
+   "n": 30,
+   "std": 0.010301
+  },
+  "verdict": "GENERATED — local structure is reproduced by RULE_001..003"
+ },
+ "method": "phase12-grammar-1.0"
+}

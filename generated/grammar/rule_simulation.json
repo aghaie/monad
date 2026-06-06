@@ -1,0 +1,93 @@
+{
+ "fitted_parameters": {
+  "f_recip": 0.38,
+  "f_trans": 0.15,
+  "fit_distance": 0.116972,
+  "gamma": 1.0,
+  "sim_reciprocity": 0.597419,
+  "sim_transitivity": 0.260389,
+  "sim_triad_cosine": 0.907986
+ },
+ "generation_accuracy": {
+  "hub_share_ratio": 0.387022,
+  "motif_classes_reproduced": 1.0,
+  "reciprocity_ratio": 0.966359,
+  "scc_ratio": 0.967376,
+  "transitivity_ratio": 1.041376,
+  "triad_distribution_cosine": {
+   "ci95_high": 0.922086,
+   "ci95_low": 0.886897,
+   "max": 0.922339,
+   "mean": 0.905465,
+   "min": 0.872617,
+   "n": 30,
+   "std": 0.010301
+  }
+ },
+ "method": "phase12-grammar-1.0",
+ "observed": {
+  "hub_share": 0.087347,
+  "largest_scc": 94,
+  "n_classes": 13,
+  "reciprocity": 0.611898,
+  "transitivity": 0.24991
+ },
+ "sim_runs": 30,
+ "simulated": {
+  "hub_share": {
+   "ci95_high": 0.040864,
+   "ci95_low": 0.02755,
+   "max": 0.041549,
+   "mean": 0.033805,
+   "min": 0.025496,
+   "n": 30,
+   "std": 0.004121
+  },
+  "largest_scc": {
+   "ci95_high": 96.55,
+   "ci95_low": 85.625,
+   "max": 98.0,
+   "mean": 90.933333,
+   "min": 82.0,
+   "n": 30,
+   "std": 3.345976
+  },
+  "n_classes": {
+   "ci95_high": 13.0,
+   "ci95_low": 13.0,
+   "max": 13.0,
+   "mean": 13.0,
+   "min": 13.0,
+   "n": 30,
+   "std": 0.0
+  },
+  "reciprocity": {
+   "ci95_high": 0.630123,
+   "ci95_low": 0.554721,
+   "max": 0.638338,
+   "mean": 0.591313,
+   "min": 0.553352,
+   "n": 30,
+   "std": 0.021733
+  },
+  "transitivity": {
+   "ci95_high": 0.30193,
+   "ci95_low": 0.224332,
+   "max": 0.309961,
+   "mean": 0.26025,
+   "min": 0.217457,
+   "n": 30,
+   "std": 0.021155
+  },
+  "triad_cosine": {
+   "ci95_high": 0.922086,
+   "ci95_low": 0.886897,
+   "max": 0.922339,
+   "mean": 0.905465,
+   "min": 0.872617,
+   "n": 30,
+   "std": 0.010301
+  }
+ },
+ "verdict": "local motif vocabulary GENERATED (cosine 0.91, all classes); global hub dominance NOT generated (ratio 0.39)"
+}
