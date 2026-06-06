@@ -1,0 +1,56 @@
+{
+ "constants": {
+  "CENTER_TOP": 5,
+  "EIG_ITERS": 200,
+  "GRAPH_MIN_EDGE": 0.02,
+  "K_CLIQUE": 4,
+  "LEMMA_THR": 0.3,
+  "LPA_ITERS": 100,
+  "MAX_SIZE": 40,
+  "MIN_EDGE": 0.3,
+  "PERTURB": [
+   0.28,
+   0.32
+  ],
+  "REL_TOP": 8,
+  "ROUND": 6,
+  "THR_CAP": 0.6,
+  "THR_STEP": 0.03
+ },
+ "input_sha256": {
+  "distribution_profiles.json": "645d1659142f14249adaf881649970083f7ad4b4935d39fbf391112c75ce2163",
+  "lemma_profiles.json": "049aebf57f81b0e37112cbe4fe061a9d88b55ab8542e948be9e52640640e9b2c",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c",
+  "root_profiles.json": "bcb656a7f4db2fd7d3d588d561479ac9bbc66f229e8fb117c3e71f96bbbb382d",
+  "semantic_neighbors.json": "599dfaee21a850264a0080c09cf95ce4d0aaafc9141b3249b54ca7261a0db4db"
+ },
+ "method": "phase3-concepts-1.0",
+ "output_bytes": {
+  "concept_candidates.json": 595649,
+  "concept_centers.json": 64321,
+  "concept_graph.json": 70321,
+  "concept_memberships.json": 656910,
+  "concept_relationships.json": 46293,
+  "concept_statistics.json": 3155
+ },
+ "prohibitions_observed": [
+  "no ontology",
+  "no propositions",
+  "no contradiction engine",
+  "no axioms",
+  "no theology",
+  "no interpretation",
+  "no doctrine",
+  "no origin claims",
+  "no concept translation",
+  "no semantic labels",
+  "no external knowledge",
+  "concepts discovered not invented"
+ ],
+ "totals": {
+  "concept_count": 103,
+  "concept_graph_edges": 329,
+  "lemmas_attached": 2264,
+  "roots_clustered": 735
+ }
+}

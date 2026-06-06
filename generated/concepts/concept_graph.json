@@ -1,0 +1,3245 @@
+{
+ "directed": false,
+ "edge_attributes": [
+  "weight",
+  "shared_members",
+  "semantic_overlap"
+ ],
+ "edge_count": 329,
+ "edges": [
+  {
+   "semantic_overlap": 0.354938,
+   "shared_members": 0.046875,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_002",
+   "weight": 0.200906
+  },
+  {
+   "semantic_overlap": 0.212257,
+   "shared_members": 0.015385,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_003",
+   "weight": 0.113821
+  },
+  {
+   "semantic_overlap": 0.478942,
+   "shared_members": 0.065574,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_004",
+   "weight": 0.272258
+  },
+  {
+   "semantic_overlap": 0.130769,
+   "shared_members": 0.018519,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_008",
+   "weight": 0.074644
+  },
+  {
+   "semantic_overlap": 0.213701,
+   "shared_members": 0.02,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_013",
+   "weight": 0.116851
+  },
+  {
+   "semantic_overlap": 0.043012,
+   "shared_members": 0.0,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_015",
+   "weight": 0.021506
+  },
+  {
+   "semantic_overlap": 0.079195,
+   "shared_members": 0.0,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_019",
+   "weight": 0.039597
+  },
+  {
+   "semantic_overlap": 0.130822,
+   "shared_members": 0.021277,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_020",
+   "weight": 0.076049
+  },
+  {
+   "semantic_overlap": 0.123057,
+   "shared_members": 0.021739,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_022",
+   "weight": 0.072398
+  },
+  {
+   "semantic_overlap": 0.300512,
+   "shared_members": 0.046512,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_027",
+   "weight": 0.173512
+  },
+  {
+   "semantic_overlap": 0.056822,
+   "shared_members": 0.0,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_035",
+   "weight": 0.028411
+  },
+  {
+   "semantic_overlap": 0.248658,
+   "shared_members": 0.025641,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_055",
+   "weight": 0.137149
+  },
+  {
+   "semantic_overlap": 0.096107,
+   "shared_members": 0.027027,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_073",
+   "weight": 0.061567
+  },
+  {
+   "semantic_overlap": 0.051443,
+   "shared_members": 0.0,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_074",
+   "weight": 0.025722
+  },
+  {
+   "semantic_overlap": 0.148854,
+   "shared_members": 0.027027,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_078",
+   "weight": 0.087941
+  },
+  {
+   "semantic_overlap": 0.071621,
+   "shared_members": 0.0,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_079",
+   "weight": 0.03581
+  },
+  {
+   "semantic_overlap": 0.086302,
+   "shared_members": 0.027027,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_087",
+   "weight": 0.056664
+  },
+  {
+   "semantic_overlap": 0.31181,
+   "shared_members": 0.055556,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_090",
+   "weight": 0.183683
+  },
+  {
+   "semantic_overlap": 0.250625,
+   "shared_members": 0.027027,
+   "source": "CONCEPT_001",
+   "target": "CONCEPT_091",
+   "weight": 0.138826
+  },
+  {
+   "semantic_overlap": 0.416969,
+   "shared_members": 0.066667,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_004",
+   "weight": 0.241818
+  },
+  {
+   "semantic_overlap": 0.327606,
+   "shared_members": 0.038462,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_009",
+   "weight": 0.183034
+  },
+  {
+   "semantic_overlap": 0.18254,
+   "shared_members": 0.020408,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_013",
+   "weight": 0.101474
+  },
+  {
+   "semantic_overlap": 0.143393,
+   "shared_members": 0.021739,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_019",
+   "weight": 0.082566
+  },
+  {
+   "semantic_overlap": 0.163359,
+   "shared_members": 0.022222,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_022",
+   "weight": 0.092791
+  },
+  {
+   "semantic_overlap": 0.042974,
+   "shared_members": 0.0,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_033",
+   "weight": 0.021487
+  },
+  {
+   "semantic_overlap": 0.58575,
+   "shared_members": 0.078947,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_035",
+   "weight": 0.332349
+  },
+  {
+   "semantic_overlap": 0.114338,
+   "shared_members": 0.025,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_038",
+   "weight": 0.069669
+  },
+  {
+   "semantic_overlap": 0.202663,
+   "shared_members": 0.026316,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_055",
+   "weight": 0.114489
+  },
+  {
+   "semantic_overlap": 0.053257,
+   "shared_members": 0.0,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_056",
+   "weight": 0.026628
+  },
+  {
+   "semantic_overlap": 0.367111,
+   "shared_members": 0.055556,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_067",
+   "weight": 0.211333
+  },
+  {
+   "semantic_overlap": 0.047934,
+   "shared_members": 0.0,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_075",
+   "weight": 0.023967
+  },
+  {
+   "semantic_overlap": 0.049875,
+   "shared_members": 0.0,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_078",
+   "weight": 0.024937
+  },
+  {
+   "semantic_overlap": 0.128766,
+   "shared_members": 0.027778,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_083",
+   "weight": 0.078272
+  },
+  {
+   "semantic_overlap": 0.237374,
+   "shared_members": 0.057143,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_090",
+   "weight": 0.147258
+  },
+  {
+   "semantic_overlap": 0.259021,
+   "shared_members": 0.057143,
+   "source": "CONCEPT_002",
+   "target": "CONCEPT_091",
+   "weight": 0.158082
+  },
+  {
+   "semantic_overlap": 0.15035,
+   "shared_members": 0.016129,
+   "source": "CONCEPT_003",
+   "target": "CONCEPT_004",
+   "weight": 0.08324
+  },
+  {
+   "semantic_overlap": 0.234367,
+   "shared_members": 0.037037,
+   "source": "CONCEPT_003",
+   "target": "CONCEPT_007",
+   "weight": 0.135702
+  },
+  {
+   "semantic_overlap": 0.111819,
+   "shared_members": 0.020408,
+   "source": "CONCEPT_003",
+   "target": "CONCEPT_010",
+   "weight": 0.066114
+  },
+  {
+   "semantic_overlap": 0.245334,
+   "shared_members": 0.052632,
+   "source": "CONCEPT_003",
+   "target": "CONCEPT_034",
+   "weight": 0.148983
+  },
+  {
+   "semantic_overlap": 0.122645,
+   "shared_members": 0.027027,
+   "source": "CONCEPT_003",
+   "target": "CONCEPT_053",
+   "weight": 0.074836
+  },
+  {
+   "semantic_overlap": 0.110955,
+   "shared_members": 0.027778,
+   "source": "CONCEPT_003",
+   "target": "CONCEPT_061",
+   "weight": 0.069366
+  },
+  {
+   "semantic_overlap": 0.133376,
+   "shared_members": 0.028571,
+   "source": "CONCEPT_003",
+   "target": "CONCEPT_081",
+   "weight": 0.080974
+  },
+  {
+   "semantic_overlap": 0.088478,
+   "shared_members": 0.028571,
+   "source": "CONCEPT_003",
+   "target": "CONCEPT_088",
+   "weight": 0.058525
+  },
+  {
+   "semantic_overlap": 0.064091,
+   "shared_members": 0.0,
+   "source": "CONCEPT_003",
+   "target": "CONCEPT_090",
+   "weight": 0.032045
+  },
+  {
+   "semantic_overlap": 0.067016,
+   "shared_members": 0.0,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_007",
+   "weight": 0.033508
+  },
+  {
+   "semantic_overlap": 0.186634,
+   "shared_members": 0.020833,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_012",
+   "weight": 0.103734
+  },
+  {
+   "semantic_overlap": 0.058629,
+   "shared_members": 0.021277,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_013",
+   "weight": 0.039953
+  },
+  {
+   "semantic_overlap": 0.042518,
+   "shared_members": 0.0,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_016",
+   "weight": 0.021259
+  },
+  {
+   "semantic_overlap": 0.105722,
+   "shared_members": 0.025641,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_033",
+   "weight": 0.065681
+  },
+  {
+   "semantic_overlap": 0.063733,
+   "shared_members": 0.0,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_034",
+   "weight": 0.031866
+  },
+  {
+   "semantic_overlap": 0.045387,
+   "shared_members": 0.0,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_035",
+   "weight": 0.022694
+  },
+  {
+   "semantic_overlap": 0.189309,
+   "shared_members": 0.027027,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_040",
+   "weight": 0.108168
+  },
+  {
+   "semantic_overlap": 0.1674,
+   "shared_members": 0.027778,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_050",
+   "weight": 0.097589
+  },
+  {
+   "semantic_overlap": 0.12373,
+   "shared_members": 0.027778,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_055",
+   "weight": 0.075754
+  },
+  {
+   "semantic_overlap": 0.068386,
+   "shared_members": 0.0,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_060",
+   "weight": 0.034193
+  },
+  {
+   "semantic_overlap": 0.087204,
+   "shared_members": 0.029412,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_085",
+   "weight": 0.058308
+  },
+  {
+   "semantic_overlap": 0.267167,
+   "shared_members": 0.060606,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_090",
+   "weight": 0.163887
+  },
+  {
+   "semantic_overlap": 0.060344,
+   "shared_members": 0.0,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_091",
+   "weight": 0.030172
+  },
+  {
+   "semantic_overlap": 0.187898,
+   "shared_members": 0.029412,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_097",
+   "weight": 0.108655
+  },
+  {
+   "semantic_overlap": 0.179645,
+   "shared_members": 0.029412,
+   "source": "CONCEPT_004",
+   "target": "CONCEPT_101",
+   "weight": 0.104528
+  },
+  {
+   "semantic_overlap": 0.161328,
+   "shared_members": 0.02439,
+   "source": "CONCEPT_005",
+   "target": "CONCEPT_016",
+   "weight": 0.092859
+  },
+  {
+   "semantic_overlap": 0.191285,
+   "shared_members": 0.026316,
+   "source": "CONCEPT_005",
+   "target": "CONCEPT_023",
+   "weight": 0.1088
+  },
+  {
+   "semantic_overlap": 0.228207,
+   "shared_members": 0.027027,
+   "source": "CONCEPT_005",
+   "target": "CONCEPT_024",
+   "weight": 0.127617
+  },
+  {
+   "semantic_overlap": 0.174341,
+   "shared_members": 0.029412,
+   "source": "CONCEPT_005",
+   "target": "CONCEPT_033",
+   "weight": 0.101877
+  },
+  {
+   "semantic_overlap": 0.172599,
+   "shared_members": 0.03125,
+   "source": "CONCEPT_005",
+   "target": "CONCEPT_045",
+   "weight": 0.101925
+  },
+  {
+   "semantic_overlap": 0.165973,
+   "shared_members": 0.032258,
+   "source": "CONCEPT_005",
+   "target": "CONCEPT_046",
+   "weight": 0.099115
+  },
+  {
+   "semantic_overlap": 0.125417,
+   "shared_members": 0.033333,
+   "source": "CONCEPT_005",
+   "target": "CONCEPT_071",
+   "weight": 0.079375
+  },
+  {
+   "semantic_overlap": 0.193922,
+   "shared_members": 0.034483,
+   "source": "CONCEPT_005",
+   "target": "CONCEPT_072",
+   "weight": 0.114203
+  },
+  {
+   "semantic_overlap": 0.312407,
+   "shared_members": 0.071429,
+   "source": "CONCEPT_005",
+   "target": "CONCEPT_083",
+   "weight": 0.191918
+  },
+  {
+   "semantic_overlap": 0.118675,
+   "shared_members": 0.027778,
+   "source": "CONCEPT_006",
+   "target": "CONCEPT_024",
+   "weight": 0.073226
+  },
+  {
+   "semantic_overlap": 0.050289,
+   "shared_members": 0.0,
+   "source": "CONCEPT_006",
+   "target": "CONCEPT_037",
+   "weight": 0.025144
+  },
+  {
+   "semantic_overlap": 0.1887,
+   "shared_members": 0.032258,
+   "source": "CONCEPT_006",
+   "target": "CONCEPT_040",
+   "weight": 0.110479
+  },
+  {
+   "semantic_overlap": 0.075481,
+   "shared_members": 0.032258,
+   "source": "CONCEPT_006",
+   "target": "CONCEPT_044",
+   "weight": 0.053869
+  },
+  {
+   "semantic_overlap": 0.110645,
+   "shared_members": 0.033333,
+   "source": "CONCEPT_006",
+   "target": "CONCEPT_049",
+   "weight": 0.071989
+  },
+  {
+   "semantic_overlap": 0.358393,
+   "shared_members": 0.074074,
+   "source": "CONCEPT_006",
+   "target": "CONCEPT_101",
+   "weight": 0.216234
+  },
+  {
+   "semantic_overlap": 0.212574,
+   "shared_members": 0.035714,
+   "source": "CONCEPT_006",
+   "target": "CONCEPT_103",
+   "weight": 0.124144
+  },
+  {
+   "semantic_overlap": 0.06216,
+   "shared_members": 0.0,
+   "source": "CONCEPT_007",
+   "target": "CONCEPT_008",
+   "weight": 0.03108
+  },
+  {
+   "semantic_overlap": 0.094375,
+   "shared_members": 0.0,
+   "source": "CONCEPT_007",
+   "target": "CONCEPT_015",
+   "weight": 0.047188
+  },
+  {
+   "semantic_overlap": 0.120945,
+   "shared_members": 0.0,
+   "source": "CONCEPT_007",
+   "target": "CONCEPT_016",
+   "weight": 0.060472
+  },
+  {
+   "semantic_overlap": 0.12913,
+   "shared_members": 0.032258,
+   "source": "CONCEPT_007",
+   "target": "CONCEPT_034",
+   "weight": 0.080694
+  },
+  {
+   "semantic_overlap": 0.338974,
+   "shared_members": 0.034483,
+   "source": "CONCEPT_007",
+   "target": "CONCEPT_053",
+   "weight": 0.186729
+  },
+  {
+   "semantic_overlap": 0.050275,
+   "shared_members": 0.0,
+   "source": "CONCEPT_007",
+   "target": "CONCEPT_060",
+   "weight": 0.025138
+  },
+  {
+   "semantic_overlap": 0.191824,
+   "shared_members": 0.0,
+   "source": "CONCEPT_007",
+   "target": "CONCEPT_061",
+   "weight": 0.095912
+  },
+  {
+   "semantic_overlap": 0.696066,
+   "shared_members": 0.12,
+   "source": "CONCEPT_007",
+   "target": "CONCEPT_081",
+   "weight": 0.408033
+  },
+  {
+   "semantic_overlap": 0.51046,
+   "shared_members": 0.076923,
+   "source": "CONCEPT_007",
+   "target": "CONCEPT_084",
+   "weight": 0.293692
+  },
+  {
+   "semantic_overlap": 0.158055,
+   "shared_members": 0.0,
+   "source": "CONCEPT_007",
+   "target": "CONCEPT_085",
+   "weight": 0.079027
+  },
+  {
+   "semantic_overlap": 0.219547,
+   "shared_members": 0.037037,
+   "source": "CONCEPT_007",
+   "target": "CONCEPT_088",
+   "weight": 0.128292
+  },
+  {
+   "semantic_overlap": 0.103539,
+   "shared_members": 0.027027,
+   "source": "CONCEPT_008",
+   "target": "CONCEPT_013",
+   "weight": 0.065283
+  },
+  {
+   "semantic_overlap": 0.262442,
+   "shared_members": 0.028571,
+   "source": "CONCEPT_008",
+   "target": "CONCEPT_017",
+   "weight": 0.145507
+  },
+  {
+   "semantic_overlap": 0.186925,
+   "shared_members": 0.032258,
+   "source": "CONCEPT_008",
+   "target": "CONCEPT_027",
+   "weight": 0.109592
+  },
+  {
+   "semantic_overlap": 0.249268,
+   "shared_members": 0.033333,
+   "source": "CONCEPT_008",
+   "target": "CONCEPT_030",
+   "weight": 0.141301
+  },
+  {
+   "semantic_overlap": 0.202328,
+   "shared_members": 0.037037,
+   "source": "CONCEPT_008",
+   "target": "CONCEPT_045",
+   "weight": 0.119682
+  },
+  {
+   "semantic_overlap": 0.049648,
+   "shared_members": 0.0,
+   "source": "CONCEPT_009",
+   "target": "CONCEPT_022",
+   "weight": 0.024824
+  },
+  {
+   "semantic_overlap": 0.302003,
+   "shared_members": 0.035714,
+   "source": "CONCEPT_009",
+   "target": "CONCEPT_035",
+   "weight": 0.168859
+  },
+  {
+   "semantic_overlap": 0.561373,
+   "shared_members": 0.08,
+   "source": "CONCEPT_009",
+   "target": "CONCEPT_056",
+   "weight": 0.320686
+  },
+  {
+   "semantic_overlap": 0.741414,
+   "shared_members": 0.181818,
+   "source": "CONCEPT_009",
+   "target": "CONCEPT_067",
+   "weight": 0.461616
+  },
+  {
+   "semantic_overlap": 0.056659,
+   "shared_members": 0.0,
+   "source": "CONCEPT_010",
+   "target": "CONCEPT_013",
+   "weight": 0.02833
+  },
+  {
+   "semantic_overlap": 0.071099,
+   "shared_members": 0.0,
+   "source": "CONCEPT_010",
+   "target": "CONCEPT_032",
+   "weight": 0.035549
+  },
+  {
+   "semantic_overlap": 0.15693,
+   "shared_members": 0.04,
+   "source": "CONCEPT_010",
+   "target": "CONCEPT_038",
+   "weight": 0.098465
+  },
+  {
+   "semantic_overlap": 0.043694,
+   "shared_members": 0.0,
+   "source": "CONCEPT_010",
+   "target": "CONCEPT_044",
+   "weight": 0.021847
+  },
+  {
+   "semantic_overlap": 0.07156,
+   "shared_members": 0.0,
+   "source": "CONCEPT_010",
+   "target": "CONCEPT_055",
+   "weight": 0.03578
+  },
+  {
+   "semantic_overlap": 0.16172,
+   "shared_members": 0.045455,
+   "source": "CONCEPT_010",
+   "target": "CONCEPT_058",
+   "weight": 0.103587
+  },
+  {
+   "semantic_overlap": 0.283792,
+   "shared_members": 0.045455,
+   "source": "CONCEPT_010",
+   "target": "CONCEPT_062",
+   "weight": 0.164623
+  },
+  {
+   "semantic_overlap": 0.489182,
+   "shared_members": 0.095238,
+   "source": "CONCEPT_010",
+   "target": "CONCEPT_071",
+   "weight": 0.29221
+  },
+  {
+   "semantic_overlap": 0.340647,
+   "shared_members": 0.1,
+   "source": "CONCEPT_010",
+   "target": "CONCEPT_093",
+   "weight": 0.220323
+  },
+  {
+   "semantic_overlap": 0.048184,
+   "shared_members": 0.0,
+   "source": "CONCEPT_010",
+   "target": "CONCEPT_102",
+   "weight": 0.024092
+  },
+  {
+   "semantic_overlap": 0.193229,
+   "shared_members": 0.030303,
+   "source": "CONCEPT_011",
+   "target": "CONCEPT_015",
+   "weight": 0.111766
+  },
+  {
+   "semantic_overlap": 0.282283,
+   "shared_members": 0.034483,
+   "source": "CONCEPT_011",
+   "target": "CONCEPT_025",
+   "weight": 0.158383
+  },
+  {
+   "semantic_overlap": 0.220391,
+   "shared_members": 0.04,
+   "source": "CONCEPT_011",
+   "target": "CONCEPT_037",
+   "weight": 0.130195
+  },
+  {
+   "semantic_overlap": 0.206782,
+   "shared_members": 0.047619,
+   "source": "CONCEPT_011",
+   "target": "CONCEPT_082",
+   "weight": 0.1272
+  },
+  {
+   "semantic_overlap": 0.233584,
+   "shared_members": 0.047619,
+   "source": "CONCEPT_011",
+   "target": "CONCEPT_092",
+   "weight": 0.140602
+  },
+  {
+   "semantic_overlap": 0.044016,
+   "shared_members": 0.0,
+   "source": "CONCEPT_011",
+   "target": "CONCEPT_094",
+   "weight": 0.022008
+  },
+  {
+   "semantic_overlap": 0.118766,
+   "shared_members": 0.035714,
+   "source": "CONCEPT_012",
+   "target": "CONCEPT_027",
+   "weight": 0.07724
+  },
+  {
+   "semantic_overlap": 0.367903,
+   "shared_members": 0.086957,
+   "source": "CONCEPT_012",
+   "target": "CONCEPT_044",
+   "weight": 0.22743
+  },
+  {
+   "semantic_overlap": 0.06278,
+   "shared_members": 0.0,
+   "source": "CONCEPT_013",
+   "target": "CONCEPT_015",
+   "weight": 0.03139
+  },
+  {
+   "semantic_overlap": 0.071304,
+   "shared_members": 0.0,
+   "source": "CONCEPT_013",
+   "target": "CONCEPT_019",
+   "weight": 0.035652
+  },
+  {
+   "semantic_overlap": 0.04797,
+   "shared_members": 0.0,
+   "source": "CONCEPT_013",
+   "target": "CONCEPT_025",
+   "weight": 0.023985
+  },
+  {
+   "semantic_overlap": 0.43985,
+   "shared_members": 0.076923,
+   "source": "CONCEPT_013",
+   "target": "CONCEPT_027",
+   "weight": 0.258386
+  },
+  {
+   "semantic_overlap": 0.050595,
+   "shared_members": 0.0,
+   "source": "CONCEPT_013",
+   "target": "CONCEPT_035",
+   "weight": 0.025297
+  },
+  {
+   "semantic_overlap": 0.393694,
+   "shared_members": 0.1,
+   "source": "CONCEPT_013",
+   "target": "CONCEPT_071",
+   "weight": 0.246847
+  },
+  {
+   "semantic_overlap": 0.215072,
+   "shared_members": 0.05,
+   "source": "CONCEPT_013",
+   "target": "CONCEPT_073",
+   "weight": 0.132536
+  },
+  {
+   "semantic_overlap": 0.149893,
+   "shared_members": 0.05,
+   "source": "CONCEPT_013",
+   "target": "CONCEPT_074",
+   "weight": 0.099946
+  },
+  {
+   "semantic_overlap": 0.057089,
+   "shared_members": 0.0,
+   "source": "CONCEPT_013",
+   "target": "CONCEPT_091",
+   "weight": 0.028544
+  },
+  {
+   "semantic_overlap": 0.112905,
+   "shared_members": 0.034483,
+   "source": "CONCEPT_014",
+   "target": "CONCEPT_020",
+   "weight": 0.073694
+  },
+  {
+   "semantic_overlap": 0.189752,
+   "shared_members": 0.034483,
+   "source": "CONCEPT_015",
+   "target": "CONCEPT_019",
+   "weight": 0.112117
+  },
+  {
+   "semantic_overlap": 0.157977,
+   "shared_members": 0.038462,
+   "source": "CONCEPT_015",
+   "target": "CONCEPT_027",
+   "weight": 0.098219
+  },
+  {
+   "semantic_overlap": 0.142175,
+   "shared_members": 0.043478,
+   "source": "CONCEPT_015",
+   "target": "CONCEPT_035",
+   "weight": 0.092827
+  },
+  {
+   "semantic_overlap": 0.085938,
+   "shared_members": 0.0,
+   "source": "CONCEPT_015",
+   "target": "CONCEPT_073",
+   "weight": 0.042969
+  },
+  {
+   "semantic_overlap": 0.103417,
+   "shared_members": 0.0,
+   "source": "CONCEPT_015",
+   "target": "CONCEPT_074",
+   "weight": 0.051708
+  },
+  {
+   "semantic_overlap": 0.123458,
+   "shared_members": 0.0,
+   "source": "CONCEPT_015",
+   "target": "CONCEPT_079",
+   "weight": 0.061729
+  },
+  {
+   "semantic_overlap": 0.175594,
+   "shared_members": 0.052632,
+   "source": "CONCEPT_015",
+   "target": "CONCEPT_091",
+   "weight": 0.114113
+  },
+  {
+   "semantic_overlap": 0.069328,
+   "shared_members": 0.0,
+   "source": "CONCEPT_015",
+   "target": "CONCEPT_098",
+   "weight": 0.034664
+  },
+  {
+   "semantic_overlap": 0.046513,
+   "shared_members": 0.0,
+   "source": "CONCEPT_016",
+   "target": "CONCEPT_020",
+   "weight": 0.023256
+  },
+  {
+   "semantic_overlap": 0.140867,
+   "shared_members": 0.038462,
+   "source": "CONCEPT_016",
+   "target": "CONCEPT_027",
+   "weight": 0.089664
+  },
+  {
+   "semantic_overlap": 0.202817,
+   "shared_members": 0.043478,
+   "source": "CONCEPT_016",
+   "target": "CONCEPT_034",
+   "weight": 0.123148
+  },
+  {
+   "semantic_overlap": 0.23505,
+   "shared_members": 0.043478,
+   "source": "CONCEPT_016",
+   "target": "CONCEPT_036",
+   "weight": 0.139264
+  },
+  {
+   "semantic_overlap": 0.300511,
+   "shared_members": 0.047619,
+   "source": "CONCEPT_016",
+   "target": "CONCEPT_049",
+   "weight": 0.174065
+  },
+  {
+   "semantic_overlap": 0.343516,
+   "shared_members": 0.105263,
+   "source": "CONCEPT_016",
+   "target": "CONCEPT_060",
+   "weight": 0.224389
+  },
+  {
+   "semantic_overlap": 0.332778,
+   "shared_members": 0.111111,
+   "source": "CONCEPT_016",
+   "target": "CONCEPT_072",
+   "weight": 0.221944
+  },
+  {
+   "semantic_overlap": 0.49157,
+   "shared_members": 0.111111,
+   "source": "CONCEPT_016",
+   "target": "CONCEPT_097",
+   "weight": 0.30134
+  },
+  {
+   "semantic_overlap": 0.05154,
+   "shared_members": 0.0,
+   "source": "CONCEPT_017",
+   "target": "CONCEPT_037",
+   "weight": 0.02577
+  },
+  {
+   "semantic_overlap": 0.045716,
+   "shared_members": 0.0,
+   "source": "CONCEPT_017",
+   "target": "CONCEPT_058",
+   "weight": 0.022858
+  },
+  {
+   "semantic_overlap": 0.348551,
+   "shared_members": 0.052632,
+   "source": "CONCEPT_017",
+   "target": "CONCEPT_066",
+   "weight": 0.200591
+  },
+  {
+   "semantic_overlap": 0.67972,
+   "shared_members": 0.117647,
+   "source": "CONCEPT_017",
+   "target": "CONCEPT_077",
+   "weight": 0.398683
+  },
+  {
+   "semantic_overlap": 0.326841,
+   "shared_members": 0.041667,
+   "source": "CONCEPT_018",
+   "target": "CONCEPT_029",
+   "weight": 0.184254
+  },
+  {
+   "semantic_overlap": 0.167243,
+   "shared_members": 0.052632,
+   "source": "CONCEPT_018",
+   "target": "CONCEPT_063",
+   "weight": 0.109937
+  },
+  {
+   "semantic_overlap": 0.411765,
+   "shared_members": 0.055556,
+   "source": "CONCEPT_018",
+   "target": "CONCEPT_101",
+   "weight": 0.23366
+  },
+  {
+   "semantic_overlap": 0.259541,
+   "shared_members": 0.041667,
+   "source": "CONCEPT_019",
+   "target": "CONCEPT_027",
+   "weight": 0.150604
+  },
+  {
+   "semantic_overlap": 0.068112,
+   "shared_members": 0.0,
+   "source": "CONCEPT_019",
+   "target": "CONCEPT_035",
+   "weight": 0.034056
+  },
+  {
+   "semantic_overlap": 0.257643,
+   "shared_members": 0.047619,
+   "source": "CONCEPT_019",
+   "target": "CONCEPT_038",
+   "weight": 0.152631
+  },
+  {
+   "semantic_overlap": 0.107158,
+   "shared_members": 0.05,
+   "source": "CONCEPT_019",
+   "target": "CONCEPT_040",
+   "weight": 0.078579
+  },
+  {
+   "semantic_overlap": 0.045569,
+   "shared_members": 0.0,
+   "source": "CONCEPT_019",
+   "target": "CONCEPT_046",
+   "weight": 0.022785
+  },
+  {
+   "semantic_overlap": 0.05005,
+   "shared_members": 0.0,
+   "source": "CONCEPT_019",
+   "target": "CONCEPT_055",
+   "weight": 0.025025
+  },
+  {
+   "semantic_overlap": 0.056352,
+   "shared_members": 0.0,
+   "source": "CONCEPT_019",
+   "target": "CONCEPT_074",
+   "weight": 0.028176
+  },
+  {
+   "semantic_overlap": 0.379356,
+   "shared_members": 0.125,
+   "source": "CONCEPT_019",
+   "target": "CONCEPT_079",
+   "weight": 0.252178
+  },
+  {
+   "semantic_overlap": 0.05329,
+   "shared_members": 0.0,
+   "source": "CONCEPT_019",
+   "target": "CONCEPT_080",
+   "weight": 0.026645
+  },
+  {
+   "semantic_overlap": 0.066404,
+   "shared_members": 0.0,
+   "source": "CONCEPT_019",
+   "target": "CONCEPT_091",
+   "weight": 0.033202
+  },
+  {
+   "semantic_overlap": 0.168714,
+   "shared_members": 0.058824,
+   "source": "CONCEPT_019",
+   "target": "CONCEPT_098",
+   "weight": 0.113769
+  },
+  {
+   "semantic_overlap": 0.096675,
+   "shared_members": 0.04,
+   "source": "CONCEPT_020",
+   "target": "CONCEPT_025",
+   "weight": 0.068338
+  },
+  {
+   "semantic_overlap": 0.047559,
+   "shared_members": 0.0,
+   "source": "CONCEPT_020",
+   "target": "CONCEPT_034",
+   "weight": 0.02378
+  },
+  {
+   "semantic_overlap": 0.087072,
+   "shared_members": 0.0,
+   "source": "CONCEPT_020",
+   "target": "CONCEPT_036",
+   "weight": 0.043536
+  },
+  {
+   "semantic_overlap": 0.278356,
+   "shared_members": 0.05,
+   "source": "CONCEPT_020",
+   "target": "CONCEPT_042",
+   "weight": 0.164178
+  },
+  {
+   "semantic_overlap": 0.209613,
+   "shared_members": 0.058824,
+   "source": "CONCEPT_020",
+   "target": "CONCEPT_072",
+   "weight": 0.134218
+  },
+  {
+   "semantic_overlap": 0.106028,
+   "shared_members": 0.0,
+   "source": "CONCEPT_021",
+   "target": "CONCEPT_030",
+   "weight": 0.053014
+  },
+  {
+   "semantic_overlap": 0.166019,
+   "shared_members": 0.0,
+   "source": "CONCEPT_021",
+   "target": "CONCEPT_033",
+   "weight": 0.083009
+  },
+  {
+   "semantic_overlap": 0.050993,
+   "shared_members": 0.0,
+   "source": "CONCEPT_021",
+   "target": "CONCEPT_036",
+   "weight": 0.025497
+  },
+  {
+   "semantic_overlap": 1.0,
+   "shared_members": 0.166667,
+   "source": "CONCEPT_021",
+   "target": "CONCEPT_039",
+   "weight": 0.583333
+  },
+  {
+   "semantic_overlap": 0.506812,
+   "shared_members": 0.0,
+   "source": "CONCEPT_021",
+   "target": "CONCEPT_048",
+   "weight": 0.253406
+  },
+  {
+   "semantic_overlap": 0.560778,
+   "shared_members": 0.0,
+   "source": "CONCEPT_021",
+   "target": "CONCEPT_076",
+   "weight": 0.280389
+  },
+  {
+   "semantic_overlap": 0.548375,
+   "shared_members": 0.125,
+   "source": "CONCEPT_021",
+   "target": "CONCEPT_089",
+   "weight": 0.336688
+  },
+  {
+   "semantic_overlap": 0.139936,
+   "shared_members": 0.055556,
+   "source": "CONCEPT_022",
+   "target": "CONCEPT_056",
+   "weight": 0.097746
+  },
+  {
+   "semantic_overlap": 0.044231,
+   "shared_members": 0.0,
+   "source": "CONCEPT_022",
+   "target": "CONCEPT_090",
+   "weight": 0.022116
+  },
+  {
+   "semantic_overlap": 0.264207,
+   "shared_members": 0.058824,
+   "source": "CONCEPT_023",
+   "target": "CONCEPT_070",
+   "weight": 0.161515
+  },
+  {
+   "semantic_overlap": 0.155452,
+   "shared_members": 0.043478,
+   "source": "CONCEPT_024",
+   "target": "CONCEPT_026",
+   "weight": 0.099465
+  },
+  {
+   "semantic_overlap": 0.206292,
+   "shared_members": 0.052632,
+   "source": "CONCEPT_024",
+   "target": "CONCEPT_037",
+   "weight": 0.129462
+  },
+  {
+   "semantic_overlap": 0.268903,
+   "shared_members": 0.055556,
+   "source": "CONCEPT_024",
+   "target": "CONCEPT_042",
+   "weight": 0.162229
+  },
+  {
+   "semantic_overlap": 0.055406,
+   "shared_members": 0.0,
+   "source": "CONCEPT_024",
+   "target": "CONCEPT_049",
+   "weight": 0.027703
+  },
+  {
+   "semantic_overlap": 0.425954,
+   "shared_members": 0.066667,
+   "source": "CONCEPT_024",
+   "target": "CONCEPT_086",
+   "weight": 0.24631
+  },
+  {
+   "semantic_overlap": 0.043633,
+   "shared_members": 0.0,
+   "source": "CONCEPT_025",
+   "target": "CONCEPT_027",
+   "weight": 0.021816
+  },
+  {
+   "semantic_overlap": 0.262615,
+   "shared_members": 0.045455,
+   "source": "CONCEPT_025",
+   "target": "CONCEPT_028",
+   "weight": 0.154035
+  },
+  {
+   "semantic_overlap": 0.067892,
+   "shared_members": 0.0,
+   "source": "CONCEPT_025",
+   "target": "CONCEPT_036",
+   "weight": 0.033946
+  },
+  {
+   "semantic_overlap": 0.558293,
+   "shared_members": 0.133333,
+   "source": "CONCEPT_025",
+   "target": "CONCEPT_063",
+   "weight": 0.345813
+  },
+  {
+   "semantic_overlap": 0.193431,
+   "shared_members": 0.066667,
+   "source": "CONCEPT_025",
+   "target": "CONCEPT_072",
+   "weight": 0.130049
+  },
+  {
+   "semantic_overlap": 0.398628,
+   "shared_members": 0.066667,
+   "source": "CONCEPT_025",
+   "target": "CONCEPT_073",
+   "weight": 0.232647
+  },
+  {
+   "semantic_overlap": 0.060429,
+   "shared_members": 0.0,
+   "source": "CONCEPT_025",
+   "target": "CONCEPT_074",
+   "weight": 0.030215
+  },
+  {
+   "semantic_overlap": 0.061149,
+   "shared_members": 0.0,
+   "source": "CONCEPT_025",
+   "target": "CONCEPT_082",
+   "weight": 0.030574
+  },
+  {
+   "semantic_overlap": 0.04685,
+   "shared_members": 0.0,
+   "source": "CONCEPT_025",
+   "target": "CONCEPT_083",
+   "weight": 0.023425
+  },
+  {
+   "semantic_overlap": 0.222703,
+   "shared_members": 0.066667,
+   "source": "CONCEPT_025",
+   "target": "CONCEPT_092",
+   "weight": 0.144685
+  },
+  {
+   "semantic_overlap": 0.342247,
+   "shared_members": 0.0625,
+   "source": "CONCEPT_026",
+   "target": "CONCEPT_069",
+   "weight": 0.202374
+  },
+  {
+   "semantic_overlap": 0.047017,
+   "shared_members": 0.0,
+   "source": "CONCEPT_026",
+   "target": "CONCEPT_080",
+   "weight": 0.023509
+  },
+  {
+   "semantic_overlap": 0.139789,
+   "shared_members": 0.055556,
+   "source": "CONCEPT_027",
+   "target": "CONCEPT_035",
+   "weight": 0.097672
+  },
+  {
+   "semantic_overlap": 0.206688,
+   "shared_members": 0.055556,
+   "source": "CONCEPT_027",
+   "target": "CONCEPT_036",
+   "weight": 0.131122
+  },
+  {
+   "semantic_overlap": 0.17736,
+   "shared_members": 0.0625,
+   "source": "CONCEPT_027",
+   "target": "CONCEPT_054",
+   "weight": 0.11993
+  },
+  {
+   "semantic_overlap": 0.049821,
+   "shared_members": 0.0,
+   "source": "CONCEPT_027",
+   "target": "CONCEPT_071",
+   "weight": 0.02491
+  },
+  {
+   "semantic_overlap": 0.165567,
+   "shared_members": 0.071429,
+   "source": "CONCEPT_027",
+   "target": "CONCEPT_072",
+   "weight": 0.118498
+  },
+  {
+   "semantic_overlap": 0.043049,
+   "shared_members": 0.0,
+   "source": "CONCEPT_027",
+   "target": "CONCEPT_074",
+   "weight": 0.021524
+  },
+  {
+   "semantic_overlap": 0.218037,
+   "shared_members": 0.071429,
+   "source": "CONCEPT_027",
+   "target": "CONCEPT_079",
+   "weight": 0.144733
+  },
+  {
+   "semantic_overlap": 0.185328,
+   "shared_members": 0.071429,
+   "source": "CONCEPT_027",
+   "target": "CONCEPT_091",
+   "weight": 0.128378
+  },
+  {
+   "semantic_overlap": 0.395294,
+   "shared_members": 0.05,
+   "source": "CONCEPT_028",
+   "target": "CONCEPT_029",
+   "weight": 0.222647
+  },
+  {
+   "semantic_overlap": 0.261012,
+   "shared_members": 0.05,
+   "source": "CONCEPT_028",
+   "target": "CONCEPT_030",
+   "weight": 0.155506
+  },
+  {
+   "semantic_overlap": 0.040199,
+   "shared_members": 0.0,
+   "source": "CONCEPT_028",
+   "target": "CONCEPT_050",
+   "weight": 0.0201
+  },
+  {
+   "semantic_overlap": 0.0558,
+   "shared_members": 0.0,
+   "source": "CONCEPT_028",
+   "target": "CONCEPT_056",
+   "weight": 0.0279
+  },
+  {
+   "semantic_overlap": 0.04169,
+   "shared_members": 0.0,
+   "source": "CONCEPT_028",
+   "target": "CONCEPT_097",
+   "weight": 0.020845
+  },
+  {
+   "semantic_overlap": 0.063201,
+   "shared_members": 0.0,
+   "source": "CONCEPT_029",
+   "target": "CONCEPT_073",
+   "weight": 0.0316
+  },
+  {
+   "semantic_overlap": 0.086195,
+   "shared_members": 0.0,
+   "source": "CONCEPT_029",
+   "target": "CONCEPT_074",
+   "weight": 0.043098
+  },
+  {
+   "semantic_overlap": 0.315735,
+   "shared_members": 0.076923,
+   "source": "CONCEPT_029",
+   "target": "CONCEPT_075",
+   "weight": 0.196329
+  },
+  {
+   "semantic_overlap": 0.341168,
+   "shared_members": 0.058824,
+   "source": "CONCEPT_030",
+   "target": "CONCEPT_036",
+   "weight": 0.199996
+  },
+  {
+   "semantic_overlap": 0.047274,
+   "shared_members": 0.0,
+   "source": "CONCEPT_030",
+   "target": "CONCEPT_039",
+   "weight": 0.023637
+  },
+  {
+   "semantic_overlap": 0.41023,
+   "shared_members": 0.066667,
+   "source": "CONCEPT_030",
+   "target": "CONCEPT_050",
+   "weight": 0.238448
+  },
+  {
+   "semantic_overlap": 0.048564,
+   "shared_members": 0.0,
+   "source": "CONCEPT_030",
+   "target": "CONCEPT_072",
+   "weight": 0.024282
+  },
+  {
+   "semantic_overlap": 0.386512,
+   "shared_members": 0.076923,
+   "source": "CONCEPT_030",
+   "target": "CONCEPT_087",
+   "weight": 0.231717
+  },
+  {
+   "semantic_overlap": 0.362492,
+   "shared_members": 0.076923,
+   "source": "CONCEPT_030",
+   "target": "CONCEPT_089",
+   "weight": 0.219708
+  },
+  {
+   "semantic_overlap": 0.206953,
+   "shared_members": 0.066667,
+   "source": "CONCEPT_031",
+   "target": "CONCEPT_054",
+   "weight": 0.13681
+  },
+  {
+   "semantic_overlap": 0.287276,
+   "shared_members": 0.071429,
+   "source": "CONCEPT_032",
+   "target": "CONCEPT_047",
+   "weight": 0.179352
+  },
+  {
+   "semantic_overlap": 0.043996,
+   "shared_members": 0.0,
+   "source": "CONCEPT_032",
+   "target": "CONCEPT_071",
+   "weight": 0.021998
+  },
+  {
+   "semantic_overlap": 0.057723,
+   "shared_members": 0.0,
+   "source": "CONCEPT_032",
+   "target": "CONCEPT_075",
+   "weight": 0.028861
+  },
+  {
+   "semantic_overlap": 0.3715,
+   "shared_members": 0.083333,
+   "source": "CONCEPT_032",
+   "target": "CONCEPT_093",
+   "weight": 0.227417
+  },
+  {
+   "semantic_overlap": 0.284726,
+   "shared_members": 0.0,
+   "source": "CONCEPT_033",
+   "target": "CONCEPT_039",
+   "weight": 0.142363
+  },
+  {
+   "semantic_overlap": 0.23104,
+   "shared_members": 0.071429,
+   "source": "CONCEPT_033",
+   "target": "CONCEPT_046",
+   "weight": 0.151234
+  },
+  {
+   "semantic_overlap": 0.137445,
+   "shared_members": 0.0,
+   "source": "CONCEPT_033",
+   "target": "CONCEPT_048",
+   "weight": 0.068723
+  },
+  {
+   "semantic_overlap": 0.051923,
+   "shared_members": 0.0,
+   "source": "CONCEPT_033",
+   "target": "CONCEPT_076",
+   "weight": 0.025962
+  },
+  {
+   "semantic_overlap": 0.215336,
+   "shared_members": 0.0,
+   "source": "CONCEPT_033",
+   "target": "CONCEPT_089",
+   "weight": 0.107668
+  },
+  {
+   "semantic_overlap": 0.077455,
+   "shared_members": 0.0,
+   "source": "CONCEPT_034",
+   "target": "CONCEPT_053",
+   "weight": 0.038728
+  },
+  {
+   "semantic_overlap": 0.405357,
+   "shared_members": 0.083333,
+   "source": "CONCEPT_034",
+   "target": "CONCEPT_060",
+   "weight": 0.244345
+  },
+  {
+   "semantic_overlap": 0.307354,
+   "shared_members": 0.083333,
+   "source": "CONCEPT_034",
+   "target": "CONCEPT_061",
+   "weight": 0.195344
+  },
+  {
+   "semantic_overlap": 0.121792,
+   "shared_members": 0.0,
+   "source": "CONCEPT_034",
+   "target": "CONCEPT_081",
+   "weight": 0.060896
+  },
+  {
+   "semantic_overlap": 0.088955,
+   "shared_members": 0.0,
+   "source": "CONCEPT_034",
+   "target": "CONCEPT_085",
+   "weight": 0.044477
+  },
+  {
+   "semantic_overlap": 0.090014,
+   "shared_members": 0.0,
+   "source": "CONCEPT_034",
+   "target": "CONCEPT_088",
+   "weight": 0.045007
+  },
+  {
+   "semantic_overlap": 0.055425,
+   "shared_members": 0.0,
+   "source": "CONCEPT_034",
+   "target": "CONCEPT_097",
+   "weight": 0.027712
+  },
+  {
+   "semantic_overlap": 0.049579,
+   "shared_members": 0.0,
+   "source": "CONCEPT_035",
+   "target": "CONCEPT_050",
+   "weight": 0.02479
+  },
+  {
+   "semantic_overlap": 0.907852,
+   "shared_members": 0.181818,
+   "source": "CONCEPT_035",
+   "target": "CONCEPT_067",
+   "weight": 0.544835
+  },
+  {
+   "semantic_overlap": 0.084381,
+   "shared_members": 0.0,
+   "source": "CONCEPT_035",
+   "target": "CONCEPT_086",
+   "weight": 0.042191
+  },
+  {
+   "semantic_overlap": 0.810801,
+   "shared_members": 0.2,
+   "source": "CONCEPT_035",
+   "target": "CONCEPT_091",
+   "weight": 0.5054
+  },
+  {
+   "semantic_overlap": 0.053577,
+   "shared_members": 0.0,
+   "source": "CONCEPT_036",
+   "target": "CONCEPT_039",
+   "weight": 0.026788
+  },
+  {
+   "semantic_overlap": 1.0,
+   "shared_members": 0.2,
+   "source": "CONCEPT_036",
+   "target": "CONCEPT_072",
+   "weight": 0.6
+  },
+  {
+   "semantic_overlap": 0.349745,
+   "shared_members": 0.090909,
+   "source": "CONCEPT_036",
+   "target": "CONCEPT_089",
+   "weight": 0.220327
+  },
+  {
+   "semantic_overlap": 0.665929,
+   "shared_members": 0.166667,
+   "source": "CONCEPT_037",
+   "target": "CONCEPT_049",
+   "weight": 0.416298
+  },
+  {
+   "semantic_overlap": 0.30923,
+   "shared_members": 0.090909,
+   "source": "CONCEPT_037",
+   "target": "CONCEPT_077",
+   "weight": 0.20007
+  },
+  {
+   "semantic_overlap": 0.390136,
+   "shared_members": 0.076923,
+   "source": "CONCEPT_038",
+   "target": "CONCEPT_055",
+   "weight": 0.233529
+  },
+  {
+   "semantic_overlap": 0.347034,
+   "shared_members": 0.083333,
+   "source": "CONCEPT_038",
+   "target": "CONCEPT_059",
+   "weight": 0.215184
+  },
+  {
+   "semantic_overlap": 0.393279,
+   "shared_members": 0.090909,
+   "source": "CONCEPT_038",
+   "target": "CONCEPT_080",
+   "weight": 0.242094
+  },
+  {
+   "semantic_overlap": 0.073704,
+   "shared_members": 0.0,
+   "source": "CONCEPT_038",
+   "target": "CONCEPT_090",
+   "weight": 0.036852
+  },
+  {
+   "semantic_overlap": 0.382875,
+   "shared_members": 0.090909,
+   "source": "CONCEPT_038",
+   "target": "CONCEPT_093",
+   "weight": 0.236892
+  },
+  {
+   "semantic_overlap": 0.351627,
+   "shared_members": 0.090909,
+   "source": "CONCEPT_038",
+   "target": "CONCEPT_099",
+   "weight": 0.221268
+  },
+  {
+   "semantic_overlap": 1.0,
+   "shared_members": 0.3,
+   "source": "CONCEPT_039",
+   "target": "CONCEPT_048",
+   "weight": 0.65
+  },
+  {
+   "semantic_overlap": 0.676352,
+   "shared_members": 0.1,
+   "source": "CONCEPT_039",
+   "target": "CONCEPT_076",
+   "weight": 0.388176
+  },
+  {
+   "semantic_overlap": 0.960537,
+   "shared_members": 0.222222,
+   "source": "CONCEPT_039",
+   "target": "CONCEPT_089",
+   "weight": 0.59138
+  },
+  {
+   "semantic_overlap": 0.984105,
+   "shared_members": 0.222222,
+   "source": "CONCEPT_040",
+   "target": "CONCEPT_101",
+   "weight": 0.603164
+  },
+  {
+   "semantic_overlap": 0.38221,
+   "shared_members": 0.083333,
+   "source": "CONCEPT_042",
+   "target": "CONCEPT_052",
+   "weight": 0.232772
+  },
+  {
+   "semantic_overlap": 0.050423,
+   "shared_members": 0.0,
+   "source": "CONCEPT_042",
+   "target": "CONCEPT_069",
+   "weight": 0.025211
+  },
+  {
+   "semantic_overlap": 0.298647,
+   "shared_members": 0.090909,
+   "source": "CONCEPT_045",
+   "target": "CONCEPT_057",
+   "weight": 0.194778
+  },
+  {
+   "semantic_overlap": 0.041757,
+   "shared_members": 0.0,
+   "source": "CONCEPT_045",
+   "target": "CONCEPT_072",
+   "weight": 0.020879
+  },
+  {
+   "semantic_overlap": 0.07313,
+   "shared_members": 0.0,
+   "source": "CONCEPT_046",
+   "target": "CONCEPT_083",
+   "weight": 0.036565
+  },
+  {
+   "semantic_overlap": 0.063853,
+   "shared_members": 0.0,
+   "source": "CONCEPT_047",
+   "target": "CONCEPT_075",
+   "weight": 0.031926
+  },
+  {
+   "semantic_overlap": 0.587985,
+   "shared_members": 0.111111,
+   "source": "CONCEPT_048",
+   "target": "CONCEPT_076",
+   "weight": 0.349548
+  },
+  {
+   "semantic_overlap": 0.391226,
+   "shared_members": 0.0,
+   "source": "CONCEPT_048",
+   "target": "CONCEPT_089",
+   "weight": 0.195613
+  },
+  {
+   "semantic_overlap": 0.068194,
+   "shared_members": 0.0,
+   "source": "CONCEPT_049",
+   "target": "CONCEPT_072",
+   "weight": 0.034097
+  },
+  {
+   "semantic_overlap": 0.067737,
+   "shared_members": 0.0,
+   "source": "CONCEPT_049",
+   "target": "CONCEPT_077",
+   "weight": 0.033868
+  },
+  {
+   "semantic_overlap": 0.151657,
+   "shared_members": 0.0,
+   "source": "CONCEPT_049",
+   "target": "CONCEPT_097",
+   "weight": 0.075828
+  },
+  {
+   "semantic_overlap": 0.052653,
+   "shared_members": 0.0,
+   "source": "CONCEPT_050",
+   "target": "CONCEPT_087",
+   "weight": 0.026326
+  },
+  {
+   "semantic_overlap": 0.125871,
+   "shared_members": 0.0,
+   "source": "CONCEPT_053",
+   "target": "CONCEPT_061",
+   "weight": 0.062936
+  },
+  {
+   "semantic_overlap": 0.068937,
+   "shared_members": 0.0,
+   "source": "CONCEPT_053",
+   "target": "CONCEPT_078",
+   "weight": 0.034468
+  },
+  {
+   "semantic_overlap": 0.735919,
+   "shared_members": 0.25,
+   "source": "CONCEPT_053",
+   "target": "CONCEPT_081",
+   "weight": 0.49296
+  },
+  {
+   "semantic_overlap": 0.114227,
+   "shared_members": 0.0,
+   "source": "CONCEPT_053",
+   "target": "CONCEPT_084",
+   "weight": 0.057113
+  },
+  {
+   "semantic_overlap": 0.100555,
+   "shared_members": 0.0,
+   "source": "CONCEPT_053",
+   "target": "CONCEPT_085",
+   "weight": 0.050278
+  },
+  {
+   "semantic_overlap": 0.763659,
+   "shared_members": 0.25,
+   "source": "CONCEPT_053",
+   "target": "CONCEPT_088",
+   "weight": 0.506829
+  },
+  {
+   "semantic_overlap": 0.068817,
+   "shared_members": 0.0,
+   "source": "CONCEPT_055",
+   "target": "CONCEPT_075",
+   "weight": 0.034408
+  },
+  {
+   "semantic_overlap": 0.042683,
+   "shared_members": 0.0,
+   "source": "CONCEPT_055",
+   "target": "CONCEPT_080",
+   "weight": 0.021342
+  },
+  {
+   "semantic_overlap": 0.938986,
+   "shared_members": 0.25,
+   "source": "CONCEPT_055",
+   "target": "CONCEPT_090",
+   "weight": 0.594493
+  },
+  {
+   "semantic_overlap": 0.049254,
+   "shared_members": 0.0,
+   "source": "CONCEPT_055",
+   "target": "CONCEPT_091",
+   "weight": 0.024627
+  },
+  {
+   "semantic_overlap": 0.044247,
+   "shared_members": 0.0,
+   "source": "CONCEPT_055",
+   "target": "CONCEPT_099",
+   "weight": 0.022124
+  },
+  {
+   "semantic_overlap": 0.124707,
+   "shared_members": 0.0,
+   "source": "CONCEPT_056",
+   "target": "CONCEPT_067",
+   "weight": 0.062354
+  },
+  {
+   "semantic_overlap": 0.067623,
+   "shared_members": 0.0,
+   "source": "CONCEPT_056",
+   "target": "CONCEPT_078",
+   "weight": 0.033811
+  },
+  {
+   "semantic_overlap": 0.391824,
+   "shared_members": 0.125,
+   "source": "CONCEPT_058",
+   "target": "CONCEPT_077",
+   "weight": 0.258412
+  },
+  {
+   "semantic_overlap": 0.045149,
+   "shared_members": 0.0,
+   "source": "CONCEPT_059",
+   "target": "CONCEPT_080",
+   "weight": 0.022574
+  },
+  {
+   "semantic_overlap": 0.303537,
+   "shared_members": 0.125,
+   "source": "CONCEPT_059",
+   "target": "CONCEPT_082",
+   "weight": 0.214269
+  },
+  {
+   "semantic_overlap": 0.087525,
+   "shared_members": 0.0,
+   "source": "CONCEPT_059",
+   "target": "CONCEPT_092",
+   "weight": 0.043762
+  },
+  {
+   "semantic_overlap": 0.160413,
+   "shared_members": 0.0,
+   "source": "CONCEPT_060",
+   "target": "CONCEPT_097",
+   "weight": 0.080206
+  },
+  {
+   "semantic_overlap": 0.07795,
+   "shared_members": 0.0,
+   "source": "CONCEPT_061",
+   "target": "CONCEPT_081",
+   "weight": 0.038975
+  },
+  {
+   "semantic_overlap": 0.191553,
+   "shared_members": 0.0,
+   "source": "CONCEPT_061",
+   "target": "CONCEPT_084",
+   "weight": 0.095776
+  },
+  {
+   "semantic_overlap": 0.436388,
+   "shared_members": 0.125,
+   "source": "CONCEPT_061",
+   "target": "CONCEPT_085",
+   "weight": 0.280694
+  },
+  {
+   "semantic_overlap": 0.391014,
+   "shared_members": 0.125,
+   "source": "CONCEPT_061",
+   "target": "CONCEPT_088",
+   "weight": 0.258007
+  },
+  {
+   "semantic_overlap": 0.04202,
+   "shared_members": 0.0,
+   "source": "CONCEPT_062",
+   "target": "CONCEPT_093",
+   "weight": 0.02101
+  },
+  {
+   "semantic_overlap": 0.048328,
+   "shared_members": 0.0,
+   "source": "CONCEPT_063",
+   "target": "CONCEPT_073",
+   "weight": 0.024164
+  },
+  {
+   "semantic_overlap": 0.073329,
+   "shared_members": 0.0,
+   "source": "CONCEPT_063",
+   "target": "CONCEPT_092",
+   "weight": 0.036664
+  },
+  {
+   "semantic_overlap": 0.067267,
+   "shared_members": 0.0,
+   "source": "CONCEPT_066",
+   "target": "CONCEPT_077",
+   "weight": 0.033634
+  },
+  {
+   "semantic_overlap": 0.134284,
+   "shared_members": 0.0,
+   "source": "CONCEPT_067",
+   "target": "CONCEPT_091",
+   "weight": 0.067142
+  },
+  {
+   "semantic_overlap": 0.080053,
+   "shared_members": 0.0,
+   "source": "CONCEPT_068",
+   "target": "CONCEPT_078",
+   "weight": 0.040027
+  },
+  {
+   "semantic_overlap": 0.040639,
+   "shared_members": 0.0,
+   "source": "CONCEPT_071",
+   "target": "CONCEPT_073",
+   "weight": 0.020319
+  },
+  {
+   "semantic_overlap": 0.040639,
+   "shared_members": 0.0,
+   "source": "CONCEPT_071",
+   "target": "CONCEPT_074",
+   "weight": 0.020319
+  },
+  {
+   "semantic_overlap": 0.067004,
+   "shared_members": 0.0,
+   "source": "CONCEPT_071",
+   "target": "CONCEPT_083",
+   "weight": 0.033502
+  },
+  {
+   "semantic_overlap": 0.068438,
+   "shared_members": 0.0,
+   "source": "CONCEPT_071",
+   "target": "CONCEPT_093",
+   "weight": 0.034219
+  },
+  {
+   "semantic_overlap": 0.040938,
+   "shared_members": 0.0,
+   "source": "CONCEPT_072",
+   "target": "CONCEPT_073",
+   "weight": 0.020469
+  },
+  {
+   "semantic_overlap": 0.084987,
+   "shared_members": 0.0,
+   "source": "CONCEPT_072",
+   "target": "CONCEPT_089",
+   "weight": 0.042493
+  },
+  {
+   "semantic_overlap": 0.905948,
+   "shared_members": 0.333333,
+   "source": "CONCEPT_073",
+   "target": "CONCEPT_074",
+   "weight": 0.619641
+  },
+  {
+   "semantic_overlap": 0.211899,
+   "shared_members": 0.0,
+   "source": "CONCEPT_073",
+   "target": "CONCEPT_079",
+   "weight": 0.105949
+  },
+  {
+   "semantic_overlap": 0.087834,
+   "shared_members": 0.0,
+   "source": "CONCEPT_073",
+   "target": "CONCEPT_091",
+   "weight": 0.043917
+  },
+  {
+   "semantic_overlap": 0.044541,
+   "shared_members": 0.0,
+   "source": "CONCEPT_073",
+   "target": "CONCEPT_092",
+   "weight": 0.022271
+  },
+  {
+   "semantic_overlap": 0.044588,
+   "shared_members": 0.0,
+   "source": "CONCEPT_073",
+   "target": "CONCEPT_098",
+   "weight": 0.022294
+  },
+  {
+   "semantic_overlap": 0.39066,
+   "shared_members": 0.142857,
+   "source": "CONCEPT_074",
+   "target": "CONCEPT_079",
+   "weight": 0.266758
+  },
+  {
+   "semantic_overlap": 0.043734,
+   "shared_members": 0.0,
+   "source": "CONCEPT_074",
+   "target": "CONCEPT_098",
+   "weight": 0.021867
+  },
+  {
+   "semantic_overlap": 0.091559,
+   "shared_members": 0.0,
+   "source": "CONCEPT_075",
+   "target": "CONCEPT_090",
+   "weight": 0.04578
+  },
+  {
+   "semantic_overlap": 0.236094,
+   "shared_members": 0.0,
+   "source": "CONCEPT_076",
+   "target": "CONCEPT_089",
+   "weight": 0.118047
+  },
+  {
+   "semantic_overlap": 0.077684,
+   "shared_members": 0.0,
+   "source": "CONCEPT_078",
+   "target": "CONCEPT_083",
+   "weight": 0.038842
+  },
+  {
+   "semantic_overlap": 0.042985,
+   "shared_members": 0.0,
+   "source": "CONCEPT_078",
+   "target": "CONCEPT_085",
+   "weight": 0.021492
+  },
+  {
+   "semantic_overlap": 0.053958,
+   "shared_members": 0.0,
+   "source": "CONCEPT_078",
+   "target": "CONCEPT_091",
+   "weight": 0.026979
+  },
+  {
+   "semantic_overlap": 0.050578,
+   "shared_members": 0.0,
+   "source": "CONCEPT_078",
+   "target": "CONCEPT_097",
+   "weight": 0.025289
+  },
+  {
+   "semantic_overlap": 0.047863,
+   "shared_members": 0.0,
+   "source": "CONCEPT_079",
+   "target": "CONCEPT_080",
+   "weight": 0.023932
+  },
+  {
+   "semantic_overlap": 0.051983,
+   "shared_members": 0.0,
+   "source": "CONCEPT_079",
+   "target": "CONCEPT_091",
+   "weight": 0.025992
+  },
+  {
+   "semantic_overlap": 0.395995,
+   "shared_members": 0.142857,
+   "source": "CONCEPT_079",
+   "target": "CONCEPT_098",
+   "weight": 0.269426
+  },
+  {
+   "semantic_overlap": 0.049751,
+   "shared_members": 0.0,
+   "source": "CONCEPT_080",
+   "target": "CONCEPT_093",
+   "weight": 0.024876
+  },
+  {
+   "semantic_overlap": 0.352205,
+   "shared_members": 0.142857,
+   "source": "CONCEPT_080",
+   "target": "CONCEPT_098",
+   "weight": 0.247531
+  },
+  {
+   "semantic_overlap": 0.043868,
+   "shared_members": 0.0,
+   "source": "CONCEPT_080",
+   "target": "CONCEPT_099",
+   "weight": 0.021934
+  },
+  {
+   "semantic_overlap": 0.043982,
+   "shared_members": 0.0,
+   "source": "CONCEPT_080",
+   "target": "CONCEPT_103",
+   "weight": 0.021991
+  },
+  {
+   "semantic_overlap": 0.193297,
+   "shared_members": 0.0,
+   "source": "CONCEPT_081",
+   "target": "CONCEPT_084",
+   "weight": 0.096649
+  },
+  {
+   "semantic_overlap": 0.1385,
+   "shared_members": 0.0,
+   "source": "CONCEPT_081",
+   "target": "CONCEPT_085",
+   "weight": 0.06925
+  },
+  {
+   "semantic_overlap": 0.435931,
+   "shared_members": 0.142857,
+   "source": "CONCEPT_081",
+   "target": "CONCEPT_088",
+   "weight": 0.289394
+  },
+  {
+   "semantic_overlap": 1.0,
+   "shared_members": 0.333333,
+   "source": "CONCEPT_082",
+   "target": "CONCEPT_092",
+   "weight": 0.666667
+  },
+  {
+   "semantic_overlap": 0.040038,
+   "shared_members": 0.0,
+   "source": "CONCEPT_082",
+   "target": "CONCEPT_094",
+   "weight": 0.020019
+  },
+  {
+   "semantic_overlap": 0.409558,
+   "shared_members": 0.142857,
+   "source": "CONCEPT_084",
+   "target": "CONCEPT_085",
+   "weight": 0.276208
+  },
+  {
+   "semantic_overlap": 0.080734,
+   "shared_members": 0.0,
+   "source": "CONCEPT_084",
+   "target": "CONCEPT_088",
+   "weight": 0.040367
+  },
+  {
+   "semantic_overlap": 0.393401,
+   "shared_members": 0.142857,
+   "source": "CONCEPT_085",
+   "target": "CONCEPT_088",
+   "weight": 0.268129
+  },
+  {
+   "semantic_overlap": 0.041694,
+   "shared_members": 0.0,
+   "source": "CONCEPT_087",
+   "target": "CONCEPT_089",
+   "weight": 0.020847
+  },
+  {
+   "semantic_overlap": 0.153645,
+   "shared_members": 0.0,
+   "source": "CONCEPT_090",
+   "target": "CONCEPT_091",
+   "weight": 0.076823
+  },
+  {
+   "semantic_overlap": 0.050063,
+   "shared_members": 0.0,
+   "source": "CONCEPT_090",
+   "target": "CONCEPT_097",
+   "weight": 0.025031
+  },
+  {
+   "semantic_overlap": 0.040038,
+   "shared_members": 0.0,
+   "source": "CONCEPT_092",
+   "target": "CONCEPT_094",
+   "weight": 0.020019
+  },
+  {
+   "semantic_overlap": 0.04125,
+   "shared_members": 0.0,
+   "source": "CONCEPT_093",
+   "target": "CONCEPT_099",
+   "weight": 0.020625
+  },
+  {
+   "semantic_overlap": 0.042454,
+   "shared_members": 0.0,
+   "source": "CONCEPT_097",
+   "target": "CONCEPT_101",
+   "weight": 0.021227
+  },
+  {
+   "semantic_overlap": 0.048486,
+   "shared_members": 0.0,
+   "source": "CONCEPT_101",
+   "target": "CONCEPT_103",
+   "weight": 0.024243
+  }
+ ],
+ "method": "phase3-concepts-1.0",
+ "node_count": 103,
+ "nodes": [
+  {
+   "betweenness_centrality": 0.108134,
+   "degree_centrality": 1.917315,
+   "eigenvector_centrality": 0.010654,
+   "id": "CONCEPT_001",
+   "meta_community": 0,
+   "size_lemmas": 135,
+   "size_roots": 34
+  },
+  {
+   "betweenness_centrality": 0.072219,
+   "degree_centrality": 2.111061,
+   "eigenvector_centrality": 0.010904,
+   "id": "CONCEPT_002",
+   "meta_community": 0,
+   "size_lemmas": 123,
+   "size_roots": 33
+  },
+  {
+   "betweenness_centrality": 0.04504,
+   "degree_centrality": 0.863605,
+   "eigenvector_centrality": 0.002518,
+   "id": "CONCEPT_003",
+   "meta_community": 0,
+   "size_lemmas": 162,
+   "size_roots": 32
+  },
+  {
+   "betweenness_centrality": 0.092603,
+   "degree_centrality": 1.697263,
+   "eigenvector_centrality": 0.012224,
+   "id": "CONCEPT_004",
+   "meta_community": 0,
+   "size_lemmas": 124,
+   "size_roots": 31
+  },
+  {
+   "betweenness_centrality": 0.096874,
+   "degree_centrality": 1.017689,
+   "eigenvector_centrality": 0.015087,
+   "id": "CONCEPT_005",
+   "meta_community": 1,
+   "size_lemmas": 62,
+   "size_roots": 26
+  },
+  {
+   "betweenness_centrality": 0.030091,
+   "degree_centrality": 0.675086,
+   "eigenvector_centrality": 0.000658,
+   "id": "CONCEPT_006",
+   "meta_community": 2,
+   "size_lemmas": 53,
+   "size_roots": 25
+  },
+  {
+   "betweenness_centrality": 0.042904,
+   "degree_centrality": 1.605467,
+   "eigenvector_centrality": 0.003303,
+   "id": "CONCEPT_007",
+   "meta_community": 0,
+   "size_lemmas": 326,
+   "size_roots": 24
+  },
+  {
+   "betweenness_centrality": 0.043293,
+   "degree_centrality": 0.687088,
+   "eigenvector_centrality": 0.011263,
+   "id": "CONCEPT_008",
+   "meta_community": 0,
+   "size_lemmas": 95,
+   "size_roots": 21
+  },
+  {
+   "betweenness_centrality": 0.017861,
+   "degree_centrality": 1.159019,
+   "eigenvector_centrality": 0.0044,
+   "id": "CONCEPT_009",
+   "meta_community": 0,
+   "size_lemmas": 28,
+   "size_roots": 21
+  },
+  {
+   "betweenness_centrality": 0.078043,
+   "degree_centrality": 1.09092,
+   "eigenvector_centrality": 0.001042,
+   "id": "CONCEPT_010",
+   "meta_community": 0,
+   "size_lemmas": 39,
+   "size_roots": 18
+  },
+  {
+   "betweenness_centrality": 0.039798,
+   "degree_centrality": 0.690154,
+   "eigenvector_centrality": 0.00169,
+   "id": "CONCEPT_011",
+   "meta_community": 3,
+   "size_lemmas": 30,
+   "size_roots": 18
+  },
+  {
+   "betweenness_centrality": 0.016113,
+   "degree_centrality": 0.408404,
+   "eigenvector_centrality": 0.001808,
+   "id": "CONCEPT_012",
+   "meta_community": 4,
+   "size_lemmas": 38,
+   "size_roots": 18
+  },
+  {
+   "betweenness_centrality": 0.060377,
+   "degree_centrality": 1.234474,
+   "eigenvector_centrality": 0.007292,
+   "id": "CONCEPT_013",
+   "meta_community": 0,
+   "size_lemmas": 46,
+   "size_roots": 17
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.073694,
+   "eigenvector_centrality": 0.000434,
+   "id": "CONCEPT_014",
+   "meta_community": 5,
+   "size_lemmas": 28,
+   "size_roots": 16
+  },
+  {
+   "betweenness_centrality": 0.009124,
+   "degree_centrality": 0.820196,
+   "eigenvector_centrality": 0.003724,
+   "id": "CONCEPT_015",
+   "meta_community": 0,
+   "size_lemmas": 59,
+   "size_roots": 16
+  },
+  {
+   "betweenness_centrality": 0.110852,
+   "degree_centrality": 1.471662,
+   "eigenvector_centrality": 0.022803,
+   "id": "CONCEPT_016",
+   "meta_community": 0,
+   "size_lemmas": 90,
+   "size_roots": 16
+  },
+  {
+   "betweenness_centrality": 0.031062,
+   "degree_centrality": 0.793409,
+   "eigenvector_centrality": 0.001212,
+   "id": "CONCEPT_017",
+   "meta_community": 6,
+   "size_lemmas": 16,
+   "size_roots": 15
+  },
+  {
+   "betweenness_centrality": 0.020773,
+   "degree_centrality": 0.527851,
+   "eigenvector_centrality": 0.000635,
+   "id": "CONCEPT_018",
+   "meta_community": 2,
+   "size_lemmas": 53,
+   "size_roots": 15
+  },
+  {
+   "betweenness_centrality": 0.025238,
+   "degree_centrality": 1.187583,
+   "eigenvector_centrality": 0.00496,
+   "id": "CONCEPT_019",
+   "meta_community": 0,
+   "size_lemmas": 29,
+   "size_roots": 14
+  },
+  {
+   "betweenness_centrality": 0.044069,
+   "degree_centrality": 0.607049,
+   "eigenvector_centrality": 0.00953,
+   "id": "CONCEPT_020",
+   "meta_community": 7,
+   "size_lemmas": 38,
+   "size_roots": 14
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 1.615335,
+   "eigenvector_centrality": 0.424291,
+   "id": "CONCEPT_021",
+   "meta_community": 1,
+   "size_lemmas": 29,
+   "size_roots": 14
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.309874,
+   "eigenvector_centrality": 0.001347,
+   "id": "CONCEPT_022",
+   "meta_community": 0,
+   "size_lemmas": 46,
+   "size_roots": 13
+  },
+  {
+   "betweenness_centrality": 0.018055,
+   "degree_centrality": 0.270315,
+   "eigenvector_centrality": 0.001025,
+   "id": "CONCEPT_023",
+   "meta_community": 8,
+   "size_lemmas": 27,
+   "size_roots": 13
+  },
+  {
+   "betweenness_centrality": 0.073772,
+   "degree_centrality": 0.866014,
+   "eigenvector_centrality": 0.001618,
+   "id": "CONCEPT_024",
+   "meta_community": 9,
+   "size_lemmas": 38,
+   "size_roots": 12
+  },
+  {
+   "betweenness_centrality": 0.08212,
+   "degree_centrality": 1.397911,
+   "eigenvector_centrality": 0.010921,
+   "id": "CONCEPT_025",
+   "meta_community": 10,
+   "size_lemmas": 44,
+   "size_roots": 12
+  },
+  {
+   "betweenness_centrality": 0.018055,
+   "degree_centrality": 0.325347,
+   "eigenvector_centrality": 0.000115,
+   "id": "CONCEPT_026",
+   "meta_community": 11,
+   "size_lemmas": 30,
+   "size_roots": 12
+  },
+  {
+   "betweenness_centrality": 0.147738,
+   "degree_centrality": 1.765802,
+   "eigenvector_centrality": 0.020574,
+   "id": "CONCEPT_027",
+   "meta_community": 0,
+   "size_lemmas": 27,
+   "size_roots": 11
+  },
+  {
+   "betweenness_centrality": 0.036886,
+   "degree_centrality": 0.601032,
+   "eigenvector_centrality": 0.011201,
+   "id": "CONCEPT_028",
+   "meta_community": 12,
+   "size_lemmas": 42,
+   "size_roots": 11
+  },
+  {
+   "betweenness_centrality": 0.024267,
+   "degree_centrality": 0.677928,
+   "eigenvector_centrality": 0.001925,
+   "id": "CONCEPT_029",
+   "meta_community": 13,
+   "size_lemmas": 11,
+   "size_roots": 10
+  },
+  {
+   "betweenness_centrality": 0.068919,
+   "degree_centrality": 1.287608,
+   "eigenvector_centrality": 0.09975,
+   "id": "CONCEPT_030",
+   "meta_community": 14,
+   "size_lemmas": 27,
+   "size_roots": 10
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.13681,
+   "eigenvector_centrality": 0.00013,
+   "id": "CONCEPT_031",
+   "meta_community": 15,
+   "size_lemmas": 12,
+   "size_roots": 10
+  },
+  {
+   "betweenness_centrality": 0.017666,
+   "degree_centrality": 0.493177,
+   "eigenvector_centrality": 0.000151,
+   "id": "CONCEPT_032",
+   "meta_community": 0,
+   "size_lemmas": 27,
+   "size_roots": 9
+  },
+  {
+   "betweenness_centrality": 0.006989,
+   "degree_centrality": 0.768004,
+   "eigenvector_centrality": 0.124842,
+   "id": "CONCEPT_033",
+   "meta_community": 1,
+   "size_lemmas": 30,
+   "size_roots": 9
+  },
+  {
+   "betweenness_centrality": 0.046787,
+   "degree_centrality": 1.06498,
+   "eigenvector_centrality": 0.003707,
+   "id": "CONCEPT_034",
+   "meta_community": 0,
+   "size_lemmas": 48,
+   "size_roots": 8
+  },
+  {
+   "betweenness_centrality": 0.024461,
+   "degree_centrality": 1.919381,
+   "eigenvector_centrality": 0.009711,
+   "id": "CONCEPT_035",
+   "meta_community": 0,
+   "size_lemmas": 17,
+   "size_roots": 8
+  },
+  {
+   "betweenness_centrality": 0.109105,
+   "degree_centrality": 1.420476,
+   "eigenvector_centrality": 0.110913,
+   "id": "CONCEPT_036",
+   "meta_community": 16,
+   "size_lemmas": 15,
+   "size_roots": 8
+  },
+  {
+   "betweenness_centrality": 0.065618,
+   "degree_centrality": 0.926939,
+   "eigenvector_centrality": 0.001524,
+   "id": "CONCEPT_037",
+   "meta_community": 17,
+   "size_lemmas": 20,
+   "size_roots": 8
+  },
+  {
+   "betweenness_centrality": 0.081149,
+   "degree_centrality": 1.506585,
+   "eigenvector_centrality": 0.002172,
+   "id": "CONCEPT_038",
+   "meta_community": 0,
+   "size_lemmas": 13,
+   "size_roots": 8
+  },
+  {
+   "betweenness_centrality": 0.04504,
+   "degree_centrality": 2.405677,
+   "eigenvector_centrality": 0.565846,
+   "id": "CONCEPT_039",
+   "meta_community": 1,
+   "size_lemmas": 12,
+   "size_roots": 7
+  },
+  {
+   "betweenness_centrality": 0.008736,
+   "degree_centrality": 0.90039,
+   "eigenvector_centrality": 0.001736,
+   "id": "CONCEPT_040",
+   "meta_community": 2,
+   "size_lemmas": 17,
+   "size_roots": 7
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0,
+   "id": "CONCEPT_041",
+   "meta_community": 18,
+   "size_lemmas": 7,
+   "size_roots": 7
+  },
+  {
+   "betweenness_centrality": 0.02582,
+   "degree_centrality": 0.58439,
+   "eigenvector_centrality": 0.001154,
+   "id": "CONCEPT_042",
+   "meta_community": 5,
+   "size_lemmas": 19,
+   "size_roots": 7
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0,
+   "id": "CONCEPT_043",
+   "meta_community": 19,
+   "size_lemmas": 9,
+   "size_roots": 7
+  },
+  {
+   "betweenness_centrality": 0.000971,
+   "degree_centrality": 0.303146,
+   "eigenvector_centrality": 0.00029,
+   "id": "CONCEPT_044",
+   "meta_community": 20,
+   "size_lemmas": 18,
+   "size_roots": 7
+  },
+  {
+   "betweenness_centrality": 0.018831,
+   "degree_centrality": 0.437264,
+   "eigenvector_centrality": 0.00261,
+   "id": "CONCEPT_045",
+   "meta_community": 21,
+   "size_lemmas": 15,
+   "size_roots": 7
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.309699,
+   "eigenvector_centrality": 0.012735,
+   "id": "CONCEPT_046",
+   "meta_community": 1,
+   "size_lemmas": 15,
+   "size_roots": 6
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.211278,
+   "eigenvector_centrality": 3e-05,
+   "id": "CONCEPT_047",
+   "meta_community": 0,
+   "size_lemmas": 19,
+   "size_roots": 6
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 1.517289,
+   "eigenvector_centrality": 0.420581,
+   "id": "CONCEPT_048",
+   "meta_community": 1,
+   "size_lemmas": 7,
+   "size_roots": 6
+  },
+  {
+   "betweenness_centrality": 0.037663,
+   "degree_centrality": 0.833849,
+   "eigenvector_centrality": 0.004476,
+   "id": "CONCEPT_049",
+   "meta_community": 22,
+   "size_lemmas": 17,
+   "size_roots": 6
+  },
+  {
+   "betweenness_centrality": 0.006795,
+   "degree_centrality": 0.407253,
+   "eigenvector_centrality": 0.016064,
+   "id": "CONCEPT_050",
+   "meta_community": 23,
+   "size_lemmas": 12,
+   "size_roots": 6
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0,
+   "id": "CONCEPT_051",
+   "meta_community": 24,
+   "size_lemmas": 6,
+   "size_roots": 6
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.232772,
+   "eigenvector_centrality": 0.000166,
+   "id": "CONCEPT_052",
+   "meta_community": 7,
+   "size_lemmas": 9,
+   "size_roots": 6
+  },
+  {
+   "betweenness_centrality": 0.000388,
+   "degree_centrality": 1.504876,
+   "eigenvector_centrality": 0.002142,
+   "id": "CONCEPT_053",
+   "meta_community": 0,
+   "size_lemmas": 35,
+   "size_roots": 6
+  },
+  {
+   "betweenness_centrality": 0.018055,
+   "degree_centrality": 0.25674,
+   "eigenvector_centrality": 0.001537,
+   "id": "CONCEPT_054",
+   "meta_community": 25,
+   "size_lemmas": 12,
+   "size_roots": 6
+  },
+  {
+   "betweenness_centrality": 0.044846,
+   "degree_centrality": 1.31872,
+   "eigenvector_centrality": 0.004984,
+   "id": "CONCEPT_055",
+   "meta_community": 0,
+   "size_lemmas": 24,
+   "size_roots": 6
+  },
+  {
+   "betweenness_centrality": 0.000194,
+   "degree_centrality": 0.569125,
+   "eigenvector_centrality": 0.001596,
+   "id": "CONCEPT_056",
+   "meta_community": 0,
+   "size_lemmas": 25,
+   "size_roots": 6
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.194778,
+   "eigenvector_centrality": 0.000314,
+   "id": "CONCEPT_057",
+   "meta_community": 26,
+   "size_lemmas": 5,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.00893,
+   "degree_centrality": 0.384857,
+   "eigenvector_centrality": 0.000182,
+   "id": "CONCEPT_058",
+   "meta_community": 6,
+   "size_lemmas": 11,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.023102,
+   "degree_centrality": 0.495789,
+   "eigenvector_centrality": 0.000496,
+   "id": "CONCEPT_059",
+   "meta_community": 0,
+   "size_lemmas": 12,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.608272,
+   "eigenvector_centrality": 0.004324,
+   "id": "CONCEPT_060",
+   "meta_community": 0,
+   "size_lemmas": 39,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.026209,
+   "degree_centrality": 1.09701,
+   "eigenvector_centrality": 0.001604,
+   "id": "CONCEPT_061",
+   "meta_community": 0,
+   "size_lemmas": 33,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.185633,
+   "eigenvector_centrality": 0.000113,
+   "id": "CONCEPT_062",
+   "meta_community": 0,
+   "size_lemmas": 10,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.009319,
+   "degree_centrality": 0.516579,
+   "eigenvector_centrality": 0.002505,
+   "id": "CONCEPT_063",
+   "meta_community": 3,
+   "size_lemmas": 12,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0,
+   "id": "CONCEPT_064",
+   "meta_community": 27,
+   "size_lemmas": 8,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0,
+   "id": "CONCEPT_065",
+   "meta_community": 28,
+   "size_lemmas": 7,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.234225,
+   "eigenvector_centrality": 0.000163,
+   "id": "CONCEPT_066",
+   "meta_community": 29,
+   "size_lemmas": 13,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.009707,
+   "degree_centrality": 1.34728,
+   "eigenvector_centrality": 0.006357,
+   "id": "CONCEPT_067",
+   "meta_community": 0,
+   "size_lemmas": 6,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.040027,
+   "eigenvector_centrality": 2.8e-05,
+   "id": "CONCEPT_068",
+   "meta_community": 0,
+   "size_lemmas": 5,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.227585,
+   "eigenvector_centrality": 3.2e-05,
+   "id": "CONCEPT_069",
+   "meta_community": 30,
+   "size_lemmas": 8,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.161515,
+   "eigenvector_centrality": 0.000102,
+   "id": "CONCEPT_070",
+   "meta_community": 31,
+   "size_lemmas": 11,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.061153,
+   "degree_centrality": 0.7737,
+   "eigenvector_centrality": 0.002559,
+   "id": "CONCEPT_071",
+   "meta_community": 0,
+   "size_lemmas": 12,
+   "size_roots": 5
+  },
+  {
+   "betweenness_centrality": 0.123083,
+   "degree_centrality": 1.461132,
+   "eigenvector_centrality": 0.060982,
+   "id": "CONCEPT_072",
+   "meta_community": 32,
+   "size_lemmas": 18,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.031256,
+   "degree_centrality": 1.380344,
+   "eigenvector_centrality": 0.005785,
+   "id": "CONCEPT_073",
+   "meta_community": 33,
+   "size_lemmas": 6,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.008542,
+   "degree_centrality": 1.228974,
+   "eigenvector_centrality": 0.004361,
+   "id": "CONCEPT_074",
+   "meta_community": 34,
+   "size_lemmas": 9,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.000194,
+   "degree_centrality": 0.361272,
+   "eigenvector_centrality": 0.000672,
+   "id": "CONCEPT_075",
+   "meta_community": 12,
+   "size_lemmas": 11,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 1.162122,
+   "eigenvector_centrality": 0.33221,
+   "id": "CONCEPT_076",
+   "meta_community": 1,
+   "size_lemmas": 4,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.036109,
+   "degree_centrality": 0.924667,
+   "eigenvector_centrality": 0.000614,
+   "id": "CONCEPT_077",
+   "meta_community": 29,
+   "size_lemmas": 8,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.018055,
+   "degree_centrality": 0.333787,
+   "eigenvector_centrality": 0.001147,
+   "id": "CONCEPT_078",
+   "meta_community": 0,
+   "size_lemmas": 11,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.028926,
+   "degree_centrality": 1.186507,
+   "eigenvector_centrality": 0.004474,
+   "id": "CONCEPT_079",
+   "meta_community": 0,
+   "size_lemmas": 8,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.002718,
+   "degree_centrality": 0.676427,
+   "eigenvector_centrality": 0.000782,
+   "id": "CONCEPT_080",
+   "meta_community": 0,
+   "size_lemmas": 14,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.011066,
+   "degree_centrality": 1.53713,
+   "eigenvector_centrality": 0.002319,
+   "id": "CONCEPT_081",
+   "meta_community": 0,
+   "size_lemmas": 31,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.023296,
+   "degree_centrality": 1.058729,
+   "eigenvector_centrality": 0.001122,
+   "id": "CONCEPT_082",
+   "meta_community": 35,
+   "size_lemmas": 12,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.009319,
+   "degree_centrality": 0.402524,
+   "eigenvector_centrality": 0.002845,
+   "id": "CONCEPT_083",
+   "meta_community": 1,
+   "size_lemmas": 11,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.001359,
+   "degree_centrality": 0.859805,
+   "eigenvector_centrality": 0.001258,
+   "id": "CONCEPT_084",
+   "meta_community": 0,
+   "size_lemmas": 47,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.011454,
+   "degree_centrality": 1.147864,
+   "eigenvector_centrality": 0.00173,
+   "id": "CONCEPT_085",
+   "meta_community": 0,
+   "size_lemmas": 26,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.001747,
+   "degree_centrality": 0.288501,
+   "eigenvector_centrality": 0.0005,
+   "id": "CONCEPT_086",
+   "meta_community": 36,
+   "size_lemmas": 4,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.335555,
+   "eigenvector_centrality": 0.020206,
+   "id": "CONCEPT_087",
+   "meta_community": 23,
+   "size_lemmas": 6,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.011648,
+   "degree_centrality": 1.59455,
+   "eigenvector_centrality": 0.002117,
+   "id": "CONCEPT_088",
+   "meta_community": 0,
+   "size_lemmas": 32,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.077072,
+   "degree_centrality": 1.85277,
+   "eigenvector_centrality": 0.409264,
+   "id": "CONCEPT_089",
+   "meta_community": 1,
+   "size_lemmas": 11,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.054941,
+   "degree_centrality": 1.327968,
+   "eigenvector_centrality": 0.005893,
+   "id": "CONCEPT_090",
+   "meta_community": 0,
+   "size_lemmas": 21,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.019414,
+   "degree_centrality": 1.402198,
+   "eigenvector_centrality": 0.008239,
+   "id": "CONCEPT_091",
+   "meta_community": 0,
+   "size_lemmas": 16,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.017666,
+   "degree_centrality": 1.07467,
+   "eigenvector_centrality": 0.001737,
+   "id": "CONCEPT_092",
+   "meta_community": 37,
+   "size_lemmas": 4,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.049699,
+   "degree_centrality": 0.785362,
+   "eigenvector_centrality": 0.000554,
+   "id": "CONCEPT_093",
+   "meta_community": 0,
+   "size_lemmas": 8,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.062046,
+   "eigenvector_centrality": 5.8e-05,
+   "id": "CONCEPT_094",
+   "meta_community": 10,
+   "size_lemmas": 10,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0,
+   "id": "CONCEPT_095",
+   "meta_community": 38,
+   "size_lemmas": 4,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0,
+   "id": "CONCEPT_096",
+   "meta_community": 39,
+   "size_lemmas": 7,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.011066,
+   "degree_centrality": 0.686135,
+   "eigenvector_centrality": 0.005835,
+   "id": "CONCEPT_097",
+   "meta_community": 0,
+   "size_lemmas": 23,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.004853,
+   "degree_centrality": 0.709551,
+   "eigenvector_centrality": 0.001433,
+   "id": "CONCEPT_098",
+   "meta_community": 0,
+   "size_lemmas": 10,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.285951,
+   "eigenvector_centrality": 0.000383,
+   "id": "CONCEPT_099",
+   "meta_community": 0,
+   "size_lemmas": 8,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0,
+   "id": "CONCEPT_100",
+   "meta_community": 40,
+   "size_lemmas": 5,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.046981,
+   "degree_centrality": 1.203056,
+   "eigenvector_centrality": 0.001695,
+   "id": "CONCEPT_101",
+   "meta_community": 41,
+   "size_lemmas": 8,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.024092,
+   "eigenvector_centrality": 1.6e-05,
+   "id": "CONCEPT_102",
+   "meta_community": 0,
+   "size_lemmas": 4,
+   "size_roots": 4
+  },
+  {
+   "betweenness_centrality": 0.0,
+   "degree_centrality": 0.170378,
+   "eigenvector_centrality": 8.7e-05,
+   "id": "CONCEPT_103",
+   "meta_community": 41,
+   "size_lemmas": 17,
+   "size_roots": 4
+  }
+ ]
+}

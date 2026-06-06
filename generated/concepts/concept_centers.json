@@ -1,0 +1,3141 @@
+{
+ "concepts": {
+  "CONCEPT_001": {
+   "betweenness_centrality": 0.108134,
+   "center_roots": [
+    {
+     "internal_strength": 7.449585,
+     "root_arabic": "رفث",
+     "root_id": 1245
+    },
+    {
+     "internal_strength": 7.052763,
+     "root_arabic": "فدي",
+     "root_id": 628
+    },
+    {
+     "internal_strength": 6.657647,
+     "root_arabic": "خيط",
+     "root_id": 1586
+    },
+    {
+     "internal_strength": 5.895998,
+     "root_arabic": "صوم",
+     "root_id": 432
+    },
+    {
+     "internal_strength": 5.436859,
+     "root_arabic": "حجج",
+     "root_id": 313
+    }
+   ],
+   "degree_centrality": 1.917315,
+   "eigenvector_centrality": 0.010654
+  },
+  "CONCEPT_002": {
+   "betweenness_centrality": 0.072219,
+   "center_roots": [
+    {
+     "internal_strength": 8.10983,
+     "root_arabic": "نصف",
+     "root_id": 1049
+    },
+    {
+     "internal_strength": 7.038037,
+     "root_arabic": "نكح",
+     "root_id": 1086
+    },
+    {
+     "internal_strength": 5.91399,
+     "root_arabic": "وصي",
+     "root_id": 1461
+    },
+    {
+     "internal_strength": 5.86999,
+     "root_arabic": "فرض",
+     "root_id": 648
+    },
+    {
+     "internal_strength": 5.699227,
+     "root_arabic": "سدس",
+     "root_id": 1322
+    }
+   ],
+   "degree_centrality": 2.111061,
+   "eigenvector_centrality": 0.010904
+  },
+  "CONCEPT_003": {
+   "betweenness_centrality": 0.04504,
+   "center_roots": [
+    {
+     "internal_strength": 13.370452,
+     "root_arabic": "جنف",
+     "root_id": 813
+    },
+    {
+     "internal_strength": 12.965004,
+     "root_arabic": "ذكو",
+     "root_id": 73
+    },
+    {
+     "internal_strength": 12.840434,
+     "root_arabic": "خنزر",
+     "root_id": 1567
+    },
+    {
+     "internal_strength": 12.615394,
+     "root_arabic": "زلم",
+     "root_id": 1621
+    },
+    {
+     "internal_strength": 12.563639,
+     "root_arabic": "خنق",
+     "root_id": 1565
+    }
+   ],
+   "degree_centrality": 0.863605,
+   "eigenvector_centrality": 0.002518
+  },
+  "CONCEPT_004": {
+   "betweenness_centrality": 0.092603,
+   "center_roots": [
+    {
+     "internal_strength": 9.759128,
+     "root_arabic": "غوط",
+     "root_id": 724
+    },
+    {
+     "internal_strength": 7.831467,
+     "root_arabic": "مسح",
+     "root_id": 1004
+    },
+    {
+     "internal_strength": 7.578947,
+     "root_arabic": "غسل",
+     "root_id": 720
+    },
+    {
+     "internal_strength": 6.975565,
+     "root_arabic": "سفر",
+     "root_id": 1330
+    },
+    {
+     "internal_strength": 6.530389,
+     "root_arabic": "لمس",
+     "root_id": 939
+    }
+   ],
+   "degree_centrality": 1.697263,
+   "eigenvector_centrality": 0.012224
+  },
+  "CONCEPT_005": {
+   "betweenness_centrality": 0.096874,
+   "center_roots": [
+    {
+     "internal_strength": 8.448783,
+     "root_arabic": "قنو",
+     "root_id": 1181
+    },
+    {
+     "internal_strength": 8.448783,
+     "root_arabic": "ينع",
+     "root_id": 1598
+    },
+    {
+     "internal_strength": 7.191402,
+     "root_arabic": "رمن",
+     "root_id": 1273
+    },
+    {
+     "internal_strength": 4.991137,
+     "root_arabic": "عنب",
+     "root_id": 229
+    },
+    {
+     "internal_strength": 4.958585,
+     "root_arabic": "شبه",
+     "root_id": 13
+    }
+   ],
+   "degree_centrality": 1.017689,
+   "eigenvector_centrality": 0.015087
+  },
+  "CONCEPT_006": {
+   "betweenness_centrality": 0.030091,
+   "center_roots": [
+    {
+     "internal_strength": 5.954034,
+     "root_arabic": "يقظ",
+     "root_id": 1599
+    },
+    {
+     "internal_strength": 5.36069,
+     "root_arabic": "رقد",
+     "root_id": 1277
+    },
+    {
+     "internal_strength": 5.019704,
+     "root_arabic": "وصد",
+     "root_id": 1458
+    },
+    {
+     "internal_strength": 5.003561,
+     "root_arabic": "كهف",
+     "root_id": 864
+    },
+    {
+     "internal_strength": 4.794245,
+     "root_arabic": "كلب",
+     "root_id": 869
+    }
+   ],
+   "degree_centrality": 0.675086,
+   "eigenvector_centrality": 0.000658
+  },
+  "CONCEPT_007": {
+   "betweenness_centrality": 0.042904,
+   "center_roots": [
+    {
+     "internal_strength": 6.066904,
+     "root_arabic": "علم",
+     "root_id": 218
+    },
+    {
+     "internal_strength": 5.637942,
+     "root_arabic": "اله",
+     "root_id": 110
+    },
+    {
+     "internal_strength": 5.305962,
+     "root_arabic": "اتي",
+     "root_id": 135
+    },
+    {
+     "internal_strength": 5.121042,
+     "root_arabic": "امن",
+     "root_id": 118
+    },
+    {
+     "internal_strength": 4.919883,
+     "root_arabic": "بين",
+     "root_id": 565
+    }
+   ],
+   "degree_centrality": 1.605467,
+   "eigenvector_centrality": 0.003303
+  },
+  "CONCEPT_008": {
+   "betweenness_centrality": 0.043293,
+   "center_roots": [
+    {
+     "internal_strength": 6.734917,
+     "root_arabic": "رذل",
+     "root_id": 1213
+    },
+    {
+     "internal_strength": 6.279412,
+     "root_arabic": "مضغ",
+     "root_id": 963
+    },
+    {
+     "internal_strength": 6.115257,
+     "root_arabic": "همد",
+     "root_id": 753
+    },
+    {
+     "internal_strength": 6.099111,
+     "root_arabic": "ترب",
+     "root_id": 1415
+    },
+    {
+     "internal_strength": 5.967929,
+     "root_arabic": "علق",
+     "root_id": 220
+    }
+   ],
+   "degree_centrality": 0.687088,
+   "eigenvector_centrality": 0.011263
+  },
+  "CONCEPT_009": {
+   "betweenness_centrality": 0.017861,
+   "center_roots": [
+    {
+     "internal_strength": 5.176608,
+     "root_arabic": "سلح",
+     "root_id": 1345
+    },
+    {
+     "internal_strength": 5.085123,
+     "root_arabic": "ذيع",
+     "root_id": 85
+    },
+    {
+     "internal_strength": 5.085123,
+     "root_arabic": "نبط",
+     "root_id": 1060
+    },
+    {
+     "internal_strength": 5.050376,
+     "root_arabic": "ركس",
+     "root_id": 1268
+    },
+    {
+     "internal_strength": 4.934862,
+     "root_arabic": "نكف",
+     "root_id": 1090
+    }
+   ],
+   "degree_centrality": 1.159019,
+   "eigenvector_centrality": 0.0044
+  },
+  "CONCEPT_010": {
+   "betweenness_centrality": 0.078043,
+   "center_roots": [
+    {
+     "internal_strength": 5.810456,
+     "root_arabic": "هور",
+     "root_id": 764
+    },
+    {
+     "internal_strength": 5.810456,
+     "root_arabic": "جرف",
+     "root_id": 819
+    },
+    {
+     "internal_strength": 5.445516,
+     "root_arabic": "اسس",
+     "root_id": 133
+    },
+    {
+     "internal_strength": 4.991553,
+     "root_arabic": "كسد",
+     "root_id": 887
+    },
+    {
+     "internal_strength": 3.884327,
+     "root_arabic": "وطن",
+     "root_id": 1463
+    }
+   ],
+   "degree_centrality": 1.09092,
+   "eigenvector_centrality": 0.001042
+  },
+  "CONCEPT_011": {
+   "betweenness_centrality": 0.039798,
+   "center_roots": [
+    {
+     "internal_strength": 6.899114,
+     "root_arabic": "شمت",
+     "root_id": 35
+    },
+    {
+     "internal_strength": 6.899114,
+     "root_arabic": "جرر",
+     "root_id": 821
+    },
+    {
+     "internal_strength": 3.684415,
+     "root_arabic": "لوح",
+     "root_id": 949
+    },
+    {
+     "internal_strength": 3.337833,
+     "root_arabic": "ريش",
+     "root_id": 1294
+    },
+    {
+     "internal_strength": 3.312864,
+     "root_arabic": "نكد",
+     "root_id": 1089
+    }
+   ],
+   "degree_centrality": 0.690154,
+   "eigenvector_centrality": 0.00169
+  },
+  "CONCEPT_012": {
+   "betweenness_centrality": 0.016113,
+   "center_roots": [
+    {
+     "internal_strength": 5.885243,
+     "root_arabic": "صيد",
+     "root_id": 439
+    },
+    {
+     "internal_strength": 4.682958,
+     "root_arabic": "رمح",
+     "root_id": 1270
+    },
+    {
+     "internal_strength": 3.863663,
+     "root_arabic": "شنا",
+     "root_id": 38
+    },
+    {
+     "internal_strength": 3.73198,
+     "root_arabic": "قلد",
+     "root_id": 1167
+    },
+    {
+     "internal_strength": 3.173994,
+     "root_arabic": "كعب",
+     "root_id": 848
+    }
+   ],
+   "degree_centrality": 0.408404,
+   "eigenvector_centrality": 0.001808
+  },
+  "CONCEPT_013": {
+   "betweenness_centrality": 0.060377,
+   "center_roots": [
+    {
+     "internal_strength": 6.549096,
+     "root_arabic": "سفه",
+     "root_id": 1326
+    },
+    {
+     "internal_strength": 5.994541,
+     "root_arabic": "ملل",
+     "root_id": 990
+    },
+    {
+     "internal_strength": 4.154076,
+     "root_arabic": "تجر",
+     "root_id": 1410
+    },
+    {
+     "internal_strength": 3.810907,
+     "root_arabic": "بيع",
+     "root_id": 563
+    },
+    {
+     "internal_strength": 3.799105,
+     "root_arabic": "صغر",
+     "root_id": 404
+    }
+   ],
+   "degree_centrality": 1.234474,
+   "eigenvector_centrality": 0.007292
+  },
+  "CONCEPT_014": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 6.742972,
+     "root_arabic": "وبر",
+     "root_id": 1467
+    },
+    {
+     "internal_strength": 6.742972,
+     "root_arabic": "صوف",
+     "root_id": 431
+    },
+    {
+     "internal_strength": 6.742972,
+     "root_arabic": "ظعن",
+     "root_id": 478
+    },
+    {
+     "internal_strength": 3.724081,
+     "root_arabic": "اثث",
+     "root_id": 139
+    },
+    {
+     "internal_strength": 3.178196,
+     "root_arabic": "حفد",
+     "root_id": 308
+    }
+   ],
+   "degree_centrality": 0.073694,
+   "eigenvector_centrality": 0.000434
+  },
+  "CONCEPT_015": {
+   "betweenness_centrality": 0.009124,
+   "center_roots": [
+    {
+     "internal_strength": 8.848733,
+     "root_arabic": "بصل",
+     "root_id": 498
+    },
+    {
+     "internal_strength": 8.848733,
+     "root_arabic": "عدس",
+     "root_id": 205
+    },
+    {
+     "internal_strength": 8.848733,
+     "root_arabic": "بقل",
+     "root_id": 531
+    },
+    {
+     "internal_strength": 8.848733,
+     "root_arabic": "فوم",
+     "root_id": 675
+    },
+    {
+     "internal_strength": 8.848733,
+     "root_arabic": "قثا",
+     "root_id": 1202
+    }
+   ],
+   "degree_centrality": 0.820196,
+   "eigenvector_centrality": 0.003724
+  },
+  "CONCEPT_016": {
+   "betweenness_centrality": 0.110852,
+   "center_roots": [
+    {
+     "internal_strength": 4.896118,
+     "root_arabic": "خلد",
+     "root_id": 1555
+    },
+    {
+     "internal_strength": 4.418494,
+     "root_arabic": "نهر",
+     "root_id": 1080
+    },
+    {
+     "internal_strength": 3.991627,
+     "root_arabic": "جنن",
+     "root_id": 814
+    },
+    {
+     "internal_strength": 3.274945,
+     "root_arabic": "تحت",
+     "root_id": 1405
+    },
+    {
+     "internal_strength": 3.25133,
+     "root_arabic": "جري",
+     "root_id": 822
+    }
+   ],
+   "degree_centrality": 1.471662,
+   "eigenvector_centrality": 0.022803
+  },
+  "CONCEPT_017": {
+   "betweenness_centrality": 0.031062,
+   "center_roots": [
+    {
+     "internal_strength": 5.091245,
+     "root_arabic": "صمع",
+     "root_id": 414
+    },
+    {
+     "internal_strength": 5.091245,
+     "root_arabic": "هدم",
+     "root_id": 745
+    },
+    {
+     "internal_strength": 4.297803,
+     "root_arabic": "مجس",
+     "root_id": 982
+    },
+    {
+     "internal_strength": 4.048027,
+     "root_arabic": "ذبب",
+     "root_id": 69
+    },
+    {
+     "internal_strength": 4.048027,
+     "root_arabic": "سلب",
+     "root_id": 1347
+    }
+   ],
+   "degree_centrality": 0.793409,
+   "eigenvector_centrality": 0.001212
+  },
+  "CONCEPT_018": {
+   "betweenness_centrality": 0.020773,
+   "center_roots": [
+    {
+     "internal_strength": 7.277622,
+     "root_arabic": "برص",
+     "root_id": 536
+    },
+    {
+     "internal_strength": 7.277622,
+     "root_arabic": "كمه",
+     "root_id": 874
+    },
+    {
+     "internal_strength": 7.166046,
+     "root_arabic": "كهل",
+     "root_id": 865
+    },
+    {
+     "internal_strength": 5.9108,
+     "root_arabic": "هيا",
+     "root_id": 766
+    },
+    {
+     "internal_strength": 5.718914,
+     "root_arabic": "مهد",
+     "root_id": 978
+    }
+   ],
+   "degree_centrality": 0.527851,
+   "eigenvector_centrality": 0.000635
+  },
+  "CONCEPT_019": {
+   "betweenness_centrality": 0.025238,
+   "center_roots": [
+    {
+     "internal_strength": 5.628259,
+     "root_arabic": "اود",
+     "root_id": 141
+    },
+    {
+     "internal_strength": 5.628259,
+     "root_arabic": "وسن",
+     "root_id": 1511
+    },
+    {
+     "internal_strength": 2.52716,
+     "root_arabic": "كرس",
+     "root_id": 885
+    },
+    {
+     "internal_strength": 2.128592,
+     "root_arabic": "غمض",
+     "root_id": 708
+    },
+    {
+     "internal_strength": 1.889288,
+     "root_arabic": "شفع",
+     "root_id": 15
+    }
+   ],
+   "degree_centrality": 1.187583,
+   "eigenvector_centrality": 0.00496
+  },
+  "CONCEPT_020": {
+   "betweenness_centrality": 0.044069,
+   "center_roots": [
+    {
+     "internal_strength": 6.498187,
+     "root_arabic": "مخر",
+     "root_id": 1019
+    },
+    {
+     "internal_strength": 6.498187,
+     "root_arabic": "طرو",
+     "root_id": 467
+    },
+    {
+     "internal_strength": 5.941352,
+     "root_arabic": "ملح",
+     "root_id": 988
+    },
+    {
+     "internal_strength": 5.78422,
+     "root_arabic": "اجج",
+     "root_id": 105
+    },
+    {
+     "internal_strength": 5.330618,
+     "root_arabic": "سوغ",
+     "root_id": 1392
+    }
+   ],
+   "degree_centrality": 0.607049,
+   "eigenvector_centrality": 0.00953
+  },
+  "CONCEPT_021": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 5.880894,
+     "root_arabic": "بعر",
+     "root_id": 493
+    },
+    {
+     "internal_strength": 5.715644,
+     "root_arabic": "بضع",
+     "root_id": 489
+    },
+    {
+     "internal_strength": 5.566235,
+     "root_arabic": "مير",
+     "root_id": 1022
+    },
+    {
+     "internal_strength": 4.721464,
+     "root_arabic": "رحل",
+     "root_id": 1223
+    },
+    {
+     "internal_strength": 4.680968,
+     "root_arabic": "جهز",
+     "root_id": 799
+    }
+   ],
+   "degree_centrality": 1.615335,
+   "eigenvector_centrality": 0.424291
+  },
+  "CONCEPT_022": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 4.671969,
+     "root_arabic": "حرف",
+     "root_id": 341
+    },
+    {
+     "internal_strength": 3.57981,
+     "root_arabic": "لعن",
+     "root_id": 908
+    },
+    {
+     "internal_strength": 3.263711,
+     "root_arabic": "نقض",
+     "root_id": 1098
+    },
+    {
+     "internal_strength": 2.82653,
+     "root_arabic": "قسو",
+     "root_id": 1199
+    },
+    {
+     "internal_strength": 2.711865,
+     "root_arabic": "وثق",
+     "root_id": 1518
+    }
+   ],
+   "degree_centrality": 0.309874,
+   "eigenvector_centrality": 0.001347
+  },
+  "CONCEPT_023": {
+   "betweenness_centrality": 0.018055,
+   "center_roots": [
+    {
+     "internal_strength": 5.001626,
+     "root_arabic": "هيج",
+     "root_id": 767
+    },
+    {
+     "internal_strength": 3.783403,
+     "root_arabic": "صفر",
+     "root_id": 402
+    },
+    {
+     "internal_strength": 3.238518,
+     "root_arabic": "لهو",
+     "root_id": 934
+    },
+    {
+     "internal_strength": 3.100299,
+     "root_arabic": "حطم",
+     "root_id": 294
+    },
+    {
+     "internal_strength": 2.922486,
+     "root_arabic": "غيث",
+     "root_id": 733
+    }
+   ],
+   "degree_centrality": 0.270315,
+   "eigenvector_centrality": 0.001025
+  },
+  "CONCEPT_024": {
+   "betweenness_centrality": 0.073772,
+   "center_roots": [
+    {
+     "internal_strength": 5.037407,
+     "root_arabic": "زجج",
+     "root_id": 1615
+    },
+    {
+     "internal_strength": 4.477796,
+     "root_arabic": "كوكب",
+     "root_id": 897
+    },
+    {
+     "internal_strength": 4.468917,
+     "root_arabic": "ضوا",
+     "root_id": 173
+    },
+    {
+     "internal_strength": 4.450349,
+     "root_arabic": "شرق",
+     "root_id": 48
+    },
+    {
+     "internal_strength": 4.129879,
+     "root_arabic": "درر",
+     "root_id": 599
+    }
+   ],
+   "degree_centrality": 0.866014,
+   "eigenvector_centrality": 0.001618
+  },
+  "CONCEPT_025": {
+   "betweenness_centrality": 0.08212,
+   "center_roots": [
+    {
+     "internal_strength": 4.806378,
+     "root_arabic": "سلو",
+     "root_id": 1354
+    },
+    {
+     "internal_strength": 4.580984,
+     "root_arabic": "سبط",
+     "root_id": 1314
+    },
+    {
+     "internal_strength": 4.453211,
+     "root_arabic": "بجس",
+     "root_id": 519
+    },
+    {
+     "internal_strength": 3.499419,
+     "root_arabic": "عصو",
+     "root_id": 191
+    },
+    {
+     "internal_strength": 2.748501,
+     "root_arabic": "منن",
+     "root_id": 994
+    }
+   ],
+   "degree_centrality": 1.397911,
+   "eigenvector_centrality": 0.010921
+  },
+  "CONCEPT_026": {
+   "betweenness_centrality": 0.018055,
+   "center_roots": [
+    {
+     "internal_strength": 4.834406,
+     "root_arabic": "ودق",
+     "root_id": 1470
+    },
+    {
+     "internal_strength": 4.347739,
+     "root_arabic": "زجو",
+     "root_id": 1617
+    },
+    {
+     "internal_strength": 4.187774,
+     "root_arabic": "سحب",
+     "root_id": 1304
+    },
+    {
+     "internal_strength": 3.795758,
+     "root_arabic": "خلل",
+     "root_id": 1557
+    },
+    {
+     "internal_strength": 3.657555,
+     "root_arabic": "برق",
+     "root_id": 542
+    }
+   ],
+   "degree_centrality": 0.325347,
+   "eigenvector_centrality": 0.000115
+  },
+  "CONCEPT_027": {
+   "betweenness_centrality": 0.147738,
+   "center_roots": [
+    {
+     "internal_strength": 3.921541,
+     "root_arabic": "طلل",
+     "root_id": 456
+    },
+    {
+     "internal_strength": 3.682157,
+     "root_arabic": "صلد",
+     "root_id": 411
+    },
+    {
+     "internal_strength": 2.682193,
+     "root_arabic": "خبط",
+     "root_id": 1538
+    },
+    {
+     "internal_strength": 2.183644,
+     "root_arabic": "وبل",
+     "root_id": 1465
+    },
+    {
+     "internal_strength": 1.955135,
+     "root_arabic": "ربو",
+     "root_id": 1234
+    }
+   ],
+   "degree_centrality": 1.765802,
+   "eigenvector_centrality": 0.020574
+  },
+  "CONCEPT_028": {
+   "betweenness_centrality": 0.036886,
+   "center_roots": [
+    {
+     "internal_strength": 4.533459,
+     "root_arabic": "محص",
+     "root_id": 968
+    },
+    {
+     "internal_strength": 3.832701,
+     "root_arabic": "خفي",
+     "root_id": 1551
+    },
+    {
+     "internal_strength": 3.735953,
+     "root_arabic": "همم",
+     "root_id": 754
+    },
+    {
+     "internal_strength": 3.15138,
+     "root_arabic": "نعس",
+     "root_id": 1041
+    },
+    {
+     "internal_strength": 3.000993,
+     "root_arabic": "غمم",
+     "root_id": 709
+    }
+   ],
+   "degree_centrality": 0.601032,
+   "eigenvector_centrality": 0.011201
+  },
+  "CONCEPT_029": {
+   "betweenness_centrality": 0.024267,
+   "center_roots": [
+    {
+     "internal_strength": 3.231398,
+     "root_arabic": "قنطر",
+     "root_id": 1179
+    },
+    {
+     "internal_strength": 3.142527,
+     "root_arabic": "دنر",
+     "root_id": 593
+    },
+    {
+     "internal_strength": 3.009292,
+     "root_arabic": "قرح",
+     "root_id": 1186
+    },
+    {
+     "internal_strength": 2.773409,
+     "root_arabic": "بهل",
+     "root_id": 516
+    },
+    {
+     "internal_strength": 2.761181,
+     "root_arabic": "غزو",
+     "root_id": 735
+    }
+   ],
+   "degree_centrality": 0.677928,
+   "eigenvector_centrality": 0.001925
+  },
+  "CONCEPT_030": {
+   "betweenness_centrality": 0.068919,
+   "center_roots": [
+    {
+     "internal_strength": 4.365121,
+     "root_arabic": "عور",
+     "root_id": 268
+    },
+    {
+     "internal_strength": 4.340527,
+     "root_arabic": "بعل",
+     "root_id": 492
+    },
+    {
+     "internal_strength": 4.025651,
+     "root_arabic": "فرج",
+     "root_id": 655
+    },
+    {
+     "internal_strength": 3.824243,
+     "root_arabic": "ارب",
+     "root_id": 128
+    },
+    {
+     "internal_strength": 3.808799,
+     "root_arabic": "غضض",
+     "root_id": 687
+    }
+   ],
+   "degree_centrality": 1.287608,
+   "eigenvector_centrality": 0.09975
+  },
+  "CONCEPT_031": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 2.921813,
+     "root_arabic": "رفت",
+     "root_id": 1244
+    },
+    {
+     "internal_strength": 2.815881,
+     "root_arabic": "نغض",
+     "root_id": 1078
+    },
+    {
+     "internal_strength": 2.560239,
+     "root_arabic": "هجد",
+     "root_id": 748
+    },
+    {
+     "internal_strength": 2.30367,
+     "root_arabic": "حنك",
+     "root_id": 331
+    },
+    {
+     "internal_strength": 2.280952,
+     "root_arabic": "دلك",
+     "root_id": 585
+    }
+   ],
+   "degree_centrality": 0.13681,
+   "eigenvector_centrality": 0.00013
+  },
+  "CONCEPT_032": {
+   "betweenness_centrality": 0.017666,
+   "center_roots": [
+    {
+     "internal_strength": 3.106899,
+     "root_arabic": "رغب",
+     "root_id": 1246
+    },
+    {
+     "internal_strength": 3.091637,
+     "root_arabic": "ضيع",
+     "root_id": 174
+    },
+    {
+     "internal_strength": 3.087327,
+     "root_arabic": "عرب",
+     "root_id": 242
+    },
+    {
+     "internal_strength": 3.011003,
+     "root_arabic": "وطا",
+     "root_id": 1462
+    },
+    {
+     "internal_strength": 2.895781,
+     "root_arabic": "نيل",
+     "root_id": 1127
+    }
+   ],
+   "degree_centrality": 0.493177,
+   "eigenvector_centrality": 0.000151
+  },
+  "CONCEPT_033": {
+   "betweenness_centrality": 0.006989,
+   "center_roots": [
+    {
+     "internal_strength": 4.462676,
+     "root_arabic": "عجف",
+     "root_id": 213
+    },
+    {
+     "internal_strength": 4.086021,
+     "root_arabic": "سنبل",
+     "root_id": 1363
+    },
+    {
+     "internal_strength": 3.989656,
+     "root_arabic": "سمن",
+     "root_id": 1360
+    },
+    {
+     "internal_strength": 3.752368,
+     "root_arabic": "يبس",
+     "root_id": 1594
+    },
+    {
+     "internal_strength": 2.609124,
+     "root_arabic": "فتي",
+     "root_id": 671
+    }
+   ],
+   "degree_centrality": 0.768004,
+   "eigenvector_centrality": 0.124842
+  },
+  "CONCEPT_034": {
+   "betweenness_centrality": 0.046787,
+   "center_roots": [
+    {
+     "internal_strength": 2.203906,
+     "root_arabic": "بغي",
+     "root_id": 514
+    },
+    {
+     "internal_strength": 2.202462,
+     "root_arabic": "فضل",
+     "root_id": 619
+    },
+    {
+     "internal_strength": 2.173928,
+     "root_arabic": "اجر",
+     "root_id": 107
+    },
+    {
+     "internal_strength": 2.099311,
+     "root_arabic": "صلح",
+     "root_id": 408
+    },
+    {
+     "internal_strength": 1.997967,
+     "root_arabic": "رحم",
+     "root_id": 1224
+    }
+   ],
+   "degree_centrality": 1.06498,
+   "eigenvector_centrality": 0.003707
+  },
+  "CONCEPT_035": {
+   "betweenness_centrality": 0.024461,
+   "center_roots": [
+    {
+     "internal_strength": 3.162457,
+     "root_arabic": "عفف",
+     "root_id": 207
+    },
+    {
+     "internal_strength": 3.119179,
+     "root_arabic": "فقر",
+     "root_id": 646
+    },
+    {
+     "internal_strength": 2.322132,
+     "root_arabic": "بدر",
+     "root_id": 509
+    },
+    {
+     "internal_strength": 2.194629,
+     "root_arabic": "نكح",
+     "root_id": 1086
+    },
+    {
+     "internal_strength": 2.048135,
+     "root_arabic": "يتم",
+     "root_id": 1602
+    }
+   ],
+   "degree_centrality": 1.919381,
+   "eigenvector_centrality": 0.009711
+  },
+  "CONCEPT_036": {
+   "betweenness_centrality": 0.109105,
+   "center_roots": [
+    {
+     "internal_strength": 4.551858,
+     "root_arabic": "اسن",
+     "root_id": 131
+    },
+    {
+     "internal_strength": 4.551858,
+     "root_arabic": "عسل",
+     "root_id": 251
+    },
+    {
+     "internal_strength": 4.551858,
+     "root_arabic": "معي",
+     "root_id": 966
+    },
+    {
+     "internal_strength": 3.886914,
+     "root_arabic": "لذذ",
+     "root_id": 905
+    },
+    {
+     "internal_strength": 3.845832,
+     "root_arabic": "لبن",
+     "root_id": 919
+    }
+   ],
+   "degree_centrality": 1.420476,
+   "eigenvector_centrality": 0.110913
+  },
+  "CONCEPT_037": {
+   "betweenness_centrality": 0.065618,
+   "center_roots": [
+    {
+     "internal_strength": 2.787597,
+     "root_arabic": "حثث",
+     "root_id": 357
+    },
+    {
+     "internal_strength": 2.413953,
+     "root_arabic": "ستت",
+     "root_id": 1386
+    },
+    {
+     "internal_strength": 1.568161,
+     "root_arabic": "طلب",
+     "root_id": 455
+    },
+    {
+     "internal_strength": 1.533924,
+     "root_arabic": "نجم",
+     "root_id": 1083
+    },
+    {
+     "internal_strength": 1.377735,
+     "root_arabic": "قمر",
+     "root_id": 1176
+    }
+   ],
+   "degree_centrality": 0.926939,
+   "eigenvector_centrality": 0.001524
+  },
+  "CONCEPT_038": {
+   "betweenness_centrality": 0.081149,
+   "center_roots": [
+    {
+     "internal_strength": 3.695183,
+     "root_arabic": "سنه",
+     "root_id": 1365
+    },
+    {
+     "internal_strength": 2.905162,
+     "root_arabic": "ماي",
+     "root_id": 962
+    },
+    {
+     "internal_strength": 2.7264,
+     "root_arabic": "خوي",
+     "root_id": 1585
+    },
+    {
+     "internal_strength": 2.686456,
+     "root_arabic": "عوم",
+     "root_id": 265
+    },
+    {
+     "internal_strength": 2.565758,
+     "root_arabic": "كسو",
+     "root_id": 890
+    }
+   ],
+   "degree_centrality": 1.506585,
+   "eigenvector_centrality": 0.002172
+  },
+  "CONCEPT_039": {
+   "betweenness_centrality": 0.04504,
+   "center_roots": [
+    {
+     "internal_strength": 2.941909,
+     "root_arabic": "قدد",
+     "root_id": 1157
+    },
+    {
+     "internal_strength": 2.871635,
+     "root_arabic": "قمص",
+     "root_id": 1173
+    },
+    {
+     "internal_strength": 2.806713,
+     "root_arabic": "سجن",
+     "root_id": 1338
+    },
+    {
+     "internal_strength": 2.103365,
+     "root_arabic": "خبز",
+     "root_id": 1544
+    },
+    {
+     "internal_strength": 1.893738,
+     "root_arabic": "بضع",
+     "root_id": 489
+    }
+   ],
+   "degree_centrality": 2.405677,
+   "eigenvector_centrality": 0.565846
+  },
+  "CONCEPT_040": {
+   "betweenness_centrality": 0.008736,
+   "center_roots": [
+    {
+     "internal_strength": 3.334979,
+     "root_arabic": "سردق",
+     "root_id": 1378
+    },
+    {
+     "internal_strength": 3.156118,
+     "root_arabic": "شوي",
+     "root_id": 57
+    },
+    {
+     "internal_strength": 2.554817,
+     "root_arabic": "غوث",
+     "root_id": 727
+    },
+    {
+     "internal_strength": 2.342682,
+     "root_arabic": "مهل",
+     "root_id": 979
+    },
+    {
+     "internal_strength": 2.170109,
+     "root_arabic": "رفق",
+     "root_id": 1242
+    }
+   ],
+   "degree_centrality": 0.90039,
+   "eigenvector_centrality": 0.001736
+  },
+  "CONCEPT_041": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 2.33502,
+     "root_arabic": "فتق",
+     "root_id": 669
+    },
+    {
+     "internal_strength": 2.33502,
+     "root_arabic": "رتق",
+     "root_id": 1287
+    },
+    {
+     "internal_strength": 2.08051,
+     "root_arabic": "فهم",
+     "root_id": 629
+    },
+    {
+     "internal_strength": 1.796039,
+     "root_arabic": "نون",
+     "root_id": 1120
+    },
+    {
+     "internal_strength": 1.792232,
+     "root_arabic": "نفح",
+     "root_id": 1069
+    }
+   ],
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0
+  },
+  "CONCEPT_042": {
+   "betweenness_centrality": 0.02582,
+   "center_roots": [
+    {
+     "internal_strength": 3.301221,
+     "root_arabic": "جفا",
+     "root_id": 793
+    },
+    {
+     "internal_strength": 3.301221,
+     "root_arabic": "زبد",
+     "root_id": 1607
+    },
+    {
+     "internal_strength": 2.56433,
+     "root_arabic": "مكث",
+     "root_id": 985
+    },
+    {
+     "internal_strength": 2.245663,
+     "root_arabic": "سيل",
+     "root_id": 1402
+    },
+    {
+     "internal_strength": 1.486227,
+     "root_arabic": "وقد",
+     "root_id": 1498
+    }
+   ],
+   "degree_centrality": 0.58439,
+   "eigenvector_centrality": 0.001154
+  },
+  "CONCEPT_043": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 2.430589,
+     "root_arabic": "قلع",
+     "root_id": 1165
+    },
+    {
+     "internal_strength": 2.430589,
+     "root_arabic": "بلع",
+     "root_id": 523
+    },
+    {
+     "internal_strength": 1.495044,
+     "root_arabic": "روع",
+     "root_id": 1289
+    },
+    {
+     "internal_strength": 1.425223,
+     "root_arabic": "حنذ",
+     "root_id": 328
+    },
+    {
+     "internal_strength": 1.342698,
+     "root_arabic": "سعد",
+     "root_id": 1301
+    }
+   ],
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0
+  },
+  "CONCEPT_044": {
+   "betweenness_centrality": 0.000971,
+   "center_roots": [
+    {
+     "internal_strength": 2.233394,
+     "root_arabic": "بغض",
+     "root_id": 511
+    },
+    {
+     "internal_strength": 2.197813,
+     "root_arabic": "طفا",
+     "root_id": 447
+    },
+    {
+     "internal_strength": 2.043914,
+     "root_arabic": "حرب",
+     "root_id": 339
+    },
+    {
+     "internal_strength": 1.316428,
+     "root_arabic": "غلل",
+     "root_id": 703
+    },
+    {
+     "internal_strength": 1.307194,
+     "root_arabic": "بسط",
+     "root_id": 545
+    }
+   ],
+   "degree_centrality": 0.303146,
+   "eigenvector_centrality": 0.00029
+  },
+  "CONCEPT_045": {
+   "betweenness_centrality": 0.018831,
+   "center_roots": [
+    {
+     "internal_strength": 2.467849,
+     "root_arabic": "جذع",
+     "root_id": 776
+    },
+    {
+     "internal_strength": 2.356225,
+     "root_arabic": "جني",
+     "root_id": 815
+    },
+    {
+     "internal_strength": 2.229197,
+     "root_arabic": "رطب",
+     "root_id": 1228
+    },
+    {
+     "internal_strength": 1.695179,
+     "root_arabic": "مخض",
+     "root_id": 1018
+    },
+    {
+     "internal_strength": 1.273811,
+     "root_arabic": "سقط",
+     "root_id": 1369
+    }
+   ],
+   "degree_centrality": 0.437264,
+   "eigenvector_centrality": 0.00261
+  },
+  "CONCEPT_046": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 2.688033,
+     "root_arabic": "شحم",
+     "root_id": 7
+    },
+    {
+     "internal_strength": 2.618224,
+     "root_arabic": "ظفر",
+     "root_id": 479
+    },
+    {
+     "internal_strength": 2.465935,
+     "root_arabic": "حوي",
+     "root_id": 366
+    },
+    {
+     "internal_strength": 1.517589,
+     "root_arabic": "خلط",
+     "root_id": 1554
+    },
+    {
+     "internal_strength": 1.35528,
+     "root_arabic": "بقر",
+     "root_id": 532
+    }
+   ],
+   "degree_centrality": 0.309699,
+   "eigenvector_centrality": 0.012735
+  },
+  "CONCEPT_047": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 2.184455,
+     "root_arabic": "ازر",
+     "root_id": 152
+    },
+    {
+     "internal_strength": 2.019109,
+     "root_arabic": "شطا",
+     "root_id": 9
+    },
+    {
+     "internal_strength": 1.833912,
+     "root_arabic": "ركع",
+     "root_id": 1263
+    },
+    {
+     "internal_strength": 1.46004,
+     "root_arabic": "غيظ",
+     "root_id": 730
+    },
+    {
+     "internal_strength": 1.376242,
+     "root_arabic": "غلظ",
+     "root_id": 700
+    }
+   ],
+   "degree_centrality": 0.211278,
+   "eigenvector_centrality": 3e-05
+  },
+  "CONCEPT_048": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 2.345743,
+     "root_arabic": "غلق",
+     "root_id": 705
+    },
+    {
+     "internal_strength": 2.345743,
+     "root_arabic": "هيت",
+     "root_id": 770
+    },
+    {
+     "internal_strength": 2.241172,
+     "root_arabic": "قدد",
+     "root_id": 1157
+    },
+    {
+     "internal_strength": 2.223504,
+     "root_arabic": "قمص",
+     "root_id": 1173
+    },
+    {
+     "internal_strength": 2.073898,
+     "root_arabic": "حصحص",
+     "root_id": 285
+    }
+   ],
+   "degree_centrality": 1.517289,
+   "eigenvector_centrality": 0.420581
+  },
+  "CONCEPT_049": {
+   "betweenness_centrality": 0.037663,
+   "center_roots": [
+    {
+     "internal_strength": 2.229525,
+     "root_arabic": "قمر",
+     "root_id": 1176
+    },
+    {
+     "internal_strength": 2.191114,
+     "root_arabic": "شمس",
+     "root_id": 34
+    },
+    {
+     "internal_strength": 1.775881,
+     "root_arabic": "ليل",
+     "root_id": 954
+    },
+    {
+     "internal_strength": 1.391923,
+     "root_arabic": "سخر",
+     "root_id": 1399
+    },
+    {
+     "internal_strength": 1.222975,
+     "root_arabic": "نهر",
+     "root_id": 1080
+    }
+   ],
+   "degree_centrality": 0.833849,
+   "eigenvector_centrality": 0.004476
+  },
+  "CONCEPT_050": {
+   "betweenness_centrality": 0.006795,
+   "center_roots": [
+    {
+     "internal_strength": 2.55474,
+     "root_arabic": "عمم",
+     "root_id": 225
+    },
+    {
+     "internal_strength": 2.3158,
+     "root_arabic": "خول",
+     "root_id": 1582
+    },
+    {
+     "internal_strength": 2.041354,
+     "root_arabic": "حرج",
+     "root_id": 342
+    },
+    {
+     "internal_strength": 1.51269,
+     "root_arabic": "شتت",
+     "root_id": 51
+    },
+    {
+     "internal_strength": 1.404583,
+     "root_arabic": "عرج",
+     "root_id": 244
+    }
+   ],
+   "degree_centrality": 0.407253,
+   "eigenvector_centrality": 0.016064
+  },
+  "CONCEPT_051": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.657795,
+     "root_arabic": "جذو",
+     "root_id": 777
+    },
+    {
+     "internal_strength": 1.626039,
+     "root_arabic": "سرمد",
+     "root_id": 1381
+    },
+    {
+     "internal_strength": 1.611537,
+     "root_arabic": "نوا",
+     "root_id": 1116
+    },
+    {
+     "internal_strength": 1.333838,
+     "root_arabic": "وكز",
+     "root_id": 1490
+    },
+    {
+     "internal_strength": 1.253604,
+     "root_arabic": "ذود",
+     "root_id": 82
+    }
+   ],
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0
+  },
+  "CONCEPT_052": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 3.218497,
+     "root_arabic": "اثل",
+     "root_id": 136
+    },
+    {
+     "internal_strength": 3.218497,
+     "root_arabic": "عرم",
+     "root_id": 246
+    },
+    {
+     "internal_strength": 3.218497,
+     "root_arabic": "خمط",
+     "root_id": 1561
+    },
+    {
+     "internal_strength": 2.207015,
+     "root_arabic": "سدر",
+     "root_id": 1321
+    },
+    {
+     "internal_strength": 1.958651,
+     "root_arabic": "سيل",
+     "root_id": 1402
+    }
+   ],
+   "degree_centrality": 0.232772,
+   "eigenvector_centrality": 0.000166
+  },
+  "CONCEPT_053": {
+   "betweenness_centrality": 0.000388,
+   "center_roots": [
+    {
+     "internal_strength": 1.808498,
+     "root_arabic": "اخر",
+     "root_id": 146
+    },
+    {
+     "internal_strength": 1.786978,
+     "root_arabic": "عذب",
+     "root_id": 181
+    },
+    {
+     "internal_strength": 1.515476,
+     "root_arabic": "دنو",
+     "root_id": 594
+    },
+    {
+     "internal_strength": 1.437361,
+     "root_arabic": "كفر",
+     "root_id": 861
+    },
+    {
+     "internal_strength": 1.069844,
+     "root_arabic": "متع",
+     "root_id": 1010
+    }
+   ],
+   "degree_centrality": 1.504876,
+   "eigenvector_centrality": 0.002142
+  },
+  "CONCEPT_054": {
+   "betweenness_centrality": 0.018055,
+   "center_roots": [
+    {
+     "internal_strength": 2.459284,
+     "root_arabic": "صمم",
+     "root_id": 416
+    },
+    {
+     "internal_strength": 2.410876,
+     "root_arabic": "بكم",
+     "root_id": 520
+    },
+    {
+     "internal_strength": 1.645832,
+     "root_arabic": "عمي",
+     "root_id": 228
+    },
+    {
+     "internal_strength": 1.639723,
+     "root_arabic": "نعق",
+     "root_id": 1040
+    },
+    {
+     "internal_strength": 1.566759,
+     "root_arabic": "خبو",
+     "root_id": 1543
+    }
+   ],
+   "degree_centrality": 0.25674,
+   "eigenvector_centrality": 0.001537
+  },
+  "CONCEPT_055": {
+   "betweenness_centrality": 0.044846,
+   "center_roots": [
+    {
+     "internal_strength": 2.338754,
+     "root_arabic": "وسط",
+     "root_id": 1508
+    },
+    {
+     "internal_strength": 2.187198,
+     "root_arabic": "عقد",
+     "root_id": 236
+    },
+    {
+     "internal_strength": 2.115872,
+     "root_arabic": "كسو",
+     "root_id": 890
+    },
+    {
+     "internal_strength": 1.785573,
+     "root_arabic": "صوم",
+     "root_id": 432
+    },
+    {
+     "internal_strength": 1.575994,
+     "root_arabic": "حرر",
+     "root_id": 346
+    }
+   ],
+   "degree_centrality": 1.31872,
+   "eigenvector_centrality": 0.004984
+  },
+  "CONCEPT_056": {
+   "betweenness_centrality": 0.000194,
+   "center_roots": [
+    {
+     "internal_strength": 2.423032,
+     "root_arabic": "سلح",
+     "root_id": 1345
+    },
+    {
+     "internal_strength": 2.285946,
+     "root_arabic": "ميل",
+     "root_id": 1021
+    },
+    {
+     "internal_strength": 1.514514,
+     "root_arabic": "هون",
+     "root_id": 763
+    },
+    {
+     "internal_strength": 1.376969,
+     "root_arabic": "ودد",
+     "root_id": 1469
+    },
+    {
+     "internal_strength": 1.149595,
+     "root_arabic": "مطر",
+     "root_id": 974
+    }
+   ],
+   "degree_centrality": 0.569125,
+   "eigenvector_centrality": 0.001596
+  },
+  "CONCEPT_057": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.368802,
+     "root_arabic": "ضدد",
+     "root_id": 159
+    },
+    {
+     "internal_strength": 1.335622,
+     "root_arabic": "حتم",
+     "root_id": 356
+    },
+    {
+     "internal_strength": 1.313974,
+     "root_arabic": "حنن",
+     "root_id": 332
+    },
+    {
+     "internal_strength": 1.303012,
+     "root_arabic": "شعل",
+     "root_id": 4
+    },
+    {
+     "internal_strength": 1.291292,
+     "root_arabic": "مخض",
+     "root_id": 1018
+    }
+   ],
+   "degree_centrality": 0.194778,
+   "eigenvector_centrality": 0.000314
+  },
+  "CONCEPT_058": {
+   "betweenness_centrality": 0.00893,
+   "center_roots": [
+    {
+     "internal_strength": 1.931684,
+     "root_arabic": "حفر",
+     "root_id": 310
+    },
+    {
+     "internal_strength": 1.71807,
+     "root_arabic": "شفو",
+     "root_id": 18
+    },
+    {
+     "internal_strength": 1.614381,
+     "root_arabic": "حبل",
+     "root_id": 300
+    },
+    {
+     "internal_strength": 1.489719,
+     "root_arabic": "نقذ",
+     "root_id": 1097
+    },
+    {
+     "internal_strength": 1.365042,
+     "root_arabic": "عصم",
+     "root_id": 189
+    }
+   ],
+   "degree_centrality": 0.384857,
+   "eigenvector_centrality": 0.000182
+  },
+  "CONCEPT_059": {
+   "betweenness_centrality": 0.023102,
+   "center_roots": [
+    {
+     "internal_strength": 2.085973,
+     "root_arabic": "بار",
+     "root_id": 487
+    },
+    {
+     "internal_strength": 1.953227,
+     "root_arabic": "عطل",
+     "root_id": 194
+    },
+    {
+     "internal_strength": 1.796289,
+     "root_arabic": "شيد",
+     "root_id": 62
+    },
+    {
+     "internal_strength": 1.090979,
+     "root_arabic": "خوي",
+     "root_id": 1585
+    },
+    {
+     "internal_strength": 0.995344,
+     "root_arabic": "قصر",
+     "root_id": 1144
+    }
+   ],
+   "degree_centrality": 0.495789,
+   "eigenvector_centrality": 0.000496
+  },
+  "CONCEPT_060": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.368873,
+     "root_arabic": "صلح",
+     "root_id": 408
+    },
+    {
+     "internal_strength": 1.355056,
+     "root_arabic": "سوا",
+     "root_id": 1387
+    },
+    {
+     "internal_strength": 1.337009,
+     "root_arabic": "دخل",
+     "root_id": 610
+    },
+    {
+     "internal_strength": 1.058662,
+     "root_arabic": "حسن",
+     "root_id": 353
+    },
+    {
+     "internal_strength": 0.942256,
+     "root_arabic": "اهل",
+     "root_id": 104
+    }
+   ],
+   "degree_centrality": 0.608272,
+   "eigenvector_centrality": 0.004324
+  },
+  "CONCEPT_061": {
+   "betweenness_centrality": 0.026209,
+   "center_roots": [
+    {
+     "internal_strength": 1.387287,
+     "root_arabic": "رسل",
+     "root_id": 1281
+    },
+    {
+     "internal_strength": 1.381323,
+     "root_arabic": "امر",
+     "root_id": 119
+    },
+    {
+     "internal_strength": 1.352225,
+     "root_arabic": "تبع",
+     "root_id": 1406
+    },
+    {
+     "internal_strength": 1.082781,
+     "root_arabic": "جيا",
+     "root_id": 838
+    },
+    {
+     "internal_strength": 1.052834,
+     "root_arabic": "رحم",
+     "root_id": 1224
+    }
+   ],
+   "degree_centrality": 1.09701,
+   "eigenvector_centrality": 0.001604
+  },
+  "CONCEPT_062": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.774781,
+     "root_arabic": "وطن",
+     "root_id": 1463
+    },
+    {
+     "internal_strength": 1.739895,
+     "root_arabic": "لجا",
+     "root_id": 935
+    },
+    {
+     "internal_strength": 1.644024,
+     "root_arabic": "رحب",
+     "root_id": 1222
+    },
+    {
+     "internal_strength": 1.54897,
+     "root_arabic": "جمح",
+     "root_id": 806
+    },
+    {
+     "internal_strength": 1.396782,
+     "root_arabic": "ضيق",
+     "root_id": 176
+    }
+   ],
+   "degree_centrality": 0.185633,
+   "eigenvector_centrality": 0.000113
+  },
+  "CONCEPT_063": {
+   "betweenness_centrality": 0.009319,
+   "center_roots": [
+    {
+     "internal_strength": 1.716762,
+     "root_arabic": "لقف",
+     "root_id": 944
+    },
+    {
+     "internal_strength": 1.664766,
+     "root_arabic": "ثعب",
+     "root_id": 1424
+    },
+    {
+     "internal_strength": 1.433974,
+     "root_arabic": "عصو",
+     "root_id": 191
+    },
+    {
+     "internal_strength": 1.205215,
+     "root_arabic": "طود",
+     "root_id": 469
+    },
+    {
+     "internal_strength": 1.072973,
+     "root_arabic": "سحر",
+     "root_id": 1307
+    }
+   ],
+   "degree_centrality": 0.516579,
+   "eigenvector_centrality": 0.002505
+  },
+  "CONCEPT_064": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.50381,
+     "root_arabic": "وزع",
+     "root_id": 1519
+    },
+    {
+     "internal_strength": 1.498244,
+     "root_arabic": "بسم",
+     "root_id": 547
+    },
+    {
+     "internal_strength": 1.264796,
+     "root_arabic": "عفر",
+     "root_id": 208
+    },
+    {
+     "internal_strength": 0.971426,
+     "root_arabic": "نمل",
+     "root_id": 1095
+    },
+    {
+     "internal_strength": 0.9657,
+     "root_arabic": "هدهد",
+     "root_id": 744
+    }
+   ],
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0
+  },
+  "CONCEPT_065": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.518502,
+     "root_arabic": "سمر",
+     "root_id": 1361
+    },
+    {
+     "internal_strength": 1.412785,
+     "root_arabic": "نسف",
+     "root_id": 1106
+    },
+    {
+     "internal_strength": 1.403621,
+     "root_arabic": "زهر",
+     "root_id": 1614
+    },
+    {
+     "internal_strength": 1.238858,
+     "root_arabic": "سحل",
+     "root_id": 1305
+    },
+    {
+     "internal_strength": 1.077128,
+     "root_arabic": "عنو",
+     "root_id": 234
+    }
+   ],
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0
+  },
+  "CONCEPT_066": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 2.486502,
+     "root_arabic": "وجب",
+     "root_id": 1481
+    },
+    {
+     "internal_strength": 2.259273,
+     "root_arabic": "بدن",
+     "root_id": 508
+    },
+    {
+     "internal_strength": 2.122389,
+     "root_arabic": "قنع",
+     "root_id": 1177
+    },
+    {
+     "internal_strength": 2.011326,
+     "root_arabic": "عرر",
+     "root_id": 247
+    },
+    {
+     "internal_strength": 1.54583,
+     "root_arabic": "صفف",
+     "root_id": 400
+    }
+   ],
+   "degree_centrality": 0.234225,
+   "eigenvector_centrality": 0.000163
+  },
+  "CONCEPT_067": {
+   "betweenness_centrality": 0.009707,
+   "center_roots": [
+    {
+     "internal_strength": 1.928505,
+     "root_arabic": "بدر",
+     "root_id": 509
+    },
+    {
+     "internal_strength": 1.725515,
+     "root_arabic": "يتم",
+     "root_id": 1602
+    },
+    {
+     "internal_strength": 1.691294,
+     "root_arabic": "عول",
+     "root_id": 264
+    },
+    {
+     "internal_strength": 1.332555,
+     "root_arabic": "حوب",
+     "root_id": 361
+    },
+    {
+     "internal_strength": 1.329095,
+     "root_arabic": "كفي",
+     "root_id": 863
+    }
+   ],
+   "degree_centrality": 1.34728,
+   "eigenvector_centrality": 0.006357
+  },
+  "CONCEPT_068": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.470566,
+     "root_arabic": "نحب",
+     "root_id": 1042
+    },
+    {
+     "internal_strength": 1.459402,
+     "root_arabic": "وطر",
+     "root_id": 1464
+    },
+    {
+     "internal_strength": 1.444873,
+     "root_arabic": "جوف",
+     "root_id": 833
+    },
+    {
+     "internal_strength": 1.296774,
+     "root_arabic": "سلق",
+     "root_id": 1352
+    },
+    {
+     "internal_strength": 1.241659,
+     "root_arabic": "عوق",
+     "root_id": 267
+    }
+   ],
+   "degree_centrality": 0.040027,
+   "eigenvector_centrality": 2.8e-05
+  },
+  "CONCEPT_069": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 2.08297,
+     "root_arabic": "رعد",
+     "root_id": 1220
+    },
+    {
+     "internal_strength": 1.506294,
+     "root_arabic": "صعق",
+     "root_id": 380
+    },
+    {
+     "internal_strength": 1.476151,
+     "root_arabic": "برق",
+     "root_id": 542
+    },
+    {
+     "internal_strength": 1.236188,
+     "root_arabic": "صبع",
+     "root_id": 385
+    },
+    {
+     "internal_strength": 1.206977,
+     "root_arabic": "محل",
+     "root_id": 969
+    }
+   ],
+   "degree_centrality": 0.227585,
+   "eigenvector_centrality": 3.2e-05
+  },
+  "CONCEPT_070": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 2.046071,
+     "root_arabic": "صعر",
+     "root_id": 381
+    },
+    {
+     "internal_strength": 1.949124,
+     "root_arabic": "خدد",
+     "root_id": 1546
+    },
+    {
+     "internal_strength": 1.805484,
+     "root_arabic": "مرح",
+     "root_id": 999
+    },
+    {
+     "internal_strength": 1.545968,
+     "root_arabic": "فخر",
+     "root_id": 680
+    },
+    {
+     "internal_strength": 1.472277,
+     "root_arabic": "خيل",
+     "root_id": 1588
+    }
+   ],
+   "degree_centrality": 0.161515,
+   "eigenvector_centrality": 0.000102
+  },
+  "CONCEPT_071": {
+   "betweenness_centrality": 0.061153,
+   "center_roots": [
+    {
+     "internal_strength": 1.865566,
+     "root_arabic": "كسد",
+     "root_id": 887
+    },
+    {
+     "internal_strength": 1.622638,
+     "root_arabic": "ربص",
+     "root_id": 1231
+    },
+    {
+     "internal_strength": 1.510921,
+     "root_arabic": "جهد",
+     "root_id": 796
+    },
+    {
+     "internal_strength": 1.139422,
+     "root_arabic": "قرف",
+     "root_id": 1190
+    },
+    {
+     "internal_strength": 1.061857,
+     "root_arabic": "تجر",
+     "root_id": 1410
+    }
+   ],
+   "degree_centrality": 0.7737,
+   "eigenvector_centrality": 0.002559
+  },
+  "CONCEPT_072": {
+   "betweenness_centrality": 0.123083,
+   "center_roots": [
+    {
+     "internal_strength": 1.104376,
+     "root_arabic": "شرب",
+     "root_id": 45
+    },
+    {
+     "internal_strength": 1.103626,
+     "root_arabic": "ثمر",
+     "root_id": 1433
+    },
+    {
+     "internal_strength": 1.075414,
+     "root_arabic": "لبن",
+     "root_id": 919
+    },
+    {
+     "internal_strength": 1.065378,
+     "root_arabic": "صفو",
+     "root_id": 403
+    }
+   ],
+   "degree_centrality": 1.461132,
+   "eigenvector_centrality": 0.060982
+  },
+  "CONCEPT_073": {
+   "betweenness_centrality": 0.031256,
+   "center_roots": [
+    {
+     "internal_strength": 1.29304,
+     "root_arabic": "كتم",
+     "root_id": 892
+    },
+    {
+     "internal_strength": 1.219729,
+     "root_arabic": "شري",
+     "root_id": 50
+    },
+    {
+     "internal_strength": 1.081584,
+     "root_arabic": "ادي",
+     "root_id": 99
+    },
+    {
+     "internal_strength": 0.999805,
+     "root_arabic": "سبط",
+     "root_id": 1314
+    }
+   ],
+   "degree_centrality": 1.380344,
+   "eigenvector_centrality": 0.005785
+  },
+  "CONCEPT_074": {
+   "betweenness_centrality": 0.008542,
+   "center_roots": [
+    {
+     "internal_strength": 1.031583,
+     "root_arabic": "شري",
+     "root_id": 50
+    },
+    {
+     "internal_strength": 1.005798,
+     "root_arabic": "زلل",
+     "root_id": 1620
+    },
+    {
+     "internal_strength": 1.004314,
+     "root_arabic": "زحزح",
+     "root_id": 1606
+    },
+    {
+     "internal_strength": 0.984609,
+     "root_arabic": "ادي",
+     "root_id": 99
+    }
+   ],
+   "degree_centrality": 1.228974,
+   "eigenvector_centrality": 0.004361
+  },
+  "CONCEPT_075": {
+   "betweenness_centrality": 0.000194,
+   "center_roots": [
+    {
+     "internal_strength": 1.489243,
+     "root_arabic": "فظظ",
+     "root_id": 627
+    },
+    {
+     "internal_strength": 1.327291,
+     "root_arabic": "عزم",
+     "root_id": 277
+    },
+    {
+     "internal_strength": 1.269965,
+     "root_arabic": "شور",
+     "root_id": 56
+    },
+    {
+     "internal_strength": 1.149999,
+     "root_arabic": "لين",
+     "root_id": 955
+    }
+   ],
+   "degree_centrality": 0.361272,
+   "eigenvector_centrality": 0.000672
+  },
+  "CONCEPT_076": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.147305,
+     "root_arabic": "قمص",
+     "root_id": 1173
+    },
+    {
+     "internal_strength": 1.12943,
+     "root_arabic": "ذاب",
+     "root_id": 64
+    },
+    {
+     "internal_strength": 1.094794,
+     "root_arabic": "جبب",
+     "root_id": 782
+    },
+    {
+     "internal_strength": 1.091827,
+     "root_arabic": "طرح",
+     "root_id": 463
+    }
+   ],
+   "degree_centrality": 1.162122,
+   "eigenvector_centrality": 0.33221
+  },
+  "CONCEPT_077": {
+   "betweenness_centrality": 0.036109,
+   "center_roots": [
+    {
+     "internal_strength": 1.889141,
+     "root_arabic": "ذبب",
+     "root_id": 69
+    },
+    {
+     "internal_strength": 1.889141,
+     "root_arabic": "سلب",
+     "root_id": 1347
+    },
+    {
+     "internal_strength": 1.524142,
+     "root_arabic": "طلب",
+     "root_id": 455
+    },
+    {
+     "internal_strength": 1.253046,
+     "root_arabic": "نقذ",
+     "root_id": 1097
+    }
+   ],
+   "degree_centrality": 0.924667,
+   "eigenvector_centrality": 0.000614
+  },
+  "CONCEPT_078": {
+   "betweenness_centrality": 0.018055,
+   "center_roots": [
+    {
+     "internal_strength": 1.043113,
+     "root_arabic": "اذي",
+     "root_id": 88
+    },
+    {
+     "internal_strength": 1.034124,
+     "root_arabic": "سرح",
+     "root_id": 1374
+    },
+    {
+     "internal_strength": 0.997395,
+     "root_arabic": "قنت",
+     "root_id": 1180
+    },
+    {
+     "internal_strength": 0.974448,
+     "root_arabic": "زوج",
+     "root_id": 1634
+    }
+   ],
+   "degree_centrality": 0.333787,
+   "eigenvector_centrality": 0.001147
+  },
+  "CONCEPT_079": {
+   "betweenness_centrality": 0.028926,
+   "center_roots": [
+    {
+     "internal_strength": 1.110807,
+     "root_arabic": "طوق",
+     "root_id": 472
+    },
+    {
+     "internal_strength": 1.0605,
+     "root_arabic": "اصر",
+     "root_id": 91
+    },
+    {
+     "internal_strength": 1.020425,
+     "root_arabic": "غمض",
+     "root_id": 708
+    },
+    {
+     "internal_strength": 1.013232,
+     "root_arabic": "زلل",
+     "root_id": 1620
+    }
+   ],
+   "degree_centrality": 1.186507,
+   "eigenvector_centrality": 0.004474
+  },
+  "CONCEPT_080": {
+   "betweenness_centrality": 0.002718,
+   "center_roots": [
+    {
+     "internal_strength": 1.075027,
+     "root_arabic": "فاي",
+     "root_id": 616
+    },
+    {
+     "internal_strength": 1.065731,
+     "root_arabic": "غلب",
+     "root_id": 701
+    },
+    {
+     "internal_strength": 1.027625,
+     "root_arabic": "ماي",
+     "root_id": 962
+    },
+    {
+     "internal_strength": 1.006805,
+     "root_arabic": "الف",
+     "root_id": 109
+    }
+   ],
+   "degree_centrality": 0.676427,
+   "eigenvector_centrality": 0.000782
+  },
+  "CONCEPT_081": {
+   "betweenness_centrality": 0.011066,
+   "center_roots": [
+    {
+     "internal_strength": 1.240532,
+     "root_arabic": "اله",
+     "root_id": 110
+    },
+    {
+     "internal_strength": 1.191022,
+     "root_arabic": "كفر",
+     "root_id": 861
+    },
+    {
+     "internal_strength": 1.158593,
+     "root_arabic": "بين",
+     "root_id": 565
+    },
+    {
+     "internal_strength": 1.093605,
+     "root_arabic": "يوم",
+     "root_id": 1603
+    }
+   ],
+   "degree_centrality": 1.53713,
+   "eigenvector_centrality": 0.002319
+  },
+  "CONCEPT_082": {
+   "betweenness_centrality": 0.023296,
+   "center_roots": [
+    {
+     "internal_strength": 1.370885,
+     "root_arabic": "سهل",
+     "root_id": 1332
+    },
+    {
+     "internal_strength": 1.326322,
+     "root_arabic": "نحت",
+     "root_id": 1046
+    },
+    {
+     "internal_strength": 1.129417,
+     "root_arabic": "قصر",
+     "root_id": 1144
+    },
+    {
+     "internal_strength": 0.95088,
+     "root_arabic": "الو",
+     "root_id": 114
+    }
+   ],
+   "degree_centrality": 1.058729,
+   "eigenvector_centrality": 0.001122
+  },
+  "CONCEPT_083": {
+   "betweenness_centrality": 0.009319,
+   "center_roots": [
+    {
+     "internal_strength": 1.509311,
+     "root_arabic": "ضان",
+     "root_id": 154
+    },
+    {
+     "internal_strength": 1.509311,
+     "root_arabic": "معز",
+     "root_id": 967
+    },
+    {
+     "internal_strength": 1.124488,
+     "root_arabic": "انث",
+     "root_id": 125
+    },
+    {
+     "internal_strength": 1.040198,
+     "root_arabic": "ثني",
+     "root_id": 1434
+    }
+   ],
+   "degree_centrality": 0.402524,
+   "eigenvector_centrality": 0.002845
+  },
+  "CONCEPT_084": {
+   "betweenness_centrality": 0.001359,
+   "center_roots": [
+    {
+     "internal_strength": 1.208227,
+     "root_arabic": "ظلم",
+     "root_id": 482
+    },
+    {
+     "internal_strength": 1.181975,
+     "root_arabic": "قوم",
+     "root_id": 1206
+    },
+    {
+     "internal_strength": 1.14443,
+     "root_arabic": "بعد",
+     "root_id": 491
+    },
+    {
+     "internal_strength": 1.111496,
+     "root_arabic": "اخذ",
+     "root_id": 145
+    }
+   ],
+   "degree_centrality": 0.859805,
+   "eigenvector_centrality": 0.001258
+  },
+  "CONCEPT_085": {
+   "betweenness_centrality": 0.011454,
+   "center_roots": [
+    {
+     "internal_strength": 1.059576,
+     "root_arabic": "بني",
+     "root_id": 529
+    },
+    {
+     "internal_strength": 1.049001,
+     "root_arabic": "سبل",
+     "root_id": 1317
+    },
+    {
+     "internal_strength": 1.005941,
+     "root_arabic": "رسل",
+     "root_id": 1281
+    },
+    {
+     "internal_strength": 1.004626,
+     "root_arabic": "اخذ",
+     "root_id": 145
+    }
+   ],
+   "degree_centrality": 1.147864,
+   "eigenvector_centrality": 0.00173
+  },
+  "CONCEPT_086": {
+   "betweenness_centrality": 0.001747,
+   "center_roots": [
+    {
+     "internal_strength": 0.965189,
+     "root_arabic": "لوذ",
+     "root_id": 948
+    },
+    {
+     "internal_strength": 0.947253,
+     "root_arabic": "حيف",
+     "root_id": 371
+    },
+    {
+     "internal_strength": 0.935057,
+     "root_arabic": "ايم",
+     "root_id": 149
+    },
+    {
+     "internal_strength": 0.925953,
+     "root_arabic": "زجج",
+     "root_id": 1615
+    }
+   ],
+   "degree_centrality": 0.288501,
+   "eigenvector_centrality": 0.0005
+  },
+  "CONCEPT_087": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.358215,
+     "root_arabic": "ضمم",
+     "root_id": 166
+    },
+    {
+     "internal_strength": 1.240931,
+     "root_arabic": "برهن",
+     "root_id": 538
+    },
+    {
+     "internal_strength": 1.168405,
+     "root_arabic": "جيب",
+     "root_id": 839
+    },
+    {
+     "internal_strength": 1.060457,
+     "root_arabic": "بيض",
+     "root_id": 562
+    }
+   ],
+   "degree_centrality": 0.335555,
+   "eigenvector_centrality": 0.020206
+  },
+  "CONCEPT_088": {
+   "betweenness_centrality": 0.011648,
+   "center_roots": [
+    {
+     "internal_strength": 1.086306,
+     "root_arabic": "كفر",
+     "root_id": 861
+    },
+    {
+     "internal_strength": 1.038461,
+     "root_arabic": "عذب",
+     "root_id": 181
+    },
+    {
+     "internal_strength": 1.032888,
+     "root_arabic": "رسل",
+     "root_id": 1281
+    },
+    {
+     "internal_strength": 1.022553,
+     "root_arabic": "صوب",
+     "root_id": 430
+    }
+   ],
+   "degree_centrality": 1.59455,
+   "eigenvector_centrality": 0.002117
+  },
+  "CONCEPT_089": {
+   "betweenness_centrality": 0.077072,
+   "center_roots": [
+    {
+     "internal_strength": 1.599087,
+     "root_arabic": "خبز",
+     "root_id": 1544
+    },
+    {
+     "internal_strength": 1.400713,
+     "root_arabic": "عصر",
+     "root_id": 190
+    },
+    {
+     "internal_strength": 1.386561,
+     "root_arabic": "سجن",
+     "root_id": 1338
+    },
+    {
+     "internal_strength": 1.194341,
+     "root_arabic": "خمر",
+     "root_id": 1563
+    }
+   ],
+   "degree_centrality": 1.85277,
+   "eigenvector_centrality": 0.409264
+  },
+  "CONCEPT_090": {
+   "betweenness_centrality": 0.054941,
+   "center_roots": [
+    {
+     "internal_strength": 1.327162,
+     "root_arabic": "صوم",
+     "root_id": 432
+    },
+    {
+     "internal_strength": 1.22275,
+     "root_arabic": "عقد",
+     "root_id": 236
+    },
+    {
+     "internal_strength": 1.209748,
+     "root_arabic": "عفو",
+     "root_id": 209
+    },
+    {
+     "internal_strength": 1.19828,
+     "root_arabic": "حلل",
+     "root_id": 318
+    }
+   ],
+   "degree_centrality": 1.327968,
+   "eigenvector_centrality": 0.005893
+  },
+  "CONCEPT_091": {
+   "betweenness_centrality": 0.019414,
+   "center_roots": [
+    {
+     "internal_strength": 1.301315,
+     "root_arabic": "لحف",
+     "root_id": 910
+    },
+    {
+     "internal_strength": 1.229961,
+     "root_arabic": "فقر",
+     "root_id": 646
+    },
+    {
+     "internal_strength": 1.216639,
+     "root_arabic": "حصر",
+     "root_id": 290
+    },
+    {
+     "internal_strength": 1.132455,
+     "root_arabic": "عرف",
+     "root_id": 243
+    }
+   ],
+   "degree_centrality": 1.402198,
+   "eigenvector_centrality": 0.008239
+  },
+  "CONCEPT_092": {
+   "betweenness_centrality": 0.017666,
+   "center_roots": [
+    {
+     "internal_strength": 1.518332,
+     "root_arabic": "سهل",
+     "root_id": 1332
+    },
+    {
+     "internal_strength": 1.464691,
+     "root_arabic": "نحت",
+     "root_id": 1046
+    },
+    {
+     "internal_strength": 1.341581,
+     "root_arabic": "عثو",
+     "root_id": 260
+    },
+    {
+     "internal_strength": 1.067538,
+     "root_arabic": "فره",
+     "root_id": 654
+    }
+   ],
+   "degree_centrality": 1.07467,
+   "eigenvector_centrality": 0.001737
+  },
+  "CONCEPT_093": {
+   "betweenness_centrality": 0.049699,
+   "center_roots": [
+    {
+     "internal_strength": 1.17433,
+     "root_arabic": "نجس",
+     "root_id": 1084
+    },
+    {
+     "internal_strength": 1.142295,
+     "root_arabic": "عوم",
+     "root_id": 265
+    },
+    {
+     "internal_strength": 1.075499,
+     "root_arabic": "وطا",
+     "root_id": 1462
+    },
+    {
+     "internal_strength": 1.056832,
+     "root_arabic": "نسا",
+     "root_id": 1104
+    }
+   ],
+   "degree_centrality": 0.785362,
+   "eigenvector_centrality": 0.000554
+  },
+  "CONCEPT_094": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.305503,
+     "root_arabic": "جلو",
+     "root_id": 804
+    },
+    {
+     "internal_strength": 1.229853,
+     "root_arabic": "وقت",
+     "root_id": 1501
+    },
+    {
+     "internal_strength": 1.115713,
+     "root_arabic": "حفو",
+     "root_id": 311
+    },
+    {
+     "internal_strength": 0.935621,
+     "root_arabic": "بغت",
+     "root_id": 513
+    }
+   ],
+   "degree_centrality": 0.062046,
+   "eigenvector_centrality": 5.8e-05
+  },
+  "CONCEPT_095": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.924358,
+     "root_arabic": "سند",
+     "root_id": 1364
+    },
+    {
+     "internal_strength": 1.924358,
+     "root_arabic": "خشب",
+     "root_id": 1523
+    },
+    {
+     "internal_strength": 1.683862,
+     "root_arabic": "جسم",
+     "root_id": 825
+    },
+    {
+     "internal_strength": 1.09626,
+     "root_arabic": "صيح",
+     "root_id": 437
+    }
+   ],
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0
+  },
+  "CONCEPT_096": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.845477,
+     "root_arabic": "خصف",
+     "root_id": 1530
+    },
+    {
+     "internal_strength": 1.689086,
+     "root_arabic": "طفق",
+     "root_id": 450
+    },
+    {
+     "internal_strength": 1.509075,
+     "root_arabic": "ورق",
+     "root_id": 1504
+    },
+    {
+     "internal_strength": 1.239666,
+     "root_arabic": "دلل",
+     "root_id": 586
+    }
+   ],
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0
+  },
+  "CONCEPT_097": {
+   "betweenness_centrality": 0.011066,
+   "center_roots": [
+    {
+     "internal_strength": 1.418618,
+     "root_arabic": "تحت",
+     "root_id": 1405
+    },
+    {
+     "internal_strength": 1.353734,
+     "root_arabic": "جري",
+     "root_id": 822
+    },
+    {
+     "internal_strength": 1.032366,
+     "root_arabic": "طهر",
+     "root_id": 452
+    },
+    {
+     "internal_strength": 1.028866,
+     "root_arabic": "ثوب",
+     "root_id": 1440
+    }
+   ],
+   "degree_centrality": 0.686135,
+   "eigenvector_centrality": 0.005835
+  },
+  "CONCEPT_098": {
+   "betweenness_centrality": 0.004853,
+   "center_roots": [
+    {
+     "internal_strength": 1.265166,
+     "root_arabic": "طوق",
+     "root_id": 472
+    },
+    {
+     "internal_strength": 1.231415,
+     "root_arabic": "غرف",
+     "root_id": 715
+    },
+    {
+     "internal_strength": 1.160266,
+     "root_arabic": "جوز",
+     "root_id": 837
+    },
+    {
+     "internal_strength": 1.038203,
+     "root_arabic": "فاي",
+     "root_id": 616
+    }
+   ],
+   "degree_centrality": 0.709551,
+   "eigenvector_centrality": 0.001433
+  },
+  "CONCEPT_099": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.52273,
+     "root_arabic": "فسح",
+     "root_id": 661
+    },
+    {
+     "internal_strength": 1.52273,
+     "root_arabic": "جلس",
+     "root_id": 803
+    },
+    {
+     "internal_strength": 1.218876,
+     "root_arabic": "نشز",
+     "root_id": 1030
+    },
+    {
+     "internal_strength": 1.050326,
+     "root_arabic": "درج",
+     "root_id": 597
+    }
+   ],
+   "degree_centrality": 0.285951,
+   "eigenvector_centrality": 0.000383
+  },
+  "CONCEPT_100": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.577954,
+     "root_arabic": "هلع",
+     "root_id": 750
+    },
+    {
+     "internal_strength": 1.577954,
+     "root_arabic": "كبد",
+     "root_id": 851
+    },
+    {
+     "internal_strength": 1.531207,
+     "root_arabic": "كند",
+     "root_id": 877
+    },
+    {
+     "internal_strength": 1.304391,
+     "root_arabic": "كدح",
+     "root_id": 855
+    }
+   ],
+   "degree_centrality": 0.0,
+   "eigenvector_centrality": 0.0
+  },
+  "CONCEPT_101": {
+   "betweenness_centrality": 0.046981,
+   "center_roots": [
+    {
+     "internal_strength": 1.283254,
+     "root_arabic": "رفق",
+     "root_id": 1242
+    },
+    {
+     "internal_strength": 1.219978,
+     "root_arabic": "سردق",
+     "root_id": 1378
+    },
+    {
+     "internal_strength": 1.14912,
+     "root_arabic": "كهف",
+     "root_id": 864
+    },
+    {
+     "internal_strength": 1.0892,
+     "root_arabic": "هيا",
+     "root_id": 766
+    }
+   ],
+   "degree_centrality": 1.203056,
+   "eigenvector_centrality": 0.001695
+  },
+  "CONCEPT_102": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.508574,
+     "root_arabic": "لقب",
+     "root_id": 943
+    },
+    {
+     "internal_strength": 1.508574,
+     "root_arabic": "نبز",
+     "root_id": 1062
+    },
+    {
+     "internal_strength": 1.053302,
+     "root_arabic": "جسس",
+     "root_id": 826
+    },
+    {
+     "internal_strength": 0.977728,
+     "root_arabic": "ليت",
+     "root_id": 957
+    }
+   ],
+   "degree_centrality": 0.024092,
+   "eigenvector_centrality": 1.6e-05
+  },
+  "CONCEPT_103": {
+   "betweenness_centrality": 0.0,
+   "center_roots": [
+    {
+     "internal_strength": 1.03679,
+     "root_arabic": "رجم",
+     "root_id": 1258
+    },
+    {
+     "internal_strength": 1.01265,
+     "root_arabic": "مري",
+     "root_id": 1003
+    },
+    {
+     "internal_strength": 0.945251,
+     "root_arabic": "كلب",
+     "root_id": 869
+    },
+    {
+     "internal_strength": 0.929903,
+     "root_arabic": "خمس",
+     "root_id": 1564
+    }
+   ],
+   "degree_centrality": 0.170378,
+   "eigenvector_centrality": 8.7e-05
+  }
+ },
+ "method": "phase3-concepts-1.0"
+}
