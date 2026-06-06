@@ -1,0 +1,66 @@
+{
+ "constants": {
+  "FIELD_COOCCUR_MIN": 3,
+  "FIELD_NEIGHBOR_MIN": 0.05,
+  "HHI_COHERENT": 0.4,
+  "HHI_DOMINANT": 0.2,
+  "NAME_MAX": 5,
+  "NAME_MIN_CONF": 0.15,
+  "NEIGHBOR_LINK_MIN": 0.05,
+  "ROUND": 6,
+  "SIG_DEPTH": 100
+ },
+ "input_sha256": {
+  "ayah_signatures.json": "6822b52aa2c89fe1ab981f9c46adc37f10440baa2260ee742f06f9263224e1c1",
+  "concept_atlas.json": "caa393eb61d1f42357b08565786fea6f13e3f1be293a109bd22a637f88505cc4",
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "concept_profiles.json": "84b4c50c62b3b3597aa6ff1f244d0b7383dd49e5f0e48c714b2d8326b4040bf3",
+  "core_investigation.json": "8c93d16181a76025efb17b90b3526fdff51ca0344392b7d8e58df28673b26925",
+  "dominant_lemmas.json": "e57c6cf3d153361eb9ecebe90b79c441aaa71871645b1175778902aeeaea060e",
+  "dominant_roots.json": "b0436631d85f79206e9e7254f86215c88003a5d8313e071143c9df27b5114120",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c",
+  "semantic_neighbors.json": "599dfaee21a850264a0080c09cf95ce4d0aaafc9141b3249b54ca7261a0db4db",
+  "surah_signatures.json": "0a0ed35998483c0095e3f1fd86c380d2753f120eb3bd335afc1808ea18df84b6"
+ },
+ "method": "phase7-revelation-1.0",
+ "output_bytes": {
+  "ayah_identity_profiles.json": 923182,
+  "candidate_names.json": 314093,
+  "concept_dossiers.json": 1166076,
+  "core_revelation.json": 291282,
+  "falsification_results.json": 152608,
+  "identity_confidence.json": 44005,
+  "root_consistency.json": 37083,
+  "semantic_fields.json": 447161
+ },
+ "prohibitions_observed": [
+  "no tafsir",
+  "no translations",
+  "no dictionaries",
+  "no theology",
+  "no external sources",
+  "no pretrained embeddings",
+  "no human labels",
+  "no imported interpretation",
+  "no certainty claimed",
+  "no divine origin claimed",
+  "no human origin claimed",
+  "no doctrine",
+  "no apologetics",
+  "no single identity forced",
+  "competing identities preserved",
+  "names are Quran-internal Arabic tokens only",
+  "concepts remain opaque unless evidence reveals them",
+  "prior phases never rebuilt or modified"
+ ],
+ "totals": {
+  "concept_count": 103,
+  "identity_tiers": {
+   "moderate": 51,
+   "resists": 6,
+   "strong": 43,
+   "weak": 3
+  },
+  "resists_identification": 6
+ }
+}

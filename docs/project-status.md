@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 6 (Concept
-Identification Engine). **Next phase:** Phase 7 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 7 (Semantic
+Revelation Engine). **Next phase:** Phase 8 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -19,7 +19,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 4 | Proposition Discovery Engine | ✅ complete | `generated/propositions/*.json` |
 | 5 | Dependency Compression Engine | ✅ complete | `generated/compression/*.json` |
 | 6 | Concept Identification Engine | ✅ complete | `generated/identification/*.json` |
-| 7 | (future) | ⛔ not started | — |
+| 7 | Semantic Revelation Engine | ✅ complete | `generated/revelation/*.json` |
+| 8 | (future) | ⛔ not started | — |
 
 ---
 
@@ -186,6 +187,49 @@ and which structures depend on and surround it.
 
 ---
 
+## Phase 7 — Semantic Revelation Engine
+
+The first phase permitted to investigate concept *identity* — but identity is
+revealed, never imported. A concept's identity and candidate "names" are
+expressed **only** as the concept's own dominant **Arabic** roots/lemmas and the
+ayah / structural patterns they form. **No translation, gloss, dictionary,
+tafsir, theology, or interpretation is used; no certainty or origin is claimed;
+competing identities are preserved.** The validator enforces the core invariant:
+every candidate name is a literal Quran-internal member token.
+
+- 9 data products in `generated/revelation/` (concept dossiers, semantic fields,
+  ayah identity profiles, root consistency, candidate names, core revelation,
+  identity confidence, falsification results, manifest)
+- **Identity tiers across 103 concepts:** 43 strong · 51 moderate · 3 weak · **6
+  resist** (the most lexically diffuse: `001`–`004`, `013`, `017`). Verdicts: 15
+  coherent_single · 55 coherent_dominant · 33 diffuse_unified · 0 fragmented
+- **Flagship answers (evidence only):** `CONCEPT_007` → anchor `ٱللَّه`/`اله`
+  (present in 96% of its signature ayahs, broad diffuse field); `CONCEPT_016` →
+  `جَنَّة`/`جنن`; `CONCEPT_081` → `ٱللَّه`/`اله` (strongest single identity, conf
+  0.629)
+- **Ambiguity preserved:** 42 concepts carry competing anchors; 4 anchors head
+  >1 concept (`اله`→`007/081`, `رسل`→`061/085/088`, `كفي`, `قمص`). Most
+  structurally central concepts are the hardest to name
+- **Falsification:** each identity attacked; 97 tested, **94 survive, 3
+  falsified** (`011` `نصح`, `041` `حدب`, `043` `رفد` — fail to explain ≥78% of
+  their own signature ayahs)
+- Method: root-anchored naming over Phase-6 activation; semantic fields by intra-
+  concept co-occurrence + Phase-2 neighbours; POS-based actors/actions (Phase-1
+  morphology); HHI/entropy coherence; evidence-graph dossiers; self-falsification
+- Builder: `scripts/build_revelation.py`; Validator:
+  `scripts/validate_revelation.py` (3,299 checks incl. no-imported-meaning
+  invariant, byte-identical rebuild)
+- Reports: `semantic-revelation-report.md`, `concept-identity-report.md`,
+  `core-revelation-report.md`, `identity-confidence-report.md`,
+  `falsification-report.md`, `phase7-final-report.md`
+
+Monad can now answer, using Quran-internal evidence only and without claiming
+certainty: what each concept is most likely anchored on, which identities are
+strongly supported, which remain ambiguous, which concepts resist identification,
+and what competing explanations coexist.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -195,8 +239,10 @@ and which structures depend on and surround it.
   with a dedicated validator.
 - No ontology, contradiction engine, axioms, theology, interpretation, doctrine,
   or origin claims have been produced. Work remains at the lexical /
-  statistical / structural layer. Concept ids and relation types are opaque
-  throughout.
+  statistical / structural layer. Relation types stay opaque throughout. From
+  Phase 7, a concept's *identity* may be revealed — but only as its own dominant
+  Quran-internal Arabic roots/lemmas and ayah/structure patterns; never as a
+  translation, gloss, meaning, or origin claim, and never with claimed certainty.
 
 ---
 
@@ -209,11 +255,12 @@ python3 scripts/build_concepts.py     && python3 scripts/validate_concepts.py   
 python3 scripts/build_propositions.py && python3 scripts/validate_propositions.py --rebuild
 python3 scripts/build_compression.py  && python3 scripts/validate_compression.py  --rebuild
 python3 scripts/build_identification.py && python3 scripts/validate_identification.py --rebuild
+python3 scripts/build_revelation.py     && python3 scripts/validate_revelation.py     --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 7 is **not started** by design. Open questions are recorded in
-`phase6-final-report.md §10`. Awaiting explicit instruction to proceed.
+Phase 8 is **not started** by design. Open questions are recorded in
+`phase7-final-report.md §9`. Awaiting explicit instruction to proceed.

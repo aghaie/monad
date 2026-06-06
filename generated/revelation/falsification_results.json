@@ -1,0 +1,7364 @@
+{
+ "concepts": {
+  "CONCEPT_001": {
+   "reason": "resists_identification — no identity to falsify",
+   "tested": false
+  },
+  "CONCEPT_002": {
+   "reason": "resists_identification — no identity to falsify",
+   "tested": false
+  },
+  "CONCEPT_003": {
+   "reason": "resists_identification — no identity to falsify",
+   "tested": false
+  },
+  "CONCEPT_004": {
+   "reason": "resists_identification — no identity to falsify",
+   "tested": false
+  },
+  "CONCEPT_005": {
+   "contradicting_ayah_fraction": 0.72,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 99,
+     "surah": 6
+    },
+    {
+     "ayah": 11,
+     "surah": 16
+    },
+    {
+     "ayah": 266,
+     "surah": 2
+    },
+    {
+     "ayah": 157,
+     "surah": 6
+    },
+    {
+     "ayah": 32,
+     "surah": 18
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "انث",
+     "concept_id": "CONCEPT_083",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.191918
+    },
+    {
+     "anchor_root_arabic": "شجر",
+     "concept_id": "CONCEPT_024",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.127617
+    },
+    {
+     "anchor_root_arabic": "شرب",
+     "concept_id": "CONCEPT_072",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.114203
+    },
+    {
+     "anchor_root_arabic": "غرر",
+     "concept_id": "CONCEPT_023",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.1088
+    },
+    {
+     "anchor_root_arabic": "سقط",
+     "concept_id": "CONCEPT_045",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.101925
+    },
+    {
+     "anchor_root_arabic": "سبع",
+     "concept_id": "CONCEPT_033",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.101877
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "سقط",
+     "partner": "CONCEPT_045",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "شرب",
+     "partner": "CONCEPT_072",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "جنن",
+     "partner": "CONCEPT_016",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.100301,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "ركب",
+     "root_id": 1264
+    },
+    {
+     "activation_share": 0.066116,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "فكر",
+     "root_id": 635
+    }
+   ],
+   "falsification_pressure": 0.4,
+   "proposed_identity": {
+    "anchor_root_arabic": "نشا",
+    "confidence": 0.187228,
+    "name_arabic": "أَنشَأَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_006": {
+   "contradicting_ayah_fraction": 0.64,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 79,
+     "surah": 18
+    },
+    {
+     "ayah": 71,
+     "surah": 18
+    },
+    {
+     "ayah": 22,
+     "surah": 18
+    },
+    {
+     "ayah": 32,
+     "surah": 69
+    },
+    {
+     "ayah": 86,
+     "surah": 18
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "مري",
+     "concept_id": "CONCEPT_103",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.124144
+    },
+    {
+     "anchor_root_arabic": "عتد",
+     "concept_id": "CONCEPT_040",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.110479
+    },
+    {
+     "anchor_root_arabic": "شجر",
+     "concept_id": "CONCEPT_024",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.073226
+    },
+    {
+     "anchor_root_arabic": "ليل",
+     "concept_id": "CONCEPT_049",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.071989
+    },
+    {
+     "anchor_root_arabic": "بسط",
+     "concept_id": "CONCEPT_044",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.053869
+    },
+    {
+     "anchor_root_arabic": "قمر",
+     "concept_id": "CONCEPT_037",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025144
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "بسط",
+     "partner": "CONCEPT_044",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.083081,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "بسط",
+     "root_id": 545
+    }
+   ],
+   "falsification_pressure": 0.340833,
+   "proposed_identity": {
+    "anchor_root_arabic": "طلع",
+    "confidence": 0.160272,
+    "name_arabic": "طَّلَعَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_007": {
+   "contradicting_ayah_fraction": 0.04,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 5,
+     "surah": 22
+    },
+    {
+     "ayah": 32,
+     "surah": 5
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "اله",
+     "concept_id": "CONCEPT_081",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.408033
+    },
+    {
+     "anchor_root_arabic": "عذب",
+     "concept_id": "CONCEPT_053",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.186729
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "concept_id": "CONCEPT_034",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.080694
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_081",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "حلل",
+     "partner": "CONCEPT_090",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "عقل",
+     "partner": "CONCEPT_054",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "هون",
+     "partner": "CONCEPT_056",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "جهد",
+     "partner": "CONCEPT_071",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "partner": "CONCEPT_027",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.02,
+   "proposed_identity": {
+    "anchor_root_arabic": "اله",
+    "confidence": 0.239988,
+    "name_arabic": "ٱللَّه"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_008": {
+   "contradicting_ayah_fraction": 0.52,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 282,
+     "surah": 2
+    },
+    {
+     "ayah": 152,
+     "surah": 6
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    },
+    {
+     "ayah": 45,
+     "surah": 9
+    },
+    {
+     "ayah": 15,
+     "surah": 46
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "خبت",
+     "concept_id": "CONCEPT_017",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.145507
+    },
+    {
+     "anchor_root_arabic": "حفظ",
+     "concept_id": "CONCEPT_030",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.141301
+    },
+    {
+     "anchor_root_arabic": "سقط",
+     "concept_id": "CONCEPT_045",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.119682
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "concept_id": "CONCEPT_027",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.109592
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.074644
+    },
+    {
+     "anchor_root_arabic": "قسط",
+     "concept_id": "CONCEPT_013",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.065283
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "partner": "CONCEPT_027",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رفت",
+     "partner": "CONCEPT_031",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "خبت",
+     "partner": "CONCEPT_017",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "خيل",
+     "partner": "CONCEPT_070",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "انث",
+     "partner": "CONCEPT_083",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.118019,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "بلغ",
+     "root_id": 525
+    },
+    {
+     "activation_share": 0.07724,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "ردد",
+     "root_id": 1236
+    },
+    {
+     "activation_share": 0.074798,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "شدد",
+     "root_id": 14
+    },
+    {
+     "activation_share": 0.056634,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "ريب",
+     "root_id": 1296
+    }
+   ],
+   "falsification_pressure": 0.36,
+   "proposed_identity": {
+    "anchor_root_arabic": "خلق",
+    "confidence": 0.189865,
+    "name_arabic": "خَلَقَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_009": {
+   "contradicting_ayah_fraction": 0.48,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 102,
+     "surah": 4
+    },
+    {
+     "ayah": 83,
+     "surah": 4
+    },
+    {
+     "ayah": 172,
+     "surah": 4
+    },
+    {
+     "ayah": 27,
+     "surah": 4
+    },
+    {
+     "ayah": 129,
+     "surah": 4
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "كفي",
+     "concept_id": "CONCEPT_067",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.461616
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "concept_id": "CONCEPT_002",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.183034
+    },
+    {
+     "anchor_root_arabic": "لعن",
+     "concept_id": "CONCEPT_022",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.024824
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "كفي",
+     "partner": "CONCEPT_067",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "كفي",
+     "partner": "CONCEPT_067",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.066097,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "نكف",
+     "root_id": 1090
+    }
+   ],
+   "falsification_pressure": 0.265,
+   "proposed_identity": {
+    "anchor_root_arabic": "كفي",
+    "confidence": 0.320412,
+    "name_arabic": "كَفَىٰ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_010": {
+   "contradicting_ayah_fraction": 0.64,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 95,
+     "surah": 4
+    },
+    {
+     "ayah": 35,
+     "surah": 9
+    },
+    {
+     "ayah": 18,
+     "surah": 58
+    },
+    {
+     "ayah": 28,
+     "surah": 9
+    },
+    {
+     "ayah": 71,
+     "surah": 4
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "ضيق",
+     "concept_id": "CONCEPT_062",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.164623
+    },
+    {
+     "anchor_root_arabic": "عصم",
+     "concept_id": "CONCEPT_058",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.103587
+    },
+    {
+     "anchor_root_arabic": "لبث",
+     "concept_id": "CONCEPT_038",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.098465
+    },
+    {
+     "anchor_root_arabic": "لغو",
+     "concept_id": "CONCEPT_055",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.03578
+    },
+    {
+     "anchor_root_arabic": "عرب",
+     "concept_id": "CONCEPT_032",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.035549
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.113286,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "نفر",
+     "root_id": 1073
+    },
+    {
+     "activation_share": 0.108848,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "حلف",
+     "root_id": 317
+    }
+   ],
+   "falsification_pressure": 0.378824,
+   "proposed_identity": {
+    "anchor_root_arabic": "رضو",
+    "confidence": 0.342357,
+    "name_arabic": "رَّضِىَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_011": {
+   "contradicting_ayah_fraction": 0.78,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 150,
+     "surah": 7
+    },
+    {
+     "ayah": 154,
+     "surah": 7
+    },
+    {
+     "ayah": 86,
+     "surah": 20
+    },
+    {
+     "ayah": 133,
+     "surah": 7
+    },
+    {
+     "ayah": 176,
+     "surah": 7
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "ظلل",
+     "concept_id": "CONCEPT_025",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.158383
+    },
+    {
+     "anchor_root_arabic": "نحت",
+     "concept_id": "CONCEPT_092",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.140602
+    },
+    {
+     "anchor_root_arabic": "قمر",
+     "concept_id": "CONCEPT_037",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.130195
+    },
+    {
+     "anchor_root_arabic": "الو",
+     "concept_id": "CONCEPT_082",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.1272
+    },
+    {
+     "anchor_root_arabic": "سال",
+     "concept_id": "CONCEPT_015",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.111766
+    },
+    {
+     "anchor_root_arabic": "بغت",
+     "concept_id": "CONCEPT_094",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.022008
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "سال",
+     "partner": "CONCEPT_015",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.158787,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "لوح",
+     "root_id": 949
+    },
+    {
+     "activation_share": 0.13743,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "غضب",
+     "root_id": 688
+    },
+    {
+     "activation_share": 0.132322,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "اسف",
+     "root_id": 130
+    },
+    {
+     "activation_share": 0.105858,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "نسخ",
+     "root_id": 1111
+    }
+   ],
+   "falsification_pressure": 0.507647,
+   "proposed_identity": {
+    "anchor_root_arabic": "نصح",
+    "confidence": 0.207154,
+    "name_arabic": "نَاصِح"
+   },
+   "survives": false,
+   "tested": true
+  },
+  "CONCEPT_012": {
+   "contradicting_ayah_fraction": 0.68,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 2,
+     "surah": 5
+    },
+    {
+     "ayah": 96,
+     "surah": 5
+    },
+    {
+     "ayah": 94,
+     "surah": 5
+    },
+    {
+     "ayah": 97,
+     "surah": 5
+    },
+    {
+     "ayah": 7,
+     "surah": 89
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "بسط",
+     "concept_id": "CONCEPT_044",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.22743
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "concept_id": "CONCEPT_004",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.103734
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "concept_id": "CONCEPT_027",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.07724
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.114173,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "عون",
+     "root_id": 266
+    },
+    {
+     "activation_share": 0.052727,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "سحت",
+     "root_id": 1308
+    }
+   ],
+   "falsification_pressure": 0.398824,
+   "proposed_identity": {
+    "anchor_root_arabic": "نقم",
+    "confidence": 0.242879,
+    "name_arabic": "ٱنتَقَمْ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_013": {
+   "reason": "resists_identification — no identity to falsify",
+   "tested": false
+  },
+  "CONCEPT_014": {
+   "contradicting_ayah_fraction": 0.34,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 81,
+     "surah": 16
+    },
+    {
+     "ayah": 2,
+     "surah": 24
+    },
+    {
+     "ayah": 4,
+     "surah": 24
+    },
+    {
+     "ayah": 56,
+     "surah": 4
+    },
+    {
+     "ayah": 23,
+     "surah": 39
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "شكر",
+     "concept_id": "CONCEPT_020",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.073694
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.17,
+   "proposed_identity": {
+    "anchor_root_arabic": "حين",
+    "confidence": 0.368647,
+    "name_arabic": "حِين"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_015": {
+   "contradicting_ayah_fraction": 0.7,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 112,
+     "surah": 3
+    },
+    {
+     "ayah": 90,
+     "surah": 2
+    },
+    {
+     "ayah": 15,
+     "surah": 10
+    },
+    {
+     "ayah": 194,
+     "surah": 2
+    },
+    {
+     "ayah": 15,
+     "surah": 28
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "شفع",
+     "concept_id": "CONCEPT_019",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.112117
+    },
+    {
+     "anchor_root_arabic": "نصح",
+     "concept_id": "CONCEPT_011",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.111766
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "concept_id": "CONCEPT_027",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.098219
+    },
+    {
+     "anchor_root_arabic": "فقر",
+     "concept_id": "CONCEPT_035",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.092827
+    },
+    {
+     "anchor_root_arabic": "زلل",
+     "concept_id": "CONCEPT_079",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.061729
+    },
+    {
+     "anchor_root_arabic": "شري",
+     "concept_id": "CONCEPT_074",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.051708
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "نصح",
+     "partner": "CONCEPT_011",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.076868,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "ذلل",
+     "root_id": 74
+    },
+    {
+     "activation_share": 0.060208,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "غضب",
+     "root_id": 688
+    },
+    {
+     "activation_share": 0.051678,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "بوا",
+     "root_id": 555
+    }
+   ],
+   "falsification_pressure": 0.45,
+   "proposed_identity": {
+    "anchor_root_arabic": "سال",
+    "confidence": 0.323309,
+    "name_arabic": "سَأَلَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_016": {
+   "contradicting_ayah_fraction": 0.08,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 35,
+     "surah": 24
+    },
+    {
+     "ayah": 20,
+     "surah": 39
+    },
+    {
+     "ayah": 10,
+     "surah": 66
+    },
+    {
+     "ayah": 93,
+     "surah": 5
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "شرب",
+     "concept_id": "CONCEPT_072",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.221944
+    },
+    {
+     "anchor_root_arabic": "ليل",
+     "concept_id": "CONCEPT_049",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.174065
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "concept_id": "CONCEPT_034",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.123148
+    },
+    {
+     "anchor_root_arabic": "نشا",
+     "concept_id": "CONCEPT_005",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.092859
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "concept_id": "CONCEPT_027",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.089664
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "نقذ",
+     "partner": "CONCEPT_077",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "شرب",
+     "partner": "CONCEPT_072",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "وزع",
+     "partner": "CONCEPT_064",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ليل",
+     "partner": "CONCEPT_049",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "partner": "CONCEPT_027",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.095604,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "وقي",
+     "root_id": 1502
+    }
+   ],
+   "falsification_pressure": 0.073333,
+   "proposed_identity": {
+    "anchor_root_arabic": "جنن",
+    "confidence": 0.168292,
+    "name_arabic": "جَنَّة"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_017": {
+   "reason": "resists_identification — no identity to falsify",
+   "tested": false
+  },
+  "CONCEPT_018": {
+   "contradicting_ayah_fraction": 0.68,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 49,
+     "surah": 3
+    },
+    {
+     "ayah": 38,
+     "surah": 6
+    },
+    {
+     "ayah": 131,
+     "surah": 7
+    },
+    {
+     "ayah": 47,
+     "surah": 27
+    },
+    {
+     "ayah": 14,
+     "surah": 74
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "كهف",
+     "concept_id": "CONCEPT_101",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.23366
+    },
+    {
+     "anchor_root_arabic": "قنطر",
+     "concept_id": "CONCEPT_029",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.184254
+    },
+    {
+     "anchor_root_arabic": "سحر",
+     "concept_id": "CONCEPT_063",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.109937
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "سحر",
+     "partner": "CONCEPT_063",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.183059,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "سحر",
+     "root_id": 1307
+    },
+    {
+     "activation_share": 0.114367,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "برا",
+     "root_id": 534
+    },
+    {
+     "activation_share": 0.050494,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "كفف",
+     "root_id": 859
+    }
+   ],
+   "falsification_pressure": 0.447143,
+   "proposed_identity": {
+    "anchor_root_arabic": "روح",
+    "confidence": 0.19382,
+    "name_arabic": "رِيح"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_019": {
+   "contradicting_ayah_fraction": 0.48,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 22,
+     "surah": 27
+    },
+    {
+     "ayah": 7,
+     "surah": 65
+    },
+    {
+     "ayah": 247,
+     "surah": 2
+    },
+    {
+     "ayah": 130,
+     "surah": 4
+    },
+    {
+     "ayah": 286,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "زلل",
+     "concept_id": "CONCEPT_079",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.252178
+    },
+    {
+     "anchor_root_arabic": "لبث",
+     "concept_id": "CONCEPT_038",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.152631
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "concept_id": "CONCEPT_027",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.150604
+    },
+    {
+     "anchor_root_arabic": "غرف",
+     "concept_id": "CONCEPT_098",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.113769
+    },
+    {
+     "anchor_root_arabic": "سال",
+     "concept_id": "CONCEPT_015",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.112117
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "concept_id": "CONCEPT_002",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.082566
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "عتد",
+     "partner": "CONCEPT_040",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "زلل",
+     "partner": "CONCEPT_079",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "partner": "CONCEPT_002",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.24,
+   "proposed_identity": {
+    "anchor_root_arabic": "شفع",
+    "confidence": 0.326489,
+    "name_arabic": "شَفَٰعَة"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_020": {
+   "contradicting_ayah_fraction": 0.72,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 53,
+     "surah": 25
+    },
+    {
+     "ayah": 66,
+     "surah": 16
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    },
+    {
+     "ayah": 109,
+     "surah": 18
+    },
+    {
+     "ayah": 27,
+     "surah": 31
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "ودي",
+     "concept_id": "CONCEPT_042",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.164178
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.076049
+    },
+    {
+     "anchor_root_arabic": "حين",
+     "concept_id": "CONCEPT_014",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.073694
+    },
+    {
+     "anchor_root_arabic": "ظلل",
+     "concept_id": "CONCEPT_025",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.068338
+    },
+    {
+     "anchor_root_arabic": "حمم",
+     "concept_id": "CONCEPT_036",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.043536
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "concept_id": "CONCEPT_034",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.02378
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.36,
+   "proposed_identity": {
+    "anchor_root_arabic": "شكر",
+    "confidence": 0.330674,
+    "name_arabic": "شَكَرَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_021": {
+   "contradicting_ayah_fraction": 0.48,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 70,
+     "surah": 12
+    },
+    {
+     "ayah": 72,
+     "surah": 12
+    },
+    {
+     "ayah": 62,
+     "surah": 12
+    },
+    {
+     "ayah": 88,
+     "surah": 12
+    },
+    {
+     "ayah": 35,
+     "surah": 17
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "عصر",
+     "concept_id": "CONCEPT_089",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.336688
+    },
+    {
+     "anchor_root_arabic": "سبع",
+     "concept_id": "CONCEPT_033",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.083009
+    },
+    {
+     "anchor_root_arabic": "حمم",
+     "concept_id": "CONCEPT_036",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025497
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "عصر",
+     "partner": "CONCEPT_089",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.24,
+   "proposed_identity": {
+    "anchor_root_arabic": "ابو",
+    "confidence": 0.651866,
+    "name_arabic": "ا^بَاء"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_022": {
+   "contradicting_ayah_fraction": 0.84,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 74,
+     "surah": 2
+    },
+    {
+     "ayah": 85,
+     "surah": 15
+    },
+    {
+     "ayah": 155,
+     "surah": 4
+    },
+    {
+     "ayah": 41,
+     "surah": 5
+    },
+    {
+     "ayah": 36,
+     "surah": 3
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "ولد",
+     "concept_id": "CONCEPT_002",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.092791
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.072398
+    },
+    {
+     "anchor_root_arabic": "كفي",
+     "concept_id": "CONCEPT_009",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.024824
+    },
+    {
+     "anchor_root_arabic": "حلل",
+     "concept_id": "CONCEPT_090",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.022116
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "قوم",
+     "partner": "CONCEPT_084",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.076239,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "خون",
+     "root_id": 1583
+    }
+   ],
+   "falsification_pressure": 0.461667,
+   "proposed_identity": {
+    "anchor_root_arabic": "لعن",
+    "confidence": 0.246098,
+    "name_arabic": "لَعَنَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_023": {
+   "contradicting_ayah_fraction": 0.58,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 21,
+     "surah": 39
+    },
+    {
+     "ayah": 69,
+     "surah": 2
+    },
+    {
+     "ayah": 11,
+     "surah": 62
+    },
+    {
+     "ayah": 32,
+     "surah": 6
+    },
+    {
+     "ayah": 64,
+     "surah": 29
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "نشا",
+     "concept_id": "CONCEPT_005",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.1088
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.103199,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "لبب",
+     "root_id": 917
+    },
+    {
+     "activation_share": 0.090247,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "سلك",
+     "root_id": 1349
+    },
+    {
+     "activation_share": 0.053624,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "لون",
+     "root_id": 951
+    }
+   ],
+   "falsification_pressure": 0.415,
+   "proposed_identity": {
+    "anchor_root_arabic": "غرر",
+    "confidence": 0.243694,
+    "name_arabic": "غَرَّ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_024": {
+   "contradicting_ayah_fraction": 0.64,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 137,
+     "surah": 7
+    },
+    {
+     "ayah": 115,
+     "surah": 2
+    },
+    {
+     "ayah": 142,
+     "surah": 2
+    },
+    {
+     "ayah": 177,
+     "surah": 2
+    },
+    {
+     "ayah": 258,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "حيف",
+     "concept_id": "CONCEPT_086",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.24631
+    },
+    {
+     "anchor_root_arabic": "ودي",
+     "concept_id": "CONCEPT_042",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.162229
+    },
+    {
+     "anchor_root_arabic": "قمر",
+     "concept_id": "CONCEPT_037",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.129462
+    },
+    {
+     "anchor_root_arabic": "نشا",
+     "concept_id": "CONCEPT_005",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.127617
+    },
+    {
+     "anchor_root_arabic": "صرف",
+     "concept_id": "CONCEPT_026",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.099465
+    },
+    {
+     "anchor_root_arabic": "طلع",
+     "concept_id": "CONCEPT_006",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.073226
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "قمر",
+     "partner": "CONCEPT_037",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ودي",
+     "partner": "CONCEPT_042",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.32,
+   "proposed_identity": {
+    "anchor_root_arabic": "شجر",
+    "confidence": 0.202304,
+    "name_arabic": "شَجَرَة"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_025": {
+   "contradicting_ayah_fraction": 0.46,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 60,
+     "surah": 2
+    },
+    {
+     "ayah": 17,
+     "surah": 49
+    },
+    {
+     "ayah": 22,
+     "surah": 25
+    },
+    {
+     "ayah": 53,
+     "surah": 25
+    },
+    {
+     "ayah": 74,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "سحر",
+     "concept_id": "CONCEPT_063",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.345813
+    },
+    {
+     "anchor_root_arabic": "كتم",
+     "concept_id": "CONCEPT_073",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.232647
+    },
+    {
+     "anchor_root_arabic": "نصح",
+     "concept_id": "CONCEPT_011",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.158383
+    },
+    {
+     "anchor_root_arabic": "صدر",
+     "concept_id": "CONCEPT_028",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.154035
+    },
+    {
+     "anchor_root_arabic": "نحت",
+     "concept_id": "CONCEPT_092",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.144685
+    },
+    {
+     "anchor_root_arabic": "شكر",
+     "concept_id": "CONCEPT_020",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.068338
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "نحت",
+     "partner": "CONCEPT_092",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.23,
+   "proposed_identity": {
+    "anchor_root_arabic": "ظلل",
+    "confidence": 0.281802,
+    "name_arabic": "ظِلّ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_026": {
+   "contradicting_ayah_fraction": 0.42,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 48,
+     "surah": 30
+    },
+    {
+     "ayah": 44,
+     "surah": 52
+    },
+    {
+     "ayah": 9,
+     "surah": 35
+    },
+    {
+     "ayah": 12,
+     "surah": 13
+    },
+    {
+     "ayah": 40,
+     "surah": 24
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "صعق",
+     "concept_id": "CONCEPT_069",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.202374
+    },
+    {
+     "anchor_root_arabic": "شجر",
+     "concept_id": "CONCEPT_024",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.099465
+    },
+    {
+     "anchor_root_arabic": "غلب",
+     "concept_id": "CONCEPT_080",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.023509
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "صعق",
+     "partner": "CONCEPT_069",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.21,
+   "proposed_identity": {
+    "anchor_root_arabic": "صرف",
+    "confidence": 0.290659,
+    "name_arabic": "صَرَفَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_027": {
+   "contradicting_ayah_fraction": 0.72,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 264,
+     "surah": 2
+    },
+    {
+     "ayah": 111,
+     "surah": 9
+    },
+    {
+     "ayah": 42,
+     "surah": 3
+    },
+    {
+     "ayah": 10,
+     "surah": 48
+    },
+    {
+     "ayah": 12,
+     "surah": 60
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "قسط",
+     "concept_id": "CONCEPT_013",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.258386
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.173512
+    },
+    {
+     "anchor_root_arabic": "شفع",
+     "concept_id": "CONCEPT_019",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.150604
+    },
+    {
+     "anchor_root_arabic": "حمم",
+     "concept_id": "CONCEPT_036",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.131122
+    },
+    {
+     "anchor_root_arabic": "عرف",
+     "concept_id": "CONCEPT_091",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.128378
+    },
+    {
+     "anchor_root_arabic": "شرب",
+     "concept_id": "CONCEPT_072",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.118498
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "حمم",
+     "partner": "CONCEPT_036",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "جنن",
+     "partner": "CONCEPT_016",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "خلق",
+     "partner": "CONCEPT_008",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "حمم",
+     "partner": "CONCEPT_036",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.154151,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "صفو",
+     "root_id": 403
+    },
+    {
+     "activation_share": 0.063282,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "شطر",
+     "root_id": 12
+    }
+   ],
+   "falsification_pressure": 0.46,
+   "proposed_identity": {
+    "anchor_root_arabic": "ربو",
+    "confidence": 0.289395,
+    "name_arabic": "رِّبَوٰا"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_028": {
+   "contradicting_ayah_fraction": 0.52,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 24,
+     "surah": 12
+    },
+    {
+     "ayah": 31,
+     "surah": 24
+    },
+    {
+     "ayah": 122,
+     "surah": 3
+    },
+    {
+     "ayah": 113,
+     "surah": 4
+    },
+    {
+     "ayah": 16,
+     "surah": 40
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "قنطر",
+     "concept_id": "CONCEPT_029",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.222647
+    },
+    {
+     "anchor_root_arabic": "حفظ",
+     "concept_id": "CONCEPT_030",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.155506
+    },
+    {
+     "anchor_root_arabic": "ظلل",
+     "concept_id": "CONCEPT_025",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.154035
+    },
+    {
+     "anchor_root_arabic": "هون",
+     "concept_id": "CONCEPT_056",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.0279
+    },
+    {
+     "anchor_root_arabic": "جري",
+     "concept_id": "CONCEPT_097",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.020845
+    },
+    {
+     "anchor_root_arabic": "خول",
+     "concept_id": "CONCEPT_050",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.0201
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "حفظ",
+     "partner": "CONCEPT_030",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.26,
+   "proposed_identity": {
+    "anchor_root_arabic": "صدر",
+    "confidence": 0.326061,
+    "name_arabic": "صَدْر"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_029": {
+   "contradicting_ayah_fraction": 0.785714,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 140,
+     "surah": 3
+    },
+    {
+     "ayah": 61,
+     "surah": 3
+    },
+    {
+     "ayah": 41,
+     "surah": 3
+    },
+    {
+     "ayah": 156,
+     "surah": 3
+    },
+    {
+     "ayah": 172,
+     "surah": 3
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "صدر",
+     "concept_id": "CONCEPT_028",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.222647
+    },
+    {
+     "anchor_root_arabic": "عزم",
+     "concept_id": "CONCEPT_075",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.196329
+    },
+    {
+     "anchor_root_arabic": "روح",
+     "concept_id": "CONCEPT_018",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.184254
+    },
+    {
+     "anchor_root_arabic": "شري",
+     "concept_id": "CONCEPT_074",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.043098
+    },
+    {
+     "anchor_root_arabic": "كتم",
+     "concept_id": "CONCEPT_073",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.0316
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_081",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_081",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عذب",
+     "partner": "CONCEPT_053",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "قوم",
+     "partner": "CONCEPT_084",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_085",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.392857,
+   "proposed_identity": {
+    "anchor_root_arabic": "قنطر",
+    "confidence": 0.231692,
+    "name_arabic": "قِنطَار"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_030": {
+   "contradicting_ayah_fraction": 0.4,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 13,
+     "surah": 33
+    },
+    {
+     "ayah": 101,
+     "surah": 5
+    },
+    {
+     "ayah": 91,
+     "surah": 21
+    },
+    {
+     "ayah": 6,
+     "surah": 50
+    },
+    {
+     "ayah": 12,
+     "surah": 66
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "خول",
+     "concept_id": "CONCEPT_050",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.238448
+    },
+    {
+     "anchor_root_arabic": "برهن",
+     "concept_id": "CONCEPT_087",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.231717
+    },
+    {
+     "anchor_root_arabic": "عصر",
+     "concept_id": "CONCEPT_089",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.219708
+    },
+    {
+     "anchor_root_arabic": "حمم",
+     "concept_id": "CONCEPT_036",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.199996
+    },
+    {
+     "anchor_root_arabic": "صدر",
+     "concept_id": "CONCEPT_028",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.155506
+    },
+    {
+     "anchor_root_arabic": "خلق",
+     "concept_id": "CONCEPT_008",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.141301
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "عصر",
+     "partner": "CONCEPT_089",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "صدر",
+     "partner": "CONCEPT_028",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.2,
+   "proposed_identity": {
+    "anchor_root_arabic": "حفظ",
+    "confidence": 0.392737,
+    "name_arabic": "حَٰفِظ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_031": {
+   "contradicting_ayah_fraction": 0.833333,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 26,
+     "surah": 17
+    },
+    {
+     "ayah": 51,
+     "surah": 17
+    },
+    {
+     "ayah": 79,
+     "surah": 17
+    },
+    {
+     "ayah": 63,
+     "surah": 17
+    },
+    {
+     "ayah": 69,
+     "surah": 17
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "عقل",
+     "concept_id": "CONCEPT_054",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.13681
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "خلق",
+     "partner": "CONCEPT_008",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عذب",
+     "partner": "CONCEPT_053",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.416667,
+   "proposed_identity": {
+    "anchor_root_arabic": "رفت",
+    "confidence": 0.206237,
+    "name_arabic": "رُفَٰت"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_032": {
+   "contradicting_ayah_fraction": 0.56,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 37,
+     "surah": 22
+    },
+    {
+     "ayah": 25,
+     "surah": 33
+    },
+    {
+     "ayah": 119,
+     "surah": 3
+    },
+    {
+     "ayah": 130,
+     "surah": 2
+    },
+    {
+     "ayah": 127,
+     "surah": 4
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "عوم",
+     "concept_id": "CONCEPT_093",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.227417
+    },
+    {
+     "anchor_root_arabic": "ركع",
+     "concept_id": "CONCEPT_047",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.179352
+    },
+    {
+     "anchor_root_arabic": "رضو",
+     "concept_id": "CONCEPT_010",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.035549
+    },
+    {
+     "anchor_root_arabic": "عزم",
+     "concept_id": "CONCEPT_075",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.028861
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "عوم",
+     "partner": "CONCEPT_093",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.28,
+   "proposed_identity": {
+    "anchor_root_arabic": "عرب",
+    "confidence": 0.21109,
+    "name_arabic": "عَرَبِيّ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_033": {
+   "contradicting_ayah_fraction": 0.52,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 127,
+     "surah": 4
+    },
+    {
+     "ayah": 176,
+     "surah": 4
+    },
+    {
+     "ayah": 26,
+     "surah": 51
+    },
+    {
+     "ayah": 7,
+     "surah": 88
+    },
+    {
+     "ayah": 31,
+     "surah": 18
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "غنم",
+     "concept_id": "CONCEPT_046",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.151234
+    },
+    {
+     "anchor_root_arabic": "سجن",
+     "concept_id": "CONCEPT_039",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.142363
+    },
+    {
+     "anchor_root_arabic": "نشا",
+     "concept_id": "CONCEPT_005",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.101877
+    },
+    {
+     "anchor_root_arabic": "ابو",
+     "concept_id": "CONCEPT_021",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.083009
+    },
+    {
+     "anchor_root_arabic": "قمص",
+     "concept_id": "CONCEPT_048",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.068723
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "concept_id": "CONCEPT_004",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.065681
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "غنم",
+     "partner": "CONCEPT_046",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.26,
+   "proposed_identity": {
+    "anchor_root_arabic": "سبع",
+    "confidence": 0.354325,
+    "name_arabic": "سَبْع"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_034": {
+   "contradicting_ayah_fraction": 0.28,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 34,
+     "surah": 4
+    },
+    {
+     "ayah": 24,
+     "surah": 38
+    },
+    {
+     "ayah": 21,
+     "surah": 57
+    },
+    {
+     "ayah": 29,
+     "surah": 57
+    },
+    {
+     "ayah": 32,
+     "surah": 4
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "سوا",
+     "concept_id": "CONCEPT_060",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.244345
+    },
+    {
+     "anchor_root_arabic": "جنن",
+     "concept_id": "CONCEPT_016",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.123148
+    },
+    {
+     "anchor_root_arabic": "اله",
+     "concept_id": "CONCEPT_007",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.080694
+    },
+    {
+     "anchor_root_arabic": "اله",
+     "concept_id": "CONCEPT_081",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.060896
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "درج",
+     "partner": "CONCEPT_099",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "زلل",
+     "partner": "CONCEPT_079",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "سوا",
+     "partner": "CONCEPT_060",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "حلل",
+     "partner": "CONCEPT_090",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "جري",
+     "partner": "CONCEPT_097",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.127564,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "بعض",
+     "root_id": 490
+    },
+    {
+     "activation_share": 0.114256,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "عظم",
+     "root_id": 196
+    }
+   ],
+   "falsification_pressure": 0.282857,
+   "proposed_identity": {
+    "anchor_root_arabic": "رحم",
+    "confidence": 0.239796,
+    "name_arabic": "رَّحِيم"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_035": {
+   "contradicting_ayah_fraction": 0.74,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 221,
+     "surah": 2
+    },
+    {
+     "ayah": 127,
+     "surah": 4
+    },
+    {
+     "ayah": 33,
+     "surah": 24
+    },
+    {
+     "ayah": 60,
+     "surah": 24
+    },
+    {
+     "ayah": 3,
+     "surah": 4
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "ولد",
+     "concept_id": "CONCEPT_002",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.332349
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "concept_id": "CONCEPT_027",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.097672
+    },
+    {
+     "anchor_root_arabic": "سال",
+     "concept_id": "CONCEPT_015",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.092827
+    },
+    {
+     "anchor_root_arabic": "حيف",
+     "concept_id": "CONCEPT_086",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.042191
+    },
+    {
+     "anchor_root_arabic": "شفع",
+     "concept_id": "CONCEPT_019",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.034056
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "partner": "CONCEPT_002",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.37,
+   "proposed_identity": {
+    "anchor_root_arabic": "فقر",
+    "confidence": 0.250265,
+    "name_arabic": "فَقِير"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_036": {
+   "contradicting_ayah_fraction": 0.545455,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 42,
+     "surah": 3
+    },
+    {
+     "ayah": 46,
+     "surah": 37
+    },
+    {
+     "ayah": 71,
+     "surah": 43
+    },
+    {
+     "ayah": 47,
+     "surah": 38
+    },
+    {
+     "ayah": 66,
+     "surah": 16
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "عصر",
+     "concept_id": "CONCEPT_089",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.220327
+    },
+    {
+     "anchor_root_arabic": "حفظ",
+     "concept_id": "CONCEPT_030",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.199996
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "concept_id": "CONCEPT_027",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.131122
+    },
+    {
+     "anchor_root_arabic": "شكر",
+     "concept_id": "CONCEPT_020",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.043536
+    },
+    {
+     "anchor_root_arabic": "ظلل",
+     "concept_id": "CONCEPT_025",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.033946
+    },
+    {
+     "anchor_root_arabic": "سجن",
+     "concept_id": "CONCEPT_039",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.026788
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "عصر",
+     "partner": "CONCEPT_089",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "partner": "CONCEPT_027",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "partner": "CONCEPT_027",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.272727,
+   "proposed_identity": {
+    "anchor_root_arabic": "حمم",
+    "confidence": 0.532562,
+    "name_arabic": "حَمِيم"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_037": {
+   "contradicting_ayah_fraction": 0.84,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 4,
+     "surah": 57
+    },
+    {
+     "ayah": 3,
+     "surah": 10
+    },
+    {
+     "ayah": 7,
+     "surah": 11
+    },
+    {
+     "ayah": 59,
+     "surah": 25
+    },
+    {
+     "ayah": 4,
+     "surah": 32
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "نقذ",
+     "concept_id": "CONCEPT_077",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.20007
+    },
+    {
+     "anchor_root_arabic": "نصح",
+     "concept_id": "CONCEPT_011",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.130195
+    },
+    {
+     "anchor_root_arabic": "شجر",
+     "concept_id": "CONCEPT_024",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.129462
+    },
+    {
+     "anchor_root_arabic": "خبت",
+     "concept_id": "CONCEPT_017",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.02577
+    },
+    {
+     "anchor_root_arabic": "طلع",
+     "concept_id": "CONCEPT_006",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025144
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "شجر",
+     "partner": "CONCEPT_024",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.42,
+   "proposed_identity": {
+    "anchor_root_arabic": "قمر",
+    "confidence": 0.196928,
+    "name_arabic": "قَمَر"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_038": {
+   "contradicting_ayah_fraction": 0.46,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 65,
+     "surah": 8
+    },
+    {
+     "ayah": 66,
+     "surah": 8
+    },
+    {
+     "ayah": 37,
+     "surah": 9
+    },
+    {
+     "ayah": 11,
+     "surah": 58
+    },
+    {
+     "ayah": 8,
+     "surah": 16
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "غلب",
+     "concept_id": "CONCEPT_080",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.242094
+    },
+    {
+     "anchor_root_arabic": "لغو",
+     "concept_id": "CONCEPT_055",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.233529
+    },
+    {
+     "anchor_root_arabic": "درج",
+     "concept_id": "CONCEPT_099",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.221268
+    },
+    {
+     "anchor_root_arabic": "قصر",
+     "concept_id": "CONCEPT_059",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.215184
+    },
+    {
+     "anchor_root_arabic": "شفع",
+     "concept_id": "CONCEPT_019",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.152631
+    },
+    {
+     "anchor_root_arabic": "رضو",
+     "concept_id": "CONCEPT_010",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.098465
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.055154,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "نشز",
+     "root_id": 1030
+    }
+   ],
+   "falsification_pressure": 0.301429,
+   "proposed_identity": {
+    "anchor_root_arabic": "لبث",
+    "confidence": 0.454075,
+    "name_arabic": "لَبِثَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_039": {
+   "contradicting_ayah_fraction": 0.538462,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 26,
+     "surah": 12
+    },
+    {
+     "ayah": 27,
+     "surah": 12
+    },
+    {
+     "ayah": 28,
+     "surah": 12
+    },
+    {
+     "ayah": 65,
+     "surah": 12
+    },
+    {
+     "ayah": 170,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "سبع",
+     "concept_id": "CONCEPT_033",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.142363
+    },
+    {
+     "anchor_root_arabic": "حمم",
+     "concept_id": "CONCEPT_036",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.026788
+    },
+    {
+     "anchor_root_arabic": "حفظ",
+     "concept_id": "CONCEPT_030",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.023637
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "سوا",
+     "partner": "CONCEPT_060",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.269231,
+   "proposed_identity": {
+    "anchor_root_arabic": "سجن",
+    "confidence": 0.345555,
+    "name_arabic": "سِّجْن"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_040": {
+   "contradicting_ayah_fraction": 0.68,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 17,
+     "surah": 86
+    },
+    {
+     "ayah": 22,
+     "surah": 27
+    },
+    {
+     "ayah": 16,
+     "surah": 70
+    },
+    {
+     "ayah": 45,
+     "surah": 44
+    },
+    {
+     "ayah": 8,
+     "surah": 70
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "كهف",
+     "concept_id": "CONCEPT_101",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.603164
+    },
+    {
+     "anchor_root_arabic": "طلع",
+     "concept_id": "CONCEPT_006",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.110479
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "concept_id": "CONCEPT_004",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.108168
+    },
+    {
+     "anchor_root_arabic": "شفع",
+     "concept_id": "CONCEPT_019",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.078579
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "كهف",
+     "partner": "CONCEPT_101",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "شفع",
+     "partner": "CONCEPT_019",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_088",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.34,
+   "proposed_identity": {
+    "anchor_root_arabic": "عتد",
+    "confidence": 0.363974,
+    "name_arabic": "أَعْتَدَتْ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_041": {
+   "contradicting_ayah_fraction": 0.833333,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 30,
+     "surah": 21
+    },
+    {
+     "ayah": 79,
+     "surah": 21
+    },
+    {
+     "ayah": 11,
+     "surah": 21
+    },
+    {
+     "ayah": 87,
+     "surah": 21
+    },
+    {
+     "ayah": 46,
+     "surah": 21
+    }
+   ],
+   "contradicting_neighbors": [],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.141214,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "قصم",
+     "root_id": 1143
+    },
+    {
+     "activation_share": 0.12415,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "نون",
+     "root_id": 1120
+    },
+    {
+     "activation_share": 0.122351,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "نفح",
+     "root_id": 1069
+    }
+   ],
+   "falsification_pressure": 0.666667,
+   "proposed_identity": {
+    "anchor_root_arabic": "حدب",
+    "confidence": 0.169103,
+    "name_arabic": "حَدَب"
+   },
+   "survives": false,
+   "tested": true
+  },
+  "CONCEPT_042": {
+   "contradicting_ayah_fraction": 0.702703,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 106,
+     "surah": 17
+    },
+    {
+     "ayah": 3,
+     "surah": 18
+    },
+    {
+     "ayah": 10,
+     "surah": 20
+    },
+    {
+     "ayah": 22,
+     "surah": 27
+    },
+    {
+     "ayah": 29,
+     "surah": 28
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "سدر",
+     "concept_id": "CONCEPT_052",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.232772
+    },
+    {
+     "anchor_root_arabic": "شكر",
+     "concept_id": "CONCEPT_020",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.164178
+    },
+    {
+     "anchor_root_arabic": "شجر",
+     "concept_id": "CONCEPT_024",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.162229
+    },
+    {
+     "anchor_root_arabic": "صعق",
+     "concept_id": "CONCEPT_069",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025211
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "جنن",
+     "partner": "CONCEPT_016",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "شجر",
+     "partner": "CONCEPT_024",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.351351,
+   "proposed_identity": {
+    "anchor_root_arabic": "ودي",
+    "confidence": 0.435822,
+    "name_arabic": "وَاد"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_043": {
+   "contradicting_ayah_fraction": 0.857143,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 44,
+     "surah": 11
+    },
+    {
+     "ayah": 31,
+     "surah": 11
+    },
+    {
+     "ayah": 69,
+     "surah": 11
+    },
+    {
+     "ayah": 74,
+     "surah": 11
+    },
+    {
+     "ayah": 105,
+     "surah": 11
+    }
+   ],
+   "contradicting_neighbors": [],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.141656,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "حنذ",
+     "root_id": 328
+    },
+    {
+     "activation_share": 0.141656,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "زري",
+     "root_id": 1632
+    }
+   ],
+   "falsification_pressure": 0.595238,
+   "proposed_identity": {
+    "anchor_root_arabic": "رفد",
+    "confidence": 0.20334,
+    "name_arabic": "مَرْفُود"
+   },
+   "survives": false,
+   "tested": true
+  },
+  "CONCEPT_044": {
+   "contradicting_ayah_fraction": 0.62,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 161,
+     "surah": 3
+    },
+    {
+     "ayah": 32,
+     "surah": 9
+    },
+    {
+     "ayah": 8,
+     "surah": 61
+    },
+    {
+     "ayah": 33,
+     "surah": 5
+    },
+    {
+     "ayah": 118,
+     "surah": 3
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "نقم",
+     "concept_id": "CONCEPT_012",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.22743
+    },
+    {
+     "anchor_root_arabic": "طلع",
+     "concept_id": "CONCEPT_006",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.053869
+    },
+    {
+     "anchor_root_arabic": "رضو",
+     "concept_id": "CONCEPT_010",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.021847
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "طلع",
+     "partner": "CONCEPT_006",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_088",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.118992,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "فوه",
+     "root_id": 673
+    }
+   ],
+   "falsification_pressure": 0.393333,
+   "proposed_identity": {
+    "anchor_root_arabic": "بسط",
+    "confidence": 0.320062,
+    "name_arabic": "بَسَطَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_045": {
+   "contradicting_ayah_fraction": 0.75,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 23,
+     "surah": 19
+    },
+    {
+     "ayah": 71,
+     "surah": 20
+    },
+    {
+     "ayah": 54,
+     "surah": 55
+    },
+    {
+     "ayah": 99,
+     "surah": 6
+    },
+    {
+     "ayah": 141,
+     "surah": 6
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "حتم",
+     "concept_id": "CONCEPT_057",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.194778
+    },
+    {
+     "anchor_root_arabic": "خلق",
+     "concept_id": "CONCEPT_008",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.119682
+    },
+    {
+     "anchor_root_arabic": "نشا",
+     "concept_id": "CONCEPT_005",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.101925
+    },
+    {
+     "anchor_root_arabic": "شرب",
+     "concept_id": "CONCEPT_072",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.020879
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "نشا",
+     "partner": "CONCEPT_005",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.375,
+   "proposed_identity": {
+    "anchor_root_arabic": "سقط",
+    "confidence": 0.360513,
+    "name_arabic": "سُقِطَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_046": {
+   "contradicting_ayah_fraction": 0.625,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 5,
+     "surah": 87
+    },
+    {
+     "ayah": 24,
+     "surah": 48
+    },
+    {
+     "ayah": 70,
+     "surah": 2
+    },
+    {
+     "ayah": 144,
+     "surah": 6
+    },
+    {
+     "ayah": 24,
+     "surah": 10
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "سبع",
+     "concept_id": "CONCEPT_033",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.151234
+    },
+    {
+     "anchor_root_arabic": "نشا",
+     "concept_id": "CONCEPT_005",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.099115
+    },
+    {
+     "anchor_root_arabic": "انث",
+     "concept_id": "CONCEPT_083",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.036565
+    },
+    {
+     "anchor_root_arabic": "شفع",
+     "concept_id": "CONCEPT_019",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.022785
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "سبع",
+     "partner": "CONCEPT_033",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.3125,
+   "proposed_identity": {
+    "anchor_root_arabic": "غنم",
+    "confidence": 0.476464,
+    "name_arabic": "مَغَانِم"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_047": {
+   "contradicting_ayah_fraction": 0.787234,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 119,
+     "surah": 3
+    },
+    {
+     "ayah": 55,
+     "surah": 26
+    },
+    {
+     "ayah": 31,
+     "surah": 20
+    },
+    {
+     "ayah": 159,
+     "surah": 3
+    },
+    {
+     "ayah": 21,
+     "surah": 4
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "عرب",
+     "concept_id": "CONCEPT_032",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.179352
+    },
+    {
+     "anchor_root_arabic": "عزم",
+     "concept_id": "CONCEPT_075",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.031926
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.393617,
+   "proposed_identity": {
+    "anchor_root_arabic": "ركع",
+    "confidence": 0.29993,
+    "name_arabic": "رَاكِع"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_048": {
+   "contradicting_ayah_fraction": 0.4,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 23,
+     "surah": 12
+    },
+    {
+     "ayah": 11,
+     "surah": 72
+    },
+    {
+     "ayah": 30,
+     "surah": 12
+    },
+    {
+     "ayah": 51,
+     "surah": 12
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "قمص",
+     "concept_id": "CONCEPT_076",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.349548
+    },
+    {
+     "anchor_root_arabic": "سبع",
+     "concept_id": "CONCEPT_033",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.068723
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "قمص",
+     "partner": "CONCEPT_076",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "سوا",
+     "partner": "CONCEPT_060",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "قمص",
+     "partner": "CONCEPT_076",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.2,
+   "proposed_identity": {
+    "anchor_root_arabic": "قمص",
+    "confidence": 0.356767,
+    "name_arabic": "قَمِيص"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_049": {
+   "contradicting_ayah_fraction": 0.22,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 38,
+     "surah": 11
+    },
+    {
+     "ayah": 15,
+     "surah": 47
+    },
+    {
+     "ayah": 18,
+     "surah": 22
+    },
+    {
+     "ayah": 2,
+     "surah": 13
+    },
+    {
+     "ayah": 61,
+     "surah": 29
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "جنن",
+     "concept_id": "CONCEPT_016",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.174065
+    },
+    {
+     "anchor_root_arabic": "طلع",
+     "concept_id": "CONCEPT_006",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.071989
+    },
+    {
+     "anchor_root_arabic": "شرب",
+     "concept_id": "CONCEPT_072",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.034097
+    },
+    {
+     "anchor_root_arabic": "نقذ",
+     "concept_id": "CONCEPT_077",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.033868
+    },
+    {
+     "anchor_root_arabic": "شجر",
+     "concept_id": "CONCEPT_024",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.027703
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "جنن",
+     "partner": "CONCEPT_016",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.11,
+   "proposed_identity": {
+    "anchor_root_arabic": "ليل",
+    "confidence": 0.449861,
+    "name_arabic": "لَيْل"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_050": {
+   "contradicting_ayah_fraction": 0.793103,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 17,
+     "surah": 48
+    },
+    {
+     "ayah": 13,
+     "surah": 33
+    },
+    {
+     "ayah": 53,
+     "surah": 20
+    },
+    {
+     "ayah": 14,
+     "surah": 59
+    },
+    {
+     "ayah": 4,
+     "surah": 92
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "حفظ",
+     "concept_id": "CONCEPT_030",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.238448
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "concept_id": "CONCEPT_004",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.097589
+    },
+    {
+     "anchor_root_arabic": "برهن",
+     "concept_id": "CONCEPT_087",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.026326
+    },
+    {
+     "anchor_root_arabic": "فقر",
+     "concept_id": "CONCEPT_035",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.02479
+    },
+    {
+     "anchor_root_arabic": "صدر",
+     "concept_id": "CONCEPT_028",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.0201
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_061",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "partner": "CONCEPT_002",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.396552,
+   "proposed_identity": {
+    "anchor_root_arabic": "خول",
+    "confidence": 0.279616,
+    "name_arabic": "خَٰلَٰت"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_051": {
+   "contradicting_ayah_fraction": 0.714286,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 76,
+     "surah": 28
+    },
+    {
+     "ayah": 30,
+     "surah": 28
+    },
+    {
+     "ayah": 29,
+     "surah": 28
+    },
+    {
+     "ayah": 23,
+     "surah": 28
+    },
+    {
+     "ayah": 15,
+     "surah": 28
+    }
+   ],
+   "contradicting_neighbors": [],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.357143,
+   "proposed_identity": {
+    "anchor_root_arabic": "سرمد",
+    "confidence": 0.355826,
+    "name_arabic": "سَرْمَد"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_052": {
+   "contradicting_ayah_fraction": 0.428571,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 17,
+     "surah": 13
+    },
+    {
+     "ayah": 13,
+     "surah": 34
+    },
+    {
+     "ayah": 12,
+     "surah": 34
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "ودي",
+     "concept_id": "CONCEPT_042",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.232772
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.214286,
+   "proposed_identity": {
+    "anchor_root_arabic": "سدر",
+    "confidence": 0.391183,
+    "name_arabic": "سِدْر"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_053": {
+   "contradicting_ayah_fraction": 0.28,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 39,
+     "surah": 35
+    },
+    {
+     "ayah": 38,
+     "surah": 9
+    },
+    {
+     "ayah": 69,
+     "surah": 9
+    },
+    {
+     "ayah": 26,
+     "surah": 13
+    },
+    {
+     "ayah": 61,
+     "surah": 28
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "اله",
+     "concept_id": "CONCEPT_081",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.49296
+    },
+    {
+     "anchor_root_arabic": "اله",
+     "concept_id": "CONCEPT_007",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.186729
+    },
+    {
+     "anchor_root_arabic": "غفر",
+     "concept_id": "CONCEPT_003",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.074836
+    },
+    {
+     "anchor_root_arabic": "قوم",
+     "concept_id": "CONCEPT_084",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.057113
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "concept_id": "CONCEPT_034",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.038728
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "زلل",
+     "partner": "CONCEPT_079",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "شري",
+     "partner": "CONCEPT_074",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "قنطر",
+     "partner": "CONCEPT_029",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رفت",
+     "partner": "CONCEPT_031",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عوم",
+     "partner": "CONCEPT_093",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.14,
+   "proposed_identity": {
+    "anchor_root_arabic": "عذب",
+    "confidence": 0.27605,
+    "name_arabic": "عَذَاب"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_054": {
+   "contradicting_ayah_fraction": 0.64,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 71,
+     "surah": 5
+    },
+    {
+     "ayah": 97,
+     "surah": 17
+    },
+    {
+     "ayah": 18,
+     "surah": 2
+    },
+    {
+     "ayah": 39,
+     "surah": 6
+    },
+    {
+     "ayah": 24,
+     "surah": 11
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "رفت",
+     "concept_id": "CONCEPT_031",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.13681
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.32,
+   "proposed_identity": {
+    "anchor_root_arabic": "عقل",
+    "confidence": 0.411303,
+    "name_arabic": "عَقَلُ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_055": {
+   "contradicting_ayah_fraction": 0.75,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 92,
+     "surah": 4
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    },
+    {
+     "ayah": 196,
+     "surah": 2
+    },
+    {
+     "ayah": 81,
+     "surah": 9
+    },
+    {
+     "ayah": 178,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "حلل",
+     "concept_id": "CONCEPT_090",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.594493
+    },
+    {
+     "anchor_root_arabic": "لبث",
+     "concept_id": "CONCEPT_038",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.233529
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.137149
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "concept_id": "CONCEPT_002",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.114489
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "concept_id": "CONCEPT_004",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.075754
+    },
+    {
+     "anchor_root_arabic": "رضو",
+     "concept_id": "CONCEPT_010",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.03578
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "غفر",
+     "partner": "CONCEPT_003",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "حلل",
+     "partner": "CONCEPT_090",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "partner": "CONCEPT_001",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "partner": "CONCEPT_002",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.375,
+   "proposed_identity": {
+    "anchor_root_arabic": "لغو",
+    "confidence": 0.354132,
+    "name_arabic": "لَغْو"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_056": {
+   "contradicting_ayah_fraction": 0.48,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 173,
+     "surah": 26
+    },
+    {
+     "ayah": 58,
+     "surah": 27
+    },
+    {
+     "ayah": 84,
+     "surah": 7
+    },
+    {
+     "ayah": 40,
+     "surah": 25
+    },
+    {
+     "ayah": 27,
+     "surah": 4
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "زوج",
+     "concept_id": "CONCEPT_078",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.033811
+    },
+    {
+     "anchor_root_arabic": "صدر",
+     "concept_id": "CONCEPT_028",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.0279
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "concept_id": "CONCEPT_002",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.026628
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_088",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "partner": "CONCEPT_034",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.24,
+   "proposed_identity": {
+    "anchor_root_arabic": "هون",
+    "confidence": 0.428756,
+    "name_arabic": "مُّهِين"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_057": {
+   "contradicting_ayah_fraction": 0.8,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 82,
+     "surah": 19
+    },
+    {
+     "ayah": 13,
+     "surah": 19
+    },
+    {
+     "ayah": 23,
+     "surah": 19
+    },
+    {
+     "ayah": 4,
+     "surah": 19
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "سقط",
+     "concept_id": "CONCEPT_045",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.194778
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.4,
+   "proposed_identity": {
+    "anchor_root_arabic": "حتم",
+    "confidence": 0.287902,
+    "name_arabic": "حَتْم"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_058": {
+   "contradicting_ayah_fraction": 0.478261,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 112,
+     "surah": 3
+    },
+    {
+     "ayah": 10,
+     "surah": 79
+    },
+    {
+     "ayah": 66,
+     "surah": 20
+    },
+    {
+     "ayah": 44,
+     "surah": 26
+    },
+    {
+     "ayah": 16,
+     "surah": 50
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "رضو",
+     "concept_id": "CONCEPT_010",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.103587
+    },
+    {
+     "anchor_root_arabic": "خبت",
+     "concept_id": "CONCEPT_017",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.022858
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.23913,
+   "proposed_identity": {
+    "anchor_root_arabic": "عصم",
+    "confidence": 0.532276,
+    "name_arabic": "ٱعْتَصَمُ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_059": {
+   "contradicting_ayah_fraction": 0.352941,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 4,
+     "surah": 81
+    },
+    {
+     "ayah": 78,
+     "surah": 4
+    },
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 42,
+     "surah": 18
+    },
+    {
+     "ayah": 52,
+     "surah": 27
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "لبث",
+     "concept_id": "CONCEPT_038",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.215184
+    },
+    {
+     "anchor_root_arabic": "غلب",
+     "concept_id": "CONCEPT_080",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.022574
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [
+    {
+     "activation_share": 0.094229,
+     "neighbour_link_to_anchor": 0.0,
+     "root_arabic": "خوي",
+     "root_id": 1585
+    }
+   ],
+   "falsification_pressure": 0.301471,
+   "proposed_identity": {
+    "anchor_root_arabic": "قصر",
+    "confidence": 0.484117,
+    "name_arabic": "قَصْر"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_060": {
+   "contradicting_ayah_fraction": 0.28,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 93,
+     "surah": 5
+    },
+    {
+     "ayah": 11,
+     "surah": 65
+    },
+    {
+     "ayah": 128,
+     "surah": 4
+    },
+    {
+     "ayah": 19,
+     "surah": 27
+    },
+    {
+     "ayah": 120,
+     "surah": 9
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "رحم",
+     "concept_id": "CONCEPT_034",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.244345
+    },
+    {
+     "anchor_root_arabic": "جري",
+     "concept_id": "CONCEPT_097",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.080206
+    },
+    {
+     "anchor_root_arabic": "اله",
+     "concept_id": "CONCEPT_007",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025138
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "قمص",
+     "partner": "CONCEPT_048",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "سجن",
+     "partner": "CONCEPT_039",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "partner": "CONCEPT_034",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "جري",
+     "partner": "CONCEPT_097",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "partner": "CONCEPT_034",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.14,
+   "proposed_identity": {
+    "anchor_root_arabic": "سوا",
+    "confidence": 0.450007,
+    "name_arabic": "سُو^ء"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_061": {
+   "contradicting_ayah_fraction": 0.28,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 145,
+     "surah": 2
+    },
+    {
+     "ayah": 21,
+     "surah": 24
+    },
+    {
+     "ayah": 90,
+     "surah": 20
+    },
+    {
+     "ayah": 60,
+     "surah": 25
+    },
+    {
+     "ayah": 154,
+     "surah": 3
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "رسل",
+     "concept_id": "CONCEPT_085",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.280694
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "concept_id": "CONCEPT_088",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.258007
+    },
+    {
+     "anchor_root_arabic": "قوم",
+     "concept_id": "CONCEPT_084",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.095776
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_085",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "كهف",
+     "partner": "CONCEPT_101",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_088",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "خول",
+     "partner": "CONCEPT_050",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عزم",
+     "partner": "CONCEPT_075",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عرف",
+     "partner": "CONCEPT_091",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.14,
+   "proposed_identity": {
+    "anchor_root_arabic": "رسل",
+    "confidence": 0.374888,
+    "name_arabic": "رَسُول"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_062": {
+   "contradicting_ayah_fraction": 0.25,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 57,
+     "surah": 9
+    },
+    {
+     "ayah": 59,
+     "surah": 38
+    },
+    {
+     "ayah": 60,
+     "surah": 38
+    },
+    {
+     "ayah": 47,
+     "surah": 42
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "رضو",
+     "concept_id": "CONCEPT_010",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.164623
+    },
+    {
+     "anchor_root_arabic": "عوم",
+     "concept_id": "CONCEPT_093",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.02101
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.125,
+   "proposed_identity": {
+    "anchor_root_arabic": "ضيق",
+    "confidence": 0.631339,
+    "name_arabic": "ضَاقَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_063": {
+   "contradicting_ayah_fraction": 0.12,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 107,
+     "surah": 7
+    },
+    {
+     "ayah": 32,
+     "surah": 26
+    },
+    {
+     "ayah": 117,
+     "surah": 7
+    },
+    {
+     "ayah": 45,
+     "surah": 26
+    },
+    {
+     "ayah": 63,
+     "surah": 26
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "ظلل",
+     "concept_id": "CONCEPT_025",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.345813
+    },
+    {
+     "anchor_root_arabic": "روح",
+     "concept_id": "CONCEPT_018",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.109937
+    },
+    {
+     "anchor_root_arabic": "نحت",
+     "concept_id": "CONCEPT_092",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.036664
+    },
+    {
+     "anchor_root_arabic": "كتم",
+     "concept_id": "CONCEPT_073",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.024164
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "روح",
+     "partner": "CONCEPT_018",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.06,
+   "proposed_identity": {
+    "anchor_root_arabic": "سحر",
+    "confidence": 0.760036,
+    "name_arabic": "سِحْر"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_064": {
+   "contradicting_ayah_fraction": 0.444444,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 18,
+     "surah": 27
+    },
+    {
+     "ayah": 39,
+     "surah": 27
+    },
+    {
+     "ayah": 20,
+     "surah": 27
+    },
+    {
+     "ayah": 119,
+     "surah": 3
+    }
+   ],
+   "contradicting_neighbors": [],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "جنن",
+     "partner": "CONCEPT_016",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.222222,
+   "proposed_identity": {
+    "anchor_root_arabic": "وزع",
+    "confidence": 0.539755,
+    "name_arabic": "يُوزَعُ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_065": {
+   "contradicting_ayah_fraction": 0.7,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 67,
+     "surah": 23
+    },
+    {
+     "ayah": 85,
+     "surah": 20
+    },
+    {
+     "ayah": 87,
+     "surah": 20
+    },
+    {
+     "ayah": 95,
+     "surah": 20
+    },
+    {
+     "ayah": 131,
+     "surah": 20
+    }
+   ],
+   "contradicting_neighbors": [],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.35,
+   "proposed_identity": {
+    "anchor_root_arabic": "نسف",
+    "confidence": 0.385345,
+    "name_arabic": "نُسِفَتْ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_066": {
+   "contradicting_ayah_fraction": 0.2,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 92,
+     "surah": 10
+    },
+    {
+     "ayah": 43,
+     "surah": 14
+    },
+    {
+     "ayah": 25,
+     "surah": 48
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "خبت",
+     "concept_id": "CONCEPT_017",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.200591
+    },
+    {
+     "anchor_root_arabic": "نقذ",
+     "concept_id": "CONCEPT_077",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.033634
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.1,
+   "proposed_identity": {
+    "anchor_root_arabic": "صفف",
+    "confidence": 0.725767,
+    "name_arabic": "صَفّ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_067": {
+   "contradicting_ayah_fraction": 0.38,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 2,
+     "surah": 4
+    },
+    {
+     "ayah": 127,
+     "surah": 4
+    },
+    {
+     "ayah": 3,
+     "surah": 4
+    },
+    {
+     "ayah": 83,
+     "surah": 2
+    },
+    {
+     "ayah": 177,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "كفي",
+     "concept_id": "CONCEPT_009",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.461616
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "concept_id": "CONCEPT_002",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.211333
+    },
+    {
+     "anchor_root_arabic": "عرف",
+     "concept_id": "CONCEPT_091",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.067142
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "كفي",
+     "partner": "CONCEPT_009",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "كفي",
+     "partner": "CONCEPT_009",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "partner": "CONCEPT_002",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.19,
+   "proposed_identity": {
+    "anchor_root_arabic": "كفي",
+    "confidence": 0.565898,
+    "name_arabic": "كَفَىٰ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_068": {
+   "contradicting_ayah_fraction": 0.8,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 23,
+     "surah": 33
+    },
+    {
+     "ayah": 18,
+     "surah": 33
+    },
+    {
+     "ayah": 4,
+     "surah": 33
+    },
+    {
+     "ayah": 19,
+     "surah": 33
+    }
+   ],
+   "contradicting_neighbors": [],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_081",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_081",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.4,
+   "proposed_identity": {
+    "anchor_root_arabic": "وطر",
+    "confidence": 0.310562,
+    "name_arabic": "وَطَر"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_069": {
+   "contradicting_ayah_fraction": 0.375,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 7,
+     "surah": 71
+    },
+    {
+     "ayah": 7,
+     "surah": 75
+    },
+    {
+     "ayah": 20,
+     "surah": 2
+    },
+    {
+     "ayah": 12,
+     "surah": 13
+    },
+    {
+     "ayah": 43,
+     "surah": 24
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "صرف",
+     "concept_id": "CONCEPT_026",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.202374
+    },
+    {
+     "anchor_root_arabic": "ودي",
+     "concept_id": "CONCEPT_042",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025211
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "قوم",
+     "partner": "CONCEPT_084",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "صرف",
+     "partner": "CONCEPT_026",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_085",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.1875,
+   "proposed_identity": {
+    "anchor_root_arabic": "صعق",
+    "confidence": 0.59693,
+    "name_arabic": "صَاعِقَة"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_070": {
+   "contradicting_ayah_fraction": 0.4,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 4,
+     "surah": 85
+    },
+    {
+     "ayah": 37,
+     "surah": 17
+    },
+    {
+     "ayah": 75,
+     "surah": 40
+    },
+    {
+     "ayah": 14,
+     "surah": 55
+    },
+    {
+     "ayah": 10,
+     "surah": 11
+    }
+   ],
+   "contradicting_neighbors": [],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "خلق",
+     "partner": "CONCEPT_008",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.2,
+   "proposed_identity": {
+    "anchor_root_arabic": "خيل",
+    "confidence": 0.452467,
+    "name_arabic": "خَيْل"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_071": {
+   "contradicting_ayah_fraction": 0.4,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 52,
+     "surah": 9
+    },
+    {
+     "ayah": 135,
+     "surah": 20
+    },
+    {
+     "ayah": 31,
+     "surah": 52
+    },
+    {
+     "ayah": 113,
+     "surah": 6
+    },
+    {
+     "ayah": 11,
+     "surah": 62
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "قسط",
+     "concept_id": "CONCEPT_013",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.246847
+    },
+    {
+     "anchor_root_arabic": "نشا",
+     "concept_id": "CONCEPT_005",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.079375
+    },
+    {
+     "anchor_root_arabic": "انث",
+     "concept_id": "CONCEPT_083",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.033502
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "concept_id": "CONCEPT_027",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.02491
+    },
+    {
+     "anchor_root_arabic": "كتم",
+     "concept_id": "CONCEPT_073",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.020319
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_085",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "قسط",
+     "partner": "CONCEPT_013",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.2,
+   "proposed_identity": {
+    "anchor_root_arabic": "جهد",
+    "confidence": 0.474015,
+    "name_arabic": "جَٰهَدَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_072": {
+   "contradicting_ayah_fraction": 0.38,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 42,
+     "surah": 3
+    },
+    {
+     "ayah": 99,
+     "surah": 6
+    },
+    {
+     "ayah": 141,
+     "surah": 6
+    },
+    {
+     "ayah": 47,
+     "surah": 38
+    },
+    {
+     "ayah": 130,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "جنن",
+     "concept_id": "CONCEPT_016",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.221944
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "concept_id": "CONCEPT_027",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.118498
+    },
+    {
+     "anchor_root_arabic": "نشا",
+     "concept_id": "CONCEPT_005",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.114203
+    },
+    {
+     "anchor_root_arabic": "عصر",
+     "concept_id": "CONCEPT_089",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.042493
+    },
+    {
+     "anchor_root_arabic": "ليل",
+     "concept_id": "CONCEPT_049",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.034097
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "partner": "CONCEPT_027",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "جنن",
+     "partner": "CONCEPT_016",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "نشا",
+     "partner": "CONCEPT_005",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.19,
+   "proposed_identity": {
+    "anchor_root_arabic": "شرب",
+    "confidence": 0.548803,
+    "name_arabic": "شَرِبَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_073": {
+   "contradicting_ayah_fraction": 0.583333,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 75,
+     "surah": 3
+    },
+    {
+     "ayah": 102,
+     "surah": 2
+    },
+    {
+     "ayah": 58,
+     "surah": 4
+    },
+    {
+     "ayah": 18,
+     "surah": 44
+    },
+    {
+     "ayah": 16,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "ظلل",
+     "concept_id": "CONCEPT_025",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.232647
+    },
+    {
+     "anchor_root_arabic": "قسط",
+     "concept_id": "CONCEPT_013",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.132536
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.061567
+    },
+    {
+     "anchor_root_arabic": "سال",
+     "concept_id": "CONCEPT_015",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.042969
+    },
+    {
+     "anchor_root_arabic": "قنطر",
+     "concept_id": "CONCEPT_029",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.0316
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "قسط",
+     "partner": "CONCEPT_013",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "partner": "CONCEPT_001",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_088",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.291667,
+   "proposed_identity": {
+    "anchor_root_arabic": "كتم",
+    "confidence": 0.417332,
+    "name_arabic": "كَتَمَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_074": {
+   "contradicting_ayah_fraction": 0.323529,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 75,
+     "surah": 3
+    },
+    {
+     "ayah": 283,
+     "surah": 2
+    },
+    {
+     "ayah": 58,
+     "surah": 4
+    },
+    {
+     "ayah": 18,
+     "surah": 44
+    },
+    {
+     "ayah": 209,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "قسط",
+     "concept_id": "CONCEPT_013",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.099946
+    },
+    {
+     "anchor_root_arabic": "سال",
+     "concept_id": "CONCEPT_015",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.051708
+    },
+    {
+     "anchor_root_arabic": "قنطر",
+     "concept_id": "CONCEPT_029",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.043098
+    },
+    {
+     "anchor_root_arabic": "ظلل",
+     "concept_id": "CONCEPT_025",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.030215
+    },
+    {
+     "anchor_root_arabic": "شفع",
+     "concept_id": "CONCEPT_019",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.028176
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025722
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "قسط",
+     "partner": "CONCEPT_013",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عذب",
+     "partner": "CONCEPT_053",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_088",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "partner": "CONCEPT_034",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.161765,
+   "proposed_identity": {
+    "anchor_root_arabic": "شري",
+    "confidence": 0.504806,
+    "name_arabic": "ٱشْتَرَىٰ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_075": {
+   "contradicting_ayah_fraction": 0.4375,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 44,
+     "surah": 20
+    },
+    {
+     "ayah": 10,
+     "surah": 34
+    },
+    {
+     "ayah": 23,
+     "surah": 39
+    },
+    {
+     "ayah": 5,
+     "surah": 59
+    },
+    {
+     "ayah": 29,
+     "surah": 19
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "قنطر",
+     "concept_id": "CONCEPT_029",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.196329
+    },
+    {
+     "anchor_root_arabic": "حلل",
+     "concept_id": "CONCEPT_090",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.04578
+    },
+    {
+     "anchor_root_arabic": "لغو",
+     "concept_id": "CONCEPT_055",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.034408
+    },
+    {
+     "anchor_root_arabic": "ركع",
+     "concept_id": "CONCEPT_047",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.031926
+    },
+    {
+     "anchor_root_arabic": "عرب",
+     "concept_id": "CONCEPT_032",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.028861
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "concept_id": "CONCEPT_002",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.023967
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "partner": "CONCEPT_002",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_061",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "partner": "CONCEPT_001",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.21875,
+   "proposed_identity": {
+    "anchor_root_arabic": "عزم",
+    "confidence": 0.437851,
+    "name_arabic": "عَزْم"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_076": {
+   "contradicting_ayah_fraction": 0.5,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 13,
+     "surah": 12
+    },
+    {
+     "ayah": 14,
+     "surah": 12
+    },
+    {
+     "ayah": 17,
+     "surah": 12
+    },
+    {
+     "ayah": 9,
+     "surah": 12
+    },
+    {
+     "ayah": 10,
+     "surah": 12
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "قمص",
+     "concept_id": "CONCEPT_048",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.349548
+    },
+    {
+     "anchor_root_arabic": "سبع",
+     "concept_id": "CONCEPT_033",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025962
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "قمص",
+     "partner": "CONCEPT_048",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "قمص",
+     "partner": "CONCEPT_048",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.25,
+   "proposed_identity": {
+    "anchor_root_arabic": "قمص",
+    "confidence": 0.429759,
+    "name_arabic": "قَمِيص"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_077": {
+   "contradicting_ayah_fraction": 0.285714,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 41,
+     "surah": 18
+    },
+    {
+     "ayah": 54,
+     "surah": 7
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "خبت",
+     "concept_id": "CONCEPT_017",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.398683
+    },
+    {
+     "anchor_root_arabic": "قمر",
+     "concept_id": "CONCEPT_037",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.20007
+    },
+    {
+     "anchor_root_arabic": "ليل",
+     "concept_id": "CONCEPT_049",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.033868
+    },
+    {
+     "anchor_root_arabic": "صفف",
+     "concept_id": "CONCEPT_066",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.033634
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "جنن",
+     "partner": "CONCEPT_016",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.142857,
+   "proposed_identity": {
+    "anchor_root_arabic": "نقذ",
+    "confidence": 0.439951,
+    "name_arabic": "أَنقَذَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_078": {
+   "contradicting_ayah_fraction": 0.06,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 49,
+     "surah": 33
+    },
+    {
+     "ayah": 61,
+     "surah": 9
+    },
+    {
+     "ayah": 35,
+     "surah": 33
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.087941
+    },
+    {
+     "anchor_root_arabic": "عذب",
+     "concept_id": "CONCEPT_053",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.034468
+    },
+    {
+     "anchor_root_arabic": "هون",
+     "concept_id": "CONCEPT_056",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.033811
+    },
+    {
+     "anchor_root_arabic": "جري",
+     "concept_id": "CONCEPT_097",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025289
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "concept_id": "CONCEPT_002",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.024937
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "partner": "CONCEPT_002",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "partner": "CONCEPT_001",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.03,
+   "proposed_identity": {
+    "anchor_root_arabic": "زوج",
+    "confidence": 0.641191,
+    "name_arabic": "زَوْج"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_079": {
+   "contradicting_ayah_fraction": 0.636364,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 286,
+     "surah": 2
+    },
+    {
+     "ayah": 249,
+     "surah": 2
+    },
+    {
+     "ayah": 81,
+     "surah": 3
+    },
+    {
+     "ayah": 157,
+     "surah": 7
+    },
+    {
+     "ayah": 267,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "غرف",
+     "concept_id": "CONCEPT_098",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.269426
+    },
+    {
+     "anchor_root_arabic": "شفع",
+     "concept_id": "CONCEPT_019",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.252178
+    },
+    {
+     "anchor_root_arabic": "سال",
+     "concept_id": "CONCEPT_015",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.061729
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.03581
+    },
+    {
+     "anchor_root_arabic": "عرف",
+     "concept_id": "CONCEPT_091",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025992
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "عذب",
+     "partner": "CONCEPT_053",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "قوم",
+     "partner": "CONCEPT_084",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "شفع",
+     "partner": "CONCEPT_019",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "partner": "CONCEPT_034",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.318182,
+   "proposed_identity": {
+    "anchor_root_arabic": "زلل",
+    "confidence": 0.419259,
+    "name_arabic": "زَلَلْ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_080": {
+   "contradicting_ayah_fraction": 0.44,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 63,
+     "surah": 8
+    },
+    {
+     "ayah": 147,
+     "surah": 37
+    },
+    {
+     "ayah": 259,
+     "surah": 2
+    },
+    {
+     "ayah": 1,
+     "surah": 106
+    },
+    {
+     "ayah": 13,
+     "surah": 3
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "لبث",
+     "concept_id": "CONCEPT_038",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.242094
+    },
+    {
+     "anchor_root_arabic": "شفع",
+     "concept_id": "CONCEPT_019",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.026645
+    },
+    {
+     "anchor_root_arabic": "عوم",
+     "concept_id": "CONCEPT_093",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.024876
+    },
+    {
+     "anchor_root_arabic": "زلل",
+     "concept_id": "CONCEPT_079",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.023932
+    },
+    {
+     "anchor_root_arabic": "صرف",
+     "concept_id": "CONCEPT_026",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.023509
+    },
+    {
+     "anchor_root_arabic": "قصر",
+     "concept_id": "CONCEPT_059",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.022574
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.22,
+   "proposed_identity": {
+    "anchor_root_arabic": "غلب",
+    "confidence": 0.608615,
+    "name_arabic": "غَلَبُ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_081": {
+   "contradicting_ayah_fraction": 0.02,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 39,
+     "surah": 35
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "عذب",
+     "concept_id": "CONCEPT_053",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.49296
+    },
+    {
+     "anchor_root_arabic": "اله",
+     "concept_id": "CONCEPT_007",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.408033
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "concept_id": "CONCEPT_034",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.060896
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "قنطر",
+     "partner": "CONCEPT_029",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "وطر",
+     "partner": "CONCEPT_068",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "قنطر",
+     "partner": "CONCEPT_029",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "وطر",
+     "partner": "CONCEPT_068",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.01,
+   "proposed_identity": {
+    "anchor_root_arabic": "اله",
+    "confidence": 0.628956,
+    "name_arabic": "ٱللَّه"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_082": {
+   "contradicting_ayah_fraction": 0.26,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 72,
+     "surah": 55
+    },
+    {
+     "ayah": 202,
+     "surah": 7
+    },
+    {
+     "ayah": 82,
+     "surah": 15
+    },
+    {
+     "ayah": 149,
+     "surah": 26
+    },
+    {
+     "ayah": 95,
+     "surah": 37
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "نصح",
+     "concept_id": "CONCEPT_011",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.1272
+    },
+    {
+     "anchor_root_arabic": "ظلل",
+     "concept_id": "CONCEPT_025",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.030574
+    },
+    {
+     "anchor_root_arabic": "بغت",
+     "concept_id": "CONCEPT_094",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.020019
+    }
+   ],
+   "contradicting_propositions": [],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.13,
+   "proposed_identity": {
+    "anchor_root_arabic": "الو",
+    "confidence": 0.66938,
+    "name_arabic": "ءَالَا^ء"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_083": {
+   "contradicting_ayah_fraction": 0.434783,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 40,
+     "surah": 9
+    },
+    {
+     "ayah": 160,
+     "surah": 7
+    },
+    {
+     "ayah": 11,
+     "surah": 40
+    },
+    {
+     "ayah": 18,
+     "surah": 68
+    },
+    {
+     "ayah": 12,
+     "surah": 5
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "نشا",
+     "concept_id": "CONCEPT_005",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.191918
+    },
+    {
+     "anchor_root_arabic": "غنم",
+     "concept_id": "CONCEPT_046",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.036565
+    },
+    {
+     "anchor_root_arabic": "جهد",
+     "concept_id": "CONCEPT_071",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.033502
+    },
+    {
+     "anchor_root_arabic": "ظلل",
+     "concept_id": "CONCEPT_025",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.023425
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "خلق",
+     "partner": "CONCEPT_008",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.217391,
+   "proposed_identity": {
+    "anchor_root_arabic": "انث",
+    "confidence": 0.614956,
+    "name_arabic": "أُنثَىٰ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_084": {
+   "contradicting_ayah_fraction": 0.3,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 102,
+     "surah": 11
+    },
+    {
+     "ayah": 169,
+     "surah": 7
+    },
+    {
+     "ayah": 40,
+     "surah": 29
+    },
+    {
+     "ayah": 153,
+     "surah": 4
+    },
+    {
+     "ayah": 51,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "رسل",
+     "concept_id": "CONCEPT_085",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.276208
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "concept_id": "CONCEPT_061",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.095776
+    },
+    {
+     "anchor_root_arabic": "عذب",
+     "concept_id": "CONCEPT_053",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.057113
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "concept_id": "CONCEPT_088",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.040367
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "زلل",
+     "partner": "CONCEPT_079",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "صعق",
+     "partner": "CONCEPT_069",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "قنطر",
+     "partner": "CONCEPT_029",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "صيح",
+     "partner": "CONCEPT_095",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عوم",
+     "partner": "CONCEPT_093",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_085",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.15,
+   "proposed_identity": {
+    "anchor_root_arabic": "قوم",
+    "confidence": 0.467573,
+    "name_arabic": "قَوْم"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_085": {
+   "contradicting_ayah_fraction": 0.3,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 146,
+     "surah": 7
+    },
+    {
+     "ayah": 31,
+     "surah": 24
+    },
+    {
+     "ayah": 50,
+     "surah": 33
+    },
+    {
+     "ayah": 89,
+     "surah": 4
+    },
+    {
+     "ayah": 23,
+     "surah": 4
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "رسل",
+     "concept_id": "CONCEPT_061",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.280694
+    },
+    {
+     "anchor_root_arabic": "قوم",
+     "concept_id": "CONCEPT_084",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.276208
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "concept_id": "CONCEPT_088",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.268129
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "concept_id": "CONCEPT_004",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.058308
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "صيح",
+     "partner": "CONCEPT_095",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "قنطر",
+     "partner": "CONCEPT_029",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_088",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "زلل",
+     "partner": "CONCEPT_079",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_061",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "جهد",
+     "partner": "CONCEPT_071",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.15,
+   "proposed_identity": {
+    "anchor_root_arabic": "رسل",
+    "confidence": 0.451434,
+    "name_arabic": "رَسُول"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_086": {
+   "contradicting_ayah_fraction": 0.75,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 35,
+     "surah": 24
+    },
+    {
+     "ayah": 32,
+     "surah": 24
+    },
+    {
+     "ayah": 63,
+     "surah": 24
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "شجر",
+     "concept_id": "CONCEPT_024",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.24631
+    },
+    {
+     "anchor_root_arabic": "فقر",
+     "concept_id": "CONCEPT_035",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.042191
+    }
+   ],
+   "contradicting_propositions": [],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.375,
+   "proposed_identity": {
+    "anchor_root_arabic": "حيف",
+    "confidence": 0.455231,
+    "name_arabic": "يَحِيفَ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_087": {
+   "contradicting_ayah_fraction": 0.6,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 22,
+     "surah": 20
+    },
+    {
+     "ayah": 12,
+     "surah": 27
+    },
+    {
+     "ayah": 49,
+     "surah": 37
+    },
+    {
+     "ayah": 187,
+     "surah": 2
+    },
+    {
+     "ayah": 108,
+     "surah": 7
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "حفظ",
+     "concept_id": "CONCEPT_030",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.231717
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.056664
+    },
+    {
+     "anchor_root_arabic": "خول",
+     "concept_id": "CONCEPT_050",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.026326
+    },
+    {
+     "anchor_root_arabic": "عصر",
+     "concept_id": "CONCEPT_089",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.020847
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "partner": "CONCEPT_001",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.3,
+   "proposed_identity": {
+    "anchor_root_arabic": "برهن",
+    "confidence": 0.42167,
+    "name_arabic": "بُرْهَٰن"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_088": {
+   "contradicting_ayah_fraction": 0.4,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 39,
+     "surah": 35
+    },
+    {
+     "ayah": 25,
+     "surah": 48
+    },
+    {
+     "ayah": 115,
+     "surah": 5
+    },
+    {
+     "ayah": 165,
+     "surah": 3
+    },
+    {
+     "ayah": 50,
+     "surah": 9
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "رسل",
+     "concept_id": "CONCEPT_085",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.268129
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "concept_id": "CONCEPT_061",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.258007
+    },
+    {
+     "anchor_root_arabic": "قوم",
+     "concept_id": "CONCEPT_084",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.040367
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_085",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "هون",
+     "partner": "CONCEPT_056",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_061",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "شري",
+     "partner": "CONCEPT_074",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عوم",
+     "partner": "CONCEPT_093",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عتد",
+     "partner": "CONCEPT_040",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.2,
+   "proposed_identity": {
+    "anchor_root_arabic": "رسل",
+    "confidence": 0.383907,
+    "name_arabic": "رَسُول"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_089": {
+   "contradicting_ayah_fraction": 0.761905,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 41,
+     "surah": 12
+    },
+    {
+     "ayah": 7,
+     "surah": 83
+    },
+    {
+     "ayah": 8,
+     "surah": 83
+    },
+    {
+     "ayah": 29,
+     "surah": 26
+    },
+    {
+     "ayah": 33,
+     "surah": 12
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "ابو",
+     "concept_id": "CONCEPT_021",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.336688
+    },
+    {
+     "anchor_root_arabic": "حمم",
+     "concept_id": "CONCEPT_036",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.220327
+    },
+    {
+     "anchor_root_arabic": "حفظ",
+     "concept_id": "CONCEPT_030",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.219708
+    },
+    {
+     "anchor_root_arabic": "شرب",
+     "concept_id": "CONCEPT_072",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.042493
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "ابو",
+     "partner": "CONCEPT_021",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "حفظ",
+     "partner": "CONCEPT_030",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "partner": "CONCEPT_001",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "حمم",
+     "partner": "CONCEPT_036",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.380952,
+   "proposed_identity": {
+    "anchor_root_arabic": "عصر",
+    "confidence": 0.540272,
+    "name_arabic": "يَعْصِرُ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_090": {
+   "contradicting_ayah_fraction": 0.62,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 237,
+     "surah": 2
+    },
+    {
+     "ayah": 99,
+     "surah": 4
+    },
+    {
+     "ayah": 149,
+     "surah": 4
+    },
+    {
+     "ayah": 95,
+     "surah": 5
+    },
+    {
+     "ayah": 89,
+     "surah": 5
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "لغو",
+     "concept_id": "CONCEPT_055",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.594493
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.183683
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "concept_id": "CONCEPT_004",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.163887
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "concept_id": "CONCEPT_002",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.147258
+    },
+    {
+     "anchor_root_arabic": "عزم",
+     "concept_id": "CONCEPT_075",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.04578
+    },
+    {
+     "anchor_root_arabic": "لبث",
+     "concept_id": "CONCEPT_038",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.036852
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "partner": "CONCEPT_002",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "لغو",
+     "partner": "CONCEPT_055",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "partner": "CONCEPT_002",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "غفر",
+     "partner": "CONCEPT_003",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.31,
+   "proposed_identity": {
+    "anchor_root_arabic": "حلل",
+    "confidence": 0.51079,
+    "name_arabic": "أَحَلَّ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_091": {
+   "contradicting_ayah_fraction": 0.22,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 25,
+     "surah": 75
+    },
+    {
+     "ayah": 271,
+     "surah": 2
+    },
+    {
+     "ayah": 181,
+     "surah": 3
+    },
+    {
+     "ayah": 135,
+     "surah": 4
+    },
+    {
+     "ayah": 60,
+     "surah": 9
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "يسر",
+     "concept_id": "CONCEPT_001",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.138826
+    },
+    {
+     "anchor_root_arabic": "ربو",
+     "concept_id": "CONCEPT_027",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.128378
+    },
+    {
+     "anchor_root_arabic": "كفي",
+     "concept_id": "CONCEPT_067",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.067142
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_061",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "يسر",
+     "partner": "CONCEPT_001",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.11,
+   "proposed_identity": {
+    "anchor_root_arabic": "عرف",
+    "confidence": 0.723521,
+    "name_arabic": "مَّعْرُوف"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_092": {
+   "contradicting_ayah_fraction": 0.5,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 60,
+     "surah": 2
+    },
+    {
+     "ayah": 85,
+     "surah": 11
+    },
+    {
+     "ayah": 183,
+     "surah": 26
+    },
+    {
+     "ayah": 36,
+     "surah": 29
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "ظلل",
+     "concept_id": "CONCEPT_025",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.144685
+    },
+    {
+     "anchor_root_arabic": "نصح",
+     "concept_id": "CONCEPT_011",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.140602
+    },
+    {
+     "anchor_root_arabic": "سحر",
+     "concept_id": "CONCEPT_063",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.036664
+    },
+    {
+     "anchor_root_arabic": "كتم",
+     "concept_id": "CONCEPT_073",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.022271
+    },
+    {
+     "anchor_root_arabic": "بغت",
+     "concept_id": "CONCEPT_094",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.020019
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "ظلل",
+     "partner": "CONCEPT_025",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.25,
+   "proposed_identity": {
+    "anchor_root_arabic": "نحت",
+    "confidence": 0.502585,
+    "name_arabic": "يَنْحِتُ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_093": {
+   "contradicting_ayah_fraction": 0.416667,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 120,
+     "surah": 9
+    },
+    {
+     "ayah": 14,
+     "surah": 34
+    },
+    {
+     "ayah": 6,
+     "surah": 73
+    },
+    {
+     "ayah": 27,
+     "surah": 33
+    },
+    {
+     "ayah": 25,
+     "surah": 48
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "عرب",
+     "concept_id": "CONCEPT_032",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.227417
+    },
+    {
+     "anchor_root_arabic": "غلب",
+     "concept_id": "CONCEPT_080",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.024876
+    },
+    {
+     "anchor_root_arabic": "ضيق",
+     "concept_id": "CONCEPT_062",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.02101
+    },
+    {
+     "anchor_root_arabic": "درج",
+     "concept_id": "CONCEPT_099",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.020625
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "قوم",
+     "partner": "CONCEPT_084",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "ولد",
+     "partner": "CONCEPT_002",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عرب",
+     "partner": "CONCEPT_032",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عذب",
+     "partner": "CONCEPT_053",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_088",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.208333,
+   "proposed_identity": {
+    "anchor_root_arabic": "عوم",
+    "confidence": 0.428904,
+    "name_arabic": "عَام"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_094": {
+   "contradicting_ayah_fraction": 0.566667,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 143,
+     "surah": 7
+    },
+    {
+     "ayah": 11,
+     "surah": 77
+    },
+    {
+     "ayah": 3,
+     "surah": 59
+    },
+    {
+     "ayah": 3,
+     "surah": 91
+    },
+    {
+     "ayah": 2,
+     "surah": 92
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "نصح",
+     "concept_id": "CONCEPT_011",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.022008
+    },
+    {
+     "anchor_root_arabic": "الو",
+     "concept_id": "CONCEPT_082",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.020019
+    },
+    {
+     "anchor_root_arabic": "نحت",
+     "concept_id": "CONCEPT_092",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.020019
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.283333,
+   "proposed_identity": {
+    "anchor_root_arabic": "بغت",
+    "confidence": 0.389921,
+    "name_arabic": "بَغْتَة"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_095": {
+   "contradicting_ayah_fraction": 0.071429,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 247,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_085",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "قوم",
+     "partner": "CONCEPT_084",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.035714,
+   "proposed_identity": {
+    "anchor_root_arabic": "صيح",
+    "confidence": 0.804979,
+    "name_arabic": "صَيْحَة"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_096": {
+   "contradicting_ayah_fraction": 0.333333,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 121,
+     "surah": 20
+    },
+    {
+     "ayah": 59,
+     "surah": 6
+    },
+    {
+     "ayah": 19,
+     "surah": 18
+    },
+    {
+     "ayah": 33,
+     "surah": 38
+    }
+   ],
+   "contradicting_neighbors": [],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.166667,
+   "proposed_identity": {
+    "anchor_root_arabic": "دلل",
+    "confidence": 0.492731,
+    "name_arabic": "دَلَّ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_097": {
+   "contradicting_ayah_fraction": 0.2,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 222,
+     "surah": 2
+    },
+    {
+     "ayah": 18,
+     "surah": 48
+    },
+    {
+     "ayah": 24,
+     "surah": 19
+    },
+    {
+     "ayah": 145,
+     "surah": 3
+    },
+    {
+     "ayah": 148,
+     "surah": 3
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "رود",
+     "concept_id": "CONCEPT_004",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.108655
+    },
+    {
+     "anchor_root_arabic": "سوا",
+     "concept_id": "CONCEPT_060",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.080206
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "concept_id": "CONCEPT_034",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.027712
+    },
+    {
+     "anchor_root_arabic": "زوج",
+     "concept_id": "CONCEPT_078",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025289
+    },
+    {
+     "anchor_root_arabic": "حلل",
+     "concept_id": "CONCEPT_090",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.025031
+    },
+    {
+     "anchor_root_arabic": "كهف",
+     "concept_id": "CONCEPT_101",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.021227
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "partner": "CONCEPT_034",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "سوا",
+     "partner": "CONCEPT_060",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.1,
+   "proposed_identity": {
+    "anchor_root_arabic": "جري",
+    "confidence": 0.37736,
+    "name_arabic": "جَرَيْ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_098": {
+   "contradicting_ayah_fraction": 0.75,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 13,
+     "surah": 3
+    },
+    {
+     "ayah": 138,
+     "surah": 7
+    },
+    {
+     "ayah": 90,
+     "surah": 10
+    },
+    {
+     "ayah": 62,
+     "surah": 18
+    },
+    {
+     "ayah": 16,
+     "surah": 46
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "زلل",
+     "concept_id": "CONCEPT_079",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.269426
+    },
+    {
+     "anchor_root_arabic": "شفع",
+     "concept_id": "CONCEPT_019",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.113769
+    },
+    {
+     "anchor_root_arabic": "سال",
+     "concept_id": "CONCEPT_015",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.034664
+    },
+    {
+     "anchor_root_arabic": "كتم",
+     "concept_id": "CONCEPT_073",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.022294
+    },
+    {
+     "anchor_root_arabic": "شري",
+     "concept_id": "CONCEPT_074",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.021867
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_085",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.375,
+   "proposed_identity": {
+    "anchor_root_arabic": "غرف",
+    "confidence": 0.460581,
+    "name_arabic": "غُرْفَة"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_099": {
+   "contradicting_ayah_fraction": 0.130435,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 34,
+     "surah": 4
+    },
+    {
+     "ayah": 128,
+     "surah": 4
+    },
+    {
+     "ayah": 259,
+     "surah": 2
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "لبث",
+     "concept_id": "CONCEPT_038",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.221268
+    },
+    {
+     "anchor_root_arabic": "لغو",
+     "concept_id": "CONCEPT_055",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.022124
+    },
+    {
+     "anchor_root_arabic": "غلب",
+     "concept_id": "CONCEPT_080",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.021934
+    },
+    {
+     "anchor_root_arabic": "عوم",
+     "concept_id": "CONCEPT_093",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.020625
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "رحم",
+     "partner": "CONCEPT_034",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_085",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.065217,
+   "proposed_identity": {
+    "anchor_root_arabic": "درج",
+    "confidence": 0.611691,
+    "name_arabic": "دَرَجَة"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_100": {
+   "contradicting_ayah_fraction": 0.75,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 19,
+     "surah": 70
+    },
+    {
+     "ayah": 4,
+     "surah": 90
+    },
+    {
+     "ayah": 6,
+     "surah": 100
+    }
+   ],
+   "contradicting_neighbors": [],
+   "contradicting_propositions": [],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.375,
+   "proposed_identity": {
+    "anchor_root_arabic": "كدح",
+    "confidence": 0.447104,
+    "name_arabic": "كَادِح"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_101": {
+   "contradicting_ayah_fraction": 0.5,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 29,
+     "surah": 18
+    },
+    {
+     "ayah": 69,
+     "surah": 4
+    },
+    {
+     "ayah": 31,
+     "surah": 18
+    },
+    {
+     "ayah": 49,
+     "surah": 3
+    },
+    {
+     "ayah": 110,
+     "surah": 5
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "عتد",
+     "concept_id": "CONCEPT_040",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.603164
+    },
+    {
+     "anchor_root_arabic": "روح",
+     "concept_id": "CONCEPT_018",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.23366
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "concept_id": "CONCEPT_004",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.104528
+    },
+    {
+     "anchor_root_arabic": "مري",
+     "concept_id": "CONCEPT_103",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.024243
+    },
+    {
+     "anchor_root_arabic": "جري",
+     "concept_id": "CONCEPT_097",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.021227
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    },
+    {
+     "anchor_root_arabic": "غفر",
+     "partner": "CONCEPT_003",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رود",
+     "partner": "CONCEPT_004",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "رسل",
+     "partner": "CONCEPT_061",
+     "relation_type": "DEPENDS_ON"
+    },
+    {
+     "anchor_root_arabic": "عتد",
+     "partner": "CONCEPT_040",
+     "relation_type": "DEPENDS_ON"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.25,
+   "proposed_identity": {
+    "anchor_root_arabic": "كهف",
+    "confidence": 0.397449,
+    "name_arabic": "كَهْف"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_102": {
+   "contradicting_ayah_fraction": 0.666667,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 11,
+     "surah": 49
+    },
+    {
+     "ayah": 14,
+     "surah": 49
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "رضو",
+     "concept_id": "CONCEPT_010",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.024092
+    }
+   ],
+   "contradicting_propositions": [],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.333333,
+   "proposed_identity": {
+    "anchor_root_arabic": "جسس",
+    "confidence": 0.308471,
+    "name_arabic": "تَجَسَّسُ"
+   },
+   "survives": true,
+   "tested": true
+  },
+  "CONCEPT_103": {
+   "contradicting_ayah_fraction": 0.547619,
+   "contradicting_ayahs_sample": [
+    {
+     "ayah": 36,
+     "surah": 3
+    },
+    {
+     "ayah": 91,
+     "surah": 11
+    },
+    {
+     "ayah": 17,
+     "surah": 15
+    },
+    {
+     "ayah": 34,
+     "surah": 15
+    },
+    {
+     "ayah": 98,
+     "surah": 16
+    }
+   ],
+   "contradicting_neighbors": [
+    {
+     "anchor_root_arabic": "طلع",
+     "concept_id": "CONCEPT_006",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.124144
+    },
+    {
+     "anchor_root_arabic": "كهف",
+     "concept_id": "CONCEPT_101",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.024243
+    },
+    {
+     "anchor_root_arabic": "غلب",
+     "concept_id": "CONCEPT_080",
+     "neighbour_link_to_anchor": 0.0,
+     "weight": 0.021991
+    }
+   ],
+   "contradicting_propositions": [
+    {
+     "anchor_root_arabic": "اله",
+     "partner": "CONCEPT_007",
+     "relation_type": "REQUIRES"
+    }
+   ],
+   "contradicting_roots": [],
+   "falsification_pressure": 0.27381,
+   "proposed_identity": {
+    "anchor_root_arabic": "مري",
+    "confidence": 0.516283,
+    "name_arabic": "يَمْتَرُ"
+   },
+   "survives": true,
+   "tested": true
+  }
+ },
+ "constants": {
+  "NEIGHBOR_LINK_MIN": 0.05
+ },
+ "definition": "For each concept's top candidate identity (anchor root R), search for contradicting evidence: member roots not neighbour-linked to R, signature ayahs where R does not fire, closest concepts and dependency partners whose anchor root is unlinked to R. falsification_pressure = mean(ayah_absence_fraction, contradicting_root_fraction); survives iff < 0.5. The identity is attacked, not defended.",
+ "method": "phase7-revelation-1.0"
+}
