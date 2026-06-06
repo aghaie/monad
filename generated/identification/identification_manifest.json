@@ -1,0 +1,69 @@
+{
+ "constants": {
+  "ATLAS_TOP": 10,
+  "AYAH_TOPS": [
+   25,
+   50,
+   100
+  ],
+  "CORE_AYAH_TOP": 25,
+  "CORE_ENTITY_TOP": 20,
+  "PROP_TOP": 15,
+  "ROUND": 6,
+  "SURAH_TOP": 10,
+  "TOP_FOUNDATIONAL": 20
+ },
+ "input_sha256": {
+  "compression_statistics.json": "4f190288faec72ab284f487750fc248b977cb7f25caf0cc3dfd673d49ce8d7da",
+  "concept_candidates.json": "f6e530c581332171568147a851d1bda422d103c6f42be6e91f2123104fd0ee9a",
+  "concept_centers.json": "e7807727218b9c3287a570169e7a3302d99a31e1f9d33408a9ab99f828cc06c2",
+  "concept_graph.json": "3f977021e27782dc0337fe5478f0424cce3d437314d574793d7c6eb80a127b77",
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "concept_relationships.json": "e8b40c467c149ed9285384d3986be7afa6ed72d52bb1270719d207ac96868035",
+  "concept_statistics.json": "ab6a1a4d3bce356ff14e3d9691d3117c860d5a436eb6d3b4791155f15cecc415",
+  "dependency_candidates.json": "4528f5a9a6549157e1f8f1797c29d9a0f94bd5bc49772284761e9f425861982d",
+  "dependency_layers.json": "01420879928b24c7a140beb0f4099b78fd61d26cb59bc02b701342c38615d74f",
+  "foundationality_scores.json": "bb8d74fce06994ca956d519a53cc3f151e0c023568076c804441a470317184bb",
+  "hub_removal_analysis.json": "cfd62eb62c1bd85872576f70ec99f3229a59641d044f3e185ec9d80bfea20b79",
+  "irreducible_structures.json": "42da5540f82d91fadf668ea73e317c5fc7bae44a53b4d070ca4322439514715e",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c",
+  "proposition_candidates.json": "05bf114c331d58082004409ed129a35ba5811343ca5b7b2954e83d9b4c1a6fbf",
+  "proposition_graph.json": "c9033e1cbbf46a3a776613f9b338a43b466a442dddbd0e1d5373cf74b2f9ec35",
+  "reconstruction_sets.json": "77586271d2e0fb97537fcdc3524ccbe880876f7a65a4ebaacdfa829cbb20397f",
+  "semantic_neighbors.json": "599dfaee21a850264a0080c09cf95ce4d0aaafc9141b3249b54ca7261a0db4db"
+ },
+ "method": "phase6-identification-1.0",
+ "output_bytes": {
+  "ayah_signatures.json": 5787884,
+  "concept_atlas.json": 506637,
+  "concept_profiles.json": 667273,
+  "core_investigation.json": 1146133,
+  "dominant_lemmas.json": 894361,
+  "dominant_roots.json": 349567,
+  "surah_signatures.json": 558057
+ },
+ "prohibitions_observed": [
+  "no concept renaming",
+  "no concept labels",
+  "no assigned meanings",
+  "no root translation",
+  "no lemma translation",
+  "no ontology",
+  "no axioms",
+  "no contradiction engine",
+  "no theology",
+  "no doctrine",
+  "no divine origin claim",
+  "no human origin claim",
+  "no interpretation",
+  "no external knowledge",
+  "concepts remain opaque",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "active_ayahs": 6101,
+  "active_concepts": 103,
+  "concept_count": 103,
+  "total_ayahs": 6236
+ }
+}

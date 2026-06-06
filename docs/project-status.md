@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 5 (Dependency
-Compression Engine). **Next phase:** Phase 6 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 6 (Concept
+Identification Engine). **Next phase:** Phase 7 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -18,7 +18,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 3 | Concept Discovery Engine | ✅ complete | `generated/concepts/*.json` |
 | 4 | Proposition Discovery Engine | ✅ complete | `generated/propositions/*.json` |
 | 5 | Dependency Compression Engine | ✅ complete | `generated/compression/*.json` |
-| 6 | (future) | ⛔ not started | — |
+| 6 | Concept Identification Engine | ✅ complete | `generated/identification/*.json` |
+| 7 | (future) | ⛔ not started | — |
 
 ---
 
@@ -144,6 +145,47 @@ recovered iff every participating concept is retained).
 
 ---
 
+## Phase 6 — Concept Identification Engine
+
+Reveals *what Quran-internal evidence defines each discovered concept* — dominant
+roots, dominant lemmas, activating ayahs, carrying surahs, and surrounding
+structures. **Not** a meaning, ontology, or theology engine. Concept ids and
+relation types stay opaque; **no meaning, name, translation, or interpretation is
+assigned.** Activation reuses the Phase-4 membership-union rule exactly.
+
+- 8 data products in `generated/identification/` (concept profiles, dominant
+  roots, dominant lemmas, ayah signatures, surah signatures, concept atlas, core
+  investigation, manifest)
+- **All 103 concepts profiled.** Activation cross-checks Phase 4 exactly: 6,101
+  active ayahs; `CONCEPT_081` activates 2,553 ayahs (= its Phase-4 `REQUIRES`
+  support). Activation skew: min 3 · median 53 · **max 5,906** (`CONCEPT_007`,
+  96.8% of active ayahs)
+- **Dominant evidence (no meaning):** strongest single activation = ayah 2:282
+  (`CONCEPT_007`); 2:282 and 47:15 each head 3 concepts; surah 2 carries the most
+  activity (top for 35 concepts); uniqueness peaks in short surahs
+  (`CONCEPT_102` lift 346 in surah 49); `CONCEPT_007` alone has no distinctive
+  surah
+- **Core investigation:** deep evidence dossiers for the dominant hub
+  (`CONCEPT_007`, layer 0, requires-in only), the secondary core (`CONCEPT_016`,
+  layer 7, depends-out, relation-diversity 7/9), the top-20 foundational
+  concepts, and the size-9 irreducible core (`003 004 034 053 060 061 084 085
+  088`, all layer 6)
+- Method: Phase-4-consistent per-ayah activation + summed-membership-confidence
+  strength; activation-weight ranking of members; neighbourhood/graph influence
+  from Phase-2 semantic neighbours; incident-relation indexing; Phase-5
+  SCC/layer reuse
+- Builder: `scripts/build_identification.py`; Validator:
+  `scripts/validate_identification.py` (18,839 checks, byte-identical rebuild)
+- Reports: `concept-identification-report.md`, `core-investigation-report.md`,
+  `ayah-signature-report.md`, `surah-signature-report.md`,
+  `phase6-final-report.md`
+
+Monad can now answer, without assigning meanings: what evidence defines each
+concept, which Quranic regions activate it, which roots and lemmas dominate it,
+and which structures depend on and surround it.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -166,11 +208,12 @@ python3 scripts/build_lexicon.py      && python3 scripts/validate_lexicon.py    
 python3 scripts/build_concepts.py     && python3 scripts/validate_concepts.py    --rebuild
 python3 scripts/build_propositions.py && python3 scripts/validate_propositions.py --rebuild
 python3 scripts/build_compression.py  && python3 scripts/validate_compression.py  --rebuild
+python3 scripts/build_identification.py && python3 scripts/validate_identification.py --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 6 is **not started** by design. Open questions are recorded in
-`phase5-final-report.md §8`. Awaiting explicit instruction to proceed.
+Phase 7 is **not started** by design. Open questions are recorded in
+`phase6-final-report.md §10`. Awaiting explicit instruction to proceed.
