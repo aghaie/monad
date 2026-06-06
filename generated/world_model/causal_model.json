@@ -1,0 +1,111 @@
+{
+ "caveat": "these are consistent precedence/sequence patterns, NOT demonstrated causality",
+ "definition": "causal-direction CANDIDATES (not causality): PRECEDES = consistent positional precedence; PREDICTS = consistent cross-ayah sequence",
+ "emergence": "STRUCTURAL precedence emerges; true causality cannot be established structurally",
+ "finding": "consistent precedence/production patterns exist but are direction candidates, not causation",
+ "method": "omega-world-model-1.0",
+ "top_precedence_candidates": [
+  {
+   "asymmetry": 1.0,
+   "src": "CONCEPT_007",
+   "tgt": "CONCEPT_081"
+  },
+  {
+   "asymmetry": 1.0,
+   "src": "CONCEPT_007",
+   "tgt": "CONCEPT_019"
+  },
+  {
+   "asymmetry": 1.0,
+   "src": "CONCEPT_007",
+   "tgt": "CONCEPT_031"
+  },
+  {
+   "asymmetry": 1.0,
+   "src": "CONCEPT_007",
+   "tgt": "CONCEPT_093"
+  },
+  {
+   "asymmetry": 1.0,
+   "src": "CONCEPT_007",
+   "tgt": "CONCEPT_101"
+  },
+  {
+   "asymmetry": 1.0,
+   "src": "CONCEPT_085",
+   "tgt": "CONCEPT_040"
+  },
+  {
+   "asymmetry": 0.965517,
+   "src": "CONCEPT_007",
+   "tgt": "CONCEPT_044"
+  },
+  {
+   "asymmetry": 0.960784,
+   "src": "CONCEPT_007",
+   "tgt": "CONCEPT_080"
+  },
+  {
+   "asymmetry": 0.953695,
+   "src": "CONCEPT_007",
+   "tgt": "CONCEPT_053"
+  },
+  {
+   "asymmetry": 0.943119,
+   "src": "CONCEPT_007",
+   "tgt": "CONCEPT_088"
+  }
+ ],
+ "top_production_candidates": [
+  {
+   "confidence": 0.916667,
+   "src": "CONCEPT_093",
+   "tgt": "CONCEPT_081"
+  },
+  {
+   "confidence": 0.875,
+   "src": "CONCEPT_017",
+   "tgt": "CONCEPT_081"
+  },
+  {
+   "confidence": 0.875,
+   "src": "CONCEPT_017",
+   "tgt": "CONCEPT_081"
+  },
+  {
+   "confidence": 0.857143,
+   "src": "CONCEPT_077",
+   "tgt": "CONCEPT_081"
+  },
+  {
+   "confidence": 0.8125,
+   "src": "CONCEPT_017",
+   "tgt": "CONCEPT_081"
+  },
+  {
+   "confidence": 0.804348,
+   "src": "CONCEPT_073",
+   "tgt": "CONCEPT_081"
+  },
+  {
+   "confidence": 0.8,
+   "src": "CONCEPT_079",
+   "tgt": "CONCEPT_003"
+  },
+  {
+   "confidence": 0.8,
+   "src": "CONCEPT_079",
+   "tgt": "CONCEPT_081"
+  },
+  {
+   "confidence": 0.8,
+   "src": "CONCEPT_079",
+   "tgt": "CONCEPT_081"
+  },
+  {
+   "confidence": 0.785714,
+   "src": "CONCEPT_029",
+   "tgt": "CONCEPT_081"
+  }
+ ]
+}

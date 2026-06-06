@@ -1,0 +1,8 @@
+{
+ "definition": "structural recurrence = motif recurrence + cyclic transition chains",
+ "emergence": "FAILS TO EMERGE — historical-narrative semantics cannot be extracted structurally",
+ "finding": "'what repeats' structurally = the 13 recurring motif classes and the cyclic transition core. But a model of HISTORY — rise, decline, what drives them — requires semantic valence and narrative that cannot be extracted structurally. The historical model does NOT emerge.",
+ "largest_transition_cycle_core": 42,
+ "method": "omega-world-model-1.0",
+ "n_recurring_motif_classes": 13
+}

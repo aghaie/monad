@@ -1,0 +1,58 @@
+{
+ "definition": "state-class concepts = adjective-dominant (POS ADJ); structural states = transition sinks",
+ "emergence": "FAILS TO EMERGE grammatically — 0 adjective-dominant concepts; a distinct STATE class is not structurally separable from entities",
+ "finding": "a distinct state class does NOT emerge: 0 concepts are adjective-dominant. States and entities are not grammatically distinguishable; the only state-like signal is the structural role of being a transition sink.",
+ "grammatical_states": [],
+ "method": "omega-world-model-1.0",
+ "n_grammatical_states": 0,
+ "structural_state_candidates": [
+  {
+   "anchor": "رحم",
+   "concept_id": "CONCEPT_034",
+   "in_degree": 42,
+   "out_degree": 2
+  },
+  {
+   "anchor": "رود",
+   "concept_id": "CONCEPT_004",
+   "in_degree": 41,
+   "out_degree": 3
+  },
+  {
+   "anchor": "جنن",
+   "concept_id": "CONCEPT_016",
+   "in_degree": 38,
+   "out_degree": 7
+  },
+  {
+   "anchor": "غفر",
+   "concept_id": "CONCEPT_003",
+   "in_degree": 28,
+   "out_degree": 2
+  },
+  {
+   "anchor": "رسل",
+   "concept_id": "CONCEPT_061",
+   "in_degree": 29,
+   "out_degree": 4
+  },
+  {
+   "anchor": "قوم",
+   "concept_id": "CONCEPT_084",
+   "in_degree": 28,
+   "out_degree": 4
+  },
+  {
+   "anchor": "رسل",
+   "concept_id": "CONCEPT_085",
+   "in_degree": 34,
+   "out_degree": 10
+  },
+  {
+   "anchor": "رسل",
+   "concept_id": "CONCEPT_088",
+   "in_degree": 27,
+   "out_degree": 5
+  }
+ ]
+}

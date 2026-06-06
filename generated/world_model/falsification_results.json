@@ -1,0 +1,54 @@
+{
+ "method": "omega-world-model-1.0",
+ "n_semantic_components_fail": 4,
+ "n_structural_components_survive": 4,
+ "tests": [
+  {
+   "evidence": "0 adjective-dominant concepts — no distinct state class",
+   "result": "FALSIFIED (does not emerge)",
+   "target": "state structure"
+  },
+  {
+   "evidence": "no structural extraction of knowledge semantics without interpretation",
+   "result": "FAILS TO EMERGE",
+   "target": "knowledge model"
+  },
+  {
+   "evidence": "only structural communities, not a social model",
+   "result": "FAILS TO EMERGE",
+   "target": "society model"
+  },
+  {
+   "evidence": "only motif recurrence, not a historical narrative",
+   "result": "FAILS TO EMERGE",
+   "target": "history model"
+  },
+  {
+   "evidence": "meaning of entities/transformations cannot be recovered structurally",
+   "result": "FAILS TO EMERGE",
+   "target": "semantic world model"
+  },
+  {
+   "evidence": "83 nominal-dominant concepts emerge clearly",
+   "result": "SURVIVES",
+   "target": "entity structure"
+  },
+  {
+   "evidence": "20 verbal-dominant concepts + transition graph emerge",
+   "result": "SURVIVES",
+   "target": "transformation structure"
+  },
+  {
+   "evidence": "consistent PRECEDES/PREDICTS direction candidates exist",
+   "result": "SURVIVES (as candidates)",
+   "target": "causal/precedence structure"
+  },
+  {
+   "evidence": "large cyclic transition core",
+   "result": "SURVIVES",
+   "target": "feedback structure"
+  }
+ ],
+ "unclassifiable_concepts": 0,
+ "verdict": "the STRUCTURAL skeleton (entities, transformations, precedence, feedback) survives; the SEMANTIC model (states-as-meaning, knowledge, society, history, the world-model itself) FAILS TO EMERGE. The model emerges as structure, not as meaning."
+}

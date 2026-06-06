@@ -1,0 +1,20 @@
+{
+ "bootstrap_runs": 100,
+ "entity_count": {
+  "max": 93.0,
+  "mean": 83.07,
+  "min": 70.0,
+  "n": 100,
+  "std": 4.495008
+ },
+ "finding": "the entity/transformation role split is bootstrap-stable; the absence of a state class is robust (0 in every sample). The structural model is robust; the semantic non-emergence is not a sampling artifact",
+ "method": "omega-world-model-1.0",
+ "state_count_stable_zero": true,
+ "transformation_count": {
+  "max": 33.0,
+  "mean": 19.93,
+  "min": 10.0,
+  "n": 100,
+  "std": 4.495008
+ }
+}

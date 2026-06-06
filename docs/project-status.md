@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 17 (Frequency Null
-Model Engine). **Next phase:** Phase 18 — *not started*.
+**Last updated:** 2026-06-07. **Current phase complete:** Phase Ω (World Model
+Discovery Engine). **Next phase:** none — awaiting explicit instruction.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -30,7 +30,7 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 15 | Consistency Propagation Engine | ✅ complete | `generated/consistency_propagation/*.json` |
 | 16 | Hub Origin Discovery Engine | ✅ complete | `generated/hub_origin/*.json` |
 | 17 | Frequency Null Model Engine | ✅ complete | `generated/frequency_null/*.json` |
-| 18 | (future) | ⛔ not started | — |
+| Ω | World Model Discovery Engine | ✅ complete | `generated/world_model/*.json` |
 
 ---
 
@@ -695,6 +695,53 @@ is the discovery of a specific relational web beyond word frequency.
 
 ---
 
+## Phase Ω — World Model Discovery Engine (capstone)
+
+Asks whether a coherent **world-model** can be reconstructed from the Quran itself —
+only from the Quran, with **no theology, tafsir, philosophy, ontology, science, or
+imported categories.** The model must emerge or fail to emerge; it is not forced.
+No religion is proved or disproved; no divinity or humanity assumed.
+
+- 14 data products in `generated/world_model/` (entity/state/transformation/causal/
+  feedback/agency/knowledge/society/history models, world model, compression,
+  falsification, robustness, manifest)
+- Method: classify concepts by the dominant Phase-1 morphology POS of their member
+  roots (entity=nominal, state=adjectival, transformation=verbal — a corpus
+  annotation, not an imported category); build a transition graph from Phase-4
+  PRECEDES + PREDICTS; feedback from its cycles; keep concepts opaque
+- **Primary finding — a STRUCTURAL world-model emerges; a SEMANTIC one does not:**
+  - **Structural (emerges):** a self-referential **state-transition system** — **83
+    entity-class** (nominal) concepts, **20 transformation-class** (verbal), **0
+    state-class** (states do not separate grammatically), a **720-edge** transition
+    graph (dominant pattern ENTITY→ENTITY), a **42-concept feedback core**. This is
+    the relational structure that survived frequency control in Phase 17
+  - **Semantic (does NOT emerge):** what the entities/transformations MEAN — the
+    model of existence, agency, knowledge, society, history — cannot be
+    reconstructed structurally without the interpretation the project forbids
+- **Falsification:** 4 structural components survive (entity, transformation,
+  precedence-candidate, feedback); 5 semantic components fail to emerge (state,
+  knowledge, society, history, the semantic world-model). Gaps reported, not
+  concealed. **Robustness:** entity/transformation split bootstrap-stable; absent
+  state class robust (0 in every resample)
+- **Compression:** simple component-*types* but a large irreducible *instance*
+  (inherits Phase-5 incompressibility)
+- Builder: `scripts/build_world_model.py`; Validator:
+  `scripts/validate_world_model.py` (87 checks incl. model-emerges-or-fails +
+  opacity invariants, byte-identical rebuild)
+- Reports: `entity-model-report.md`, `state-model-report.md`,
+  `transformation-report.md`, `causal-structure-report.md`, `feedback-report.md`,
+  `agency-report.md`, `knowledge-report.md`, `society-report.md`,
+  `history-report.md`, `world-model-report.md`,
+  `world-model-falsification-report.md`, `phase-omega-final-report.md`
+
+World-model verdict (honest, bounded): Monad maps the **shape** of the Quran's
+conceptual world with precision — a coherent structural state-transition system —
+but it cannot and does not read its **meaning**. The model emerges as structure, not
+as meaning; the semantic non-emergence is the appropriate terminus of a purely
+structural analysis.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -731,11 +778,12 @@ python3 scripts/build_locality.py       && python3 scripts/validate_locality.py 
 python3 scripts/build_consistency_propagation.py && python3 scripts/validate_consistency_propagation.py --rebuild
 python3 scripts/build_hub_origin.py     && python3 scripts/validate_hub_origin.py     --rebuild
 python3 scripts/build_frequency_null.py && python3 scripts/validate_frequency_null.py --rebuild
+python3 scripts/build_world_model.py    && python3 scripts/validate_world_model.py    --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 18 is **not started** by design. Open questions are recorded in
-`phase17-final-report.md §12`. Awaiting explicit instruction to proceed.
+No further phase is started by design (Phase Ω was the capstone). Open questions are
+recorded in `phase-omega-final-report.md §11`. Awaiting explicit instruction.

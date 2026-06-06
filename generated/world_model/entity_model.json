@@ -1,0 +1,89 @@
+{
+ "definition": "entity-class concepts = concepts whose member roots are dominantly nominal (POS N/PN, a Phase-1 corpus annotation). No external category is imported; concepts stay opaque, anchors are evidence.",
+ "emergence": "STRUCTURAL — entity (nominal) concepts emerge clearly; their meaning does not (would require interpretation)",
+ "finding": "83 of 103 concepts are entity-class (nominal-dominant). What KINDS of things they are is not recoverable structurally — only that they are nominal referents",
+ "method": "omega-world-model-1.0",
+ "n_entities": 83,
+ "recurring_entities": [
+  {
+   "activation": 5906,
+   "anchor": "اله",
+   "concept_id": "CONCEPT_007",
+   "role_fractions": {
+    "ENTITY": 0.521583,
+    "STATE": 0.031306,
+    "TRANSFORMATION": 0.424562
+   }
+  },
+  {
+   "activation": 2553,
+   "anchor": "اله",
+   "concept_id": "CONCEPT_081",
+   "role_fractions": {
+    "ENTITY": 0.820632,
+    "STATE": 0.020911,
+    "TRANSFORMATION": 0.083411
+   }
+  },
+  {
+   "activation": 1628,
+   "anchor": "غفر",
+   "concept_id": "CONCEPT_003",
+   "role_fractions": {
+    "ENTITY": 0.552564,
+    "STATE": 0.101709,
+    "TRANSFORMATION": 0.345726
+   }
+  },
+  {
+   "activation": 1265,
+   "anchor": "عذب",
+   "concept_id": "CONCEPT_053",
+   "role_fractions": {
+    "ENTITY": 0.640091,
+    "STATE": 0.082005,
+    "TRANSFORMATION": 0.231207
+   }
+  },
+  {
+   "activation": 1199,
+   "anchor": "جنن",
+   "concept_id": "CONCEPT_016",
+   "role_fractions": {
+    "ENTITY": 0.695973,
+    "STATE": 0.007374,
+    "TRANSFORMATION": 0.294385
+   }
+  },
+  {
+   "activation": 1194,
+   "anchor": "رسل",
+   "concept_id": "CONCEPT_061",
+   "role_fractions": {
+    "ENTITY": 0.481935,
+    "STATE": 0.082581,
+    "TRANSFORMATION": 0.435484
+   }
+  },
+  {
+   "activation": 1175,
+   "anchor": "قوم",
+   "concept_id": "CONCEPT_084",
+   "role_fractions": {
+    "ENTITY": 0.589346,
+    "STATE": 0.04855,
+    "TRANSFORMATION": 0.317599
+   }
+  },
+  {
+   "activation": 1126,
+   "anchor": "رسل",
+   "concept_id": "CONCEPT_088",
+   "role_fractions": {
+    "ENTITY": 0.622984,
+    "STATE": 0.014785,
+    "TRANSFORMATION": 0.362231
+   }
+  }
+ ]
+}

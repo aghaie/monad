@@ -1,0 +1,13 @@
+{
+ "finding": "the structural world-model is NOT compressible to a small rule set: its transition graph inherits the Phase-5 incompressibility (80% of structure needs 59/103 concepts), and its feedback core is irreducible. The model is a small number of component-TYPES (entities, transformations, transitions, cycles) but a large, irreducible instance.",
+ "inherited_compression": {
+  "compressible": "partial",
+  "concepts_for_80pct": 59
+ },
+ "method": "omega-world-model-1.0",
+ "model_components": {
+  "feedback_cycles": "irreducible",
+  "role_classification_rule": 1,
+  "transition_graph": "not compressible"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "constants": {
+  "BOOT_RUNS": 100,
+  "ROUND": 6,
+  "SEED": 20261801,
+  "STRICT_ASYM": 0.5
+ },
+ "input_sha256": {
+  "compression_statistics.json": "4f190288faec72ab284f487750fc248b977cb7f25caf0cc3dfd673d49ce8d7da",
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "concept_profiles.json": "84b4c50c62b3b3597aa6ff1f244d0b7383dd49e5f0e48c714b2d8326b4040bf3",
+  "concept_relationships.json": "e8b40c467c149ed9285384d3986be7afa6ed72d52bb1270719d207ac96868035",
+  "dominant_roots.json": "b0436631d85f79206e9e7254f86215c88003a5d8313e071143c9df27b5114120",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c",
+  "motif_catalog.json": "9ace0ec6595c3c696093f28b5f64f88290f700e8157b37be6c603a6150270ef8",
+  "principle_candidates.json": "12499c522a35ff7ff410a56608e35f4ef41fdd71cbe33558e3169e8611fed4f8",
+  "proposition_candidates.json": "05bf114c331d58082004409ed129a35ba5811343ca5b7b2954e83d9b4c1a6fbf"
+ },
+ "method": "omega-world-model-1.0",
+ "output_bytes": {
+  "agency_model.json": 1463,
+  "causal_model.json": 2192,
+  "compression_analysis.json": 617,
+  "entity_model.json": 2142,
+  "falsification_results.json": 1728,
+  "feedback_model.json": 892,
+  "history_model.json": 585,
+  "knowledge_model.json": 527,
+  "robustness_results.json": 523,
+  "society_model.json": 566,
+  "state_model.json": 1439,
+  "transformation_model.json": 2364,
+  "world_model.json": 1119
+ },
+ "prohibitions_observed": [
+  "no proving religion",
+  "no disproving religion",
+  "no defending beliefs",
+  "no attacking beliefs",
+  "no assumed divinity",
+  "no assumed humanity",
+  "no imported theology",
+  "no imported philosophy",
+  "no imported science",
+  "no imported ontology",
+  "no forced model",
+  "model must emerge or fail to emerge",
+  "concepts remain opaque",
+  "anchors are evidence not glosses",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "entity_concepts": 83,
+  "semantic_components_fail": 4,
+  "semantic_world_model_emerges": false,
+  "state_concepts": 0,
+  "structural_components_survive": 4,
+  "structural_world_model_emerges": true,
+  "transformation_concepts": 20,
+  "transition_edges": 720
+ }
+}

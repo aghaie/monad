@@ -1,0 +1,112 @@
+{
+ "definition": "transformation-class concepts = verb-dominant (POS V); transitions = PRECEDES/PREDICTS edges",
+ "emergence": "STRUCTURAL — verbal (transformation) concepts and transitions emerge; their semantics do not",
+ "finding": "20 transformation-class (verbal) concepts; 720 transition edges. The dominant transition pattern is ENTITY→ENTITY.",
+ "method": "omega-world-model-1.0",
+ "n_transformations": 20,
+ "n_transition_edges": 720,
+ "recurring_transformations": [
+  {
+   "activation": 690,
+   "anchor": "خلق",
+   "concept_id": "CONCEPT_008",
+   "role_fractions": {
+    "ENTITY": 0.430168,
+    "STATE": 0.055866,
+    "TRANSFORMATION": 0.513966
+   }
+  },
+  {
+   "activation": 326,
+   "anchor": "سال",
+   "concept_id": "CONCEPT_015",
+   "role_fractions": {
+    "ENTITY": 0.401515,
+    "STATE": 0.017677,
+    "TRANSFORMATION": 0.580808
+   }
+  },
+  {
+   "activation": 143,
+   "anchor": "لعن",
+   "concept_id": "CONCEPT_022",
+   "role_fractions": {
+    "ENTITY": 0.455026,
+    "STATE": 0.021164,
+    "TRANSFORMATION": 0.52381
+   }
+  },
+  {
+   "activation": 136,
+   "anchor": "رضو",
+   "concept_id": "CONCEPT_010",
+   "role_fractions": {
+    "ENTITY": 0.394286,
+    "STATE": 0.017143,
+    "TRANSFORMATION": 0.588571
+   }
+  },
+  {
+   "activation": 84,
+   "anchor": "حلل",
+   "concept_id": "CONCEPT_090",
+   "role_fractions": {
+    "ENTITY": 0.392523,
+    "STATE": 0.0,
+    "TRANSFORMATION": 0.607477
+   }
+  },
+  {
+   "activation": 81,
+   "anchor": "عقل",
+   "concept_id": "CONCEPT_054",
+   "role_fractions": {
+    "ENTITY": 0.371429,
+    "STATE": 0.038095,
+    "TRANSFORMATION": 0.590476
+   }
+  },
+  {
+   "activation": 61,
+   "anchor": "كفي",
+   "concept_id": "CONCEPT_009",
+   "role_fractions": {
+    "ENTITY": 0.305556,
+    "STATE": 0.027778,
+    "TRANSFORMATION": 0.666667
+   }
+  },
+  {
+   "activation": 57,
+   "anchor": "جهد",
+   "concept_id": "CONCEPT_071",
+   "role_fractions": {
+    "ENTITY": 0.39726,
+    "STATE": 0.0,
+    "TRANSFORMATION": 0.60274
+   }
+  }
+ ],
+ "transition_role_patterns": [
+  {
+   "count": 489,
+   "from_role": "ENTITY",
+   "to_role": "ENTITY"
+  },
+  {
+   "count": 184,
+   "from_role": "TRANSFORMATION",
+   "to_role": "ENTITY"
+  },
+  {
+   "count": 44,
+   "from_role": "ENTITY",
+   "to_role": "TRANSFORMATION"
+  },
+  {
+   "count": 3,
+   "from_role": "TRANSFORMATION",
+   "to_role": "TRANSFORMATION"
+  }
+ ]
+}

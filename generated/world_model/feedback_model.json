@@ -1,0 +1,30 @@
+{
+ "definition": "feedback = cycles / SCCs of the transition graph",
+ "emergence": "STRUCTURAL — pervasive feedback (a large cyclic core) emerges",
+ "finding": "the transition graph has a large cyclic core (SCC size 42) and 22 reciprocal pairs — the model is heavily self-referential, not a linear chain. (Self-reinforcing vs self-correcting cannot be distinguished structurally — that needs semantic valence.)",
+ "largest_scc_concepts": [
+  "CONCEPT_001",
+  "CONCEPT_002",
+  "CONCEPT_003",
+  "CONCEPT_004",
+  "CONCEPT_005",
+  "CONCEPT_006",
+  "CONCEPT_008",
+  "CONCEPT_009",
+  "CONCEPT_013",
+  "CONCEPT_014",
+  "CONCEPT_016",
+  "CONCEPT_019",
+  "CONCEPT_023",
+  "CONCEPT_026",
+  "CONCEPT_027",
+  "CONCEPT_030",
+  "CONCEPT_034",
+  "CONCEPT_035",
+  "CONCEPT_038",
+  "CONCEPT_040"
+ ],
+ "largest_transition_scc": 42,
+ "method": "omega-world-model-1.0",
+ "reciprocal_transition_pairs": 22
+}

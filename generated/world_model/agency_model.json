@@ -1,0 +1,57 @@
+{
+ "definition": "agency (structural) = initiation: concepts with high out-degree in the transition graph; actions = transformation-class concepts",
+ "emergence": "STRUCTURAL initiation emerges; WHO can act (agent identity) and whether action is free/constrained cannot be established structurally",
+ "finding": "a structural initiation hierarchy exists (out-degree), but agency in any semantic sense — choice, freedom, responsibility — does NOT emerge structurally; it would require interpretation",
+ "method": "omega-world-model-1.0",
+ "n_action_concepts": 20,
+ "top_initiators": [
+  {
+   "anchor": "اله",
+   "concept_id": "CONCEPT_007",
+   "out_degree": 89,
+   "role": "ENTITY"
+  },
+  {
+   "anchor": "غنم",
+   "concept_id": "CONCEPT_046",
+   "out_degree": 12,
+   "role": "ENTITY"
+  },
+  {
+   "anchor": "جهد",
+   "concept_id": "CONCEPT_071",
+   "out_degree": 12,
+   "role": "TRANSFORMATION"
+  },
+  {
+   "anchor": "كتم",
+   "concept_id": "CONCEPT_073",
+   "out_degree": 12,
+   "role": "TRANSFORMATION"
+  },
+  {
+   "anchor": "شري",
+   "concept_id": "CONCEPT_074",
+   "out_degree": 12,
+   "role": "TRANSFORMATION"
+  },
+  {
+   "anchor": "درج",
+   "concept_id": "CONCEPT_099",
+   "out_degree": 12,
+   "role": "ENTITY"
+  },
+  {
+   "anchor": "حلل",
+   "concept_id": "CONCEPT_090",
+   "out_degree": 11,
+   "role": "TRANSFORMATION"
+  },
+  {
+   "anchor": "عرف",
+   "concept_id": "CONCEPT_091",
+   "out_degree": 11,
+   "role": "ENTITY"
+  }
+ ]
+}

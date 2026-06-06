@@ -1,0 +1,7 @@
+{
+ "definition": "information-flow proxy = the PREDICTS (cross-ayah sequence) network",
+ "emergence": "FAILS TO EMERGE — a semantic knowledge model cannot be extracted structurally",
+ "finding": "the only structural proxy for information flow is the PREDICTS network (547 edges). A semantic model of knowledge / ignorance / correction / awareness CANNOT be extracted without interpretation, which the phase forbids. The knowledge model does NOT emerge.",
+ "method": "omega-world-model-1.0",
+ "n_information_flow_edges": 547
+}
