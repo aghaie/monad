@@ -1,0 +1,31 @@
+{
+ "base_contradictions": {
+  "exclusion_positive": 0,
+  "necessity_c2": 0,
+  "total": 0
+ },
+ "definition": "consistency-support weight = increase in contradiction count when a structure is removed; necessity-mediation = share of REQUIRES edges a concept is the target of.",
+ "finding": "no concept's removal increases contradictions — every consistency-support weight is 0; consistency is not carried by any single structure",
+ "hub_necessity_mediation_share": 0.96,
+ "max_consistency_support_weight": 0,
+ "method": "phase15-consistency-propagation-1.0",
+ "n_concepts_with_positive_support": 0,
+ "n_requires_edges": 100,
+ "necessity_mediation_top": [
+  {
+   "concept": "CONCEPT_007",
+   "requires_target_count": 96,
+   "share": 0.96
+  },
+  {
+   "concept": "CONCEPT_002",
+   "requires_target_count": 2,
+   "share": 0.02
+  },
+  {
+   "concept": "CONCEPT_081",
+   "requires_target_count": 2,
+   "share": 0.02
+  }
+ ]
+}

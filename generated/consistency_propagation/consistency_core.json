@@ -1,0 +1,57 @@
+{
+ "consistency_core_exists": false,
+ "definition": "search for the smallest structure whose removal leaves consistency; equivalently, any subset that is inconsistent",
+ "method": "phase15-consistency-propagation-1.0",
+ "minimum_inconsistent_subset_found": false,
+ "subset_consistency": [
+  {
+   "contradictions": {
+    "ci95_high": 0.0,
+    "ci95_low": 0.0,
+    "max": 0.0,
+    "mean": 0.0,
+    "min": 0.0,
+    "n": 10,
+    "std": 0.0
+   },
+   "subset_fraction": 0.1
+  },
+  {
+   "contradictions": {
+    "ci95_high": 0.0,
+    "ci95_low": 0.0,
+    "max": 0.0,
+    "mean": 0.0,
+    "min": 0.0,
+    "n": 10,
+    "std": 0.0
+   },
+   "subset_fraction": 0.25
+  },
+  {
+   "contradictions": {
+    "ci95_high": 0.0,
+    "ci95_low": 0.0,
+    "max": 0.0,
+    "mean": 0.0,
+    "min": 0.0,
+    "n": 10,
+    "std": 0.0
+   },
+   "subset_fraction": 0.5
+  },
+  {
+   "contradictions": {
+    "ci95_high": 0.0,
+    "ci95_low": 0.0,
+    "max": 0.0,
+    "mean": 0.0,
+    "min": 0.0,
+    "n": 10,
+    "std": 0.0
+   },
+   "subset_fraction": 0.75
+  }
+ ],
+ "verdict": "NO consistency core exists — every subset (down to 10% of ayahs) is fully consistent. Consistency has no minimal supporting structure; it is a property of every part, not of a core"
+}

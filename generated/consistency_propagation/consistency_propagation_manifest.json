@@ -1,0 +1,65 @@
+{
+ "constants": {
+  "CORRUPTION_RATES": [
+   0.0,
+   0.05,
+   0.1,
+   0.25,
+   0.5,
+   1.0
+  ],
+  "MARGINAL_MIN": 30,
+  "NULL_RUNS": 30,
+  "ORDER_SUP": 10,
+  "REQ_CONF": 0.9,
+  "ROUND": 6,
+  "SEED": 20261515,
+  "STRICT_ASYM": 0.95,
+  "SUPPORT_MIN": 5
+ },
+ "input_sha256": {
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "consistency_manifest.json": "11b56e5bc6a828906a78d1fdd3a8b1b74fab89945c34b386f682c2b85c0d9e23",
+  "irreducible_structures.json": "42da5540f82d91fadf668ea73e317c5fc7bae44a53b4d070ca4322439514715e",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c",
+  "motif_catalog.json": "9ace0ec6595c3c696093f28b5f64f88290f700e8157b37be6c603a6150270ef8",
+  "region_candidates.json": "1839f7da3c0ee80845cb68c33cfcd3bd2c8fb4bc10ff964593d36f0c961f22da"
+ },
+ "method": "phase15-consistency-propagation-1.0",
+ "output_bytes": {
+  "consistency_core.json": 1228,
+  "consistency_pathways.json": 645,
+  "consistency_support.json": 916,
+  "counterfactual_destruction.json": 1428,
+  "generative_consistency.json": 774,
+  "hub_dependence.json": 694,
+  "hypothesis_falsification.json": 2329,
+  "motif_contribution.json": 2070,
+  "recursive_stability.json": 1388,
+  "redundancy_contribution.json": 431
+ },
+ "prohibitions_observed": [
+  "no theology",
+  "no tafsir",
+  "no translation",
+  "no external logic",
+  "no imported explanations",
+  "consistency not protected",
+  "consistency not assumed meaningful",
+  "consistency not assumed special",
+  "no explanation without evidence",
+  "did not start from conclusions",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "base_contradictions": 0,
+  "consistency_core_exists": false,
+  "consistency_hub_dependent": false,
+  "null_model_max_contradictions": 0.0,
+  "structural_removals_break_consistency": false,
+  "surviving_hypotheses": [
+   "H7"
+  ],
+  "verdict": "consistency is irreducible (H7); not maintained by any removable structure"
+ }
+}

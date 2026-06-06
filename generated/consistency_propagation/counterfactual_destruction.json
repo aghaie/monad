@@ -1,0 +1,54 @@
+{
+ "corruption_curve": [
+  {
+   "contradictions": 0,
+   "corruption_rate": 0.0,
+   "injected_pairs": 0
+  },
+  {
+   "contradictions": 20,
+   "corruption_rate": 0.05,
+   "injected_pairs": 20
+  },
+  {
+   "contradictions": 40,
+   "corruption_rate": 0.1,
+   "injected_pairs": 40
+  },
+  {
+   "contradictions": 100,
+   "corruption_rate": 0.25,
+   "injected_pairs": 100
+  },
+  {
+   "contradictions": 200,
+   "corruption_rate": 0.5,
+   "injected_pairs": 200
+  },
+  {
+   "contradictions": 401,
+   "corruption_rate": 1.0,
+   "injected_pairs": 401
+  }
+ ],
+ "method": "phase15-consistency-propagation-1.0",
+ "n_exclusion_pairs": 401,
+ "null_model_contradictions": {
+  "ci95_high": 0.0,
+  "ci95_low": 0.0,
+  "max": 0.0,
+  "mean": 0.0,
+  "min": 0.0,
+  "n": 30,
+  "std": 0.0
+ },
+ "null_model_runs": 30,
+ "structural_removals": {
+  "remove_hub": 0,
+  "remove_largest_region": 0,
+  "remove_scc9": 0,
+  "remove_top10_concepts": 0
+ },
+ "structural_removals_break_consistency": false,
+ "verdict": "consistency CANNOT be destroyed by removing any structure (0 contradictions under every structural removal) NOR by shuffling the activations into a null model (0 contradictions in all 30 nulls — consistency is GENERIC, not special). It breaks ONLY under direct data corruption (injecting positive edges into exclusion pairs), proportional to the corruption — confirming it is a property of the matrix's internal coherence, not of any structure."
+}

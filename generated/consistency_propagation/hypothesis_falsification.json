@@ -1,0 +1,52 @@
+{
+ "hypotheses": [
+  {
+   "evidence": "consistency survives full hub removal (0 contradictions); the hub mediates 96% of REQUIRES but is not required for consistency",
+   "hypothesis": "the hub maintains consistency",
+   "id": "H1",
+   "result": "FALSIFIED (mediator, not maintainer)"
+  },
+  {
+   "evidence": "no consistency core exists; every subset down to 10% of ayahs is fully consistent",
+   "hypothesis": "a small core maintains consistency",
+   "id": "H2",
+   "result": "FALSIFIED"
+  },
+  {
+   "evidence": "removing any SCC creates 0 contradictions; no SCC is self-negating (max created 0)",
+   "hypothesis": "SCCs maintain consistency",
+   "id": "H3",
+   "result": "FALSIFIED"
+  },
+  {
+   "evidence": "removing any motif's concepts creates 0 contradictions (max created 0)",
+   "hypothesis": "motifs maintain consistency",
+   "id": "H4",
+   "result": "FALSIFIED"
+  },
+  {
+   "evidence": "consistency holds independently in both halves of every random split; it is a per-pair local property, not a duplicated mechanism",
+   "hypothesis": "redundancy maintains consistency",
+   "id": "H5",
+   "result": "FALSIFIED (ubiquity, not redundancy)"
+  },
+  {
+   "evidence": "shuffled null matrices are equally consistent (null contradictions 0.0 max over 30 runs) — consistency is generic, not specially emergent",
+   "hypothesis": "consistency is emergent (special to this structure)",
+   "id": "H6",
+   "result": "FALSIFIED"
+  },
+  {
+   "evidence": "consistency survives every structural removal and every null shuffle; it is destroyed ONLY by direct data corruption (injecting positive edges into exclusion pairs). It is partly tautological (co=0 vs co≥5 are mutually exclusive) and partly generic (hub-dominated sparse co-occurrence). It is not carried by any removable structure",
+   "hypothesis": "consistency is irreducible (a property of the matrix's internal coherence + the contradiction definitions)",
+   "id": "H7",
+   "result": "SURVIVES"
+  }
+ ],
+ "method": "phase15-consistency-propagation-1.0",
+ "n_survived": 1,
+ "surviving_hypotheses": [
+  "H7"
+ ],
+ "verdict": "only H7 survives: consistency is IRREDUCIBLE — not maintained by hub, core, SCCs, motifs, or redundancy, and not specially emergent. It is a property of the activation matrix's internal coherence, destroyable only by corrupting the data itself"
+}

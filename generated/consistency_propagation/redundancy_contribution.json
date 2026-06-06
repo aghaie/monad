@@ -1,0 +1,7 @@
+{
+ "both_halves_consistent_always": true,
+ "definition": "both halves of random splits checked for independent consistency",
+ "finding": "consistency is not maintained by redundancy of a mechanism — it holds independently in BOTH halves of every random split. It is ubiquitous because it is a local property of every pair, not a duplicated structure",
+ "method": "phase15-consistency-propagation-1.0",
+ "random_half_splits": 10
+}

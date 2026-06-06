@@ -1,0 +1,9 @@
+{
+ "consistency_generable_by_grammar": false,
+ "definition": "can the Phase-12 grammar generate / test consistency?",
+ "finding": "the Phase-12 grammar generates graph topology (edges via attachment + reciprocity + transitive closure); it does NOT model the activation matrix M and therefore has no exclusion/positive layers. Consistency is orthogonal to the grammar — it is a property of M, not of topology. Phase 12 already reported consistency as out of grammar scope; this confirms it: consistency is an independent (matrix-level) property",
+ "grammar_models_activation_matrix": false,
+ "grammar_scope": "topology only (directed proposition graph)",
+ "method": "phase15-consistency-propagation-1.0",
+ "verdict": "consistency is INDEPENDENT of the generative grammar"
+}

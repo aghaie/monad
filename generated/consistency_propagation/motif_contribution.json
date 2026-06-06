@@ -1,0 +1,83 @@
+{
+ "definition": "remove each motif's participating concepts; measure contradictions created",
+ "finding": "no motif maintains consistency — removing any motif's concepts creates 0 contradictions. Motifs are graph-topology patterns; consistency is a property of the activation matrix, orthogonal to motif structure",
+ "max_contradictions_created": 0,
+ "method": "phase15-consistency-propagation-1.0",
+ "motifs": {
+  "MOTIF_001": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 91
+  },
+  "MOTIF_002": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 99
+  },
+  "MOTIF_003": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 97
+  },
+  "MOTIF_004": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 100
+  },
+  "MOTIF_005": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 94
+  },
+  "MOTIF_006": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 87
+  },
+  "MOTIF_007": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 92
+  },
+  "MOTIF_008": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 100
+  },
+  "MOTIF_009": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 85
+  },
+  "MOTIF_010": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 92
+  },
+  "MOTIF_011": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 78
+  },
+  "MOTIF_012": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 78
+  },
+  "MOTIF_013": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 71
+  },
+  "MOTIF_014": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 57
+  },
+  "MOTIF_015": {
+   "contradictions_after": 0,
+   "contradictions_created": 0,
+   "removed_concepts": 8
+  }
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "conflicting_structure_pairs": 0,
+ "consistency_mediation_routes": 0,
+ "definition": "paths connecting potentially-conflicting structures",
+ "finding": "there are no conflicting structures to mediate (0 contradictions), so there are no consistency pathways. Consistency is not a propagation phenomenon — it is a local property of every concept pair (a pair is either positive or exclusive, never both)",
+ "method": "phase15-consistency-propagation-1.0",
+ "necessity_routing": "all necessity (REQUIRES) edges route through high-marginal concepts, 96% through the hub, which co-occurs with everything and therefore cannot anchor a conflict"
+}

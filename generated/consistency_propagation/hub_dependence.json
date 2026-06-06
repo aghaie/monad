@@ -1,0 +1,20 @@
+{
+ "base_contradictions": {
+  "exclusion_positive": 0,
+  "necessity_c2": 0,
+  "total": 0
+ },
+ "challenged": "CONCEPT_007",
+ "consistency_retained": true,
+ "contradiction_emergence": 0,
+ "contradictions_without_hub": {
+  "exclusion_positive": 0,
+  "necessity_c2": 0,
+  "total": 0
+ },
+ "hub_mediates_necessity": true,
+ "method": "phase15-consistency-propagation-1.0",
+ "strict_order_cycles_with_hub": 0,
+ "strict_order_cycles_without_hub": 0,
+ "verdict": "consistency is NOT hub-dependent — it survives full hub removal with 0 contradictions; however the hub MEDIATES necessity (96% of REQUIRES target it), so it explains why necessity never conflicts, without being required for consistency"
+}

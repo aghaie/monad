@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 14 (Structural
-Locality & Distribution Engine). **Next phase:** Phase 15 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 15 (Consistency
+Propagation Engine). **Next phase:** Phase 16 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -27,7 +27,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 12 | Generative Grammar Discovery Engine | ✅ complete | `generated/grammar/*.json` |
 | 13 | Revelation Evolution Engine | ✅ complete | `generated/evolution/*.json` |
 | 14 | Structural Locality & Distribution Engine | ✅ complete | `generated/locality/*.json` |
-| 15 | (future) | ⛔ not started | — |
+| 15 | Consistency Propagation Engine | ✅ complete | `generated/consistency_propagation/*.json` |
+| 16 | (future) | ⛔ not started | — |
 
 ---
 
@@ -550,6 +551,56 @@ gradient.
 
 ---
 
+## Phase 15 — Consistency Propagation Engine
+
+Investigates *how* consistency is maintained — with an explicit mandate to
+**destroy** it. Consistency is not assumed, not protected, not assumed special or
+meaningful. No theology, tafsir, translation, external logic, or imported
+explanation.
+
+- 11 data products in `generated/consistency_propagation/` (support, hub
+  dependence, core, pathways, motif/SCC/redundancy contribution, counterfactual
+  destruction, generative, hypothesis falsification, manifest)
+- Method: recompute consistency as a contradiction count over the activation
+  matrix M; map support; challenge the hub; search for a core/pathways; ablate
+  motifs/SCCs; test redundancy; run counterfactual destruction (structural removal
+  + null model + data corruption); generative test; falsify H1–H7
+- **Primary finding — NO structure maintains consistency; it is IRREDUCIBLE (only
+  H7 survives):** every consistency-support weight is **0** (removing any
+  concept/SCC/motif/region creates 0 contradictions); survives full hub removal;
+  **no consistency core** (every subset down to 10% is consistent); **30 null-model
+  shuffles are equally consistent** (CI [0,0] → generic, not special); broken
+  **only** by direct data corruption (linear curve 5%→20 … 100%→401)
+- **The hub mediates but does not maintain:** 96% of REQUIRES (necessity) edges
+  target the hub (which co-occurs with everything → necessity never conflicts), but
+  consistency survives hub removal → H1 falsified (mediator, not maintainer)
+- **Deflationary conclusion (honest, unprotected):** consistency is partly
+  **tautological** (a pair cannot have co=0 and co≥5) and partly **generic**
+  (hub-dominated sparse co-occurrence); it is a property of the activation matrix's
+  internal coherence, not a maintained structural achievement; the Phase-12 grammar
+  cannot generate it (topology-only)
+- **Hypotheses:** H1 hub FALSIFIED · H2 core FALSIFIED · H3 SCCs FALSIFIED · H4
+  motifs FALSIFIED · H5 redundancy FALSIFIED · H6 emergent FALSIFIED · **H7
+  irreducible SURVIVES**
+- Builder: `scripts/build_consistency_propagation.py`; Validator:
+  `scripts/validate_consistency_propagation.py` (81 checks incl. destruction-
+  attempted + only-H7-survives invariants, byte-identical rebuild)
+- Reports: `consistency-support-report.md`, `hub-dependence-report.md`,
+  `consistency-core-report.md`, `consistency-pathways-report.md`,
+  `motif-contribution-report.md`, `recursive-stability-report.md`,
+  `consistency-redundancy-report.md`, `counterfactual-destruction-report.md`,
+  `generative-consistency-report.md`, `hypothesis-falsification-report.md`,
+  `phase15-final-report.md` (the spec's generic `redundancy-report.md` collided
+  with Phase 14's, so the Phase-15 one was named distinctly to keep Phase 14
+  immutable)
+
+Consistency verdict (deflationary, unprotected): consistency is **irreducible** —
+not maintained by any removable structure, generic to the data type, partly
+tautological; the hub mediates necessity but is not required; destroyable only by
+corrupting the data itself.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -583,11 +634,12 @@ python3 scripts/build_validation.py     && python3 scripts/validate_validation.p
 python3 scripts/build_grammar.py        && python3 scripts/validate_grammar.py        --rebuild
 python3 scripts/build_evolution.py      && python3 scripts/validate_evolution.py      --rebuild
 python3 scripts/build_locality.py       && python3 scripts/validate_locality.py       --rebuild
+python3 scripts/build_consistency_propagation.py && python3 scripts/validate_consistency_propagation.py --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 15 is **not started** by design. Open questions are recorded in
-`phase14-final-report.md §9`. Awaiting explicit instruction to proceed.
+Phase 16 is **not started** by design. Open questions are recorded in
+`phase15-final-report.md §11`. Awaiting explicit instruction to proceed.

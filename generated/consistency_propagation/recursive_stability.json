@@ -1,0 +1,51 @@
+{
+ "any_scc_self_negating": false,
+ "definition": "remove each SCC's concepts; check internal exclusion + contradictions",
+ "finding": "cycles do not maintain consistency — no SCC contains an internal exclusion pair (none is self-negating), and removing any SCC creates 0 contradictions. The SCCs are consistent because M is, not vice versa",
+ "max_contradictions_created": 0,
+ "method": "phase15-consistency-propagation-1.0",
+ "sccs": {
+  "SCC_0": {
+   "contradictions_after_removal": 0,
+   "contradictions_created": 0,
+   "internal_exclusion_pairs": 0,
+   "size": 9
+  },
+  "SCC_1": {
+   "contradictions_after_removal": 0,
+   "contradictions_created": 0,
+   "internal_exclusion_pairs": 0,
+   "size": 4
+  },
+  "SCC_2": {
+   "contradictions_after_removal": 0,
+   "contradictions_created": 0,
+   "internal_exclusion_pairs": 0,
+   "size": 3
+  },
+  "SCC_3": {
+   "contradictions_after_removal": 0,
+   "contradictions_created": 0,
+   "internal_exclusion_pairs": 0,
+   "size": 3
+  },
+  "SCC_4": {
+   "contradictions_after_removal": 0,
+   "contradictions_created": 0,
+   "internal_exclusion_pairs": 0,
+   "size": 3
+  },
+  "SCC_5": {
+   "contradictions_after_removal": 0,
+   "contradictions_created": 0,
+   "internal_exclusion_pairs": 0,
+   "size": 3
+  },
+  "SCC_6": {
+   "contradictions_after_removal": 0,
+   "contradictions_created": 0,
+   "internal_exclusion_pairs": 0,
+   "size": 2
+  }
+ }
+}
