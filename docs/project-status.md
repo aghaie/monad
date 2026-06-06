@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 10 (Contradiction
-& Consistency Discovery Engine). **Next phase:** Phase 11 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 11 (Discovery
+Stability & Robustness Engine). **Next phase:** Phase 12 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -23,7 +23,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 8 | Foundational Principle Discovery Engine | ✅ complete | `generated/principles/*.json` |
 | 9 | Structural Motif Discovery Engine | ✅ complete | `generated/motifs/*.json` |
 | 10 | Contradiction & Consistency Discovery Engine | ✅ complete | `generated/consistency/*.json` |
-| 11 | (future) | ⛔ not started | — |
+| 11 | Discovery Stability & Robustness Engine (validation) | ✅ complete | `generated/validation/*.json` |
+| 12 | (future) | ⛔ not started | — |
 
 ---
 
@@ -364,6 +365,53 @@ obligations.
 
 ---
 
+## Phase 11 — Discovery Stability & Robustness Engine (validation)
+
+The first **validation** phase: discovers nothing, instead attempts to *destroy*
+prior discoveries by methodological perturbation and reports only what survives.
+Burden of proof reversed; failures documented, not hidden; prior conclusions not
+protected. No new concepts/principles/motifs/identities/theories; no
+reinterpretation; no cherry-picking.
+
+- 10 data products in `generated/validation/` (threshold sweeps, bootstrap,
+  subsampling, noise, hub/motif/consistency validation, reproducibility audit,
+  survivor analysis, manifest)
+- Method: resample the activation matrix M (1,000 bootstraps; 500 subsamples at
+  5–40% removal); re-derive concepts by 5 clustering families (ARI/NMI);
+  noise-inject the proposition graph; sweep all thresholds; rebuild 7 engines to
+  temp + hash. All fixed-seed deterministic; full stats (mean/median/std/95% CI)
+- **Survivor tally: 4 SURVIVES STRONGLY · 2 MODERATELY · 2 WEAKLY · 0 FAILS**
+  - **STRONG (use freely):** CONCEPT_007 dominance (rank-1 in 1,500/1,500
+    resamples, share CI [0.963,0.972]); Phase-10 consistency (0 contradictions
+    under every regime, exclusion/positive overlap 0 at all thresholds); Phase-9
+    motif vocabulary (13/13 classes + 5-for-80% invariant under noise); Phase-5
+    compression (byte-identical, threshold-robust verdict)
+  - **MODERATE:** size-9 SCC (large core persists under noise); Phase-7 identity
+    anchors (top-10 concept Jaccard 0.92)
+  - **WEAK (method-relative):** the exact 103-concept partition (NMI 0.74 but ARI
+    0.22; counts 38–471 across methods) and the exact 16-principle decomposition —
+    structure exists, precise boundaries do not
+- **Reproducibility:** 7/7 `--out`-capable engines rebuild byte-identically;
+  pipeline deterministic; effectively seed-free
+- **Documented methodological risks:** concept/principle *counts* are method
+  artifacts; hub-leaning findings (dominant motif `MOTIF_001`) inherit the hub and
+  are fragile; all results conditional on the inherited Phase-4 relation population
+- Builder: `scripts/build_validation.py`; Validator:
+  `scripts/validate_validation.py` (112 checks incl. statistical-completeness +
+  no-protection invariants, byte-identical rebuild)
+- Reports: `validation-overview-report.md`, `threshold-sweep-report.md`,
+  `bootstrap-report.md`, `subsampling-report.md`, `hub-validation-report.md`,
+  `motif-validation-report.md`, `consistency-validation-report.md`,
+  `reproducibility-report.md`, `survivor-analysis-report.md`,
+  `phase11-final-report.md`
+
+Validation verdict: the headline discoveries (hub dominance, consistency,
+compression verdict, motif vocabulary) are **robust corpus properties**; the exact
+concept/principle counts are **method-relative** and must be cited as structure,
+not as fixed facts.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -393,11 +441,12 @@ python3 scripts/build_revelation.py     && python3 scripts/validate_revelation.p
 python3 scripts/build_principles.py     && python3 scripts/validate_principles.py     --rebuild
 python3 scripts/build_motifs.py         && python3 scripts/validate_motifs.py         --rebuild
 python3 scripts/build_consistency.py    && python3 scripts/validate_consistency.py    --rebuild
+python3 scripts/build_validation.py     && python3 scripts/validate_validation.py     --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 11 is **not started** by design. Open questions are recorded in
-`phase10-final-report.md §10`. Awaiting explicit instruction to proceed.
+Phase 12 is **not started** by design. Open questions are recorded in
+`phase11-final-report.md §12`. Awaiting explicit instruction to proceed.
