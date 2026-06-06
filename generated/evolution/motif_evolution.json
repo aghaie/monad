@@ -1,0 +1,207 @@
+{
+ "method": "phase13-evolution-1.0",
+ "traditions": {
+  "CONTROL": {
+   "all_classes_present_threshold": 0.1,
+   "classes_trajectory": [
+    {
+     "classes": 5,
+     "cosine_to_final": 0.913934,
+     "threshold": 0.01
+    },
+    {
+     "classes": 6,
+     "cosine_to_final": 0.879487,
+     "threshold": 0.05
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.939901,
+     "threshold": 0.1
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.915273,
+     "threshold": 0.2
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.967954,
+     "threshold": 0.3
+    },
+    {
+     "classes": 13,
+     "cosine_to_final": 0.985646,
+     "threshold": 0.4
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.990955,
+     "threshold": 0.5
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.984526,
+     "threshold": 0.6
+    },
+    {
+     "classes": 13,
+     "cosine_to_final": 0.992633,
+     "threshold": 0.7
+    },
+    {
+     "classes": 13,
+     "cosine_to_final": 0.997732,
+     "threshold": 0.8
+    },
+    {
+     "classes": 13,
+     "cosine_to_final": 0.996934,
+     "threshold": 0.9
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 1.0,
+     "threshold": 1.0
+    }
+   ],
+   "final_classes": 12,
+   "vocabulary_stabilization_threshold": 0.01
+  },
+  "TRADITION_CANONICAL": {
+   "all_classes_present_threshold": 0.01,
+   "classes_trajectory": [
+    {
+     "classes": 12,
+     "cosine_to_final": 0.866834,
+     "threshold": 0.01
+    },
+    {
+     "classes": 13,
+     "cosine_to_final": 0.959041,
+     "threshold": 0.05
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.959529,
+     "threshold": 0.1
+    },
+    {
+     "classes": 13,
+     "cosine_to_final": 0.989612,
+     "threshold": 0.2
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.990536,
+     "threshold": 0.3
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.98824,
+     "threshold": 0.4
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.995578,
+     "threshold": 0.5
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.996029,
+     "threshold": 0.6
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.997363,
+     "threshold": 0.7
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.999553,
+     "threshold": 0.8
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.999377,
+     "threshold": 0.9
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 1.0,
+     "threshold": 1.0
+    }
+   ],
+   "final_classes": 12,
+   "vocabulary_stabilization_threshold": 0.05
+  },
+  "TRADITION_MECCAN_MEDINAN": {
+   "all_classes_present_threshold": 0.1,
+   "classes_trajectory": [
+    {
+     "classes": 10,
+     "cosine_to_final": 0.720924,
+     "threshold": 0.01
+    },
+    {
+     "classes": 10,
+     "cosine_to_final": 0.901897,
+     "threshold": 0.05
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.923412,
+     "threshold": 0.1
+    },
+    {
+     "classes": 13,
+     "cosine_to_final": 0.959485,
+     "threshold": 0.2
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.925991,
+     "threshold": 0.3
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.950361,
+     "threshold": 0.4
+    },
+    {
+     "classes": 13,
+     "cosine_to_final": 0.95012,
+     "threshold": 0.5
+    },
+    {
+     "classes": 13,
+     "cosine_to_final": 0.973967,
+     "threshold": 0.6
+    },
+    {
+     "classes": 13,
+     "cosine_to_final": 0.988809,
+     "threshold": 0.7
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.997407,
+     "threshold": 0.8
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 0.999644,
+     "threshold": 0.9
+    },
+    {
+     "classes": 12,
+     "cosine_to_final": 1.0,
+     "threshold": 1.0
+    }
+   ],
+   "final_classes": 12,
+   "vocabulary_stabilization_threshold": 0.05
+  }
+ },
+ "verdict": "motif vocabulary stabilization point per tradition (cosine>=0.9)"
+}

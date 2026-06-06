@@ -1,0 +1,207 @@
+{
+ "method": "phase13-evolution-1.0",
+ "traditions": {
+  "CONTROL": {
+   "birth_threshold": 0.01,
+   "final_largest_scc": 91,
+   "size9_reached_threshold": 0.01,
+   "trajectory": [
+    {
+     "fraction_of_final": 0.142857,
+     "largest_scc": 13,
+     "threshold": 0.01
+    },
+    {
+     "fraction_of_final": 0.208791,
+     "largest_scc": 19,
+     "threshold": 0.05
+    },
+    {
+     "fraction_of_final": 0.43956,
+     "largest_scc": 40,
+     "threshold": 0.1
+    },
+    {
+     "fraction_of_final": 0.593407,
+     "largest_scc": 54,
+     "threshold": 0.2
+    },
+    {
+     "fraction_of_final": 0.692308,
+     "largest_scc": 63,
+     "threshold": 0.3
+    },
+    {
+     "fraction_of_final": 0.725275,
+     "largest_scc": 66,
+     "threshold": 0.4
+    },
+    {
+     "fraction_of_final": 0.813187,
+     "largest_scc": 74,
+     "threshold": 0.5
+    },
+    {
+     "fraction_of_final": 0.824176,
+     "largest_scc": 75,
+     "threshold": 0.6
+    },
+    {
+     "fraction_of_final": 0.89011,
+     "largest_scc": 81,
+     "threshold": 0.7
+    },
+    {
+     "fraction_of_final": 0.923077,
+     "largest_scc": 84,
+     "threshold": 0.8
+    },
+    {
+     "fraction_of_final": 0.945055,
+     "largest_scc": 86,
+     "threshold": 0.9
+    },
+    {
+     "fraction_of_final": 1.0,
+     "largest_scc": 91,
+     "threshold": 1.0
+    }
+   ]
+  },
+  "TRADITION_CANONICAL": {
+   "birth_threshold": 0.01,
+   "final_largest_scc": 91,
+   "size9_reached_threshold": 0.01,
+   "trajectory": [
+    {
+     "fraction_of_final": 0.43956,
+     "largest_scc": 40,
+     "threshold": 0.01
+    },
+    {
+     "fraction_of_final": 0.56044,
+     "largest_scc": 51,
+     "threshold": 0.05
+    },
+    {
+     "fraction_of_final": 0.67033,
+     "largest_scc": 61,
+     "threshold": 0.1
+    },
+    {
+     "fraction_of_final": 0.747253,
+     "largest_scc": 68,
+     "threshold": 0.2
+    },
+    {
+     "fraction_of_final": 0.835165,
+     "largest_scc": 76,
+     "threshold": 0.3
+    },
+    {
+     "fraction_of_final": 0.879121,
+     "largest_scc": 80,
+     "threshold": 0.4
+    },
+    {
+     "fraction_of_final": 0.934066,
+     "largest_scc": 85,
+     "threshold": 0.5
+    },
+    {
+     "fraction_of_final": 0.978022,
+     "largest_scc": 89,
+     "threshold": 0.6
+    },
+    {
+     "fraction_of_final": 1.0,
+     "largest_scc": 91,
+     "threshold": 0.7
+    },
+    {
+     "fraction_of_final": 1.0,
+     "largest_scc": 91,
+     "threshold": 0.8
+    },
+    {
+     "fraction_of_final": 1.0,
+     "largest_scc": 91,
+     "threshold": 0.9
+    },
+    {
+     "fraction_of_final": 1.0,
+     "largest_scc": 91,
+     "threshold": 1.0
+    }
+   ]
+  },
+  "TRADITION_MECCAN_MEDINAN": {
+   "birth_threshold": 0.01,
+   "final_largest_scc": 91,
+   "size9_reached_threshold": 0.01,
+   "trajectory": [
+    {
+     "fraction_of_final": 0.208791,
+     "largest_scc": 19,
+     "threshold": 0.01
+    },
+    {
+     "fraction_of_final": 0.373626,
+     "largest_scc": 34,
+     "threshold": 0.05
+    },
+    {
+     "fraction_of_final": 0.516484,
+     "largest_scc": 47,
+     "threshold": 0.1
+    },
+    {
+     "fraction_of_final": 0.681319,
+     "largest_scc": 62,
+     "threshold": 0.2
+    },
+    {
+     "fraction_of_final": 0.736264,
+     "largest_scc": 67,
+     "threshold": 0.3
+    },
+    {
+     "fraction_of_final": 0.78022,
+     "largest_scc": 71,
+     "threshold": 0.4
+    },
+    {
+     "fraction_of_final": 0.802198,
+     "largest_scc": 73,
+     "threshold": 0.5
+    },
+    {
+     "fraction_of_final": 0.857143,
+     "largest_scc": 78,
+     "threshold": 0.6
+    },
+    {
+     "fraction_of_final": 0.879121,
+     "largest_scc": 80,
+     "threshold": 0.7
+    },
+    {
+     "fraction_of_final": 0.967033,
+     "largest_scc": 88,
+     "threshold": 0.8
+    },
+    {
+     "fraction_of_final": 0.978022,
+     "largest_scc": 89,
+     "threshold": 0.9
+    },
+    {
+     "fraction_of_final": 1.0,
+     "largest_scc": 91,
+     "threshold": 1.0
+    }
+   ]
+  }
+ },
+ "verdict": "largest-SCC birth and growth per tradition"
+}

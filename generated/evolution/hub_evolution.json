@@ -1,0 +1,241 @@
+{
+ "challenged": "CONCEPT_007",
+ "method": "phase13-evolution-1.0",
+ "traditions": {
+  "CONTROL": {
+   "competing_top3_early": [
+    "CONCEPT_007",
+    "CONCEPT_081",
+    "CONCEPT_084"
+   ],
+   "emergence": "present-from-start",
+   "final_share": 0.968038,
+   "first_appearance_threshold": 0.01,
+   "first_rank1_threshold": 0.01,
+   "rank1_from_start": true,
+   "share_range": [
+    0.962344,
+    1.0
+   ],
+   "share_trajectory": [
+    {
+     "rank": 1,
+     "share": 1.0,
+     "threshold": 0.01
+    },
+    {
+     "rank": 1,
+     "share": 0.9683,
+     "threshold": 0.05
+    },
+    {
+     "rank": 1,
+     "share": 0.98318,
+     "threshold": 0.1
+    },
+    {
+     "rank": 1,
+     "share": 0.973872,
+     "threshold": 0.2
+    },
+    {
+     "rank": 1,
+     "share": 0.971216,
+     "threshold": 0.3
+    },
+    {
+     "rank": 1,
+     "share": 0.968228,
+     "threshold": 0.4
+    },
+    {
+     "rank": 1,
+     "share": 0.971157,
+     "threshold": 0.5
+    },
+    {
+     "rank": 1,
+     "share": 0.96732,
+     "threshold": 0.6
+    },
+    {
+     "rank": 1,
+     "share": 0.96683,
+     "threshold": 0.7
+    },
+    {
+     "rank": 1,
+     "share": 0.962344,
+     "threshold": 0.8
+    },
+    {
+     "rank": 1,
+     "share": 0.965137,
+     "threshold": 0.9
+    },
+    {
+     "rank": 1,
+     "share": 0.968038,
+     "threshold": 1.0
+    }
+   ]
+  },
+  "TRADITION_CANONICAL": {
+   "competing_top3_early": [
+    "CONCEPT_007",
+    "CONCEPT_081",
+    "CONCEPT_003"
+   ],
+   "emergence": "present-from-start",
+   "final_share": 0.968038,
+   "first_appearance_threshold": 0.01,
+   "first_rank1_threshold": 0.01,
+   "rank1_from_start": true,
+   "share_range": [
+    0.968038,
+    1.0
+   ],
+   "share_trajectory": [
+    {
+     "rank": 1,
+     "share": 1.0,
+     "threshold": 0.01
+    },
+    {
+     "rank": 1,
+     "share": 1.0,
+     "threshold": 0.05
+    },
+    {
+     "rank": 1,
+     "share": 1.0,
+     "threshold": 0.1
+    },
+    {
+     "rank": 1,
+     "share": 0.998377,
+     "threshold": 0.2
+    },
+    {
+     "rank": 1,
+     "share": 0.995785,
+     "threshold": 0.3
+    },
+    {
+     "rank": 1,
+     "share": 0.99515,
+     "threshold": 0.4
+    },
+    {
+     "rank": 1,
+     "share": 0.991105,
+     "threshold": 0.5
+    },
+    {
+     "rank": 1,
+     "share": 0.991866,
+     "threshold": 0.6
+    },
+    {
+     "rank": 1,
+     "share": 0.989763,
+     "threshold": 0.7
+    },
+    {
+     "rank": 1,
+     "share": 0.980531,
+     "threshold": 0.8
+    },
+    {
+     "rank": 1,
+     "share": 0.977153,
+     "threshold": 0.9
+    },
+    {
+     "rank": 1,
+     "share": 0.968038,
+     "threshold": 1.0
+    }
+   ]
+  },
+  "TRADITION_MECCAN_MEDINAN": {
+   "competing_top3_early": [
+    "CONCEPT_007",
+    "CONCEPT_081",
+    "CONCEPT_003"
+   ],
+   "emergence": "present-from-start",
+   "final_share": 0.968038,
+   "first_appearance_threshold": 0.01,
+   "first_rank1_threshold": 0.01,
+   "rank1_from_start": true,
+   "share_range": [
+    0.968038,
+    1.0
+   ],
+   "share_trajectory": [
+    {
+     "rank": 1,
+     "share": 1.0,
+     "threshold": 0.01
+    },
+    {
+     "rank": 1,
+     "share": 0.994695,
+     "threshold": 0.05
+    },
+    {
+     "rank": 1,
+     "share": 0.995833,
+     "threshold": 0.1
+    },
+    {
+     "rank": 1,
+     "share": 0.991641,
+     "threshold": 0.2
+    },
+    {
+     "rank": 1,
+     "share": 0.985851,
+     "threshold": 0.3
+    },
+    {
+     "rank": 1,
+     "share": 0.98774,
+     "threshold": 0.4
+    },
+    {
+     "rank": 1,
+     "share": 0.985607,
+     "threshold": 0.5
+    },
+    {
+     "rank": 1,
+     "share": 0.982394,
+     "threshold": 0.6
+    },
+    {
+     "rank": 1,
+     "share": 0.971242,
+     "threshold": 0.7
+    },
+    {
+     "rank": 1,
+     "share": 0.968995,
+     "threshold": 0.8
+    },
+    {
+     "rank": 1,
+     "share": 0.972051,
+     "threshold": 0.9
+    },
+    {
+     "rank": 1,
+     "share": 0.968038,
+     "threshold": 1.0
+    }
+   ]
+  }
+ },
+ "verdict": "hub present from the earliest snapshot in all traditions"
+}

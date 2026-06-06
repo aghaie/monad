@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 12 (Generative
-Grammar Discovery Engine). **Next phase:** Phase 13 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 13 (Revelation
+Evolution Engine). **Next phase:** Phase 14 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -25,7 +25,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 10 | Contradiction & Consistency Discovery Engine | ✅ complete | `generated/consistency/*.json` |
 | 11 | Discovery Stability & Robustness Engine (validation) | ✅ complete | `generated/validation/*.json` |
 | 12 | Generative Grammar Discovery Engine | ✅ complete | `generated/grammar/*.json` |
-| 13 | (future) | ⛔ not started | — |
+| 13 | Revelation Evolution Engine | ✅ complete | `generated/evolution/*.json` |
+| 14 | (future) | ⛔ not started | — |
 
 ---
 
@@ -454,6 +455,52 @@ generates.
 
 ---
 
+## Phase 13 — Revelation Evolution Engine
+
+Analyses the structure as *evolving*: verses introduced in a documented order,
+leakage-free snapshots, emergence of hub/motifs/consistency/SCC/identity measured
+over "revelation time." **No external chronology exists in the corpus, so two
+corpus-internal orderings are used, documented + SHA-256 hashed, analysed
+separately** (canonical mushaf order; Meccan→Medinan period proxy) plus a control
+shuffle. **No theology, tafsir, translation, origin/historical inference; no
+future verses in earlier snapshots.**
+
+- 9 data products in `generated/evolution/` (snapshot statistics, hub/motif/
+  consistency/scc/identity evolution, predictability, phase transitions, manifest)
+- Method: snapshots at 1–100% of revealed ayahs; per snapshot rebuild a
+  leakage-free graph (co-occurrence + positional `PRECEDES` over revealed ayahs
+  only) and recompute every structure
+- **Primary finding — the structure does NOT emerge gradually; it is present
+  almost in full from the first verses, under every order:** at **1% revealed** the
+  hub is already rank-1 (share **1.000**, it *dilutes* to 0.968 by 100%), the motif
+  vocabulary is complete (12/12 classes), consistency holds (0 overlap), 82% of
+  final top concepts present. **Composite predictability ≥0.80 from 1%, 0.93 at
+  10%**
+- **Timelines:** hub present-from-start (no competing hub ever); motifs stabilize
+  by **5%**; consistency 0-overlap at all 36 snapshots×orders; SCC born at 1%
+  (size 40 ≥ Phase-5 core), grows gradually to 91 by ~70%; identity the only
+  gradual structure (0.30→0.59, proxy)
+- **Robustness/falsification:** all four headline findings hold across both
+  traditions AND the random control → order-independent (content-driven). The
+  naive "emergence over revelation time" hypothesis is itself **falsified** — the
+  structure is scale-invariant, so apparent emergence is sampling, not development.
+  Chronology limitation explicitly acknowledged (orderings are accumulation orders,
+  not history)
+- Builder: `scripts/build_evolution.py`; Validator:
+  `scripts/validate_evolution.py` (136 checks incl. no-leakage + separate-hashed-
+  traditions invariants, byte-identical rebuild)
+- Reports: `revelation-evolution-report.md`, `hub-evolution-report.md`,
+  `motif-evolution-report.md`, `consistency-evolution-report.md`,
+  `predictability-report.md`, `phase-transition-report.md`,
+  `phase13-final-report.md`
+
+Evolution verdict (structural, not historical): the robust core (hub, consistency,
+motif vocabulary) is **scale-invariant and content-intrinsic** — present in any
+sufficiently large sample under any order; only SCC size and identity grow
+gradually.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -485,11 +532,12 @@ python3 scripts/build_motifs.py         && python3 scripts/validate_motifs.py   
 python3 scripts/build_consistency.py    && python3 scripts/validate_consistency.py    --rebuild
 python3 scripts/build_validation.py     && python3 scripts/validate_validation.py     --rebuild
 python3 scripts/build_grammar.py        && python3 scripts/validate_grammar.py        --rebuild
+python3 scripts/build_evolution.py      && python3 scripts/validate_evolution.py      --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 13 is **not started** by design. Open questions are recorded in
-`phase12-final-report.md §10`. Awaiting explicit instruction to proceed.
+Phase 14 is **not started** by design. Open questions are recorded in
+`phase13-final-report.md §11`. Awaiting explicit instruction to proceed.

@@ -1,0 +1,349 @@
+{
+ "definition": "composite_predictability = mean(motif cosine-to-final, hub-rank1, top10 Jaccard-to-final, consistency-holds, scc-fraction-of-final)",
+ "method": "phase13-evolution-1.0",
+ "traditions": {
+  "CONTROL": {
+   "predictability_at_10pct": 0.839529,
+   "threshold_for_80pct_predictable": 0.1,
+   "trajectory": [
+    {
+     "composite_predictability": 0.774995,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.913934,
+     "scc_fraction_of_final": 0.142857,
+     "threshold": 0.01,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.781292,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.879487,
+     "scc_fraction_of_final": 0.208791,
+     "threshold": 0.05,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.839529,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.939901,
+     "scc_fraction_of_final": 0.43956,
+     "threshold": 0.1,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.865372,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.915273,
+     "scc_fraction_of_final": 0.593407,
+     "threshold": 0.2,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.895689,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.967954,
+     "scc_fraction_of_final": 0.692308,
+     "threshold": 0.3,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.905821,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.985646,
+     "scc_fraction_of_final": 0.725275,
+     "threshold": 0.4,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.960828,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.990955,
+     "scc_fraction_of_final": 0.813187,
+     "threshold": 0.5,
+     "top10_jaccard_to_final": 1.0
+    },
+    {
+     "composite_predictability": 0.96174,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.984526,
+     "scc_fraction_of_final": 0.824176,
+     "threshold": 0.6,
+     "top10_jaccard_to_final": 1.0
+    },
+    {
+     "composite_predictability": 0.940185,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.992633,
+     "scc_fraction_of_final": 0.89011,
+     "threshold": 0.7,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.984162,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.997732,
+     "scc_fraction_of_final": 0.923077,
+     "threshold": 0.8,
+     "top10_jaccard_to_final": 1.0
+    },
+    {
+     "composite_predictability": 0.988398,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.996934,
+     "scc_fraction_of_final": 0.945055,
+     "threshold": 0.9,
+     "top10_jaccard_to_final": 1.0
+    },
+    {
+     "composite_predictability": 1.0,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 1.0,
+     "scc_fraction_of_final": 1.0,
+     "threshold": 1.0,
+     "top10_jaccard_to_final": 1.0
+    }
+   ]
+  },
+  "TRADITION_CANONICAL": {
+   "predictability_at_10pct": 0.925972,
+   "threshold_for_80pct_predictable": 0.01,
+   "trajectory": [
+    {
+     "composite_predictability": 0.824915,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.866834,
+     "scc_fraction_of_final": 0.43956,
+     "threshold": 0.01,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.903896,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.959041,
+     "scc_fraction_of_final": 0.56044,
+     "threshold": 0.05,
+     "top10_jaccard_to_final": 1.0
+    },
+    {
+     "composite_predictability": 0.925972,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.959529,
+     "scc_fraction_of_final": 0.67033,
+     "threshold": 0.1,
+     "top10_jaccard_to_final": 1.0
+    },
+    {
+     "composite_predictability": 0.911009,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.989612,
+     "scc_fraction_of_final": 0.747253,
+     "threshold": 0.2,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.928777,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.990536,
+     "scc_fraction_of_final": 0.835165,
+     "threshold": 0.3,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.937109,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.98824,
+     "scc_fraction_of_final": 0.879121,
+     "threshold": 0.4,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.949565,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.995578,
+     "scc_fraction_of_final": 0.934066,
+     "threshold": 0.5,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.99481,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.996029,
+     "scc_fraction_of_final": 0.978022,
+     "threshold": 0.6,
+     "top10_jaccard_to_final": 1.0
+    },
+    {
+     "composite_predictability": 0.999473,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.997363,
+     "scc_fraction_of_final": 1.0,
+     "threshold": 0.7,
+     "top10_jaccard_to_final": 1.0
+    },
+    {
+     "composite_predictability": 0.963547,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.999553,
+     "scc_fraction_of_final": 1.0,
+     "threshold": 0.8,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.999875,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.999377,
+     "scc_fraction_of_final": 1.0,
+     "threshold": 0.9,
+     "top10_jaccard_to_final": 1.0
+    },
+    {
+     "composite_predictability": 1.0,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 1.0,
+     "scc_fraction_of_final": 1.0,
+     "threshold": 1.0,
+     "top10_jaccard_to_final": 1.0
+    }
+   ]
+  },
+  "TRADITION_MECCAN_MEDINAN": {
+   "predictability_at_10pct": 0.851616,
+   "threshold_for_80pct_predictable": 0.05,
+   "trajectory": [
+    {
+     "composite_predictability": 0.749579,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.720924,
+     "scc_fraction_of_final": 0.208791,
+     "threshold": 0.01,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.818741,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.901897,
+     "scc_fraction_of_final": 0.373626,
+     "threshold": 0.05,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.851616,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.923412,
+     "scc_fraction_of_final": 0.516484,
+     "threshold": 0.1,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.891797,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.959485,
+     "scc_fraction_of_final": 0.681319,
+     "threshold": 0.2,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.896087,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.925991,
+     "scc_fraction_of_final": 0.736264,
+     "threshold": 0.3,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.909753,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.950361,
+     "scc_fraction_of_final": 0.78022,
+     "threshold": 0.4,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.9141,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.95012,
+     "scc_fraction_of_final": 0.802198,
+     "threshold": 0.5,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.929858,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.973967,
+     "scc_fraction_of_final": 0.857143,
+     "threshold": 0.6,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.937222,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.988809,
+     "scc_fraction_of_final": 0.879121,
+     "threshold": 0.7,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 0.992888,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.997407,
+     "scc_fraction_of_final": 0.967033,
+     "threshold": 0.8,
+     "top10_jaccard_to_final": 1.0
+    },
+    {
+     "composite_predictability": 0.95917,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 0.999644,
+     "scc_fraction_of_final": 0.978022,
+     "threshold": 0.9,
+     "top10_jaccard_to_final": 0.818182
+    },
+    {
+     "composite_predictability": 1.0,
+     "consistency_holds": true,
+     "hub_already_rank1": true,
+     "motif_cosine_to_final": 1.0,
+     "scc_fraction_of_final": 1.0,
+     "threshold": 1.0,
+     "top10_jaccard_to_final": 1.0
+    }
+   ]
+  }
+ },
+ "verdict": "how much of the final structure is already implied at each snapshot"
+}

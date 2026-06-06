@@ -1,0 +1,168 @@
+{
+ "method": "phase13-evolution-1.0",
+ "traditions": {
+  "CONTROL": {
+   "final_recognizable_fraction": 0.592233,
+   "half_recognizable_threshold": 0.01,
+   "trajectory": [
+    {
+     "recognizable_fraction": 0.541667,
+     "threshold": 0.01
+    },
+    {
+     "recognizable_fraction": 0.5,
+     "threshold": 0.05
+    },
+    {
+     "recognizable_fraction": 0.535714,
+     "threshold": 0.1
+    },
+    {
+     "recognizable_fraction": 0.633333,
+     "threshold": 0.2
+    },
+    {
+     "recognizable_fraction": 0.621053,
+     "threshold": 0.3
+    },
+    {
+     "recognizable_fraction": 0.639175,
+     "threshold": 0.4
+    },
+    {
+     "recognizable_fraction": 0.587629,
+     "threshold": 0.5
+    },
+    {
+     "recognizable_fraction": 0.608247,
+     "threshold": 0.6
+    },
+    {
+     "recognizable_fraction": 0.591837,
+     "threshold": 0.7
+    },
+    {
+     "recognizable_fraction": 0.626263,
+     "threshold": 0.8
+    },
+    {
+     "recognizable_fraction": 0.594059,
+     "threshold": 0.9
+    },
+    {
+     "recognizable_fraction": 0.592233,
+     "threshold": 1.0
+    }
+   ]
+  },
+  "TRADITION_CANONICAL": {
+   "final_recognizable_fraction": 0.592233,
+   "half_recognizable_threshold": 0.5,
+   "trajectory": [
+    {
+     "recognizable_fraction": 0.303797,
+     "threshold": 0.01
+    },
+    {
+     "recognizable_fraction": 0.282353,
+     "threshold": 0.05
+    },
+    {
+     "recognizable_fraction": 0.337209,
+     "threshold": 0.1
+    },
+    {
+     "recognizable_fraction": 0.382022,
+     "threshold": 0.2
+    },
+    {
+     "recognizable_fraction": 0.446809,
+     "threshold": 0.3
+    },
+    {
+     "recognizable_fraction": 0.484536,
+     "threshold": 0.4
+    },
+    {
+     "recognizable_fraction": 0.505051,
+     "threshold": 0.5
+    },
+    {
+     "recognizable_fraction": 0.534653,
+     "threshold": 0.6
+    },
+    {
+     "recognizable_fraction": 0.554455,
+     "threshold": 0.7
+    },
+    {
+     "recognizable_fraction": 0.568627,
+     "threshold": 0.8
+    },
+    {
+     "recognizable_fraction": 0.592233,
+     "threshold": 0.9
+    },
+    {
+     "recognizable_fraction": 0.592233,
+     "threshold": 1.0
+    }
+   ]
+  },
+  "TRADITION_MECCAN_MEDINAN": {
+   "final_recognizable_fraction": 0.592233,
+   "half_recognizable_threshold": 0.1,
+   "trajectory": [
+    {
+     "recognizable_fraction": 0.433333,
+     "threshold": 0.01
+    },
+    {
+     "recognizable_fraction": 0.418919,
+     "threshold": 0.05
+    },
+    {
+     "recognizable_fraction": 0.522727,
+     "threshold": 0.1
+    },
+    {
+     "recognizable_fraction": 0.516129,
+     "threshold": 0.2
+    },
+    {
+     "recognizable_fraction": 0.547368,
+     "threshold": 0.3
+    },
+    {
+     "recognizable_fraction": 0.561224,
+     "threshold": 0.4
+    },
+    {
+     "recognizable_fraction": 0.612245,
+     "threshold": 0.5
+    },
+    {
+     "recognizable_fraction": 0.632653,
+     "threshold": 0.6
+    },
+    {
+     "recognizable_fraction": 0.656566,
+     "threshold": 0.7
+    },
+    {
+     "recognizable_fraction": 0.62,
+     "threshold": 0.8
+    },
+    {
+     "recognizable_fraction": 0.6,
+     "threshold": 0.9
+    },
+    {
+     "recognizable_fraction": 0.592233,
+     "threshold": 1.0
+    }
+   ]
+  }
+ },
+ "verdict": "fraction of canonical identity anchors recognizable over revelation time"
+}

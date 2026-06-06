@@ -1,0 +1,335 @@
+{
+ "falsification": {
+  "documented_artifacts": [
+   "canonical order is mushaf order, not revelation order",
+   "Meccan/Medinan is a coarse 2-period proxy from corpus metadata",
+   "snapshot graph reconstructs only co-occurrence + positional edges (no future verses), a leakage-free subset of the Phase-4 graph"
+  ],
+  "method": "phase13-evolution-1.0",
+  "tests": [
+   {
+    "claim": "hub emergence is an artifact of canonical order",
+    "evidence": "hub is rank-1 from the first snapshot even under the shuffled control order — it is content-driven (the hub concept saturates the corpus), not order-driven",
+    "result": "FALSIFIED"
+   },
+   {
+    "claim": "consistency is an artifact of a particular order",
+    "evidence": "0 exclusion/positive overlap at every snapshot under every order",
+    "result": "FALSIFIED"
+   },
+   {
+    "claim": "the orderings are a verified historical chronology",
+    "evidence": "no nuzul chronology exists in the corpus; canonical and Meccan/Medinan are accumulation orders, not history — temporal claims are structural, not historical",
+    "result": "ACKNOWLEDGED LIMITATION"
+   }
+  ]
+ },
+ "method": "phase13-evolution-1.0",
+ "robustness": {
+  "consistency_robust_all_traditions": true,
+  "control_consistency_holds": true,
+  "control_hub_rank1_from_start": true,
+  "hub_rank1_from_start_all_traditions": true,
+  "method": "phase13-evolution-1.0",
+  "temporally_robust_findings": [
+   "hub present from start",
+   "consistency holds throughout"
+  ],
+  "traditions_analysed_separately": [
+   "TRADITION_CANONICAL",
+   "TRADITION_MECCAN_MEDINAN"
+  ],
+  "verdict": "findings holding across both traditions AND the control are order-independent"
+ },
+ "traditions": {
+  "CONTROL": {
+   "deltas": [
+    {
+     "d_hub_share": -0.0317,
+     "d_largest_scc": 6,
+     "d_triad_classes": 1,
+     "from": 0.01,
+     "to": 0.05
+    },
+    {
+     "d_hub_share": 0.01488,
+     "d_largest_scc": 21,
+     "d_triad_classes": 6,
+     "from": 0.05,
+     "to": 0.1
+    },
+    {
+     "d_hub_share": -0.009308,
+     "d_largest_scc": 14,
+     "d_triad_classes": 0,
+     "from": 0.1,
+     "to": 0.2
+    },
+    {
+     "d_hub_share": -0.002656,
+     "d_largest_scc": 9,
+     "d_triad_classes": 0,
+     "from": 0.2,
+     "to": 0.3
+    },
+    {
+     "d_hub_share": -0.002988,
+     "d_largest_scc": 3,
+     "d_triad_classes": 1,
+     "from": 0.3,
+     "to": 0.4
+    },
+    {
+     "d_hub_share": 0.002929,
+     "d_largest_scc": 8,
+     "d_triad_classes": -1,
+     "from": 0.4,
+     "to": 0.5
+    },
+    {
+     "d_hub_share": -0.003837,
+     "d_largest_scc": 1,
+     "d_triad_classes": 0,
+     "from": 0.5,
+     "to": 0.6
+    },
+    {
+     "d_hub_share": -0.00049,
+     "d_largest_scc": 6,
+     "d_triad_classes": 1,
+     "from": 0.6,
+     "to": 0.7
+    },
+    {
+     "d_hub_share": -0.004486,
+     "d_largest_scc": 3,
+     "d_triad_classes": 0,
+     "from": 0.7,
+     "to": 0.8
+    },
+    {
+     "d_hub_share": 0.002793,
+     "d_largest_scc": 2,
+     "d_triad_classes": 0,
+     "from": 0.8,
+     "to": 0.9
+    },
+    {
+     "d_hub_share": 0.002901,
+     "d_largest_scc": 5,
+     "d_triad_classes": -1,
+     "from": 0.9,
+     "to": 1.0
+    }
+   ],
+   "growth_pattern": "front-loaded (most structure early)",
+   "largest_class_jump": {
+    "d_hub_share": 0.01488,
+    "d_largest_scc": 21,
+    "d_triad_classes": 6,
+    "from": 0.05,
+    "to": 0.1
+   },
+   "largest_scc_jump": {
+    "d_hub_share": 0.01488,
+    "d_largest_scc": 21,
+    "d_triad_classes": 6,
+    "from": 0.05,
+    "to": 0.1
+   }
+  },
+  "TRADITION_CANONICAL": {
+   "deltas": [
+    {
+     "d_hub_share": 0.0,
+     "d_largest_scc": 11,
+     "d_triad_classes": 1,
+     "from": 0.01,
+     "to": 0.05
+    },
+    {
+     "d_hub_share": 0.0,
+     "d_largest_scc": 10,
+     "d_triad_classes": -1,
+     "from": 0.05,
+     "to": 0.1
+    },
+    {
+     "d_hub_share": -0.001623,
+     "d_largest_scc": 7,
+     "d_triad_classes": 1,
+     "from": 0.1,
+     "to": 0.2
+    },
+    {
+     "d_hub_share": -0.002592,
+     "d_largest_scc": 8,
+     "d_triad_classes": -1,
+     "from": 0.2,
+     "to": 0.3
+    },
+    {
+     "d_hub_share": -0.000635,
+     "d_largest_scc": 4,
+     "d_triad_classes": 0,
+     "from": 0.3,
+     "to": 0.4
+    },
+    {
+     "d_hub_share": -0.004045,
+     "d_largest_scc": 5,
+     "d_triad_classes": 0,
+     "from": 0.4,
+     "to": 0.5
+    },
+    {
+     "d_hub_share": 0.000761,
+     "d_largest_scc": 4,
+     "d_triad_classes": 0,
+     "from": 0.5,
+     "to": 0.6
+    },
+    {
+     "d_hub_share": -0.002103,
+     "d_largest_scc": 2,
+     "d_triad_classes": 0,
+     "from": 0.6,
+     "to": 0.7
+    },
+    {
+     "d_hub_share": -0.009232,
+     "d_largest_scc": 0,
+     "d_triad_classes": 0,
+     "from": 0.7,
+     "to": 0.8
+    },
+    {
+     "d_hub_share": -0.003378,
+     "d_largest_scc": 0,
+     "d_triad_classes": 0,
+     "from": 0.8,
+     "to": 0.9
+    },
+    {
+     "d_hub_share": -0.009115,
+     "d_largest_scc": 0,
+     "d_triad_classes": 0,
+     "from": 0.9,
+     "to": 1.0
+    }
+   ],
+   "growth_pattern": "front-loaded (most structure early)",
+   "largest_class_jump": {
+    "d_hub_share": 0.0,
+    "d_largest_scc": 11,
+    "d_triad_classes": 1,
+    "from": 0.01,
+    "to": 0.05
+   },
+   "largest_scc_jump": {
+    "d_hub_share": 0.0,
+    "d_largest_scc": 11,
+    "d_triad_classes": 1,
+    "from": 0.01,
+    "to": 0.05
+   }
+  },
+  "TRADITION_MECCAN_MEDINAN": {
+   "deltas": [
+    {
+     "d_hub_share": -0.005305,
+     "d_largest_scc": 15,
+     "d_triad_classes": 0,
+     "from": 0.01,
+     "to": 0.05
+    },
+    {
+     "d_hub_share": 0.001138,
+     "d_largest_scc": 13,
+     "d_triad_classes": 2,
+     "from": 0.05,
+     "to": 0.1
+    },
+    {
+     "d_hub_share": -0.004192,
+     "d_largest_scc": 15,
+     "d_triad_classes": 1,
+     "from": 0.1,
+     "to": 0.2
+    },
+    {
+     "d_hub_share": -0.00579,
+     "d_largest_scc": 5,
+     "d_triad_classes": -1,
+     "from": 0.2,
+     "to": 0.3
+    },
+    {
+     "d_hub_share": 0.001889,
+     "d_largest_scc": 4,
+     "d_triad_classes": 0,
+     "from": 0.3,
+     "to": 0.4
+    },
+    {
+     "d_hub_share": -0.002133,
+     "d_largest_scc": 2,
+     "d_triad_classes": 1,
+     "from": 0.4,
+     "to": 0.5
+    },
+    {
+     "d_hub_share": -0.003213,
+     "d_largest_scc": 5,
+     "d_triad_classes": 0,
+     "from": 0.5,
+     "to": 0.6
+    },
+    {
+     "d_hub_share": -0.011152,
+     "d_largest_scc": 2,
+     "d_triad_classes": 0,
+     "from": 0.6,
+     "to": 0.7
+    },
+    {
+     "d_hub_share": -0.002247,
+     "d_largest_scc": 8,
+     "d_triad_classes": -1,
+     "from": 0.7,
+     "to": 0.8
+    },
+    {
+     "d_hub_share": 0.003056,
+     "d_largest_scc": 1,
+     "d_triad_classes": 0,
+     "from": 0.8,
+     "to": 0.9
+    },
+    {
+     "d_hub_share": -0.004013,
+     "d_largest_scc": 2,
+     "d_triad_classes": 0,
+     "from": 0.9,
+     "to": 1.0
+    }
+   ],
+   "growth_pattern": "front-loaded (most structure early)",
+   "largest_class_jump": {
+    "d_hub_share": 0.001138,
+    "d_largest_scc": 13,
+    "d_triad_classes": 2,
+    "from": 0.05,
+    "to": 0.1
+   },
+   "largest_scc_jump": {
+    "d_hub_share": -0.005305,
+    "d_largest_scc": 15,
+    "d_triad_classes": 0,
+    "from": 0.01,
+    "to": 0.05
+   }
+  }
+ },
+ "verdict": "abrupt growth events detected via consecutive-snapshot deltas"
+}

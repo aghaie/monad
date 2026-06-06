@@ -1,0 +1,207 @@
+{
+ "method": "phase13-evolution-1.0",
+ "traditions": {
+  "CONTROL": {
+   "consistent_from_start": true,
+   "ever_inconsistent": false,
+   "max_overlap": 0,
+   "trajectory": [
+    {
+     "exclusion_pairs": 0,
+     "overlap": 0,
+     "threshold": 0.01
+    },
+    {
+     "exclusion_pairs": 0,
+     "overlap": 0,
+     "threshold": 0.05
+    },
+    {
+     "exclusion_pairs": 0,
+     "overlap": 0,
+     "threshold": 0.1
+    },
+    {
+     "exclusion_pairs": 9,
+     "overlap": 0,
+     "threshold": 0.2
+    },
+    {
+     "exclusion_pairs": 55,
+     "overlap": 0,
+     "threshold": 0.3
+    },
+    {
+     "exclusion_pairs": 104,
+     "overlap": 0,
+     "threshold": 0.4
+    },
+    {
+     "exclusion_pairs": 103,
+     "overlap": 0,
+     "threshold": 0.5
+    },
+    {
+     "exclusion_pairs": 167,
+     "overlap": 0,
+     "threshold": 0.6
+    },
+    {
+     "exclusion_pairs": 275,
+     "overlap": 0,
+     "threshold": 0.7
+    },
+    {
+     "exclusion_pairs": 289,
+     "overlap": 0,
+     "threshold": 0.8
+    },
+    {
+     "exclusion_pairs": 383,
+     "overlap": 0,
+     "threshold": 0.9
+    },
+    {
+     "exclusion_pairs": 401,
+     "overlap": 0,
+     "threshold": 1.0
+    }
+   ]
+  },
+  "TRADITION_CANONICAL": {
+   "consistent_from_start": true,
+   "ever_inconsistent": false,
+   "max_overlap": 0,
+   "trajectory": [
+    {
+     "exclusion_pairs": 0,
+     "overlap": 0,
+     "threshold": 0.01
+    },
+    {
+     "exclusion_pairs": 0,
+     "overlap": 0,
+     "threshold": 0.05
+    },
+    {
+     "exclusion_pairs": 2,
+     "overlap": 0,
+     "threshold": 0.1
+    },
+    {
+     "exclusion_pairs": 31,
+     "overlap": 0,
+     "threshold": 0.2
+    },
+    {
+     "exclusion_pairs": 141,
+     "overlap": 0,
+     "threshold": 0.3
+    },
+    {
+     "exclusion_pairs": 237,
+     "overlap": 0,
+     "threshold": 0.4
+    },
+    {
+     "exclusion_pairs": 264,
+     "overlap": 0,
+     "threshold": 0.5
+    },
+    {
+     "exclusion_pairs": 269,
+     "overlap": 0,
+     "threshold": 0.6
+    },
+    {
+     "exclusion_pairs": 304,
+     "overlap": 0,
+     "threshold": 0.7
+    },
+    {
+     "exclusion_pairs": 372,
+     "overlap": 0,
+     "threshold": 0.8
+    },
+    {
+     "exclusion_pairs": 365,
+     "overlap": 0,
+     "threshold": 0.9
+    },
+    {
+     "exclusion_pairs": 401,
+     "overlap": 0,
+     "threshold": 1.0
+    }
+   ]
+  },
+  "TRADITION_MECCAN_MEDINAN": {
+   "consistent_from_start": true,
+   "ever_inconsistent": false,
+   "max_overlap": 0,
+   "trajectory": [
+    {
+     "exclusion_pairs": 0,
+     "overlap": 0,
+     "threshold": 0.01
+    },
+    {
+     "exclusion_pairs": 0,
+     "overlap": 0,
+     "threshold": 0.05
+    },
+    {
+     "exclusion_pairs": 4,
+     "overlap": 0,
+     "threshold": 0.1
+    },
+    {
+     "exclusion_pairs": 13,
+     "overlap": 0,
+     "threshold": 0.2
+    },
+    {
+     "exclusion_pairs": 40,
+     "overlap": 0,
+     "threshold": 0.3
+    },
+    {
+     "exclusion_pairs": 59,
+     "overlap": 0,
+     "threshold": 0.4
+    },
+    {
+     "exclusion_pairs": 82,
+     "overlap": 0,
+     "threshold": 0.5
+    },
+    {
+     "exclusion_pairs": 120,
+     "overlap": 0,
+     "threshold": 0.6
+    },
+    {
+     "exclusion_pairs": 144,
+     "overlap": 0,
+     "threshold": 0.7
+    },
+    {
+     "exclusion_pairs": 256,
+     "overlap": 0,
+     "threshold": 0.8
+    },
+    {
+     "exclusion_pairs": 344,
+     "overlap": 0,
+     "threshold": 0.9
+    },
+    {
+     "exclusion_pairs": 401,
+     "overlap": 0,
+     "threshold": 1.0
+    }
+   ]
+  }
+ },
+ "verdict": "consistency (0 overlap) holds at every snapshot in every order"
+}

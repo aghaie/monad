@@ -1,0 +1,80 @@
+{
+ "constants": {
+  "ASYM_MIN": 0.3,
+  "MARGINAL_MIN": 30,
+  "NPMI_MIN": 0.2,
+  "ORDER_SUP": 10,
+  "REQ_CONF": 0.9,
+  "ROUND": 6,
+  "SEED": 20261313,
+  "SUPPORT_MIN": 5,
+  "THRESHOLDS": [
+   0.01,
+   0.05,
+   0.1,
+   0.2,
+   0.3,
+   0.4,
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   1.0
+  ]
+ },
+ "control_order_sha256": "5365a806c3289e91e73fb6c5a4c45f97c5d6fa58d493cbf5afa28a58dab7deed",
+ "input_sha256": {
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "dominant_roots.json": "b0436631d85f79206e9e7254f86215c88003a5d8313e071143c9df27b5114120",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "phase13-evolution-1.0",
+ "output_bytes": {
+  "consistency_evolution.json": 3520,
+  "hub_evolution.json": 3931,
+  "identity_evolution.json": 3246,
+  "motif_evolution.json": 3848,
+  "phase_transitions.json": 7225,
+  "predictability_analysis.json": 10036,
+  "scc_evolution.json": 3940,
+  "snapshot_statistics.json": 21306
+ },
+ "prohibitions_observed": [
+  "no theology",
+  "no tafsir",
+  "no translation",
+  "no divine origin inferred",
+  "no human origin inferred",
+  "no historical-event interpretation",
+  "no future verses used in earlier snapshots (no leakage)",
+  "no significance without statistical evidence",
+  "no external chronology imported",
+  "revelation-order traditions analysed separately",
+  "orderings documented and hashed",
+  "prior phases never rebuilt"
+ ],
+ "revelation_order_traditions": {
+  "TRADITION_CANONICAL": {
+   "description": "mushaf (compiled-text) order, surahs 1..114",
+   "order_sha256": "6c82b0d6bc66645697f54988088873755495fab2243566265fc0f5dc96bb5f6d"
+  },
+  "TRADITION_MECCAN_MEDINAN": {
+   "description": "corpus revelation_type: Meccan then Medinan (canonical within)",
+   "order_sha256": "6ad78b486acda435305c18d2aaa91d7e39f526a971a7671d3b307ca4d867fa7f"
+  }
+ },
+ "totals": {
+  "consistency_robust": true,
+  "hub_rank1_from_start_all": true,
+  "hub_rank1_from_start_canonical": true,
+  "motif_stabilization_canonical": 0.05,
+  "n_traditions": 2,
+  "predictability_at_10pct_canonical": 0.925972,
+  "temporally_robust_findings": [
+   "hub present from start",
+   "consistency holds throughout"
+  ],
+  "total_ayahs": 6101
+ }
+}
