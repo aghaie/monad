@@ -1,0 +1,1016 @@
+{
+ "concepts": {
+  "CONCEPT_001": {
+   "coherence_score": 0.056413,
+   "consistency_score": 0.967641,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.902923,
+   "stability_score": 0.970588
+  },
+  "CONCEPT_002": {
+   "coherence_score": 0.057043,
+   "consistency_score": 0.974338,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.923013,
+   "stability_score": 0.776515
+  },
+  "CONCEPT_003": {
+   "coherence_score": 0.067502,
+   "consistency_score": 0.981869,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.945607,
+   "stability_score": 0.953125
+  },
+  "CONCEPT_004": {
+   "coherence_score": 0.065422,
+   "consistency_score": 0.9761,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.928299,
+   "stability_score": 0.951613
+  },
+  "CONCEPT_005": {
+   "coherence_score": 0.08481,
+   "consistency_score": 0.97284,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.918519,
+   "stability_score": 0.807692
+  },
+  "CONCEPT_006": {
+   "coherence_score": 0.076038,
+   "consistency_score": 0.977273,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.931818,
+   "stability_score": 0.666429
+  },
+  "CONCEPT_007": {
+   "coherence_score": 0.100155,
+   "consistency_score": 0.986395,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.959184,
+   "stability_score": 0.395833
+  },
+  "CONCEPT_008": {
+   "coherence_score": 0.094085,
+   "consistency_score": 0.975465,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.926396,
+   "stability_score": 1.0
+  },
+  "CONCEPT_009": {
+   "coherence_score": 0.139504,
+   "consistency_score": 0.986979,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.960938,
+   "stability_score": 0.842262
+  },
+  "CONCEPT_010": {
+   "coherence_score": 0.184643,
+   "consistency_score": 0.980303,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.940909,
+   "stability_score": 0.638889
+  },
+  "CONCEPT_011": {
+   "coherence_score": 0.121521,
+   "consistency_score": 0.638528,
+   "identity_survives": false,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.915584,
+   "stability_score": 0.727778
+  },
+  "CONCEPT_012": {
+   "coherence_score": 0.111408,
+   "consistency_score": 0.974576,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.923729,
+   "stability_score": 0.845238
+  },
+  "CONCEPT_013": {
+   "coherence_score": 0.079887,
+   "consistency_score": 0.969435,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.908304,
+   "stability_score": 0.941176
+  },
+  "CONCEPT_014": {
+   "coherence_score": 0.234376,
+   "consistency_score": 0.973958,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.921875,
+   "stability_score": 0.9375
+  },
+  "CONCEPT_015": {
+   "coherence_score": 0.192194,
+   "consistency_score": 0.962775,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.888325,
+   "stability_score": 0.889803
+  },
+  "CONCEPT_016": {
+   "coherence_score": 0.093477,
+   "consistency_score": 0.978504,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.935512,
+   "stability_score": 0.90625
+  },
+  "CONCEPT_017": {
+   "coherence_score": 0.083946,
+   "consistency_score": 0.962963,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.888889,
+   "stability_score": 0.741176
+  },
+  "CONCEPT_018": {
+   "coherence_score": 0.121579,
+   "consistency_score": 0.973118,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.919355,
+   "stability_score": 0.755128
+  },
+  "CONCEPT_019": {
+   "coherence_score": 0.210196,
+   "consistency_score": 0.982667,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.948,
+   "stability_score": 0.857143
+  },
+  "CONCEPT_020": {
+   "coherence_score": 0.199189,
+   "consistency_score": 0.977451,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.932353,
+   "stability_score": 0.964286
+  },
+  "CONCEPT_021": {
+   "coherence_score": 0.441248,
+   "consistency_score": 0.975758,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.927273,
+   "stability_score": 0.495037
+  },
+  "CONCEPT_022": {
+   "coherence_score": 0.135289,
+   "consistency_score": 0.97505,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.92515,
+   "stability_score": 0.884615
+  },
+  "CONCEPT_023": {
+   "coherence_score": 0.131437,
+   "consistency_score": 0.970085,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.910256,
+   "stability_score": 0.923077
+  },
+  "CONCEPT_024": {
+   "coherence_score": 0.128817,
+   "consistency_score": 0.973451,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.920354,
+   "stability_score": 0.878205
+  },
+  "CONCEPT_025": {
+   "coherence_score": 0.168361,
+   "consistency_score": 0.960452,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.881356,
+   "stability_score": 0.878205
+  },
+  "CONCEPT_026": {
+   "coherence_score": 0.151783,
+   "consistency_score": 0.977431,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.932292,
+   "stability_score": 0.958333
+  },
+  "CONCEPT_027": {
+   "coherence_score": 0.181083,
+   "consistency_score": 0.988971,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.966912,
+   "stability_score": 0.909091
+  },
+  "CONCEPT_028": {
+   "coherence_score": 0.178938,
+   "consistency_score": 0.970657,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.911972,
+   "stability_score": 0.82197
+  },
+  "CONCEPT_029": {
+   "coherence_score": 0.142123,
+   "consistency_score": 0.965278,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.895833,
+   "stability_score": 0.592308
+  },
+  "CONCEPT_030": {
+   "coherence_score": 0.209041,
+   "consistency_score": 0.965549,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.896648,
+   "stability_score": 0.866667
+  },
+  "CONCEPT_031": {
+   "coherence_score": 0.122671,
+   "consistency_score": 0.869565,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.608696,
+   "stability_score": 0.654545
+  },
+  "CONCEPT_032": {
+   "coherence_score": 0.140119,
+   "consistency_score": 0.978667,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.936,
+   "stability_score": 0.819444
+  },
+  "CONCEPT_033": {
+   "coherence_score": 0.20119,
+   "consistency_score": 0.967354,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.902062,
+   "stability_score": 0.95
+  },
+  "CONCEPT_034": {
+   "coherence_score": 0.141361,
+   "consistency_score": 0.978846,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.936538,
+   "stability_score": 1.0
+  },
+  "CONCEPT_035": {
+   "coherence_score": 0.199343,
+   "consistency_score": 0.975833,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.9275,
+   "stability_score": 0.738636
+  },
+  "CONCEPT_036": {
+   "coherence_score": 0.336578,
+   "consistency_score": 0.963907,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.89172,
+   "stability_score": 0.863636
+  },
+  "CONCEPT_037": {
+   "coherence_score": 0.160083,
+   "consistency_score": 0.980072,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.940217,
+   "stability_score": 0.35
+  },
+  "CONCEPT_038": {
+   "coherence_score": 0.265179,
+   "consistency_score": 0.957071,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.871212,
+   "stability_score": 1.0
+  },
+  "CONCEPT_039": {
+   "coherence_score": 0.21451,
+   "consistency_score": 0.958333,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.875,
+   "stability_score": 0.247519
+  },
+  "CONCEPT_040": {
+   "coherence_score": 0.26752,
+   "consistency_score": 0.963333,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.89,
+   "stability_score": 0.928571
+  },
+  "CONCEPT_041": {
+   "coherence_score": 0.144414,
+   "consistency_score": 0.666667,
+   "identity_survives": false,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.857143
+  },
+  "CONCEPT_042": {
+   "coherence_score": 0.265462,
+   "consistency_score": 0.962687,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.88806,
+   "stability_score": 0.888889
+  },
+  "CONCEPT_043": {
+   "coherence_score": 0.148372,
+   "consistency_score": 0.666667,
+   "identity_survives": false,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.81746
+  },
+  "CONCEPT_044": {
+   "coherence_score": 0.21717,
+   "consistency_score": 0.969586,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.908759,
+   "stability_score": 0.674603
+  },
+  "CONCEPT_045": {
+   "coherence_score": 0.220613,
+   "consistency_score": 0.940741,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.822222,
+   "stability_score": 0.857143
+  },
+  "CONCEPT_046": {
+   "coherence_score": 0.293118,
+   "consistency_score": 0.960784,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.882353,
+   "stability_score": 0.928571
+  },
+  "CONCEPT_047": {
+   "coherence_score": 0.237344,
+   "consistency_score": 0.986559,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.959677,
+   "stability_score": 0.916667
+  },
+  "CONCEPT_048": {
+   "coherence_score": 0.258408,
+   "consistency_score": 0.964646,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.893939,
+   "stability_score": 0.212159
+  },
+  "CONCEPT_049": {
+   "coherence_score": 0.269331,
+   "consistency_score": 0.981575,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.944724,
+   "stability_score": 0.7
+  },
+  "CONCEPT_050": {
+   "coherence_score": 0.214181,
+   "consistency_score": 0.965732,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.897196,
+   "stability_score": 0.791667
+  },
+  "CONCEPT_051": {
+   "coherence_score": 0.212987,
+   "consistency_score": 0.9,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.7,
+   "stability_score": 0.5
+  },
+  "CONCEPT_052": {
+   "coherence_score": 0.238029,
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 1.0
+  },
+  "CONCEPT_053": {
+   "coherence_score": 0.211514,
+   "consistency_score": 0.976584,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.929752,
+   "stability_score": 1.0
+  },
+  "CONCEPT_054": {
+   "coherence_score": 0.316779,
+   "consistency_score": 0.946759,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.840278,
+   "stability_score": 1.0
+  },
+  "CONCEPT_055": {
+   "coherence_score": 0.220668,
+   "consistency_score": 0.955882,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.867647,
+   "stability_score": 1.0
+  },
+  "CONCEPT_056": {
+   "coherence_score": 0.28659,
+   "consistency_score": 0.984848,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.954545,
+   "stability_score": 0.916667
+  },
+  "CONCEPT_057": {
+   "coherence_score": 0.222031,
+   "consistency_score": 0.833333,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.5,
+   "stability_score": 0.412698
+  },
+  "CONCEPT_058": {
+   "coherence_score": 0.359898,
+   "consistency_score": 0.932171,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.796512,
+   "stability_score": 1.0
+  },
+  "CONCEPT_059": {
+   "coherence_score": 0.306927,
+   "consistency_score": 0.960784,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.882353,
+   "stability_score": 0.9
+  },
+  "CONCEPT_060": {
+   "coherence_score": 0.279664,
+   "consistency_score": 0.974456,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.923367,
+   "stability_score": 0.9
+  },
+  "CONCEPT_061": {
+   "coherence_score": 0.240408,
+   "consistency_score": 0.976815,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.930444,
+   "stability_score": 1.0
+  },
+  "CONCEPT_062": {
+   "coherence_score": 0.45203,
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.7125
+  },
+  "CONCEPT_063": {
+   "coherence_score": 0.595769,
+   "consistency_score": 0.97992,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.939759,
+   "stability_score": 0.535714
+  },
+  "CONCEPT_064": {
+   "coherence_score": 0.358686,
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.5
+  },
+  "CONCEPT_065": {
+   "coherence_score": 0.314833,
+   "consistency_score": 0.944444,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.833333,
+   "stability_score": 0.75
+  },
+  "CONCEPT_066": {
+   "coherence_score": 0.549079,
+   "consistency_score": 0.904762,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.714286,
+   "stability_score": 1.0
+  },
+  "CONCEPT_067": {
+   "coherence_score": 0.4596,
+   "consistency_score": 0.978102,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.934307,
+   "stability_score": 0.727273
+  },
+  "CONCEPT_068": {
+   "coherence_score": 0.222107,
+   "consistency_score": 0.833333,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.5,
+   "stability_score": 0.416667
+  },
+  "CONCEPT_069": {
+   "coherence_score": 0.401977,
+   "consistency_score": 0.949275,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.847826,
+   "stability_score": 0.533333
+  },
+  "CONCEPT_070": {
+   "coherence_score": 0.289313,
+   "consistency_score": 0.955556,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.866667,
+   "stability_score": 0.916667
+  },
+  "CONCEPT_071": {
+   "coherence_score": 0.375015,
+   "consistency_score": 0.991026,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.973077,
+   "stability_score": 0.9
+  },
+  "CONCEPT_072": {
+   "coherence_score": 0.393598,
+   "consistency_score": 0.963168,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.889503,
+   "stability_score": 1.0
+  },
+  "CONCEPT_073": {
+   "coherence_score": 0.340042,
+   "consistency_score": 0.982517,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.947552,
+   "stability_score": 0.538462
+  },
+  "CONCEPT_074": {
+   "coherence_score": 0.340484,
+   "consistency_score": 0.984375,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.953125,
+   "stability_score": 0.571429
+  },
+  "CONCEPT_075": {
+   "coherence_score": 0.351438,
+   "consistency_score": 0.931818,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.795455,
+   "stability_score": 0.5
+  },
+  "CONCEPT_076": {
+   "coherence_score": 0.30223,
+   "consistency_score": 0.992063,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.97619,
+   "stability_score": 0.564516
+  },
+  "CONCEPT_077": {
+   "coherence_score": 0.338696,
+   "consistency_score": 0.871795,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.615385,
+   "stability_score": 0.617647
+  },
+  "CONCEPT_078": {
+   "coherence_score": 0.462994,
+   "consistency_score": 0.975439,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.926316,
+   "stability_score": 0.514286
+  },
+  "CONCEPT_079": {
+   "coherence_score": 0.309049,
+   "consistency_score": 0.924603,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.77381,
+   "stability_score": 1.0
+  },
+  "CONCEPT_080": {
+   "coherence_score": 0.443664,
+   "consistency_score": 0.992537,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.977612,
+   "stability_score": 0.545455
+  },
+  "CONCEPT_081": {
+   "coherence_score": 0.442103,
+   "consistency_score": 0.979616,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.938849,
+   "stability_score": 1.0
+  },
+  "CONCEPT_082": {
+   "coherence_score": 0.508205,
+   "consistency_score": 0.905797,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.717391,
+   "stability_score": 0.5
+  },
+  "CONCEPT_083": {
+   "coherence_score": 0.497021,
+   "consistency_score": 0.966967,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.900901,
+   "stability_score": 1.0
+  },
+  "CONCEPT_084": {
+   "coherence_score": 0.317271,
+   "consistency_score": 0.976449,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.929348,
+   "stability_score": 1.0
+  },
+  "CONCEPT_085": {
+   "coherence_score": 0.308849,
+   "consistency_score": 0.981173,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.943519,
+   "stability_score": 1.0
+  },
+  "CONCEPT_086": {
+   "coherence_score": 0.311731,
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.438462
+  },
+  "CONCEPT_087": {
+   "coherence_score": 0.340286,
+   "consistency_score": 0.964646,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.893939,
+   "stability_score": 0.533333
+  },
+  "CONCEPT_088": {
+   "coherence_score": 0.304786,
+   "consistency_score": 0.979506,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.938517,
+   "stability_score": 1.0
+  },
+  "CONCEPT_089": {
+   "coherence_score": 0.394148,
+   "consistency_score": 0.960648,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.881944,
+   "stability_score": 1.0
+  },
+  "CONCEPT_090": {
+   "coherence_score": 0.365545,
+   "consistency_score": 0.97619,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.928571,
+   "stability_score": 1.0
+  },
+  "CONCEPT_091": {
+   "coherence_score": 0.565832,
+   "consistency_score": 0.985243,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.955729,
+   "stability_score": 1.0
+  },
+  "CONCEPT_092": {
+   "coherence_score": 0.370095,
+   "consistency_score": 0.880952,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.642857,
+   "stability_score": 0.833333
+  },
+  "CONCEPT_093": {
+   "coherence_score": 0.321301,
+   "consistency_score": 0.919048,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.757143,
+   "stability_score": 0.574074
+  },
+  "CONCEPT_094": {
+   "coherence_score": 0.307863,
+   "consistency_score": 0.973684,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.921053,
+   "stability_score": 0.5
+  },
+  "CONCEPT_095": {
+   "coherence_score": 0.661586,
+   "consistency_score": 0.981481,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.944444,
+   "stability_score": 0.9
+  },
+  "CONCEPT_096": {
+   "coherence_score": 0.341751,
+   "consistency_score": 0.928571,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.785714,
+   "stability_score": 0.9
+  },
+  "CONCEPT_097": {
+   "coherence_score": 0.292954,
+   "consistency_score": 0.983871,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.951613,
+   "stability_score": 0.466667
+  },
+  "CONCEPT_098": {
+   "coherence_score": 0.343909,
+   "consistency_score": 0.985185,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.955556,
+   "stability_score": 0.571429
+  },
+  "CONCEPT_099": {
+   "coherence_score": 0.437109,
+   "consistency_score": 0.957944,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.873832,
+   "stability_score": 1.0
+  },
+  "CONCEPT_100": {
+   "coherence_score": 0.301803,
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.9
+  },
+  "CONCEPT_101": {
+   "coherence_score": 0.302618,
+   "consistency_score": 0.92,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.76,
+   "stability_score": 0.525
+  },
+  "CONCEPT_102": {
+   "coherence_score": 0.254588,
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.5
+  },
+  "CONCEPT_103": {
+   "coherence_score": 0.407366,
+   "consistency_score": 0.956522,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.869565,
+   "stability_score": 0.535714
+  }
+ },
+ "definition": "consistency_score = mean(incident-relation stability, no-surviving-conflict=1, identity-survives); stability_score = Phase-3 cluster stability; coherence_score = Phase-7 identity HHI.",
+ "global_consistency_index": 0.954508,
+ "least_stable_concepts": [
+  {
+   "coherence_score": 0.121521,
+   "concept_id": "CONCEPT_011",
+   "consistency_score": 0.638528,
+   "identity_survives": false,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.915584,
+   "stability_score": 0.727778
+  },
+  {
+   "coherence_score": 0.148372,
+   "concept_id": "CONCEPT_043",
+   "consistency_score": 0.666667,
+   "identity_survives": false,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.81746
+  },
+  {
+   "coherence_score": 0.144414,
+   "concept_id": "CONCEPT_041",
+   "consistency_score": 0.666667,
+   "identity_survives": false,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.857143
+  },
+  {
+   "coherence_score": 0.222031,
+   "concept_id": "CONCEPT_057",
+   "consistency_score": 0.833333,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.5,
+   "stability_score": 0.412698
+  },
+  {
+   "coherence_score": 0.222107,
+   "concept_id": "CONCEPT_068",
+   "consistency_score": 0.833333,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.5,
+   "stability_score": 0.416667
+  },
+  {
+   "coherence_score": 0.122671,
+   "concept_id": "CONCEPT_031",
+   "consistency_score": 0.869565,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.608696,
+   "stability_score": 0.654545
+  },
+  {
+   "coherence_score": 0.338696,
+   "concept_id": "CONCEPT_077",
+   "consistency_score": 0.871795,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.615385,
+   "stability_score": 0.617647
+  },
+  {
+   "coherence_score": 0.370095,
+   "concept_id": "CONCEPT_092",
+   "consistency_score": 0.880952,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.642857,
+   "stability_score": 0.833333
+  },
+  {
+   "coherence_score": 0.212987,
+   "concept_id": "CONCEPT_051",
+   "consistency_score": 0.9,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.7,
+   "stability_score": 0.5
+  },
+  {
+   "coherence_score": 0.549079,
+   "concept_id": "CONCEPT_066",
+   "consistency_score": 0.904762,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.714286,
+   "stability_score": 1.0
+  }
+ ],
+ "mean_stability": 0.777902,
+ "method": "phase10-consistency-1.0",
+ "most_stable_concepts": [
+  {
+   "coherence_score": 0.238029,
+   "concept_id": "CONCEPT_052",
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 1.0
+  },
+  {
+   "coherence_score": 0.301803,
+   "concept_id": "CONCEPT_100",
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.9
+  },
+  {
+   "coherence_score": 0.45203,
+   "concept_id": "CONCEPT_062",
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.7125
+  },
+  {
+   "coherence_score": 0.358686,
+   "concept_id": "CONCEPT_064",
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.5
+  },
+  {
+   "coherence_score": 0.254588,
+   "concept_id": "CONCEPT_102",
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.5
+  },
+  {
+   "coherence_score": 0.311731,
+   "concept_id": "CONCEPT_086",
+   "consistency_score": 1.0,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 1.0,
+   "stability_score": 0.438462
+  },
+  {
+   "coherence_score": 0.443664,
+   "concept_id": "CONCEPT_080",
+   "consistency_score": 0.992537,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.977612,
+   "stability_score": 0.545455
+  },
+  {
+   "coherence_score": 0.30223,
+   "concept_id": "CONCEPT_076",
+   "consistency_score": 0.992063,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.97619,
+   "stability_score": 0.564516
+  },
+  {
+   "coherence_score": 0.375015,
+   "concept_id": "CONCEPT_071",
+   "consistency_score": 0.991026,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.973077,
+   "stability_score": 0.9
+  },
+  {
+   "coherence_score": 0.181083,
+   "concept_id": "CONCEPT_027",
+   "consistency_score": 0.988971,
+   "identity_survives": true,
+   "in_surviving_contradiction": false,
+   "proposition_stability": 0.966912,
+   "stability_score": 0.909091
+  }
+ ]
+}

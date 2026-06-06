@@ -1,0 +1,36 @@
+{
+ "genuine_identity_inversions": [],
+ "identity_instability_candidates": [
+  {
+   "anchor": "نصح",
+   "concept_id": "CONCEPT_011",
+   "falsification": "anchor appears in a minority of signature ayahs but >0% — identity instability, not inversion; the concept makes no universal self-claim that M violates.",
+   "falsification_pressure": 0.507647,
+   "genuine_inversion": false,
+   "rule": "identity_instability",
+   "tier": "weak"
+  },
+  {
+   "anchor": "حدب",
+   "concept_id": "CONCEPT_041",
+   "falsification": "anchor appears in a minority of signature ayahs but >0% — identity instability, not inversion; the concept makes no universal self-claim that M violates.",
+   "falsification_pressure": 0.666667,
+   "genuine_inversion": false,
+   "rule": "identity_instability",
+   "tier": "weak"
+  },
+  {
+   "anchor": "رفد",
+   "concept_id": "CONCEPT_043",
+   "falsification": "anchor appears in a minority of signature ayahs but >0% — identity instability, not inversion; the concept makes no universal self-claim that M violates.",
+   "falsification_pressure": 0.595238,
+   "genuine_inversion": false,
+   "rule": "identity_instability",
+   "tier": "weak"
+  }
+ ],
+ "method": "phase10-consistency-1.0",
+ "n_genuine_inversions": 0,
+ "n_instability_candidates": 3,
+ "verdict": "0 genuine identity contradictions; 3 instability candidates (falsified)"
+}

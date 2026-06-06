@@ -1,0 +1,187 @@
+{
+ "canonical_largest_scc": 94,
+ "canonical_top_motif_code": "010111",
+ "canonical_triad_classes": 13,
+ "method": "phase11-validation-1.0",
+ "regimes": {
+  "edge_removal": {
+   "10pct": {
+    "hub_is_top_degree_probability": 1.0,
+    "largest_scc_size": {
+     "ci95_high": 94.0,
+     "ci95_low": 92.0,
+     "max": 94.0,
+     "mean": 93.15,
+     "median": 93.0,
+     "min": 92.0,
+     "n": 20,
+     "std": 0.653835
+    },
+    "level": 0.1,
+    "motifs_for_80pct": {
+     "ci95_high": 5.0,
+     "ci95_low": 5.0,
+     "max": 5.0,
+     "mean": 5.0,
+     "median": 5.0,
+     "min": 5.0,
+     "n": 20,
+     "std": 0.0
+    },
+    "n_triad_classes": {
+     "ci95_high": 13.0,
+     "ci95_low": 13.0,
+     "max": 13.0,
+     "mean": 13.0,
+     "median": 13.0,
+     "min": 13.0,
+     "n": 20,
+     "std": 0.0
+    },
+    "top_motif_unchanged_probability": 0.0
+   },
+   "20pct": {
+    "hub_is_top_degree_probability": 1.0,
+    "largest_scc_size": {
+     "ci95_high": 94.0,
+     "ci95_low": 89.475,
+     "max": 94.0,
+     "mean": 92.25,
+     "median": 93.0,
+     "min": 89.0,
+     "n": 20,
+     "std": 1.25996
+    },
+    "level": 0.2,
+    "motifs_for_80pct": {
+     "ci95_high": 5.0,
+     "ci95_low": 5.0,
+     "max": 5.0,
+     "mean": 5.0,
+     "median": 5.0,
+     "min": 5.0,
+     "n": 20,
+     "std": 0.0
+    },
+    "n_triad_classes": {
+     "ci95_high": 13.0,
+     "ci95_low": 13.0,
+     "max": 13.0,
+     "mean": 13.0,
+     "median": 13.0,
+     "min": 13.0,
+     "n": 20,
+     "std": 0.0
+    },
+    "top_motif_unchanged_probability": 0.0
+   },
+   "5pct": {
+    "hub_is_top_degree_probability": 1.0,
+    "largest_scc_size": {
+     "ci95_high": 94.0,
+     "ci95_low": 93.0,
+     "max": 94.0,
+     "mean": 93.8,
+     "median": 94.0,
+     "min": 93.0,
+     "n": 20,
+     "std": 0.4
+    },
+    "level": 0.05,
+    "motifs_for_80pct": {
+     "ci95_high": 5.0,
+     "ci95_low": 5.0,
+     "max": 5.0,
+     "mean": 5.0,
+     "median": 5.0,
+     "min": 5.0,
+     "n": 20,
+     "std": 0.0
+    },
+    "n_triad_classes": {
+     "ci95_high": 13.0,
+     "ci95_low": 13.0,
+     "max": 13.0,
+     "mean": 13.0,
+     "median": 13.0,
+     "min": 13.0,
+     "n": 20,
+     "std": 0.0
+    },
+    "top_motif_unchanged_probability": 0.5
+   }
+  },
+  "edge_rewiring": {
+   "10pct": {
+    "hub_is_top_degree_probability": 1.0,
+    "largest_scc_size": {
+     "ci95_high": 94.0,
+     "ci95_low": 94.0,
+     "max": 94.0,
+     "mean": 94.0,
+     "median": 94.0,
+     "min": 94.0,
+     "n": 20,
+     "std": 0.0
+    },
+    "level": 0.1,
+    "motifs_for_80pct": {
+     "ci95_high": 6.0,
+     "ci95_low": 5.0,
+     "max": 6.0,
+     "mean": 5.9,
+     "median": 6.0,
+     "min": 5.0,
+     "n": 20,
+     "std": 0.3
+    },
+    "n_triad_classes": {
+     "ci95_high": 13.0,
+     "ci95_low": 13.0,
+     "max": 13.0,
+     "mean": 13.0,
+     "median": 13.0,
+     "min": 13.0,
+     "n": 20,
+     "std": 0.0
+    },
+    "top_motif_unchanged_probability": 0.1
+   },
+   "20pct": {
+    "hub_is_top_degree_probability": 1.0,
+    "largest_scc_size": {
+     "ci95_high": 94.0,
+     "ci95_low": 94.0,
+     "max": 94.0,
+     "mean": 94.0,
+     "median": 94.0,
+     "min": 94.0,
+     "n": 20,
+     "std": 0.0
+    },
+    "level": 0.2,
+    "motifs_for_80pct": {
+     "ci95_high": 6.0,
+     "ci95_low": 6.0,
+     "max": 6.0,
+     "mean": 6.0,
+     "median": 6.0,
+     "min": 6.0,
+     "n": 20,
+     "std": 0.0
+    },
+    "n_triad_classes": {
+     "ci95_high": 13.0,
+     "ci95_low": 13.0,
+     "max": 13.0,
+     "mean": 13.0,
+     "median": 13.0,
+     "min": 13.0,
+     "n": 20,
+     "std": 0.0
+    },
+    "top_motif_unchanged_probability": 0.0
+   }
+  }
+ }
+}

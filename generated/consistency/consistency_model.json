@@ -1,0 +1,38 @@
+{
+ "compatibility_rules": {
+  "structural_compatible": "two structures are compatible unless an explicit contradiction rule fires",
+  "structural_incompatible": "a NECESSITY/STRICT obligation that M cannot satisfy jointly with another obligation"
+ },
+ "constants": {
+  "MARGINAL_MIN": 30,
+  "NECESSITY_CONF": 0.9,
+  "NEG_NPMI": -0.3,
+  "STRICT_ASYM": 0.95
+ },
+ "contradiction_rules": {
+  "C1_necessity_exclusion": "A REQUIRES B and (A,B) in EXCLUSION — impossible.",
+  "C2_double_necessity_exclusion": "A REQUIRES B and A REQUIRES D and (B,D) in EXCLUSION — A forces incompatibles.",
+  "C3_strict_order_antisymmetry": "PRECEDES_strict(A,B) and PRECEDES_strict(B,A).",
+  "C4_strict_order_cycle": "directed cycle of PRECEDES_strict edges — intransitive strict order.",
+  "C5_self_negating_recursion": "a dependency cycle containing an internal EXCLUSION edge.",
+  "C6_identity_inversion": "a concept whose defining anchor appears in 0% of its own activating ayahs."
+ },
+ "ground_truth": "All Phase-4 relations are monotone functions of one per-ayah concept-activation matrix M, reconstructed here by the exact Phase-4/6 rule. Verified: 6101 active ayahs.",
+ "matrix_summary": {
+  "active_ayahs": 6101,
+  "strong_exclusion_pairs": 401,
+  "strong_negative_association_pairs": 401
+ },
+ "method": "phase10-consistency-1.0",
+ "non_contradiction_clauses": [
+  "TENDENCY conflicts (e.g. A DEPENDS_ON B and D with B,D exclusive) are NOT contradictions: DEPENDS_ON asserts P(A|B)>=0.3, not co-presence; A may associate with B and D in different ayahs.",
+  "Mutual dependency / cycles are consistency loops, not contradictions.",
+  "Multiple/overlapping identities and shared anchors are not contradictions."
+ ],
+ "obligation_classes": {
+  "EXCLUSION": "co(A,B) = 0 with both marginals >= 30 — A,B never co-occur.",
+  "NECESSITY": "REQUIRES with confidence >= 0.90 — B present whenever A (universal).",
+  "STRICT_ORDER": "PRECEDES with asymmetry >= 0.95 — A before B, never B before A.",
+  "TENDENCY": "DEPENDS_ON, PREDICTS, CO_OCCURS, ASSOCIATES_WITH, MEDIATES, CONDITIONAL_EMERGES, weak PRECEDES — statistical, NON-obligating; cannot alone produce a contradiction."
+ }
+}

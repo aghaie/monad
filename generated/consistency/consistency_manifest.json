@@ -1,0 +1,56 @@
+{
+ "constants": {
+  "MARGINAL_MIN": 30,
+  "NECESSITY_CONF": 0.9,
+  "NEG_NPMI": -0.3,
+  "ROUND": 6,
+  "STRICT_ASYM": 0.95
+ },
+ "input_sha256": {
+  "concept_candidates.json": "f6e530c581332171568147a851d1bda422d103c6f42be6e91f2123104fd0ee9a",
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "identity_confidence.json": "49cfc36fd00ecdaf3d9007feeea189b93d07757d215abc054d90d4ea8ac0231f",
+  "irreducible_structures.json": "42da5540f82d91fadf668ea73e317c5fc7bae44a53b4d070ca4322439514715e",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c",
+  "motif_catalog.json": "9ace0ec6595c3c696093f28b5f64f88290f700e8157b37be6c603a6150270ef8",
+  "proposition_candidates.json": "05bf114c331d58082004409ed129a35ba5811343ca5b7b2954e83d9b4c1a6fbf"
+ },
+ "method": "phase10-consistency-1.0",
+ "output_bytes": {
+  "consistency_model.json": 2174,
+  "consistency_scores.json": 28445,
+  "contradiction_candidates.json": 23267,
+  "dependency_conflicts.json": 406,
+  "identity_conflicts.json": 1362,
+  "motif_conflicts.json": 2618,
+  "proposition_conflicts.json": 13619,
+  "recursive_consistency.json": 4005
+ },
+ "prohibitions_observed": [
+  "no theology",
+  "no tafsir",
+  "no translations",
+  "no external logic",
+  "no imported philosophical assumptions",
+  "contradiction threshold not lowered",
+  "ambiguity not classified as contradiction",
+  "complexity not classified as contradiction",
+  "cycles not classified as contradiction",
+  "no contradiction claimed without explicit structural evidence",
+  "no consistency claimed without testing",
+  "concepts and relations remain opaque",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "active_ayahs": 6101,
+  "global_consistency_index": 0.954508,
+  "internally_coherent": true,
+  "n_candidates": 51,
+  "n_falsified": 51,
+  "n_surviving_contradictions": 0,
+  "necessity_conflicts": 0,
+  "self_negating_recursion": 0,
+  "strict_order_cycles": 0,
+  "strong_exclusion_pairs": 401
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "method": "phase10-consistency-1.0",
+ "n_necessity_exclusion_conflicts": 0,
+ "n_requires_cycles": 0,
+ "n_self_negating": 0,
+ "necessity_exclusion_conflicts": [],
+ "requires_cycle_classification": "necessity cycles imply mutual co-presence (consistent self-support), not contradiction",
+ "requires_cycles": [],
+ "self_negating_mutual_dependencies": [],
+ "verdict": "0 genuine dependency contradictions"
+}

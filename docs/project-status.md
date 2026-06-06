@@ -1,7 +1,7 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-06. **Current phase complete:** Phase 9 (Structural
-Motif Discovery Engine). **Next phase:** Phase 10 — *not started*.
+**Last updated:** 2026-06-06. **Current phase complete:** Phase 10 (Contradiction
+& Consistency Discovery Engine). **Next phase:** Phase 11 — *not started*.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -22,7 +22,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 7 | Semantic Revelation Engine | ✅ complete | `generated/revelation/*.json` |
 | 8 | Foundational Principle Discovery Engine | ✅ complete | `generated/principles/*.json` |
 | 9 | Structural Motif Discovery Engine | ✅ complete | `generated/motifs/*.json` |
-| 10 | (future) | ⛔ not started | — |
+| 10 | Contradiction & Consistency Discovery Engine | ✅ complete | `generated/consistency/*.json` |
+| 11 | (future) | ⛔ not started | — |
 
 ---
 
@@ -317,6 +318,52 @@ not a generative foundation.
 
 ---
 
+## Phase 10 — Contradiction & Consistency Discovery Engine
+
+Tests — never assumes — whether the discovered structure contains internal
+contradictions. **High burden of proof; false positives unacceptable.** Ambiguity,
+complexity, overlap, multiple identities, and cycles are explicitly **not**
+contradictions. No theology, tafsir, translation, external logic, or imported
+philosophy; the threshold is never lowered; consistency is never claimed without
+testing.
+
+- 9 data products in `generated/consistency/` (model, proposition/dependency/
+  identity/motif conflicts, recursive consistency, scores, contradiction
+  candidates, manifest)
+- **Formal model:** all Phase-4 relations are monotone functions of one per-ayah
+  activation matrix M (reconstructed, 6,101 active ayahs = Phase 4/6). Obligation
+  classes — NECESSITY (`REQUIRES`≥0.9), STRICT ORDER (`PRECEDES`≥0.95), EXCLUSION
+  (co=0, marg≥30), TENDENCY (rest) — with 6 explicit contradiction rules C1–C6.
+  Only NECESSITY/STRICT can contradict; TENDENCIES cannot
+- **Primary finding — hypothesis tested, structure is CONSISTENT:** **51
+  contradiction candidates surfaced, 0 survive falsification, 51 falsified.**
+  Global consistency index **0.955**. The structure appears internally coherent
+- **Evidence:** 0 necessity conflicts (no concept REQUIRES two mutually-exclusive
+  targets); all 100 `REQUIRES` matrix-verified; `REQUIRES` graph acyclic; **401
+  EXCLUSION pairs disjoint from every positive relation**; 0 strict-order cycles
+  (9 `PRECEDES` cycles all weak, min asymmetry 0.30–0.50); 0 identity inversions
+  (3 instability candidates falsified); **all 18 mutual dependencies + 7
+  dependency SCCs self-supporting, 0 self-negating**
+- Falsified candidates: 39 dependency-tendency (`DEPENDS_ON`≠necessity), 9 weak
+  order-cycles, 3 identity-instability — each rejected on explicit structural
+  grounds. Least stable: `CONCEPT_011/041/043` (Phase-7 unstable identities, not
+  contradictions)
+- Builder: `scripts/build_consistency.py`; Validator:
+  `scripts/validate_consistency.py` (585 checks incl. high-burden invariant,
+  byte-identical rebuild)
+- Reports: `consistency-model-report.md`, `proposition-conflict-report.md`,
+  `dependency-conflict-report.md`, `identity-conflict-report.md`,
+  `motif-conflict-report.md`, `recursive-consistency-report.md`,
+  `phase10-final-report.md`
+
+Verdict (structural, no meaning): the discovered Quranic structure is **internally
+consistent** — no genuine proposition, dependency, identity, motif, or recursive
+contradiction survives a high-burden falsification test; its cycles are
+self-supporting and its negative (exclusion) layer is disjoint from its positive
+obligations.
+
+---
+
 ## Invariants held across all phases
 
 - The Quran is the only semantic universe; no external knowledge is imported.
@@ -345,11 +392,12 @@ python3 scripts/build_identification.py && python3 scripts/validate_identificati
 python3 scripts/build_revelation.py     && python3 scripts/validate_revelation.py     --rebuild
 python3 scripts/build_principles.py     && python3 scripts/validate_principles.py     --rebuild
 python3 scripts/build_motifs.py         && python3 scripts/validate_motifs.py         --rebuild
+python3 scripts/build_consistency.py    && python3 scripts/validate_consistency.py    --rebuild
 ```
 
 ---
 
 ## Next
 
-Phase 10 is **not started** by design. Open questions are recorded in
-`phase9-final-report.md §10`. Awaiting explicit instruction to proceed.
+Phase 11 is **not started** by design. Open questions are recorded in
+`phase10-final-report.md §10`. Awaiting explicit instruction to proceed.

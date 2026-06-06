@@ -1,0 +1,203 @@
+{
+ "definition": "A recursive structure is self_supporting if every internal pair co-occurs (positive mutual reinforcement) and self_negating if it contains an internal EXCLUSION pair. Cycles are NOT contradictions unless self_negating.",
+ "dependency_sccs": [
+  {
+   "classification": "self_supporting",
+   "concepts": [
+    "CONCEPT_003",
+    "CONCEPT_004",
+    "CONCEPT_034",
+    "CONCEPT_053",
+    "CONCEPT_060",
+    "CONCEPT_061",
+    "CONCEPT_084",
+    "CONCEPT_085",
+    "CONCEPT_088"
+   ],
+   "internal_dependency_edges": 20,
+   "internal_exclusion_pairs": 0,
+   "size": 9
+  },
+  {
+   "classification": "self_supporting",
+   "concepts": [
+    "CONCEPT_039",
+    "CONCEPT_048",
+    "CONCEPT_076",
+    "CONCEPT_089"
+   ],
+   "internal_dependency_edges": 7,
+   "internal_exclusion_pairs": 0,
+   "size": 4
+  },
+  {
+   "classification": "self_supporting",
+   "concepts": [
+    "CONCEPT_002",
+    "CONCEPT_090",
+    "CONCEPT_091"
+   ],
+   "internal_dependency_edges": 4,
+   "internal_exclusion_pairs": 0,
+   "size": 3
+  },
+  {
+   "classification": "self_supporting",
+   "concepts": [
+    "CONCEPT_009",
+    "CONCEPT_035",
+    "CONCEPT_067"
+   ],
+   "internal_dependency_edges": 4,
+   "internal_exclusion_pairs": 0,
+   "size": 3
+  },
+  {
+   "classification": "self_supporting",
+   "concepts": [
+    "CONCEPT_027",
+    "CONCEPT_036",
+    "CONCEPT_072"
+   ],
+   "internal_dependency_edges": 5,
+   "internal_exclusion_pairs": 0,
+   "size": 3
+  },
+  {
+   "classification": "self_supporting",
+   "concepts": [
+    "CONCEPT_029",
+    "CONCEPT_068",
+    "CONCEPT_081"
+   ],
+   "internal_dependency_edges": 4,
+   "internal_exclusion_pairs": 0,
+   "size": 3
+  },
+  {
+   "classification": "self_supporting",
+   "concepts": [
+    "CONCEPT_073",
+    "CONCEPT_074"
+   ],
+   "internal_dependency_edges": 2,
+   "internal_exclusion_pairs": 0,
+   "size": 2
+  }
+ ],
+ "method": "phase10-consistency-1.0",
+ "mutual_dependency_pairs": [
+  {
+   "a": "CONCEPT_003",
+   "b": "CONCEPT_034",
+   "classification": "self_supporting",
+   "co": 568
+  },
+  {
+   "a": "CONCEPT_003",
+   "b": "CONCEPT_088",
+   "classification": "self_supporting",
+   "co": 625
+  },
+  {
+   "a": "CONCEPT_004",
+   "b": "CONCEPT_085",
+   "classification": "self_supporting",
+   "co": 314
+  },
+  {
+   "a": "CONCEPT_009",
+   "b": "CONCEPT_067",
+   "classification": "self_supporting",
+   "co": 34
+  },
+  {
+   "a": "CONCEPT_027",
+   "b": "CONCEPT_036",
+   "classification": "self_supporting",
+   "co": 16
+  },
+  {
+   "a": "CONCEPT_034",
+   "b": "CONCEPT_060",
+   "classification": "self_supporting",
+   "co": 269
+  },
+  {
+   "a": "CONCEPT_034",
+   "b": "CONCEPT_061",
+   "classification": "self_supporting",
+   "co": 410
+  },
+  {
+   "a": "CONCEPT_035",
+   "b": "CONCEPT_067",
+   "classification": "self_supporting",
+   "co": 22
+  },
+  {
+   "a": "CONCEPT_036",
+   "b": "CONCEPT_072",
+   "classification": "self_supporting",
+   "co": 21
+  },
+  {
+   "a": "CONCEPT_039",
+   "b": "CONCEPT_048",
+   "classification": "self_supporting",
+   "co": 8
+  },
+  {
+   "a": "CONCEPT_039",
+   "b": "CONCEPT_089",
+   "classification": "self_supporting",
+   "co": 12
+  },
+  {
+   "a": "CONCEPT_048",
+   "b": "CONCEPT_076",
+   "classification": "self_supporting",
+   "co": 6
+  },
+  {
+   "a": "CONCEPT_053",
+   "b": "CONCEPT_088",
+   "classification": "self_supporting",
+   "co": 763
+  },
+  {
+   "a": "CONCEPT_061",
+   "b": "CONCEPT_085",
+   "classification": "self_supporting",
+   "co": 509
+  },
+  {
+   "a": "CONCEPT_061",
+   "b": "CONCEPT_088",
+   "classification": "self_supporting",
+   "co": 536
+  },
+  {
+   "a": "CONCEPT_073",
+   "b": "CONCEPT_074",
+   "classification": "self_supporting",
+   "co": 28
+  },
+  {
+   "a": "CONCEPT_084",
+   "b": "CONCEPT_085",
+   "classification": "self_supporting",
+   "co": 385
+  },
+  {
+   "a": "CONCEPT_085",
+   "b": "CONCEPT_088",
+   "classification": "self_supporting",
+   "co": 526
+  }
+ ],
+ "n_dependency_sccs": 7,
+ "n_mutual_dependency_pairs": 18,
+ "n_self_negating": 0,
+ "verdict": "all recursive structures self-supporting (consistent)"
+}

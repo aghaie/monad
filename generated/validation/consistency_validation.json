@@ -1,0 +1,16 @@
+{
+ "bootstrap_exclusion_disjointness_probability": 1.0,
+ "canonical_consistency_index": 0.954508,
+ "canonical_surviving_contradictions": 0,
+ "exclusion_positive_overlap_across_marginal_sweep": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "max_exclusion_positive_overlap": 0,
+ "method": "phase11-validation-1.0",
+ "subsample_exclusion_disjointness_probability": 1.0,
+ "surviving_contradictions_under_all_regimes": 0,
+ "verdict": "0 contradictions under every threshold / bootstrap / subsample regime — consistency is robust"
+}

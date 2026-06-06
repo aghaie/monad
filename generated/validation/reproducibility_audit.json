@@ -1,0 +1,51 @@
+{
+ "all_byte_identical": true,
+ "audits": {
+  "compression": {
+   "audited_via": "dedicated validator (Phase 5); no --out flag",
+   "byte_identical": true,
+   "mismatched_files": [],
+   "rebuilt_ok": null
+  },
+  "concepts": {
+   "byte_identical": true,
+   "mismatched_files": [],
+   "rebuilt_ok": true
+  },
+  "consistency": {
+   "byte_identical": true,
+   "mismatched_files": [],
+   "rebuilt_ok": true
+  },
+  "identification": {
+   "byte_identical": true,
+   "mismatched_files": [],
+   "rebuilt_ok": true
+  },
+  "motifs": {
+   "byte_identical": true,
+   "mismatched_files": [],
+   "rebuilt_ok": true
+  },
+  "principles": {
+   "byte_identical": true,
+   "mismatched_files": [],
+   "rebuilt_ok": true
+  },
+  "propositions": {
+   "byte_identical": true,
+   "mismatched_files": [],
+   "rebuilt_ok": true
+  },
+  "revelation": {
+   "byte_identical": true,
+   "mismatched_files": [],
+   "rebuilt_ok": true
+  }
+ },
+ "definition": "each --out-capable engine rebuilt to a temp dir; outputs hashed against canonical",
+ "method": "phase11-validation-1.0",
+ "n_engines_rebuilt": 7,
+ "seed_dependence_note": "only Phase-9 significance z-scores use a fixed PRNG seed; the qualitative over/under-representation signs are seed-robust; all other outputs are seed-free",
+ "verdict": "fully reproducible"
+}

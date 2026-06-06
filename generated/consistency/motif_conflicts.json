@@ -1,0 +1,133 @@
+{
+ "method": "phase10-consistency-1.0",
+ "motif_3cycle_candidates": [
+  {
+   "falsification": "a directed 3-cycle in the proposition graph mixes relation types and weak (asymmetry<0.95) edges; it is not a strict-order cycle.",
+   "motif_id": "MOTIF_015",
+   "rule": "C4_pattern_3cycle",
+   "strict": false,
+   "triple": [
+    "CONCEPT_016",
+    "CONCEPT_038",
+    "CONCEPT_085"
+   ]
+  },
+  {
+   "falsification": "a directed 3-cycle in the proposition graph mixes relation types and weak (asymmetry<0.95) edges; it is not a strict-order cycle.",
+   "motif_id": "MOTIF_015",
+   "rule": "C4_pattern_3cycle",
+   "strict": false,
+   "triple": [
+    "CONCEPT_034",
+    "CONCEPT_079",
+    "CONCEPT_081"
+   ]
+  },
+  {
+   "falsification": "a directed 3-cycle in the proposition graph mixes relation types and weak (asymmetry<0.95) edges; it is not a strict-order cycle.",
+   "motif_id": "MOTIF_015",
+   "rule": "C4_pattern_3cycle",
+   "strict": false,
+   "triple": [
+    "CONCEPT_053",
+    "CONCEPT_085",
+    "CONCEPT_094"
+   ]
+  }
+ ],
+ "n_motif_3cycle_candidates": 3,
+ "n_strict_order_cycles": 0,
+ "n_weak_order_cycles": 9,
+ "strict_order_cycles": [],
+ "verdict": "0 genuine motif/order contradictions; 9 weak (non-strict) order cycles correctly excluded",
+ "weak_order_cycles": [
+  {
+   "cycle": [
+    "CONCEPT_001",
+    "CONCEPT_090",
+    "CONCEPT_061",
+    "CONCEPT_030"
+   ],
+   "min_asymmetry": 0.333333,
+   "min_support": 18
+  },
+  {
+   "cycle": [
+    "CONCEPT_001",
+    "CONCEPT_091",
+    "CONCEPT_016",
+    "CONCEPT_038"
+   ],
+   "min_asymmetry": 0.304348,
+   "min_support": 10
+  },
+  {
+   "cycle": [
+    "CONCEPT_001",
+    "CONCEPT_091",
+    "CONCEPT_088",
+    "CONCEPT_030"
+   ],
+   "min_asymmetry": 0.333333,
+   "min_support": 15
+  },
+  {
+   "cycle": [
+    "CONCEPT_005",
+    "CONCEPT_088",
+    "CONCEPT_097",
+    "CONCEPT_049"
+   ],
+   "min_asymmetry": 0.3,
+   "min_support": 15
+  },
+  {
+   "cycle": [
+    "CONCEPT_006",
+    "CONCEPT_084",
+    "CONCEPT_097",
+    "CONCEPT_049"
+   ],
+   "min_asymmetry": 0.3,
+   "min_support": 16
+  },
+  {
+   "cycle": [
+    "CONCEPT_006",
+    "CONCEPT_085",
+    "CONCEPT_049"
+   ],
+   "min_asymmetry": 0.416667,
+   "min_support": 16
+  },
+  {
+   "cycle": [
+    "CONCEPT_006",
+    "CONCEPT_085",
+    "CONCEPT_097",
+    "CONCEPT_049"
+   ],
+   "min_asymmetry": 0.5,
+   "min_support": 16
+  },
+  {
+   "cycle": [
+    "CONCEPT_061",
+    "CONCEPT_088",
+    "CONCEPT_090"
+   ],
+   "min_asymmetry": 0.333333,
+   "min_support": 18
+  },
+  {
+   "cycle": [
+    "CONCEPT_061",
+    "CONCEPT_091",
+    "CONCEPT_088",
+    "CONCEPT_090"
+   ],
+   "min_asymmetry": 0.333333,
+   "min_support": 15
+  }
+ ]
+}

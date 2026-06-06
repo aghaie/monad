@@ -1,0 +1,136 @@
+{
+ "levels": {
+  "10pct": {
+   "concept_survival": {
+    "ci95_high": 1.0,
+    "ci95_low": 1.0,
+    "max": 1.0,
+    "mean": 1.0,
+    "median": 1.0,
+    "min": 1.0,
+    "n": 100,
+    "std": 0.0
+   },
+   "exclusion_disjointness_probability": 1.0,
+   "hub_remains_top1_probability": 1.0,
+   "hub_share": {
+    "ci95_high": 0.969864,
+    "ci95_low": 0.966759,
+    "max": 0.970315,
+    "mean": 0.968164,
+    "median": 0.967948,
+    "min": 0.966126,
+    "n": 100,
+    "std": 0.000817
+   },
+   "removed_fraction": 0.1,
+   "repeats": 100
+  },
+  "20pct": {
+   "concept_survival": {
+    "ci95_high": 1.0,
+    "ci95_low": 1.0,
+    "max": 1.0,
+    "mean": 0.999903,
+    "median": 1.0,
+    "min": 0.990291,
+    "n": 100,
+    "std": 0.000966
+   },
+   "exclusion_disjointness_probability": 1.0,
+   "hub_remains_top1_probability": 1.0,
+   "hub_share": {
+    "ci95_high": 0.969678,
+    "ci95_low": 0.966605,
+    "max": 0.970293,
+    "mean": 0.968043,
+    "median": 0.967834,
+    "min": 0.965376,
+    "n": 100,
+    "std": 0.000963
+   },
+   "removed_fraction": 0.2,
+   "repeats": 100
+  },
+  "30pct": {
+   "concept_survival": {
+    "ci95_high": 1.0,
+    "ci95_low": 0.990291,
+    "max": 1.0,
+    "mean": 0.999515,
+    "median": 1.0,
+    "min": 0.980583,
+    "n": 100,
+    "std": 0.002522
+   },
+   "exclusion_disjointness_probability": 1.0,
+   "hub_remains_top1_probability": 1.0,
+   "hub_share": {
+    "ci95_high": 0.970856,
+    "ci95_low": 0.965693,
+    "max": 0.972606,
+    "mean": 0.968232,
+    "median": 0.968274,
+    "min": 0.964411,
+    "n": 100,
+    "std": 0.001457
+   },
+   "removed_fraction": 0.3,
+   "repeats": 100
+  },
+  "40pct": {
+   "concept_survival": {
+    "ci95_high": 1.0,
+    "ci95_low": 0.990291,
+    "max": 1.0,
+    "mean": 0.99835,
+    "median": 1.0,
+    "min": 0.990291,
+    "n": 100,
+    "std": 0.003647
+   },
+   "exclusion_disjointness_probability": 1.0,
+   "hub_remains_top1_probability": 1.0,
+   "hub_share": {
+    "ci95_high": 0.971203,
+    "ci95_low": 0.964047,
+    "max": 0.972139,
+    "mean": 0.967815,
+    "median": 0.968042,
+    "min": 0.963125,
+    "n": 100,
+    "std": 0.001796
+   },
+   "removed_fraction": 0.4,
+   "repeats": 100
+  },
+  "5pct": {
+   "concept_survival": {
+    "ci95_high": 1.0,
+    "ci95_low": 1.0,
+    "max": 1.0,
+    "mean": 1.0,
+    "median": 1.0,
+    "min": 1.0,
+    "n": 100,
+    "std": 0.0
+   },
+   "exclusion_disjointness_probability": 1.0,
+   "hub_remains_top1_probability": 1.0,
+   "hub_share": {
+    "ci95_high": 0.969117,
+    "ci95_low": 0.967219,
+    "max": 0.969289,
+    "mean": 0.968038,
+    "median": 0.968081,
+    "min": 0.966874,
+    "n": 100,
+    "std": 0.000514
+   },
+   "removed_fraction": 0.05,
+   "repeats": 100
+  }
+ },
+ "method": "phase11-validation-1.0",
+ "note": "downstream structures recomputed from resampled M"
+}

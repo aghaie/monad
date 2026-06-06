@@ -1,0 +1,162 @@
+{
+ "classification_scale": [
+  "SURVIVES STRONGLY",
+  "SURVIVES MODERATELY",
+  "SURVIVES WEAKLY",
+  "FAILS"
+ ],
+ "method": "phase11-validation-1.0",
+ "recommendations": {
+  "do_not_rely_on": [],
+  "use_freely": [
+   "CONCEPT_007_dominance",
+   "phase5_compression",
+   "phase9_motif_vocabulary",
+   "phase10_consistency"
+  ],
+  "use_with_caution": [
+   "size9_irreducible_scc",
+   "103_concept_structure",
+   "phase7_identity_anchors",
+   "phase8_principle_structure"
+  ]
+ },
+ "survivors": {
+  "103_concept_structure": {
+   "classification": "SURVIVES WEAKLY",
+   "confidence": "information-level structure shared with alternative methods (NMI ~0.75) but exact partition is method-sensitive (ARI ~0.3); the *existence* of cohesive concept clusters is robust, the precise count/boundaries are not",
+   "evidence": {
+    "ari_nondegenerate": {
+     "ci95_high": 0.348586,
+     "ci95_low": 0.093392,
+     "max": 0.35552,
+     "mean": 0.219754,
+     "median": 0.216847,
+     "min": 0.086894,
+     "n": 3,
+     "std": 0.109685
+    },
+    "ari_vs_canonical_all": {
+     "ci95_high": 0.341653,
+     "ci95_low": 0.000381,
+     "max": 0.35552,
+     "mean": 0.132005,
+     "median": 0.086894,
+     "min": 0.000381,
+     "n": 5,
+     "std": 0.136998
+    },
+    "cluster_counts": {
+     "canonical_phase3": 97,
+     "connected_components": 38,
+     "density_high_threshold": 160,
+     "greedy_modularity": 69,
+     "kcore_k3": 471,
+     "label_propagation": 91
+    },
+    "nmi_nondegenerate": {
+     "ci95_high": 0.806929,
+     "ci95_low": 0.669775,
+     "max": 0.809692,
+     "mean": 0.74315,
+     "median": 0.75444,
+     "min": 0.665319,
+     "n": 3,
+     "std": 0.059478
+    }
+   }
+  },
+  "CONCEPT_007_dominance": {
+   "classification": "SURVIVES STRONGLY",
+   "confidence": "very high",
+   "evidence": {
+    "bootstrap_share_ci95": [
+     0.963449,
+     0.972136
+    ],
+    "hub_is_top_degree_under_noise_min": 1.0,
+    "min_share": 0.960662
+   },
+   "survival_probability": 1.0
+  },
+  "phase10_consistency": {
+   "classification": "SURVIVES STRONGLY",
+   "confidence": "0 contradictions under every regime tested",
+   "evidence": {
+    "exclusion_overlap_across_sweep": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "surviving_contradictions_all_regimes": 0
+   }
+  },
+  "phase5_compression": {
+   "classification": "SURVIVES STRONGLY",
+   "confidence": "byte-identical reproducible; qualitative verdict threshold-robust",
+   "evidence": {
+    "note": "deterministic given the Phase-4 relation population (inherited)",
+    "reproducible": true
+   }
+  },
+  "phase7_identity_anchors": {
+   "classification": "SURVIVES MODERATELY",
+   "confidence": "strong-tier anchors robust; weak/diffuse anchors method-sensitive",
+   "evidence": {
+    "note": "anchors are dominant member roots; dominance is bootstrap-stable",
+    "top10_concept_jaccard": {
+     "ci95_high": 1.0,
+     "ci95_low": 0.818182,
+     "max": 1.0,
+     "mean": 0.920545,
+     "median": 1.0,
+     "min": 0.818182,
+     "n": 1000,
+     "std": 0.090185
+    }
+   }
+  },
+  "phase8_principle_structure": {
+   "classification": "SURVIVES WEAKLY",
+   "confidence": "the 90% inter-module verdict is robust; the exact 16 modules are not",
+   "evidence": {
+    "concept_partition_ari": {
+     "ci95_high": 0.341653,
+     "ci95_low": 0.000381,
+     "max": 0.35552,
+     "mean": 0.132005,
+     "median": 0.086894,
+     "min": 0.000381,
+     "n": 5,
+     "std": 0.136998
+    },
+    "note": "modularity modules are method/resolution-dependent (Phase B)",
+    "reproducible": true
+   }
+  },
+  "phase9_motif_vocabulary": {
+   "classification": "SURVIVES STRONGLY",
+   "confidence": "the 13-class vocabulary and ~5-motif compression persist under noise",
+   "evidence": {
+    "canonical_classes": 13,
+    "mean_classes_under_noise": 13.0,
+    "mean_motifs_for_80pct_under_noise": 5.38,
+    "top_motif_unchanged_prob_min": 0.0
+   }
+  },
+  "size9_irreducible_scc": {
+   "classification": "SURVIVES MODERATELY",
+   "confidence": "high (a large irreducible core persists under edge perturbation)",
+   "evidence": {
+    "canonical_largest_scc": 94,
+    "min_largest_scc_under_noise": 89.0
+   }
+  }
+ },
+ "tally": {
+  "SURVIVES MODERATELY": 2,
+  "SURVIVES STRONGLY": 4,
+  "SURVIVES WEAKLY": 2
+ }
+}

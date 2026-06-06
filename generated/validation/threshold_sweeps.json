@@ -1,0 +1,224 @@
+{
+ "concept_discovery_stability": {
+  "agreement_vs_canonical": {
+   "connected_components": {
+    "ARI": 0.000381,
+    "NMI": 0.015818,
+    "n_shared": 735
+   },
+   "density_high_threshold": {
+    "ARI": 0.216847,
+    "NMI": 0.809692,
+    "n_shared": 490
+   },
+   "greedy_modularity": {
+    "ARI": 0.35552,
+    "NMI": 0.75444,
+    "n_shared": 735
+   },
+   "kcore_k3": {
+    "ARI": 0.000381,
+    "NMI": 0.015818,
+    "n_shared": 735
+   },
+   "label_propagation": {
+    "ARI": 0.086894,
+    "NMI": 0.665319,
+    "n_shared": 735
+   }
+  },
+  "ari_nondegenerate_summary": {
+   "ci95_high": 0.348586,
+   "ci95_low": 0.093392,
+   "max": 0.35552,
+   "mean": 0.219754,
+   "median": 0.216847,
+   "min": 0.086894,
+   "n": 3,
+   "std": 0.109685
+  },
+  "ari_vs_canonical_summary": {
+   "ci95_high": 0.341653,
+   "ci95_low": 0.000381,
+   "max": 0.35552,
+   "mean": 0.132005,
+   "median": 0.086894,
+   "min": 0.000381,
+   "n": 5,
+   "std": 0.136998
+  },
+  "cluster_counts": {
+   "canonical_phase3": 97,
+   "connected_components": 38,
+   "density_high_threshold": 160,
+   "greedy_modularity": 69,
+   "kcore_k3": 471,
+   "label_propagation": 91
+  },
+  "degenerate_methods": [
+   "connected_components",
+   "kcore_k3"
+  ],
+  "interpretation": "ARI/NMI of 5 alternative clustering families vs the Phase-3 root→concept assignment. Connected-components and k-core degenerate (giant blob / singletons); the non-degenerate families (modularity, density, label-propagation) share structure with the canonical partition. High NMI + moderate ARI = method-sensitive boundaries over a real shared structure.",
+  "method": "phase11-validation-1.0",
+  "n_methods": 5,
+  "nmi_nondegenerate_summary": {
+   "ci95_high": 0.806929,
+   "ci95_low": 0.669775,
+   "max": 0.809692,
+   "mean": 0.74315,
+   "median": 0.75444,
+   "min": 0.665319,
+   "n": 3,
+   "std": 0.059478
+  },
+  "nmi_vs_canonical_summary": {
+   "ci95_high": 0.804167,
+   "ci95_low": 0.015818,
+   "max": 0.809692,
+   "mean": 0.452217,
+   "median": 0.665319,
+   "min": 0.015818,
+   "n": 5,
+   "std": 0.359285
+  },
+  "nondegenerate_methods": [
+   "density_high_threshold",
+   "greedy_modularity",
+   "label_propagation"
+  ],
+  "pairwise_agreement": {
+   "connected_components|density_high_threshold": {
+    "ARI": 0.011779,
+    "NMI": 0.148166
+   },
+   "connected_components|greedy_modularity": {
+    "ARI": 0.013845,
+    "NMI": 0.249671
+   },
+   "connected_components|kcore_k3": {
+    "ARI": 0.219374,
+    "NMI": 0.309671
+   },
+   "connected_components|label_propagation": {
+    "ARI": 0.06301,
+    "NMI": 0.281617
+   },
+   "density_high_threshold|greedy_modularity": {
+    "ARI": 0.171426,
+    "NMI": 0.706905
+   },
+   "density_high_threshold|kcore_k3": {
+    "ARI": 0.042985,
+    "NMI": 0.381829
+   },
+   "density_high_threshold|label_propagation": {
+    "ARI": 0.178685,
+    "NMI": 0.685075
+   },
+   "greedy_modularity|kcore_k3": {
+    "ARI": 0.036355,
+    "NMI": 0.469596
+   },
+   "greedy_modularity|label_propagation": {
+    "ARI": 0.178087,
+    "NMI": 0.66225
+   },
+   "kcore_k3|label_propagation": {
+    "ARI": 0.196635,
+    "NMI": 0.520706
+   }
+  }
+ },
+ "definition": "each major threshold swept low→extreme; affected statistics recorded",
+ "method": "phase11-validation-1.0",
+ "sweeps": {
+  "cooccurrence_support_threshold": {
+   "canonical": 5,
+   "trajectory": [
+    {
+     "hub_degree": 102,
+     "hub_is_max_degree": true,
+     "max_degree": 102,
+     "n_edges": 1977,
+     "threshold": 2
+    },
+    {
+     "hub_degree": 99,
+     "hub_is_max_degree": true,
+     "max_degree": 99,
+     "n_edges": 1215,
+     "threshold": 5
+    },
+    {
+     "hub_degree": 89,
+     "hub_is_max_degree": true,
+     "max_degree": 89,
+     "n_edges": 809,
+     "threshold": 10
+    },
+    {
+     "hub_degree": 71,
+     "hub_is_max_degree": true,
+     "max_degree": 71,
+     "n_edges": 501,
+     "threshold": 20
+    }
+   ]
+  },
+  "exclusion_marginal_threshold": {
+   "canonical": 30,
+   "trajectory": [
+    {
+     "exclusion_pairs": 1593,
+     "exclusion_with_positive_relation": 0,
+     "threshold": 10
+    },
+    {
+     "exclusion_pairs": 401,
+     "exclusion_with_positive_relation": 0,
+     "threshold": 30
+    },
+    {
+     "exclusion_pairs": 181,
+     "exclusion_with_positive_relation": 0,
+     "threshold": 50
+    },
+    {
+     "exclusion_pairs": 2,
+     "exclusion_with_positive_relation": 0,
+     "threshold": 100
+    }
+   ]
+  },
+  "root_graph_edge_threshold": {
+   "canonical": 0.3,
+   "trajectory": [
+    {
+     "largest": 1350,
+     "n_components_ge2": 38,
+     "n_nontrivial_nodes": 1447,
+     "threshold": 0.1
+    },
+    {
+     "largest": 1350,
+     "n_components_ge2": 38,
+     "n_nontrivial_nodes": 1447,
+     "threshold": 0.2
+    },
+    {
+     "largest": 1350,
+     "n_components_ge2": 38,
+     "n_nontrivial_nodes": 1447,
+     "threshold": 0.3
+    },
+    {
+     "largest": 28,
+     "n_components_ge2": 141,
+     "n_nontrivial_nodes": 472,
+     "threshold": 0.5
+    }
+   ]
+  }
+ }
+}

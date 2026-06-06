@@ -1,0 +1,361 @@
+{
+ "method": "phase10-consistency-1.0",
+ "n_necessity_conflicts": 0,
+ "n_tendency_candidates_falsified": 39,
+ "necessity_conflict_candidates": [],
+ "requires_derivation_inconsistencies": [],
+ "tendency_conflict_candidates": [
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_002",
+   "target_a": "CONCEPT_019",
+   "target_b": "CONCEPT_078"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_002",
+   "target_a": "CONCEPT_019",
+   "target_b": "CONCEPT_083"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_002",
+   "target_a": "CONCEPT_055",
+   "target_b": "CONCEPT_067"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_002",
+   "target_a": "CONCEPT_067",
+   "target_b": "CONCEPT_090"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_009",
+   "target_b": "CONCEPT_027"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_009",
+   "target_b": "CONCEPT_055"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_009",
+   "target_b": "CONCEPT_071"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_009",
+   "target_b": "CONCEPT_073"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_009",
+   "target_b": "CONCEPT_074"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_009",
+   "target_b": "CONCEPT_097"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_010",
+   "target_b": "CONCEPT_067"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_013",
+   "target_b": "CONCEPT_047"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_027",
+   "target_b": "CONCEPT_033"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_027",
+   "target_b": "CONCEPT_067"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_033",
+   "target_b": "CONCEPT_047"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_033",
+   "target_b": "CONCEPT_071"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_033",
+   "target_b": "CONCEPT_073"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_033",
+   "target_b": "CONCEPT_074"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_035",
+   "target_b": "CONCEPT_071"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_035",
+   "target_b": "CONCEPT_074"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_047",
+   "target_b": "CONCEPT_055"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_047",
+   "target_b": "CONCEPT_073"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_047",
+   "target_b": "CONCEPT_074"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_055",
+   "target_b": "CONCEPT_067"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_067",
+   "target_b": "CONCEPT_071"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_067",
+   "target_b": "CONCEPT_073"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_067",
+   "target_b": "CONCEPT_074"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_067",
+   "target_b": "CONCEPT_090"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_071",
+   "target_b": "CONCEPT_097"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_073",
+   "target_b": "CONCEPT_097"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_074",
+   "target_b": "CONCEPT_097"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_004",
+   "target_a": "CONCEPT_090",
+   "target_b": "CONCEPT_097"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_034",
+   "target_a": "CONCEPT_074",
+   "target_b": "CONCEPT_097"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_034",
+   "target_a": "CONCEPT_090",
+   "target_b": "CONCEPT_097"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_016",
+   "target_a": "CONCEPT_036",
+   "target_b": "CONCEPT_042"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_016",
+   "target_a": "CONCEPT_036",
+   "target_b": "CONCEPT_045"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_016",
+   "target_a": "CONCEPT_042",
+   "target_b": "CONCEPT_045"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_088",
+   "target_a": "CONCEPT_040",
+   "target_b": "CONCEPT_074"
+  },
+  {
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine": false,
+   "obligation": "TENDENCY",
+   "rule": "C2_pattern_but_TENDENCY",
+   "source": "CONCEPT_088",
+   "target_a": "CONCEPT_044",
+   "target_b": "CONCEPT_074"
+  }
+ ],
+ "verdict": "0 genuine proposition contradictions"
+}

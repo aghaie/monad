@@ -1,0 +1,70 @@
+{
+ "constants": {
+  "BOOTSTRAP_CO_RUNS": 200,
+  "BOOTSTRAP_RUNS": 1000,
+  "NOISE_REMOVE": [
+   0.05,
+   0.1,
+   0.2
+  ],
+  "NOISE_REWIRE": [
+   0.1,
+   0.2
+  ],
+  "NOISE_TRIALS": 20,
+  "ROUND": 6,
+  "SEED": 20261111,
+  "SUBSAMPLE_LEVELS": [
+   0.05,
+   0.1,
+   0.2,
+   0.3,
+   0.4
+  ],
+  "SUBSAMPLE_REPEATS": 100
+ },
+ "input_sha256": {
+  "concept_memberships.json": "07e2c2c2dba07368488caa5255dc4cb9c086b637dc35636cfc9ff766596fa453",
+  "identity_confidence.json": "49cfc36fd00ecdaf3d9007feeea189b93d07757d215abc054d90d4ea8ac0231f",
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c",
+  "proposition_graph.json": "c9033e1cbbf46a3a776613f9b338a43b466a442dddbd0e1d5373cf74b2f9ec35",
+  "semantic_neighbors.json": "599dfaee21a850264a0080c09cf95ce4d0aaafc9141b3249b54ca7261a0db4db"
+ },
+ "method": "phase11-validation-1.0",
+ "output_bytes": {
+  "bootstrap_results.json": 883,
+  "consistency_validation.json": 508,
+  "hub_validation.json": 453,
+  "motif_validation.json": 3631,
+  "noise_results.json": 3589,
+  "reproducibility_audit.json": 1286,
+  "subsampling_results.json": 2771,
+  "survivor_analysis.json": 4224,
+  "threshold_sweeps.json": 4920
+ },
+ "prohibitions_observed": [
+  "no new concepts",
+  "no new principles",
+  "no new motifs",
+  "no new identities",
+  "no new theories",
+  "no reinterpretation",
+  "prior conclusions not protected",
+  "failures documented",
+  "no cherry-picking",
+  "every regime fixed-seed deterministic"
+ ],
+ "totals": {
+  "all_byte_identical": true,
+  "concept_ari_vs_canonical_mean": 0.132005,
+  "hub_min_share": 0.960662,
+  "hub_remains_top1_overall": 1.0,
+  "motif_classes_canonical": 13,
+  "surviving_contradictions_all_regimes": 0,
+  "survivor_tally": {
+   "SURVIVES MODERATELY": 2,
+   "SURVIVES STRONGLY": 4,
+   "SURVIVES WEAKLY": 2
+  }
+ }
+}

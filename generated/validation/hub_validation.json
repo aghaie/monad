@@ -1,0 +1,15 @@
+{
+ "another_hub_ever_replaces": false,
+ "bootstrap_share_ci95": [
+  0.963449,
+  0.972136
+ ],
+ "canonical_share": 0.968038,
+ "challenged": "CONCEPT_007",
+ "hub_is_top_degree_probability_under_noise_min": 1.0,
+ "method": "phase11-validation-1.0",
+ "min_observed_share_across_all_perturbations": 0.960662,
+ "remains_top1_marginal_probability_min": 1.0,
+ "remains_top1_marginal_probability_overall": 1.0,
+ "verdict": "dominance survives all perturbations"
+}

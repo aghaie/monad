@@ -1,0 +1,746 @@
+{
+ "all_candidates": [
+  {
+   "confidence": 0.0,
+   "description": "Phase-7 anchor falsified (minority of signature ayahs)",
+   "evidence": {
+    "anchor": "نصح",
+    "concept_id": "CONCEPT_011"
+   },
+   "falsification": "anchor appears in a minority of signature ayahs but >0% — identity instability, not inversion; the concept makes no universal self-claim that M violates.",
+   "genuine_after_test": false,
+   "kind": "identity_instability"
+  },
+  {
+   "confidence": 0.0,
+   "description": "Phase-7 anchor falsified (minority of signature ayahs)",
+   "evidence": {
+    "anchor": "حدب",
+    "concept_id": "CONCEPT_041"
+   },
+   "falsification": "anchor appears in a minority of signature ayahs but >0% — identity instability, not inversion; the concept makes no universal self-claim that M violates.",
+   "genuine_after_test": false,
+   "kind": "identity_instability"
+  },
+  {
+   "confidence": 0.0,
+   "description": "Phase-7 anchor falsified (minority of signature ayahs)",
+   "evidence": {
+    "anchor": "رفد",
+    "concept_id": "CONCEPT_043"
+   },
+   "falsification": "anchor appears in a minority of signature ayahs but >0% — identity instability, not inversion; the concept makes no universal self-claim that M violates.",
+   "genuine_after_test": false,
+   "kind": "identity_instability"
+  },
+  {
+   "confidence": 0.0,
+   "description": "PRECEDES cycle (candidate intransitive strict order)",
+   "evidence": {
+    "cycle": [
+     "CONCEPT_001",
+     "CONCEPT_090",
+     "CONCEPT_061",
+     "CONCEPT_030"
+    ],
+    "min_asymmetry": 0.333333,
+    "min_support": 18
+   },
+   "falsification": "min asymmetry 0.33 < 0.95 — weak statistical tendency, not strict order; cycle is a non-transitive tendency, explicitly not a contradiction",
+   "genuine_after_test": false,
+   "kind": "order_cycle"
+  },
+  {
+   "confidence": 0.0,
+   "description": "PRECEDES cycle (candidate intransitive strict order)",
+   "evidence": {
+    "cycle": [
+     "CONCEPT_001",
+     "CONCEPT_091",
+     "CONCEPT_016",
+     "CONCEPT_038"
+    ],
+    "min_asymmetry": 0.304348,
+    "min_support": 10
+   },
+   "falsification": "min asymmetry 0.30 < 0.95 — weak statistical tendency, not strict order; cycle is a non-transitive tendency, explicitly not a contradiction",
+   "genuine_after_test": false,
+   "kind": "order_cycle"
+  },
+  {
+   "confidence": 0.0,
+   "description": "PRECEDES cycle (candidate intransitive strict order)",
+   "evidence": {
+    "cycle": [
+     "CONCEPT_001",
+     "CONCEPT_091",
+     "CONCEPT_088",
+     "CONCEPT_030"
+    ],
+    "min_asymmetry": 0.333333,
+    "min_support": 15
+   },
+   "falsification": "min asymmetry 0.33 < 0.95 — weak statistical tendency, not strict order; cycle is a non-transitive tendency, explicitly not a contradiction",
+   "genuine_after_test": false,
+   "kind": "order_cycle"
+  },
+  {
+   "confidence": 0.0,
+   "description": "PRECEDES cycle (candidate intransitive strict order)",
+   "evidence": {
+    "cycle": [
+     "CONCEPT_005",
+     "CONCEPT_088",
+     "CONCEPT_097",
+     "CONCEPT_049"
+    ],
+    "min_asymmetry": 0.3,
+    "min_support": 15
+   },
+   "falsification": "min asymmetry 0.30 < 0.95 — weak statistical tendency, not strict order; cycle is a non-transitive tendency, explicitly not a contradiction",
+   "genuine_after_test": false,
+   "kind": "order_cycle"
+  },
+  {
+   "confidence": 0.0,
+   "description": "PRECEDES cycle (candidate intransitive strict order)",
+   "evidence": {
+    "cycle": [
+     "CONCEPT_006",
+     "CONCEPT_084",
+     "CONCEPT_097",
+     "CONCEPT_049"
+    ],
+    "min_asymmetry": 0.3,
+    "min_support": 16
+   },
+   "falsification": "min asymmetry 0.30 < 0.95 — weak statistical tendency, not strict order; cycle is a non-transitive tendency, explicitly not a contradiction",
+   "genuine_after_test": false,
+   "kind": "order_cycle"
+  },
+  {
+   "confidence": 0.0,
+   "description": "PRECEDES cycle (candidate intransitive strict order)",
+   "evidence": {
+    "cycle": [
+     "CONCEPT_006",
+     "CONCEPT_085",
+     "CONCEPT_049"
+    ],
+    "min_asymmetry": 0.416667,
+    "min_support": 16
+   },
+   "falsification": "min asymmetry 0.42 < 0.95 — weak statistical tendency, not strict order; cycle is a non-transitive tendency, explicitly not a contradiction",
+   "genuine_after_test": false,
+   "kind": "order_cycle"
+  },
+  {
+   "confidence": 0.0,
+   "description": "PRECEDES cycle (candidate intransitive strict order)",
+   "evidence": {
+    "cycle": [
+     "CONCEPT_006",
+     "CONCEPT_085",
+     "CONCEPT_097",
+     "CONCEPT_049"
+    ],
+    "min_asymmetry": 0.5,
+    "min_support": 16
+   },
+   "falsification": "min asymmetry 0.50 < 0.95 — weak statistical tendency, not strict order; cycle is a non-transitive tendency, explicitly not a contradiction",
+   "genuine_after_test": false,
+   "kind": "order_cycle"
+  },
+  {
+   "confidence": 0.0,
+   "description": "PRECEDES cycle (candidate intransitive strict order)",
+   "evidence": {
+    "cycle": [
+     "CONCEPT_061",
+     "CONCEPT_088",
+     "CONCEPT_090"
+    ],
+    "min_asymmetry": 0.333333,
+    "min_support": 18
+   },
+   "falsification": "min asymmetry 0.33 < 0.95 — weak statistical tendency, not strict order; cycle is a non-transitive tendency, explicitly not a contradiction",
+   "genuine_after_test": false,
+   "kind": "order_cycle"
+  },
+  {
+   "confidence": 0.0,
+   "description": "PRECEDES cycle (candidate intransitive strict order)",
+   "evidence": {
+    "cycle": [
+     "CONCEPT_061",
+     "CONCEPT_091",
+     "CONCEPT_088",
+     "CONCEPT_090"
+    ],
+    "min_asymmetry": 0.333333,
+    "min_support": 15
+   },
+   "falsification": "min asymmetry 0.33 < 0.95 — weak statistical tendency, not strict order; cycle is a non-transitive tendency, explicitly not a contradiction",
+   "genuine_after_test": false,
+   "kind": "order_cycle"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_002",
+    "targets": [
+     "CONCEPT_019",
+     "CONCEPT_078"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_002",
+    "targets": [
+     "CONCEPT_019",
+     "CONCEPT_083"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_002",
+    "targets": [
+     "CONCEPT_055",
+     "CONCEPT_067"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_002",
+    "targets": [
+     "CONCEPT_067",
+     "CONCEPT_090"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_009",
+     "CONCEPT_027"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_009",
+     "CONCEPT_055"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_009",
+     "CONCEPT_071"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_009",
+     "CONCEPT_073"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_009",
+     "CONCEPT_074"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_009",
+     "CONCEPT_097"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_010",
+     "CONCEPT_067"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_013",
+     "CONCEPT_047"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_027",
+     "CONCEPT_033"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_027",
+     "CONCEPT_067"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_033",
+     "CONCEPT_047"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_033",
+     "CONCEPT_071"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_033",
+     "CONCEPT_073"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_033",
+     "CONCEPT_074"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_035",
+     "CONCEPT_071"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_035",
+     "CONCEPT_074"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_047",
+     "CONCEPT_055"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_047",
+     "CONCEPT_073"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_047",
+     "CONCEPT_074"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_055",
+     "CONCEPT_067"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_067",
+     "CONCEPT_071"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_067",
+     "CONCEPT_073"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_067",
+     "CONCEPT_074"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_067",
+     "CONCEPT_090"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_071",
+     "CONCEPT_097"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_073",
+     "CONCEPT_097"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_074",
+     "CONCEPT_097"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_004",
+    "targets": [
+     "CONCEPT_090",
+     "CONCEPT_097"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_034",
+    "targets": [
+     "CONCEPT_074",
+     "CONCEPT_097"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_034",
+    "targets": [
+     "CONCEPT_090",
+     "CONCEPT_097"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_016",
+    "targets": [
+     "CONCEPT_036",
+     "CONCEPT_042"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_016",
+    "targets": [
+     "CONCEPT_036",
+     "CONCEPT_045"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_016",
+    "targets": [
+     "CONCEPT_042",
+     "CONCEPT_045"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_088",
+    "targets": [
+     "CONCEPT_040",
+     "CONCEPT_074"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  },
+  {
+   "confidence": 0.0,
+   "description": "DEPENDS_ON pattern over exclusive targets",
+   "evidence": {
+    "source": "CONCEPT_088",
+    "targets": [
+     "CONCEPT_044",
+     "CONCEPT_074"
+    ]
+   },
+   "falsification": "DEPENDS_ON asserts P(src|tgt)>=0.3, not co-presence; src associates with each target in different ayahs — no obligation is violated.",
+   "genuine_after_test": false,
+   "kind": "proposition_tendency"
+  }
+ ],
+ "candidates_by_kind": {
+  "identity_instability": 3,
+  "order_cycle": 9,
+  "proposition_tendency": 39
+ },
+ "definition": "Every contradiction candidate is surfaced, given evidence, and an explicit disproof attempt. A candidate is genuine only if no disproof succeeds. The threshold is never lowered; ambiguity, complexity, and cycles are not counted as contradictions.",
+ "method": "phase10-consistency-1.0",
+ "n_candidates": 51,
+ "n_falsified": 51,
+ "n_survived": 0,
+ "surviving_contradictions": [],
+ "verdict": "NO genuine contradiction survives falsification — the discovered structure is internally consistent"
+}

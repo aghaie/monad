@@ -1,0 +1,47 @@
+{
+ "active_concept_count": {
+  "ci95_high": 103.0,
+  "ci95_low": 102.0,
+  "max": 103.0,
+  "mean": 102.874,
+  "median": 103.0,
+  "min": 101.0,
+  "n": 1000,
+  "std": 0.346589
+ },
+ "exclusion_disjointness_probability": 1.0,
+ "exclusion_disjointness_runs": 200,
+ "hub_remains_top1_probability": 1.0,
+ "hub_share": {
+  "ci95_high": 0.972136,
+  "ci95_low": 0.963449,
+  "max": 0.974758,
+  "mean": 0.96808,
+  "median": 0.968202,
+  "min": 0.960662,
+  "n": 1000,
+  "std": 0.002265
+ },
+ "method": "phase11-validation-1.0",
+ "runs": 1000,
+ "top10_concept_jaccard": {
+  "ci95_high": 1.0,
+  "ci95_low": 0.818182,
+  "max": 1.0,
+  "mean": 0.920545,
+  "median": 1.0,
+  "min": 0.818182,
+  "n": 1000,
+  "std": 0.090185
+ },
+ "top5_concept_jaccard": {
+  "ci95_high": 1.0,
+  "ci95_low": 0.666667,
+  "max": 1.0,
+  "mean": 0.82119,
+  "median": 0.666667,
+  "min": 0.428571,
+  "n": 1000,
+  "std": 0.16704
+ }
+}
