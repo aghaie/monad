@@ -1,8 +1,8 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-07. **Current phase complete:** Phase P (Structural
-Predictivity / Held-Out Information Engine) — **verdict `NON_PREDICTIVE`**. **Next
-phase:** none — Phase P recommends halting further semantic/content phases (see below).
+**Last updated:** 2026-06-07. **Current phase complete:** Phase Z (Quran Self-Method
+Discovery — falsification study) — **verdict `PARTIAL` (weak, bordering NO)**. **Next
+phase:** none — Phases P and Z together place the project at its evidential terminus.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -37,6 +37,56 @@ phase reads the previous phase's outputs and never rebuilds them.
 | R | Text → Reality Discovery Engine | ✅ complete | `generated/reality/*.json` |
 | X | Epistemology Discovery Engine | ✅ complete | `generated/epistemology/*.json` |
 | P | Structural Predictivity / Held-Out Information Engine | ✅ complete — **NON_PREDICTIVE** | `generated/predictivity/*.json` |
+| Z | Quran Self-Method Discovery (falsification study) | ✅ complete — **PARTIAL (weak)** | `generated/self_methodology/*.json` |
+
+---
+
+## Phase Z — Quran Self-Method Discovery Engine (falsification study)
+
+A deliberate **falsification re-test**, not a fresh question: Phases Q ("integrative
+method") and X ("directed epistemic pipeline") answered "does the Quran describe its own
+method?" affirmatively but **never applied frequency/length/order nulls**. Phase Z treats
+those conclusions as **hypotheses** and subjects the directional method to the controls they
+lacked. Rebuilt from the corpus only (**no Q/X outputs read**); no external source. Verdict
+from pre-registered thresholds; negative/partial outcome is first-class.
+
+- 8 data products in `generated/self_methodology/` + manifest. 16 epistemic nodes (the
+  spec's vocabulary) → directed graph (within-ayah word order + cross-ayah adjacency) → 85
+  candidate edges. Battery: **frequency** configuration null (K=100), **mushaf-order** null
+  (word+ayah shuffle, K=100), **surah-length** median split, **bootstrap** (K=200),
+  **subsampling** (10/20/40%), threshold sweep
+- **VERDICT — `PARTIAL` (weak, bordering NO):**
+  - raw graph **reproduces Q/X** (sources observe/read/listen/ask; deepest sink knowledge
+    −79) — replication without importing Q/X
+  - **but under controls it collapses:** only **10/85 edges (11.8%)** exist beyond the
+    frequency null (**88% of the "method" associations are frequency artifacts**); the
+    directional pipeline does **not** survive the order null; only **2 edges** pass the FULL
+    battery — `ask→knowledge` and `observe→misguidance` — and they are **isolated** (backbone
+    = 2 nodes, no chain, no cycle)
+  - the one surviving *perception* edge is **observe→misguidance**, not observe→knowledge —
+    anti-confirmatory for a clean method; echoes Phase X's bivalent perception
+  - stability ≠ reality: 10 edges are bootstrap/subsample-stable, but 8 of them do not beat
+    the frequency/order nulls
+- **Comparison:** Q's integrative method is **not supported as a controlled structure**; X's
+  directed pipeline's **directionality does not survive**; fully **consistent with Phase P**
+  (the directional structure is both non-predictive and non-robust to nulls). The strong
+  "internal methodology" reading of Q/X is, under controls, **not supported** — only a real
+  vocabulary field + 2 isolated regularities remain
+- Builder: `scripts/build_self_methodology.py`; Validator:
+  `scripts/validate_self_methodology.py` (981 checks incl. verdict-logic + null-battery
+  structure + byte-identical rebuild)
+- **Immutability note:** falsification report written as
+  `self-methodology-falsification-report.md` (Phase Q owns `methodology-falsification-report.md`).
+  Reports: `methodology-discovery-report.md`, `methodology-chain-report.md`,
+  `methodology-obstacle-report.md`, `methodology-outcome-report.md`,
+  `methodology-cycle-report.md`, `methodology-stability-report.md`,
+  `self-methodology-falsification-report.md`, `phase-z-final-report.md`
+
+Self-method verdict (honest): the Quran has a real epistemic-vocabulary field and two
+isolated directional regularities (`ask→knowledge`, `observe→misguidance`), but **a stable,
+connected, directional method does NOT survive** frequency/order/length controls. The strong
+Q/X "the Quran describes its own method" conclusion is **not supported** once the missing
+controls are applied — converging with Phase P's NON_PREDICTIVE terminus.
 
 ---
 
@@ -1051,6 +1101,7 @@ python3 scripts/build_quranic_methodology.py && python3 scripts/validate_quranic
 python3 scripts/build_reality.py        && python3 scripts/validate_reality.py        --rebuild
 python3 scripts/build_epistemology.py   && python3 scripts/validate_epistemology.py   --rebuild
 python3 scripts/build_predictivity.py   && python3 scripts/validate_predictivity.py   --rebuild
+python3 scripts/build_self_methodology.py && python3 scripts/validate_self_methodology.py --rebuild
 ```
 
 ---

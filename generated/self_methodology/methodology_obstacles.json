@@ -1,0 +1,127 @@
+{
+ "definition": "structures flowing INTO not-knowing / misguidance / denial / conjecture",
+ "edges_into_ignorance": [
+  {
+   "dir": 0.508997,
+   "from": "observe",
+   "support": 389,
+   "to": "denial"
+  },
+  {
+   "dir": 0.515625,
+   "from": "knowledge",
+   "support": 384,
+   "to": "denial"
+  },
+  {
+   "dir": 0.590909,
+   "from": "observe",
+   "support": 132,
+   "to": "misguidance"
+  },
+  {
+   "dir": 0.567797,
+   "from": "denial",
+   "support": 118,
+   "to": "misguidance"
+  },
+  {
+   "dir": 0.522124,
+   "from": "remember",
+   "support": 113,
+   "to": "denial"
+  },
+  {
+   "dir": 0.564815,
+   "from": "knowledge",
+   "support": 108,
+   "to": "misguidance"
+  },
+  {
+   "dir": 0.5,
+   "from": "guidance",
+   "support": 90,
+   "to": "misguidance"
+  },
+  {
+   "dir": 0.576923,
+   "from": "read",
+   "support": 78,
+   "to": "denial"
+  },
+  {
+   "dir": 0.54902,
+   "from": "ask",
+   "support": 51,
+   "to": "denial"
+  },
+  {
+   "dir": 0.512195,
+   "from": "knowledge",
+   "support": 41,
+   "to": "conjecture"
+  },
+  {
+   "dir": 0.583333,
+   "from": "observe",
+   "support": 36,
+   "to": "conjecture"
+  },
+  {
+   "dir": 0.5625,
+   "from": "conjecture",
+   "support": 32,
+   "to": "denial"
+  },
+  {
+   "dir": 0.5,
+   "from": "listen",
+   "support": 32,
+   "to": "misguidance"
+  },
+  {
+   "dir": 0.6,
+   "from": "judge",
+   "support": 25,
+   "to": "misguidance"
+  },
+  {
+   "dir": 0.769231,
+   "from": "misguidance",
+   "support": 13,
+   "to": "conjecture"
+  },
+  {
+   "dir": 0.692308,
+   "from": "read",
+   "support": 13,
+   "to": "misguidance"
+  },
+  {
+   "dir": 0.666667,
+   "from": "judge",
+   "support": 12,
+   "to": "conjecture"
+  },
+  {
+   "dir": 0.666667,
+   "from": "listen",
+   "support": 12,
+   "to": "conjecture"
+  },
+  {
+   "dir": 0.727273,
+   "from": "ponder",
+   "support": 11,
+   "to": "misguidance"
+  },
+  {
+   "dir": 0.545455,
+   "from": "understanding",
+   "support": 11,
+   "to": "misguidance"
+  }
+ ],
+ "finding": "20 directed edges flow into ignorance-states (misguidance/denial/conjecture)",
+ "method": "self-methodology-1.0"
+}

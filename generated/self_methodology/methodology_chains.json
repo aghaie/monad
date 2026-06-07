@@ -1,0 +1,1056 @@
+{
+ "edges": [
+  {
+   "bwd": 1,
+   "dir": 0.875,
+   "from": "denial",
+   "fwd": 7,
+   "support": 8,
+   "to": "certainty"
+  },
+  {
+   "bwd": 3,
+   "dir": 0.769231,
+   "from": "misguidance",
+   "fwd": 10,
+   "support": 13,
+   "to": "conjecture"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.764706,
+   "from": "listen",
+   "fwd": 13,
+   "support": 17,
+   "to": "reflect"
+  },
+  {
+   "bwd": 2,
+   "dir": 0.75,
+   "from": "listen",
+   "fwd": 6,
+   "support": 8,
+   "to": "ask"
+  },
+  {
+   "bwd": 2,
+   "dir": 0.75,
+   "from": "reflect",
+   "fwd": 6,
+   "support": 8,
+   "to": "guidance"
+  },
+  {
+   "bwd": 8,
+   "dir": 0.733333,
+   "from": "read",
+   "fwd": 22,
+   "support": 30,
+   "to": "guidance"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.733333,
+   "from": "knowledge",
+   "fwd": 11,
+   "support": 15,
+   "to": "certainty"
+  },
+  {
+   "bwd": 3,
+   "dir": 0.727273,
+   "from": "ponder",
+   "fwd": 8,
+   "support": 11,
+   "to": "misguidance"
+  },
+  {
+   "bwd": 3,
+   "dir": 0.7,
+   "from": "denial",
+   "fwd": 7,
+   "support": 10,
+   "to": "think"
+  },
+  {
+   "bwd": 7,
+   "dir": 0.695652,
+   "from": "guidance",
+   "fwd": 16,
+   "support": 23,
+   "to": "ask"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.692308,
+   "from": "observe",
+   "fwd": 9,
+   "support": 13,
+   "to": "certainty"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.692308,
+   "from": "read",
+   "fwd": 9,
+   "support": 13,
+   "to": "misguidance"
+  },
+  {
+   "bwd": 5,
+   "dir": 0.6875,
+   "from": "ponder",
+   "fwd": 11,
+   "support": 16,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 8,
+   "dir": 0.68,
+   "from": "read",
+   "fwd": 17,
+   "support": 25,
+   "to": "judge"
+  },
+  {
+   "bwd": 11,
+   "dir": 0.676471,
+   "from": "ask",
+   "fwd": 23,
+   "support": 34,
+   "to": "remember"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.666667,
+   "from": "judge",
+   "fwd": 8,
+   "support": 12,
+   "to": "conjecture"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.666667,
+   "from": "listen",
+   "fwd": 8,
+   "support": 12,
+   "to": "conjecture"
+  },
+  {
+   "bwd": 3,
+   "dir": 0.666667,
+   "from": "reflect",
+   "fwd": 6,
+   "support": 9,
+   "to": "remember"
+  },
+  {
+   "bwd": 11,
+   "dir": 0.65625,
+   "from": "observe",
+   "fwd": 21,
+   "support": 32,
+   "to": "ponder"
+  },
+  {
+   "bwd": 43,
+   "dir": 0.650407,
+   "from": "listen",
+   "fwd": 80,
+   "support": 123,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 7,
+   "dir": 0.65,
+   "from": "read",
+   "fwd": 13,
+   "support": 20,
+   "to": "listen"
+  },
+  {
+   "bwd": 5,
+   "dir": 0.642857,
+   "from": "judge",
+   "fwd": 9,
+   "support": 14,
+   "to": "understanding"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.636364,
+   "from": "ponder",
+   "fwd": 7,
+   "support": 11,
+   "to": "guidance"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.636364,
+   "from": "think",
+   "fwd": 7,
+   "support": 11,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.636364,
+   "from": "read",
+   "fwd": 7,
+   "support": 11,
+   "to": "reflect"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.636364,
+   "from": "read",
+   "fwd": 7,
+   "support": 11,
+   "to": "understanding"
+  },
+  {
+   "bwd": 39,
+   "dir": 0.632075,
+   "from": "ask",
+   "fwd": 67,
+   "support": 106,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 13,
+   "dir": 0.606061,
+   "from": "reflect",
+   "fwd": 20,
+   "support": 33,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 18,
+   "dir": 0.6,
+   "from": "read",
+   "fwd": 27,
+   "support": 45,
+   "to": "remember"
+  },
+  {
+   "bwd": 10,
+   "dir": 0.6,
+   "from": "denial",
+   "fwd": 15,
+   "support": 25,
+   "to": "ponder"
+  },
+  {
+   "bwd": 10,
+   "dir": 0.6,
+   "from": "judge",
+   "fwd": 15,
+   "support": 25,
+   "to": "misguidance"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.6,
+   "from": "ask",
+   "fwd": 6,
+   "support": 10,
+   "to": "read"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.6,
+   "from": "understanding",
+   "fwd": 6,
+   "support": 10,
+   "to": "ask"
+  },
+  {
+   "bwd": 4,
+   "dir": 0.6,
+   "from": "conjecture",
+   "fwd": 6,
+   "support": 10,
+   "to": "read"
+  },
+  {
+   "bwd": 54,
+   "dir": 0.590909,
+   "from": "observe",
+   "fwd": 78,
+   "support": 132,
+   "to": "misguidance"
+  },
+  {
+   "bwd": 15,
+   "dir": 0.583333,
+   "from": "observe",
+   "fwd": 21,
+   "support": 36,
+   "to": "conjecture"
+  },
+  {
+   "bwd": 5,
+   "dir": 0.583333,
+   "from": "conjecture",
+   "fwd": 7,
+   "support": 12,
+   "to": "remember"
+  },
+  {
+   "bwd": 5,
+   "dir": 0.583333,
+   "from": "ponder",
+   "fwd": 7,
+   "support": 12,
+   "to": "listen"
+  },
+  {
+   "bwd": 5,
+   "dir": 0.583333,
+   "from": "understanding",
+   "fwd": 7,
+   "support": 12,
+   "to": "listen"
+  },
+  {
+   "bwd": 51,
+   "dir": 0.581967,
+   "from": "listen",
+   "fwd": 71,
+   "support": 122,
+   "to": "observe"
+  },
+  {
+   "bwd": 33,
+   "dir": 0.576923,
+   "from": "read",
+   "fwd": 45,
+   "support": 78,
+   "to": "denial"
+  },
+  {
+   "bwd": 17,
+   "dir": 0.575,
+   "from": "remember",
+   "fwd": 23,
+   "support": 40,
+   "to": "understanding"
+  },
+  {
+   "bwd": 15,
+   "dir": 0.571429,
+   "from": "listen",
+   "fwd": 20,
+   "support": 35,
+   "to": "remember"
+  },
+  {
+   "bwd": 6,
+   "dir": 0.571429,
+   "from": "ponder",
+   "fwd": 8,
+   "support": 14,
+   "to": "remember"
+  },
+  {
+   "bwd": 51,
+   "dir": 0.567797,
+   "from": "denial",
+   "fwd": 67,
+   "support": 118,
+   "to": "misguidance"
+  },
+  {
+   "bwd": 74,
+   "dir": 0.567251,
+   "from": "remember",
+   "fwd": 97,
+   "support": 171,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 20,
+   "dir": 0.565217,
+   "from": "observe",
+   "fwd": 26,
+   "support": 46,
+   "to": "ask"
+  },
+  {
+   "bwd": 47,
+   "dir": 0.564815,
+   "from": "knowledge",
+   "fwd": 61,
+   "support": 108,
+   "to": "misguidance"
+  },
+  {
+   "bwd": 24,
+   "dir": 0.563636,
+   "from": "observe",
+   "fwd": 31,
+   "support": 55,
+   "to": "understanding"
+  },
+  {
+   "bwd": 14,
+   "dir": 0.5625,
+   "from": "conjecture",
+   "fwd": 18,
+   "support": 32,
+   "to": "denial"
+  },
+  {
+   "bwd": 7,
+   "dir": 0.5625,
+   "from": "ask",
+   "fwd": 9,
+   "support": 16,
+   "to": "judge"
+  },
+  {
+   "bwd": 7,
+   "dir": 0.5625,
+   "from": "misguidance",
+   "fwd": 9,
+   "support": 16,
+   "to": "ask"
+  },
+  {
+   "bwd": 18,
+   "dir": 0.560976,
+   "from": "misguidance",
+   "fwd": 23,
+   "support": 41,
+   "to": "remember"
+  },
+  {
+   "bwd": 38,
+   "dir": 0.55814,
+   "from": "denial",
+   "fwd": 48,
+   "support": 86,
+   "to": "listen"
+  },
+  {
+   "bwd": 25,
+   "dir": 0.553571,
+   "from": "judge",
+   "fwd": 31,
+   "support": 56,
+   "to": "guidance"
+  },
+  {
+   "bwd": 23,
+   "dir": 0.54902,
+   "from": "ask",
+   "fwd": 28,
+   "support": 51,
+   "to": "denial"
+  },
+  {
+   "bwd": 19,
+   "dir": 0.547619,
+   "from": "judge",
+   "fwd": 23,
+   "support": 42,
+   "to": "remember"
+  },
+  {
+   "bwd": 5,
+   "dir": 0.545455,
+   "from": "understanding",
+   "fwd": 6,
+   "support": 11,
+   "to": "misguidance"
+  },
+  {
+   "bwd": 69,
+   "dir": 0.543046,
+   "from": "observe",
+   "fwd": 82,
+   "support": 151,
+   "to": "guidance"
+  },
+  {
+   "bwd": 40,
+   "dir": 0.54023,
+   "from": "read",
+   "fwd": 47,
+   "support": 87,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 89,
+   "dir": 0.536458,
+   "from": "knowledge",
+   "fwd": 103,
+   "support": 192,
+   "to": "judge"
+  },
+  {
+   "bwd": 58,
+   "dir": 0.536,
+   "from": "remember",
+   "fwd": 67,
+   "support": 125,
+   "to": "observe"
+  },
+  {
+   "bwd": 13,
+   "dir": 0.535714,
+   "from": "guidance",
+   "fwd": 15,
+   "support": 28,
+   "to": "understanding"
+  },
+  {
+   "bwd": 7,
+   "dir": 0.533333,
+   "from": "conjecture",
+   "fwd": 8,
+   "support": 15,
+   "to": "guidance"
+  },
+  {
+   "bwd": 49,
+   "dir": 0.528846,
+   "from": "denial",
+   "fwd": 55,
+   "support": 104,
+   "to": "judge"
+  },
+  {
+   "bwd": 26,
+   "dir": 0.527273,
+   "from": "guidance",
+   "fwd": 29,
+   "support": 55,
+   "to": "remember"
+  },
+  {
+   "bwd": 189,
+   "dir": 0.523929,
+   "from": "observe",
+   "fwd": 208,
+   "support": 397,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 10,
+   "dir": 0.52381,
+   "from": "denial",
+   "fwd": 11,
+   "support": 21,
+   "to": "reflect"
+  },
+  {
+   "bwd": 54,
+   "dir": 0.522124,
+   "from": "remember",
+   "fwd": 59,
+   "support": 113,
+   "to": "denial"
+  },
+  {
+   "bwd": 23,
+   "dir": 0.520833,
+   "from": "guidance",
+   "fwd": 25,
+   "support": 48,
+   "to": "listen"
+  },
+  {
+   "bwd": 12,
+   "dir": 0.52,
+   "from": "observe",
+   "fwd": 13,
+   "support": 25,
+   "to": "reflect"
+  },
+  {
+   "bwd": 44,
+   "dir": 0.516484,
+   "from": "observe",
+   "fwd": 47,
+   "support": 91,
+   "to": "judge"
+  },
+  {
+   "bwd": 186,
+   "dir": 0.515625,
+   "from": "knowledge",
+   "fwd": 198,
+   "support": 384,
+   "to": "denial"
+  },
+  {
+   "bwd": 20,
+   "dir": 0.512195,
+   "from": "knowledge",
+   "fwd": 21,
+   "support": 41,
+   "to": "conjecture"
+  },
+  {
+   "bwd": 25,
+   "dir": 0.509804,
+   "from": "read",
+   "fwd": 26,
+   "support": 51,
+   "to": "observe"
+  },
+  {
+   "bwd": 26,
+   "dir": 0.509434,
+   "from": "knowledge",
+   "fwd": 27,
+   "support": 53,
+   "to": "understanding"
+  },
+  {
+   "bwd": 191,
+   "dir": 0.508997,
+   "from": "observe",
+   "fwd": 198,
+   "support": 389,
+   "to": "denial"
+  },
+  {
+   "bwd": 30,
+   "dir": 0.508197,
+   "from": "denial",
+   "fwd": 31,
+   "support": 61,
+   "to": "understanding"
+  },
+  {
+   "bwd": 92,
+   "dir": 0.505376,
+   "from": "denial",
+   "fwd": 94,
+   "support": 186,
+   "to": "guidance"
+  },
+  {
+   "bwd": 97,
+   "dir": 0.505102,
+   "from": "knowledge",
+   "fwd": 99,
+   "support": 196,
+   "to": "guidance"
+  },
+  {
+   "bwd": 45,
+   "dir": 0.5,
+   "from": "guidance",
+   "fwd": 45,
+   "support": 90,
+   "to": "misguidance"
+  },
+  {
+   "bwd": 16,
+   "dir": 0.5,
+   "from": "judge",
+   "fwd": 16,
+   "support": 32,
+   "to": "listen"
+  },
+  {
+   "bwd": 16,
+   "dir": 0.5,
+   "from": "listen",
+   "fwd": 16,
+   "support": 32,
+   "to": "misguidance"
+  },
+  {
+   "bwd": 7,
+   "dir": 0.5,
+   "from": "certainty",
+   "fwd": 7,
+   "support": 14,
+   "to": "guidance"
+  },
+  {
+   "bwd": 6,
+   "dir": 0.5,
+   "from": "observe",
+   "fwd": 6,
+   "support": 12,
+   "to": "think"
+  }
+ ],
+ "finding": "directed method graph: 85 edges; source-most node 'observe', sink-most 'knowledge'",
+ "method": "self-methodology-1.0",
+ "n_edges": 85,
+ "net_outflow_order": [
+  {
+   "net": 71.0,
+   "node": "observe"
+  },
+  {
+   "net": 65.0,
+   "node": "read"
+  },
+  {
+   "net": 57.0,
+   "node": "listen"
+  },
+  {
+   "net": 26.0,
+   "node": "ask"
+  },
+  {
+   "net": 6.0,
+   "node": "denial"
+  },
+  {
+   "net": 3.0,
+   "node": "ponder"
+  },
+  {
+   "net": 0.0,
+   "node": "reflect"
+  },
+  {
+   "net": -1.0,
+   "node": "think"
+  },
+  {
+   "net": -2.0,
+   "node": "remember"
+  },
+  {
+   "net": -11.0,
+   "node": "judge"
+  },
+  {
+   "net": -13.0,
+   "node": "conjecture"
+  },
+  {
+   "net": -18.0,
+   "node": "certainty"
+  },
+  {
+   "net": -19.0,
+   "node": "understanding"
+  },
+  {
+   "net": -29.0,
+   "node": "guidance"
+  },
+  {
+   "net": -56.0,
+   "node": "misguidance"
+  },
+  {
+   "net": -79.0,
+   "node": "knowledge"
+  }
+ ],
+ "outcomes_of_cognition": {
+  "knowledge": [
+   {
+    "dir": 0.515625,
+    "support": 384,
+    "to": "denial"
+   },
+   {
+    "dir": 0.505102,
+    "support": 196,
+    "to": "guidance"
+   },
+   {
+    "dir": 0.536458,
+    "support": 192,
+    "to": "judge"
+   },
+   {
+    "dir": 0.564815,
+    "support": 108,
+    "to": "misguidance"
+   },
+   {
+    "dir": 0.509434,
+    "support": 53,
+    "to": "understanding"
+   },
+   {
+    "dir": 0.512195,
+    "support": 41,
+    "to": "conjecture"
+   },
+   {
+    "dir": 0.733333,
+    "support": 15,
+    "to": "certainty"
+   }
+  ],
+  "ponder": [
+   {
+    "dir": 0.6875,
+    "support": 16,
+    "to": "knowledge"
+   },
+   {
+    "dir": 0.571429,
+    "support": 14,
+    "to": "remember"
+   },
+   {
+    "dir": 0.583333,
+    "support": 12,
+    "to": "listen"
+   },
+   {
+    "dir": 0.636364,
+    "support": 11,
+    "to": "guidance"
+   },
+   {
+    "dir": 0.727273,
+    "support": 11,
+    "to": "misguidance"
+   }
+  ],
+  "reflect": [
+   {
+    "dir": 0.606061,
+    "support": 33,
+    "to": "knowledge"
+   },
+   {
+    "dir": 0.666667,
+    "support": 9,
+    "to": "remember"
+   },
+   {
+    "dir": 0.75,
+    "support": 8,
+    "to": "guidance"
+   }
+  ],
+  "remember": [
+   {
+    "dir": 0.567251,
+    "support": 171,
+    "to": "knowledge"
+   },
+   {
+    "dir": 0.536,
+    "support": 125,
+    "to": "observe"
+   },
+   {
+    "dir": 0.522124,
+    "support": 113,
+    "to": "denial"
+   },
+   {
+    "dir": 0.575,
+    "support": 40,
+    "to": "understanding"
+   }
+  ],
+  "think": [
+   {
+    "dir": 0.636364,
+    "support": 11,
+    "to": "knowledge"
+   }
+  ],
+  "understanding": [
+   {
+    "dir": 0.583333,
+    "support": 12,
+    "to": "listen"
+   },
+   {
+    "dir": 0.545455,
+    "support": 11,
+    "to": "misguidance"
+   },
+   {
+    "dir": 0.6,
+    "support": 10,
+    "to": "ask"
+   }
+  ]
+ },
+ "prerequisites_of_cognition": {
+  "knowledge": [
+   {
+    "dir": 0.523929,
+    "from": "observe",
+    "support": 397
+   },
+   {
+    "dir": 0.567251,
+    "from": "remember",
+    "support": 171
+   },
+   {
+    "dir": 0.650407,
+    "from": "listen",
+    "support": 123
+   },
+   {
+    "dir": 0.632075,
+    "from": "ask",
+    "support": 106
+   },
+   {
+    "dir": 0.54023,
+    "from": "read",
+    "support": 87
+   },
+   {
+    "dir": 0.606061,
+    "from": "reflect",
+    "support": 33
+   },
+   {
+    "dir": 0.6875,
+    "from": "ponder",
+    "support": 16
+   },
+   {
+    "dir": 0.636364,
+    "from": "think",
+    "support": 11
+   }
+  ],
+  "ponder": [
+   {
+    "dir": 0.65625,
+    "from": "observe",
+    "support": 32
+   },
+   {
+    "dir": 0.6,
+    "from": "denial",
+    "support": 25
+   }
+  ],
+  "reflect": [
+   {
+    "dir": 0.52,
+    "from": "observe",
+    "support": 25
+   },
+   {
+    "dir": 0.52381,
+    "from": "denial",
+    "support": 21
+   },
+   {
+    "dir": 0.764706,
+    "from": "listen",
+    "support": 17
+   },
+   {
+    "dir": 0.636364,
+    "from": "read",
+    "support": 11
+   }
+  ],
+  "remember": [
+   {
+    "dir": 0.527273,
+    "from": "guidance",
+    "support": 55
+   },
+   {
+    "dir": 0.6,
+    "from": "read",
+    "support": 45
+   },
+   {
+    "dir": 0.547619,
+    "from": "judge",
+    "support": 42
+   },
+   {
+    "dir": 0.560976,
+    "from": "misguidance",
+    "support": 41
+   },
+   {
+    "dir": 0.571429,
+    "from": "listen",
+    "support": 35
+   },
+   {
+    "dir": 0.676471,
+    "from": "ask",
+    "support": 34
+   },
+   {
+    "dir": 0.571429,
+    "from": "ponder",
+    "support": 14
+   },
+   {
+    "dir": 0.583333,
+    "from": "conjecture",
+    "support": 12
+   },
+   {
+    "dir": 0.666667,
+    "from": "reflect",
+    "support": 9
+   }
+  ],
+  "think": [
+   {
+    "dir": 0.5,
+    "from": "observe",
+    "support": 12
+   },
+   {
+    "dir": 0.7,
+    "from": "denial",
+    "support": 10
+   }
+  ],
+  "understanding": [
+   {
+    "dir": 0.508197,
+    "from": "denial",
+    "support": 61
+   },
+   {
+    "dir": 0.563636,
+    "from": "observe",
+    "support": 55
+   },
+   {
+    "dir": 0.509434,
+    "from": "knowledge",
+    "support": 53
+   },
+   {
+    "dir": 0.575,
+    "from": "remember",
+    "support": 40
+   },
+   {
+    "dir": 0.535714,
+    "from": "guidance",
+    "support": 28
+   },
+   {
+    "dir": 0.642857,
+    "from": "judge",
+    "support": 14
+   },
+   {
+    "dir": 0.636364,
+    "from": "read",
+    "support": 11
+   }
+  ]
+ }
+}

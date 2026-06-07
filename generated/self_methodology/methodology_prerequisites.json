@@ -1,0 +1,306 @@
+{
+ "method": "self-methodology-1.0",
+ "outcomes_of_cognition": {
+  "knowledge": [
+   {
+    "dir": 0.515625,
+    "support": 384,
+    "to": "denial"
+   },
+   {
+    "dir": 0.505102,
+    "support": 196,
+    "to": "guidance"
+   },
+   {
+    "dir": 0.536458,
+    "support": 192,
+    "to": "judge"
+   },
+   {
+    "dir": 0.564815,
+    "support": 108,
+    "to": "misguidance"
+   },
+   {
+    "dir": 0.509434,
+    "support": 53,
+    "to": "understanding"
+   },
+   {
+    "dir": 0.512195,
+    "support": 41,
+    "to": "conjecture"
+   },
+   {
+    "dir": 0.733333,
+    "support": 15,
+    "to": "certainty"
+   }
+  ],
+  "ponder": [
+   {
+    "dir": 0.6875,
+    "support": 16,
+    "to": "knowledge"
+   },
+   {
+    "dir": 0.571429,
+    "support": 14,
+    "to": "remember"
+   },
+   {
+    "dir": 0.583333,
+    "support": 12,
+    "to": "listen"
+   },
+   {
+    "dir": 0.636364,
+    "support": 11,
+    "to": "guidance"
+   },
+   {
+    "dir": 0.727273,
+    "support": 11,
+    "to": "misguidance"
+   }
+  ],
+  "reflect": [
+   {
+    "dir": 0.606061,
+    "support": 33,
+    "to": "knowledge"
+   },
+   {
+    "dir": 0.666667,
+    "support": 9,
+    "to": "remember"
+   },
+   {
+    "dir": 0.75,
+    "support": 8,
+    "to": "guidance"
+   }
+  ],
+  "remember": [
+   {
+    "dir": 0.567251,
+    "support": 171,
+    "to": "knowledge"
+   },
+   {
+    "dir": 0.536,
+    "support": 125,
+    "to": "observe"
+   },
+   {
+    "dir": 0.522124,
+    "support": 113,
+    "to": "denial"
+   },
+   {
+    "dir": 0.575,
+    "support": 40,
+    "to": "understanding"
+   }
+  ],
+  "think": [
+   {
+    "dir": 0.636364,
+    "support": 11,
+    "to": "knowledge"
+   }
+  ],
+  "understanding": [
+   {
+    "dir": 0.583333,
+    "support": 12,
+    "to": "listen"
+   },
+   {
+    "dir": 0.545455,
+    "support": 11,
+    "to": "misguidance"
+   },
+   {
+    "dir": 0.6,
+    "support": 10,
+    "to": "ask"
+   }
+  ]
+ },
+ "prerequisites_of_cognition": {
+  "knowledge": [
+   {
+    "dir": 0.523929,
+    "from": "observe",
+    "support": 397
+   },
+   {
+    "dir": 0.567251,
+    "from": "remember",
+    "support": 171
+   },
+   {
+    "dir": 0.650407,
+    "from": "listen",
+    "support": 123
+   },
+   {
+    "dir": 0.632075,
+    "from": "ask",
+    "support": 106
+   },
+   {
+    "dir": 0.54023,
+    "from": "read",
+    "support": 87
+   },
+   {
+    "dir": 0.606061,
+    "from": "reflect",
+    "support": 33
+   },
+   {
+    "dir": 0.6875,
+    "from": "ponder",
+    "support": 16
+   },
+   {
+    "dir": 0.636364,
+    "from": "think",
+    "support": 11
+   }
+  ],
+  "ponder": [
+   {
+    "dir": 0.65625,
+    "from": "observe",
+    "support": 32
+   },
+   {
+    "dir": 0.6,
+    "from": "denial",
+    "support": 25
+   }
+  ],
+  "reflect": [
+   {
+    "dir": 0.52,
+    "from": "observe",
+    "support": 25
+   },
+   {
+    "dir": 0.52381,
+    "from": "denial",
+    "support": 21
+   },
+   {
+    "dir": 0.764706,
+    "from": "listen",
+    "support": 17
+   },
+   {
+    "dir": 0.636364,
+    "from": "read",
+    "support": 11
+   }
+  ],
+  "remember": [
+   {
+    "dir": 0.527273,
+    "from": "guidance",
+    "support": 55
+   },
+   {
+    "dir": 0.6,
+    "from": "read",
+    "support": 45
+   },
+   {
+    "dir": 0.547619,
+    "from": "judge",
+    "support": 42
+   },
+   {
+    "dir": 0.560976,
+    "from": "misguidance",
+    "support": 41
+   },
+   {
+    "dir": 0.571429,
+    "from": "listen",
+    "support": 35
+   },
+   {
+    "dir": 0.676471,
+    "from": "ask",
+    "support": 34
+   },
+   {
+    "dir": 0.571429,
+    "from": "ponder",
+    "support": 14
+   },
+   {
+    "dir": 0.583333,
+    "from": "conjecture",
+    "support": 12
+   },
+   {
+    "dir": 0.666667,
+    "from": "reflect",
+    "support": 9
+   }
+  ],
+  "think": [
+   {
+    "dir": 0.5,
+    "from": "observe",
+    "support": 12
+   },
+   {
+    "dir": 0.7,
+    "from": "denial",
+    "support": 10
+   }
+  ],
+  "understanding": [
+   {
+    "dir": 0.508197,
+    "from": "denial",
+    "support": 61
+   },
+   {
+    "dir": 0.563636,
+    "from": "observe",
+    "support": 55
+   },
+   {
+    "dir": 0.509434,
+    "from": "knowledge",
+    "support": 53
+   },
+   {
+    "dir": 0.575,
+    "from": "remember",
+    "support": 40
+   },
+   {
+    "dir": 0.535714,
+    "from": "guidance",
+    "support": 28
+   },
+   {
+    "dir": 0.642857,
+    "from": "judge",
+    "support": 14
+   },
+   {
+    "dir": 0.636364,
+    "from": "read",
+    "support": 11
+   }
+  ]
+ }
+}

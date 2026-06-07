@@ -1,0 +1,82 @@
+{
+ "constants": {
+  "DIR_MARGIN": 0.6,
+  "K_BOOT": 200,
+  "K_FREQ_NULL": 100,
+  "K_ORDER_NULL": 100,
+  "K_SUB": 50,
+  "MIN_SUPPORT": 8,
+  "NO_EXIST_FRAC": 0.1,
+  "SEED": 20260607,
+  "SUBSAMPLE_FRACS": [
+   0.1,
+   0.2,
+   0.4
+  ],
+  "WINDOW": 1,
+  "YES_BACKBONE_NODES": 6,
+  "YES_DIR_FRAC": 0.5,
+  "nodes": [
+   "observe",
+   "listen",
+   "read",
+   "reflect",
+   "ponder",
+   "think",
+   "remember",
+   "ask",
+   "judge",
+   "knowledge",
+   "understanding",
+   "certainty",
+   "conjecture",
+   "guidance",
+   "misguidance",
+   "denial"
+  ]
+ },
+ "input_sha256": {
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "self-methodology-1.0",
+ "output_bytes": {
+  "methodology_chains.json": 14958,
+  "methodology_cycles.json": 16624,
+  "methodology_falsification.json": 35384,
+  "methodology_graph.json": 3318,
+  "methodology_obstacles.json": 2045,
+  "methodology_outcomes.json": 1677,
+  "methodology_prerequisites.json": 4282,
+  "methodology_stability.json": 22293
+ },
+ "prohibitions_observed": [
+  "no tafsir",
+  "no translation as evidence",
+  "no hadith",
+  "no kalam",
+  "no philosophy",
+  "no mysticism",
+  "no human sciences",
+  "no theories of cognition",
+  "no external model",
+  "no prior-phase outputs (Q/X/P JSON never read)",
+  "Q/X conclusions are hypotheses not findings",
+  "no proposition accepted for resembling a human theory",
+  "units/roots stay opaque",
+  "verdict from pre-registered thresholds only",
+  "negative/partial outcome is first-class",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "directionality_survivor_fraction": 0.082353,
+  "edges_directional_beyond_order": 15,
+  "edges_existing_beyond_frequency": 10,
+  "existence_survivor_fraction": 0.117647,
+  "largest_backbone": 2,
+  "n_candidate_edges": 85,
+  "n_full_survivors": 2,
+  "n_stable_directionality": 10,
+  "verdict": "PARTIAL"
+ },
+ "verdict": "PARTIAL"
+}

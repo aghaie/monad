@@ -1,0 +1,103 @@
+{
+ "definition": "structures flowing OUT OF knowledge / certainty / guidance / understanding",
+ "edges_from_knowledge": [
+  {
+   "dir": 0.515625,
+   "from": "knowledge",
+   "support": 384,
+   "to": "denial"
+  },
+  {
+   "dir": 0.505102,
+   "from": "knowledge",
+   "support": 196,
+   "to": "guidance"
+  },
+  {
+   "dir": 0.536458,
+   "from": "knowledge",
+   "support": 192,
+   "to": "judge"
+  },
+  {
+   "dir": 0.564815,
+   "from": "knowledge",
+   "support": 108,
+   "to": "misguidance"
+  },
+  {
+   "dir": 0.5,
+   "from": "guidance",
+   "support": 90,
+   "to": "misguidance"
+  },
+  {
+   "dir": 0.527273,
+   "from": "guidance",
+   "support": 55,
+   "to": "remember"
+  },
+  {
+   "dir": 0.509434,
+   "from": "knowledge",
+   "support": 53,
+   "to": "understanding"
+  },
+  {
+   "dir": 0.520833,
+   "from": "guidance",
+   "support": 48,
+   "to": "listen"
+  },
+  {
+   "dir": 0.512195,
+   "from": "knowledge",
+   "support": 41,
+   "to": "conjecture"
+  },
+  {
+   "dir": 0.535714,
+   "from": "guidance",
+   "support": 28,
+   "to": "understanding"
+  },
+  {
+   "dir": 0.695652,
+   "from": "guidance",
+   "support": 23,
+   "to": "ask"
+  },
+  {
+   "dir": 0.733333,
+   "from": "knowledge",
+   "support": 15,
+   "to": "certainty"
+  },
+  {
+   "dir": 0.5,
+   "from": "certainty",
+   "support": 14,
+   "to": "guidance"
+  },
+  {
+   "dir": 0.583333,
+   "from": "understanding",
+   "support": 12,
+   "to": "listen"
+  },
+  {
+   "dir": 0.545455,
+   "from": "understanding",
+   "support": 11,
+   "to": "misguidance"
+  },
+  {
+   "dir": 0.6,
+   "from": "understanding",
+   "support": 10,
+   "to": "ask"
+  }
+ ],
+ "finding": "16 directed edges flow out of knowledge-states",
+ "method": "self-methodology-1.0"
+}

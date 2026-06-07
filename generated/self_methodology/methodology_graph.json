@@ -1,0 +1,159 @@
+{
+ "candidate_edges": 85,
+ "definition": "the Quran's own epistemic vocabulary (the spec's list), rebuilt from corpus roots",
+ "finding": "16 epistemic nodes; 85 node pairs co-occur at support>=8 — the vocabulary forms a connected associative field (tested for reality in I)",
+ "method": "self-methodology-1.0",
+ "n_nodes": 16,
+ "nodes": [
+  {
+   "ayah_count": 728,
+   "node": "knowledge",
+   "roots": [
+    "علم"
+   ]
+  },
+  {
+   "ayah_count": 695,
+   "node": "denial",
+   "roots": [
+    "كذب",
+    "كفر"
+   ]
+  },
+  {
+   "ayah_count": 638,
+   "node": "observe",
+   "roots": [
+    "نظر",
+    "بصر",
+    "راي",
+    "شهد"
+   ]
+  },
+  {
+   "ayah_count": 268,
+   "node": "guidance",
+   "roots": [
+    "هدي"
+   ]
+  },
+  {
+   "ayah_count": 264,
+   "node": "remember",
+   "roots": [
+    "ذكر"
+   ]
+  },
+  {
+   "ayah_count": 189,
+   "node": "judge",
+   "roots": [
+    "حكم"
+   ]
+  },
+  {
+   "ayah_count": 170,
+   "node": "misguidance",
+   "roots": [
+    "ضلل"
+   ]
+  },
+  {
+   "ayah_count": 163,
+   "node": "listen",
+   "roots": [
+    "سمع"
+   ]
+  },
+  {
+   "ayah_count": 137,
+   "node": "read",
+   "roots": [
+    "قرا",
+    "تلو"
+   ]
+  },
+  {
+   "ayah_count": 118,
+   "node": "ask",
+   "roots": [
+    "سال"
+   ]
+  },
+  {
+   "ayah_count": 91,
+   "node": "understanding",
+   "roots": [
+    "فقه",
+    "فهم",
+    "نهي",
+    "لبب"
+   ]
+  },
+  {
+   "ayah_count": 57,
+   "node": "conjecture",
+   "roots": [
+    "ظنن"
+   ]
+  },
+  {
+   "ayah_count": 49,
+   "node": "reflect",
+   "roots": [
+    "عقل"
+   ]
+  },
+  {
+   "ayah_count": 44,
+   "node": "ponder",
+   "roots": [
+    "دبر"
+   ]
+  },
+  {
+   "ayah_count": 28,
+   "node": "certainty",
+   "roots": [
+    "يقن"
+   ]
+  },
+  {
+   "ayah_count": 18,
+   "node": "think",
+   "roots": [
+    "فكر"
+   ]
+  }
+ ],
+ "verdict": {
+  "comparison": {
+   "P_result": "NON_PREDICTIVE — directional structure (S2) was the weakest predictor; structure real but not predictive beyond frequency",
+   "Q_claim": "integrative method (observe signs -> reason -> remember) — accepted in Phase Q on raw counts, NO frequency/order nulls",
+   "X_claim": "directed epistemic pipeline (perceive -> reflect -> know -> certainty) — Phase X used reverse-sequence + Meccan/Medinan only, NO frequency/length/order nulls",
+   "Z_test": "subjects the directional method to frequency + surah-length + mushaf-order nulls + bootstrap + subsampling"
+  },
+  "directionality_survivor_fraction": 0.082353,
+  "existence_survivor_fraction": 0.117647,
+  "full_survivor_edges": [
+   "ask->knowledge",
+   "observe->misguidance"
+  ],
+  "interpretation": "YES = a connected directional method survives ALL controls; PARTIAL = the epistemic vocabulary co-occurs beyond chance (real associative field) but its DIRECTIONALITY (the 'pipeline'/sequence claim of Q and X) does not robustly survive the order nulls; NO = even the vocabulary co-occurrence is not beyond frequency",
+  "largest_connected_backbone_nodes": 2,
+  "method": "self-methodology-1.0",
+  "n_candidate_edges": 85,
+  "n_full_survivors": 2,
+  "pre_registered_thresholds": {
+   "K_BOOT": 200,
+   "K_FREQ_NULL": 100,
+   "K_ORDER_NULL": 100,
+   "MIN_SUPPORT": 8,
+   "NO_EXIST_FRAC": 0.1,
+   "SEED": 20260607,
+   "YES_BACKBONE_NODES": 6,
+   "YES_DIR_FRAC": 0.5
+  },
+  "verdict": "PARTIAL"
+ }
+}

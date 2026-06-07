@@ -1,0 +1,1181 @@
+{
+ "bootstrap": 200,
+ "finding": "10/85 edges have bootstrap directionality CI excluding 0.5 AND persist (>=90%) under subsampling",
+ "k_sub": 50,
+ "method": "self-methodology-1.0",
+ "n_stable_directionality": 10,
+ "results": [
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "denial->certainty",
+   "real_dir": 0.875,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.82
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "misguidance->conjecture",
+   "real_dir": 0.769231,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.86
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "listen->reflect",
+   "real_dir": 0.764706,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.96
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "listen->ask",
+   "real_dir": 0.75,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.86,
+    "0.4": 0.58
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "reflect->guidance",
+   "real_dir": 0.75,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.96,
+    "0.4": 0.82
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "knowledge->certainty",
+   "real_dir": 0.733333,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.74
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.571429,
+   "dir_ci_excludes_0.5": true,
+   "edge": "read->guidance",
+   "real_dir": 0.733333,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.92
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "ponder->misguidance",
+   "real_dir": 0.727273,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.72
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "denial->think",
+   "real_dir": 0.7,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.98,
+    "0.2": 0.96,
+    "0.4": 0.72
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "guidance->ask",
+   "real_dir": 0.695652,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.96
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "observe->certainty",
+   "real_dir": 0.692308,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.82
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "read->misguidance",
+   "real_dir": 0.692308,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.88,
+    "0.4": 0.86
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "ponder->knowledge",
+   "real_dir": 0.6875,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.96,
+    "0.4": 0.88
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 1.0,
+   "dir_ci_excludes_0.5": true,
+   "edge": "read->judge",
+   "real_dir": 0.68,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 1.0
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.6,
+   "dir_ci_excludes_0.5": true,
+   "edge": "ask->remember",
+   "real_dir": 0.676471,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.96
+   }
+  },
+  {
+   "boot_ci_hi": 0.5,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "judge->conjecture",
+   "real_dir": 0.666667,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.96,
+    "0.4": 0.84
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "listen->conjecture",
+   "real_dir": 0.666667,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.92,
+    "0.4": 0.88
+   }
+  },
+  {
+   "boot_ci_hi": 0.5,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "reflect->remember",
+   "real_dir": 0.666667,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.88,
+    "0.2": 0.66,
+    "0.4": 0.66
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 1.0,
+   "dir_ci_excludes_0.5": true,
+   "edge": "observe->ponder",
+   "real_dir": 0.65625,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.94
+   }
+  },
+  {
+   "boot_ci_hi": 0.9375,
+   "boot_ci_lo": 0.675,
+   "dir_ci_excludes_0.5": true,
+   "edge": "listen->knowledge",
+   "real_dir": 0.650407,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 1.0
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.133333,
+   "dir_ci_excludes_0.5": false,
+   "edge": "read->listen",
+   "real_dir": 0.65,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.92,
+    "0.4": 0.7
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "judge->understanding",
+   "real_dir": 0.642857,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.82,
+    "0.4": 0.84
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "ponder->guidance",
+   "real_dir": 0.636364,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.92,
+    "0.2": 0.82,
+    "0.4": 0.56
+   }
+  },
+  {
+   "boot_ci_hi": 0.5,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "think->knowledge",
+   "real_dir": 0.636364,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.88,
+    "0.2": 0.72,
+    "0.4": 0.54
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 1.0,
+   "dir_ci_excludes_0.5": true,
+   "edge": "read->reflect",
+   "real_dir": 0.636364,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.84
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "read->understanding",
+   "real_dir": 0.636364,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.94,
+    "0.2": 0.78,
+    "0.4": 0.44
+   }
+  },
+  {
+   "boot_ci_hi": 0.964286,
+   "boot_ci_lo": 0.722222,
+   "dir_ci_excludes_0.5": true,
+   "edge": "ask->knowledge",
+   "real_dir": 0.632075,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 1.0
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "reflect->knowledge",
+   "real_dir": 0.606061,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.94,
+    "0.4": 0.92
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "ask->read",
+   "real_dir": 0.6,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.82,
+    "0.2": 0.86,
+    "0.4": 0.78
+   }
+  },
+  {
+   "boot_ci_hi": 0.5,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "understanding->ask",
+   "real_dir": 0.6,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.76,
+    "0.2": 0.56,
+    "0.4": 0.54
+   }
+  },
+  {
+   "boot_ci_hi": 0.5,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "conjecture->read",
+   "real_dir": 0.6,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.8,
+    "0.2": 0.66,
+    "0.4": 0.52
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "denial->ponder",
+   "real_dir": 0.6,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.9,
+    "0.2": 0.78,
+    "0.4": 0.66
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.333333,
+   "dir_ci_excludes_0.5": false,
+   "edge": "judge->misguidance",
+   "real_dir": 0.6,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.94,
+    "0.4": 0.9
+   }
+  },
+  {
+   "boot_ci_hi": 0.9375,
+   "boot_ci_lo": 0.533333,
+   "dir_ci_excludes_0.5": true,
+   "edge": "read->remember",
+   "real_dir": 0.6,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.92
+   }
+  },
+  {
+   "boot_ci_hi": 0.948718,
+   "boot_ci_lo": 0.68,
+   "dir_ci_excludes_0.5": true,
+   "edge": "observe->misguidance",
+   "real_dir": 0.590909,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 1.0
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.333333,
+   "dir_ci_excludes_0.5": false,
+   "edge": "observe->conjecture",
+   "real_dir": 0.583333,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.92,
+    "0.4": 0.72
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "conjecture->remember",
+   "real_dir": 0.583333,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.88,
+    "0.2": 0.8,
+    "0.4": 0.66
+   }
+  },
+  {
+   "boot_ci_hi": 0.5,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "ponder->listen",
+   "real_dir": 0.583333,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.9,
+    "0.2": 0.82,
+    "0.4": 0.62
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "understanding->listen",
+   "real_dir": 0.583333,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.84,
+    "0.2": 0.62,
+    "0.4": 0.54
+   }
+  },
+  {
+   "boot_ci_hi": 0.755102,
+   "boot_ci_lo": 0.465116,
+   "dir_ci_excludes_0.5": false,
+   "edge": "listen->observe",
+   "real_dir": 0.581967,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.92
+   }
+  },
+  {
+   "boot_ci_hi": 0.882353,
+   "boot_ci_lo": 0.384615,
+   "dir_ci_excludes_0.5": false,
+   "edge": "read->denial",
+   "real_dir": 0.576923,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.96
+   }
+  },
+  {
+   "boot_ci_hi": 0.947368,
+   "boot_ci_lo": 0.533333,
+   "dir_ci_excludes_0.5": true,
+   "edge": "remember->understanding",
+   "real_dir": 0.575,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.92,
+    "0.4": 0.76
+   }
+  },
+  {
+   "boot_ci_hi": 0.777778,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "listen->remember",
+   "real_dir": 0.571429,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.92,
+    "0.4": 0.78
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "ponder->remember",
+   "real_dir": 0.571429,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.74,
+    "0.2": 0.76,
+    "0.4": 0.56
+   }
+  },
+  {
+   "boot_ci_hi": 0.941176,
+   "boot_ci_lo": 0.678571,
+   "dir_ci_excludes_0.5": true,
+   "edge": "denial->misguidance",
+   "real_dir": 0.567797,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.96
+   }
+  },
+  {
+   "boot_ci_hi": 0.804878,
+   "boot_ci_lo": 0.545455,
+   "dir_ci_excludes_0.5": true,
+   "edge": "remember->knowledge",
+   "real_dir": 0.567251,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.98
+   }
+  },
+  {
+   "boot_ci_hi": 0.75,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "observe->ask",
+   "real_dir": 0.565217,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.88,
+    "0.2": 0.8,
+    "0.4": 0.56
+   }
+  },
+  {
+   "boot_ci_hi": 0.740741,
+   "boot_ci_lo": 0.384615,
+   "dir_ci_excludes_0.5": false,
+   "edge": "knowledge->misguidance",
+   "real_dir": 0.564815,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.72
+   }
+  },
+  {
+   "boot_ci_hi": 0.9,
+   "boot_ci_lo": 0.181818,
+   "dir_ci_excludes_0.5": false,
+   "edge": "observe->understanding",
+   "real_dir": 0.563636,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.92,
+    "0.4": 0.84
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "ask->judge",
+   "real_dir": 0.5625,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.7,
+    "0.2": 0.68,
+    "0.4": 0.44
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "misguidance->ask",
+   "real_dir": 0.5625,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.78,
+    "0.2": 0.76,
+    "0.4": 0.54
+   }
+  },
+  {
+   "boot_ci_hi": 0.923077,
+   "boot_ci_lo": 0.384615,
+   "dir_ci_excludes_0.5": false,
+   "edge": "conjecture->denial",
+   "real_dir": 0.5625,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.94,
+    "0.4": 0.8
+   }
+  },
+  {
+   "boot_ci_hi": 0.75,
+   "boot_ci_lo": 0.1,
+   "dir_ci_excludes_0.5": false,
+   "edge": "misguidance->remember",
+   "real_dir": 0.560976,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.82,
+    "0.4": 0.76
+   }
+  },
+  {
+   "boot_ci_hi": 0.6,
+   "boot_ci_lo": 0.190476,
+   "dir_ci_excludes_0.5": false,
+   "edge": "denial->listen",
+   "real_dir": 0.55814,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.82,
+    "0.4": 0.56
+   }
+  },
+  {
+   "boot_ci_hi": 0.9,
+   "boot_ci_lo": 0.142857,
+   "dir_ci_excludes_0.5": false,
+   "edge": "judge->guidance",
+   "real_dir": 0.553571,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.88,
+    "0.4": 0.76
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "ask->denial",
+   "real_dir": 0.54902,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.88,
+    "0.2": 0.78,
+    "0.4": 0.78
+   }
+  },
+  {
+   "boot_ci_hi": 0.7,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "judge->remember",
+   "real_dir": 0.547619,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.88,
+    "0.2": 0.82,
+    "0.4": 0.56
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "understanding->misguidance",
+   "real_dir": 0.545455,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.56,
+    "0.2": 0.48,
+    "0.4": 0.42
+   }
+  },
+  {
+   "boot_ci_hi": 0.896552,
+   "boot_ci_lo": 0.6,
+   "dir_ci_excludes_0.5": true,
+   "edge": "observe->guidance",
+   "real_dir": 0.543046,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.88
+   }
+  },
+  {
+   "boot_ci_hi": 0.941176,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "read->knowledge",
+   "real_dir": 0.54023,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.94,
+    "0.2": 0.96,
+    "0.4": 0.74
+   }
+  },
+  {
+   "boot_ci_hi": 0.746667,
+   "boot_ci_lo": 0.508772,
+   "dir_ci_excludes_0.5": true,
+   "edge": "knowledge->judge",
+   "real_dir": 0.536458,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.68
+   }
+  },
+  {
+   "boot_ci_hi": 0.607143,
+   "boot_ci_lo": 0.2,
+   "dir_ci_excludes_0.5": false,
+   "edge": "remember->observe",
+   "real_dir": 0.536,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.84,
+    "0.2": 0.6,
+    "0.4": 0.42
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "guidance->understanding",
+   "real_dir": 0.535714,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.8,
+    "0.2": 0.6,
+    "0.4": 0.64
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "conjecture->guidance",
+   "real_dir": 0.533333,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.56,
+    "0.2": 0.46,
+    "0.4": 0.54
+   }
+  },
+  {
+   "boot_ci_hi": 0.842105,
+   "boot_ci_lo": 0.411765,
+   "dir_ci_excludes_0.5": false,
+   "edge": "denial->judge",
+   "real_dir": 0.528846,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.78,
+    "0.2": 0.82,
+    "0.4": 0.56
+   }
+  },
+  {
+   "boot_ci_hi": 0.8,
+   "boot_ci_lo": 0.222222,
+   "dir_ci_excludes_0.5": false,
+   "edge": "guidance->remember",
+   "real_dir": 0.527273,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.68,
+    "0.2": 0.58,
+    "0.4": 0.58
+   }
+  },
+  {
+   "boot_ci_hi": 0.679487,
+   "boot_ci_lo": 0.439394,
+   "dir_ci_excludes_0.5": false,
+   "edge": "observe->knowledge",
+   "real_dir": 0.523929,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.92,
+    "0.2": 0.82,
+    "0.4": 0.56
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "denial->reflect",
+   "real_dir": 0.52381,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.58,
+    "0.2": 0.38,
+    "0.4": 0.56
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.333333,
+   "dir_ci_excludes_0.5": false,
+   "edge": "remember->denial",
+   "real_dir": 0.522124,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.86,
+    "0.2": 0.84,
+    "0.4": 0.78
+   }
+  },
+  {
+   "boot_ci_hi": 0.833333,
+   "boot_ci_lo": 0.285714,
+   "dir_ci_excludes_0.5": false,
+   "edge": "guidance->listen",
+   "real_dir": 0.520833,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.56,
+    "0.2": 0.62,
+    "0.4": 0.62
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.166667,
+   "dir_ci_excludes_0.5": false,
+   "edge": "observe->reflect",
+   "real_dir": 0.52,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.6,
+    "0.2": 0.6,
+    "0.4": 0.46
+   }
+  },
+  {
+   "boot_ci_hi": 0.909091,
+   "boot_ci_lo": 0.444444,
+   "dir_ci_excludes_0.5": false,
+   "edge": "observe->judge",
+   "real_dir": 0.516484,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.84,
+    "0.2": 0.76,
+    "0.4": 0.84
+   }
+  },
+  {
+   "boot_ci_hi": 0.576271,
+   "boot_ci_lo": 0.323077,
+   "dir_ci_excludes_0.5": false,
+   "edge": "knowledge->denial",
+   "real_dir": 0.515625,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.78,
+    "0.2": 0.7,
+    "0.4": 0.62
+   }
+  },
+  {
+   "boot_ci_hi": 0.8125,
+   "boot_ci_lo": 0.3,
+   "dir_ci_excludes_0.5": false,
+   "edge": "knowledge->conjecture",
+   "real_dir": 0.512195,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.6,
+    "0.2": 0.64,
+    "0.4": 0.44
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "read->observe",
+   "real_dir": 0.509804,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.56,
+    "0.2": 0.54,
+    "0.4": 0.6
+   }
+  },
+  {
+   "boot_ci_hi": 0.833333,
+   "boot_ci_lo": 0.222222,
+   "dir_ci_excludes_0.5": false,
+   "edge": "knowledge->understanding",
+   "real_dir": 0.509434,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.56,
+    "0.2": 0.42,
+    "0.4": 0.24
+   }
+  },
+  {
+   "boot_ci_hi": 0.761905,
+   "boot_ci_lo": 0.57732,
+   "dir_ci_excludes_0.5": true,
+   "edge": "observe->denial",
+   "real_dir": 0.508997,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.84,
+    "0.2": 0.86,
+    "0.4": 0.9
+   }
+  },
+  {
+   "boot_ci_hi": 0.916667,
+   "boot_ci_lo": 0.25,
+   "dir_ci_excludes_0.5": false,
+   "edge": "denial->understanding",
+   "real_dir": 0.508197,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.58,
+    "0.2": 0.62,
+    "0.4": 0.66
+   }
+  },
+  {
+   "boot_ci_hi": 0.763158,
+   "boot_ci_lo": 0.419355,
+   "dir_ci_excludes_0.5": false,
+   "edge": "denial->guidance",
+   "real_dir": 0.505376,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.56,
+    "0.2": 0.58,
+    "0.4": 0.78
+   }
+  },
+  {
+   "boot_ci_hi": 0.725,
+   "boot_ci_lo": 0.421053,
+   "dir_ci_excludes_0.5": false,
+   "edge": "knowledge->guidance",
+   "real_dir": 0.505102,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.62,
+    "0.2": 0.48,
+    "0.4": 0.62
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "certainty->guidance",
+   "real_dir": 0.5,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.24,
+    "0.2": 0.4,
+    "0.4": 0.44
+   }
+  },
+  {
+   "boot_ci_hi": 0.555556,
+   "boot_ci_lo": 0.27027,
+   "dir_ci_excludes_0.5": false,
+   "edge": "guidance->misguidance",
+   "real_dir": 0.5,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.42,
+    "0.2": 0.46,
+    "0.4": 0.46
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.0,
+   "dir_ci_excludes_0.5": false,
+   "edge": "judge->listen",
+   "real_dir": 0.5,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.4,
+    "0.2": 0.44,
+    "0.4": 0.46
+   }
+  },
+  {
+   "boot_ci_hi": 0.9,
+   "boot_ci_lo": 0.111111,
+   "dir_ci_excludes_0.5": false,
+   "edge": "listen->misguidance",
+   "real_dir": 0.5,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.4,
+    "0.2": 0.52,
+    "0.4": 0.44
+   }
+  },
+  {
+   "boot_ci_hi": 1.0,
+   "boot_ci_lo": 0.5,
+   "dir_ci_excludes_0.5": false,
+   "edge": "observe->think",
+   "real_dir": 0.5,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.46,
+    "0.2": 0.54,
+    "0.4": 0.56
+   }
+  }
+ ],
+ "subsampling_fracs": [
+  0.1,
+  0.2,
+  0.4
+ ],
+ "threshold_sweep": [
+  {
+   "dir_margin": 0.55,
+   "min_support": 5,
+   "n_edges": 55
+  },
+  {
+   "dir_margin": 0.6,
+   "min_support": 5,
+   "n_edges": 34
+  },
+  {
+   "dir_margin": 0.65,
+   "min_support": 5,
+   "n_edges": 21
+  },
+  {
+   "dir_margin": 0.55,
+   "min_support": 8,
+   "n_edges": 55
+  },
+  {
+   "dir_margin": 0.6,
+   "min_support": 8,
+   "n_edges": 34
+  },
+  {
+   "dir_margin": 0.65,
+   "min_support": 8,
+   "n_edges": 21
+  },
+  {
+   "dir_margin": 0.55,
+   "min_support": 12,
+   "n_edges": 42
+  },
+  {
+   "dir_margin": 0.6,
+   "min_support": 12,
+   "n_edges": 21
+  },
+  {
+   "dir_margin": 0.65,
+   "min_support": 12,
+   "n_edges": 15
+  },
+  {
+   "dir_margin": 0.55,
+   "min_support": 20,
+   "n_edges": 27
+  },
+  {
+   "dir_margin": 0.6,
+   "min_support": 20,
+   "n_edges": 12
+  },
+  {
+   "dir_margin": 0.65,
+   "min_support": 20,
+   "n_edges": 7
+  }
+ ]
+}
