@@ -1,0 +1,14 @@
+{
+ "consistency": "PARTIAL",
+ "definition": "are the discovered laws the SAME phenomena Phase Q said the Quran invites observation of — or imposed?",
+ "explicit_sunna_ayahs": 15,
+ "finding": "45% of the domains in which surviving laws are witnessed coincide with the nature/history/self domains Phase Q identified as the Quran's invited objects of observation — a PARTIAL overlap (below the 50% bar). The laws are not wholly imposed (they do appear in Phase Q's fields), but they also spread into ethics/power/economy domains Phase Q did not emphasise, so the match is incomplete. The corpus does name the regularity explicitly (سنّة, 15 ayahs).",
+ "law_domain_overlap_with_phaseQ": 0.45,
+ "method": "reality-discovery-1.0",
+ "phase_q_evidence_domains": [
+  "history",
+  "human",
+  "nature",
+  "society"
+ ]
+}

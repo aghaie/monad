@@ -1,0 +1,118 @@
+{
+ "definition": "the ordered epistemic pipeline: net-outflow ranking, state gradient, and distinct modes of knowing",
+ "finding": "epistemic order runs A:read → … → S:knowledge; states ascend knowledge → understanding → certainty → wisdom → information; the dominant mode of knowing is 'observation'",
+ "method": "epistemology-discovery-1.0",
+ "modes_of_knowing": [
+  {
+   "directionality": 0.531486,
+   "flow_to_knowledge": 211,
+   "mode": "observation",
+   "reverse": 186,
+   "support": 397
+  },
+  {
+   "directionality": 0.581395,
+   "flow_to_knowledge": 150,
+   "mode": "signs",
+   "reverse": 108,
+   "support": 258
+  },
+  {
+   "directionality": 0.497608,
+   "flow_to_knowledge": 104,
+   "mode": "self",
+   "reverse": 105,
+   "support": 209
+  },
+  {
+   "directionality": 0.546512,
+   "flow_to_knowledge": 94,
+   "mode": "history",
+   "reverse": 78,
+   "support": 172
+  },
+  {
+   "directionality": 0.594595,
+   "flow_to_knowledge": 66,
+   "mode": "comparison",
+   "reverse": 45,
+   "support": 111
+  },
+  {
+   "directionality": 0.450704,
+   "flow_to_knowledge": 32,
+   "mode": "consequences",
+   "reverse": 39,
+   "support": 71
+  }
+ ],
+ "pipeline_order": [
+  "A:read",
+  "A:listen",
+  "A:question",
+  "A:observe",
+  "A:remember",
+  "A:compare",
+  "A:travel",
+  "S:recognition",
+  "S:wisdom",
+  "S:awareness",
+  "S:information",
+  "S:certainty",
+  "A:reflect",
+  "S:understanding",
+  "S:guidance",
+  "S:knowledge"
+ ],
+ "state_gradient_edges": [
+  {
+   "directionality": 0.551724,
+   "from": "S:knowledge",
+   "support": 116,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.777778,
+   "from": "S:information",
+   "support": 9,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.615385,
+   "from": "S:wisdom",
+   "support": 39,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.5625,
+   "from": "S:understanding",
+   "support": 32,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.8,
+   "from": "S:knowledge",
+   "support": 10,
+   "to": "S:certainty"
+  },
+  {
+   "directionality": 0.557823,
+   "from": "S:knowledge",
+   "support": 147,
+   "to": "S:wisdom"
+  },
+  {
+   "directionality": 0.555556,
+   "from": "S:wisdom",
+   "support": 9,
+   "to": "S:understanding"
+  }
+ ],
+ "state_gradient_order": [
+  "S:knowledge",
+  "S:understanding",
+  "S:certainty",
+  "S:wisdom",
+  "S:information"
+ ]
+}

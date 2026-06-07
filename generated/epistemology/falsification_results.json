@@ -1,0 +1,771 @@
+{
+ "definition": "every edge attacked by its own reverse flow; survives only if directionality ≥ 0.60",
+ "finding": "46 of 89 epistemic edges survive the reverse-sequence attack at margin 0.60; 43 are non-directional (refuted)",
+ "margin": 0.6,
+ "method": "epistemology-discovery-1.0",
+ "n_edges_tested": 89,
+ "n_refuted": 43,
+ "n_survive": 46,
+ "results": [
+  {
+   "directionality": 0.857143,
+   "from": "A:read",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 21,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.833333,
+   "from": "S:recognition",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 12,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.8,
+   "from": "A:read",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 25,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.8,
+   "from": "A:remember",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 10,
+   "to": "S:recognition"
+  },
+  {
+   "directionality": 0.8,
+   "from": "S:knowledge",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 10,
+   "to": "S:certainty"
+  },
+  {
+   "directionality": 0.789474,
+   "from": "O:conjecture",
+   "graph": "ignorance",
+   "result": "SURVIVES",
+   "support": 19,
+   "to": "O:lying"
+  },
+  {
+   "directionality": 0.777778,
+   "from": "S:information",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 9,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.772727,
+   "from": "A:question",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 22,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.769231,
+   "from": "S:information",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 13,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.769231,
+   "from": "A:reflect",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 13,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.75,
+   "from": "A:travel",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 20,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.736842,
+   "from": "A:read",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 19,
+   "to": "S:wisdom"
+  },
+  {
+   "directionality": 0.714286,
+   "from": "A:read",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 14,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.714286,
+   "from": "O:deviation",
+   "graph": "ignorance",
+   "result": "SURVIVES",
+   "support": 14,
+   "to": "O:forgetting"
+  },
+  {
+   "directionality": 0.705882,
+   "from": "A:read",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 17,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.695652,
+   "from": "A:compare",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 23,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.692308,
+   "from": "A:listen",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 13,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.685714,
+   "from": "A:question",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 70,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.685714,
+   "from": "A:read",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 35,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.68,
+   "from": "A:remember",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 25,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.68,
+   "from": "O:lying",
+   "graph": "ignorance",
+   "result": "SURVIVES",
+   "support": 25,
+   "to": "O:deviation"
+  },
+  {
+   "directionality": 0.670588,
+   "from": "A:listen",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 85,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.666667,
+   "from": "S:information",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 30,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.666667,
+   "from": "S:guidance",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 18,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.666667,
+   "from": "A:compare",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 15,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.666667,
+   "from": "A:observe",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 12,
+   "to": "S:certainty"
+  },
+  {
+   "directionality": 0.666667,
+   "from": "A:question",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 9,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.64557,
+   "from": "A:compare",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 79,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.645161,
+   "from": "A:compare",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 31,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.642857,
+   "from": "S:information",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 14,
+   "to": "A:question"
+  },
+  {
+   "directionality": 0.642857,
+   "from": "A:remember",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 14,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.636364,
+   "from": "O:blindness",
+   "graph": "ignorance",
+   "result": "SURVIVES",
+   "support": 11,
+   "to": "O:deviation"
+  },
+  {
+   "directionality": 0.634146,
+   "from": "A:observe",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 41,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.628571,
+   "from": "A:reflect",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 35,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.625,
+   "from": "S:knowledge",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 16,
+   "to": "S:awareness"
+  },
+  {
+   "directionality": 0.625,
+   "from": "O:lying",
+   "graph": "ignorance",
+   "result": "SURVIVES",
+   "support": 24,
+   "to": "O:arrogance"
+  },
+  {
+   "directionality": 0.625,
+   "from": "O:arrogance",
+   "graph": "ignorance",
+   "result": "SURVIVES",
+   "support": 8,
+   "to": "O:conjecture"
+  },
+  {
+   "directionality": 0.615385,
+   "from": "S:wisdom",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 39,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.613445,
+   "from": "A:remember",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 119,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.611765,
+   "from": "A:listen",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 85,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.611111,
+   "from": "O:conjecture",
+   "graph": "ignorance",
+   "result": "SURVIVES",
+   "support": 18,
+   "to": "O:denial"
+  },
+  {
+   "directionality": 0.608696,
+   "from": "O:denial",
+   "graph": "ignorance",
+   "result": "SURVIVES",
+   "support": 23,
+   "to": "O:forgetting"
+  },
+  {
+   "directionality": 0.607143,
+   "from": "A:observe",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 28,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.6,
+   "from": "S:wisdom",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 15,
+   "to": "A:listen"
+  },
+  {
+   "directionality": 0.6,
+   "from": "S:recognition",
+   "graph": "knowledge",
+   "result": "SURVIVES",
+   "support": 10,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.6,
+   "from": "O:denial",
+   "graph": "ignorance",
+   "result": "SURVIVES",
+   "support": 15,
+   "to": "O:sealing"
+  },
+  {
+   "directionality": 0.590909,
+   "from": "A:listen",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 22,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.588235,
+   "from": "A:listen",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 17,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.583333,
+   "from": "A:listen",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 36,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.581818,
+   "from": "A:read",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 55,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.578947,
+   "from": "A:compare",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 19,
+   "to": "A:listen"
+  },
+  {
+   "directionality": 0.576923,
+   "from": "A:observe",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 26,
+   "to": "A:question"
+  },
+  {
+   "directionality": 0.571429,
+   "from": "O:deviation",
+   "graph": "ignorance",
+   "result": "REFUTED",
+   "support": 14,
+   "to": "O:arrogance"
+  },
+  {
+   "directionality": 0.5625,
+   "from": "S:understanding",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 32,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.5625,
+   "from": "S:guidance",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 16,
+   "to": "A:question"
+  },
+  {
+   "directionality": 0.558824,
+   "from": "A:remember",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 68,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.557823,
+   "from": "S:knowledge",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 147,
+   "to": "S:wisdom"
+  },
+  {
+   "directionality": 0.557692,
+   "from": "A:observe",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 52,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.555556,
+   "from": "A:observe",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 99,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.555556,
+   "from": "A:remember",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 27,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.555556,
+   "from": "S:wisdom",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 9,
+   "to": "A:question"
+  },
+  {
+   "directionality": 0.555556,
+   "from": "S:wisdom",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 9,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.555556,
+   "from": "O:denial",
+   "graph": "ignorance",
+   "result": "REFUTED",
+   "support": 63,
+   "to": "O:deviation"
+  },
+  {
+   "directionality": 0.555556,
+   "from": "O:blindness",
+   "graph": "ignorance",
+   "result": "REFUTED",
+   "support": 9,
+   "to": "O:denial"
+  },
+  {
+   "directionality": 0.551724,
+   "from": "S:knowledge",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 116,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.55,
+   "from": "S:wisdom",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 20,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.55,
+   "from": "S:recognition",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 20,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.545455,
+   "from": "A:question",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 11,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.545455,
+   "from": "S:guidance",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 11,
+   "to": "S:certainty"
+  },
+  {
+   "directionality": 0.54386,
+   "from": "A:observe",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 228,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.540984,
+   "from": "O:denial",
+   "graph": "ignorance",
+   "result": "REFUTED",
+   "support": 61,
+   "to": "O:lying"
+  },
+  {
+   "directionality": 0.538462,
+   "from": "A:read",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 26,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.538462,
+   "from": "A:read",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 13,
+   "to": "A:listen"
+  },
+  {
+   "directionality": 0.538462,
+   "from": "S:recognition",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 13,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.538462,
+   "from": "S:wisdom",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 13,
+   "to": "S:recognition"
+  },
+  {
+   "directionality": 0.533333,
+   "from": "S:wisdom",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 30,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.533333,
+   "from": "A:observe",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 15,
+   "to": "S:awareness"
+  },
+  {
+   "directionality": 0.528302,
+   "from": "S:wisdom",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 53,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.525,
+   "from": "O:denial",
+   "graph": "ignorance",
+   "result": "REFUTED",
+   "support": 40,
+   "to": "O:arrogance"
+  },
+  {
+   "directionality": 0.52381,
+   "from": "O:deviation",
+   "graph": "ignorance",
+   "result": "REFUTED",
+   "support": 21,
+   "to": "O:conjecture"
+  },
+  {
+   "directionality": 0.515152,
+   "from": "S:wisdom",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 33,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.514286,
+   "from": "S:recognition",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 35,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.513514,
+   "from": "S:guidance",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 37,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.507692,
+   "from": "S:information",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 65,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.507353,
+   "from": "S:guidance",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 136,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.5,
+   "from": "S:information",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 22,
+   "to": "S:recognition"
+  },
+  {
+   "directionality": 0.5,
+   "from": "A:listen",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 8,
+   "to": "S:recognition"
+  },
+  {
+   "directionality": 0.5,
+   "from": "A:question",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 8,
+   "to": "A:read"
+  },
+  {
+   "directionality": 0.5,
+   "from": "A:read",
+   "graph": "knowledge",
+   "result": "REFUTED",
+   "support": 8,
+   "to": "S:understanding"
+  }
+ ],
+ "surviving_edges": [
+  "A:read→A:compare",
+  "S:recognition→S:understanding",
+  "A:read→S:guidance",
+  "A:remember→S:recognition",
+  "S:knowledge→S:certainty",
+  "O:conjecture→O:lying",
+  "S:information→S:understanding",
+  "A:question→A:remember",
+  "S:information→A:compare",
+  "A:reflect→S:guidance",
+  "A:travel→A:observe",
+  "A:read→S:wisdom",
+  "A:read→S:information",
+  "O:deviation→O:forgetting",
+  "A:read→A:reflect",
+  "A:compare→A:remember",
+  "A:listen→S:information",
+  "A:question→S:knowledge",
+  "A:read→A:remember",
+  "A:remember→S:understanding",
+  "O:lying→O:deviation",
+  "A:listen→S:knowledge",
+  "S:information→S:guidance",
+  "S:guidance→S:understanding",
+  "A:compare→A:reflect",
+  "A:observe→S:certainty",
+  "A:question→A:reflect",
+  "A:compare→S:knowledge",
+  "A:compare→S:guidance",
+  "S:information→A:question",
+  "A:remember→A:reflect",
+  "O:blindness→O:deviation",
+  "A:observe→A:reflect",
+  "A:reflect→S:knowledge",
+  "S:knowledge→S:awareness",
+  "O:lying→O:arrogance",
+  "O:arrogance→O:conjecture",
+  "S:wisdom→S:information",
+  "A:remember→S:knowledge",
+  "A:listen→A:observe",
+  "O:conjecture→O:denial",
+  "O:denial→O:forgetting",
+  "A:observe→S:understanding",
+  "S:wisdom→A:listen",
+  "S:recognition→A:compare",
+  "O:denial→O:sealing"
+ ]
+}

@@ -1,0 +1,735 @@
+{
+ "actions_preceding_understanding": [
+  {
+   "action": "A:observe",
+   "directionality": 0.54386,
+   "flow_into": 124
+  },
+  {
+   "action": "A:remember",
+   "directionality": 0.613445,
+   "flow_into": 73
+  },
+  {
+   "action": "A:listen",
+   "directionality": 0.670588,
+   "flow_into": 57
+  },
+  {
+   "action": "A:compare",
+   "directionality": 0.64557,
+   "flow_into": 51
+  },
+  {
+   "action": "A:question",
+   "directionality": 0.685714,
+   "flow_into": 48
+  },
+  {
+   "action": "A:read",
+   "directionality": 0.581818,
+   "flow_into": 32
+  },
+  {
+   "action": "A:reflect",
+   "directionality": 0.628571,
+   "flow_into": 22
+  },
+  {
+   "action": "A:remember",
+   "directionality": 0.68,
+   "flow_into": 17
+  }
+ ],
+ "definition": "directed flow among epistemic actions and knowledge-states (within-ayah order + cross-ayah adjacency)",
+ "edges": [
+  {
+   "directionality": 0.857143,
+   "flow": 18,
+   "from": "A:read",
+   "reverse": 3,
+   "support": 21,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.833333,
+   "flow": 10,
+   "from": "S:recognition",
+   "reverse": 2,
+   "support": 12,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.8,
+   "flow": 20,
+   "from": "A:read",
+   "reverse": 5,
+   "support": 25,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.8,
+   "flow": 8,
+   "from": "A:remember",
+   "reverse": 2,
+   "support": 10,
+   "to": "S:recognition"
+  },
+  {
+   "directionality": 0.8,
+   "flow": 8,
+   "from": "S:knowledge",
+   "reverse": 2,
+   "support": 10,
+   "to": "S:certainty"
+  },
+  {
+   "directionality": 0.777778,
+   "flow": 7,
+   "from": "S:information",
+   "reverse": 2,
+   "support": 9,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.772727,
+   "flow": 17,
+   "from": "A:question",
+   "reverse": 5,
+   "support": 22,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.769231,
+   "flow": 10,
+   "from": "S:information",
+   "reverse": 3,
+   "support": 13,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.769231,
+   "flow": 10,
+   "from": "A:reflect",
+   "reverse": 3,
+   "support": 13,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.75,
+   "flow": 15,
+   "from": "A:travel",
+   "reverse": 5,
+   "support": 20,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.736842,
+   "flow": 14,
+   "from": "A:read",
+   "reverse": 5,
+   "support": 19,
+   "to": "S:wisdom"
+  },
+  {
+   "directionality": 0.714286,
+   "flow": 10,
+   "from": "A:read",
+   "reverse": 4,
+   "support": 14,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.705882,
+   "flow": 12,
+   "from": "A:read",
+   "reverse": 5,
+   "support": 17,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.695652,
+   "flow": 16,
+   "from": "A:compare",
+   "reverse": 7,
+   "support": 23,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.692308,
+   "flow": 9,
+   "from": "A:listen",
+   "reverse": 4,
+   "support": 13,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.685714,
+   "flow": 48,
+   "from": "A:question",
+   "reverse": 22,
+   "support": 70,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.685714,
+   "flow": 24,
+   "from": "A:read",
+   "reverse": 11,
+   "support": 35,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.68,
+   "flow": 17,
+   "from": "A:remember",
+   "reverse": 8,
+   "support": 25,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.670588,
+   "flow": 57,
+   "from": "A:listen",
+   "reverse": 28,
+   "support": 85,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.666667,
+   "flow": 20,
+   "from": "S:information",
+   "reverse": 10,
+   "support": 30,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.666667,
+   "flow": 12,
+   "from": "S:guidance",
+   "reverse": 6,
+   "support": 18,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.666667,
+   "flow": 10,
+   "from": "A:compare",
+   "reverse": 5,
+   "support": 15,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.666667,
+   "flow": 8,
+   "from": "A:observe",
+   "reverse": 4,
+   "support": 12,
+   "to": "S:certainty"
+  },
+  {
+   "directionality": 0.666667,
+   "flow": 6,
+   "from": "A:question",
+   "reverse": 3,
+   "support": 9,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.64557,
+   "flow": 51,
+   "from": "A:compare",
+   "reverse": 28,
+   "support": 79,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.645161,
+   "flow": 20,
+   "from": "A:compare",
+   "reverse": 11,
+   "support": 31,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.642857,
+   "flow": 9,
+   "from": "S:information",
+   "reverse": 5,
+   "support": 14,
+   "to": "A:question"
+  },
+  {
+   "directionality": 0.642857,
+   "flow": 9,
+   "from": "A:remember",
+   "reverse": 5,
+   "support": 14,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.634146,
+   "flow": 26,
+   "from": "A:observe",
+   "reverse": 15,
+   "support": 41,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.628571,
+   "flow": 22,
+   "from": "A:reflect",
+   "reverse": 13,
+   "support": 35,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.625,
+   "flow": 10,
+   "from": "S:knowledge",
+   "reverse": 6,
+   "support": 16,
+   "to": "S:awareness"
+  },
+  {
+   "directionality": 0.615385,
+   "flow": 24,
+   "from": "S:wisdom",
+   "reverse": 15,
+   "support": 39,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.613445,
+   "flow": 73,
+   "from": "A:remember",
+   "reverse": 46,
+   "support": 119,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.611765,
+   "flow": 52,
+   "from": "A:listen",
+   "reverse": 33,
+   "support": 85,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.607143,
+   "flow": 17,
+   "from": "A:observe",
+   "reverse": 11,
+   "support": 28,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.6,
+   "flow": 9,
+   "from": "S:wisdom",
+   "reverse": 6,
+   "support": 15,
+   "to": "A:listen"
+  },
+  {
+   "directionality": 0.6,
+   "flow": 6,
+   "from": "S:recognition",
+   "reverse": 4,
+   "support": 10,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.590909,
+   "flow": 13,
+   "from": "A:listen",
+   "reverse": 9,
+   "support": 22,
+   "to": "A:reflect"
+  },
+  {
+   "directionality": 0.588235,
+   "flow": 10,
+   "from": "A:listen",
+   "reverse": 7,
+   "support": 17,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.583333,
+   "flow": 21,
+   "from": "A:listen",
+   "reverse": 15,
+   "support": 36,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.581818,
+   "flow": 32,
+   "from": "A:read",
+   "reverse": 23,
+   "support": 55,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.578947,
+   "flow": 11,
+   "from": "A:compare",
+   "reverse": 8,
+   "support": 19,
+   "to": "A:listen"
+  },
+  {
+   "directionality": 0.576923,
+   "flow": 15,
+   "from": "A:observe",
+   "reverse": 11,
+   "support": 26,
+   "to": "A:question"
+  },
+  {
+   "directionality": 0.5625,
+   "flow": 18,
+   "from": "S:understanding",
+   "reverse": 14,
+   "support": 32,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.5625,
+   "flow": 9,
+   "from": "S:guidance",
+   "reverse": 7,
+   "support": 16,
+   "to": "A:question"
+  },
+  {
+   "directionality": 0.558824,
+   "flow": 38,
+   "from": "A:remember",
+   "reverse": 30,
+   "support": 68,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.557823,
+   "flow": 82,
+   "from": "S:knowledge",
+   "reverse": 65,
+   "support": 147,
+   "to": "S:wisdom"
+  },
+  {
+   "directionality": 0.557692,
+   "flow": 29,
+   "from": "A:observe",
+   "reverse": 23,
+   "support": 52,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.555556,
+   "flow": 55,
+   "from": "A:observe",
+   "reverse": 44,
+   "support": 99,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.555556,
+   "flow": 15,
+   "from": "A:remember",
+   "reverse": 12,
+   "support": 27,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.555556,
+   "flow": 5,
+   "from": "S:wisdom",
+   "reverse": 4,
+   "support": 9,
+   "to": "A:question"
+  },
+  {
+   "directionality": 0.555556,
+   "flow": 5,
+   "from": "S:wisdom",
+   "reverse": 4,
+   "support": 9,
+   "to": "S:understanding"
+  },
+  {
+   "directionality": 0.551724,
+   "flow": 64,
+   "from": "S:knowledge",
+   "reverse": 52,
+   "support": 116,
+   "to": "S:information"
+  },
+  {
+   "directionality": 0.55,
+   "flow": 11,
+   "from": "S:wisdom",
+   "reverse": 9,
+   "support": 20,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.55,
+   "flow": 11,
+   "from": "S:recognition",
+   "reverse": 9,
+   "support": 20,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.545455,
+   "flow": 6,
+   "from": "A:question",
+   "reverse": 5,
+   "support": 11,
+   "to": "A:compare"
+  },
+  {
+   "directionality": 0.545455,
+   "flow": 6,
+   "from": "S:guidance",
+   "reverse": 5,
+   "support": 11,
+   "to": "S:certainty"
+  },
+  {
+   "directionality": 0.54386,
+   "flow": 124,
+   "from": "A:observe",
+   "reverse": 104,
+   "support": 228,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.538462,
+   "flow": 14,
+   "from": "A:read",
+   "reverse": 12,
+   "support": 26,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.538462,
+   "flow": 7,
+   "from": "A:read",
+   "reverse": 6,
+   "support": 13,
+   "to": "A:listen"
+  },
+  {
+   "directionality": 0.538462,
+   "flow": 7,
+   "from": "S:recognition",
+   "reverse": 6,
+   "support": 13,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.538462,
+   "flow": 7,
+   "from": "S:wisdom",
+   "reverse": 6,
+   "support": 13,
+   "to": "S:recognition"
+  },
+  {
+   "directionality": 0.533333,
+   "flow": 16,
+   "from": "S:wisdom",
+   "reverse": 14,
+   "support": 30,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.533333,
+   "flow": 8,
+   "from": "A:observe",
+   "reverse": 7,
+   "support": 15,
+   "to": "S:awareness"
+  },
+  {
+   "directionality": 0.528302,
+   "flow": 28,
+   "from": "S:wisdom",
+   "reverse": 25,
+   "support": 53,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.515152,
+   "flow": 17,
+   "from": "S:wisdom",
+   "reverse": 16,
+   "support": 33,
+   "to": "S:guidance"
+  },
+  {
+   "directionality": 0.514286,
+   "flow": 18,
+   "from": "S:recognition",
+   "reverse": 17,
+   "support": 35,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.513514,
+   "flow": 19,
+   "from": "S:guidance",
+   "reverse": 18,
+   "support": 37,
+   "to": "A:remember"
+  },
+  {
+   "directionality": 0.507692,
+   "flow": 33,
+   "from": "S:information",
+   "reverse": 32,
+   "support": 65,
+   "to": "A:observe"
+  },
+  {
+   "directionality": 0.507353,
+   "flow": 69,
+   "from": "S:guidance",
+   "reverse": 67,
+   "support": 136,
+   "to": "S:knowledge"
+  },
+  {
+   "directionality": 0.5,
+   "flow": 11,
+   "from": "S:information",
+   "reverse": 11,
+   "support": 22,
+   "to": "S:recognition"
+  },
+  {
+   "directionality": 0.5,
+   "flow": 4,
+   "from": "A:listen",
+   "reverse": 4,
+   "support": 8,
+   "to": "S:recognition"
+  },
+  {
+   "directionality": 0.5,
+   "flow": 4,
+   "from": "A:question",
+   "reverse": 4,
+   "support": 8,
+   "to": "A:read"
+  },
+  {
+   "directionality": 0.5,
+   "flow": 4,
+   "from": "A:read",
+   "reverse": 4,
+   "support": 8,
+   "to": "S:understanding"
+  }
+ ],
+ "finding": "the strongest epistemic source (highest net outflow) is 'A:read'; the action with greatest flow into knowledge/understanding is 'A:observe'",
+ "method": "epistemology-discovery-1.0",
+ "n_edges": 74,
+ "net_outflow_ranking": [
+  {
+   "net_outflow": 77.0,
+   "node": "A:read"
+  },
+  {
+   "net_outflow": 59.0,
+   "node": "A:listen"
+  },
+  {
+   "net_outflow": 31.0,
+   "node": "A:question"
+  },
+  {
+   "net_outflow": 18.0,
+   "node": "A:observe"
+  },
+  {
+   "net_outflow": 17.0,
+   "node": "A:remember"
+  },
+  {
+   "net_outflow": 16.0,
+   "node": "A:compare"
+  },
+  {
+   "net_outflow": 10.0,
+   "node": "A:travel"
+  },
+  {
+   "net_outflow": 7.0,
+   "node": "S:recognition"
+  },
+  {
+   "net_outflow": -3.0,
+   "node": "S:wisdom"
+  },
+  {
+   "net_outflow": -5.0,
+   "node": "S:awareness"
+  },
+  {
+   "net_outflow": -8.0,
+   "node": "S:information"
+  },
+  {
+   "net_outflow": -11.0,
+   "node": "S:certainty"
+  },
+  {
+   "net_outflow": -18.0,
+   "node": "A:reflect"
+  },
+  {
+   "net_outflow": -31.0,
+   "node": "S:understanding"
+  },
+  {
+   "net_outflow": -48.0,
+   "node": "S:guidance"
+  },
+  {
+   "net_outflow": -111.0,
+   "node": "S:knowledge"
+  }
+ ],
+ "what_follows_understanding": [
+  {
+   "directionality": 0.557823,
+   "flow_from": 82,
+   "node": "S:wisdom"
+  },
+  {
+   "directionality": 0.551724,
+   "flow_from": 64,
+   "node": "S:information"
+  },
+  {
+   "directionality": 0.5625,
+   "flow_from": 18,
+   "node": "S:knowledge"
+  },
+  {
+   "directionality": 0.625,
+   "flow_from": 10,
+   "node": "S:awareness"
+  },
+  {
+   "directionality": 0.8,
+   "flow_from": 8,
+   "node": "S:certainty"
+  }
+ ]
+}

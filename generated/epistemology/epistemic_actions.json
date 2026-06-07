@@ -1,0 +1,96 @@
+{
+ "actions": [
+  {
+   "action": "observe",
+   "imperative": 71,
+   "imperfect": 311,
+   "roots": [
+    "نظر",
+    "بصر",
+    "راي",
+    "شهد"
+   ],
+   "token_count": 765,
+   "verbal_calls": 382
+  },
+  {
+   "action": "remember",
+   "imperative": 56,
+   "imperfect": 71,
+   "roots": [
+    "ذكر"
+   ],
+   "token_count": 292,
+   "verbal_calls": 127
+  },
+  {
+   "action": "question",
+   "imperative": 16,
+   "imperfect": 78,
+   "roots": [
+    "سال"
+   ],
+   "token_count": 129,
+   "verbal_calls": 94
+  },
+  {
+   "action": "listen",
+   "imperative": 13,
+   "imperfect": 61,
+   "roots": [
+    "سمع"
+   ],
+   "token_count": 185,
+   "verbal_calls": 74
+  },
+  {
+   "action": "reflect",
+   "imperative": 0,
+   "imperfect": 73,
+   "roots": [
+    "فكر",
+    "دبر",
+    "عقل"
+   ],
+   "token_count": 111,
+   "verbal_calls": 73
+  },
+  {
+   "action": "read",
+   "imperative": 13,
+   "imperfect": 56,
+   "roots": [
+    "قرا",
+    "تلو"
+   ],
+   "token_count": 151,
+   "verbal_calls": 69
+  },
+  {
+   "action": "travel",
+   "imperative": 7,
+   "imperfect": 10,
+   "roots": [
+    "سير"
+   ],
+   "token_count": 27,
+   "verbal_calls": 17
+  },
+  {
+   "action": "compare",
+   "imperative": 2,
+   "imperfect": 1,
+   "roots": [
+    "مثل",
+    "وزن",
+    "كيل"
+   ],
+   "token_count": 208,
+   "verbal_calls": 3
+  }
+ ],
+ "definition": "actions the Quran repeatedly asks a human to perform, ranked by verbal calls (imperative+imperfect)",
+ "dominant_action": "observe",
+ "finding": "the most-called epistemic action is 'observe' (382 verbal calls); the Quran's knowing is action-driven, not passive",
+ "method": "epistemology-discovery-1.0"
+}

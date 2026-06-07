@@ -1,0 +1,60 @@
+{
+ "definition": "do the surviving laws reduce to fewer fundamental سنن? group by consequent polarity",
+ "finding": "9 surviving laws compress to 3 fundamental سنن — a genuine reduction",
+ "meta_laws": [
+  {
+   "antecedents": [
+    "كفر",
+    "كبر",
+    "كذب",
+    "جرم",
+    "ذنب",
+    "فسد"
+   ],
+   "consequent_class": "COLLAPSE",
+   "meta_law": "corruption→downfall (السنة: moral corruption brings collapse)",
+   "n_subsumed": 6,
+   "subsumes": [
+    "L03",
+    "L04",
+    "L06",
+    "L07",
+    "L08",
+    "L02"
+   ]
+  },
+  {
+   "antecedents": [
+    "شكر",
+    "صبر"
+   ],
+   "consequent_class": "THRIVE",
+   "meta_law": "constructive-conduct→flourishing (السنة: gratitude/patience/faith/justice bring increase)",
+   "n_subsumed": 2,
+   "subsumes": [
+    "L09",
+    "L10"
+   ]
+  },
+  {
+   "antecedents": [
+    "عمل"
+   ],
+   "consequent_class": "RECOMPENSE",
+   "meta_law": "deed→recompense (the general law subsuming both polarities)",
+   "n_subsumed": 1,
+   "subsumes": [
+    "L15"
+   ]
+  }
+ ],
+ "method": "reality-discovery-1.0",
+ "minimal_set": [
+  "corruption→downfall (السنة: moral corruption brings collapse)",
+  "constructive-conduct→flourishing (السنة: gratitude/patience/faith/justice bring increase)",
+  "deed→recompense (the general law subsuming both polarities)"
+ ],
+ "n_meta_laws": 3,
+ "n_surviving_laws": 9,
+ "reducible": true
+}

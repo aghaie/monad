@@ -1,0 +1,239 @@
+{
+ "definition": "where the Quran displays each surviving law (which domains of reality)",
+ "finding": "the surviving laws are displayed primarily through history, society, and nature — the Quran shows its سنن in the rise and fall of peoples and the order of creation",
+ "mapping": [
+  {
+   "domain_witness_counts": {
+    "civilization": 3,
+    "ethics": 13,
+    "family": 1,
+    "history": 6,
+    "human": 1,
+    "nature": 10,
+    "psyche": 1,
+    "society": 5
+   },
+   "id": "L02",
+   "pattern": "corruption→collapse",
+   "shown_in_domains": [
+    "ethics",
+    "nature",
+    "history",
+    "society",
+    "civilization",
+    "human",
+    "psyche",
+    "family"
+   ]
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 4,
+    "economy": 17,
+    "ethics": 34,
+    "family": 10,
+    "history": 37,
+    "human": 33,
+    "nature": 23,
+    "power": 13,
+    "psyche": 26,
+    "society": 25
+   },
+   "id": "L03",
+   "pattern": "denial→collapse",
+   "shown_in_domains": [
+    "history",
+    "ethics",
+    "human",
+    "psyche",
+    "society",
+    "nature",
+    "economy",
+    "power",
+    "family",
+    "civilization"
+   ]
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 2,
+    "economy": 4,
+    "ethics": 12,
+    "history": 4,
+    "human": 11,
+    "nature": 6,
+    "power": 9,
+    "psyche": 5,
+    "society": 4
+   },
+   "id": "L04",
+   "pattern": "arrogance→collapse",
+   "shown_in_domains": [
+    "ethics",
+    "human",
+    "power",
+    "nature",
+    "psyche",
+    "society",
+    "history",
+    "economy",
+    "civilization"
+   ]
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 1,
+    "ethics": 59,
+    "family": 2,
+    "history": 16,
+    "human": 8,
+    "nature": 1,
+    "power": 3,
+    "psyche": 8,
+    "society": 8
+   },
+   "id": "L06",
+   "pattern": "belying→collapse",
+   "shown_in_domains": [
+    "ethics",
+    "history",
+    "human",
+    "society",
+    "psyche",
+    "power",
+    "family",
+    "nature",
+    "civilization"
+   ]
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 5,
+    "ethics": 6,
+    "history": 6,
+    "human": 2,
+    "nature": 3,
+    "power": 2,
+    "psyche": 3,
+    "society": 4
+   },
+   "id": "L07",
+   "pattern": "crime→collapse",
+   "shown_in_domains": [
+    "history",
+    "ethics",
+    "civilization",
+    "society",
+    "nature",
+    "psyche",
+    "human",
+    "power"
+   ]
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 4,
+    "ethics": 2,
+    "family": 2,
+    "history": 4,
+    "human": 2,
+    "nature": 2,
+    "power": 2,
+    "psyche": 1,
+    "society": 1
+   },
+   "id": "L08",
+   "pattern": "sin→collapse",
+   "shown_in_domains": [
+    "history",
+    "civilization",
+    "nature",
+    "human",
+    "ethics",
+    "family",
+    "power",
+    "society",
+    "psyche"
+   ]
+  },
+  {
+   "domain_witness_counts": {
+    "economy": 1,
+    "ethics": 4,
+    "family": 1,
+    "history": 3,
+    "human": 3,
+    "nature": 5,
+    "power": 3,
+    "psyche": 3,
+    "society": 2
+   },
+   "id": "L09",
+   "pattern": "gratitude→thriving",
+   "shown_in_domains": [
+    "nature",
+    "ethics",
+    "human",
+    "history",
+    "psyche",
+    "power",
+    "society",
+    "family",
+    "economy"
+   ]
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 1,
+    "ethics": 5,
+    "history": 8,
+    "human": 1,
+    "nature": 4,
+    "power": 4,
+    "psyche": 2,
+    "society": 4
+   },
+   "id": "L10",
+   "pattern": "patience→thriving",
+   "shown_in_domains": [
+    "history",
+    "ethics",
+    "nature",
+    "society",
+    "power",
+    "psyche",
+    "human",
+    "civilization"
+   ]
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 5,
+    "economy": 7,
+    "ethics": 28,
+    "family": 5,
+    "history": 8,
+    "human": 19,
+    "nature": 10,
+    "power": 4,
+    "psyche": 13,
+    "society": 10
+   },
+   "id": "L15",
+   "pattern": "deed→recompense",
+   "shown_in_domains": [
+    "ethics",
+    "human",
+    "psyche",
+    "nature",
+    "society",
+    "history",
+    "economy",
+    "family",
+    "civilization",
+    "power"
+   ]
+  }
+ ],
+ "method": "reality-discovery-1.0"
+}

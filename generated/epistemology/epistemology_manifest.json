@@ -1,0 +1,107 @@
+{
+ "constants": {
+  "DIR_MARGIN": 0.6,
+  "MIN_SUPPORT": 8,
+  "ROUND": 6,
+  "WINDOW": 1,
+  "actions": [
+   "observe",
+   "reflect",
+   "remember",
+   "travel",
+   "question",
+   "listen",
+   "compare",
+   "read"
+  ],
+  "obstacles": [
+   "denial",
+   "arrogance",
+   "sealing",
+   "blindness",
+   "forgetting",
+   "deviation",
+   "conjecture",
+   "lying"
+  ],
+  "states": [
+   "information",
+   "knowledge",
+   "understanding",
+   "recognition",
+   "awareness",
+   "certainty",
+   "wisdom",
+   "guidance"
+  ]
+ },
+ "input_sha256": {
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "epistemology-discovery-1.0",
+ "output_bytes": {
+  "enablers.json": 1571,
+  "epistemic_actions.json": 1662,
+  "epistemic_compression.json": 847,
+  "epistemic_sequence.json": 2332,
+  "falsification_results.json": 15382,
+  "ignorance_pathways.json": 2819,
+  "knowledge_pathways.json": 12535,
+  "obstacles.json": 1347,
+  "robustness_results.json": 9769
+ },
+ "prohibitions_observed": [
+  "no tafsir",
+  "no hadith",
+  "no dictionary",
+  "no translation",
+  "no philosophy",
+  "no theology",
+  "no epistemology literature",
+  "no psychology",
+  "no cognitive science",
+  "no external model",
+  "no assumption the Quran has a unique epistemology",
+  "no assumption observation/reason/faith is central",
+  "everything tested not assumed",
+  "discover-measure-falsify-report",
+  "concepts/roots stay opaque",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "compressible": true,
+  "dominant_action": "observe",
+  "dominant_mode_of_knowing": "observation",
+  "edges_survive_falsification": 46,
+  "edges_tested": 89,
+  "n_stages": 4,
+  "pipeline_order": [
+   "A:read",
+   "A:listen",
+   "A:question",
+   "A:observe",
+   "A:remember",
+   "A:compare",
+   "A:travel",
+   "S:recognition",
+   "S:wisdom",
+   "S:awareness",
+   "S:information",
+   "S:certainty",
+   "A:reflect",
+   "S:understanding",
+   "S:guidance",
+   "S:knowledge"
+  ],
+  "robust_fraction": 0.77027,
+  "state_gradient_order": [
+   "S:knowledge",
+   "S:understanding",
+   "S:certainty",
+   "S:wisdom",
+   "S:information"
+  ],
+  "top_enabler": "A:observe",
+  "top_obstacle": "A:observe"
+ }
+}

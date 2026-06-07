@@ -1,0 +1,64 @@
+{
+ "definition": "nodes whose directed flow runs INTO blindness/deviation/forgetting — what obstructs knowing",
+ "finding": "the strongest obstacle to understanding is 'A:observe' (net forward flow 33) — structurally precedes blindness/deviation",
+ "method": "epistemology-discovery-1.0",
+ "obstacles": [
+  {
+   "directionality": 0.603774,
+   "flow_into_target": 96,
+   "node": "A:observe",
+   "reverse": 63,
+   "support": 159
+  },
+  {
+   "directionality": 0.714286,
+   "flow_into_target": 25,
+   "node": "O:lying",
+   "reverse": 10,
+   "support": 35
+  },
+  {
+   "directionality": 0.71875,
+   "flow_into_target": 23,
+   "node": "A:compare",
+   "reverse": 9,
+   "support": 32
+  },
+  {
+   "directionality": 0.573034,
+   "flow_into_target": 51,
+   "node": "O:denial",
+   "reverse": 38,
+   "support": 89
+  },
+  {
+   "directionality": 0.76,
+   "flow_into_target": 19,
+   "node": "A:read",
+   "reverse": 6,
+   "support": 25
+  },
+  {
+   "directionality": 0.591837,
+   "flow_into_target": 29,
+   "node": "A:listen",
+   "reverse": 20,
+   "support": 49
+  },
+  {
+   "directionality": 0.666667,
+   "flow_into_target": 10,
+   "node": "O:sealing",
+   "reverse": 5,
+   "support": 15
+  },
+  {
+   "directionality": 0.666667,
+   "flow_into_target": 2,
+   "node": "A:travel",
+   "reverse": 1,
+   "support": 3
+  }
+ ],
+ "target": "blindness+deviation+forgetting"
+}

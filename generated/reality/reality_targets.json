@@ -1,0 +1,574 @@
+{
+ "definition": "phenomena in reality the Quran refers to / calls آيات (signs), by domain",
+ "domains": {
+  "civilization": [
+   {
+    "ayah_count": 150,
+    "explicitly_called_sign": 12,
+    "phenomenon": "construction",
+    "root_arabic": "بني",
+    "token_count": 184
+   },
+   {
+    "ayah_count": 54,
+    "explicitly_called_sign": 3,
+    "phenomenon": "townships",
+    "root_arabic": "قري",
+    "token_count": 57
+   },
+   {
+    "ayah_count": 34,
+    "explicitly_called_sign": 3,
+    "phenomenon": "generations",
+    "root_arabic": "قرن",
+    "token_count": 36
+   },
+   {
+    "ayah_count": 19,
+    "explicitly_called_sign": 1,
+    "phenomenon": "building",
+    "root_arabic": "عمر",
+    "token_count": 24
+   },
+   {
+    "ayah_count": 21,
+    "explicitly_called_sign": 0,
+    "phenomenon": "ruins",
+    "root_arabic": "اثر",
+    "token_count": 21
+   },
+   {
+    "ayah_count": 17,
+    "explicitly_called_sign": 0,
+    "phenomenon": "cities",
+    "root_arabic": "مدن",
+    "token_count": 17
+   }
+  ],
+  "economy": [
+   {
+    "ayah_count": 109,
+    "explicitly_called_sign": 10,
+    "phenomenon": "provision",
+    "root_arabic": "رزق",
+    "token_count": 123
+   },
+   {
+    "ayah_count": 86,
+    "explicitly_called_sign": 3,
+    "phenomenon": "spending",
+    "root_arabic": "نفق",
+    "token_count": 111
+   },
+   {
+    "ayah_count": 80,
+    "explicitly_called_sign": 1,
+    "phenomenon": "wealth",
+    "root_arabic": "مول",
+    "token_count": 86
+   },
+   {
+    "ayah_count": 72,
+    "explicitly_called_sign": 4,
+    "phenomenon": "affluence",
+    "root_arabic": "غني",
+    "token_count": 73
+   },
+   {
+    "ayah_count": 60,
+    "explicitly_called_sign": 1,
+    "phenomenon": "earning",
+    "root_arabic": "كسب",
+    "token_count": 67
+   },
+   {
+    "ayah_count": 15,
+    "explicitly_called_sign": 2,
+    "phenomenon": "usury",
+    "root_arabic": "ربو",
+    "token_count": 20
+   },
+   {
+    "ayah_count": 14,
+    "explicitly_called_sign": 0,
+    "phenomenon": "poverty",
+    "root_arabic": "فقر",
+    "token_count": 14
+   },
+   {
+    "ayah_count": 8,
+    "explicitly_called_sign": 0,
+    "phenomenon": "trade",
+    "root_arabic": "تجر",
+    "token_count": 9
+   },
+   {
+    "ayah_count": 7,
+    "explicitly_called_sign": 0,
+    "phenomenon": "hoarding",
+    "root_arabic": "كنز",
+    "token_count": 9
+   }
+  ],
+  "ethics": [
+   {
+    "ayah_count": 290,
+    "explicitly_called_sign": 29,
+    "phenomenon": "injustice",
+    "root_arabic": "ظلم",
+    "token_count": 315
+   },
+   {
+    "ayah_count": 257,
+    "explicitly_called_sign": 46,
+    "phenomenon": "falsehood",
+    "root_arabic": "كذب",
+    "token_count": 282
+   },
+   {
+    "ayah_count": 178,
+    "explicitly_called_sign": 8,
+    "phenomenon": "good",
+    "root_arabic": "خير",
+    "token_count": 196
+   },
+   {
+    "ayah_count": 170,
+    "explicitly_called_sign": 4,
+    "phenomenon": "rectitude",
+    "root_arabic": "صلح",
+    "token_count": 180
+   },
+   {
+    "ayah_count": 144,
+    "explicitly_called_sign": 8,
+    "phenomenon": "truth",
+    "root_arabic": "صدق",
+    "token_count": 155
+   },
+   {
+    "ayah_count": 47,
+    "explicitly_called_sign": 1,
+    "phenomenon": "corruption",
+    "root_arabic": "فسد",
+    "token_count": 50
+   },
+   {
+    "ayah_count": 30,
+    "explicitly_called_sign": 1,
+    "phenomenon": "evil",
+    "root_arabic": "شرر",
+    "token_count": 31
+   },
+   {
+    "ayah_count": 24,
+    "explicitly_called_sign": 1,
+    "phenomenon": "justice",
+    "root_arabic": "عدل",
+    "token_count": 28
+   },
+   {
+    "ayah_count": 22,
+    "explicitly_called_sign": 1,
+    "phenomenon": "equity",
+    "root_arabic": "قسط",
+    "token_count": 25
+   }
+  ],
+  "family": [
+   {
+    "ayah_count": 313,
+    "explicitly_called_sign": 12,
+    "phenomenon": "kinship",
+    "root_arabic": "رحم",
+    "token_count": 339
+   },
+   {
+    "ayah_count": 80,
+    "explicitly_called_sign": 1,
+    "phenomenon": "offspring",
+    "root_arabic": "ولد",
+    "token_count": 102
+   },
+   {
+    "ayah_count": 72,
+    "explicitly_called_sign": 3,
+    "phenomenon": "spouse",
+    "root_arabic": "زوج",
+    "token_count": 81
+   },
+   {
+    "ayah_count": 19,
+    "explicitly_called_sign": 1,
+    "phenomenon": "marriage",
+    "root_arabic": "نكح",
+    "token_count": 23
+   },
+   {
+    "ayah_count": 4,
+    "explicitly_called_sign": 0,
+    "phenomenon": "lineage",
+    "root_arabic": "نسل",
+    "token_count": 4
+   }
+  ],
+  "history": [
+   {
+    "ayah_count": 429,
+    "explicitly_called_sign": 40,
+    "phenomenon": "messengers",
+    "root_arabic": "رسل",
+    "token_count": 513
+   },
+   {
+    "ayah_count": 151,
+    "explicitly_called_sign": 12,
+    "phenomenon": "tidings",
+    "root_arabic": "نبا",
+    "token_count": 160
+   },
+   {
+    "ayah_count": 116,
+    "explicitly_called_sign": 11,
+    "phenomenon": "succession",
+    "root_arabic": "خلف",
+    "token_count": 127
+   },
+   {
+    "ayah_count": 74,
+    "explicitly_called_sign": 7,
+    "phenomenon": "outcome",
+    "root_arabic": "عقب",
+    "token_count": 80
+   },
+   {
+    "ayah_count": 63,
+    "explicitly_called_sign": 7,
+    "phenomenon": "perishing",
+    "root_arabic": "هلك",
+    "token_count": 68
+   },
+   {
+    "ayah_count": 34,
+    "explicitly_called_sign": 3,
+    "phenomenon": "generations",
+    "root_arabic": "قرن",
+    "token_count": 36
+   },
+   {
+    "ayah_count": 25,
+    "explicitly_called_sign": 4,
+    "phenomenon": "narratives",
+    "root_arabic": "قصص",
+    "token_count": 30
+   },
+   {
+    "ayah_count": 21,
+    "explicitly_called_sign": 0,
+    "phenomenon": "ruins",
+    "root_arabic": "اثر",
+    "token_count": 21
+   },
+   {
+    "ayah_count": 8,
+    "explicitly_called_sign": 1,
+    "phenomenon": "destruction",
+    "root_arabic": "دمر",
+    "token_count": 10
+   }
+  ],
+  "human": [
+   {
+    "ayah_count": 270,
+    "explicitly_called_sign": 18,
+    "phenomenon": "self",
+    "root_arabic": "نفس",
+    "token_count": 298
+   },
+   {
+    "ayah_count": 161,
+    "explicitly_called_sign": 17,
+    "phenomenon": "life",
+    "root_arabic": "حيي",
+    "token_count": 184
+   },
+   {
+    "ayah_count": 155,
+    "explicitly_called_sign": 10,
+    "phenomenon": "heart",
+    "root_arabic": "قلب",
+    "token_count": 168
+   },
+   {
+    "ayah_count": 143,
+    "explicitly_called_sign": 12,
+    "phenomenon": "death",
+    "root_arabic": "موت",
+    "token_count": 165
+   },
+   {
+    "ayah_count": 119,
+    "explicitly_called_sign": 8,
+    "phenomenon": "humankind",
+    "root_arabic": "بشر",
+    "token_count": 123
+   },
+   {
+    "ayah_count": 93,
+    "explicitly_called_sign": 2,
+    "phenomenon": "human",
+    "root_arabic": "انس",
+    "token_count": 97
+   },
+   {
+    "ayah_count": 49,
+    "explicitly_called_sign": 13,
+    "phenomenon": "reason",
+    "root_arabic": "عقل",
+    "token_count": 49
+   }
+  ],
+  "nature": [
+   {
+    "ayah_count": 440,
+    "explicitly_called_sign": 32,
+    "phenomenon": "earth",
+    "root_arabic": "ارض",
+    "token_count": 461
+   },
+   {
+    "ayah_count": 352,
+    "explicitly_called_sign": 28,
+    "phenomenon": "sky",
+    "root_arabic": "سمو",
+    "token_count": 381
+   },
+   {
+    "ayah_count": 218,
+    "explicitly_called_sign": 15,
+    "phenomenon": "creation",
+    "root_arabic": "خلق",
+    "token_count": 261
+   },
+   {
+    "ayah_count": 102,
+    "explicitly_called_sign": 15,
+    "phenomenon": "day",
+    "root_arabic": "نهر",
+    "token_count": 113
+   },
+   {
+    "ayah_count": 81,
+    "explicitly_called_sign": 17,
+    "phenomenon": "night",
+    "root_arabic": "ليل",
+    "token_count": 92
+   },
+   {
+    "ayah_count": 40,
+    "explicitly_called_sign": 4,
+    "phenomenon": "sea",
+    "root_arabic": "بحر",
+    "token_count": 42
+   },
+   {
+    "ayah_count": 39,
+    "explicitly_called_sign": 0,
+    "phenomenon": "mountains",
+    "root_arabic": "جبل",
+    "token_count": 41
+   },
+   {
+    "ayah_count": 32,
+    "explicitly_called_sign": 5,
+    "phenomenon": "sun",
+    "root_arabic": "شمس",
+    "token_count": 33
+   },
+   {
+    "ayah_count": 26,
+    "explicitly_called_sign": 4,
+    "phenomenon": "moon",
+    "root_arabic": "قمر",
+    "token_count": 27
+   },
+   {
+    "ayah_count": 26,
+    "explicitly_called_sign": 0,
+    "phenomenon": "trees",
+    "root_arabic": "شجر",
+    "token_count": 27
+   },
+   {
+    "ayah_count": 23,
+    "explicitly_called_sign": 5,
+    "phenomenon": "plants",
+    "root_arabic": "نبت",
+    "token_count": 26
+   },
+   {
+    "ayah_count": 9,
+    "explicitly_called_sign": 0,
+    "phenomenon": "rain",
+    "root_arabic": "مطر",
+    "token_count": 15
+   },
+   {
+    "ayah_count": 13,
+    "explicitly_called_sign": 2,
+    "phenomenon": "stars",
+    "root_arabic": "نجم",
+    "token_count": 13
+   }
+  ],
+  "power": [
+   {
+    "ayah_count": 191,
+    "explicitly_called_sign": 6,
+    "phenomenon": "dominion",
+    "root_arabic": "ملك",
+    "token_count": 206
+   },
+   {
+    "ayah_count": 116,
+    "explicitly_called_sign": 4,
+    "phenomenon": "might",
+    "root_arabic": "عزز",
+    "token_count": 119
+   },
+   {
+    "ayah_count": 45,
+    "explicitly_called_sign": 1,
+    "phenomenon": "weakness",
+    "root_arabic": "ضعف",
+    "token_count": 52
+   },
+   {
+    "ayah_count": 39,
+    "explicitly_called_sign": 2,
+    "phenomenon": "strength",
+    "root_arabic": "قوي",
+    "token_count": 42
+   },
+   {
+    "ayah_count": 39,
+    "explicitly_called_sign": 6,
+    "phenomenon": "authority",
+    "root_arabic": "سلط",
+    "token_count": 39
+   },
+   {
+    "ayah_count": 39,
+    "explicitly_called_sign": 0,
+    "phenomenon": "transgression",
+    "root_arabic": "طغي",
+    "token_count": 39
+   },
+   {
+    "ayah_count": 23,
+    "explicitly_called_sign": 4,
+    "phenomenon": "abasement",
+    "root_arabic": "ذلل",
+    "token_count": 24
+   },
+   {
+    "ayah_count": 10,
+    "explicitly_called_sign": 2,
+    "phenomenon": "tyranny",
+    "root_arabic": "جبر",
+    "token_count": 10
+   }
+  ],
+  "psyche": [
+   {
+    "ayah_count": 270,
+    "explicitly_called_sign": 18,
+    "phenomenon": "self",
+    "root_arabic": "نفس",
+    "token_count": 298
+   },
+   {
+    "ayah_count": 155,
+    "explicitly_called_sign": 10,
+    "phenomenon": "heart",
+    "root_arabic": "قلب",
+    "token_count": 168
+   },
+   {
+    "ayah_count": 112,
+    "explicitly_called_sign": 7,
+    "phenomenon": "fear",
+    "root_arabic": "خوف",
+    "token_count": 124
+   },
+   {
+    "ayah_count": 66,
+    "explicitly_called_sign": 11,
+    "phenomenon": "repose",
+    "root_arabic": "سكن",
+    "token_count": 69
+   },
+   {
+    "ayah_count": 42,
+    "explicitly_called_sign": 2,
+    "phenomenon": "grief",
+    "root_arabic": "حزن",
+    "token_count": 42
+   },
+   {
+    "ayah_count": 12,
+    "explicitly_called_sign": 1,
+    "phenomenon": "tranquility",
+    "root_arabic": "طمن",
+    "token_count": 13
+   },
+   {
+    "ayah_count": 5,
+    "explicitly_called_sign": 0,
+    "phenomenon": "whispering",
+    "root_arabic": "وسوس",
+    "token_count": 5
+   }
+  ],
+  "society": [
+   {
+    "ayah_count": 597,
+    "explicitly_called_sign": 67,
+    "phenomenon": "people",
+    "root_arabic": "قوم",
+    "token_count": 660
+   },
+   {
+    "ayah_count": 225,
+    "explicitly_called_sign": 23,
+    "phenomenon": "mankind",
+    "root_arabic": "نوس",
+    "token_count": 241
+   },
+   {
+    "ayah_count": 108,
+    "explicitly_called_sign": 9,
+    "phenomenon": "nations",
+    "root_arabic": "امم",
+    "token_count": 119
+   },
+   {
+    "ayah_count": 54,
+    "explicitly_called_sign": 3,
+    "phenomenon": "townships",
+    "root_arabic": "قري",
+    "token_count": 57
+   },
+   {
+    "ayah_count": 17,
+    "explicitly_called_sign": 0,
+    "phenomenon": "cities",
+    "root_arabic": "مدن",
+    "token_count": 17
+   }
+  ]
+ },
+ "finding": "the Quran points to observable phenomena across 10 domains (nature, human, society, history, ethics, psyche, family, economy, power, civilization) — many explicitly called آيات",
+ "method": "reality-discovery-1.0",
+ "n_sign_ayahs": 353
+}

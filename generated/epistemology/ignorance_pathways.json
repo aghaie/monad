@@ -1,0 +1,162 @@
+{
+ "definition": "directed flow among obstacles to knowing — the pathway from cause to blindness",
+ "edges": [
+  {
+   "directionality": 0.789474,
+   "flow": 15,
+   "from": "O:conjecture",
+   "reverse": 4,
+   "support": 19,
+   "to": "O:lying"
+  },
+  {
+   "directionality": 0.714286,
+   "flow": 10,
+   "from": "O:deviation",
+   "reverse": 4,
+   "support": 14,
+   "to": "O:forgetting"
+  },
+  {
+   "directionality": 0.68,
+   "flow": 17,
+   "from": "O:lying",
+   "reverse": 8,
+   "support": 25,
+   "to": "O:deviation"
+  },
+  {
+   "directionality": 0.636364,
+   "flow": 7,
+   "from": "O:blindness",
+   "reverse": 4,
+   "support": 11,
+   "to": "O:deviation"
+  },
+  {
+   "directionality": 0.625,
+   "flow": 15,
+   "from": "O:lying",
+   "reverse": 9,
+   "support": 24,
+   "to": "O:arrogance"
+  },
+  {
+   "directionality": 0.625,
+   "flow": 5,
+   "from": "O:arrogance",
+   "reverse": 3,
+   "support": 8,
+   "to": "O:conjecture"
+  },
+  {
+   "directionality": 0.611111,
+   "flow": 11,
+   "from": "O:conjecture",
+   "reverse": 7,
+   "support": 18,
+   "to": "O:denial"
+  },
+  {
+   "directionality": 0.608696,
+   "flow": 14,
+   "from": "O:denial",
+   "reverse": 9,
+   "support": 23,
+   "to": "O:forgetting"
+  },
+  {
+   "directionality": 0.6,
+   "flow": 9,
+   "from": "O:denial",
+   "reverse": 6,
+   "support": 15,
+   "to": "O:sealing"
+  },
+  {
+   "directionality": 0.571429,
+   "flow": 8,
+   "from": "O:deviation",
+   "reverse": 6,
+   "support": 14,
+   "to": "O:arrogance"
+  },
+  {
+   "directionality": 0.555556,
+   "flow": 35,
+   "from": "O:denial",
+   "reverse": 28,
+   "support": 63,
+   "to": "O:deviation"
+  },
+  {
+   "directionality": 0.555556,
+   "flow": 5,
+   "from": "O:blindness",
+   "reverse": 4,
+   "support": 9,
+   "to": "O:denial"
+  },
+  {
+   "directionality": 0.540984,
+   "flow": 33,
+   "from": "O:denial",
+   "reverse": 28,
+   "support": 61,
+   "to": "O:lying"
+  },
+  {
+   "directionality": 0.525,
+   "flow": 21,
+   "from": "O:denial",
+   "reverse": 19,
+   "support": 40,
+   "to": "O:arrogance"
+  },
+  {
+   "directionality": 0.52381,
+   "flow": 11,
+   "from": "O:deviation",
+   "reverse": 10,
+   "support": 21,
+   "to": "O:conjecture"
+  }
+ ],
+ "finding": "the ignorance pathway is led by 'O:denial' (highest net outflow among obstacles) and terminates in 'O:forgetting'",
+ "method": "epistemology-discovery-1.0",
+ "n_edges": 15,
+ "net_outflow_ranking": [
+  {
+   "net_outflow": 17.0,
+   "node": "O:denial"
+  },
+  {
+   "net_outflow": 12.0,
+   "node": "O:conjecture"
+  },
+  {
+   "net_outflow": 4.0,
+   "node": "O:blindness"
+  },
+  {
+   "net_outflow": -1.0,
+   "node": "O:lying"
+  },
+  {
+   "net_outflow": -3.0,
+   "node": "O:sealing"
+  },
+  {
+   "net_outflow": -8.0,
+   "node": "O:arrogance"
+  },
+  {
+   "net_outflow": -10.0,
+   "node": "O:deviation"
+  },
+  {
+   "net_outflow": -11.0,
+   "node": "O:forgetting"
+  }
+ ]
+}

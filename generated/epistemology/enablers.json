@@ -1,0 +1,78 @@
+{
+ "definition": "nodes whose directed flow runs INTO understanding/knowledge/guidance — what enables knowing",
+ "enablers": [
+  {
+   "directionality": 0.547278,
+   "flow_into_target": 191,
+   "node": "A:observe",
+   "reverse": 158,
+   "support": 349
+  },
+  {
+   "directionality": 0.617886,
+   "flow_into_target": 76,
+   "node": "A:listen",
+   "reverse": 47,
+   "support": 123
+  },
+  {
+   "directionality": 0.588608,
+   "flow_into_target": 93,
+   "node": "A:remember",
+   "reverse": 65,
+   "support": 158
+  },
+  {
+   "directionality": 0.619048,
+   "flow_into_target": 65,
+   "node": "A:compare",
+   "reverse": 40,
+   "support": 105
+  },
+  {
+   "directionality": 0.635294,
+   "flow_into_target": 54,
+   "node": "A:read",
+   "reverse": 31,
+   "support": 85
+  },
+  {
+   "directionality": 0.604651,
+   "flow_into_target": 52,
+   "node": "A:question",
+   "reverse": 34,
+   "support": 86
+  },
+  {
+   "directionality": 0.6,
+   "flow_into_target": 33,
+   "node": "A:reflect",
+   "reverse": 22,
+   "support": 55
+  },
+  {
+   "directionality": 0.578947,
+   "flow_into_target": 33,
+   "node": "S:recognition",
+   "reverse": 24,
+   "support": 57
+  },
+  {
+   "directionality": 0.8,
+   "flow_into_target": 8,
+   "node": "A:travel",
+   "reverse": 2,
+   "support": 10
+  },
+  {
+   "directionality": 0.503356,
+   "flow_into_target": 75,
+   "node": "S:information",
+   "reverse": 74,
+   "support": 149
+  }
+ ],
+ "finding": "the strongest enabler of understanding is 'A:observe' (net forward flow 33)",
+ "method": "epistemology-discovery-1.0",
+ "target": "understanding+knowledge+guidance"
+}

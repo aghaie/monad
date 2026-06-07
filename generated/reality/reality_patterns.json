@@ -1,0 +1,289 @@
+{
+ "definition": "antecedent→consequent patterns the Quran asserts (within ±1 ayahs), with lift over base rate",
+ "finding": "the Quran asserts directional patterns linking conduct to outcome; the strongest by lift is 'deed→recompense' (lift 7.13)",
+ "method": "reality-discovery-1.0",
+ "observation_modes": {
+  "civilization": {
+   "n_ayahs": 290,
+   "observation_modes": {
+    "change": 12,
+    "creation": 14,
+    "order": 19,
+    "repetition": 8,
+    "ruin_succession": 41
+   }
+  },
+  "economy": {
+   "n_ayahs": 389,
+   "observation_modes": {
+    "change": 14,
+    "creation": 9,
+    "order": 46,
+    "repetition": 8,
+    "ruin_succession": 18
+   }
+  },
+  "ethics": {
+   "n_ayahs": 1046,
+   "observation_modes": {
+    "change": 20,
+    "creation": 22,
+    "order": 73,
+    "repetition": 26,
+    "ruin_succession": 43
+   }
+  },
+  "family": {
+   "n_ayahs": 462,
+   "observation_modes": {
+    "change": 11,
+    "creation": 29,
+    "order": 27,
+    "repetition": 5,
+    "ruin_succession": 13
+   }
+  },
+  "history": {
+   "n_ayahs": 820,
+   "observation_modes": {
+    "change": 119,
+    "creation": 13,
+    "order": 39,
+    "repetition": 74,
+    "ruin_succession": 180
+   }
+  },
+  "human": {
+   "n_ayahs": 850,
+   "observation_modes": {
+    "change": 25,
+    "creation": 55,
+    "order": 67,
+    "repetition": 10,
+    "ruin_succession": 30
+   }
+  },
+  "nature": {
+   "n_ayahs": 960,
+   "observation_modes": {
+    "change": 33,
+    "creation": 229,
+    "order": 87,
+    "repetition": 19,
+    "ruin_succession": 47
+   }
+  },
+  "power": {
+   "n_ayahs": 478,
+   "observation_modes": {
+    "change": 16,
+    "creation": 33,
+    "order": 31,
+    "repetition": 7,
+    "ruin_succession": 20
+   }
+  },
+  "psyche": {
+   "n_ayahs": 608,
+   "observation_modes": {
+    "change": 18,
+    "creation": 16,
+    "order": 41,
+    "repetition": 14,
+    "ruin_succession": 23
+   }
+  },
+  "society": {
+   "n_ayahs": 932,
+   "observation_modes": {
+    "change": 44,
+    "creation": 29,
+    "order": 64,
+    "repetition": 16,
+    "ruin_succession": 71
+   }
+  }
+ },
+ "patterns": [
+  {
+   "antecedent": "عمل",
+   "antecedent_ayahs": 313,
+   "base_rate_consequent": 0.033151,
+   "consequent_class": "RECOMPENSE",
+   "cooccurrence_ayahs": 74,
+   "id": "L15",
+   "lift": 7.131673,
+   "p_consequent_given_antecedent": 0.236422,
+   "pattern": "deed→recompense",
+   "polarity": "general"
+  },
+  {
+   "antecedent": "كفر",
+   "antecedent_ayahs": 465,
+   "base_rate_consequent": 0.064532,
+   "consequent_class": "COLLAPSE",
+   "cooccurrence_ayahs": 143,
+   "id": "L03",
+   "lift": 4.765516,
+   "p_consequent_given_antecedent": 0.307527,
+   "pattern": "denial→collapse",
+   "polarity": "negative"
+  },
+  {
+   "antecedent": "شكر",
+   "antecedent_ayahs": 69,
+   "base_rate_consequent": 0.054232,
+   "consequent_class": "THRIVE",
+   "cooccurrence_ayahs": 17,
+   "id": "L09",
+   "lift": 4.542984,
+   "p_consequent_given_antecedent": 0.246377,
+   "pattern": "gratitude→thriving",
+   "polarity": "positive"
+  },
+  {
+   "antecedent": "فسد",
+   "antecedent_ayahs": 47,
+   "base_rate_consequent": 0.064532,
+   "consequent_class": "COLLAPSE",
+   "cooccurrence_ayahs": 13,
+   "id": "L02",
+   "lift": 4.286199,
+   "p_consequent_given_antecedent": 0.276596,
+   "pattern": "corruption→collapse",
+   "polarity": "negative"
+  },
+  {
+   "antecedent": "صلح",
+   "antecedent_ayahs": 170,
+   "base_rate_consequent": 0.054232,
+   "consequent_class": "THRIVE",
+   "cooccurrence_ayahs": 39,
+   "id": "L12",
+   "lift": 4.230162,
+   "p_consequent_given_antecedent": 0.229412,
+   "pattern": "righteous-deed→thriving",
+   "polarity": "positive"
+  },
+  {
+   "antecedent": "امن",
+   "antecedent_ayahs": 723,
+   "base_rate_consequent": 0.054232,
+   "consequent_class": "THRIVE",
+   "cooccurrence_ayahs": 160,
+   "id": "L11",
+   "lift": 4.080591,
+   "p_consequent_given_antecedent": 0.2213,
+   "pattern": "faith→thriving",
+   "polarity": "positive"
+  },
+  {
+   "antecedent": "جرم",
+   "antecedent_ayahs": 65,
+   "base_rate_consequent": 0.064532,
+   "consequent_class": "COLLAPSE",
+   "cooccurrence_ayahs": 17,
+   "id": "L07",
+   "lift": 4.052868,
+   "p_consequent_given_antecedent": 0.261538,
+   "pattern": "crime→collapse",
+   "polarity": "negative"
+  },
+  {
+   "antecedent": "ظلم",
+   "antecedent_ayahs": 290,
+   "base_rate_consequent": 0.064532,
+   "consequent_class": "COLLAPSE",
+   "cooccurrence_ayahs": 74,
+   "id": "L01",
+   "lift": 3.954218,
+   "p_consequent_given_antecedent": 0.255172,
+   "pattern": "injustice→collapse",
+   "polarity": "negative"
+  },
+  {
+   "antecedent": "كبر",
+   "antecedent_ayahs": 153,
+   "base_rate_consequent": 0.064532,
+   "consequent_class": "COLLAPSE",
+   "cooccurrence_ayahs": 39,
+   "id": "L04",
+   "lift": 3.950027,
+   "p_consequent_given_antecedent": 0.254902,
+   "pattern": "arrogance→collapse",
+   "polarity": "negative"
+  },
+  {
+   "antecedent": "ذنب",
+   "antecedent_ayahs": 37,
+   "base_rate_consequent": 0.064532,
+   "consequent_class": "COLLAPSE",
+   "cooccurrence_ayahs": 9,
+   "id": "L08",
+   "lift": 3.76936,
+   "p_consequent_given_antecedent": 0.243243,
+   "pattern": "sin→collapse",
+   "polarity": "negative"
+  },
+  {
+   "antecedent": "كذب",
+   "antecedent_ayahs": 257,
+   "base_rate_consequent": 0.064532,
+   "consequent_class": "COLLAPSE",
+   "cooccurrence_ayahs": 59,
+   "id": "L06",
+   "lift": 3.557507,
+   "p_consequent_given_antecedent": 0.229572,
+   "pattern": "belying→collapse",
+   "polarity": "negative"
+  },
+  {
+   "antecedent": "هدي",
+   "antecedent_ayahs": 268,
+   "base_rate_consequent": 0.054232,
+   "consequent_class": "THRIVE",
+   "cooccurrence_ayahs": 51,
+   "id": "L14",
+   "lift": 3.508946,
+   "p_consequent_given_antecedent": 0.190299,
+   "pattern": "guidance→thriving",
+   "polarity": "positive"
+  },
+  {
+   "antecedent": "صبر",
+   "antecedent_ayahs": 93,
+   "base_rate_consequent": 0.054232,
+   "consequent_class": "THRIVE",
+   "cooccurrence_ayahs": 16,
+   "id": "L10",
+   "lift": 3.17233,
+   "p_consequent_given_antecedent": 0.172043,
+   "pattern": "patience→thriving",
+   "polarity": "positive"
+  },
+  {
+   "antecedent": "عدل",
+   "antecedent_ayahs": 24,
+   "base_rate_consequent": 0.054232,
+   "consequent_class": "THRIVE",
+   "cooccurrence_ayahs": 2,
+   "id": "L13",
+   "lift": 1.536597,
+   "p_consequent_given_antecedent": 0.083333,
+   "pattern": "justice→thriving",
+   "polarity": "positive"
+  },
+  {
+   "antecedent": "طغي",
+   "antecedent_ayahs": 39,
+   "base_rate_consequent": 0.064532,
+   "consequent_class": "COLLAPSE",
+   "cooccurrence_ayahs": 3,
+   "id": "L05",
+   "lift": 1.19202,
+   "p_consequent_given_antecedent": 0.076923,
+   "pattern": "transgression→collapse",
+   "polarity": "negative"
+  }
+ ]
+}

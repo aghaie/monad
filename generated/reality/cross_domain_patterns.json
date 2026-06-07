@@ -1,0 +1,414 @@
+{
+ "candidate_universal_sunan": [
+  "L01",
+  "L03",
+  "L11",
+  "L12",
+  "L14",
+  "L15",
+  "L04",
+  "L06",
+  "L08",
+  "L09",
+  "L02",
+  "L07",
+  "L10",
+  "L05",
+  "L13"
+ ],
+ "cross_domain_threshold": 3,
+ "definition": "for each pattern, in how many of the 10 domains the antecedent→consequent co-occurrence is witnessed",
+ "finding": "15 of 15 patterns recur in ≥3 domains — they are not domain-specific but asserted as universal سنن (cross-domain regularities)",
+ "method": "reality-discovery-1.0",
+ "patterns": [
+  {
+   "domain_witness_counts": {
+    "civilization": 12,
+    "economy": 5,
+    "ethics": 74,
+    "family": 4,
+    "history": 22,
+    "human": 12,
+    "nature": 8,
+    "power": 6,
+    "psyche": 12,
+    "society": 25
+   },
+   "domains_witnessed": [
+    "ethics",
+    "society",
+    "history",
+    "human",
+    "psyche",
+    "civilization",
+    "nature",
+    "power",
+    "economy",
+    "family"
+   ],
+   "id": "L01",
+   "n_domains": 10,
+   "pattern": "injustice→collapse"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 4,
+    "economy": 17,
+    "ethics": 34,
+    "family": 10,
+    "history": 37,
+    "human": 33,
+    "nature": 23,
+    "power": 13,
+    "psyche": 26,
+    "society": 25
+   },
+   "domains_witnessed": [
+    "history",
+    "ethics",
+    "human",
+    "psyche",
+    "society",
+    "nature",
+    "economy",
+    "power",
+    "family",
+    "civilization"
+   ],
+   "id": "L03",
+   "n_domains": 10,
+   "pattern": "denial→collapse"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 12,
+    "economy": 14,
+    "ethics": 47,
+    "family": 15,
+    "history": 42,
+    "human": 25,
+    "nature": 14,
+    "power": 15,
+    "psyche": 25,
+    "society": 36
+   },
+   "domains_witnessed": [
+    "ethics",
+    "history",
+    "society",
+    "human",
+    "psyche",
+    "family",
+    "power",
+    "nature",
+    "economy",
+    "civilization"
+   ],
+   "id": "L11",
+   "n_domains": 10,
+   "pattern": "faith→thriving"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 2,
+    "economy": 4,
+    "ethics": 39,
+    "family": 4,
+    "history": 4,
+    "human": 4,
+    "nature": 8,
+    "power": 2,
+    "psyche": 4,
+    "society": 4
+   },
+   "domains_witnessed": [
+    "ethics",
+    "nature",
+    "human",
+    "society",
+    "history",
+    "psyche",
+    "family",
+    "economy",
+    "power",
+    "civilization"
+   ],
+   "id": "L12",
+   "n_domains": 10,
+   "pattern": "righteous-deed→thriving"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 2,
+    "economy": 4,
+    "ethics": 9,
+    "family": 4,
+    "history": 12,
+    "human": 6,
+    "nature": 5,
+    "power": 5,
+    "psyche": 4,
+    "society": 21
+   },
+   "domains_witnessed": [
+    "society",
+    "history",
+    "ethics",
+    "human",
+    "nature",
+    "power",
+    "psyche",
+    "family",
+    "economy",
+    "civilization"
+   ],
+   "id": "L14",
+   "n_domains": 10,
+   "pattern": "guidance→thriving"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 5,
+    "economy": 7,
+    "ethics": 28,
+    "family": 5,
+    "history": 8,
+    "human": 19,
+    "nature": 10,
+    "power": 4,
+    "psyche": 13,
+    "society": 10
+   },
+   "domains_witnessed": [
+    "ethics",
+    "human",
+    "psyche",
+    "nature",
+    "society",
+    "history",
+    "economy",
+    "family",
+    "civilization",
+    "power"
+   ],
+   "id": "L15",
+   "n_domains": 10,
+   "pattern": "deed→recompense"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 2,
+    "economy": 4,
+    "ethics": 12,
+    "history": 4,
+    "human": 11,
+    "nature": 6,
+    "power": 9,
+    "psyche": 5,
+    "society": 4
+   },
+   "domains_witnessed": [
+    "ethics",
+    "human",
+    "power",
+    "nature",
+    "psyche",
+    "society",
+    "history",
+    "economy",
+    "civilization"
+   ],
+   "id": "L04",
+   "n_domains": 9,
+   "pattern": "arrogance→collapse"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 1,
+    "ethics": 59,
+    "family": 2,
+    "history": 16,
+    "human": 8,
+    "nature": 1,
+    "power": 3,
+    "psyche": 8,
+    "society": 8
+   },
+   "domains_witnessed": [
+    "ethics",
+    "history",
+    "human",
+    "society",
+    "psyche",
+    "power",
+    "family",
+    "nature",
+    "civilization"
+   ],
+   "id": "L06",
+   "n_domains": 9,
+   "pattern": "belying→collapse"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 4,
+    "ethics": 2,
+    "family": 2,
+    "history": 4,
+    "human": 2,
+    "nature": 2,
+    "power": 2,
+    "psyche": 1,
+    "society": 1
+   },
+   "domains_witnessed": [
+    "history",
+    "civilization",
+    "nature",
+    "human",
+    "ethics",
+    "family",
+    "power",
+    "society",
+    "psyche"
+   ],
+   "id": "L08",
+   "n_domains": 9,
+   "pattern": "sin→collapse"
+  },
+  {
+   "domain_witness_counts": {
+    "economy": 1,
+    "ethics": 4,
+    "family": 1,
+    "history": 3,
+    "human": 3,
+    "nature": 5,
+    "power": 3,
+    "psyche": 3,
+    "society": 2
+   },
+   "domains_witnessed": [
+    "nature",
+    "ethics",
+    "human",
+    "history",
+    "psyche",
+    "power",
+    "society",
+    "family",
+    "economy"
+   ],
+   "id": "L09",
+   "n_domains": 9,
+   "pattern": "gratitude→thriving"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 3,
+    "ethics": 13,
+    "family": 1,
+    "history": 6,
+    "human": 1,
+    "nature": 10,
+    "psyche": 1,
+    "society": 5
+   },
+   "domains_witnessed": [
+    "ethics",
+    "nature",
+    "history",
+    "society",
+    "civilization",
+    "human",
+    "psyche",
+    "family"
+   ],
+   "id": "L02",
+   "n_domains": 8,
+   "pattern": "corruption→collapse"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 5,
+    "ethics": 6,
+    "history": 6,
+    "human": 2,
+    "nature": 3,
+    "power": 2,
+    "psyche": 3,
+    "society": 4
+   },
+   "domains_witnessed": [
+    "history",
+    "ethics",
+    "civilization",
+    "society",
+    "nature",
+    "psyche",
+    "human",
+    "power"
+   ],
+   "id": "L07",
+   "n_domains": 8,
+   "pattern": "crime→collapse"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 1,
+    "ethics": 5,
+    "history": 8,
+    "human": 1,
+    "nature": 4,
+    "power": 4,
+    "psyche": 2,
+    "society": 4
+   },
+   "domains_witnessed": [
+    "history",
+    "ethics",
+    "nature",
+    "society",
+    "power",
+    "psyche",
+    "human",
+    "civilization"
+   ],
+   "id": "L10",
+   "n_domains": 8,
+   "pattern": "patience→thriving"
+  },
+  {
+   "domain_witness_counts": {
+    "civilization": 1,
+    "family": 1,
+    "history": 2,
+    "power": 3
+   },
+   "domains_witnessed": [
+    "power",
+    "history",
+    "family",
+    "civilization"
+   ],
+   "id": "L05",
+   "n_domains": 4,
+   "pattern": "transgression→collapse"
+  },
+  {
+   "domain_witness_counts": {
+    "ethics": 2,
+    "human": 2,
+    "psyche": 2
+   },
+   "domains_witnessed": [
+    "human",
+    "ethics",
+    "psyche"
+   ],
+   "id": "L13",
+   "n_domains": 3,
+   "pattern": "justice→thriving"
+  }
+ ]
+}

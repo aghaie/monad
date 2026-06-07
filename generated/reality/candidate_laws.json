@@ -1,0 +1,133 @@
+{
+ "candidates": [
+  {
+   "cooccurrence_ayahs": 74,
+   "id": "L15",
+   "lift": 7.131673,
+   "n_domains": 10,
+   "pattern": "deed→recompense",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 143,
+   "id": "L03",
+   "lift": 4.765516,
+   "n_domains": 10,
+   "pattern": "denial→collapse",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 17,
+   "id": "L09",
+   "lift": 4.542984,
+   "n_domains": 9,
+   "pattern": "gratitude→thriving",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 13,
+   "id": "L02",
+   "lift": 4.286199,
+   "n_domains": 8,
+   "pattern": "corruption→collapse",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 39,
+   "id": "L12",
+   "lift": 4.230162,
+   "n_domains": 10,
+   "pattern": "righteous-deed→thriving",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 160,
+   "id": "L11",
+   "lift": 4.080591,
+   "n_domains": 10,
+   "pattern": "faith→thriving",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 17,
+   "id": "L07",
+   "lift": 4.052868,
+   "n_domains": 8,
+   "pattern": "crime→collapse",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 74,
+   "id": "L01",
+   "lift": 3.954218,
+   "n_domains": 10,
+   "pattern": "injustice→collapse",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 39,
+   "id": "L04",
+   "lift": 3.950027,
+   "n_domains": 9,
+   "pattern": "arrogance→collapse",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 9,
+   "id": "L08",
+   "lift": 3.76936,
+   "n_domains": 9,
+   "pattern": "sin→collapse",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 59,
+   "id": "L06",
+   "lift": 3.557507,
+   "n_domains": 9,
+   "pattern": "belying→collapse",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 51,
+   "id": "L14",
+   "lift": 3.508946,
+   "n_domains": 10,
+   "pattern": "guidance→thriving",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 16,
+   "id": "L10",
+   "lift": 3.17233,
+   "n_domains": 8,
+   "pattern": "patience→thriving",
+   "status": "CANDIDATE_LAW"
+  },
+  {
+   "cooccurrence_ayahs": 2,
+   "id": "L13",
+   "lift": 1.536597,
+   "n_domains": 3,
+   "pattern": "justice→thriving",
+   "status": "below_threshold"
+  },
+  {
+   "cooccurrence_ayahs": 3,
+   "id": "L05",
+   "lift": 1.19202,
+   "n_domains": 4,
+   "pattern": "transgression→collapse",
+   "status": "below_threshold"
+  }
+ ],
+ "criteria": {
+  "min_cooccurrence": 5,
+  "min_domains": 3,
+  "min_lift": 1.0
+ },
+ "definition": "patterns marked CANDIDATE_LAW iff lift>1, witnessed in ≥3 domains, and ≥5 supporting ayahs",
+ "finding": "13 patterns qualify as CANDIDATE_LAW (cross-domain, lift>1). Not yet declared laws — falsification follows.",
+ "method": "reality-discovery-1.0",
+ "n_candidate_laws": 13
+}

@@ -1,0 +1,528 @@
+{
+ "definition": "each knowledge edge recomputed on Meccan and Medinan halves; stable if forward direction holds in BOTH",
+ "edges": [
+  {
+   "dir_meccan": 0.75,
+   "dir_medinan": 0.571429,
+   "from": "A:compare",
+   "stable": true,
+   "to": "A:remember"
+  },
+  {
+   "dir_meccan": 0.666667,
+   "dir_medinan": 0.666667,
+   "from": "A:compare",
+   "stable": true,
+   "to": "A:reflect"
+  },
+  {
+   "dir_meccan": 0.627907,
+   "dir_medinan": 0.666667,
+   "from": "A:compare",
+   "stable": true,
+   "to": "S:knowledge"
+  },
+  {
+   "dir_meccan": 0.733333,
+   "dir_medinan": 0.5625,
+   "from": "A:compare",
+   "stable": true,
+   "to": "S:guidance"
+  },
+  {
+   "dir_meccan": 0.6,
+   "dir_medinan": 0.555556,
+   "from": "A:compare",
+   "stable": true,
+   "to": "A:listen"
+  },
+  {
+   "dir_meccan": 0.8,
+   "dir_medinan": 0.625,
+   "from": "A:listen",
+   "stable": true,
+   "to": "S:information"
+  },
+  {
+   "dir_meccan": 0.657895,
+   "dir_medinan": 0.680851,
+   "from": "A:listen",
+   "stable": true,
+   "to": "S:knowledge"
+  },
+  {
+   "dir_meccan": 0.580645,
+   "dir_medinan": 0.695652,
+   "from": "A:listen",
+   "stable": true,
+   "to": "A:observe"
+  },
+  {
+   "dir_meccan": 0.583333,
+   "dir_medinan": 0.6,
+   "from": "A:listen",
+   "stable": true,
+   "to": "A:reflect"
+  },
+  {
+   "dir_meccan": 0.6,
+   "dir_medinan": 0.5,
+   "from": "A:listen",
+   "stable": true,
+   "to": "S:guidance"
+  },
+  {
+   "dir_meccan": 0.636364,
+   "dir_medinan": 1.0,
+   "from": "A:observe",
+   "stable": true,
+   "to": "S:certainty"
+  },
+  {
+   "dir_meccan": 0.6,
+   "dir_medinan": 0.6875,
+   "from": "A:observe",
+   "stable": true,
+   "to": "A:reflect"
+  },
+  {
+   "dir_meccan": 0.647059,
+   "dir_medinan": 0.545455,
+   "from": "A:observe",
+   "stable": true,
+   "to": "S:understanding"
+  },
+  {
+   "dir_meccan": 0.529412,
+   "dir_medinan": 0.666667,
+   "from": "A:observe",
+   "stable": true,
+   "to": "A:question"
+  },
+  {
+   "dir_meccan": 0.5625,
+   "dir_medinan": 0.55,
+   "from": "A:observe",
+   "stable": true,
+   "to": "A:compare"
+  },
+  {
+   "dir_meccan": 0.57265,
+   "dir_medinan": 0.513514,
+   "from": "A:observe",
+   "stable": true,
+   "to": "S:knowledge"
+  },
+  {
+   "dir_meccan": 0.75,
+   "dir_medinan": 0.833333,
+   "from": "A:question",
+   "stable": true,
+   "to": "A:remember"
+  },
+  {
+   "dir_meccan": 0.705882,
+   "dir_medinan": 0.631579,
+   "from": "A:question",
+   "stable": true,
+   "to": "S:knowledge"
+  },
+  {
+   "dir_meccan": 0.75,
+   "dir_medinan": 0.6,
+   "from": "A:question",
+   "stable": true,
+   "to": "A:reflect"
+  },
+  {
+   "dir_meccan": 0.571429,
+   "dir_medinan": 0.5,
+   "from": "A:question",
+   "stable": true,
+   "to": "A:compare"
+  },
+  {
+   "dir_meccan": 0.5,
+   "dir_medinan": 0.5,
+   "from": "A:question",
+   "stable": true,
+   "to": "A:read"
+  },
+  {
+   "dir_meccan": 0.769231,
+   "dir_medinan": 1.0,
+   "from": "A:read",
+   "stable": true,
+   "to": "A:compare"
+  },
+  {
+   "dir_meccan": 0.8125,
+   "dir_medinan": 0.777778,
+   "from": "A:read",
+   "stable": true,
+   "to": "S:guidance"
+  },
+  {
+   "dir_meccan": 0.6,
+   "dir_medinan": 0.785714,
+   "from": "A:read",
+   "stable": true,
+   "to": "S:wisdom"
+  },
+  {
+   "dir_meccan": 0.666667,
+   "dir_medinan": 0.8,
+   "from": "A:read",
+   "stable": true,
+   "to": "S:information"
+  },
+  {
+   "dir_meccan": 0.75,
+   "dir_medinan": 0.6,
+   "from": "A:read",
+   "stable": true,
+   "to": "A:reflect"
+  },
+  {
+   "dir_meccan": 0.703704,
+   "dir_medinan": 0.625,
+   "from": "A:read",
+   "stable": true,
+   "to": "A:remember"
+  },
+  {
+   "dir_meccan": 0.5625,
+   "dir_medinan": 0.608696,
+   "from": "A:read",
+   "stable": true,
+   "to": "S:knowledge"
+  },
+  {
+   "dir_meccan": 0.55,
+   "dir_medinan": 0.5,
+   "from": "A:read",
+   "stable": true,
+   "to": "A:observe"
+  },
+  {
+   "dir_meccan": 0.5,
+   "dir_medinan": 0.666667,
+   "from": "A:read",
+   "stable": true,
+   "to": "A:listen"
+  },
+  {
+   "dir_meccan": 0.5,
+   "dir_medinan": 0.5,
+   "from": "A:read",
+   "stable": true,
+   "to": "S:understanding"
+  },
+  {
+   "dir_meccan": 0.857143,
+   "dir_medinan": 0.666667,
+   "from": "A:reflect",
+   "stable": true,
+   "to": "S:guidance"
+  },
+  {
+   "dir_meccan": 0.588235,
+   "dir_medinan": 0.666667,
+   "from": "A:reflect",
+   "stable": true,
+   "to": "S:knowledge"
+  },
+  {
+   "dir_meccan": 0.666667,
+   "dir_medinan": 0.7,
+   "from": "A:remember",
+   "stable": true,
+   "to": "S:understanding"
+  },
+  {
+   "dir_meccan": 0.545455,
+   "dir_medinan": 1.0,
+   "from": "A:remember",
+   "stable": true,
+   "to": "A:reflect"
+  },
+  {
+   "dir_meccan": 0.647887,
+   "dir_medinan": 0.5625,
+   "from": "A:remember",
+   "stable": true,
+   "to": "S:knowledge"
+  },
+  {
+   "dir_meccan": 0.510638,
+   "dir_medinan": 0.666667,
+   "from": "A:remember",
+   "stable": true,
+   "to": "A:observe"
+  },
+  {
+   "dir_meccan": 0.5625,
+   "dir_medinan": 0.545455,
+   "from": "A:remember",
+   "stable": true,
+   "to": "S:information"
+  },
+  {
+   "dir_meccan": 0.705882,
+   "dir_medinan": 1.0,
+   "from": "A:travel",
+   "stable": true,
+   "to": "A:observe"
+  },
+  {
+   "dir_meccan": 0.666667,
+   "dir_medinan": 0.666667,
+   "from": "S:guidance",
+   "stable": true,
+   "to": "S:understanding"
+  },
+  {
+   "dir_meccan": 0.517241,
+   "dir_medinan": 0.5,
+   "from": "S:guidance",
+   "stable": true,
+   "to": "A:remember"
+  },
+  {
+   "dir_meccan": 0.666667,
+   "dir_medinan": 0.833333,
+   "from": "S:information",
+   "stable": true,
+   "to": "S:understanding"
+  },
+  {
+   "dir_meccan": 1.0,
+   "dir_medinan": 0.571429,
+   "from": "S:information",
+   "stable": true,
+   "to": "A:compare"
+  },
+  {
+   "dir_meccan": 0.785714,
+   "dir_medinan": 0.5625,
+   "from": "S:information",
+   "stable": true,
+   "to": "S:guidance"
+  },
+  {
+   "dir_meccan": 0.571429,
+   "dir_medinan": 0.714286,
+   "from": "S:information",
+   "stable": true,
+   "to": "A:question"
+  },
+  {
+   "dir_meccan": 0.714286,
+   "dir_medinan": 1.0,
+   "from": "S:knowledge",
+   "stable": true,
+   "to": "S:certainty"
+  },
+  {
+   "dir_meccan": 0.666667,
+   "dir_medinan": 0.5,
+   "from": "S:knowledge",
+   "stable": true,
+   "to": "S:awareness"
+  },
+  {
+   "dir_meccan": 0.547619,
+   "dir_medinan": 0.554054,
+   "from": "S:knowledge",
+   "stable": true,
+   "to": "S:information"
+  },
+  {
+   "dir_meccan": 1.0,
+   "dir_medinan": 0.8,
+   "from": "S:recognition",
+   "stable": true,
+   "to": "S:understanding"
+  },
+  {
+   "dir_meccan": 1.0,
+   "dir_medinan": 0.5,
+   "from": "S:recognition",
+   "stable": true,
+   "to": "A:compare"
+  },
+  {
+   "dir_meccan": 0.5,
+   "dir_medinan": 0.555556,
+   "from": "S:recognition",
+   "stable": true,
+   "to": "S:guidance"
+  },
+  {
+   "dir_meccan": 0.5,
+   "dir_medinan": 0.515152,
+   "from": "S:recognition",
+   "stable": true,
+   "to": "S:knowledge"
+  },
+  {
+   "dir_meccan": 0.583333,
+   "dir_medinan": 0.55,
+   "from": "S:understanding",
+   "stable": true,
+   "to": "S:knowledge"
+  },
+  {
+   "dir_meccan": 0.818182,
+   "dir_medinan": 0.535714,
+   "from": "S:wisdom",
+   "stable": true,
+   "to": "S:information"
+  },
+  {
+   "dir_meccan": 0.5,
+   "dir_medinan": 0.555556,
+   "from": "S:wisdom",
+   "stable": true,
+   "to": "A:remember"
+  },
+  {
+   "dir_meccan": 0.5,
+   "dir_medinan": 0.545455,
+   "from": "S:wisdom",
+   "stable": true,
+   "to": "A:observe"
+  },
+  {
+   "dir_meccan": 0.5,
+   "dir_medinan": 0.533333,
+   "from": "S:wisdom",
+   "stable": true,
+   "to": "S:guidance"
+  },
+  {
+   "dir_meccan": 0.642857,
+   "dir_medinan": 0.333333,
+   "from": "A:listen",
+   "stable": false,
+   "to": "A:remember"
+  },
+  {
+   "dir_meccan": 0.666667,
+   "dir_medinan": 0.4,
+   "from": "A:listen",
+   "stable": false,
+   "to": "S:recognition"
+  },
+  {
+   "dir_meccan": 0.603175,
+   "dir_medinan": 0.472222,
+   "from": "A:observe",
+   "stable": false,
+   "to": "S:guidance"
+  },
+  {
+   "dir_meccan": 0.571429,
+   "dir_medinan": 0.0,
+   "from": "A:observe",
+   "stable": false,
+   "to": "S:awareness"
+  },
+  {
+   "dir_meccan": 0.0,
+   "dir_medinan": 0.8,
+   "from": "A:remember",
+   "stable": false,
+   "to": "S:recognition"
+  },
+  {
+   "dir_meccan": 0.7,
+   "dir_medinan": 0.333333,
+   "from": "S:guidance",
+   "stable": false,
+   "to": "A:question"
+  },
+  {
+   "dir_meccan": 0.666667,
+   "dir_medinan": 0.0,
+   "from": "S:guidance",
+   "stable": false,
+   "to": "S:certainty"
+  },
+  {
+   "dir_meccan": 0.461538,
+   "dir_medinan": 0.568966,
+   "from": "S:guidance",
+   "stable": false,
+   "to": "S:knowledge"
+  },
+  {
+   "dir_meccan": 0.566667,
+   "dir_medinan": 0.457143,
+   "from": "S:information",
+   "stable": false,
+   "to": "A:observe"
+  },
+  {
+   "dir_meccan": 0.4,
+   "dir_medinan": 0.529412,
+   "from": "S:information",
+   "stable": false,
+   "to": "S:recognition"
+  },
+  {
+   "dir_meccan": 0.381818,
+   "dir_medinan": 0.663043,
+   "from": "S:knowledge",
+   "stable": false,
+   "to": "S:wisdom"
+  },
+  {
+   "dir_meccan": 0.444444,
+   "dir_medinan": 0.636364,
+   "from": "S:recognition",
+   "stable": false,
+   "to": "A:observe"
+  },
+  {
+   "dir_meccan": 0.833333,
+   "dir_medinan": 0.444444,
+   "from": "S:wisdom",
+   "stable": false,
+   "to": "A:listen"
+  },
+  {
+   "dir_meccan": 0.8,
+   "dir_medinan": 0.25,
+   "from": "S:wisdom",
+   "stable": false,
+   "to": "A:question"
+  },
+  {
+   "dir_meccan": 0.333333,
+   "dir_medinan": 0.666667,
+   "from": "S:wisdom",
+   "stable": false,
+   "to": "S:understanding"
+  },
+  {
+   "dir_meccan": 0.666667,
+   "dir_medinan": 0.454545,
+   "from": "S:wisdom",
+   "stable": false,
+   "to": "A:compare"
+  },
+  {
+   "dir_meccan": 0.0,
+   "dir_medinan": 0.583333,
+   "from": "S:wisdom",
+   "stable": false,
+   "to": "S:recognition"
+  }
+ ],
+ "finding": "57 of 74 knowledge edges keep their forward direction in BOTH the Meccan and Medinan corpus — the epistemic pipeline is robust across revelation halves",
+ "method": "epistemology-discovery-1.0",
+ "n_edges": 74,
+ "n_stable": 57,
+ "stable_fraction": 0.77027
+}

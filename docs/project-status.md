@@ -1,6 +1,6 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-07. **Current phase complete:** Phase Q (Quranic Methodology
+**Last updated:** 2026-06-07. **Current phase complete:** Phase X (Epistemology
 Discovery Engine). **Next phase:** none — awaiting explicit instruction.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
@@ -33,6 +33,8 @@ phase reads the previous phase's outputs and never rebuilds them.
 | Ω | World Model Discovery Engine | ✅ complete | `generated/world_model/*.json` |
 | Σ | Internal Semantic Reconstruction Engine | ✅ complete | `generated/semantics/*.json` |
 | Q | Quranic Methodology Discovery Engine | ✅ complete | `generated/quranic_methodology/*.json` |
+| R | Text → Reality Discovery Engine | ✅ complete | `generated/reality/*.json` |
+| X | Epistemology Discovery Engine | ✅ complete | `generated/epistemology/*.json` |
 
 ---
 
@@ -793,6 +795,116 @@ precise limit of internal semantic reconstruction.
 
 ---
 
+## Phase X — Epistemology Discovery Engine
+
+Asks not what structures exist in the Quran but **what process of knowing the Quran tries
+to create in a human being** — how it moves a person from not-knowing to knowing. Nothing
+assumed central (not observation, reason, or faith); everything discovered, measured,
+attacked. Only the corpus — no tafsir, hadith, dictionary, translation, philosophy,
+theology, or epistemology/psychology/cognitive-science literature. **New signal: ORDER**
+— within-ayah word position + cross-ayah adjacency give a *directed* graph of knowing.
+
+- 10 data products in `generated/epistemology/` (epistemic actions, knowledge pathways,
+  ignorance pathways, enablers, obstacles, epistemic sequence, compression,
+  falsification, robustness, manifest)
+- Method: 24 epistemic nodes (8 actions, 8 states, 8 obstacles); directed flow =
+  within-ayah precedence + cross-ayah adjacency; net-outflow ranking (source→sink);
+  enabler/obstacle flow into understanding vs blindness; modes of knowing; gap-based
+  stage compression; reverse-sequence falsification (margin 0.60); Meccan/Medinan
+  robustness split
+- **Primary finding — a robust DIRECTED PIPELINE of knowing:**
+  - every epistemic **action is a source**, every **state a sink**; **knowledge (علم) is
+    the deep attractor** (net −111); **certainty (يقين) the terminus** (knowledge→certainty
+    0.80, strongest edge in the corpus)
+  - **reflection is LATE, not early** (net −18, beside understanding) — the bridge from
+    perception to understanding; never imperative
+  - **perception is BIVALENT** — observation tops *both* enablers AND obstacles (→
+    understanding 0.54, → blindness 0.60); the same look precedes seeing and not-seeing
+  - **the obstacle to knowing is MORAL, not perceptual** — the purely-obstructive nodes
+    are lying (0.71), denial, sealing-of-the-heart (0.67); ignorance is a self-feeding
+    cascade denial/conjecture→lying→arrogance→deviation→forgetting
+  - **real state-gradient:** information → understanding → knowledge → certainty/wisdom
+  - **4 genuine modes of knowing** (observation, signs, comparison, history); **2 fail
+    honestly** — self (0.50 non-directional) and consequences (0.45 reversed)
+- **Falsification + robustness:** only **46 of 89 edges survive** reverse-sequence attack
+  (margin 0.60) — the weak half is dominated by non-directional observation;
+  independently, **77% of edges keep direction across Meccan/Medinan**. Both attacks
+  discard the *same* observation edges — raw perception is non-directional by two measures
+- **Compression:** 78% inter-stage forward consistency, but a *gradient* into one extreme
+  attractor, not tidy equal stages (reported as-is, not forced)
+- Builder: `scripts/build_epistemology.py`; Validator: `scripts/validate_epistemology.py`
+  (464 checks, byte-identical rebuild)
+- **Immutability note:** falsification deliverable written as
+  `epistemology-falsification-report.md` (Phase 7 owns `falsification-report.md`)
+- Reports: `epistemic-actions-report.md`, `knowledge-pathway-report.md`,
+  `ignorance-pathway-report.md`, `enablers-report.md`, `obstacles-report.md`,
+  `epistemic-sequence-report.md`, `epistemic-compression-report.md`,
+  `epistemology-falsification-report.md`, `epistemic-robustness-report.md`,
+  `phase-x-final-report.md`
+
+Epistemology verdict: if a human had only the Quran, they would be taught to know through
+a directed pipeline — **perceive → reflect → understand → know → become certain** — fed by
+four modes (observation, signs, comparison, history). But perception alone is bivalent and
+non-directional; the real gate is moral — knowledge fails exactly when lying/denial/
+arrogance/the-sealed-heart intervene. The directional core is robust across both
+revelation halves; half the naïve graph is order-less co-occurrence, honestly discarded.
+
+---
+
+## Phase R — Text → Reality Discovery Engine
+
+The first phase to reverse direction: from *what the Quran is* to **which patterns in
+reality the Quran invites observation of, and whether they survive testing**. Not a
+proof, defence, or refutation — only a test, reported whichever way it falls. No
+external source: no other scripture, tafsir, kalām school, or world-history/empirical
+dataset. **Honest boundary (enforced throughout):** with no external data permitted, the
+engine cannot verify a pattern against the world — it tests only the Quran's *internal*
+claim-structure (cross-domain breadth + survival of Quran-internal counter-examples).
+"Holds in reality" = the Quran asserts it consistently, NOT that it is measured in
+history.
+
+- 10 data products in `generated/reality/` (reality targets, observable claims, reality
+  patterns, candidate laws, cross-domain patterns, falsification, reality mapping, law
+  compression, method consistency, manifest)
+- Method: extract observable phenomena across 10 domains; isolate observable claims
+  (exclude unseen/hereafter); measure antecedent→outcome co-occurrence **lift** within
+  ±1 ayah; mark CANDIDATE_LAW (lift>1, ≥3 domains, ≥5 support); falsify with
+  Quran-internal counter-examples (antecedent + OPPOSITE outcome); compress; check vs
+  Phase Q
+- **Primary finding — a small, asymmetric, internally-bounded set of سنن emerges:**
+  - **3,402 observable claims** (88% of domain-ayahs); 10 domains; 353 آيات-ayahs
+  - all 15 conduct→outcome patterns show **positive lift**; 13 strong (3.2×–7.1×);
+    strongest is deed→recompense (عمل→جزاء, 7.13×)
+  - **9 of 13 candidate laws SURVIVE internal falsification; 4 REFUTED** — incl. the
+    intuitive **injustice→collapse** and three positive laws (faith/guidance/
+    righteous-deed→thriving), defeated by the Quran's **antithetical style** (each
+    antecedent flanked by both outcomes within a window)
+  - **collapse direction far cleaner than flourishing** (6/8 negative laws survive; only
+    2/5 positive) — the internally clearest law is *corruption→ruin*; runs against an
+    apologetic reading, reported as-is
+  - survivors compress **9 → 3 fundamental سنن**: corruption→downfall (6 antecedents),
+    constructive-conduct→flourishing (thin, 2), deed→recompense (general)
+- **Consistency with Phase Q: PARTIAL (45% domain overlap).** Laws anchored in Phase Q's
+  nature/history/self fields (and سنّة الله named explicitly, 15 ayahs) — not fabricated —
+  but spread into ethics/power/economy beyond Q's core; compatible, not coextensive
+- Builder: `scripts/build_reality.py`; Validator: `scripts/validate_reality.py` (105
+  checks, byte-identical rebuild)
+- **Immutability note:** spec's `docs/falsification-report.md` collides with Phase 7;
+  Phase R's is written as `reality-falsification-report.md` (no prior file touched)
+- Reports: `reality-targets-report.md`, `observable-claims-report.md`,
+  `reality-pattern-report.md`, `cross-domain-report.md`, `candidate-laws-report.md`,
+  `reality-falsification-report.md`, `reality-mapping-report.md`,
+  `law-compression-report.md`, `method-consistency-report.md`, `phase-r-final-report.md`
+
+Reality verdict (bounded): if a person read only the Quran and looked at the world, the
+Quran would expect them to see one regularity above all — **conduct determines outcome,
+and corruption ends in collapse** — with gratitude/patience→increase and deed→recompense
+alongside. A stable set of سنن emerges (3, cross-domain, falsification-surviving), but it
+is small, asymmetric (downfall robust, flourishing thin), and provable only as the
+Quran's *internal assertion*, not as external fact.
+
+---
+
 ## Phase Q — Quranic Methodology Discovery Engine
 
 Shifts the question from *what the Quran is* to **how the Quran says it should be
@@ -879,6 +991,8 @@ python3 scripts/build_frequency_null.py && python3 scripts/validate_frequency_nu
 python3 scripts/build_world_model.py    && python3 scripts/validate_world_model.py    --rebuild
 python3 scripts/build_semantics.py      && python3 scripts/validate_semantics.py      --rebuild
 python3 scripts/build_quranic_methodology.py && python3 scripts/validate_quranic_methodology.py --rebuild
+python3 scripts/build_reality.py        && python3 scripts/validate_reality.py        --rebuild
+python3 scripts/build_epistemology.py   && python3 scripts/validate_epistemology.py   --rebuild
 ```
 
 ---

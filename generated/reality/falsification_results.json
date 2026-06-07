@@ -1,0 +1,128 @@
+{
+ "definition": "for each candidate law, count Quran-internal counter-examples (antecedent with OPPOSITE outcome); refute if counters ≥ support",
+ "finding": "9 candidate laws survive internal falsification; 4 are refuted by Quran-internal counter-examples",
+ "method": "reality-discovery-1.0",
+ "refuted_laws": [
+  "L12",
+  "L01",
+  "L14",
+  "L11"
+ ],
+ "results": [
+  {
+   "counter_example_ayahs": 0,
+   "id": "L15",
+   "pattern": "deed→recompense",
+   "result": "SURVIVES",
+   "support_minus_counter": 74,
+   "supporting_ayahs": 74
+  },
+  {
+   "counter_example_ayahs": 96,
+   "id": "L03",
+   "pattern": "denial→collapse",
+   "result": "SURVIVES",
+   "support_minus_counter": 47,
+   "supporting_ayahs": 143
+  },
+  {
+   "counter_example_ayahs": 19,
+   "id": "L04",
+   "pattern": "arrogance→collapse",
+   "result": "SURVIVES",
+   "support_minus_counter": 20,
+   "supporting_ayahs": 39
+  },
+  {
+   "counter_example_ayahs": 43,
+   "id": "L06",
+   "pattern": "belying→collapse",
+   "result": "SURVIVES",
+   "support_minus_counter": 16,
+   "supporting_ayahs": 59
+  },
+  {
+   "counter_example_ayahs": 9,
+   "id": "L07",
+   "pattern": "crime→collapse",
+   "result": "SURVIVES",
+   "support_minus_counter": 8,
+   "supporting_ayahs": 17
+  },
+  {
+   "counter_example_ayahs": 10,
+   "id": "L09",
+   "pattern": "gratitude→thriving",
+   "result": "SURVIVES",
+   "support_minus_counter": 7,
+   "supporting_ayahs": 17
+  },
+  {
+   "counter_example_ayahs": 6,
+   "id": "L08",
+   "pattern": "sin→collapse",
+   "result": "SURVIVES",
+   "support_minus_counter": 3,
+   "supporting_ayahs": 9
+  },
+  {
+   "counter_example_ayahs": 11,
+   "id": "L02",
+   "pattern": "corruption→collapse",
+   "result": "SURVIVES",
+   "support_minus_counter": 2,
+   "supporting_ayahs": 13
+  },
+  {
+   "counter_example_ayahs": 15,
+   "id": "L10",
+   "pattern": "patience→thriving",
+   "result": "SURVIVES",
+   "support_minus_counter": 1,
+   "supporting_ayahs": 16
+  },
+  {
+   "counter_example_ayahs": 43,
+   "id": "L12",
+   "pattern": "righteous-deed→thriving",
+   "result": "REFUTED",
+   "support_minus_counter": -4,
+   "supporting_ayahs": 39
+  },
+  {
+   "counter_example_ayahs": 81,
+   "id": "L01",
+   "pattern": "injustice→collapse",
+   "result": "REFUTED",
+   "support_minus_counter": -7,
+   "supporting_ayahs": 74
+  },
+  {
+   "counter_example_ayahs": 62,
+   "id": "L14",
+   "pattern": "guidance→thriving",
+   "result": "REFUTED",
+   "support_minus_counter": -11,
+   "supporting_ayahs": 51
+  },
+  {
+   "counter_example_ayahs": 179,
+   "id": "L11",
+   "pattern": "faith→thriving",
+   "result": "REFUTED",
+   "support_minus_counter": -19,
+   "supporting_ayahs": 160
+  }
+ ],
+ "surviving_laws": [
+  "L15",
+  "L03",
+  "L04",
+  "L06",
+  "L07",
+  "L09",
+  "L08",
+  "L02",
+  "L10"
+ ]
+}

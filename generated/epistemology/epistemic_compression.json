@@ -1,0 +1,46 @@
+{
+ "compressible": true,
+ "definition": "can the epistemic process compress to a few ordered stages? cut net-outflow at largest gaps; measure forward-edge consistency",
+ "finding": "the epistemic graph compresses to 4 ordered stages with 78% of inter-stage edges running forward — a genuine pipeline",
+ "inter_stage_forward_consistency": 0.78125,
+ "method": "epistemology-discovery-1.0",
+ "n_stages": 4,
+ "stages": [
+  {
+   "nodes": [
+    "read"
+   ],
+   "stage": 1
+  },
+  {
+   "nodes": [
+    "listen"
+   ],
+   "stage": 2
+  },
+  {
+   "nodes": [
+    "question",
+    "observe",
+    "remember",
+    "compare",
+    "travel",
+    "recognition",
+    "wisdom",
+    "awareness",
+    "information",
+    "certainty",
+    "reflect",
+    "understanding",
+    "guidance"
+   ],
+   "stage": 3
+  },
+  {
+   "nodes": [
+    "knowledge"
+   ],
+   "stage": 4
+  }
+ ]
+}

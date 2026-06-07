@@ -1,0 +1,97 @@
+{
+ "constants": {
+  "COLLAPSE": [
+   "هلك",
+   "دمر",
+   "عذب"
+  ],
+  "RECOMPENSE": [
+   "جزي",
+   "حسب"
+  ],
+  "ROUND": 6,
+  "THRIVE": [
+   "نصر",
+   "زيد",
+   "فلح",
+   "نجو",
+   "برك"
+  ],
+  "WINDOW": 1,
+  "domains": [
+   "nature",
+   "human",
+   "society",
+   "history",
+   "ethics",
+   "psyche",
+   "family",
+   "economy",
+   "power",
+   "civilization"
+  ]
+ },
+ "honest_boundary": "internal assertion + internal consistency only; NOT external empirical verification, which the no-external-source rule forbids",
+ "input_sha256": {
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "reality-discovery-1.0",
+ "output_bytes": {
+  "candidate_laws.json": 2808,
+  "cross_domain_patterns.json": 6869,
+  "falsification_results.json": 2766,
+  "law_compression.json": 1415,
+  "method_consistency.json": 816,
+  "observable_claims.json": 459,
+  "reality_mapping.json": 4059,
+  "reality_patterns.json": 6702,
+  "reality_targets.json": 12015
+ },
+ "prohibitions_observed": [
+  "no other scripture",
+  "no tafsir",
+  "no kalam school",
+  "no external dataset",
+  "no world-history corpus",
+  "prove nothing",
+  "defend nothing",
+  "refute nothing",
+  "only patterns the Quran itself invites observation of",
+  "no eschatological claims tested",
+  "no unobservable claims tested",
+  "internal consistency only, not external verification",
+  "report patterns that hold AND patterns that fail",
+  "concepts/roots stay opaque",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "boundary": "internal consistency only, not external verification",
+  "method_consistency": "PARTIAL",
+  "minimal_set": [
+   "corruption→downfall (السنة: moral corruption brings collapse)",
+   "constructive-conduct→flourishing (السنة: gratitude/patience/faith/justice bring increase)",
+   "deed→recompense (the general law subsuming both polarities)"
+  ],
+  "n_candidate_laws": 13,
+  "n_domains": 10,
+  "n_meta_laws": 3,
+  "n_observable_claims": 3402,
+  "refuted_laws": [
+   "L12",
+   "L01",
+   "L14",
+   "L11"
+  ],
+  "surviving_laws": [
+   "L15",
+   "L03",
+   "L04",
+   "L06",
+   "L07",
+   "L09",
+   "L08",
+   "L02",
+   "L10"
+  ]
+ }
+}
