@@ -1,0 +1,157 @@
+{
+ "finding": "most-compressive divisor = 86 (divides 2/10 scalars, expected 0.12, p=0.005718)",
+ "method": "numerics-discovery-1.0",
+ "n_scalars": 10,
+ "top_compressors": [
+  {
+   "binom_sf": 0.00571835,
+   "divisor": 86,
+   "expected": 0.11627907,
+   "scalars": [
+    "n_total_letters",
+    "n_meccan_surahs"
+   ],
+   "scalars_divisible": 2
+  },
+  {
+   "binom_sf": 0.02094164,
+   "divisor": 473,
+   "expected": 0.02114165,
+   "scalars": [
+    "n_total_letters"
+   ],
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.02100711,
+   "divisor": 16,
+   "expected": 0.625,
+   "scalars": [
+    "n_distinct_lemmas",
+    "n_root_bearing_tokens",
+    "n_total_letters"
+   ],
+   "scalars_divisible": 3
+  },
+  {
+   "binom_sf": 0.02149646,
+   "divisor": 43,
+   "expected": 0.23255814,
+   "scalars": [
+    "n_total_letters",
+    "n_meccan_surahs"
+   ],
+   "scalars_divisible": 2
+  },
+  {
+   "binom_sf": 0.02844758,
+   "divisor": 347,
+   "expected": 0.02881844,
+   "scalars": [
+    "n_root_bearing_tokens"
+   ],
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.02869243,
+   "divisor": 344,
+   "expected": 0.02906977,
+   "scalars": [
+    "n_total_letters"
+   ],
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.03262351,
+   "divisor": 302,
+   "expected": 0.03311258,
+   "scalars": [
+    "n_distinct_lemmas"
+   ],
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.0546875,
+   "divisor": 2,
+   "expected": 5.0,
+   "scalars": [
+    "n_surahs",
+    "n_ayahs",
+    "n_distinct_roots",
+    "n_distinct_lemmas",
+    "n_root_bearing_tokens",
+    "n_total_letters",
+    "n_meccan_surahs",
+    "n_medinan_surahs"
+   ],
+   "scalars_divisible": 8
+  },
+  {
+   "binom_sf": 0.05538724,
+   "divisor": 176,
+   "expected": 0.05681818,
+   "scalars": [
+    "n_total_letters"
+   ],
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.05664179,
+   "divisor": 172,
+   "expected": 0.05813953,
+   "scalars": [
+    "n_total_letters"
+   ],
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.06428602,
+   "divisor": 151,
+   "expected": 0.06622517,
+   "scalars": [
+    "n_distinct_lemmas"
+   ],
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.06731401,
+   "divisor": 144,
+   "expected": 0.06944444,
+   "scalars": [
+    "n_root_bearing_tokens"
+   ],
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.07812691,
+   "divisor": 4,
+   "expected": 2.5,
+   "scalars": [
+    "n_ayahs",
+    "n_distinct_lemmas",
+    "n_root_bearing_tokens",
+    "n_total_letters",
+    "n_medinan_surahs"
+   ],
+   "scalars_divisible": 5
+  },
+  {
+   "binom_sf": 0.08433646,
+   "divisor": 114,
+   "expected": 0.0877193,
+   "scalars": [
+    "n_surahs"
+   ],
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.1046122,
+   "divisor": 91,
+   "expected": 0.10989011,
+   "scalars": [
+    "n_morphology_tokens"
+   ],
+   "scalars_divisible": 1
+  }
+ ]
+}

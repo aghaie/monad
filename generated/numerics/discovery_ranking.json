@@ -1,0 +1,287 @@
+{
+ "method": "numerics-discovery-1.0",
+ "note": "ranking is pre-correction; see significance_results for what survives Bonferroni/FDR",
+ "ranking_metric": "raw p-value (smaller = stronger), pre-correction",
+ "top_findings": [
+  {
+   "detail": "2/10 scalars",
+   "divisor": 86,
+   "family": "scalar_compression",
+   "p_value": 0.00571835,
+   "rank": 1
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 473,
+   "family": "scalar_compression",
+   "p_value": 0.02094164,
+   "rank": 2
+  },
+  {
+   "detail": "3/10 scalars",
+   "divisor": 16,
+   "family": "scalar_compression",
+   "p_value": 0.02100711,
+   "rank": 3
+  },
+  {
+   "detail": "2/10 scalars",
+   "divisor": 43,
+   "family": "scalar_compression",
+   "p_value": 0.02149646,
+   "rank": 4
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 347,
+   "family": "scalar_compression",
+   "p_value": 0.02844758,
+   "rank": 5
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 344,
+   "family": "scalar_compression",
+   "p_value": 0.02869243,
+   "rank": 6
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 302,
+   "family": "scalar_compression",
+   "p_value": 0.03262351,
+   "rank": 7
+  },
+  {
+   "detail": "8/10 scalars",
+   "divisor": 2,
+   "family": "scalar_compression",
+   "p_value": 0.0546875,
+   "rank": 8
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 176,
+   "family": "scalar_compression",
+   "p_value": 0.05538724,
+   "rank": 9
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 172,
+   "family": "scalar_compression",
+   "p_value": 0.05664179,
+   "rank": 10
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 151,
+   "family": "scalar_compression",
+   "p_value": 0.06428602,
+   "rank": 11
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 144,
+   "family": "scalar_compression",
+   "p_value": 0.06731401,
+   "rank": 12
+  },
+  {
+   "detail": "5/10 scalars",
+   "divisor": 4,
+   "family": "scalar_compression",
+   "p_value": 0.07812691,
+   "rank": 13
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 114,
+   "family": "scalar_compression",
+   "p_value": 0.08433646,
+   "rank": 14
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 91,
+   "family": "scalar_compression",
+   "p_value": 0.1046122,
+   "rank": 15
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 88,
+   "family": "scalar_compression",
+   "p_value": 0.10799805,
+   "rank": 16
+  },
+  {
+   "detail": "3/10 scalars",
+   "divisor": 8,
+   "family": "scalar_compression",
+   "p_value": 0.11950215,
+   "rank": 17
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 72,
+   "family": "scalar_compression",
+   "p_value": 0.13052215,
+   "rank": 18
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 57,
+   "family": "scalar_compression",
+   "p_value": 0.16221667,
+   "rank": 19
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 48,
+   "family": "scalar_compression",
+   "p_value": 0.18984856,
+   "rank": 20
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 44,
+   "family": "scalar_compression",
+   "p_value": 0.20538311,
+   "rank": 21
+  },
+  {
+   "detail": "2/10 scalars",
+   "divisor": 11,
+   "family": "scalar_compression",
+   "p_value": 0.22891342,
+   "rank": 22
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 38,
+   "family": "scalar_compression",
+   "p_value": 0.23408377,
+   "rank": 23
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 36,
+   "family": "scalar_compression",
+   "p_value": 0.24550662,
+   "rank": 24
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 32,
+   "family": "scalar_compression",
+   "p_value": 0.27202384,
+   "rank": 25
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 28,
+   "family": "scalar_compression",
+   "p_value": 0.30488393,
+   "rank": 26
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 24,
+   "family": "scalar_compression",
+   "p_value": 0.34661984,
+   "rank": 27
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 22,
+   "family": "scalar_compression",
+   "p_value": 0.37199061,
+   "rank": 28
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 19,
+   "family": "scalar_compression",
+   "p_value": 0.41764335,
+   "rank": 29
+  },
+  {
+   "detail": "2/10 scalars",
+   "divisor": 7,
+   "family": "scalar_compression",
+   "p_value": 0.42917783,
+   "rank": 30
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 18,
+   "family": "scalar_compression",
+   "p_value": 0.43536972,
+   "rank": 31
+  },
+  {
+   "detail": "2/10 scalars",
+   "divisor": 6,
+   "family": "scalar_compression",
+   "p_value": 0.51548325,
+   "rank": 32
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 14,
+   "family": "scalar_compression",
+   "p_value": 0.52340096,
+   "rank": 33
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 13,
+   "family": "scalar_compression",
+   "p_value": 0.55086289,
+   "rank": 34
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 12,
+   "family": "scalar_compression",
+   "p_value": 0.58109611,
+   "rank": 35
+  },
+  {
+   "detail": "1/10 scalars",
+   "divisor": 9,
+   "family": "scalar_compression",
+   "p_value": 0.69205385,
+   "rank": 36
+  },
+  {
+   "detail": "2/10 scalars",
+   "divisor": 3,
+   "family": "scalar_compression",
+   "p_value": 0.89595082,
+   "rank": 37
+  },
+  {
+   "detail": "0/10 scalars",
+   "divisor": 5,
+   "family": "scalar_compression",
+   "p_value": 1.0,
+   "rank": 38
+  },
+  {
+   "detail": "0/10 scalars",
+   "divisor": 10,
+   "family": "scalar_compression",
+   "p_value": 1.0,
+   "rank": 39
+  },
+  {
+   "detail": "0/10 scalars",
+   "divisor": 15,
+   "family": "scalar_compression",
+   "p_value": 1.0,
+   "rank": 40
+  }
+ ]
+}

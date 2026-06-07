@@ -1,0 +1,11 @@
+{
+ "feature": "root_first_occurrence (mushaf order)",
+ "finding": "order-dependent feature best divisor 444 (p=0.0004592) vs shuffled 444 (p=0.0004592)",
+ "method": "numerics-discovery-1.0",
+ "note": "true revelation (nuzul) order is NOT in the corpus; order-dependence is tested by mushaf vs random permutation, the only corpus-internal control",
+ "order_dependent": false,
+ "real_best_divisor": 444,
+ "real_best_p": 0.00045924,
+ "shuffled_best_divisor": 444,
+ "shuffled_best_p": 0.00045924
+}

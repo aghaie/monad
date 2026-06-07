@@ -1,0 +1,13 @@
+{
+ "alpha": 0.05,
+ "bonferroni_threshold": 0.0001002,
+ "excluded_family_note": "sequence divisibility/residue tests (5380) are EXCLUDED from the significance pool: they are invariant to structure shuffling and non-significant under the frequency-preserving null (see frequency_null_results); a uniform-integer null spuriously flags them because natural frequencies are Zipfian, not uniform",
+ "finding": "499 well-posed tests (scalar compression); 0 survive Bonferroni, 0 survive FDR (alpha=0.05). Min p=0.005718 vs Bonferroni threshold 0.0001002",
+ "method": "numerics-discovery-1.0",
+ "min_p_value": 0.00571835,
+ "n_survive_bonferroni": 0,
+ "n_survive_fdr": 0,
+ "n_tests": 499,
+ "survivors": [],
+ "well_posed_family": "scalar joint-divisibility (totals vs 1/d prior)"
+}

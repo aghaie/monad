@@ -1,0 +1,69 @@
+{
+ "divisor_range": [
+  2,
+  500
+ ],
+ "method": "numerics-discovery-1.0",
+ "note": "letter counts use Arabic-letter regex over text_normalized (orthography-dependent; flagged)",
+ "order_sequences": {
+  "root_first_occurrence": {
+   "n": 1642
+  }
+ },
+ "scalars": {
+  "n_ayahs": 6236,
+  "n_distinct_lemmas": 4832,
+  "n_distinct_roots": 1642,
+  "n_meccan_surahs": 86,
+  "n_medinan_surahs": 28,
+  "n_morphology_tokens": 128219,
+  "n_root_bearing_tokens": 49968,
+  "n_surahs": 114,
+  "n_total_letters": 325424,
+  "n_word_tokens": 77429
+ },
+ "sequences": {
+  "ayah_letter_counts": {
+   "max": 547,
+   "min": 2,
+   "n": 6236,
+   "sum": 325424
+  },
+  "ayah_word_counts": {
+   "max": 128,
+   "min": 1,
+   "n": 6236,
+   "sum": 77429
+  },
+  "lemma_frequencies": {
+   "max": 3226,
+   "min": 1,
+   "n": 4832,
+   "sum": 74608
+  },
+  "root_frequencies": {
+   "max": 2851,
+   "min": 1,
+   "n": 1642,
+   "sum": 49968
+  },
+  "surah_ayah_counts": {
+   "max": 286,
+   "min": 3,
+   "n": 114,
+   "sum": 6236
+  },
+  "surah_letter_counts": {
+   "max": 25841,
+   "min": 42,
+   "n": 114,
+   "sum": 325424
+  },
+  "surah_word_counts": {
+   "max": 6116,
+   "min": 10,
+   "n": 114,
+   "sum": 77429
+  }
+ }
+}

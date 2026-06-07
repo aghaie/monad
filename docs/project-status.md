@@ -1,8 +1,8 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-07. **Current phase complete:** Phase Z (Quran Self-Method
-Discovery — falsification study) — **verdict `PARTIAL` (weak, bordering NO)**. **Next
-phase:** none — Phases P and Z together place the project at its evidential terminus.
+**Last updated:** 2026-06-07. **Current phase complete:** Phase 19X (Blind Numerical
+Structure Discovery) — **no significant numerical structure; 19 ranks #29/499, survives no
+correction**. **Next phase:** none — awaiting explicit instruction.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -38,6 +38,49 @@ phase reads the previous phase's outputs and never rebuilds them.
 | X | Epistemology Discovery Engine | ✅ complete | `generated/epistemology/*.json` |
 | P | Structural Predictivity / Held-Out Information Engine | ✅ complete — **NON_PREDICTIVE** | `generated/predictivity/*.json` |
 | Z | Quran Self-Method Discovery (falsification study) | ✅ complete — **PARTIAL (weak)** | `generated/self_methodology/*.json` |
+| 19X | Blind Numerical Structure Discovery | ✅ complete — **no significant structure** | `generated/numerics/*.json` |
+
+---
+
+## Phase 19X — Blind Numerical Structure Discovery Engine
+
+A **number-blind** search for non-random numerical structure, with the special (last,
+mechanical) question of where 19 ranks — designed to be valid even if 19 had never been
+claimed. No external data, no code-19 literature, no target number in any score or selection;
+divisors **2..500 scanned uniformly**; 19 constructed indirectly (`DIV_MIN+17`) and examined
+only after all controls. The scientific core is multiple-testing correction.
+
+- 9 data products in `generated/numerics/` + manifest. 10 integer totals + 7 integer
+  sequences; divisor scan 2..500 for divisibility / compression / residue structure; controls:
+  **frequency null** (1000 realizations), **structure null** (invariance + random partitions),
+  **mushaf-order test**, **Bonferroni + FDR + family-wise permutation**
+- **RESULT — no unusual numerical structure beyond chance:**
+  - well-posed family (scalar joint-divisibility, 499 tests): **0 survive Bonferroni, 0
+    survive FDR**; strongest raw finding divisor 86 (p=0.0057) fails all corrections
+  - **family-wise permutation p = 0.227** — random integers match the best pattern 22.7% of
+    the time
+  - structure null: real surah-size partition matched by 36% of random partitions;
+    divisibility is **invariant** to ayah/surah/root shuffling (a property of counts, not
+    arrangement)
+  - frequency-preserving demo: the ~1800 naïve "Bonferroni survivors" are **artifacts** of a
+    uniform-integer null applied to natural Zipfian frequencies (p 0.56–1.00 under the correct
+    null) — the exact mechanism behind numerological claims, diagnosed and excluded
+  - **19:** divides exactly **one** total — n_surahs=114 (114=6×19, the famous anchor) — but
+    p=0.418 (expected 0.53), **rank #29/499**, and **survives no correction**. 114 is also
+    divisible by 2,3,6,38,57; 19 is ordinary
+- **The five final answers:** (1) unusual structure? **NO**; (2) strongest findings? coincidences
+  (86 self-divisibility, 2=even) failing all controls; (3) 19 among top findings? **no**; (4)
+  19's rank? **#29/499**; (5) survive multiple-testing? **none**
+- Builder: `scripts/build_numerics.py`; Validator: `scripts/validate_numerics.py` (53 checks
+  incl. number-blindness probes + byte-identical rebuild). Reports:
+  `numerical-inventory-report.md`, `divisibility-report.md`, `compression-report.md`,
+  `frequency-null-report.md`, `structure-null-report.md`, `revelation-order-report.md`,
+  `significance-report.md`, `blindness-audit-report.md`, `phase-19x-final-report.md`
+
+Numerical verdict (blind, corrected): **no significant numerical structure** in the Quran's
+counts beyond chance and natural distribution. The famous 114=6×19 is real arithmetic but
+statistically ordinary; treated blindly and corrected for multiple testing, 19 ranks #29/499
+and survives no control. Proves nothing about any number's "correctness"; only measures.
 
 ---
 
@@ -1102,6 +1145,7 @@ python3 scripts/build_reality.py        && python3 scripts/validate_reality.py  
 python3 scripts/build_epistemology.py   && python3 scripts/validate_epistemology.py   --rebuild
 python3 scripts/build_predictivity.py   && python3 scripts/validate_predictivity.py   --rebuild
 python3 scripts/build_self_methodology.py && python3 scripts/validate_self_methodology.py --rebuild
+python3 scripts/build_numerics.py        && python3 scripts/validate_numerics.py        --rebuild
 ```
 
 ---

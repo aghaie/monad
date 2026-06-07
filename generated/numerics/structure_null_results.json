@@ -1,0 +1,8 @@
+{
+ "finding": "the actual surah-size partition's best divisibility is matched or exceeded by 36.0% of 200 random partitions of 6236 ayahs into 114 surahs — not unusual",
+ "invariance_note": "ayah/surah/root/word shuffles leave all totals and value multisets (hence all divisibility/residue stats) IDENTICAL — divisibility is not a property of arrangement. Only the surah-size partition is a non-trivial structural d.o.f., tested here.",
+ "k_realizations": 200,
+ "method": "numerics-discovery-1.0",
+ "random_partitions_matching_or_exceeding_fraction": 0.36,
+ "real_surah_partition_max_div_excess": 6.63636364
+}

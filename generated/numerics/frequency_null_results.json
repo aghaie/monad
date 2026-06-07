@@ -1,0 +1,34 @@
+{
+ "family_wise_p": 0.227,
+ "finding": "the most-significant scalar joint-divisibility pattern has family-wise permutation p = 0.2270 vs 1000 random-integer corpora of matched magnitude — NOT beyond chance",
+ "frequency_preserving_sequence_demo": {
+  "finding": "under the frequency-preserving null, the sequence residue 'findings' are typical (p>0.05) — i.e. ARTIFACTS of natural (Zipfian) value distributions, not numerical design; the uniform-integer null mislabels them",
+  "k_resamples": 100,
+  "method": "numerics-discovery-1.0",
+  "tests": [
+   {
+    "freq_preserving_p": 1.0,
+    "real_excess_chi": 10.36842105,
+    "sequence": "surah_ayah_counts",
+    "verdict": "artifact"
+   },
+   {
+    "freq_preserving_p": 0.56,
+    "real_excess_chi": 131439.31045542,
+    "sequence": "ayah_word_counts",
+    "verdict": "artifact"
+   },
+   {
+    "freq_preserving_p": 0.58,
+    "real_excess_chi": 45798.34713764,
+    "sequence": "root_frequencies",
+    "verdict": "artifact"
+   }
+  ]
+ },
+ "k_realizations": 1000,
+ "method": "numerics-discovery-1.0",
+ "null_min_p_mean": 0.01724633,
+ "null_min_p_p05": 0.00086436,
+ "real_min_p_scalar_family": 0.00571835
+}

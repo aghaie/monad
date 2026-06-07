@@ -1,0 +1,3362 @@
+{
+ "compression_by_divisor": [
+  {
+   "binom_sf": 0.0546875,
+   "divisor": 2,
+   "expected": 5.0,
+   "scalars_divisible": 8
+  },
+  {
+   "binom_sf": 0.89595082,
+   "divisor": 3,
+   "expected": 3.33333333,
+   "scalars_divisible": 2
+  },
+  {
+   "binom_sf": 0.07812691,
+   "divisor": 4,
+   "expected": 2.5,
+   "scalars_divisible": 5
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 5,
+   "expected": 2.0,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.51548325,
+   "divisor": 6,
+   "expected": 1.66666667,
+   "scalars_divisible": 2
+  },
+  {
+   "binom_sf": 0.42917783,
+   "divisor": 7,
+   "expected": 1.42857143,
+   "scalars_divisible": 2
+  },
+  {
+   "binom_sf": 0.11950215,
+   "divisor": 8,
+   "expected": 1.25,
+   "scalars_divisible": 3
+  },
+  {
+   "binom_sf": 0.69205385,
+   "divisor": 9,
+   "expected": 1.11111111,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 10,
+   "expected": 1.0,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.22891342,
+   "divisor": 11,
+   "expected": 0.90909091,
+   "scalars_divisible": 2
+  },
+  {
+   "binom_sf": 0.58109611,
+   "divisor": 12,
+   "expected": 0.83333333,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.55086289,
+   "divisor": 13,
+   "expected": 0.76923077,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.52340096,
+   "divisor": 14,
+   "expected": 0.71428571,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 15,
+   "expected": 0.66666667,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.02100711,
+   "divisor": 16,
+   "expected": 0.625,
+   "scalars_divisible": 3
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 17,
+   "expected": 0.58823529,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.43536972,
+   "divisor": 18,
+   "expected": 0.55555556,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 0.41764335,
+   "divisor": 19,
+   "expected": 0.52631579,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 20,
+   "expected": 0.5,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 21,
+   "expected": 0.47619048,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.37199061,
+   "divisor": 22,
+   "expected": 0.45454545,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 23,
+   "expected": 0.43478261,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.34661984,
+   "divisor": 24,
+   "expected": 0.41666667,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 25,
+   "expected": 0.4,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 26,
+   "expected": 0.38461538,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 27,
+   "expected": 0.37037037,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.30488393,
+   "divisor": 28,
+   "expected": 0.35714286,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 29,
+   "expected": 0.34482759,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 30,
+   "expected": 0.33333333,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 31,
+   "expected": 0.32258065,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.27202384,
+   "divisor": 32,
+   "expected": 0.3125,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 33,
+   "expected": 0.3030303,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 34,
+   "expected": 0.29411765,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 35,
+   "expected": 0.28571429,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.24550662,
+   "divisor": 36,
+   "expected": 0.27777778,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 37,
+   "expected": 0.27027027,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.23408377,
+   "divisor": 38,
+   "expected": 0.26315789,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 39,
+   "expected": 0.25641026,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 40,
+   "expected": 0.25,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 41,
+   "expected": 0.24390244,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 42,
+   "expected": 0.23809524,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.02149646,
+   "divisor": 43,
+   "expected": 0.23255814,
+   "scalars_divisible": 2
+  },
+  {
+   "binom_sf": 0.20538311,
+   "divisor": 44,
+   "expected": 0.22727273,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 45,
+   "expected": 0.22222222,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 46,
+   "expected": 0.2173913,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 47,
+   "expected": 0.21276596,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.18984856,
+   "divisor": 48,
+   "expected": 0.20833333,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 49,
+   "expected": 0.20408163,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 50,
+   "expected": 0.2,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 51,
+   "expected": 0.19607843,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 52,
+   "expected": 0.19230769,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 53,
+   "expected": 0.18867925,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 54,
+   "expected": 0.18518519,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 55,
+   "expected": 0.18181818,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 56,
+   "expected": 0.17857143,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.16221667,
+   "divisor": 57,
+   "expected": 0.1754386,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 58,
+   "expected": 0.17241379,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 59,
+   "expected": 0.16949153,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 60,
+   "expected": 0.16666667,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 61,
+   "expected": 0.16393443,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 62,
+   "expected": 0.16129032,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 63,
+   "expected": 0.15873016,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 64,
+   "expected": 0.15625,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 65,
+   "expected": 0.15384615,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 66,
+   "expected": 0.15151515,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 67,
+   "expected": 0.14925373,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 68,
+   "expected": 0.14705882,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 69,
+   "expected": 0.14492754,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 70,
+   "expected": 0.14285714,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 71,
+   "expected": 0.14084507,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.13052215,
+   "divisor": 72,
+   "expected": 0.13888889,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 73,
+   "expected": 0.1369863,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 74,
+   "expected": 0.13513514,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 75,
+   "expected": 0.13333333,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 76,
+   "expected": 0.13157895,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 77,
+   "expected": 0.12987013,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 78,
+   "expected": 0.12820513,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 79,
+   "expected": 0.12658228,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 80,
+   "expected": 0.125,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 81,
+   "expected": 0.12345679,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 82,
+   "expected": 0.12195122,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 83,
+   "expected": 0.12048193,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 84,
+   "expected": 0.11904762,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 85,
+   "expected": 0.11764706,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.00571835,
+   "divisor": 86,
+   "expected": 0.11627907,
+   "scalars_divisible": 2
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 87,
+   "expected": 0.11494253,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.10799805,
+   "divisor": 88,
+   "expected": 0.11363636,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 89,
+   "expected": 0.11235955,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 90,
+   "expected": 0.11111111,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.1046122,
+   "divisor": 91,
+   "expected": 0.10989011,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 92,
+   "expected": 0.10869565,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 93,
+   "expected": 0.10752688,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 94,
+   "expected": 0.10638298,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 95,
+   "expected": 0.10526316,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 96,
+   "expected": 0.10416667,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 97,
+   "expected": 0.10309278,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 98,
+   "expected": 0.10204082,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 99,
+   "expected": 0.1010101,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 100,
+   "expected": 0.1,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 101,
+   "expected": 0.0990099,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 102,
+   "expected": 0.09803922,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 103,
+   "expected": 0.09708738,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 104,
+   "expected": 0.09615385,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 105,
+   "expected": 0.0952381,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 106,
+   "expected": 0.09433962,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 107,
+   "expected": 0.09345794,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 108,
+   "expected": 0.09259259,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 109,
+   "expected": 0.09174312,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 110,
+   "expected": 0.09090909,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 111,
+   "expected": 0.09009009,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 112,
+   "expected": 0.08928571,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 113,
+   "expected": 0.08849558,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.08433646,
+   "divisor": 114,
+   "expected": 0.0877193,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 115,
+   "expected": 0.08695652,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 116,
+   "expected": 0.0862069,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 117,
+   "expected": 0.08547009,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 118,
+   "expected": 0.08474576,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 119,
+   "expected": 0.08403361,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 120,
+   "expected": 0.08333333,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 121,
+   "expected": 0.08264463,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 122,
+   "expected": 0.08196721,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 123,
+   "expected": 0.08130081,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 124,
+   "expected": 0.08064516,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 125,
+   "expected": 0.08,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 126,
+   "expected": 0.07936508,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 127,
+   "expected": 0.07874016,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 128,
+   "expected": 0.078125,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 129,
+   "expected": 0.07751938,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 130,
+   "expected": 0.07692308,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 131,
+   "expected": 0.07633588,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 132,
+   "expected": 0.07575758,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 133,
+   "expected": 0.07518797,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 134,
+   "expected": 0.07462687,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 135,
+   "expected": 0.07407407,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 136,
+   "expected": 0.07352941,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 137,
+   "expected": 0.0729927,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 138,
+   "expected": 0.07246377,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 139,
+   "expected": 0.07194245,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 140,
+   "expected": 0.07142857,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 141,
+   "expected": 0.07092199,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 142,
+   "expected": 0.07042254,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 143,
+   "expected": 0.06993007,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.06731401,
+   "divisor": 144,
+   "expected": 0.06944444,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 145,
+   "expected": 0.06896552,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 146,
+   "expected": 0.06849315,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 147,
+   "expected": 0.06802721,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 148,
+   "expected": 0.06756757,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 149,
+   "expected": 0.06711409,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 150,
+   "expected": 0.06666667,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.06428602,
+   "divisor": 151,
+   "expected": 0.06622517,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 152,
+   "expected": 0.06578947,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 153,
+   "expected": 0.06535948,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 154,
+   "expected": 0.06493506,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 155,
+   "expected": 0.06451613,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 156,
+   "expected": 0.06410256,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 157,
+   "expected": 0.06369427,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 158,
+   "expected": 0.06329114,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 159,
+   "expected": 0.06289308,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 160,
+   "expected": 0.0625,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 161,
+   "expected": 0.0621118,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 162,
+   "expected": 0.0617284,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 163,
+   "expected": 0.06134969,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 164,
+   "expected": 0.06097561,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 165,
+   "expected": 0.06060606,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 166,
+   "expected": 0.06024096,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 167,
+   "expected": 0.05988024,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 168,
+   "expected": 0.05952381,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 169,
+   "expected": 0.0591716,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 170,
+   "expected": 0.05882353,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 171,
+   "expected": 0.05847953,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.05664179,
+   "divisor": 172,
+   "expected": 0.05813953,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 173,
+   "expected": 0.05780347,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 174,
+   "expected": 0.05747126,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 175,
+   "expected": 0.05714286,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.05538724,
+   "divisor": 176,
+   "expected": 0.05681818,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 177,
+   "expected": 0.05649718,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 178,
+   "expected": 0.05617978,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 179,
+   "expected": 0.05586592,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 180,
+   "expected": 0.05555556,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 181,
+   "expected": 0.05524862,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 182,
+   "expected": 0.05494505,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 183,
+   "expected": 0.05464481,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 184,
+   "expected": 0.05434783,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 185,
+   "expected": 0.05405405,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 186,
+   "expected": 0.05376344,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 187,
+   "expected": 0.05347594,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 188,
+   "expected": 0.05319149,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 189,
+   "expected": 0.05291005,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 190,
+   "expected": 0.05263158,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 191,
+   "expected": 0.05235602,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 192,
+   "expected": 0.05208333,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 193,
+   "expected": 0.05181347,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 194,
+   "expected": 0.05154639,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 195,
+   "expected": 0.05128205,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 196,
+   "expected": 0.05102041,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 197,
+   "expected": 0.05076142,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 198,
+   "expected": 0.05050505,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 199,
+   "expected": 0.05025126,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 200,
+   "expected": 0.05,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 201,
+   "expected": 0.04975124,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 202,
+   "expected": 0.04950495,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 203,
+   "expected": 0.04926108,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 204,
+   "expected": 0.04901961,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 205,
+   "expected": 0.04878049,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 206,
+   "expected": 0.04854369,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 207,
+   "expected": 0.04830918,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 208,
+   "expected": 0.04807692,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 209,
+   "expected": 0.04784689,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 210,
+   "expected": 0.04761905,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 211,
+   "expected": 0.04739336,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 212,
+   "expected": 0.04716981,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 213,
+   "expected": 0.04694836,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 214,
+   "expected": 0.04672897,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 215,
+   "expected": 0.04651163,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 216,
+   "expected": 0.0462963,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 217,
+   "expected": 0.04608295,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 218,
+   "expected": 0.04587156,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 219,
+   "expected": 0.0456621,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 220,
+   "expected": 0.04545455,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 221,
+   "expected": 0.04524887,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 222,
+   "expected": 0.04504505,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 223,
+   "expected": 0.04484305,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 224,
+   "expected": 0.04464286,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 225,
+   "expected": 0.04444444,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 226,
+   "expected": 0.04424779,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 227,
+   "expected": 0.04405286,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 228,
+   "expected": 0.04385965,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 229,
+   "expected": 0.04366812,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 230,
+   "expected": 0.04347826,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 231,
+   "expected": 0.04329004,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 232,
+   "expected": 0.04310345,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 233,
+   "expected": 0.04291845,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 234,
+   "expected": 0.04273504,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 235,
+   "expected": 0.04255319,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 236,
+   "expected": 0.04237288,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 237,
+   "expected": 0.04219409,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 238,
+   "expected": 0.04201681,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 239,
+   "expected": 0.041841,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 240,
+   "expected": 0.04166667,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 241,
+   "expected": 0.04149378,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 242,
+   "expected": 0.04132231,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 243,
+   "expected": 0.04115226,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 244,
+   "expected": 0.04098361,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 245,
+   "expected": 0.04081633,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 246,
+   "expected": 0.04065041,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 247,
+   "expected": 0.04048583,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 248,
+   "expected": 0.04032258,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 249,
+   "expected": 0.04016064,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 250,
+   "expected": 0.04,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 251,
+   "expected": 0.03984064,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 252,
+   "expected": 0.03968254,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 253,
+   "expected": 0.03952569,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 254,
+   "expected": 0.03937008,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 255,
+   "expected": 0.03921569,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 256,
+   "expected": 0.0390625,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 257,
+   "expected": 0.03891051,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 258,
+   "expected": 0.03875969,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 259,
+   "expected": 0.03861004,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 260,
+   "expected": 0.03846154,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 261,
+   "expected": 0.03831418,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 262,
+   "expected": 0.03816794,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 263,
+   "expected": 0.03802281,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 264,
+   "expected": 0.03787879,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 265,
+   "expected": 0.03773585,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 266,
+   "expected": 0.03759398,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 267,
+   "expected": 0.03745318,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 268,
+   "expected": 0.03731343,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 269,
+   "expected": 0.03717472,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 270,
+   "expected": 0.03703704,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 271,
+   "expected": 0.03690037,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 272,
+   "expected": 0.03676471,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 273,
+   "expected": 0.03663004,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 274,
+   "expected": 0.03649635,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 275,
+   "expected": 0.03636364,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 276,
+   "expected": 0.03623188,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 277,
+   "expected": 0.03610108,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 278,
+   "expected": 0.03597122,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 279,
+   "expected": 0.03584229,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 280,
+   "expected": 0.03571429,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 281,
+   "expected": 0.03558719,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 282,
+   "expected": 0.03546099,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 283,
+   "expected": 0.03533569,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 284,
+   "expected": 0.03521127,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 285,
+   "expected": 0.03508772,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 286,
+   "expected": 0.03496503,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 287,
+   "expected": 0.03484321,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 288,
+   "expected": 0.03472222,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 289,
+   "expected": 0.03460208,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 290,
+   "expected": 0.03448276,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 291,
+   "expected": 0.03436426,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 292,
+   "expected": 0.03424658,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 293,
+   "expected": 0.03412969,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 294,
+   "expected": 0.03401361,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 295,
+   "expected": 0.03389831,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 296,
+   "expected": 0.03378378,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 297,
+   "expected": 0.03367003,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 298,
+   "expected": 0.03355705,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 299,
+   "expected": 0.03344482,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 300,
+   "expected": 0.03333333,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 301,
+   "expected": 0.03322259,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.03262351,
+   "divisor": 302,
+   "expected": 0.03311258,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 303,
+   "expected": 0.0330033,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 304,
+   "expected": 0.03289474,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 305,
+   "expected": 0.03278689,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 306,
+   "expected": 0.03267974,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 307,
+   "expected": 0.03257329,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 308,
+   "expected": 0.03246753,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 309,
+   "expected": 0.03236246,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 310,
+   "expected": 0.03225806,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 311,
+   "expected": 0.03215434,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 312,
+   "expected": 0.03205128,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 313,
+   "expected": 0.03194888,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 314,
+   "expected": 0.03184713,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 315,
+   "expected": 0.03174603,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 316,
+   "expected": 0.03164557,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 317,
+   "expected": 0.03154574,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 318,
+   "expected": 0.03144654,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 319,
+   "expected": 0.03134796,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 320,
+   "expected": 0.03125,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 321,
+   "expected": 0.03115265,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 322,
+   "expected": 0.0310559,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 323,
+   "expected": 0.03095975,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 324,
+   "expected": 0.0308642,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 325,
+   "expected": 0.03076923,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 326,
+   "expected": 0.03067485,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 327,
+   "expected": 0.03058104,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 328,
+   "expected": 0.0304878,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 329,
+   "expected": 0.03039514,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 330,
+   "expected": 0.03030303,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 331,
+   "expected": 0.03021148,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 332,
+   "expected": 0.03012048,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 333,
+   "expected": 0.03003003,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 334,
+   "expected": 0.02994012,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 335,
+   "expected": 0.02985075,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 336,
+   "expected": 0.0297619,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 337,
+   "expected": 0.02967359,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 338,
+   "expected": 0.0295858,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 339,
+   "expected": 0.02949853,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 340,
+   "expected": 0.02941176,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 341,
+   "expected": 0.02932551,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 342,
+   "expected": 0.02923977,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 343,
+   "expected": 0.02915452,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.02869243,
+   "divisor": 344,
+   "expected": 0.02906977,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 345,
+   "expected": 0.02898551,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 346,
+   "expected": 0.02890173,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.02844758,
+   "divisor": 347,
+   "expected": 0.02881844,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 348,
+   "expected": 0.02873563,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 349,
+   "expected": 0.0286533,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 350,
+   "expected": 0.02857143,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 351,
+   "expected": 0.02849003,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 352,
+   "expected": 0.02840909,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 353,
+   "expected": 0.02832861,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 354,
+   "expected": 0.02824859,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 355,
+   "expected": 0.02816901,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 356,
+   "expected": 0.02808989,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 357,
+   "expected": 0.0280112,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 358,
+   "expected": 0.02793296,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 359,
+   "expected": 0.02785515,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 360,
+   "expected": 0.02777778,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 361,
+   "expected": 0.02770083,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 362,
+   "expected": 0.02762431,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 363,
+   "expected": 0.02754821,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 364,
+   "expected": 0.02747253,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 365,
+   "expected": 0.02739726,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 366,
+   "expected": 0.0273224,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 367,
+   "expected": 0.02724796,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 368,
+   "expected": 0.02717391,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 369,
+   "expected": 0.02710027,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 370,
+   "expected": 0.02702703,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 371,
+   "expected": 0.02695418,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 372,
+   "expected": 0.02688172,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 373,
+   "expected": 0.02680965,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 374,
+   "expected": 0.02673797,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 375,
+   "expected": 0.02666667,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 376,
+   "expected": 0.02659574,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 377,
+   "expected": 0.0265252,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 378,
+   "expected": 0.02645503,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 379,
+   "expected": 0.02638522,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 380,
+   "expected": 0.02631579,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 381,
+   "expected": 0.02624672,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 382,
+   "expected": 0.02617801,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 383,
+   "expected": 0.02610966,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 384,
+   "expected": 0.02604167,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 385,
+   "expected": 0.02597403,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 386,
+   "expected": 0.02590674,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 387,
+   "expected": 0.02583979,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 388,
+   "expected": 0.0257732,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 389,
+   "expected": 0.02570694,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 390,
+   "expected": 0.02564103,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 391,
+   "expected": 0.02557545,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 392,
+   "expected": 0.0255102,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 393,
+   "expected": 0.02544529,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 394,
+   "expected": 0.02538071,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 395,
+   "expected": 0.02531646,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 396,
+   "expected": 0.02525253,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 397,
+   "expected": 0.02518892,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 398,
+   "expected": 0.02512563,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 399,
+   "expected": 0.02506266,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 400,
+   "expected": 0.025,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 401,
+   "expected": 0.02493766,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 402,
+   "expected": 0.02487562,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 403,
+   "expected": 0.0248139,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 404,
+   "expected": 0.02475248,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 405,
+   "expected": 0.02469136,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 406,
+   "expected": 0.02463054,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 407,
+   "expected": 0.02457002,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 408,
+   "expected": 0.0245098,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 409,
+   "expected": 0.02444988,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 410,
+   "expected": 0.02439024,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 411,
+   "expected": 0.0243309,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 412,
+   "expected": 0.02427184,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 413,
+   "expected": 0.02421308,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 414,
+   "expected": 0.02415459,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 415,
+   "expected": 0.02409639,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 416,
+   "expected": 0.02403846,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 417,
+   "expected": 0.02398082,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 418,
+   "expected": 0.02392344,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 419,
+   "expected": 0.02386635,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 420,
+   "expected": 0.02380952,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 421,
+   "expected": 0.02375297,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 422,
+   "expected": 0.02369668,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 423,
+   "expected": 0.02364066,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 424,
+   "expected": 0.02358491,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 425,
+   "expected": 0.02352941,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 426,
+   "expected": 0.02347418,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 427,
+   "expected": 0.0234192,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 428,
+   "expected": 0.02336449,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 429,
+   "expected": 0.02331002,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 430,
+   "expected": 0.02325581,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 431,
+   "expected": 0.02320186,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 432,
+   "expected": 0.02314815,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 433,
+   "expected": 0.02309469,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 434,
+   "expected": 0.02304147,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 435,
+   "expected": 0.02298851,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 436,
+   "expected": 0.02293578,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 437,
+   "expected": 0.0228833,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 438,
+   "expected": 0.02283105,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 439,
+   "expected": 0.02277904,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 440,
+   "expected": 0.02272727,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 441,
+   "expected": 0.02267574,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 442,
+   "expected": 0.02262443,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 443,
+   "expected": 0.02257336,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 444,
+   "expected": 0.02252252,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 445,
+   "expected": 0.02247191,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 446,
+   "expected": 0.02242152,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 447,
+   "expected": 0.02237136,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 448,
+   "expected": 0.02232143,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 449,
+   "expected": 0.02227171,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 450,
+   "expected": 0.02222222,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 451,
+   "expected": 0.02217295,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 452,
+   "expected": 0.02212389,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 453,
+   "expected": 0.02207506,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 454,
+   "expected": 0.02202643,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 455,
+   "expected": 0.02197802,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 456,
+   "expected": 0.02192982,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 457,
+   "expected": 0.02188184,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 458,
+   "expected": 0.02183406,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 459,
+   "expected": 0.02178649,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 460,
+   "expected": 0.02173913,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 461,
+   "expected": 0.02169197,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 462,
+   "expected": 0.02164502,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 463,
+   "expected": 0.02159827,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 464,
+   "expected": 0.02155172,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 465,
+   "expected": 0.02150538,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 466,
+   "expected": 0.02145923,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 467,
+   "expected": 0.02141328,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 468,
+   "expected": 0.02136752,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 469,
+   "expected": 0.02132196,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 470,
+   "expected": 0.0212766,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 471,
+   "expected": 0.02123142,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 472,
+   "expected": 0.02118644,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 0.02094164,
+   "divisor": 473,
+   "expected": 0.02114165,
+   "scalars_divisible": 1
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 474,
+   "expected": 0.02109705,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 475,
+   "expected": 0.02105263,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 476,
+   "expected": 0.0210084,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 477,
+   "expected": 0.02096436,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 478,
+   "expected": 0.0209205,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 479,
+   "expected": 0.02087683,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 480,
+   "expected": 0.02083333,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 481,
+   "expected": 0.02079002,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 482,
+   "expected": 0.02074689,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 483,
+   "expected": 0.02070393,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 484,
+   "expected": 0.02066116,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 485,
+   "expected": 0.02061856,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 486,
+   "expected": 0.02057613,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 487,
+   "expected": 0.02053388,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 488,
+   "expected": 0.0204918,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 489,
+   "expected": 0.0204499,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 490,
+   "expected": 0.02040816,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 491,
+   "expected": 0.0203666,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 492,
+   "expected": 0.0203252,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 493,
+   "expected": 0.02028398,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 494,
+   "expected": 0.02024291,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 495,
+   "expected": 0.02020202,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 496,
+   "expected": 0.02016129,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 497,
+   "expected": 0.02012072,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 498,
+   "expected": 0.02008032,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 499,
+   "expected": 0.02004008,
+   "scalars_divisible": 0
+  },
+  {
+   "binom_sf": 1.0,
+   "divisor": 500,
+   "expected": 0.02,
+   "scalars_divisible": 0
+  }
+ ],
+ "method": "numerics-discovery-1.0",
+ "n_sequence_tests": 5380,
+ "sequence_tests_sample": [
+  {
+   "df": 17,
+   "divisor": 18,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 75.11289288,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 20,
+   "divisor": 21,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 98.61161001,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 21,
+   "divisor": 22,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 144.60679923,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 22,
+   "divisor": 23,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 152.77742142,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 23,
+   "divisor": 24,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 163.02501604,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 24,
+   "divisor": 25,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 188.03784477,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 25,
+   "divisor": 26,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 205.16228352,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 26,
+   "divisor": 27,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 210.79121232,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 27,
+   "divisor": 28,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 195.01090443,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 28,
+   "divisor": 29,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 204.44611931,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 29,
+   "divisor": 30,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 187.29057088,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 30,
+   "divisor": 31,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 173.4041052,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 31,
+   "divisor": 32,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 182.23733162,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 32,
+   "divisor": 33,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 201.70942912,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 33,
+   "divisor": 34,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 207.8832585,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 34,
+   "divisor": 35,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 215.66292495,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 35,
+   "divisor": 36,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 249.05708788,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 36,
+   "divisor": 37,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 267.33739577,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 37,
+   "divisor": 38,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 278.96472097,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 38,
+   "divisor": 39,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 298.46375882,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 39,
+   "divisor": 40,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 307.83579217,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 40,
+   "divisor": 41,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 326.35375241,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 41,
+   "divisor": 42,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 353.79730597,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 42,
+   "divisor": 43,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 401.55612572,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 43,
+   "divisor": 44,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 425.0609365,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 44,
+   "divisor": 45,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 442.81975625,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 45,
+   "divisor": 46,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 429.67735728,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 46,
+   "divisor": 47,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 453.54105196,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 47,
+   "divisor": 48,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 465.81911482,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 48,
+   "divisor": 49,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 490.13790892,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 49,
+   "divisor": 50,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 501.84477229,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 50,
+   "divisor": 51,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 523.38101347,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 51,
+   "divisor": 52,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 538.54265555,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 52,
+   "divisor": 53,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 540.96279666,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 53,
+   "divisor": 54,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 559.7735728,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 54,
+   "divisor": 55,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 576.13277742,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 55,
+   "divisor": 56,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 559.48685055,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 56,
+   "divisor": 57,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 545.81173829,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 57,
+   "divisor": 58,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 580.65554843,
+   "test": "residue_uniformity"
+  },
+  {
+   "df": 58,
+   "divisor": 59,
+   "n": 6236,
+   "p_value": 0.0,
+   "sequence": "ayah_letter_counts",
+   "stat": 601.50962155,
+   "test": "residue_uniformity"
+  }
+ ]
+}
