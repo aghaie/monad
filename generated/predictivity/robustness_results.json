@@ -1,0 +1,25 @@
+{
+ "concept_stability_cosine": 0.999928,
+ "cross_regime_info_gain": {
+  "R1_k10": -3.373617,
+  "R2_blocks": -3.061157,
+  "R3_fwd25": -2.541672,
+  "R3_fwd50": -2.327211,
+  "R3_fwd75": -1.750436,
+  "R4_lenstrat": -3.365943
+ },
+ "fold_count_sensitivity": {
+  "R1_k10": -3.373617,
+  "R1_k5": -3.316399
+ },
+ "mask_fraction_sensitivity": {
+  "p25": -2.155991,
+  "p50": -1.107151,
+  "single": -3.316399
+ },
+ "method": "predictivity-discovery-1.0",
+ "regime_agreement": {
+  "regimes_passing": 0,
+  "regimes_total": 7
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "fairness_lock": "structure score is additive over the baseline prior; evidence=0 ⇒ score==baseline ⇒ wins attributable to relational info",
+ "method": "predictivity-discovery-1.0",
+ "metrics": [
+  "MRR",
+  "Hits@1/5/10",
+  "rank_percentile",
+  "perplexity",
+  "info_gain_bits = NLL_base - NLL_struct (paired)"
+ ],
+ "predictors": {
+  "B0_frequency": "smoothed unigram prior P0 (context-blind)",
+  "B1_degree": "co-occurrence degree rank (anti-frequency-as-degree guard)",
+  "N_null": "S1 on a configuration null (df+size preserved, co-occurrence destroyed)",
+  "S1_structure": "log-linear P1 ∝ P0·2^(Σ PPMI(u,c)); == B0 when evidence 0",
+  "S2_directional": "S1 with ORDERED (a-before-b) PPMI features"
+ },
+ "primary_unit": "root",
+ "secondary_unit": "concept (frozen memberships, 2a)",
+ "task": "masked-unit completion under leakage-free whole-ayah holdout"
+}

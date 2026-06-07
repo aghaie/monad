@@ -1,0 +1,37 @@
+{
+ "leakage_controls": [
+  "whole-ayah holdout: test ayahs excluded from all training statistics",
+  "training-only df/co-occurrence/PPMI, rebuilt per fold",
+  "context observed from test ayah; associations learned from training only",
+  "OOV units excluded symmetrically for all predictors, counted as coverage"
+ ],
+ "mask_modes": {
+  "p25": "mask 25%",
+  "p50": "mask 50%",
+  "single": "leave-one-unit-out"
+ },
+ "method": "predictivity-discovery-1.0",
+ "n_ayahs": 6214,
+ "regimes": {
+  "R1_random": {
+   "k": [
+    5,
+    10
+   ],
+   "seed": 20260607
+  },
+  "R2_contiguous_blocks": {
+   "k": 5
+  },
+  "R3_forward": {
+   "splits": [
+    0.25,
+    0.5,
+    0.75
+   ]
+  },
+  "R4_length_stratified": {
+   "k": 5
+  }
+ }
+}

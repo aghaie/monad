@@ -1,7 +1,8 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-07. **Current phase complete:** Phase X (Epistemology
-Discovery Engine). **Next phase:** none — awaiting explicit instruction.
+**Last updated:** 2026-06-07. **Current phase complete:** Phase P (Structural
+Predictivity / Held-Out Information Engine) — **verdict `NON_PREDICTIVE`**. **Next
+phase:** none — Phase P recommends halting further semantic/content phases (see below).
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -35,6 +36,62 @@ phase reads the previous phase's outputs and never rebuilds them.
 | Q | Quranic Methodology Discovery Engine | ✅ complete | `generated/quranic_methodology/*.json` |
 | R | Text → Reality Discovery Engine | ✅ complete | `generated/reality/*.json` |
 | X | Epistemology Discovery Engine | ✅ complete | `generated/epistemology/*.json` |
+| P | Structural Predictivity / Held-Out Information Engine | ✅ complete — **NON_PREDICTIVE** | `generated/predictivity/*.json` |
+
+---
+
+## Phase P — Structural Predictivity / Held-Out Information Engine
+
+The first **generalization** test in the project. Every prior phase was descriptive on
+the full corpus; Phase P asks whether the discovered structure **predicts held-out
+Quranic content beyond lexical frequency** — the test that separates a genuine discovery
+from an elaborate redescription. Designed to optimize for truth, not for a positive
+result: leakage-free, frequency-controlled, with all decision thresholds **pre-registered**
+in code before running. Manifest split as agreed: `predictivity_manifest.json`
+deterministic + byte-identical, `run_metadata.json` volatile provenance.
+
+- 9 data products in `generated/predictivity/` + deterministic manifest + volatile
+  run_metadata. Task: **masked-unit completion** under whole-ayah holdout — mask a unit
+  (root primary; concept secondary), predict from the remaining context using
+  training-only statistics
+- Predictors: B0 frequency (smoothed unigram, context-blind) · B1 degree · S1 log-linear
+  PPMI co-occurrence (== B0 when evidence 0; identical min-rank tie convention) · S2
+  directional (ordered PPMI) · N frequency-preserving configuration null. Metrics: MRR,
+  Hits@k, perplexity, info-gain (bits). 4 regimes (random/contiguous/forward/length-strat),
+  3 mask fractions, K=30 null in **all** regimes
+- **VERDICT — `NON_PREDICTIVE`** (pre-registered ¬C1 ⇒ NON_PREDICTIVE):
+  - **Beats frequency? NO.** Root primary cell: MRR 0.087 < 0.099 (B0), Hits@10 0.182 <
+    0.199, **info-gain −3.316 bits** [boot CI −3.391,−3.242]. Structure **loses to
+    frequency in 0/7 regimes**; order (S2) worse; degree ≈ frequency
+  - **Beats the frequency null? YES.** Real S1 MRR ≈ 0.087 vs null ≈ 0.018 in every
+    regime — the co-occurrence is **real** (corroborates Phase-17 D1), just not useful
+  - **So:** the structure sits *between* the null and frequency — **more than random
+    co-occurrence, less than the unigram prior.** Real but not predictive
+  - **Concept level (secondary):** S1 beats B0 on *ranking* (MRR 0.316→0.370) but is
+    confounded by **membership circularity** (concepts are co-occurrence clusters) and an
+    **untested clustering** (Phase-11 ARI 0.22; the 0.9999 stability cosine is
+    near-tautological) — cannot reverse the verdict
+- **Recommendation (pre-registered negative-outcome policy): HALT further semantic/content
+  phases.** The surviving structure (D1) is real but carries no held-out predictive
+  advantage over frequency; Phases Q/R/X and any successor read as **frequency-mediated
+  descriptions**. The deflation arc 15→16→17→P has reached its evidential terminus. The
+  only warranted continuations are *harder tests of the representation itself* (a
+  syntactic/word-order null, or a genuinely different representation — phonological,
+  higher-order — under this same predictive bar), not more content
+- Builder: `scripts/build_predictivity.py`; Validator: `scripts/validate_predictivity.py`
+  (173 fast checks incl. leakage/fairness/pre-registration probes + byte-identical rebuild)
+- **Immutability notes:** spec's `robustness`/`falsification` deliverables written as
+  `predictivity-robustness-report.md` / `predictivity-falsification-report.md` (Phases
+  14/7 own the generic names). Reports: `prediction-task-report.md`,
+  `holdout-design-report.md`, `root-predictivity-report.md`, `concept-predictivity-report.md`,
+  `frequency-null-control-report.md`, `information-gain-report.md`,
+  `predictivity-robustness-report.md`, `predictivity-falsification-report.md`,
+  `phase-p-final-report.md`, plus `executive-summary.md`
+
+Predictivity verdict (honest terminus): **the structure Monad discovered is real but not
+predictive** — it beats a frequency-preserving null yet loses to lexical frequency on every
+pre-registered metric in all 7 regimes. There is no positive predictive discovery to
+strengthen; the project has reached its evidential limit under this representation.
 
 ---
 
@@ -993,12 +1050,19 @@ python3 scripts/build_semantics.py      && python3 scripts/validate_semantics.py
 python3 scripts/build_quranic_methodology.py && python3 scripts/validate_quranic_methodology.py --rebuild
 python3 scripts/build_reality.py        && python3 scripts/validate_reality.py        --rebuild
 python3 scripts/build_epistemology.py   && python3 scripts/validate_epistemology.py   --rebuild
+python3 scripts/build_predictivity.py   && python3 scripts/validate_predictivity.py   --rebuild
 ```
 
 ---
 
 ## Next
 
-No further phase is started by design. Open questions are recorded in
-`phase-sigma-final-report.md §10` and `phase-q-final-report.md`. Awaiting explicit
+No further phase is started by design. **Phase P (the predictivity test) returned
+`NON_PREDICTIVE` and recommends halting further semantic/content phases**: the surviving
+structure is real but carries no held-out predictive advantage over lexical frequency, so
+the project has reached its evidential terminus under the co-occurrence representation. The
+only scientifically-warranted continuations are harder tests of the representation itself —
+a syntactic/word-order-preserving null, or a genuinely different representation
+(phonological, higher-order) under Phase P's predictive bar — not additional content
+phases. See `phase-p-final-report.md` (Q5) and `executive-summary.md`. Awaiting explicit
 instruction.

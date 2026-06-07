@@ -1,0 +1,29 @@
+{
+ "method": "predictivity-discovery-1.0",
+ "negative_outcome_policy": "NON_PREDICTIVE/FREQUENCY_SHAPED are first-class results; no re-running with weaker baselines or tuned thresholds",
+ "order_vs_copresence": {
+  "order_adds_over_copresence": true,
+  "s1_info_gain_bits": -3.316399,
+  "s2_info_gain_bits": -3.267454
+ },
+ "pre_registered_criteria": {
+  "c1_beats_frequency": false,
+  "c2_beats_null": true,
+  "c3_not_degree": false,
+  "c4_min_effect": false,
+  "c5_stable_regimes": false,
+  "hits10_gain": -0.01678,
+  "regimes_passing": 0
+ },
+ "thresholds": {
+  "ALPHA": 0.5,
+  "BOOT": 1000,
+  "K_NULL": 30,
+  "LAMBDA": 1.0,
+  "MIN_BITS_GAIN": 0.05,
+  "MIN_HITS10_GAIN": 0.02,
+  "NULL_EVAL_CAP": 8000,
+  "SEED": 20260607
+ },
+ "verdict": "NON_PREDICTIVE"
+}

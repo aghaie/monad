@@ -1,0 +1,40 @@
+{
+ "concept_null_control_R1": {
+  "delta_mrr_real_minus_null": 0.086578,
+  "k_null": 30,
+  "n_sample": 8000,
+  "null_info_gain_bits": {
+   "ci_hi": -0.336839,
+   "ci_lo": -0.406718,
+   "max": -0.336839,
+   "mean": -0.375349,
+   "min": -0.406718
+  },
+  "null_mrr_struct": {
+   "ci_hi": 0.295992,
+   "ci_lo": 0.281315,
+   "max": 0.295992,
+   "mean": 0.288516,
+   "min": 0.281315
+  },
+  "null_ppl_struct": {
+   "ci_hi": 37.053528,
+   "ci_lo": 35.301542,
+   "max": 37.053528,
+   "mean": 36.259173,
+   "min": 35.301542
+  },
+  "real_beats_null_mrr": true,
+  "real_info_gain_bits": -0.047617,
+  "real_mrr_base": 0.318075,
+  "real_mrr_struct": 0.375094,
+  "real_ppl_struct": 28.888793
+ },
+ "interpretation_guard": "concept-level predictive results are conditioned on this stability and on the frozen-membership definitional caveat",
+ "method": "predictivity-discovery-1.0",
+ "stability": {
+  "mean_pairwise_cosine": 0.999928,
+  "min_pairwise_cosine": 0.99988,
+  "note": "frozen full-corpus memberships (variant 2a); per-fold re-clustering (2b) not performed — Phase-11 concept ARI=0.22 bounds concept-level trust"
+ }
+}

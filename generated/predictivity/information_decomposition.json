@@ -1,0 +1,19 @@
+{
+ "info_gain_bits": -3.316399,
+ "info_gain_boot_ci": [
+  -3.390549,
+  -3.242065
+ ],
+ "method": "predictivity-discovery-1.0",
+ "null_info_gain_band": {
+  "ci_hi": -3.525893,
+  "ci_lo": -3.684066,
+  "max": -3.525893,
+  "mean": -3.617431,
+  "min": -3.684066
+ },
+ "ppl_base": 353.57154,
+ "ppl_struct": 3522.191852,
+ "primary_cell": "root / R1_5fold / single-mask",
+ "real_minus_null_mrr": 0.068837
+}

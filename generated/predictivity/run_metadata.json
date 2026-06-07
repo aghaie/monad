@@ -1,0 +1,9 @@
+{
+ "build_timestamp_utc": "2026-06-07T07:13:13Z",
+ "git_commit": "d7f2de0f0cc46118c0f67614a4105f2b4da56964",
+ "method": "predictivity-discovery-1.0",
+ "note": "volatile provenance; intentionally EXCLUDED from byte-identical rebuild check",
+ "platform": "macOS-26.5-arm64-arm-64bit",
+ "python_version": "3.9.6",
+ "runtime_seconds": 1408.73
+}
