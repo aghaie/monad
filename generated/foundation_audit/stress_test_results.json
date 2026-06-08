@@ -1,0 +1,29 @@
+{
+ "core_survives_stress": true,
+ "finding": "under simultaneous representation + frequency-threshold perturbation, the information-theoretic core (large residual + coherence-beyond-null) SURVIVES",
+ "method": "foundation-audit-1.0",
+ "perturbations": [
+  "tokenization(root/lemma/word)",
+  "frequency threshold>=3"
+ ],
+ "results": [
+  {
+   "coherence_beyond_null": true,
+   "minfreq": 3,
+   "representation": "root",
+   "residual_fraction": 0.835512
+  },
+  {
+   "coherence_beyond_null": true,
+   "minfreq": 3,
+   "representation": "lemma",
+   "residual_fraction": 0.795955
+  },
+  {
+   "coherence_beyond_null": true,
+   "minfreq": 3,
+   "representation": "word",
+   "residual_fraction": 0.760552
+  }
+ ]
+}

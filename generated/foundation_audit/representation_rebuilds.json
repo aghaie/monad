@@ -1,0 +1,36 @@
+{
+ "method": "foundation-audit-1.0",
+ "note": "ayah/surah/sequence/positional spaces are different granularities; the comparable cross-representation rebuild is root/lemma/word, computed here",
+ "representations": {
+  "lemma": {
+   "V": 4832,
+   "coherence_beyond_null": true,
+   "coherence_null_p95": 1.731568,
+   "coherence_real": 2.235426,
+   "explained_by_frequency": 0.249029,
+   "frequency_gini": 0.832767,
+   "n_units_present": 66419,
+   "residual_fraction": 0.750971
+  },
+  "root": {
+   "V": 1642,
+   "coherence_beyond_null": true,
+   "coherence_null_p95": 1.316387,
+   "coherence_real": 1.766049,
+   "explained_by_frequency": 0.203918,
+   "frequency_gini": 0.798931,
+   "n_units_present": 44431,
+   "residual_fraction": 0.796082
+  },
+  "word": {
+   "V": 12204,
+   "coherence_beyond_null": true,
+   "coherence_null_p95": 1.824512,
+   "coherence_real": 2.17995,
+   "explained_by_frequency": 0.275571,
+   "frequency_gini": 0.827642,
+   "n_units_present": 108030,
+   "residual_fraction": 0.724429
+  }
+ }
+}

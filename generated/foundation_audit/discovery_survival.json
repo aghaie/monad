@@ -1,0 +1,79 @@
+{
+ "TYPE_A_artifact": [
+  "principles",
+  "decision_architecture",
+  "numerical_structure"
+ ],
+ "TYPE_B_weak": [
+  "consistency",
+  "motif_vocabulary",
+  "reality_sunan"
+ ],
+ "TYPE_C_strongly_representation_dependent": [
+  "concept_partition",
+  "proposition_graph",
+  "compression",
+  "identities",
+  "grammar",
+  "relational_semantics",
+  "world_model",
+  "methodology_epistemology"
+ ],
+ "TYPE_D_robust_invariant": [
+  "frequency_dominance",
+  "residual_80pct",
+  "non_predictivity",
+  "scale_invariance",
+  "coherence_beyond_null",
+  "lexical_freedom"
+ ],
+ "fraction_representation_dependent": 0.55,
+ "fraction_representation_invariant": 0.3,
+ "method": "foundation-audit-1.0",
+ "n_discoveries": 20,
+ "verdict": {
+  "Q1_survive_every_representation": [
+   "frequency_dominance",
+   "residual_80pct",
+   "non_predictivity",
+   "scale_invariance",
+   "coherence_beyond_null",
+   "lexical_freedom"
+  ],
+  "Q2_artifacts_of_original_representation": [
+   "principles",
+   "decision_architecture",
+   "numerical_structure",
+   "concept_partition",
+   "proposition_graph",
+   "compression",
+   "identities",
+   "grammar",
+   "relational_semantics",
+   "world_model",
+   "methodology_epistemology"
+  ],
+  "Q3_dependence_on_phase_2_4_assumptions": "HIGH — the entire conceptual edifice (concepts, propositions, compression, identities, principles, grammar, semantics, world-model, methodology, decision architecture) depends on Phase 2–4 assumptions A1–A4; 11 of 20 discoveries are strongly representation-dependent or artifacts",
+  "Q4_if_phases_2_4_wrong_what_remains": [
+   "frequency_dominance",
+   "residual_80pct",
+   "non_predictivity",
+   "scale_invariance",
+   "coherence_beyond_null",
+   "lexical_freedom"
+  ],
+  "Q5_strongest_representation_invariant_finding": "the ~80% lexical residual / non-predictivity of structure beyond frequency — it holds at root, lemma, and word (residual {\"root\": 0.796082, \"lemma\": 0.750971, \"word\": 0.724429}) and survives every frequency null",
+  "Q6_basis": "a stable core exists but it is SMALL and information-theoretic (frequency dominance, ~80%% residual, non-predictivity, scale-invariance, coherence beyond null) — NOT the conceptual edifice, which is representation-dependent",
+  "Q6_stable_core_independent_of_assumptions": "PARTIAL",
+  "Q7_percentage_surviving_collapse": "~30% of major discoveries are representation-invariant (6/20, the information-theoretic core); ~55% are representation-dependent (the conceptual edifice)",
+  "Q8_minimal_trusted_set": [
+   "frequency / Zipfian dominance (any tokenization)",
+   "~80% lexical-referential residual (representation-invariant: root/lemma/word)",
+   "non-predictivity of structure beyond frequency (Phase P)",
+   "scale-invariance / spatial homogeneity (content-intrinsic)",
+   "existence of real co-occurrence coherence beyond the frequency null (the EXISTENCE, not the specific concept/proposition graph)"
+  ],
+  "method": "foundation-audit-1.0",
+  "stable_core_confirmed": true
+ }
+}

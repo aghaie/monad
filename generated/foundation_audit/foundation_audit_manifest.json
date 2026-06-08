@@ -1,0 +1,45 @@
+{
+ "constants": {
+  "K_NULL": 30,
+  "MINFREQ_STRESS": 3,
+  "SEED": 20260608
+ },
+ "input_sha256": {
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "foundation-audit-1.0",
+ "output_bytes": {
+  "assumption_inventory.json": 1126,
+  "assumption_removal_results.json": 1550,
+  "collapse_analysis.json": 584,
+  "discovery_dependency_graph.json": 6360,
+  "discovery_survival.json": 2998,
+  "invariant_discoveries.json": 649,
+  "representation_agreement.json": 625,
+  "representation_rebuilds.json": 1010,
+  "stress_test_results.json": 704
+ },
+ "prohibitions_observed": [
+  "nothing protected",
+  "no concept/cluster/proposition/motif/identity/principle is privileged",
+  "every discovery must re-earn survival",
+  "no representation privileged",
+  "success = what survives the collapse of the original worldview",
+  "not confirming prior discoveries",
+  "not protecting prior discoveries",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "core_survives_stress": true,
+  "fraction_representation_dependent": 0.55,
+  "fraction_representation_invariant": 0.3,
+  "n_invariant_discoveries": 6,
+  "representation_agreement": "3/3",
+  "residual_by_rep": {
+   "lemma": 0.750971,
+   "root": 0.796082,
+   "word": 0.724429
+  },
+  "stable_core": "PARTIAL"
+ }
+}

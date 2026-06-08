@@ -1,0 +1,64 @@
+{
+ "assumptions": [
+  {
+   "assumption": "roots are the meaningful unit of analysis",
+   "id": "A1",
+   "phases": [
+    "2",
+    "3",
+    "4",
+    "all"
+   ],
+   "removable_test": "rebuild at lemma/word level"
+  },
+  {
+   "assumption": "semantic similarity (PPMI co-occurrence) captures structure",
+   "id": "A2",
+   "phases": [
+    "2",
+    "3"
+   ],
+   "removable_test": "compare to frequency-only / null"
+  },
+  {
+   "assumption": "clustering boundaries (concepts) are meaningful, not arbitrary",
+   "id": "A3",
+   "phases": [
+    "3",
+    "5",
+    "6",
+    "7",
+    "8",
+    "Σ",
+    "Ω",
+    "Q",
+    "X",
+    "Δ"
+   ],
+   "removable_test": "Phase 11 cross-method ARI"
+  },
+  {
+   "assumption": "proposition edges reflect real relations",
+   "id": "A4",
+   "phases": [
+    "4",
+    "5",
+    "8",
+    "9",
+    "10",
+    "12"
+   ],
+   "removable_test": "Phase 17 frequency null"
+  },
+  {
+   "assumption": "the graph representation is the appropriate model",
+   "id": "A5",
+   "phases": [
+    "4-Δ"
+   ],
+   "removable_test": "Phase P held-out prediction"
+  }
+ ],
+ "method": "foundation-audit-1.0",
+ "n_assumptions": 5
+}

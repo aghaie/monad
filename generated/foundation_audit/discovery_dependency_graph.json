@@ -1,0 +1,286 @@
+{
+ "dependency_edges": [
+  {
+   "depends_on_assumption": "A1",
+   "discovery": "residual_80pct"
+  },
+  {
+   "depends_on_assumption": "A4",
+   "discovery": "non_predictivity"
+  },
+  {
+   "depends_on_assumption": "A5",
+   "discovery": "non_predictivity"
+  },
+  {
+   "depends_on_assumption": "A2",
+   "discovery": "coherence_beyond_null"
+  },
+  {
+   "depends_on_assumption": "A4",
+   "discovery": "consistency"
+  },
+  {
+   "depends_on_assumption": "A4",
+   "discovery": "motif_vocabulary"
+  },
+  {
+   "depends_on_assumption": "A1",
+   "discovery": "concept_partition"
+  },
+  {
+   "depends_on_assumption": "A2",
+   "discovery": "concept_partition"
+  },
+  {
+   "depends_on_assumption": "A3",
+   "discovery": "concept_partition"
+  },
+  {
+   "depends_on_assumption": "A3",
+   "discovery": "proposition_graph"
+  },
+  {
+   "depends_on_assumption": "A4",
+   "discovery": "proposition_graph"
+  },
+  {
+   "depends_on_assumption": "A3",
+   "discovery": "compression"
+  },
+  {
+   "depends_on_assumption": "A4",
+   "discovery": "compression"
+  },
+  {
+   "depends_on_assumption": "A3",
+   "discovery": "identities"
+  },
+  {
+   "depends_on_assumption": "A3",
+   "discovery": "principles"
+  },
+  {
+   "depends_on_assumption": "A4",
+   "discovery": "principles"
+  },
+  {
+   "depends_on_assumption": "A4",
+   "discovery": "grammar"
+  },
+  {
+   "depends_on_assumption": "A3",
+   "discovery": "relational_semantics"
+  },
+  {
+   "depends_on_assumption": "A3",
+   "discovery": "world_model"
+  },
+  {
+   "depends_on_assumption": "A1",
+   "discovery": "methodology_epistemology"
+  },
+  {
+   "depends_on_assumption": "A1",
+   "discovery": "reality_sunan"
+  },
+  {
+   "depends_on_assumption": "A1",
+   "discovery": "decision_architecture"
+  },
+  {
+   "depends_on_assumption": "A4",
+   "discovery": "decision_architecture"
+  },
+  {
+   "depends_on_assumption": "A1",
+   "discovery": "lexical_freedom"
+  }
+ ],
+ "discoveries": [
+  {
+   "depends_on": [],
+   "evidence": "hub = lexical frequency; measured at every representation here",
+   "id": "frequency_dominance",
+   "phase": "16",
+   "type": "TYPE_D_robust"
+  },
+  {
+   "depends_on": [
+    "A1"
+   ],
+   "evidence": "Phase Ψ: residual 79.6/75.1/72.4% at root/lemma/word — representation-invariant",
+   "id": "residual_80pct",
+   "phase": "Ω(B)/Ψ",
+   "type": "TYPE_D_robust"
+  },
+  {
+   "depends_on": [
+    "A4",
+    "A5"
+   ],
+   "evidence": "structure does not beat frequency held-out at root OR concept level",
+   "id": "non_predictivity",
+   "phase": "P",
+   "type": "TYPE_D_robust"
+  },
+  {
+   "depends_on": [],
+   "evidence": "present from 1% of ayahs under any order — content-intrinsic, sampling property",
+   "id": "scale_invariance",
+   "phase": "13/14",
+   "type": "TYPE_D_robust"
+  },
+  {
+   "depends_on": [
+    "A2"
+   ],
+   "evidence": "real co-occurrence beyond the frequency null — measured at every representation here",
+   "id": "coherence_beyond_null",
+   "phase": "17",
+   "type": "TYPE_D_robust"
+  },
+  {
+   "depends_on": [
+    "A4"
+   ],
+   "evidence": "robust as a fact but generic/tautological (Phase 15) — survives but is trivial",
+   "id": "consistency",
+   "phase": "10/15",
+   "type": "TYPE_B_weak"
+  },
+  {
+   "depends_on": [
+    "A4"
+   ],
+   "evidence": "13 classes robust under noise (Phase 11) but only 3/13 beat the frequency null (Phase 17)",
+   "id": "motif_vocabulary",
+   "phase": "9",
+   "type": "TYPE_B_weak"
+  },
+  {
+   "depends_on": [
+    "A1",
+    "A2",
+    "A3"
+   ],
+   "evidence": "Phase 11: cross-method ARI 0.22 — the exact partition is method-relative",
+   "id": "concept_partition",
+   "phase": "3",
+   "type": "TYPE_C_strong"
+  },
+  {
+   "depends_on": [
+    "A3",
+    "A4"
+   ],
+   "evidence": "built on the concept partition; 35% structure / 65% frequency (Phase 17)",
+   "id": "proposition_graph",
+   "phase": "4",
+   "type": "TYPE_C_strong"
+  },
+  {
+   "depends_on": [
+    "A3",
+    "A4"
+   ],
+   "evidence": "built on the proposition graph (method-relative)",
+   "id": "compression",
+   "phase": "5",
+   "type": "TYPE_C_strong"
+  },
+  {
+   "depends_on": [
+    "A3"
+   ],
+   "evidence": "anchors moderate (top-10 Jaccard 0.92) but counts/verdicts concept-relative; 69% = most-frequent root (Phase 17)",
+   "id": "identities",
+   "phase": "7",
+   "type": "TYPE_C_strong"
+  },
+  {
+   "depends_on": [
+    "A3",
+    "A4"
+   ],
+   "evidence": "0/16 survived self-containment (Phase 8); 16-principle decomposition method-relative (Phase 11)",
+   "id": "principles",
+   "phase": "8",
+   "type": "TYPE_A_artifact"
+  },
+  {
+   "depends_on": [
+    "A4"
+   ],
+   "evidence": "built on the proposition graph; generates local motifs only, not the hub",
+   "id": "grammar",
+   "phase": "12",
+   "type": "TYPE_C_strong"
+  },
+  {
+   "depends_on": [
+    "A3"
+   ],
+   "evidence": "relational not referential; concept-network-dependent",
+   "id": "relational_semantics",
+   "phase": "Σ",
+   "type": "TYPE_C_strong"
+  },
+  {
+   "depends_on": [
+    "A3"
+   ],
+   "evidence": "structural state-transition system over concepts; semantic layer never emerged",
+   "id": "world_model",
+   "phase": "Ω",
+   "type": "TYPE_C_strong"
+  },
+  {
+   "depends_on": [
+    "A1"
+   ],
+   "evidence": "vocabulary+directed-graph dependent; directionality collapsed under controls (Phase Z)",
+   "id": "methodology_epistemology",
+   "phase": "Q/X",
+   "type": "TYPE_C_strong"
+  },
+  {
+   "depends_on": [
+    "A1"
+   ],
+   "evidence": "deed→recompense survived internal falsification but is vocabulary-based and internal-only",
+   "id": "reality_sunan",
+   "phase": "R",
+   "type": "TYPE_B_weak"
+  },
+  {
+   "depends_on": [
+    "A1",
+    "A4"
+   ],
+   "evidence": "no coherent architecture; 91% of edges are frequency artifacts (Phase Δ)",
+   "id": "decision_architecture",
+   "phase": "Δ",
+   "type": "TYPE_A_artifact"
+  },
+  {
+   "depends_on": [],
+   "evidence": "no significant numerical structure beyond chance after multiple-testing (Phase 19X)",
+   "id": "numerical_structure",
+   "phase": "19X",
+   "type": "TYPE_A_artifact"
+  },
+  {
+   "depends_on": [
+    "A1"
+   ],
+   "evidence": "choices typical within an astronomically large space — an information-theoretic fact",
+   "id": "lexical_freedom",
+   "phase": "Φ",
+   "type": "TYPE_D_robust"
+  }
+ ],
+ "method": "foundation-audit-1.0",
+ "n_discoveries": 20,
+ "note": "almost every discovery depends on A1 (roots) and/or A3 (concept clustering)"
+}

@@ -1,0 +1,19 @@
+{
+ "invariant_discoveries": [
+  "frequency_dominance",
+  "residual_80pct",
+  "non_predictivity",
+  "scale_invariance",
+  "coherence_beyond_null",
+  "lexical_freedom"
+ ],
+ "method": "foundation-audit-1.0",
+ "minimal_trusted_set": [
+  "frequency / Zipfian dominance (any tokenization)",
+  "~80% lexical-referential residual (representation-invariant: root/lemma/word)",
+  "non-predictivity of structure beyond frequency (Phase P)",
+  "scale-invariance / spatial homogeneity (content-intrinsic)",
+  "existence of real co-occurrence coherence beyond the frequency null (the EXISTENCE, not the specific concept/proposition graph)"
+ ],
+ "n_invariant": 6
+}

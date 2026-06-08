@@ -1,0 +1,26 @@
+{
+ "explained_by_rep": {
+  "lemma": 0.249029,
+  "root": 0.203918,
+  "word": 0.275571
+ },
+ "finding": "3/3 information-theoretic invariants hold across root/lemma/word: frequency-skew, large-residual, and coherence-beyond-null are representation-invariant",
+ "gini_by_rep": {
+  "lemma": 0.832767,
+  "root": 0.798931,
+  "word": 0.827642
+ },
+ "invariant_checks": {
+  "coherence_beyond_null": true,
+  "frequency_skew_high (Gini>0.6)": true,
+  "large_residual (>0.5)": true
+ },
+ "method": "foundation-audit-1.0",
+ "n_agree": 3,
+ "n_checks": 3,
+ "residual_by_rep": {
+  "lemma": 0.750971,
+  "root": 0.796082,
+  "word": 0.724429
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "TYPE_A_artifact": [
+  "principles",
+  "decision_architecture",
+  "numerical_structure"
+ ],
+ "TYPE_B_weak": [
+  "consistency",
+  "motif_vocabulary",
+  "reality_sunan"
+ ],
+ "TYPE_C_strongly_representation_dependent": [
+  "concept_partition",
+  "proposition_graph",
+  "compression",
+  "identities",
+  "grammar",
+  "relational_semantics",
+  "world_model",
+  "methodology_epistemology"
+ ],
+ "TYPE_D_robust": [
+  "frequency_dominance",
+  "residual_80pct",
+  "non_predictivity",
+  "scale_invariance",
+  "coherence_beyond_null",
+  "lexical_freedom"
+ ],
+ "method": "foundation-audit-1.0"
+}

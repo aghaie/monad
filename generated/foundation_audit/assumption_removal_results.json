@@ -1,0 +1,31 @@
+{
+ "finding": "removing A3 (concept clustering) collapses the entire conceptual edifice; the information-theoretic core survives removal of all five",
+ "method": "foundation-audit-1.0",
+ "removals": [
+  {
+   "assumption": "A1",
+   "on_removal": "rebuild at lemma/word: information-theoretic invariants HOLD (residual, coherence); vocabulary-based findings (methodology, reality, decision) shift",
+   "statement": "roots are the meaningful unit of analysis"
+  },
+  {
+   "assumption": "A2",
+   "on_removal": "remove semantic-similarity: concepts cannot form — concept partition and everything downstream collapses; coherence-beyond-null still measurable directly",
+   "statement": "semantic similarity (PPMI co-occurrence) captures structure"
+  },
+  {
+   "assumption": "A3",
+   "on_removal": "remove concept-clustering-is-meaningful: concepts/identities/principles/semantics/world-model/methodology become method-relative (Phase 11 ARI 0.22) — STRONG collapse",
+   "statement": "clustering boundaries (concepts) are meaningful, not arbitrary"
+  },
+  {
+   "assumption": "A4",
+   "on_removal": "remove proposition-edges-are-real: 65% is frequency (Phase 17); motifs 3/13 survive; grammar/compression/consistency-significance weaken",
+   "statement": "proposition edges reflect real relations"
+  },
+  {
+   "assumption": "A5",
+   "on_removal": "remove graph-is-appropriate: held-out prediction fails (Phase P) — the graph has no generalizable information beyond frequency",
+   "statement": "the graph representation is the appropriate model"
+  }
+ ]
+}

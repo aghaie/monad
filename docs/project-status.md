@@ -1,8 +1,9 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-08. **Current phase complete:** Phase Δ (Quranic Decision
-Architecture) — **no coherent decision architecture (NO); 3/45 components survive; strongest
-= conditional→choice**. **Next phase:** none — awaiting explicit instruction.
+**Last updated:** 2026-06-08. **Current phase complete:** Phase Ξ (Foundation Audit &
+Representation Collapse) — **stable core PARTIAL; ~30% of discoveries representation-invariant
+(the information-theoretic core); the conceptual edifice does not survive**. **Next phase:**
+none — awaiting explicit instruction.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -43,6 +44,45 @@ phase reads the previous phase's outputs and never rebuilds them.
 | Ψ | Residual Nature Discovery | ✅ complete — **residual = lexical-referential specificity** | `generated/residual_nature/*.json` |
 | Φ | Counterfactual Quran Discovery | ✅ complete — **TYPE_B weakly-constrained free selection** | `generated/counterfactual/*.json` |
 | Δ | Quranic Decision Architecture | ✅ complete — **no coherent architecture; 3/45 survive** | `generated/decision_architecture/*.json` |
+| Ξ | Foundation Audit & Representation Collapse | ✅ complete — **stable core PARTIAL; ~30% invariant** | `generated/foundation_audit/*.json` |
+
+---
+
+## Phase Ξ — Foundation Audit & Representation Collapse Engine
+
+The project audits **its own foundations**: if the root→similarity→concept→proposition chain (Phases 2–4)
+is wrong, what survives? **Nothing protected** — every discovery must re-earn survival across alternative
+representations (root/lemma/word) and prior controls. Success = identify what remains true when the
+original representation is removed, NOT confirm/protect prior work.
+
+- 9 data products + manifest. 5 explicit assumptions (A1 roots · A2 similarity · A3 clustering · A4 edges
+  · A5 graph); 3 information-theoretic invariants **measured** at root/lemma/word; 20 major discoveries
+  classified by representation-dependence (TYPE_A/B/C/D); combined stress test
+- **RESULT — most of Monad is representation-dependent; a small core survives:**
+  - **3/3 invariants agree** across root/lemma/word: frequency skew (Gini 0.80/0.83/0.83), large residual
+    (0.796/0.751/0.724), coherence-beyond-null (all levels) — measured, not asserted
+  - **6/20 discoveries (30%) representation-invariant (TYPE_D):** frequency dominance, ~80% residual,
+    non-predictivity, scale-invariance, coherence-beyond-null, lexical freedom — all **information-theoretic**
+  - **11/20 (55%) representation-dependent or artifact:** the entire **conceptual edifice** (concepts,
+    propositions, compression, identities, grammar, semantics, world-model, methodology — TYPE_C, 8) +
+    failed/deflated phases (principles, decision architecture, numerical structure — TYPE_A, 3)
+  - the load-bearing assumption is **A3 (concept clustering)** — method-relative (Phase 11 ARI 0.22);
+    removing it collapses the conceptual canopy. The core survives removal of all five + combined stress
+  - **Q-answers:** Q1 6 invariants · Q2 conceptual edifice + failed phases · Q3 HIGH dependence on 2–4 ·
+    Q4 the 6 info-theoretic findings · Q5 **the ~80% residual / non-predictivity** (strongest invariant) ·
+    Q6 stable core **PARTIAL** · Q7 ~30% survive / ~55% dependent · Q8 minimal trusted set = {frequency,
+    ~80% residual, non-predictivity, scale-invariance, coherence-beyond-null}
+- Builder: `scripts/build_foundation_audit.py`; Validator: `scripts/validate_foundation_audit.py` (57
+  checks, byte-identical rebuild). Reports: `dependency-map-report.md`, `assumption-inventory-report.md`,
+  `assumption-removal-report.md`, `representation-rebuild-report.md`, `representation-agreement-report.md`,
+  `discovery-survival-report.md`, `invariant-discoveries-report.md`, `collapse-analysis-report.md`,
+  `stress-test-report.md`, `phase-xi-final-report.md`
+
+Foundation-audit verdict: the project's trustworthy residue is **small and information-theoretic** — when
+Monad's own assumptions are removed, ~30% of discoveries survive (frequency dominance, the ~80% irreducible
+residual, non-predictivity, scale-invariance, real-coherence-beyond-null), and the conceptual edifice (the
+majority of the phases) does **not**. The audit confirms from the inside what the frequency-null arc
+(15→16→17→P→Ω(B)→Ψ→Φ) already showed: the durable findings are the deflationary ones.
 
 ---
 
@@ -1313,6 +1353,7 @@ python3 scripts/build_explanation_boundary.py && python3 scripts/validate_explan
 python3 scripts/build_residual_nature.py && python3 scripts/validate_residual_nature.py --rebuild
 python3 scripts/build_counterfactual.py && python3 scripts/validate_counterfactual.py --rebuild
 python3 scripts/build_decision_architecture.py && python3 scripts/validate_decision_architecture.py --rebuild
+python3 scripts/build_foundation_audit.py && python3 scripts/validate_foundation_audit.py --rebuild
 ```
 
 ---
