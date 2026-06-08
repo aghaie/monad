@@ -1,0 +1,28 @@
+{
+ "finding": "residual fraction: root 79.6%, lemma 75.1%, word 72.4% — the large residual persists across representations, so it is NOT a root-space artifact",
+ "levels": {
+  "lemma": {
+   "V": 4832,
+   "explained_by_frequency": 0.249029,
+   "nll_frequency_bits": 9.190683,
+   "nll_uniform_bits": 12.238405,
+   "residual_fraction": 0.750971
+  },
+  "root": {
+   "V": 1642,
+   "explained_by_frequency": 0.203918,
+   "nll_frequency_bits": 8.503144,
+   "nll_uniform_bits": 10.681238,
+   "residual_fraction": 0.796082
+  },
+  "word": {
+   "V": 12204,
+   "explained_by_frequency": 0.275571,
+   "nll_frequency_bits": 9.834171,
+   "nll_uniform_bits": 13.575066,
+   "residual_fraction": 0.724429
+  }
+ },
+ "method": "residual-nature-1.0",
+ "residual_survives_representation_change": true
+}

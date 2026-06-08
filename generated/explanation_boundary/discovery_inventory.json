@@ -1,0 +1,78 @@
+{
+ "discoveries": [
+  {
+   "definition": "one dominant hub concept (CONCEPT_007)",
+   "id": "D_hub",
+   "note": "Phase 16: reduces to lexical frequency",
+   "scope": "global",
+   "stability": "strong",
+   "strength": "rank-1 in 1500/1500 resamples"
+  },
+  {
+   "definition": "internal consistency (0 surviving contradictions)",
+   "id": "D_consistency",
+   "note": "Phase 15/17: generic + partly tautological",
+   "scope": "global",
+   "stability": "strong",
+   "strength": "index 0.955"
+  },
+  {
+   "definition": "small motif vocabulary (5 patterns cover 80% of triads)",
+   "id": "D_motifs",
+   "note": "Phase 9; 3/13 survive frequency null (Phase 17)",
+   "scope": "local",
+   "stability": "strong",
+   "strength": "13 triad classes"
+  },
+  {
+   "definition": "concept co-occurrence / proposition network",
+   "id": "D_proposition_net",
+   "note": "Phase 17: the STRONGEST genuine non-frequency structure",
+   "scope": "global",
+   "stability": "strong",
+   "strength": "74.7% structure, 3.9x frequency null"
+  },
+  {
+   "definition": "strongly-connected relational core",
+   "id": "D_scc_core",
+   "scope": "global",
+   "stability": "moderate",
+   "strength": "72.2% structure, 3.6x null"
+  },
+  {
+   "definition": "scale-invariant, spatially homogeneous structure",
+   "id": "D_scale_invariance",
+   "note": "Phases 13/14",
+   "scope": "global",
+   "stability": "strong",
+   "strength": "present from 1% of ayahs"
+  },
+  {
+   "definition": "local generative grammar (reciprocal attachment)",
+   "id": "D_grammar",
+   "note": "Phase 12; does not generate the hub or consistency",
+   "scope": "local",
+   "stability": "moderate",
+   "strength": "triad cosine 0.905"
+  },
+  {
+   "definition": "relational (not referential) semantic layer",
+   "id": "D_relational_semantics",
+   "note": "Phase Sigma: referential meaning never emerged",
+   "scope": "global",
+   "stability": "moderate",
+   "strength": "77 recoverable, anchors != frequency"
+  },
+  {
+   "definition": "structure is NON-PREDICTIVE beyond frequency (held-out)",
+   "id": "D_nonpredictive",
+   "note": "Phase P — the binding generalization limit",
+   "scope": "global",
+   "stability": "strong",
+   "strength": "info-gain -3.32 bits, 0/7 regimes"
+  }
+ ],
+ "method": "explanation-boundary-1.0",
+ "n_stable_discoveries": 9,
+ "note": "Phase-11+ survivors; the binding limit is D_nonpredictive (Phase P)"
+}

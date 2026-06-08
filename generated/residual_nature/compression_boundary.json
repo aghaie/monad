@@ -1,0 +1,7 @@
+{
+ "best_compressor": "per-surah (topical) frequency",
+ "finding": "the residual is 0.0% compressible (by surah-topical frequency) and 100.0% incompressible (irreducible lexical specificity) — largely incompressible",
+ "method": "residual-nature-1.0",
+ "residual_compressible_fraction": 0.0,
+ "residual_incompressible_fraction": 1.0
+}

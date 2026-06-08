@@ -1,0 +1,10 @@
+{
+ "carrier": "lexical",
+ "destroy_structure_preserve_lexical": "residual PRESERVED (it is the per-ayah root multiset)",
+ "finding": "the residual is carried by LEXICAL identity (8.50 bits/root) not by structure (generalizable structural information = 0; in-sample association 1.721 bits is real but non-predictive, Phase P). The residual is REFERENTIAL/LEXICAL.",
+ "lexical_information_bits_per_root": 8.503144,
+ "method": "residual-nature-1.0",
+ "randomize_lexical_preserve_structure": "residual COLLAPSES (identity carries the information)",
+ "structural_association_signal_bits": 1.720895,
+ "structural_generalizable_information_bits": 0.0
+}

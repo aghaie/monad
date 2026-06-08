@@ -1,0 +1,9 @@
+{
+ "basis": "Phase P: out-of-sample, co-occurrence (and higher-order motif/grammar) do not beat frequency. So better modeling of THIS representation yields ~0 generalizable gain; the residual is DATA/representation-limited, not model-limited",
+ "data_limited_residual_fraction": 0.796082,
+ "finding": "a 10x-better model would only add in-sample fit (overfitting); the generalizable residual (79.6%) is DATA/REPRESENTATION-limited — more modeling of the co-occurrence representation will not reduce it",
+ "generalizable_gain_from_better_models": 0.0,
+ "if_model_10x_better_insample_gain": -0.563902,
+ "method": "explanation-boundary-1.0",
+ "model_limited_residual_fraction": 0.0
+}

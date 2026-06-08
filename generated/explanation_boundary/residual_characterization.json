@@ -1,0 +1,13 @@
+{
+ "characterization": "the post-frequency residual is NOT random: co-present roots carry positive mean PPMI (1.731 bits) — real co-occurrence structure — but this structure does not predict held-out content (Phase P). The residual is STRUCTURED-BUT-UNEXPLAINABLE by the discovered models.",
+ "method": "explanation-boundary-1.0",
+ "null_attack": {
+  "finding": "the residual co-occurrence signal (1.731 bits) exceeds the frequency-null 95th percentile (1.283) — the residual is genuine real co-occurrence beyond frequency, but (Phase P) still non-predictive",
+  "k_null": 50,
+  "method": "explanation-boundary-1.0",
+  "null_residual_ppmi_mean": 1.25629,
+  "null_residual_ppmi_p95": 1.282531,
+  "real_residual_ppmi_bits": 1.731019,
+  "residual_structure_survives_null": true
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "budget": {
+  "nll_global_frequency_bits": 8.503144,
+  "nll_surah_topical_bits": 8.922561,
+  "nll_uniform_bits": 10.681238,
+  "of_residual_explained_by_surah_topical": 0.0,
+  "of_residual_higher_order": 0.0,
+  "of_residual_irreducible_lexical": 1.0,
+  "of_residual_long_range": 0.0,
+  "of_residual_structural_generalizable": 0.0,
+  "residual_after_global_freq_bits": 8.503144,
+  "residual_fraction_of_uniform": 0.796082,
+  "surah_topical_compresses_residual": false,
+  "surah_topical_gain_bits": -0.419418
+ },
+ "finding": "the ~80% residual does NOT compress to surah-topic (surah conditioning is 0.42 bits WORSE than global frequency) — it is ~100% irreducible lexical specificity at the per-ayah level; a faint real topical signal exists (beats the surah-shuffle null) but is lexical and sub-compressing",
+ "method": "residual-nature-1.0",
+ "sources": {
+  "higher_order": "3+-way interactions — see combinatorial_results",
+  "irreducible_lexical": "the specific root identity not predictable from any frequency",
+  "long_range": "cross-ayah distance recurrence — see long_range_results",
+  "structural_generalizable": "co-occurrence/motif/grammar — 0 out-of-sample (Phase P)",
+  "surah_topical_signal": "real (beats shuffle null) but does not compress the residual"
+ },
+ "surah_topical_signal_note": "per-surah conditioning is WORSE than global frequency (gain -0.419 bits) — sparse per-surah marginals over 1642 roots cannot beat the better-estimated global frequency; so the residual does NOT compress to surah-topic. A real topical signal still exists (real beats the surah-shuffle null, see null_assault), but it is LEXICAL and sub-compressing"
+}

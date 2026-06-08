@@ -1,0 +1,45 @@
+{
+ "constants": {
+  "ALPHA": 0.5,
+  "K_NULL": 50,
+  "SAMPLE": 12000,
+  "SEED": 20260608
+ },
+ "input_sha256": {
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "explanation-boundary-1.0",
+ "output_bytes": {
+  "discovery_inventory.json": 2368,
+  "explanation_frontier.json": 1464,
+  "explanatory_power.json": 1120,
+  "future_knowledge.json": 682,
+  "maximum_model.json": 658,
+  "null_attack.json": 424,
+  "redundancy.json": 927,
+  "residual_characterization.json": 785,
+  "residual_structure.json": 616
+ },
+ "prohibitions_observed": [
+  "no proof of divinity",
+  "no disproof of divinity",
+  "no tafsir",
+  "no kalam",
+  "no philosophy",
+  "no mysticism",
+  "no guessing",
+  "no gap-filling with interpretation",
+  "measurement only",
+  "write 'we do not know' where the model stops",
+  "in-sample explanation that fails to generalize is reported as overfitting",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "data_limited_residual": 0.796082,
+  "explained_fraction": 0.203918,
+  "frontier_saturated": "YES",
+  "residual_stronger_than_nulls": "PARTIAL",
+  "residual_survives_null": true,
+  "unexplained_fraction": 0.796082
+ }
+}

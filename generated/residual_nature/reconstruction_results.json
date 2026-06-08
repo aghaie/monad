@@ -1,0 +1,10 @@
+{
+ "finding": "IN-SAMPLE, structure-only reconstruction Hits@10 = 0.280 exceeds frequency 0.206 (the same words recur, so in-sample they are 'recoverable') — BUT this is OVERFITTING: out-of-sample (Phase P) structure does not beat frequency. The residual is NOT generalizably recoverable from structure; it is irreducible specificity",
+ "frequency_hits_at_10": 0.2065,
+ "method": "residual-nature-1.0",
+ "n_sampled": 10000,
+ "out_of_sample_basis": "Phase P: held-out, co-occurrence structure does NOT beat frequency (info-gain -3.32 bits, 0/7 regimes) — in-sample recovery is overfitting",
+ "recoverable_insample": true,
+ "recoverable_out_of_sample": false,
+ "structure_only_hits_at_10_INSAMPLE": 0.2802
+}

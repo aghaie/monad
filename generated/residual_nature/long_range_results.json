@@ -1,0 +1,55 @@
+{
+ "base_density": 0.004355,
+ "finding": "root recurrence-lift is 27.8x at distance 1, decays to ~18.3x by distance 25, and stays ~20.9x at distance 100 (global 16.0x) — lift does NOT increase with distance, but substantial LEXICAL recurrence persists long-range. This is characteristic-vocabulary repetition (lexical cohesion), not an increasing structural long-range dependency",
+ "long_range_increases_with_distance": false,
+ "long_range_recurrence_present": true,
+ "method": "residual-nature-1.0",
+ "recurrence_profile": [
+  {
+   "distance": 1,
+   "n_observations": 43583,
+   "p_recur": 0.121194,
+   "recurrence_lift": 27.831691
+  },
+  {
+   "distance": 2,
+   "n_observations": 42852,
+   "p_recur": 0.103682,
+   "recurrence_lift": 23.810227
+  },
+  {
+   "distance": 5,
+   "n_observations": 40768,
+   "p_recur": 0.088599,
+   "recurrence_lift": 20.346356
+  },
+  {
+   "distance": 10,
+   "n_observations": 37648,
+   "p_recur": 0.084015,
+   "recurrence_lift": 19.293703
+  },
+  {
+   "distance": 25,
+   "n_observations": 29654,
+   "p_recur": 0.079719,
+   "recurrence_lift": 18.307224
+  },
+  {
+   "distance": 50,
+   "n_observations": 19489,
+   "p_recur": 0.08492,
+   "recurrence_lift": 19.501443
+  },
+  {
+   "distance": 100,
+   "n_observations": 7641,
+   "p_recur": 0.090957,
+   "recurrence_lift": 20.88781
+  },
+  {
+   "distance": "global",
+   "recurrence_lift": 16.000349
+  }
+ ]
+}

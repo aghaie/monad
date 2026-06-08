@@ -1,0 +1,10 @@
+{
+ "finding": "surah-topical specificity (-0.419 bits) exceeds the surah-shuffle null p95 (-0.782) — the topical component is REAL; long-range structure collapses",
+ "k_null": 50,
+ "long_range_collapses": true,
+ "method": "residual-nature-1.0",
+ "null_surah_topical_gain_mean": -0.793427,
+ "null_surah_topical_gain_p95": -0.782325,
+ "real_surah_topical_gain_bits": -0.419418,
+ "surah_topical_survives_null": true
+}

@@ -1,0 +1,32 @@
+{
+ "candidate_types": [
+  "TYPE_001_random",
+  "TYPE_002_lexical",
+  "TYPE_003_referential",
+  "TYPE_004_structural",
+  "TYPE_005_higher_order",
+  "TYPE_006_mixed",
+  "TYPE_007_unknown"
+ ],
+ "method": "residual-nature-1.0",
+ "taxonomy": "TYPE_003_referential",
+ "verdict": {
+  "Q1_residual_composition": {
+   "higher_order": 0.0,
+   "irreducible_lexical_specificity": 1.0,
+   "long_range": 0.0,
+   "structural_generalizable": 0.0,
+   "surah_topical_discourse_frequency": 0.0
+  },
+  "Q2_dominant_nature": "LEXICAL / REFERENTIAL specificity — the residual is carried by which specific root/concept occurs, not by structure, higher-order, or long-range dependency",
+  "Q3_evidence": "root recurrence-lift is 27.8x at distance 1, decays to ~18.3x by distance 25, and stays ~20.9x at distance 100 (global 16.0x) — lift does NOT increase with distance, but substantial LEXICAL recurrence persists long-range. This is characteristic-vocabulary repetition (lexical cohesion), not an increasing structural long-range dependency",
+  "Q3_long_range_exists": "PARTIAL",
+  "Q4_compressible": "NO — surah-topic does not compress below global frequency; the residual is ~100% incompressible (irreducible lexical specificity)",
+  "Q5_dominant_unexplained_nature": "irreducible LEXICAL-REFERENTIAL specificity: the identity of which root/concept appears in each ayah. It is NOT derivable from frequency, NOT compressible by surah-topic, NOT a structural/higher-order/long-range dependency. A real long-range lexical RECURRENCE exists (characteristic vocabulary repeats across a surah, ~16-28x above chance, beats the surah-shuffle null) but is itself lexical and does not compress or predict",
+  "Q6_evidence": "structure-only reconstruction beats frequency only IN-SAMPLE (0.280 vs 0.206, overfitting) and fails out-of-sample (Phase P); long-range recurrence does not increase with distance; higher-order adds 0; surah-topic does not compress; the irreducible-lexical core survives every attack",
+  "Q6_remains_unexplained_after_attacks": "YES",
+  "Q7_most_precise_statement": "The unexplained ~80% of the Quran's per-root structure is irreducible LEXICAL-REFERENTIAL specificity: the identity of which root/concept occurs in each ayah. It does not compress to surah-topic (per-surah conditioning is 0.42 bits WORSE than global frequency), is not derivable from local or long-range co-occurrence, not from higher-order interaction, and not generalizably recoverable by structure (in-sample recovery is overfitting; out-of-sample it fails, Phase P). It carries a real long-range lexical RECURRENCE — characteristic vocabulary repeats across a surah ~16-28x above chance, surviving the surah-shuffle null — but that recurrence is itself lexical, not a predictive structure. It is largely incompressible and persists across root/lemma/word representations (not a root-space artifact). Monad can LOCATE and BOUND this content but cannot DERIVE it; we do not know WHAT it refers to — only, now precisely, that it is irreducible referential specificity carried by lexical identity.",
+  "taxonomy": "TYPE_003_referential",
+  "taxonomy_basis": "not_random=True, structural=False, higher_order=False, long_range=False -> TYPE_003_referential"
+ }
+}

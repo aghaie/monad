@@ -1,0 +1,19 @@
+{
+ "finding": "explanation frontier: 20.4% of per-root selection information is explained (by frequency), 79.6% is unexplained",
+ "generalizable_explained_fraction": 0.203918,
+ "generalizable_unexplained_fraction": 0.796082,
+ "method": "explanation-boundary-1.0",
+ "note": "explained = the frequency layer (the only generalizable one, per Phase P); co-occurrence adds in-sample fit but 0 out-of-sample",
+ "verdict": {
+  "Q1_answer": "20.4% of the per-root selection information is explained (by frequency, the only generalizable layer)",
+  "Q1_explained_fraction": 0.203918,
+  "Q2_answer": "79.6% is unexplained",
+  "Q2_unexplained_fraction": 0.796082,
+  "Q3_answer": "PARTIAL — the residual is real co-occurrence (beats the frequency null) but is non-predictive (Phase P): structured yet unexplainable",
+  "Q3_residual_stronger_than_nulls": "PARTIAL",
+  "Q4_answer": "YES — better modeling of the co-occurrence representation yields ~0 generalizable gain (Phase P); the boundary is representation-limited",
+  "Q4_frontier_saturated": "YES",
+  "Q5_largest_unknown_region": "the specific referential/lexical content of ayahs — WHICH concept/root occurs WHERE beyond frequency. This is the ~80% residual; it is real structure (beats nulls) but not explainable by any discovered model. It is the same referential layer that Phase Sigma and the World-Model phase showed never emerges structurally. We do not know it.",
+  "method": "explanation-boundary-1.0"
+ }
+}

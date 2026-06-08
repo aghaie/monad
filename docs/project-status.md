@@ -1,8 +1,8 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-07. **Current phase complete:** Phase 19X (Blind Numerical
-Structure Discovery) — **no significant numerical structure; 19 ranks #29/499, survives no
-correction**. **Next phase:** none — awaiting explicit instruction.
+**Last updated:** 2026-06-08. **Current phase complete:** Phase Ω(B) (Explanation Boundary
+Discovery) — **~20% explained (frequency), ~80% unexplained; frontier saturated**. **Next
+phase:** none — awaiting explicit instruction.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -39,6 +39,48 @@ phase reads the previous phase's outputs and never rebuilds them.
 | P | Structural Predictivity / Held-Out Information Engine | ✅ complete — **NON_PREDICTIVE** | `generated/predictivity/*.json` |
 | Z | Quran Self-Method Discovery (falsification study) | ✅ complete — **PARTIAL (weak)** | `generated/self_methodology/*.json` |
 | 19X | Blind Numerical Structure Discovery | ✅ complete — **no significant structure** | `generated/numerics/*.json` |
+| Ω(B) | Explanation Boundary Discovery | ✅ complete — **~20% explained / ~80% residual** | `generated/explanation_boundary/*.json` |
+
+---
+
+## Phase Ω(B) — Explanation Boundary Discovery Engine
+
+Measures the **explanation frontier**: after all stable discoveries, how much of the Quran's
+structure is explained vs unexplained? Measurement only — proves/disproves nothing, fills no
+gap with interpretation, writes "we do not know" where the model stops. *(Named Ω(B) to avoid
+collision with the earlier Phase Ω "World Model"; outputs in `generated/explanation_boundary/`,
+final report `phase-explanation-boundary-final-report.md`.)*
+
+- 9 data products + manifest. Object = ayah×root incidence; explanation = in-sample
+  compression (bits) of per-root selection under cumulative models (uniform → frequency →
+  co-occurrence); residual extracted, characterized, null-attacked, and extrapolated via Phase
+  P as the out-of-sample ceiling
+- **RESULT — the boundary is measured at frequency:**
+  - NLL uniform 10.68 / frequency 8.50 / co-occurrence 14.53 bits → **frequency explains 20.4%**;
+    the co-occurrence layer provides **NO usable compression** (worse in-sample by calibration;
+    0 out-of-sample, Phase P) — so the maximum *generalizable* model is **frequency alone**
+  - **Q1 explained ≈ 20.4%** (frequency); **Q2 unexplained ≈ 79.6%**
+  - **Q3 residual stronger than nulls? PARTIAL** — residual co-occurrence signal 1.73 bits >
+    frequency-null p95 1.28 (real structure) BUT non-predictive (Phase P): **structured yet
+    unexplainable**
+  - **Q4 frontier saturated? YES** — a 10× better model of this representation yields ~0
+    generalizable gain (Phase P); the residual is **data/representation-limited, not
+    model-limited**
+  - **Q5 largest unknown region:** the specific referential/lexical content (which root/concept
+    occurs where, beyond frequency) — the ~80% residual; real structure, no explanation; the
+    same referential layer Σ and the World-Model phase showed never emerges. **We do not know it.**
+- Builder: `scripts/build_explanation_boundary.py`; Validator:
+  `scripts/validate_explanation_boundary.py` (51 checks, byte-identical rebuild). Reports:
+  `discovery-inventory-report.md`, `explanatory-power-report.md`,
+  `explanation-redundancy-report.md`, `residual-structure-report.md`,
+  `residual-characterization-report.md`, `null-attack-report.md`,
+  `explanation-frontier-report.md`, `future-knowledge-report.md`,
+  `phase-explanation-boundary-final-report.md`
+
+Explanation-boundary verdict: **~20% of the Quran's per-root structure is explained (by
+frequency); ~80% is unexplained** — real co-occurrence structure (beats nulls) that is
+non-predictive (P) and representation-limited (frontier saturated). The largest unknown is the
+referential content of the text, measured precisely and left, by design, as "we do not know."
 
 ---
 
@@ -1146,6 +1188,7 @@ python3 scripts/build_epistemology.py   && python3 scripts/validate_epistemology
 python3 scripts/build_predictivity.py   && python3 scripts/validate_predictivity.py   --rebuild
 python3 scripts/build_self_methodology.py && python3 scripts/validate_self_methodology.py --rebuild
 python3 scripts/build_numerics.py        && python3 scripts/validate_numerics.py        --rebuild
+python3 scripts/build_explanation_boundary.py && python3 scripts/validate_explanation_boundary.py --rebuild
 ```
 
 ---

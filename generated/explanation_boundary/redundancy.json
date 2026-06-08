@@ -1,0 +1,24 @@
+{
+ "finding": "only the frequency layer carries generalizable explanatory information; co-occurrence/motif/grammar layers add in-sample fit but no out-of-sample information (redundant for generalization, per Phase P)",
+ "layers": [
+  {
+   "layer": "frequency",
+   "marginal_bits_removed": 2.178094,
+   "new_information": true
+  },
+  {
+   "layer": "co-occurrence (pairwise PPMI)",
+   "marginal_bits_removed": -6.023175,
+   "new_information_generalizable": false,
+   "new_information_insample": false,
+   "note": "provides NO usable compression: worse in-sample (calibration) AND worse out-of-sample (Phase P) — fully redundant for explanation"
+  },
+  {
+   "layer": "motifs / grammar (higher-order co-occurrence)",
+   "marginal_bits_removed": "subsumed",
+   "new_information_generalizable": false,
+   "note": "Phase 12/17: higher-order co-occurrence; non-generalizable (Phase P)"
+  }
+ ],
+ "method": "explanation-boundary-1.0"
+}

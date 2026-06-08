@@ -1,0 +1,7 @@
+{
+ "finding": "pairwise co-occurrence is already non-predictive (Phase P); higher-order (3+-way) interactions are sparser and add no generalizable information — the residual does NOT emerge only at higher order",
+ "higher_order_generalizable_information": 0.0,
+ "method": "residual-nature-1.0",
+ "n_triples_examined": 194698,
+ "pairwise_already_nonpredictive": true
+}

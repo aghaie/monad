@@ -1,0 +1,17 @@
+{
+ "budget": {
+  "explained_by_frequency": 0.203918,
+  "explained_by_structure_insample_beyond_freq": -0.563902,
+  "n_pairs_sampled": 12000,
+  "n_pairs_total": 44431,
+  "nll_frequency_bits": 8.503144,
+  "nll_frequency_onsample_bits": 8.509676,
+  "nll_structure_insample_bits": 14.532851,
+  "nll_uniform_bits": 10.681238,
+  "residual_fraction_after_frequency": 0.796082,
+  "residual_fraction_after_structure_insample": 1.360596
+ },
+ "finding": "frequency explains 20.4% of the per-root selection information; the co-occurrence layer provides NO usable compression (in-sample NLL worse: 14.53 vs 8.51 bits) — so the maximum generalizable model is frequency alone and the residual is 79.6%",
+ "generalization_caveat": "the co-occurrence (pairwise PPMI, lambda=1) model provides NO usable compression: its in-sample NLL is WORSE than frequency (a calibration artifact compounding its established non-predictiveness) and OUT-OF-SAMPLE (Phase P) it also does not beat frequency (info-gain -3.32 bits, 0/7 regimes). So the strongest GENERALIZABLE explanatory model is FREQUENCY ALONE",
+ "method": "explanation-boundary-1.0"
+}
