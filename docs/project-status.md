@@ -1,8 +1,8 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-08. **Current phase complete:** Phase Ω(B) (Explanation Boundary
-Discovery) — **~20% explained (frequency), ~80% unexplained; frontier saturated**. **Next
-phase:** none — awaiting explicit instruction.
+**Last updated:** 2026-06-08. **Current phase complete:** Phase Ψ (Residual Nature
+Discovery) — **the ~80% residual is irreducible lexical-referential specificity
+(TYPE_003)**. **Next phase:** none — awaiting explicit instruction.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -40,6 +40,47 @@ phase reads the previous phase's outputs and never rebuilds them.
 | Z | Quran Self-Method Discovery (falsification study) | ✅ complete — **PARTIAL (weak)** | `generated/self_methodology/*.json` |
 | 19X | Blind Numerical Structure Discovery | ✅ complete — **no significant structure** | `generated/numerics/*.json` |
 | Ω(B) | Explanation Boundary Discovery | ✅ complete — **~20% explained / ~80% residual** | `generated/explanation_boundary/*.json` |
+| Ψ | Residual Nature Discovery | ✅ complete — **residual = lexical-referential specificity** | `generated/residual_nature/*.json` |
+
+---
+
+## Phase Ψ — Residual Nature Discovery Engine
+
+Drills into the Ω(B) residual: **what KIND of thing is the unexplained ~80%?** Measurement only —
+no interpretation, no theology, no imported meaning; success = the sentence "we do not know" becomes
+**more precise**, not that the residual disappears.
+
+- 9 data products + manifest. Decomposes the residual (surah-topical vs irreducible lexical),
+  profiles long-range recurrence, tests lexical-vs-structural carriage, searches higher-order,
+  attempts structure-only reconstruction, varies representation (root/lemma/word), measures
+  compressibility, null-assaults, and classifies from evidence
+- **RESULT — the residual is irreducible LEXICAL-REFERENTIAL specificity (TYPE_003):**
+  - residual = 79.6% of uniform; **surah-topic does NOT compress it** (per-surah NLL 8.92 > global
+    8.50, gain −0.42 bits) → **~100% irreducible lexical** at the per-ayah level
+  - **carrier = lexical** (8.50 bits/root); structure adds **0 generalizable** bits (Phase P); a real
+    in-sample association (1.72 bits) is non-predictive
+  - **long-range: PARTIAL** — recurrence-lift 27.8× (d1) → 18.3× (d25) → 20.9× (d100): real long-range
+    lexical recurrence (characteristic vocabulary repeats, beats surah-shuffle null) but **decays, not
+    increasing** — lexical cohesion, not structural dependency
+  - **higher-order: 0**; **reconstruction:** in-sample 0.280 > freq 0.207 (**overfitting**), out-of-sample
+    fails (P) → not generalizably recoverable
+  - **representation-independent:** residual 79.6% (root) / 75.1% (lemma) / 72.4% (word) — not a
+    root-space artifact; **largely incompressible**
+  - **Q-answers:** Q1 ~100% irreducible-lexical · Q2 lexical/referential · Q3 long-range PARTIAL · Q4
+    compressible NO · Q5 referential specificity · Q6 remains-unexplained YES · Q7 the precise statement
+    (below)
+- Builder: `scripts/build_residual_nature.py`; Validator: `scripts/validate_residual_nature.py` (54
+  checks, byte-identical rebuild). Reports: `residual-decomposition-report.md`, `long-range-report.md`,
+  `referentiality-report.md`, `combinatorial-report.md`, `reconstruction-report.md`,
+  `representation-sensitivity-report.md`, `compression-boundary-report.md`,
+  `residual-taxonomy-report.md`, `residual-null-assault-report.md`, `phase-psi-final-report.md`
+
+Residual-nature verdict (precise): the unexplained ~80% is **irreducible lexical-referential
+specificity** — the identity of which root/concept occurs in each ayah; real (survives nulls), lexical
+(not structural/higher-order/long-range), incompressible, representation-independent, non-derivable. It
+is the same referential layer Σ and the World-Model phase could not recover, now measured in bits.
+Monad can locate and bound it but cannot derive it — "we do not know" what it refers to, only that it
+is referential specificity carried by lexical identity.
 
 ---
 
@@ -1189,6 +1230,7 @@ python3 scripts/build_predictivity.py   && python3 scripts/validate_predictivity
 python3 scripts/build_self_methodology.py && python3 scripts/validate_self_methodology.py --rebuild
 python3 scripts/build_numerics.py        && python3 scripts/validate_numerics.py        --rebuild
 python3 scripts/build_explanation_boundary.py && python3 scripts/validate_explanation_boundary.py --rebuild
+python3 scripts/build_residual_nature.py && python3 scripts/validate_residual_nature.py --rebuild
 ```
 
 ---
