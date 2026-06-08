@@ -1,0 +1,25 @@
+{
+ "candidate_types": [
+  "TYPE_A_unconstrained_freedom",
+  "TYPE_B_weakly_constrained_selection",
+  "TYPE_C_strongly_constrained_selection",
+  "TYPE_D_near_unique_selection",
+  "TYPE_E_unknown"
+ ],
+ "classification": "TYPE_B_weakly_constrained_selection",
+ "method": "counterfactual-discovery-1.0",
+ "verdict": {
+  "Q1_alternative_space_log2": 377803.181437,
+  "Q1_answer": "the structurally-valid alternative space is ~2^377803 Quran-like texts — astronomically large",
+  "Q2_selection_pressure": "TWO AXES. Co-occurrence STRUCTURE strongly selects the coherent FORM (actual text z=306 more clustered than frequency-random). LEXICAL IDENTITY: frequency removes 20.4% (~96775 bits); structure removes 0 generalizable bits (Phase P). Structure constrains coherence, not which words.",
+  "Q3_actual_choices_typical_or_atypical": "LEXICALLY TYPICAL (a typical draw from the frequency distribution — its specific words are an ordinary choice); but STRUCTURALLY EXTREME (z=306 more clustered than frequency-random text — i.e. it is a coherent text, like any real text, and a structural outlier among random frequency-alternatives). The co-occurrence is real but non-generalizable (Phase P)",
+  "Q4_constraints_explain_lexical_choices": "NO",
+  "Q4_evidence": "the constraints leave ~80% of the lexical choice free and the actual choices are typical within that freedom — they do not derive WHICH words occur",
+  "Q5_answer": "~8.50 bits/draw (~80% of uniform choice) remain free after all constraints",
+  "Q5_choice_residual_bits_per_draw": 8.503144,
+  "Q6_basis": "frequency reduces the space by 20%, structure by ~0; the actual lexical choices are typical and ~80% free -> weakly constrained selection",
+  "Q6_classification": "TYPE_B_weakly_constrained_selection",
+  "Q7_most_precise_statement": "Two axes must be separated. (1) STRUCTURAL FORM: the actual Quran is a strong structural outlier among frequency-random alternatives — its words co-occur z=306 more than chance (it is a coherent text, as any real text is). So the co-occurrence/coherence constraint is real and strong relative to random word-salad. (2) LEXICAL IDENTITY: within the space of structurally-valid (coherent) texts, the alternative space is astronomically large (~2^377803; ~8.50 bits of free lexical choice per root-slot), and the actual Quran's specific word choices are TYPICAL — a typical draw from its own frequency distribution. The discovered constraints reduce the lexical-IDENTITY choice only weakly: frequency removes ~20%, and structure removes 0 GENERALIZABLE bits (Phase P), because the co-occurrence constrains WHICH roots cluster (form), not WHICH identity occurs. Therefore the discovered constraints do NOT explain why the Quran contains these specific lexical choices rather than other valid alternatives: ~80% of the identity choice is free within the coherent space — weakly-constrained selection. Monad can quantify HOW MUCH choice remained and HOW coherent the text is, but cannot derive WHICH specific words were chosen. We do not know why these specific words rather than other structurally-valid alternatives — only that, given the discovered constraints, the lexical choice was left almost entirely open.",
+  "taxonomy": "TYPE_B_weakly_constrained_selection"
+ }
+}

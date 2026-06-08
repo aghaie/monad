@@ -1,0 +1,414 @@
+{
+ "finding": "of 45 candidate decision edges, 4 exist beyond the frequency null and 14 keep direction beyond the order null",
+ "method": "decision-architecture-1.0",
+ "n_candidate_edges": 45,
+ "n_directional": 14,
+ "n_exist": 4,
+ "results": [
+  {
+   "directional_beyond_order": true,
+   "edge": "uncertainty->consequence",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 36.0,
+   "order_null_dir_p95": 0.666667,
+   "real_dir": 0.705882,
+   "real_support": 17
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "knowledge->uncertainty",
+   "exists_beyond_frequency": true,
+   "freq_null_sup_p95": 110.0,
+   "order_null_dir_p95": 0.563636,
+   "real_dir": 0.692982,
+   "real_support": 114
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "uncertainty->resolution",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 32.0,
+   "order_null_dir_p95": 0.636364,
+   "real_dir": 0.652174,
+   "real_support": 23
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "uncertainty->evaluation",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 24.0,
+   "order_null_dir_p95": 0.6875,
+   "real_dir": 0.642857,
+   "real_support": 14
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "resolution->consequence",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 48.0,
+   "order_null_dir_p95": 0.65625,
+   "real_dir": 0.615385,
+   "real_support": 26
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "condition->action",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 425.0,
+   "order_null_dir_p95": 0.529412,
+   "real_dir": 0.614583,
+   "real_support": 384
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "resolution->conflict",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 55.0,
+   "order_null_dir_p95": 0.611111,
+   "real_dir": 0.613636,
+   "real_support": 44
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "uncertainty->action",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 73.0,
+   "order_null_dir_p95": 0.59322,
+   "real_dir": 0.607843,
+   "real_support": 51
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "conflict->action",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 110.0,
+   "order_null_dir_p95": 0.590909,
+   "real_dir": 0.6,
+   "real_support": 80
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "conflict->priority",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 39.0,
+   "order_null_dir_p95": 0.636364,
+   "real_dir": 0.6,
+   "real_support": 20
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "condition->knowledge",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 651.0,
+   "order_null_dir_p95": 0.529508,
+   "real_dir": 0.598706,
+   "real_support": 618
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "condition->choice",
+   "exists_beyond_frequency": true,
+   "freq_null_sup_p95": 812.0,
+   "order_null_dir_p95": 0.517689,
+   "real_dir": 0.595819,
+   "real_support": 861
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "priority->consequence",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 39.0,
+   "order_null_dir_p95": 0.714286,
+   "real_dir": 0.592593,
+   "real_support": 27
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "conflict->knowledge",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 172.0,
+   "order_null_dir_p95": 0.559441,
+   "real_dir": 0.589041,
+   "real_support": 146
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "consequence->action",
+   "exists_beyond_frequency": true,
+   "freq_null_sup_p95": 113.0,
+   "order_null_dir_p95": 0.61,
+   "real_dir": 0.57265,
+   "real_support": 117
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "condition->consequence",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 198.0,
+   "order_null_dir_p95": 0.549618,
+   "real_dir": 0.572464,
+   "real_support": 138
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "priority->evaluation",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 25.0,
+   "order_null_dir_p95": 0.6875,
+   "real_dir": 0.571429,
+   "real_support": 14
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "evaluation->knowledge",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 110.0,
+   "order_null_dir_p95": 0.586207,
+   "real_dir": 0.565217,
+   "real_support": 69
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "evaluation->action",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 76.0,
+   "order_null_dir_p95": 0.6,
+   "real_dir": 0.559322,
+   "real_support": 59
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "condition->evaluation",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 126.0,
+   "order_null_dir_p95": 0.56383,
+   "real_dir": 0.558824,
+   "real_support": 102
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "condition->priority",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 139.0,
+   "order_null_dir_p95": 0.559322,
+   "real_dir": 0.557971,
+   "real_support": 138
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "knowledge->resolution",
+   "exists_beyond_frequency": true,
+   "freq_null_sup_p95": 153.0,
+   "order_null_dir_p95": 0.555556,
+   "real_dir": 0.557377,
+   "real_support": 183
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "conflict->uncertainty",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 37.0,
+   "order_null_dir_p95": 0.666667,
+   "real_dir": 0.555556,
+   "real_support": 36
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "uncertainty->choice",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 134.0,
+   "order_null_dir_p95": 0.582609,
+   "real_dir": 0.553571,
+   "real_support": 112
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "priority->action",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 78.0,
+   "order_null_dir_p95": 0.606061,
+   "real_dir": 0.546875,
+   "real_support": 64
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "priority->knowledge",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 117.0,
+   "order_null_dir_p95": 0.573034,
+   "real_dir": 0.545455,
+   "real_support": 99
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "choice->action",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 450.0,
+   "order_null_dir_p95": 0.533493,
+   "real_dir": 0.545012,
+   "real_support": 411
+  },
+  {
+   "directional_beyond_order": true,
+   "edge": "condition->resolution",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 181.0,
+   "order_null_dir_p95": 0.543011,
+   "real_dir": 0.54386,
+   "real_support": 171
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "action->resolution",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 103.0,
+   "order_null_dir_p95": 0.585366,
+   "real_dir": 0.538462,
+   "real_support": 65
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "condition->uncertainty",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 124.0,
+   "order_null_dir_p95": 0.569767,
+   "real_dir": 0.533333,
+   "real_support": 90
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "knowledge->consequence",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 164.0,
+   "order_null_dir_p95": 0.566372,
+   "real_dir": 0.532787,
+   "real_support": 122
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "conflict->condition",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 198.0,
+   "order_null_dir_p95": 0.546961,
+   "real_dir": 0.528302,
+   "real_support": 159
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "choice->resolution",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 191.0,
+   "order_null_dir_p95": 0.55625,
+   "real_dir": 0.525,
+   "real_support": 160
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "choice->priority",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 143.0,
+   "order_null_dir_p95": 0.578947,
+   "real_dir": 0.524823,
+   "real_support": 141
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "conflict->evaluation",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 37.0,
+   "order_null_dir_p95": 0.695652,
+   "real_dir": 0.52381,
+   "real_support": 21
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "evaluation->resolution",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 35.0,
+   "order_null_dir_p95": 0.75,
+   "real_dir": 0.52381,
+   "real_support": 21
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "conflict->consequence",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 54.0,
+   "order_null_dir_p95": 0.592593,
+   "real_dir": 0.522727,
+   "real_support": 44
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "choice->knowledge",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 693.0,
+   "order_null_dir_p95": 0.525581,
+   "real_dir": 0.522364,
+   "real_support": 626
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "priority->resolution",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 38.0,
+   "order_null_dir_p95": 0.638889,
+   "real_dir": 0.52,
+   "real_support": 25
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "choice->consequence",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 207.0,
+   "order_null_dir_p95": 0.54491,
+   "real_dir": 0.518987,
+   "real_support": 158
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "consequence->evaluation",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 33.0,
+   "order_null_dir_p95": 0.636364,
+   "real_dir": 0.516129,
+   "real_support": 31
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "choice->conflict",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 208.0,
+   "order_null_dir_p95": 0.56,
+   "real_dir": 0.513514,
+   "real_support": 185
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "choice->evaluation",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 135.0,
+   "order_null_dir_p95": 0.563025,
+   "real_dir": 0.504274,
+   "real_support": 117
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "action->knowledge",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 365.0,
+   "order_null_dir_p95": 0.55082,
+   "real_dir": 0.503165,
+   "real_support": 316
+  },
+  {
+   "directional_beyond_order": false,
+   "edge": "priority->uncertainty",
+   "exists_beyond_frequency": false,
+   "freq_null_sup_p95": 25.0,
+   "order_null_dir_p95": 0.714286,
+   "real_dir": 0.5,
+   "real_support": 12
+  }
+ ]
+}

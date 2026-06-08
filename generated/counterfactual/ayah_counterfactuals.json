@@ -1,0 +1,10 @@
+{
+ "finding": "LEXICALLY the actual Quran is TYPICAL among frequency-valid alternatives; STRUCTURALLY it is atypical-high (mean PPMI 1.766 vs 0.451, z=306.0, 100-th percentile) — more clustered than frequency alternatives, but that co-occurrence is non-generalizable (Phase P). The LEXICAL CHOICES are free.",
+ "k_sample": 1000,
+ "lexical_typicality": "TYPICAL — the actual root choices are a typical draw from the frequency distribution (actual per-draw cross-entropy == generator entropy 8.503 bits by construction)",
+ "method": "counterfactual-discovery-1.0",
+ "structural_statistic_freq_alternatives_mean": 0.451004,
+ "structural_statistic_percentile": 1.0,
+ "structural_statistic_real_mean_ppmi": 1.766049,
+ "structural_statistic_z": 306.027268
+}

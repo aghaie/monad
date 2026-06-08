@@ -1,0 +1,52 @@
+{
+ "method": "decision-architecture-1.0",
+ "uncertainty_in": [
+  {
+   "dir": 0.692982,
+   "from": "knowledge",
+   "support": 114
+  },
+  {
+   "dir": 0.533333,
+   "from": "condition",
+   "support": 90
+  },
+  {
+   "dir": 0.555556,
+   "from": "conflict",
+   "support": 36
+  },
+  {
+   "dir": 0.5,
+   "from": "priority",
+   "support": 12
+  }
+ ],
+ "uncertainty_out": [
+  {
+   "dir": 0.553571,
+   "support": 112,
+   "to": "choice"
+  },
+  {
+   "dir": 0.607843,
+   "support": 51,
+   "to": "action"
+  },
+  {
+   "dir": 0.652174,
+   "support": 23,
+   "to": "resolution"
+  },
+  {
+   "dir": 0.705882,
+   "support": 17,
+   "to": "consequence"
+  },
+  {
+   "dir": 0.642857,
+   "support": 14,
+   "to": "evaluation"
+  }
+ ]
+}

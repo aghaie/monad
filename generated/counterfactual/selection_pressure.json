@@ -1,0 +1,29 @@
+{
+ "finding": "co-occurrence STRUCTURE strongly selects the coherent FORM (the actual text is z=306 more clustered than frequency-random text — coherence, the property of any real text); but on lexical IDENTITY only frequency constrains (removes 20.4%), and structure removes 0 generalizable bits (Phase P) — so the specific WORD CHOICES remain free within the coherent space",
+ "method": "counterfactual-discovery-1.0",
+ "ranking": [
+  {
+   "constraint": "C_dependency/motif (co-occurrence STRUCTURE / coherence)",
+   "effect": "STRONG selection on co-occurrence FORM",
+   "evidence": "the actual text is z=306 more clustered than frequency-random alternatives",
+   "note": "constrains WHICH roots cluster (coherence), not WHICH identity occurs; the actual specific words remain free within the coherent space (Phase P/Ψ)",
+   "rank": 1,
+   "reduces_lexical_identity_freedom": false
+  },
+  {
+   "bits_removed_from_uniform": 96774.922436,
+   "constraint": "C_frequency",
+   "fraction_of_uniform_space": 0.203918,
+   "note": "the only constraint that reduces lexical-IDENTITY freedom (by 20%)",
+   "rank": 2,
+   "reduces_lexical_identity_freedom": true
+  },
+  {
+   "bits_removed": 0.0,
+   "constraint": "C_consistency/C_hub/C_locality",
+   "note": "generic / = frequency / homogeneous — no independent identity reduction",
+   "rank": 3
+  }
+ ],
+ "two_axes": "STRUCTURAL FORM is strongly constrained (the text is coherent — z=306 vs random); LEXICAL IDENTITY is weakly constrained (frequency removes 20%, structure removes 0). These are different axes."
+}

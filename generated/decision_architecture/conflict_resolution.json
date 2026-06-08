@@ -1,0 +1,77 @@
+{
+ "conflict_out": [
+  {
+   "dir": 0.528302,
+   "support": 159,
+   "to": "condition"
+  },
+  {
+   "dir": 0.589041,
+   "support": 146,
+   "to": "knowledge"
+  },
+  {
+   "dir": 0.6,
+   "support": 80,
+   "to": "action"
+  },
+  {
+   "dir": 0.522727,
+   "support": 44,
+   "to": "consequence"
+  },
+  {
+   "dir": 0.555556,
+   "support": 36,
+   "to": "uncertainty"
+  },
+  {
+   "dir": 0.52381,
+   "support": 21,
+   "to": "evaluation"
+  },
+  {
+   "dir": 0.6,
+   "support": 20,
+   "to": "priority"
+  }
+ ],
+ "method": "decision-architecture-1.0",
+ "resolution_in": [
+  {
+   "dir": 0.557377,
+   "from": "knowledge",
+   "support": 183
+  },
+  {
+   "dir": 0.54386,
+   "from": "condition",
+   "support": 171
+  },
+  {
+   "dir": 0.525,
+   "from": "choice",
+   "support": 160
+  },
+  {
+   "dir": 0.538462,
+   "from": "action",
+   "support": 65
+  },
+  {
+   "dir": 0.52,
+   "from": "priority",
+   "support": 25
+  },
+  {
+   "dir": 0.652174,
+   "from": "uncertainty",
+   "support": 23
+  },
+  {
+   "dir": 0.52381,
+   "from": "evaluation",
+   "support": 21
+  }
+ ]
+}

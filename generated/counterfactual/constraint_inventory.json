@@ -1,0 +1,49 @@
+{
+ "constraints": [
+  {
+   "id": "C_frequency",
+   "kind": "frequency",
+   "note": "lexical marginal distribution — Phase 2/16; the dominant constraint",
+   "strength": "strong"
+  },
+  {
+   "id": "C_consistency",
+   "kind": "consistency",
+   "note": "0 contradictions — Phase 10/11; generic (Phase 15), constrains little",
+   "strength": "strong"
+  },
+  {
+   "id": "C_motifs",
+   "kind": "motif",
+   "note": "motif vocabulary — Phase 9; 3/13 survive frequency null (Phase 17)",
+   "strength": "moderate"
+  },
+  {
+   "id": "C_dependency",
+   "kind": "dependency",
+   "note": "co-occurrence/proposition network — Phase 4/17 (3.9x null); 0 generalizable (Phase P)",
+   "strength": "moderate"
+  },
+  {
+   "id": "C_grammar",
+   "kind": "grammar",
+   "note": "local reciprocal attachment — Phase 12",
+   "strength": "moderate"
+  },
+  {
+   "id": "C_locality",
+   "kind": "locality",
+   "note": "scale-invariant homogeneity — Phase 13/14",
+   "strength": "moderate"
+  },
+  {
+   "id": "C_hub",
+   "kind": "hub",
+   "note": "hub dominance — Phase 16; = frequency, no independent constraint",
+   "strength": "strong"
+  }
+ ],
+ "method": "counterfactual-discovery-1.0",
+ "n_constraints": 7,
+ "note": "Phase-11+ survivors only; weak findings excluded. C_frequency dominates; C_dependency/motif/grammar are real in-sample but 0-generalizable (Phase P)"
+}

@@ -1,0 +1,366 @@
+{
+ "edges": [
+  {
+   "bwd": 5,
+   "dir": 0.705882,
+   "from": "uncertainty",
+   "fwd": 12,
+   "support": 17,
+   "to": "consequence"
+  },
+  {
+   "bwd": 35,
+   "dir": 0.692982,
+   "from": "knowledge",
+   "fwd": 79,
+   "support": 114,
+   "to": "uncertainty"
+  },
+  {
+   "bwd": 8,
+   "dir": 0.652174,
+   "from": "uncertainty",
+   "fwd": 15,
+   "support": 23,
+   "to": "resolution"
+  },
+  {
+   "bwd": 5,
+   "dir": 0.642857,
+   "from": "uncertainty",
+   "fwd": 9,
+   "support": 14,
+   "to": "evaluation"
+  },
+  {
+   "bwd": 10,
+   "dir": 0.615385,
+   "from": "resolution",
+   "fwd": 16,
+   "support": 26,
+   "to": "consequence"
+  },
+  {
+   "bwd": 148,
+   "dir": 0.614583,
+   "from": "condition",
+   "fwd": 236,
+   "support": 384,
+   "to": "action"
+  },
+  {
+   "bwd": 17,
+   "dir": 0.613636,
+   "from": "resolution",
+   "fwd": 27,
+   "support": 44,
+   "to": "conflict"
+  },
+  {
+   "bwd": 20,
+   "dir": 0.607843,
+   "from": "uncertainty",
+   "fwd": 31,
+   "support": 51,
+   "to": "action"
+  },
+  {
+   "bwd": 32,
+   "dir": 0.6,
+   "from": "conflict",
+   "fwd": 48,
+   "support": 80,
+   "to": "action"
+  },
+  {
+   "bwd": 8,
+   "dir": 0.6,
+   "from": "conflict",
+   "fwd": 12,
+   "support": 20,
+   "to": "priority"
+  },
+  {
+   "bwd": 248,
+   "dir": 0.598706,
+   "from": "condition",
+   "fwd": 370,
+   "support": 618,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 348,
+   "dir": 0.595819,
+   "from": "condition",
+   "fwd": 513,
+   "support": 861,
+   "to": "choice"
+  },
+  {
+   "bwd": 11,
+   "dir": 0.592593,
+   "from": "priority",
+   "fwd": 16,
+   "support": 27,
+   "to": "consequence"
+  },
+  {
+   "bwd": 60,
+   "dir": 0.589041,
+   "from": "conflict",
+   "fwd": 86,
+   "support": 146,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 50,
+   "dir": 0.57265,
+   "from": "consequence",
+   "fwd": 67,
+   "support": 117,
+   "to": "action"
+  },
+  {
+   "bwd": 59,
+   "dir": 0.572464,
+   "from": "condition",
+   "fwd": 79,
+   "support": 138,
+   "to": "consequence"
+  },
+  {
+   "bwd": 6,
+   "dir": 0.571429,
+   "from": "priority",
+   "fwd": 8,
+   "support": 14,
+   "to": "evaluation"
+  },
+  {
+   "bwd": 30,
+   "dir": 0.565217,
+   "from": "evaluation",
+   "fwd": 39,
+   "support": 69,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 26,
+   "dir": 0.559322,
+   "from": "evaluation",
+   "fwd": 33,
+   "support": 59,
+   "to": "action"
+  },
+  {
+   "bwd": 45,
+   "dir": 0.558824,
+   "from": "condition",
+   "fwd": 57,
+   "support": 102,
+   "to": "evaluation"
+  },
+  {
+   "bwd": 61,
+   "dir": 0.557971,
+   "from": "condition",
+   "fwd": 77,
+   "support": 138,
+   "to": "priority"
+  },
+  {
+   "bwd": 81,
+   "dir": 0.557377,
+   "from": "knowledge",
+   "fwd": 102,
+   "support": 183,
+   "to": "resolution"
+  },
+  {
+   "bwd": 16,
+   "dir": 0.555556,
+   "from": "conflict",
+   "fwd": 20,
+   "support": 36,
+   "to": "uncertainty"
+  },
+  {
+   "bwd": 50,
+   "dir": 0.553571,
+   "from": "uncertainty",
+   "fwd": 62,
+   "support": 112,
+   "to": "choice"
+  },
+  {
+   "bwd": 29,
+   "dir": 0.546875,
+   "from": "priority",
+   "fwd": 35,
+   "support": 64,
+   "to": "action"
+  },
+  {
+   "bwd": 45,
+   "dir": 0.545455,
+   "from": "priority",
+   "fwd": 54,
+   "support": 99,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 187,
+   "dir": 0.545012,
+   "from": "choice",
+   "fwd": 224,
+   "support": 411,
+   "to": "action"
+  },
+  {
+   "bwd": 78,
+   "dir": 0.54386,
+   "from": "condition",
+   "fwd": 93,
+   "support": 171,
+   "to": "resolution"
+  },
+  {
+   "bwd": 30,
+   "dir": 0.538462,
+   "from": "action",
+   "fwd": 35,
+   "support": 65,
+   "to": "resolution"
+  },
+  {
+   "bwd": 42,
+   "dir": 0.533333,
+   "from": "condition",
+   "fwd": 48,
+   "support": 90,
+   "to": "uncertainty"
+  },
+  {
+   "bwd": 57,
+   "dir": 0.532787,
+   "from": "knowledge",
+   "fwd": 65,
+   "support": 122,
+   "to": "consequence"
+  },
+  {
+   "bwd": 75,
+   "dir": 0.528302,
+   "from": "conflict",
+   "fwd": 84,
+   "support": 159,
+   "to": "condition"
+  },
+  {
+   "bwd": 76,
+   "dir": 0.525,
+   "from": "choice",
+   "fwd": 84,
+   "support": 160,
+   "to": "resolution"
+  },
+  {
+   "bwd": 67,
+   "dir": 0.524823,
+   "from": "choice",
+   "fwd": 74,
+   "support": 141,
+   "to": "priority"
+  },
+  {
+   "bwd": 10,
+   "dir": 0.52381,
+   "from": "conflict",
+   "fwd": 11,
+   "support": 21,
+   "to": "evaluation"
+  },
+  {
+   "bwd": 10,
+   "dir": 0.52381,
+   "from": "evaluation",
+   "fwd": 11,
+   "support": 21,
+   "to": "resolution"
+  },
+  {
+   "bwd": 21,
+   "dir": 0.522727,
+   "from": "conflict",
+   "fwd": 23,
+   "support": 44,
+   "to": "consequence"
+  },
+  {
+   "bwd": 299,
+   "dir": 0.522364,
+   "from": "choice",
+   "fwd": 327,
+   "support": 626,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 12,
+   "dir": 0.52,
+   "from": "priority",
+   "fwd": 13,
+   "support": 25,
+   "to": "resolution"
+  },
+  {
+   "bwd": 76,
+   "dir": 0.518987,
+   "from": "choice",
+   "fwd": 82,
+   "support": 158,
+   "to": "consequence"
+  },
+  {
+   "bwd": 15,
+   "dir": 0.516129,
+   "from": "consequence",
+   "fwd": 16,
+   "support": 31,
+   "to": "evaluation"
+  },
+  {
+   "bwd": 90,
+   "dir": 0.513514,
+   "from": "choice",
+   "fwd": 95,
+   "support": 185,
+   "to": "conflict"
+  },
+  {
+   "bwd": 58,
+   "dir": 0.504274,
+   "from": "choice",
+   "fwd": 59,
+   "support": 117,
+   "to": "evaluation"
+  },
+  {
+   "bwd": 157,
+   "dir": 0.503165,
+   "from": "action",
+   "fwd": 159,
+   "support": 316,
+   "to": "knowledge"
+  },
+  {
+   "bwd": 6,
+   "dir": 0.5,
+   "from": "priority",
+   "fwd": 6,
+   "support": 12,
+   "to": "uncertainty"
+  }
+ ],
+ "method": "decision-architecture-1.0",
+ "note": "cycles among decision nodes; survivors determine real loops (see falsification)"
+}

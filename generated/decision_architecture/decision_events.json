@@ -1,0 +1,19 @@
+{
+ "ayahs_with_decision_nodes": 2681,
+ "cond_tokens": 1049,
+ "finding": "decision events marked by COND particles (1049) + decision vocabulary across 2681 ayahs",
+ "method": "decision-architecture-1.0",
+ "n_candidate_edges": 45,
+ "node_frequencies": {
+  "action": 464,
+  "choice": 918,
+  "condition": 867,
+  "conflict": 208,
+  "consequence": 200,
+  "evaluation": 129,
+  "knowledge": 728,
+  "priority": 139,
+  "resolution": 189,
+  "uncertainty": 129
+ }
+}

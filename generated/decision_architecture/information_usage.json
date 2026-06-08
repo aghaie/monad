@@ -1,0 +1,52 @@
+{
+ "into_knowledge": [
+  {
+   "dir": 0.522364,
+   "from": "choice",
+   "support": 626
+  },
+  {
+   "dir": 0.598706,
+   "from": "condition",
+   "support": 618
+  },
+  {
+   "dir": 0.503165,
+   "from": "action",
+   "support": 316
+  },
+  {
+   "dir": 0.589041,
+   "from": "conflict",
+   "support": 146
+  },
+  {
+   "dir": 0.545455,
+   "from": "priority",
+   "support": 99
+  },
+  {
+   "dir": 0.565217,
+   "from": "evaluation",
+   "support": 69
+  }
+ ],
+ "knowledge_into_decisions": [
+  {
+   "dir": 0.557377,
+   "support": 183,
+   "to": "resolution"
+  },
+  {
+   "dir": 0.532787,
+   "support": 122,
+   "to": "consequence"
+  },
+  {
+   "dir": 0.692982,
+   "support": 114,
+   "to": "uncertainty"
+  }
+ ],
+ "method": "decision-architecture-1.0"
+}

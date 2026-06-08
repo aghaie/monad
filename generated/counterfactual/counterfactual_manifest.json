@@ -1,0 +1,42 @@
+{
+ "constants": {
+  "K_SAMPLE": 1000,
+  "SEED": 20260608
+ },
+ "input_sha256": {
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "counterfactual-discovery-1.0",
+ "output_bytes": {
+  "alternative_space.json": 806,
+  "ayah_counterfactuals.json": 755,
+  "choice_residual.json": 673,
+  "constraint_inventory.json": 1353,
+  "generator_levels.json": 379,
+  "global_counterfactuals.json": 201,
+  "selection_classification.json": 3279,
+  "selection_pressure.json": 1561
+ },
+ "prohibitions_observed": [
+  "never evaluate truth",
+  "never evaluate theology",
+  "never evaluate revelation",
+  "never evaluate divine origin",
+  "never evaluate human origin",
+  "only selection",
+  "only information",
+  "only alternatives",
+  "measure the geometry of choice, prove nothing",
+  "alternative counts computed analytically (exact), not via interpretation",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "choice_residual_bits_per_draw": 8.503144,
+  "classification": "TYPE_B_weakly_constrained_selection",
+  "constraints_explain_lexical_choices": "NO",
+  "frequency_reduces_uniform_fraction": 0.203918,
+  "lexical_choices_typical": true,
+  "log2_alternative_space": 377803.181437,
+  "structural_generalizable_reduction_bits": 0.0
+ }
+}

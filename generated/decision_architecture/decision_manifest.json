@@ -1,0 +1,67 @@
+{
+ "constants": {
+  "DIR_MARGIN": 0.6,
+  "K_BOOT": 200,
+  "K_NULL": 100,
+  "MIN_SUPPORT": 8,
+  "NO_EXIST_FRAC": 0.1,
+  "SEED": 20260608,
+  "YES_BACKBONE": 5,
+  "YES_DIR_FRAC": 0.5,
+  "nodes": [
+   "condition",
+   "action",
+   "choice",
+   "conflict",
+   "consequence",
+   "evaluation",
+   "knowledge",
+   "priority",
+   "resolution",
+   "uncertainty"
+  ]
+ },
+ "input_sha256": {
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "decision-architecture-1.0",
+ "output_bytes": {
+  "agent_architecture.json": 7505,
+  "conflict_resolution.json": 1035,
+  "decision_events.json": 453,
+  "decision_falsification.json": 10602,
+  "decision_loops.json": 5531,
+  "decision_stability.json": 9013,
+  "decision_triggers.json": 1168,
+  "information_usage.json": 729,
+  "outcome_evaluation.json": 1159,
+  "priority_architecture.json": 972,
+  "uncertainty_architecture.json": 704
+ },
+ "prohibitions_observed": [
+  "no tafsir",
+  "no theology",
+  "no doctrine",
+  "no apologetics",
+  "no external philosophy",
+  "no psychology theory",
+  "no decision-theory import",
+  "no ethics import",
+  "no AI planning model",
+  "no external ontology",
+  "no human decision framework imposed",
+  "architecture emerges only from the corpus",
+  "ask how it decides not what it says",
+  "both success and collapse are acceptable outcomes",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "coherent_architecture": "NO",
+  "dir_survivor_fraction": 0.2,
+  "exist_fraction": 0.088889,
+  "largest_backbone": 3,
+  "robust_components": 3,
+  "strongest_discovery": "knowledge->uncertainty",
+  "survives_falsification": "PARTIAL"
+ }
+}

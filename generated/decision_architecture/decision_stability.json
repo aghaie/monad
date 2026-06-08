@@ -1,0 +1,502 @@
+{
+ "finding": "13/45 decision edges are bootstrap+subsample stable",
+ "method": "decision-architecture-1.0",
+ "n_stable": 13,
+ "results": [
+  {
+   "boot_ci_lo": 0.5,
+   "edge": "uncertainty->consequence",
+   "real_dir": 0.705882,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.76
+   }
+  },
+  {
+   "boot_ci_lo": 0.723404,
+   "edge": "knowledge->uncertainty",
+   "real_dir": 0.692982,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 1.0
+   }
+  },
+  {
+   "boot_ci_lo": 1.0,
+   "edge": "uncertainty->resolution",
+   "real_dir": 0.652174,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 0.98,
+    "0.2": 1.0,
+    "0.4": 0.9
+   }
+  },
+  {
+   "boot_ci_lo": 0.0,
+   "edge": "uncertainty->evaluation",
+   "real_dir": 0.642857,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.92,
+    "0.4": 0.84
+   }
+  },
+  {
+   "boot_ci_lo": 0.0,
+   "edge": "resolution->consequence",
+   "real_dir": 0.615385,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.9,
+    "0.4": 0.66
+   }
+  },
+  {
+   "boot_ci_lo": 0.864583,
+   "edge": "condition->action",
+   "real_dir": 0.614583,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 1.0
+   }
+  },
+  {
+   "boot_ci_lo": 0.434783,
+   "edge": "resolution->conflict",
+   "real_dir": 0.613636,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.88
+   }
+  },
+  {
+   "boot_ci_lo": 0.444444,
+   "edge": "uncertainty->action",
+   "real_dir": 0.607843,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.86
+   }
+  },
+  {
+   "boot_ci_lo": 0.636364,
+   "edge": "conflict->action",
+   "real_dir": 0.6,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.98
+   }
+  },
+  {
+   "boot_ci_lo": 0.0,
+   "edge": "conflict->priority",
+   "real_dir": 0.6,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.86,
+    "0.4": 0.66
+   }
+  },
+  {
+   "boot_ci_lo": 0.794702,
+   "edge": "condition->knowledge",
+   "real_dir": 0.598706,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 1.0
+   }
+  },
+  {
+   "boot_ci_lo": 0.720472,
+   "edge": "condition->choice",
+   "real_dir": 0.595819,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 1.0
+   }
+  },
+  {
+   "boot_ci_lo": 0.0,
+   "edge": "priority->consequence",
+   "real_dir": 0.592593,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.92,
+    "0.2": 0.78,
+    "0.4": 0.62
+   }
+  },
+  {
+   "boot_ci_lo": 0.512821,
+   "edge": "conflict->knowledge",
+   "real_dir": 0.589041,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 1.0
+   }
+  },
+  {
+   "boot_ci_lo": 0.589744,
+   "edge": "consequence->action",
+   "real_dir": 0.57265,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.92
+   }
+  },
+  {
+   "boot_ci_lo": 0.608696,
+   "edge": "condition->consequence",
+   "real_dir": 0.572464,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.98
+   }
+  },
+  {
+   "boot_ci_lo": 0.0,
+   "edge": "priority->evaluation",
+   "real_dir": 0.571429,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.72,
+    "0.2": 0.56,
+    "0.4": 0.44
+   }
+  },
+  {
+   "boot_ci_lo": 0.357143,
+   "edge": "evaluation->knowledge",
+   "real_dir": 0.565217,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.9,
+    "0.4": 0.64
+   }
+  },
+  {
+   "boot_ci_lo": 0.307692,
+   "edge": "evaluation->action",
+   "real_dir": 0.559322,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.82,
+    "0.4": 0.72
+   }
+  },
+  {
+   "boot_ci_lo": 0.423077,
+   "edge": "condition->evaluation",
+   "real_dir": 0.558824,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.96
+   }
+  },
+  {
+   "boot_ci_lo": 0.564103,
+   "edge": "condition->priority",
+   "real_dir": 0.557971,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.96
+   }
+  },
+  {
+   "boot_ci_lo": 0.530303,
+   "edge": "knowledge->resolution",
+   "real_dir": 0.557377,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.9
+   }
+  },
+  {
+   "boot_ci_lo": 0.333333,
+   "edge": "conflict->uncertainty",
+   "real_dir": 0.555556,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.78,
+    "0.2": 0.82,
+    "0.4": 0.6
+   }
+  },
+  {
+   "boot_ci_lo": 0.592593,
+   "edge": "uncertainty->choice",
+   "real_dir": 0.553571,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.98,
+    "0.4": 0.94
+   }
+  },
+  {
+   "boot_ci_lo": 0.384615,
+   "edge": "priority->action",
+   "real_dir": 0.546875,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.84,
+    "0.4": 0.8
+   }
+  },
+  {
+   "boot_ci_lo": 0.521739,
+   "edge": "priority->knowledge",
+   "real_dir": 0.545455,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.98,
+    "0.2": 0.9,
+    "0.4": 0.88
+   }
+  },
+  {
+   "boot_ci_lo": 0.495327,
+   "edge": "choice->action",
+   "real_dir": 0.545012,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.98
+   }
+  },
+  {
+   "boot_ci_lo": 0.589744,
+   "edge": "condition->resolution",
+   "real_dir": 0.54386,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 0.96,
+    "0.4": 0.86
+   }
+  },
+  {
+   "boot_ci_lo": 0.384615,
+   "edge": "action->resolution",
+   "real_dir": 0.538462,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.84,
+    "0.4": 0.7
+   }
+  },
+  {
+   "boot_ci_lo": 0.478261,
+   "edge": "condition->uncertainty",
+   "real_dir": 0.533333,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.8,
+    "0.4": 0.76
+   }
+  },
+  {
+   "boot_ci_lo": 0.538462,
+   "edge": "knowledge->consequence",
+   "real_dir": 0.532787,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.94,
+    "0.2": 0.88,
+    "0.4": 0.8
+   }
+  },
+  {
+   "boot_ci_lo": 0.302326,
+   "edge": "conflict->condition",
+   "real_dir": 0.528302,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.94,
+    "0.2": 0.76,
+    "0.4": 0.58
+   }
+  },
+  {
+   "boot_ci_lo": 0.5,
+   "edge": "choice->resolution",
+   "real_dir": 0.525,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.96,
+    "0.2": 0.76,
+    "0.4": 0.62
+   }
+  },
+  {
+   "boot_ci_lo": 0.387755,
+   "edge": "choice->priority",
+   "real_dir": 0.524823,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.92,
+    "0.2": 0.74,
+    "0.4": 0.56
+   }
+  },
+  {
+   "boot_ci_lo": 0.4,
+   "edge": "conflict->evaluation",
+   "real_dir": 0.52381,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.74,
+    "0.2": 0.72,
+    "0.4": 0.56
+   }
+  },
+  {
+   "boot_ci_lo": 0.0,
+   "edge": "evaluation->resolution",
+   "real_dir": 0.52381,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.66,
+    "0.2": 0.7,
+    "0.4": 0.54
+   }
+  },
+  {
+   "boot_ci_lo": 0.222222,
+   "edge": "conflict->consequence",
+   "real_dir": 0.522727,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.6,
+    "0.2": 0.54,
+    "0.4": 0.46
+   }
+  },
+  {
+   "boot_ci_lo": 0.62963,
+   "edge": "choice->knowledge",
+   "real_dir": 0.522364,
+   "stable": true,
+   "subsample_persistence": {
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.4": 0.92
+   }
+  },
+  {
+   "boot_ci_lo": 0.333333,
+   "edge": "priority->resolution",
+   "real_dir": 0.52,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.6,
+    "0.2": 0.62,
+    "0.4": 0.5
+   }
+  },
+  {
+   "boot_ci_lo": 0.4,
+   "edge": "choice->consequence",
+   "real_dir": 0.518987,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.88,
+    "0.2": 0.78,
+    "0.4": 0.78
+   }
+  },
+  {
+   "boot_ci_lo": 0.5,
+   "edge": "consequence->evaluation",
+   "real_dir": 0.516129,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.52,
+    "0.2": 0.42,
+    "0.4": 0.52
+   }
+  },
+  {
+   "boot_ci_lo": 0.288889,
+   "edge": "choice->conflict",
+   "real_dir": 0.513514,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.74,
+    "0.2": 0.6,
+    "0.4": 0.4
+   }
+  },
+  {
+   "boot_ci_lo": 0.242424,
+   "edge": "choice->evaluation",
+   "real_dir": 0.504274,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.48,
+    "0.2": 0.54,
+    "0.4": 0.38
+   }
+  },
+  {
+   "boot_ci_lo": 0.342105,
+   "edge": "action->knowledge",
+   "real_dir": 0.503165,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.54,
+    "0.2": 0.64,
+    "0.4": 0.46
+   }
+  },
+  {
+   "boot_ci_lo": 0.0,
+   "edge": "priority->uncertainty",
+   "real_dir": 0.5,
+   "stable": false,
+   "subsample_persistence": {
+    "0.1": 0.48,
+    "0.2": 0.56,
+    "0.4": 0.54
+   }
+  }
+ ]
+}

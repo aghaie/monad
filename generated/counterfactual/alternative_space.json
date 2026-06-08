@@ -1,0 +1,12 @@
+{
+ "H_choice_bits_per_draw": 8.503144,
+ "H_uniform_bits_per_draw": 10.681238,
+ "alternatives_frequency_scientific": "2^377803 (astronomically large)",
+ "finding": "the space of frequency-valid alternative Quran-like texts is ~2^377803 (astronomically large); structural constraints reduce it by ~0 generalizable bits beyond frequency",
+ "log2_alternatives_frequency": 377803.181437,
+ "log2_alternatives_uniform": 474578.103874,
+ "method": "counterfactual-discovery-1.0",
+ "n_slots": 44431,
+ "structural_constraints_additional_reduction_bits": 0.0,
+ "structural_constraints_note": "motif/dependency/grammar/locality constraints remove ~0 GENERALIZABLE bits from the alternative space (Phase P/17): the in-sample co-occurrence is real but does not reduce the space of valid alternatives in a learnable way"
+}

@@ -1,0 +1,5 @@
+{
+ "global_feasible_volume_log2": 377803.181437,
+ "method": "counterfactual-discovery-1.0",
+ "note": "exact analytic typical-set size; structural constraints do not measurably reduce it (Phase P/17)"
+}

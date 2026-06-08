@@ -1,0 +1,12 @@
+{
+ "H_choice_bits_per_draw": 8.503144,
+ "levels": {
+  "L0": "frequency",
+  "L1": "frequency+locality",
+  "L2": "frequency+motifs",
+  "L3": "frequency+motifs+dependencies",
+  "L4": "all surviving discoveries"
+ },
+ "method": "counterfactual-discovery-1.0",
+ "note": "counts computed analytically (typical-set 2^(N·H)); structural levels add ~0 generalizable reduction (Phase P)"
+}

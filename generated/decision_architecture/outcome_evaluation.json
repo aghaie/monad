@@ -1,0 +1,84 @@
+{
+ "consequence_in": [
+  {
+   "dir": 0.518987,
+   "from": "choice",
+   "support": 158
+  },
+  {
+   "dir": 0.572464,
+   "from": "condition",
+   "support": 138
+  },
+  {
+   "dir": 0.532787,
+   "from": "knowledge",
+   "support": 122
+  },
+  {
+   "dir": 0.522727,
+   "from": "conflict",
+   "support": 44
+  },
+  {
+   "dir": 0.592593,
+   "from": "priority",
+   "support": 27
+  },
+  {
+   "dir": 0.615385,
+   "from": "resolution",
+   "support": 26
+  },
+  {
+   "dir": 0.705882,
+   "from": "uncertainty",
+   "support": 17
+  }
+ ],
+ "consequence_out": [
+  {
+   "dir": 0.57265,
+   "support": 117,
+   "to": "action"
+  },
+  {
+   "dir": 0.516129,
+   "support": 31,
+   "to": "evaluation"
+  }
+ ],
+ "evaluation_in": [
+  {
+   "dir": 0.504274,
+   "from": "choice",
+   "support": 117
+  },
+  {
+   "dir": 0.558824,
+   "from": "condition",
+   "support": 102
+  },
+  {
+   "dir": 0.516129,
+   "from": "consequence",
+   "support": 31
+  },
+  {
+   "dir": 0.52381,
+   "from": "conflict",
+   "support": 21
+  },
+  {
+   "dir": 0.571429,
+   "from": "priority",
+   "support": 14
+  },
+  {
+   "dir": 0.642857,
+   "from": "uncertainty",
+   "support": 14
+  }
+ ],
+ "method": "decision-architecture-1.0"
+}

@@ -1,8 +1,8 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-08. **Current phase complete:** Phase Ψ (Residual Nature
-Discovery) — **the ~80% residual is irreducible lexical-referential specificity
-(TYPE_003)**. **Next phase:** none — awaiting explicit instruction.
+**Last updated:** 2026-06-08. **Current phase complete:** Phase Δ (Quranic Decision
+Architecture) — **no coherent decision architecture (NO); 3/45 components survive; strongest
+= conditional→choice**. **Next phase:** none — awaiting explicit instruction.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -41,6 +41,86 @@ phase reads the previous phase's outputs and never rebuilds them.
 | 19X | Blind Numerical Structure Discovery | ✅ complete — **no significant structure** | `generated/numerics/*.json` |
 | Ω(B) | Explanation Boundary Discovery | ✅ complete — **~20% explained / ~80% residual** | `generated/explanation_boundary/*.json` |
 | Ψ | Residual Nature Discovery | ✅ complete — **residual = lexical-referential specificity** | `generated/residual_nature/*.json` |
+| Φ | Counterfactual Quran Discovery | ✅ complete — **TYPE_B weakly-constrained free selection** | `generated/counterfactual/*.json` |
+| Δ | Quranic Decision Architecture | ✅ complete — **no coherent architecture; 3/45 survive** | `generated/decision_architecture/*.json` |
+
+---
+
+## Phase Δ — Quranic Decision Architecture Discovery Engine
+
+Reframes the corpus as a **decision system**: "how does the Quran decide?" (not "what does it say?").
+No human decision framework imposed (no decision theory / ethics / AI planning / psychology). Decision
+nodes = COND (conditional particles) + decision-vocabulary root-groups; directed graph + the
+Phase-Z-grade falsification (frequency + mushaf-order nulls) and stability (bootstrap + subsampling)
+battery. Spec accepts collapse as a valid outcome.
+
+- 11 data products + manifest. 1,049 COND tokens; 10 decision nodes; **45 candidate directed edges**
+- **RESULT — no coherent decision architecture (deflation, as P/Z/Φ predicted):**
+  - **only 4/45 edges (8.9%) exist beyond the frequency null** → **Q1 = NO** (a coherent architecture
+    does not emerge; 91% are frequency artifacts)
+  - 13/45 are bootstrap-stable, but **only 3 are also real beyond frequency** (stability over-credits ~4×)
+  - **3 full survivors**, isolated (no agent loop): **`condition→choice`** (if→choose/command, support
+    861 — the one genuinely decision-shaped, strongest robust discovery), **`knowledge→resolution`**
+    (know→judge), **`knowledge→uncertainty`** (the *عالِم الغيب* "knower of the unseen" collocation, not
+    a decision step)
+  - no robust uncertainty-handling, conflict-resolution, priority, or recursive loop; no reconstructable
+    agent
+  - **Q-answers:** Q1 NO · Q2 3 · Q3 conditional structure · Q4 not robust (collocation) · Q5 no distinct
+    mechanism (residue: knowledge→resolution) · Q6 no robust priority · Q7 two motifs, no loop · Q8
+    survives-falsification PARTIAL · Q9 **condition→choice** · Q10 the decided CONTENT (Ψ referential
+    residual) is unknown
+- Builder: `scripts/build_decision_architecture.py`; Validator:
+  `scripts/validate_decision_architecture.py` (283 checks, byte-identical rebuild). Reports:
+  `decision-events-report.md`, `decision-triggers-report.md`, `information-usage-report.md`,
+  `uncertainty-report.md`, `conflict-resolution-report.md`, `priority-report.md`,
+  `outcome-evaluation-report.md`, `decision-loops-report.md`, `agent-architecture-report.md`,
+  `decision-falsification-report.md`, `decision-stability-report.md`, `phase-delta-final-report.md`
+
+Decision-architecture verdict: treated as a decision system, the Quran shows **no coherent architecture**
+under controls — 91% of decision edges are frequency artifacts and no agent loop survives. The robust
+residue is **two decision motifs** (conditional→choice; knowledge→resolution) plus one collocation,
+isolated — fully consistent with X/Z (collapse), R (deed→recompense survives elsewhere), and P
+(non-predictive). The Quran robustly links *if→choose* and *know→judge*; what is actually decided stays
+the unknown referential content.
+
+---
+
+## Phase Φ — Counterfactual Quran Discovery Engine
+
+Measures **selection**, not structure: given the discovered constraints, how large is the space of
+alternative Quran-like texts, and how typical is the actual one? Reframes Ψ's ~80% residual as the
+geometry of choice. Never evaluates truth/theology/revelation/origin — only selection/information/
+alternatives. (Alternative counts computed **analytically/exactly** as typical-set 2^(N·H), not
+Monte-Carlo.)
+
+- 8 data products + manifest. Constraint set from Phase-11+ survivors; max-entropy alternative space;
+  selection pressure on two axes (co-occurrence FORM vs lexical IDENTITY); typicality via 1000 generated
+  frequency-valid alternatives
+- **RESULT — weakly-constrained free selection:**
+  - **alternative space ≈ 2^377,803** (frequency-valid; uniform 2^474,654) — astronomically large
+  - **frequency** reduces the uniform per-draw choice by **20.4%**; **structure** reduces lexical-identity
+    freedom by **0 generalizable bits** (Phase P)
+  - **two axes (key nuance):** the actual Quran is **lexically TYPICAL** (specific words = ordinary draw
+    from its own frequencies) but **structurally EXTREME** — z ≈ 306 more clustered than frequency-random
+    text. The structural extremity is just *coherence* (the property of any real text vs word-salad),
+    real (Phase 17) but non-generalizable (Phase P); it constrains co-occurrence FORM, not word IDENTITY
+  - **Q-answers:** Q1 ~2^377,803 · Q2 form strongly / identity weakly constrained · Q3 lexically typical,
+    structurally extreme · Q4 constraints explain lexical choices **NO** · Q5 ~8.50 bits/draw (~80%) free
+    · Q6 **TYPE_B weakly-constrained selection** · Q7 the precise two-axis statement
+  - **choice-residual = Phase Ψ residual:** the irreducible 80% IS the free lexical choice the constraints
+    do not determine
+- Builder: `scripts/build_counterfactual.py`; Validator: `scripts/validate_counterfactual.py` (48 checks,
+  byte-identical rebuild). Reports: `constraint-inventory-report.md`, `alternative-space-report.md`,
+  `selection-pressure-report.md`, `rare-choice-report.md`, `local-counterfactual-report.md`,
+  `global-counterfactual-report.md`, `choice-residual-report.md`, `selection-classification-report.md`,
+  `phase-phi-final-report.md`
+
+Counterfactual verdict (selection geometry): the discovered constraints define an astronomically large
+space (~2^377,803) of coherent alternative texts; the actual Quran is a **typical** member on lexical
+identity (a coherent outlier only vs random word-salad); the constraints do **NOT** explain its specific
+word choices — ~80% of the identity choice is free (weakly-constrained selection, TYPE_B). Monad
+quantifies how much choice remained and how coherent the text is, but cannot derive which words were
+chosen — and says nothing about why.
 
 ---
 
@@ -1231,6 +1311,8 @@ python3 scripts/build_self_methodology.py && python3 scripts/validate_self_metho
 python3 scripts/build_numerics.py        && python3 scripts/validate_numerics.py        --rebuild
 python3 scripts/build_explanation_boundary.py && python3 scripts/validate_explanation_boundary.py --rebuild
 python3 scripts/build_residual_nature.py && python3 scripts/validate_residual_nature.py --rebuild
+python3 scripts/build_counterfactual.py && python3 scripts/validate_counterfactual.py --rebuild
+python3 scripts/build_decision_architecture.py && python3 scripts/validate_decision_architecture.py --rebuild
 ```
 
 ---

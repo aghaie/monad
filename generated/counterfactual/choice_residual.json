@@ -1,0 +1,9 @@
+{
+ "choice_residual_bits_per_draw": 8.503144,
+ "choice_residual_total_bits": 377803.181437,
+ "comparison_to_psi": "Phase Ψ found ~80% irreducible lexical residual; Phase Φ shows that residual IS the free choice within the (weak, frequency-dominated) constraints — ~8.50 bits/draw of lexical freedom that the discovered structure does not reduce",
+ "finding": "after ALL discovered constraints, ~8.50 bits/draw of lexical choice remain free (~80% of the uniform choice) — the constraints do not derive the actual choices",
+ "fraction_of_uniform_choice_remaining": 0.796082,
+ "method": "counterfactual-discovery-1.0",
+ "structural_constraints_reduce_residual_by": 0.0
+}

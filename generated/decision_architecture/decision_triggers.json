@@ -1,0 +1,89 @@
+{
+ "method": "decision-architecture-1.0",
+ "net_order": [
+  {
+   "net": 435.0,
+   "node": "condition"
+  },
+  {
+   "net": 47.0,
+   "node": "conflict"
+  },
+  {
+   "net": -4.0,
+   "node": "evaluation"
+  },
+  {
+   "net": -4.0,
+   "node": "priority"
+  },
+  {
+   "net": -13.0,
+   "node": "uncertainty"
+  },
+  {
+   "net": -36.0,
+   "node": "consequence"
+  },
+  {
+   "net": -42.0,
+   "node": "resolution"
+  },
+  {
+   "net": -85.0,
+   "node": "choice"
+  },
+  {
+   "net": -123.0,
+   "node": "knowledge"
+  },
+  {
+   "net": -175.0,
+   "node": "action"
+  }
+ ],
+ "triggers_into_action": [
+  {
+   "dir": 0.545012,
+   "from": "choice",
+   "support": 411
+  },
+  {
+   "dir": 0.614583,
+   "from": "condition",
+   "support": 384
+  },
+  {
+   "dir": 0.57265,
+   "from": "consequence",
+   "support": 117
+  },
+  {
+   "dir": 0.6,
+   "from": "conflict",
+   "support": 80
+  },
+  {
+   "dir": 0.546875,
+   "from": "priority",
+   "support": 64
+  },
+  {
+   "dir": 0.559322,
+   "from": "evaluation",
+   "support": 59
+  },
+  {
+   "dir": 0.607843,
+   "from": "uncertainty",
+   "support": 51
+  }
+ ],
+ "triggers_into_condition": [
+  {
+   "dir": 0.528302,
+   "from": "conflict",
+   "support": 159
+  }
+ ]
+}
