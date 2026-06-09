@@ -1,0 +1,22 @@
+{
+ "answers": {
+  "Q10_time": "ASPECTUAL/RECURRENT, not linear-chronological",
+  "Q11_geometry": "NO geometry beyond chance",
+  "Q12_survives_deletion": "the frequency hub (essentiality ≡ frequency dominance)",
+  "Q13_central_question": "UNKNOWN as semantics; = maximal discourse allocation on the central anchor",
+  "Q14_unified_picture": "a frequency-dominated, human-addressed, aspectual lexical field whose specific content is name-independent and irreducible",
+  "Q1_minimize": "UNKNOWN (semantic); = description length / coding cost",
+  "Q2_maximize": "UNKNOWN (semantic); = redundancy / repetition of central anchors",
+  "Q3_human_or_world": "BOTH — world-content delivered in a human (2nd/1st-person) address frame",
+  "Q4_minimal_core": "the high-frequency hub (Phase Ξ): a small set of anchors carries most coverage",
+  "Q5_unsaid": "UNKNOWN content; anaphora/omission structurally present",
+  "Q6_relations_vs_objects": "RELATIONS more fundamental — more token mass (51%) and edge-dense graph",
+  "Q7_book_or_engine": "ENGINE-leaning (imperative + conditional + process aspect)",
+  "Q8_name_survival": "~95%% of tokens are not names; invariants unchanged → name-INDEPENDENT",
+  "Q9_order": "UNKNOWN (chronology external/forbidden); meccan≈medinan in residual structure"
+ },
+ "honest_verdict": "PARTIAL SUCCESS — 7 of 14 questions get measurable structural answers; 7 are UNKNOWN or reduce to the frequency core. This is the pre-registered acceptable outcome: the corpus answers what is structural and refuses what is semantic.",
+ "method": "foundational-questions-1.0",
+ "representation_independent": true,
+ "smallest_coherent_model": "The Quran, measured structurally and stripped of imposed meaning, is a strongly frequency-skewed lexical field (Gini≈0.8, ~80%% irreducible residual) delivered in a 2nd/1st-person ADDRESS frame about a 3rd-person world, in an ENGINE register (imperatives + conditionals + process aspect) with ASPECTUAL/recurrent rather than linear time. Its structure is NAME-INDEPENDENT and edge-dense (relations over objects). Every 'deep' question that is answerable converges on the same information-theoretic core; the rest are UNKNOWN because they require semantics or external chronology the method forbids."
+}

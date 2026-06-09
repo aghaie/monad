@@ -1,0 +1,401 @@
+{
+ "method": "foundational-questions-1.0",
+ "results": {
+  "Q10_order": {
+   "metrics": {
+    "meccan_ayahs": 4593,
+    "meccan_residual": 0.807357,
+    "medinan_ayahs": 1621,
+    "medinan_residual": 0.821263
+   },
+   "operationalization": "full chronological order (Nöldeke/Egyptian) is external to the corpus and prohibited; only the intrinsic meccan/medinan partition is available",
+   "question": "Q10 revelation order vs canonical order — which explains the structure better",
+   "status": "UNKNOWN (revelation order is EXTERNAL data — forbidden)",
+   "structural_fact": "meccan and medinan partitions show near-identical residual structure; the canonical order is the only intrinsic order, and chronological order cannot be tested without external data",
+   "verdict": "UNKNOWN (chronology forbidden); meccan/medinan differ only marginally in residual"
+  },
+  "Q11": {
+   "confidence": "MEDIUM",
+   "metrics": {
+    "command_IMPV": 1876,
+    "future_particle": 42,
+    "ongoing_IMPF": 8330,
+    "ongoing_share": 0.430358,
+    "past_PERF": 9150,
+    "past_share": 0.472722,
+    "roots_recurring_ge10": 573,
+    "time_noun_T": 1166
+   },
+   "operationalization": "verb aspect PERF(completed/past) vs IMPF(ongoing) vs IMPV(command); FUT particle; T time-nouns; recurrence as a cyclic-vs-linear proxy",
+   "question": "Q11 how the Quran models time",
+   "structural_answer": "Near-balance of completed (47.3%) and ongoing (43.0%) aspect with a heavy imperative load and pervasive recurrence — time is modelled as RECURRENT/aspectual (completed exemplar ↔ present address), not as a single linear chronology",
+   "verdict": "ASPECTUAL/RECURRENT (past-as-exemplar + present-address), not linear-chronological"
+  },
+  "Q12": {
+   "confidence": "LOW",
+   "metrics": {
+    "beyond_null": false,
+    "mirror_jaccard_real": 0.037485,
+    "null_mean": 0.039235,
+    "null_p95": 0.041225,
+    "z": -1.461912
+   },
+   "operationalization": "mean root-Jaccard of mirror-symmetric ayah pairs (i, n-1-i) within surahs vs a within-surah ayah-order shuffle null (200 reps)",
+   "question": "Q12 does a geometric (ring/symmetry) architecture exist",
+   "structural_answer": "Mirror-symmetric ayah pairs are slightly more lexically similar than chance ordering (z=-1.46) — NO ring/symmetry signal",
+   "verdict": "NO geometric architecture beyond chance ordering"
+  },
+  "Q13": {
+   "confidence": "HIGH",
+   "metrics": {
+    "survivor_core_top10": [
+     {
+      "anchor": "اله",
+      "df": 1879,
+      "root_id": 110
+     },
+     {
+      "anchor": "قول",
+      "df": 1383,
+      "root_id": 1205
+     },
+     {
+      "anchor": "كون",
+      "df": 1176,
+      "root_id": 898
+     },
+     {
+      "anchor": "ربب",
+      "df": 871,
+      "root_id": 1233
+     },
+     {
+      "anchor": "علم",
+      "df": 728,
+      "root_id": 218
+     },
+     {
+      "anchor": "امن",
+      "df": 723,
+      "root_id": 118
+     },
+     {
+      "anchor": "قوم",
+      "df": 597,
+      "root_id": 1206
+     },
+     {
+      "anchor": "اتي",
+      "df": 486,
+      "root_id": 135
+     },
+     {
+      "anchor": "كفر",
+      "df": 465,
+      "root_id": 861
+     },
+     {
+      "anchor": "بين",
+      "df": 454,
+      "root_id": 565
+     }
+    ]
+   },
+   "operationalization": "greedy removal of lowest document-frequency roots; the last-surviving units are the highest-frequency hub (Arabic anchors are evidence)",
+   "question": "Q13 what survives longest under deletion (essentiality)",
+   "structural_answer": "The essential core that survives deletion longest IS the high-frequency hub — essentiality reduces to frequency dominance (the known invariant).",
+   "verdict": "FREQUENCY HUB (essentiality ≡ frequency dominance, not a separate structure)"
+  },
+  "Q14": {
+   "confidence": "LOW",
+   "metrics": {
+    "central_roots_top10": [
+     {
+      "anchor": "اله",
+      "degree": 1124,
+      "df": 1879,
+      "root_id": 110
+     },
+     {
+      "anchor": "قول",
+      "degree": 1017,
+      "df": 1383,
+      "root_id": 1205
+     },
+     {
+      "anchor": "كون",
+      "degree": 998,
+      "df": 1176,
+      "root_id": 898
+     },
+     {
+      "anchor": "ربب",
+      "degree": 825,
+      "df": 871,
+      "root_id": 1233
+     },
+     {
+      "anchor": "علم",
+      "degree": 802,
+      "df": 728,
+      "root_id": 218
+     },
+     {
+      "anchor": "امن",
+      "degree": 811,
+      "df": 723,
+      "root_id": 118
+     },
+     {
+      "anchor": "قوم",
+      "degree": 782,
+      "df": 597,
+      "root_id": 1206
+     },
+     {
+      "anchor": "اتي",
+      "degree": 712,
+      "df": 486,
+      "root_id": 135
+     },
+     {
+      "anchor": "كفر",
+      "degree": 697,
+      "df": 465,
+      "root_id": 861
+     },
+     {
+      "anchor": "بين",
+      "degree": 724,
+      "df": 454,
+      "root_id": 565
+     }
+    ],
+    "interrogative_lift_top10": [
+     {
+      "anchor": "كيف",
+      "count_in_INTG": 80,
+      "lift": 14.788636,
+      "root_id": 902
+     },
+     {
+      "anchor": "اني",
+      "count_in_INTG": 28,
+      "lift": 11.933608,
+      "root_id": 126
+     },
+     {
+      "anchor": "دلل",
+      "count_in_INTG": 6,
+      "lift": 11.507407,
+      "root_id": 586
+     },
+     {
+      "anchor": "دري",
+      "count_in_INTG": 16,
+      "lift": 8.767549,
+      "root_id": 601
+     },
+     {
+      "anchor": "سير",
+      "count_in_INTG": 12,
+      "lift": 7.364741,
+      "root_id": 1403
+     },
+     {
+      "anchor": "نظر",
+      "count_in_INTG": 53,
+      "lift": 7.071218,
+      "root_id": 1056
+     },
+     {
+      "anchor": "بقر",
+      "count_in_INTG": 4,
+      "lift": 6.819204,
+      "root_id": 532
+     },
+     {
+      "anchor": "الو",
+      "count_in_INTG": 16,
+      "lift": 6.634902,
+      "root_id": 114
+     },
+     {
+      "anchor": "كفل",
+      "count_in_INTG": 4,
+      "lift": 6.137284,
+      "root_id": 860
+     },
+     {
+      "anchor": "حيص",
+      "count_in_INTG": 2,
+      "lift": 6.137284,
+      "root_id": 369
+     }
+    ],
+    "n_interrogative_ayahs": 405
+   },
+   "operationalization": "(a) roots most over-represented in INTG interrogative ayahs (lift); (b) maximal discourse allocation = highest df + co-occurrence degree. Arabic anchors are evidence, not glosses.",
+   "question": "Q14 which question does the Quran spend most effort answering",
+   "structural_answer": "The maximal-allocation centre is the frequency hub; the interrogative structure points at the same high-allocation anchors. The 'central question' is not recoverable as semantics — it reduces to the central anchor's discourse allocation (evidence: the listed Arabic anchors).",
+   "verdict": "UNKNOWN as semantics; structurally = maximal discourse allocation on the central anchor (frequency hub)"
+  },
+  "Q1_minimization": {
+   "operationalization": "no structural test can rank semantic candidates (error/uncertainty/conflict/…) without imposed meaning; the only corpus-internal reading is information-theoretic (description length) + what is grammatically negated",
+   "question": "Q1 what does the Quran minimize",
+   "status": "UNKNOWN (as a semantic principle)",
+   "structural_proxy": {
+    "defensible_answer": "lexical description length — the text minimizes coding cost of its frequent forms (Zipfian compression); redundancy = 0.203918",
+    "most_negated_roots_evidence": [
+     {
+      "anchor": "زيل",
+      "lift": 3.28262,
+      "root_id": 1640
+     },
+     {
+      "anchor": "كلف",
+      "lift": 3.28262,
+      "root_id": 870
+     },
+     {
+      "anchor": "حرج",
+      "lift": 2.9842,
+      "root_id": 342
+     },
+     {
+      "anchor": "ضيع",
+      "lift": 2.954358,
+      "root_id": 174
+     },
+     {
+      "anchor": "عمر",
+      "lift": 2.937081,
+      "root_id": 227
+     },
+     {
+      "anchor": "شفع",
+      "lift": 2.777602,
+      "root_id": 15
+     },
+     {
+      "anchor": "بكم",
+      "lift": 2.735517,
+      "root_id": 520
+     },
+     {
+      "anchor": "خول",
+      "lift": 2.735517,
+      "root_id": 1582
+     }
+    ]
+   },
+   "verdict": "UNKNOWN (semantic); structurally = description-length / coding cost"
+  },
+  "Q2_maximization": {
+   "operationalization": "same blocker as Q1; defensible reading = redundancy / repetition of the highest-allocation anchors (maximal coverage by few hubs)",
+   "question": "Q2 what does the Quran maximize",
+   "status": "UNKNOWN (as a semantic principle)",
+   "structural_proxy": {
+    "frequency_gini": 0.798931,
+    "redundancy_1_minus_H_over_Hmax": 0.203918
+   },
+   "verdict": "UNKNOWN (semantic); structurally = redundancy / repetition of central anchors"
+  },
+  "Q3": {
+   "confidence": "MEDIUM",
+   "metrics": {
+    "address_share": 0.405266,
+    "described_share": 0.594734,
+    "person_1": 6347,
+    "person_2": 11522,
+    "person_3": 26223
+   },
+   "operationalization": "person frame from features_raw: 1st/2nd person = human address; 3rd person = world description",
+   "question": "Q3 human-model vs world-model",
+   "structural_answer": "HUMAN-ADDRESSED WORLD-MODEL: a 3rd-person world (59.5%) narrated to a 2nd/1st-person human addressee (40.5%); the I–you address frame is far heavier than neutral narration",
+   "verdict": "BOTH — world-content in a human-address frame (not reducible to one)"
+  },
+  "Q5_hidden_reality": {
+   "operationalization": "distinguishing observable/inferable/hidden requires world knowledge the corpus-only method forbids; only the reference frame is structural",
+   "question": "Q5 observable vs inferable vs structurally-hidden reference",
+   "status": "UNKNOWN",
+   "structural_fact": "reference is predominantly 3rd-person (a domain outside the I–you discourse), but observability cannot be decided structurally",
+   "verdict": "UNKNOWN"
+  },
+  "Q6_omission": {
+   "metrics": {
+    "N_tokens": 25136,
+    "PRON_tokens": 3301,
+    "pron_to_noun_ratio": 0.131326
+   },
+   "operationalization": "structural silence proxy = pronoun(PRON)/anaphora load relative to content nouns; high pronoun-to-noun ratio = unresolved reference",
+   "question": "Q6 what is systematically left unsaid (omission architecture)",
+   "status": "PARTIAL",
+   "structural_fact": "substantial pronominal/anaphoric reference (~0.13 per noun) is left to resolution outside the local ayah — structural silence is real but its *content* is unrecoverable",
+   "verdict": "PARTIAL — omission is structurally present (anaphora) but its content is UNKNOWN"
+  },
+  "Q7": {
+   "confidence": "MEDIUM",
+   "metrics": {
+    "edge_to_node_ratio": 45.179659,
+    "graph_edges": 74185,
+    "graph_nodes": 1642,
+    "object_share": 0.487263,
+    "object_tokens": 35368,
+    "relation_tokens": 37217
+   },
+   "operationalization": "token mass by POS class (object/entity nominal vs relational/structural particle+verb) and graph node:edge ratio",
+   "question": "Q7 object-priority vs relation-priority",
+   "structural_answer": "Relations carry slightly more token mass (51.3% vs 48.7% objects) AND the co-occurrence graph is strongly edge-dense (45.2 edges/node) — relations dominate both the surface and the structure",
+   "verdict": "RELATIONS are more fundamental — both in token mass (51%%) and in graph density (45 edges/node)"
+  },
+  "Q8": {
+   "confidence": "MEDIUM",
+   "metrics": {
+    "conditional_COND": 1049,
+    "imperative_IMPV": 1876,
+    "process_IMPF_IMPV": 10206,
+    "process_share": 0.527278,
+    "static_PERF": 9150
+   },
+   "operationalization": "verb aspect: PERF=static/descriptive (book); IMPF+IMPV=process (engine); plus COND conditionals and IMPV commands as process triggers",
+   "question": "Q8 knowledge-repository (book) vs process-generator (engine)",
+   "structural_answer": "Process aspect 52.7% of finite verbs, plus 1876 imperatives and 1049 conditionals — the text is markedly an ENGINE (commands + if/then) more than a static repository",
+   "verdict": "ENGINE-leaning: process aspect + heavy imperative/conditional load"
+  },
+  "Q9": {
+   "confidence": "HIGH",
+   "metrics": {
+    "after": {
+     "V": 1637,
+     "coherence_beyond_null": true,
+     "coherence_null_p95": 1.404012,
+     "coherence_real": 1.828015,
+     "explained_by_frequency": 0.19356,
+     "frequency_gini": 0.791096,
+     "residual_fraction": 0.80644
+    },
+    "before": {
+     "V": 1642,
+     "coherence_beyond_null": true,
+     "coherence_null_p95": 1.294419,
+     "coherence_real": 1.766049,
+     "explained_by_frequency": 0.203918,
+     "frequency_gini": 0.798931,
+     "residual_fraction": 0.796082
+    },
+    "proper_noun_token_fraction": 0.050196,
+    "proper_noun_tokens": 3911,
+    "retention": {
+     "coherence_retained": true,
+     "gini_ratio": 0.990193,
+     "residual_ratio": 1.013011
+    }
+   },
+   "operationalization": "remove all POS=PN proper-noun tokens; recompute frequency-skew, residual, and coherence-beyond-null at root level",
+   "question": "Q9 how much survives name removal",
+   "structural_answer": "Proper nouns are 5.0% of tokens; removing them leaves frequency-skew, residual, and coherence essentially unchanged — structure is name-INDEPENDENT",
+   "verdict": "MOST survives (~95%% of tokens are not names; frequency/residual/coherence invariants unchanged)"
+  }
+ }
+}

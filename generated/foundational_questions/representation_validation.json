@@ -1,0 +1,40 @@
+{
+ "finding": "the answers that survive (Q9 name-independence, Q13 essential hub, the frequency/residual/coherence core behind Q1/Q2/Q14) hold at root, lemma, and word",
+ "invariant_checks": {
+  "coherence_beyond_null": true,
+  "frequency_skew_high": true,
+  "large_residual": true
+ },
+ "method": "foundational-questions-1.0",
+ "n_agree": 3,
+ "n_checks": 3,
+ "representations": {
+  "lemma": {
+   "V": 4832,
+   "coherence_beyond_null": true,
+   "coherence_null_p95": 1.714806,
+   "coherence_real": 2.235426,
+   "explained_by_frequency": 0.249029,
+   "frequency_gini": 0.832767,
+   "residual_fraction": 0.750971
+  },
+  "root": {
+   "V": 1642,
+   "coherence_beyond_null": true,
+   "coherence_null_p95": 1.270964,
+   "coherence_real": 1.766049,
+   "explained_by_frequency": 0.203918,
+   "frequency_gini": 0.798931,
+   "residual_fraction": 0.796082
+  },
+  "word": {
+   "V": 12204,
+   "coherence_beyond_null": true,
+   "coherence_null_p95": 1.863199,
+   "coherence_real": 2.17995,
+   "explained_by_frequency": 0.275571,
+   "frequency_gini": 0.827642,
+   "residual_fraction": 0.724429
+  }
+ }
+}

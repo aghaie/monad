@@ -1,0 +1,34 @@
+{
+ "convergence_clusters": {
+  "aspectual_recurrent_time": [
+   "Q11"
+  ],
+  "frequency_hub_core": [
+   "Q1",
+   "Q2",
+   "Q13",
+   "Q14"
+  ],
+  "name_independent_invariant_core": [
+   "Q9"
+  ],
+  "person_address_frame": [
+   "Q3",
+   "Q5"
+  ],
+  "relational_structure": [
+   "Q7",
+   "Q8"
+  ],
+  "unanswerable_without_external_or_semantics": [
+   "Q5",
+   "Q6",
+   "Q10"
+  ],
+  "weak_geometry": [
+   "Q12"
+  ]
+ },
+ "finding": "Most 'deep questions' (Q1,Q2,Q13,Q14) converge on ONE structure — frequency/hub dominance — exactly the information-theoretic core that survived Phase Ξ. A small set is genuinely structural and distinct (Q3 person frame, Q7/Q8 relational, Q9 name-independence, Q11 aspect). Q5/Q6/Q10 are blocked (semantics/external).",
+ "method": "foundational-questions-1.0"
+}

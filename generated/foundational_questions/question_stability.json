@@ -1,0 +1,9 @@
+{
+ "method": "foundational-questions-1.0",
+ "note": "census ratios (Q3/Q7/Q8/Q11) are exact and need no CI; the inferential ring statistic (Q12) is stable under 80%% ayah subsampling",
+ "q12_mirror_jaccard_subsample_ci95": [
+  0.036459,
+  0.041208
+ ],
+ "q12_stable": true
+}

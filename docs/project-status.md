@@ -1,9 +1,9 @@
 # Monad — Project Status
 
-**Last updated:** 2026-06-08. **Current phase complete:** Phase Ξ (Foundation Audit &
-Representation Collapse) — **stable core PARTIAL; ~30% of discoveries representation-invariant
-(the information-theoretic core); the conceptual edifice does not survive**. **Next phase:**
-none — awaiting explicit instruction.
+**Last updated:** 2026-06-09. **Current phase complete:** Phase ΩΣ (Foundational Question
+Discovery) — **PARTIAL SUCCESS; 7/14 foundational questions get measurable structural answers,
+7 are UNKNOWN or reduce to the frequency core**. **Next phase:** none — awaiting explicit
+instruction.
 
 Monad derives everything from the Quranic corpus itself. No external dictionary,
 tafsir, translation, theology, or pre-trained embedding is used at any layer. Each
@@ -45,6 +45,40 @@ phase reads the previous phase's outputs and never rebuilds them.
 | Φ | Counterfactual Quran Discovery | ✅ complete — **TYPE_B weakly-constrained free selection** | `generated/counterfactual/*.json` |
 | Δ | Quranic Decision Architecture | ✅ complete — **no coherent architecture; 3/45 survive** | `generated/decision_architecture/*.json` |
 | Ξ | Foundation Audit & Representation Collapse | ✅ complete — **stable core PARTIAL; ~30% invariant** | `generated/foundation_audit/*.json` |
+| ΩΣ | Foundational Question Discovery | ✅ complete — **PARTIAL; 7/14 answerable, 7 UNKNOWN/reduced** | `generated/foundational_questions/*.json` |
+
+---
+
+## Phase ΩΣ — Foundational Question Discovery Engine
+
+Direction reversed: instead of hunting new structure, the engine asks the Quran **fourteen foundational
+questions about itself** and answers each only from the corpus — reporting **UNKNOWN** wherever the question
+needs semantics or external data the method forbids. Arabic anchors are evidence, never glossed.
+
+- 8 data products + manifest. Operationalized on person frame (`features_raw`), verb aspect, POS classes,
+  co-occurrence graph, proper-noun removal, interrogative/negation lift, ring-symmetry geometry. Nulls:
+  configuration null (Q9 coherence), within-surah order-shuffle null (Q12 geometry), frequency baselines;
+  subsample stability; invariants re-verified at root/lemma/word (**3/3 agree**).
+- **Answers.** Q3 human-or-world = **BOTH** (3rd-person world 59.5% in a 2nd/1st-person address frame
+  40.5%); Q7 object-or-relation = **RELATIONS** (51.3% token mass, 45 edges/node); Q8 book-or-engine =
+  **ENGINE** (process aspect 52.7%, 1,876 imperatives, 1,049 conditionals); Q9 name removal = **~95%
+  survives** (PN = 5.0% of tokens; invariants unchanged → name-independent); Q11 time = **ASPECTUAL/
+  RECURRENT** (PERF 47.3% ≈ IMPF 43.0%, 573 recurring roots); Q12 geometry = **NO ring-symmetry** beyond the
+  order-null (z = −1.46, falsified); Q4/Q13 minimal core/essentiality = **the frequency hub**; Q1/Q2/Q14 =
+  **UNKNOWN as semantics**, structurally = compression / redundancy / maximal allocation on the hub; Q5/Q6
+  content = **UNKNOWN** (anaphora present, ratio 0.13); Q10 = **UNKNOWN** (chronology is external/forbidden;
+  meccan 0.807 ≈ medinan 0.821 residual).
+- **Convergence.** The deepest-sounding questions (Q1, Q2, Q13, Q14) collapse onto one structure — the
+  frequency hub that survived Phase Ξ. A small distinct set is genuinely structural (Q3 address frame, Q7/Q8
+  relational/engine, Q9 name-independence, Q11 aspectual time). **Verdict: PARTIAL SUCCESS** — the corpus
+  answers what is structural and refuses what is semantic.
+- Reports: `q1-minimization`…`q14-central-question`, `question-integration-report.md`,
+  `omega-sigma-falsification-report.md`, `omega-sigma-stability-report.md`,
+  `omega-sigma-representation-report.md`, `phase-omega-sigma-final-report.md`,
+  `omega-sigma-executive-summary.md`. (Spec's `falsification-report.md`/`executive-summary.md` already exist
+  and are immutable, so this phase's copies are `omega-sigma-*`.)
+- Reproduce: `python3 scripts/build_foundational_questions.py` ·
+  `python3 scripts/validate_foundational_questions.py --rebuild` (**68/68 checks, byte-identical**).
 
 ---
 

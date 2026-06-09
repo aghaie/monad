@@ -1,0 +1,40 @@
+{
+ "constants": {
+  "K_NULL": 20,
+  "N_SUB": 200,
+  "RING_NULL": 200,
+  "SEED": 20260609,
+  "SUB_FRAC": 0.8
+ },
+ "input_sha256": {
+  "monad.db": "397fdc1046dd49c7509d8ff50a1bef23b1dce9d2c19c9d6555ee9df81d075d4c"
+ },
+ "method": "foundational-questions-1.0",
+ "output_bytes": {
+  "evidence_inventory.json": 798,
+  "foundational_model.json": 2263,
+  "question_falsification.json": 1524,
+  "question_formalization.json": 426,
+  "question_integration.json": 794,
+  "question_results.json": 13218,
+  "question_stability.json": 273,
+  "representation_validation.json": 1086
+ },
+ "prohibitions_observed": [
+  "no theology",
+  "no tafsir",
+  "no translation",
+  "no tradition",
+  "no interpretation",
+  "no external data",
+  "UNKNOWN is first-class",
+  "Arabic anchors are evidence not glosses",
+  "prior phases never rebuilt"
+ ],
+ "totals": {
+  "honest_verdict": "PARTIAL SUCCESS — 7 of 14 questions get measurable structural answers; 7 are UNKNOWN or reduce to the frequency core. This is the pre-registered acceptable outcome: the corpus answers what is structural and refuses what is semantic.",
+  "measurable": 7,
+  "representation_agreement": "3/3",
+  "unknown_or_reduced": 7
+ }
+}

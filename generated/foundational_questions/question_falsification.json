@@ -1,0 +1,42 @@
+{
+ "falsification": {
+  "Q11_census": {
+   "basis": "aspect census",
+   "survives": "EXACT (not falsifiable; descriptive fact)",
+   "test": "exact corpus census (not a co-occurrence inference)"
+  },
+  "Q12_geometry": {
+   "beyond_null": false,
+   "survives": false,
+   "test": "within-surah order-shuffle null",
+   "z": -1.461912
+  },
+  "Q14_intg_lift": {
+   "note": "lift>1 indicates over-representation vs frequency; the central-anchor claim is the frequency hub itself and is not a beyond-frequency finding",
+   "survives": "trivially (reduces to frequency)",
+   "test": "INTG-label shuffle null (reported lift is relative to df>=5 baseline)"
+  },
+  "Q3_census": {
+   "basis": "person census",
+   "survives": "EXACT (not falsifiable; descriptive fact)",
+   "test": "exact corpus census (not a co-occurrence inference)"
+  },
+  "Q7_census": {
+   "basis": "POS census",
+   "survives": "EXACT (not falsifiable; descriptive fact)",
+   "test": "exact corpus census (not a co-occurrence inference)"
+  },
+  "Q8_census": {
+   "basis": "aspect census",
+   "survives": "EXACT (not falsifiable; descriptive fact)",
+   "test": "exact corpus census (not a co-occurrence inference)"
+  },
+  "Q9_name_removal": {
+   "coherence_beyond_null": true,
+   "survives": true,
+   "test": "config-null coherence after name removal"
+  }
+ },
+ "method": "foundational-questions-1.0",
+ "summary": "Q9 (name-removal) and Q12 (ring) carry genuine null tests; Q3/Q7/Q8/Q11 are exact census facts; Q1/Q2/Q5/Q14-semantic collapse to frequency or UNKNOWN."
+}

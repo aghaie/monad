@@ -1,0 +1,22 @@
+{
+ "blocked_questions": {
+  "Q1": "semantic",
+  "Q10": "external chronology forbidden",
+  "Q2": "semantic",
+  "Q5": "semantic",
+  "Q6": "content-semantic (structure measurable)"
+ },
+ "measurable_questions": [
+  "Q3",
+  "Q7",
+  "Q8",
+  "Q9",
+  "Q11",
+  "Q12",
+  "Q13",
+  "Q14"
+ ],
+ "method": "foundational-questions-1.0",
+ "n_questions": 14,
+ "principle": "no theology/tafsir/tradition/interpretation; UNKNOWN is first-class"
+}
