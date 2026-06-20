@@ -336,3 +336,23 @@ core claim "the network of connections between verses interprets itself" now has
 real, measured, controlled support. This is the نتیجهٔ مطلوب.
 
 ---
+
+## 2026-06-20 — Phase L7: Global structure — suras are coherent network communities
+
+Built the global self-interpreting network on L6. Two products:
+- **Quran-by-Quran cross-reference map** (`crossref_index.json`): for each of
+  6,236 ayat, the verses that most explain it (rare-root idf-weighted). E.g.
+  2:255 (Āyat al-Kursī) → 7:97 / 8:43 / 25:47 / 30:23 / 37:102 (all cross-sura).
+- **Sura coherence** (falsifiable, 200-permutation null): intra-sura connection
+  weight 0.052 vs null 0.017 (max 0.0185), **p=0.005** → connections concentrate
+  within suras **~3× beyond chance** → suras are coherent communities of the
+  self-interpreting network.
+
+Honest caveat: raw hubs (2:282 the longest verse, 2:196, 4:102 …) are dominated
+by verse length, reported descriptively, not as an importance ranking.
+`validate_L7_global.py` 8/8, byte-identical re-run.
+
+Two independent, leakage-controlled positives now describe the network: verses
+explain one another (L6) + that structure organizes into coherent suras (L7).
+
+---

@@ -1,0 +1,178 @@
+{
+ "method": "L7-global-1.0",
+ "seed": 11,
+ "edge_roots_df_band": [
+  3,
+  40
+ ],
+ "ayat": 6236,
+ "weighted_pairs": 84477,
+ "sura_coherence": {
+  "question": "do connections concentrate within suras beyond chance?",
+  "intra_sura_weight_fraction": 0.0519,
+  "null_permuted_labels": {
+   "mean": 0.0168,
+   "sd": 0.0005,
+   "max": 0.0185
+  },
+  "p": 0.005,
+  "verdict": "suras are coherent communities"
+ },
+ "degree_distribution": {
+  "max": 266,
+  "median": 20,
+  "mean": 27.1
+ },
+ "hubs_most_connecting_verses": [
+  {
+   "ayah": "2:196",
+   "total_connection_weight": 1659.55,
+   "n_connections": 266
+  },
+  {
+   "ayah": "4:102",
+   "total_connection_weight": 1440.27,
+   "n_connections": 245
+  },
+  {
+   "ayah": "2:282",
+   "total_connection_weight": 1359.47,
+   "n_connections": 225
+  },
+  {
+   "ayah": "24:58",
+   "total_connection_weight": 1348.66,
+   "n_connections": 228
+  },
+  {
+   "ayah": "7:160",
+   "total_connection_weight": 1302.11,
+   "n_connections": 217
+  },
+  {
+   "ayah": "5:13",
+   "total_connection_weight": 1226.4,
+   "n_connections": 201
+  },
+  {
+   "ayah": "4:11",
+   "total_connection_weight": 1195.1,
+   "n_connections": 192
+  },
+  {
+   "ayah": "5:106",
+   "total_connection_weight": 1169.2,
+   "n_connections": 189
+  },
+  {
+   "ayah": "4:12",
+   "total_connection_weight": 1166.42,
+   "n_connections": 188
+  },
+  {
+   "ayah": "24:61",
+   "total_connection_weight": 1155.62,
+   "n_connections": 194
+  },
+  {
+   "ayah": "4:176",
+   "total_connection_weight": 1122.8,
+   "n_connections": 189
+  },
+  {
+   "ayah": "5:3",
+   "total_connection_weight": 1101.5,
+   "n_connections": 178
+  },
+  {
+   "ayah": "10:22",
+   "total_connection_weight": 1096.22,
+   "n_connections": 178
+  },
+  {
+   "ayah": "3:154",
+   "total_connection_weight": 1084.94,
+   "n_connections": 182
+  },
+  {
+   "ayah": "7:54",
+   "total_connection_weight": 1076.51,
+   "n_connections": 164
+  },
+  {
+   "ayah": "2:187",
+   "total_connection_weight": 1072.54,
+   "n_connections": 176
+  },
+  {
+   "ayah": "46:15",
+   "total_connection_weight": 1071.76,
+   "n_connections": 177
+  },
+  {
+   "ayah": "6:152",
+   "total_connection_weight": 1044.28,
+   "n_connections": 163
+  },
+  {
+   "ayah": "5:52",
+   "total_connection_weight": 986.6,
+   "n_connections": 180
+  },
+  {
+   "ayah": "22:5",
+   "total_connection_weight": 982.76,
+   "n_connections": 159
+  },
+  {
+   "ayah": "13:2",
+   "total_connection_weight": 977.19,
+   "n_connections": 154
+  },
+  {
+   "ayah": "5:6",
+   "total_connection_weight": 955.41,
+   "n_connections": 147
+  },
+  {
+   "ayah": "12:21",
+   "total_connection_weight": 948.93,
+   "n_connections": 170
+  },
+  {
+   "ayah": "7:137",
+   "total_connection_weight": 947.83,
+   "n_connections": 159
+  },
+  {
+   "ayah": "22:18",
+   "total_connection_weight": 940.76,
+   "n_connections": 151
+  },
+  {
+   "ayah": "4:6",
+   "total_connection_weight": 934.36,
+   "n_connections": 160
+  },
+  {
+   "ayah": "33:50",
+   "total_connection_weight": 931.15,
+   "n_connections": 158
+  },
+  {
+   "ayah": "47:4",
+   "total_connection_weight": 912.81,
+   "n_connections": 160
+  },
+  {
+   "ayah": "24:43",
+   "total_connection_weight": 910.95,
+   "n_connections": 146
+  },
+  {
+   "ayah": "2:259",
+   "total_connection_weight": 904.48,
+   "n_connections": 153
+  }
+ ]
+}
