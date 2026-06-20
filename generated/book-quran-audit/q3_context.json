@@ -1,0 +1,42 @@
+{
+  "window_chars": 2500,
+  "cited_verses": 34,
+  "co_cited_pairs": 3,
+  "test3_set_coherence": {
+    "observed_mean_pairwise_weight": 3.4399,
+    "random_sets_mean": 0.8255,
+    "ratio": 4.17,
+    "p_value": 0.0003,
+    "interpretation": "are the book's 34 chosen verses more lexically coherent than a random 34?"
+  },
+  "test1_window_sweep": {
+    "2500": {
+      "pairs": 3,
+      "obs": 10.172,
+      "ratio_vs_quran_random": 12.06
+    },
+    "6000": {
+      "pairs": 7,
+      "obs": 8.022,
+      "ratio_vs_quran_random": 9.51
+    },
+    "12000": {
+      "pairs": 11,
+      "obs": 7.027,
+      "ratio_vs_quran_random": 8.33
+    }
+  },
+  "test1_root_coherence": {
+    "observed_mean_shared_rare_root_weight": 10.1716,
+    "baselineA_cited_random_mean": 3.4435,
+    "baselineB_quran_random_mean": 0.8432,
+    "ratio_vs_A": 2.95,
+    "ratio_vs_B": 12.06,
+    "p_vs_A": 0.0205,
+    "p_vs_B": 0.0005
+  },
+  "test2_network_adjacency": {
+    "observed_adjacent_fraction": 0.3333,
+    "baseline_random_cited_fraction": 0.01
+  }
+}
