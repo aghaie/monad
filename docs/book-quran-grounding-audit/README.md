@@ -24,6 +24,23 @@ into `generated/book-quran-audit/source_from_repo/`. That repo audited *logical 
 
 See `Q0-Q1-citation-fidelity.md`, `Q2-grounding-coverage.md`, `Q3-contextual-fidelity.md`.
 
+### Part II — the CFS claim (phases F1–F5)
+
+The author further claims the book **is a consistent formal axiomatic system (CFS) because
+the Quran is one and the book references the Quran**. Tested in `F1-F5-CFS-claim-audit.md`:
+
+| leg | verdict |
+|-----|---------|
+| Quran is **consistent** | ✅ SUPPORTED (index 0.95, 0 surviving contradictions / 6832 relations) |
+| Quran is **axiomatic** | 🟡 PARTIAL — proto-axiomatic (90% irreducible residue; needs 57% of concepts for 80%) |
+| Quran is **formal** | ❌ NO — 31/100, no language/inference/calculus, no arithmetic encoding |
+| book **inherits** CFS by reference | ❌ NOT SUPPORTED — invalid inference; book's load-bearing axioms (free will, consistency, property) are exogenous to the Quran's kernel (secular axioms 0/6 on a Quran hub) |
+
+**Bottom line:** the Quran is a *consistent, proto-formal, axiom-structured* system; the
+book faithfully mirrors that same type (also proto-formal, also consistent) and genuinely
+anchors its theological axioms (5/7) on the Quran's hubs — but *"formal"* over-states it for
+both, and CFS-ness is not inherited by citation.
+
 ## Overall verdict
 
 The book's claim is **substantially honest, with one precise correction**:

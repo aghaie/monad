@@ -1,0 +1,218 @@
+{
+  "claim": "Quran is CFS  AND  book references Quran  =>  book is CFS",
+  "testA_logical_validity": {
+    "valid": false,
+    "reason": "Invalid form. 'X references / is consistent-with a consistent system S' does not entail 'X is consistent' or 'X is formal'. Consistency and formality are properties of a system's OWN axioms+rules, not inherited by citation. Adding any axiom to S can break consistency; quoting S confers nothing. (Reference is not entailment; the conclusion does not follow.)"
+  },
+  "testB_structural_overlap": {
+    "quran_generative_hub_roots": [
+      "اتي",
+      "اجر",
+      "اخذ",
+      "اخر",
+      "اله",
+      "امر",
+      "امن",
+      "اهل",
+      "بعد",
+      "بغي",
+      "بني",
+      "بين",
+      "تبع",
+      "تحت",
+      "ترب",
+      "جري",
+      "جنف",
+      "جنن",
+      "جيا",
+      "حجج",
+      "حسن",
+      "خلد",
+      "خنزر",
+      "خنق",
+      "خيط",
+      "دخل",
+      "دنو",
+      "ذكو",
+      "رحم",
+      "رذل",
+      "رسل",
+      "رفث",
+      "زلم",
+      "سبل",
+      "سدس",
+      "سفر",
+      "سوا",
+      "صلح",
+      "صوب",
+      "صوم",
+      "ظلم",
+      "عذب",
+      "علق",
+      "علم",
+      "غسل",
+      "غوط",
+      "فدي",
+      "فرض",
+      "فضل",
+      "قوم",
+      "كفر",
+      "لمس",
+      "متع",
+      "مسح",
+      "مضغ",
+      "نصف",
+      "نكح",
+      "نهر",
+      "همد",
+      "وصي",
+      "يوم"
+    ],
+    "book_axioms": [
+      {
+        "axiom": "A-000001",
+        "label": "free will (ROOT axiom)",
+        "kind": "secular",
+        "nearest_roots": [],
+        "maps_to_quran_generative_hub": false
+      },
+      {
+        "axiom": "A-000002",
+        "label": "property from body",
+        "kind": "secular",
+        "nearest_roots": [
+          "ملك"
+        ],
+        "maps_to_quran_generative_hub": false
+      },
+      {
+        "axiom": "A-000003",
+        "label": "liberty needs divine grounding",
+        "kind": "bridge",
+        "nearest_roots": [
+          "اله"
+        ],
+        "maps_to_quran_generative_hub": true
+      },
+      {
+        "axiom": "A-000004",
+        "label": "Tawhid",
+        "kind": "theo",
+        "nearest_roots": [
+          "اله",
+          "وحد"
+        ],
+        "maps_to_quran_generative_hub": true
+      },
+      {
+        "axiom": "A-000005",
+        "label": "no compulsion in religion",
+        "kind": "theo",
+        "nearest_roots": [
+          "كره",
+          "دين"
+        ],
+        "maps_to_quran_generative_hub": false
+      },
+      {
+        "axiom": "A-000006",
+        "label": "resurrection",
+        "kind": "theo",
+        "nearest_roots": [
+          "بعث",
+          "قوم",
+          "يوم"
+        ],
+        "maps_to_quran_generative_hub": true
+      },
+      {
+        "axiom": "A-000007",
+        "label": "prophethood",
+        "kind": "theo",
+        "nearest_roots": [
+          "رسل",
+          "نبا"
+        ],
+        "maps_to_quran_generative_hub": true
+      },
+      {
+        "axiom": "A-000008",
+        "label": "property sovereignty (taslit)",
+        "kind": "bridge",
+        "nearest_roots": [
+          "ملك",
+          "سلط"
+        ],
+        "maps_to_quran_generative_hub": false
+      },
+      {
+        "axiom": "A-000009",
+        "label": "dignitary equality",
+        "kind": "theo",
+        "nearest_roots": [
+          "كرم",
+          "شعب"
+        ],
+        "maps_to_quran_generative_hub": false
+      },
+      {
+        "axiom": "A-000010",
+        "label": "accountability to God",
+        "kind": "theo",
+        "nearest_roots": [
+          "حسب",
+          "يوم"
+        ],
+        "maps_to_quran_generative_hub": true
+      },
+      {
+        "axiom": "A-000011",
+        "label": "finite & minimal axioms",
+        "kind": "secular",
+        "nearest_roots": [],
+        "maps_to_quran_generative_hub": false
+      },
+      {
+        "axiom": "A-000012",
+        "label": "internal consistency (Godel)",
+        "kind": "secular",
+        "nearest_roots": [],
+        "maps_to_quran_generative_hub": false
+      },
+      {
+        "axiom": "A-000013",
+        "label": "normative priority over science",
+        "kind": "secular",
+        "nearest_roots": [],
+        "maps_to_quran_generative_hub": false
+      },
+      {
+        "axiom": "A-000014",
+        "label": "theory primacy over data",
+        "kind": "secular",
+        "nearest_roots": [],
+        "maps_to_quran_generative_hub": false
+      },
+      {
+        "axiom": "A-000015",
+        "label": "Mahdism / terminal condition",
+        "kind": "theo",
+        "nearest_roots": [
+          "مهد",
+          "رسل"
+        ],
+        "maps_to_quran_generative_hub": true
+      }
+    ],
+    "theological_axioms_on_a_quran_hub": "5/7",
+    "secular_axioms_on_a_quran_hub": "0/6",
+    "root_axiom_free_will_on_quran_hub": false,
+    "finding": "The book's THEOLOGICAL axioms (Tawhid, prophethood, resurrection, accountability) sit on the Quran's own generative hubs — there the book really is Quran-anchored. But the book's ROOT axiom (free will) and its formal-system requirements (finite-axioms, consistency, theory-primacy, property=liberty) are EXOGENOUS to the Quran's generative kernel. The book is therefore a HYBRID system = Quran-derived theological content + imported secular-rational foundations, not 'the Quran's axiom system'."
+  },
+  "testC_where_defects_live": {
+    "quran_surviving_contradictions": 0,
+    "book_formal_status_own_audit": "Proto-Formal, 39/100; CIRC-001 critical circularity ('mysticism' defined as 'anti-liberty') — a book construct absent from the Quran.",
+    "implication": "The book's documented formal defects live in its OWN imported apparatus, not in the Quran. So the book cannot be said to inherit the Quran's consistency; it adds material, and the added material is exactly where its formal problems are."
+  },
+  "verdict": "NOT SUPPORTED. The inference is logically invalid, and structurally the book adds load-bearing axioms exogenous to the Quran's kernel, so it is a distinct system that must earn CFS status on its own — which, by its own audit and by F3, neither it nor the Quran attains in the strict 'formal' sense. The book DOES faithfully inherit the Quran's real type: consistent + proto-formal."
+}
