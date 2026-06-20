@@ -356,3 +356,23 @@ Two independent, leakage-controlled positives now describe the network: verses
 explain one another (L6) + that structure organizes into coherent suras (L7).
 
 ---
+
+## 2026-06-20 — Phase L8: Self-interpretation capstone — meanings are STABLE; real self-tafsir
+
+Two capstone products on the validated network:
+- **STABILITY** (512 roots, two independent corpus halves, 200-perm null):
+  self-derived concept neighbourhoods replicate Jaccard 0.119 vs mismatched null
+  0.012 (max 0.016), **p=0.005, ~10×** → the self-derived meanings are reliable,
+  not noise.
+- **SELF-TAFSIR**: real Quran-by-Quran cross-references — 2:255→7:97 (نوم/sleep),
+  24:35→7:137 (شرق/غرب/برك), 3:7→9:117 (زیغ), 17:1→27:8 (حول/برك), 96:1→2:228
+  (قرأ), 53:1→6:97 (نجم). Genuine conceptual links, zero external input.
+
+Completes the L0–L8 pipeline on the corrected (relational) foundation.
+
+**Honest arc:** L3 roots robust · L6 verses-explain-each-other strong · L7 suras
+coherent strong · L8 meanings stable strong — four independent, leakage-controlled
+positives. Negatives (honestly recorded): letters (L1), word-forms (L4), and
+name-anchoring (L2). `validate_L8_interpret.py` 8/8, byte-identical re-run.
+
+---

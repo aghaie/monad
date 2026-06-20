@@ -1,0 +1,222 @@
+{
+ "method": "L8-interpret-1.0",
+ "note": "for each verse, cross-sura verses that explain it + the shared concept-roots",
+ "demonstrations": {
+  "1:2": [],
+  "2:255": [
+   {
+    "ayah": "7:97",
+    "weight": 6.541,
+    "shared_concepts": [
+     {
+      "root_bw": "nwm",
+      "root_ar": "نوم"
+     }
+    ]
+   },
+   {
+    "ayah": "8:43",
+    "weight": 6.541,
+    "shared_concepts": [
+     {
+      "root_bw": "nwm",
+      "root_ar": "نوم"
+     }
+    ]
+   },
+   {
+    "ayah": "25:47",
+    "weight": 6.541,
+    "shared_concepts": [
+     {
+      "root_bw": "nwm",
+      "root_ar": "نوم"
+     }
+    ]
+   }
+  ],
+  "112:1": [],
+  "24:35": [
+   {
+    "ayah": "7:137",
+    "weight": 17.082,
+    "shared_concepts": [
+     {
+      "root_bw": "$rq",
+      "root_ar": "شرق"
+     },
+     {
+      "root_bw": "brk",
+      "root_ar": "برك"
+     },
+     {
+      "root_bw": "grb",
+      "root_ar": "غرب"
+     }
+    ]
+   },
+   {
+    "ayah": "2:17",
+    "weight": 13.287,
+    "shared_concepts": [
+     {
+      "root_bw": "DwA",
+      "root_ar": "ضوا"
+     },
+     {
+      "root_bw": "wqd",
+      "root_ar": "وقد"
+     }
+    ]
+   },
+   {
+    "ayah": "2:20",
+    "weight": 12.506,
+    "shared_concepts": [
+     {
+      "root_bw": "DwA",
+      "root_ar": "ضوا"
+     },
+     {
+      "root_bw": "kwd",
+      "root_ar": "كود"
+     }
+    ]
+   }
+  ],
+  "96:1": [
+   {
+    "ayah": "2:228",
+    "weight": 5.848,
+    "shared_concepts": [
+     {
+      "root_bw": "qrA",
+      "root_ar": "قرا"
+     }
+    ]
+   },
+   {
+    "ayah": "7:204",
+    "weight": 5.848,
+    "shared_concepts": [
+     {
+      "root_bw": "qrA",
+      "root_ar": "قرا"
+     }
+    ]
+   },
+   {
+    "ayah": "10:94",
+    "weight": 5.848,
+    "shared_concepts": [
+     {
+      "root_bw": "qrA",
+      "root_ar": "قرا"
+     }
+    ]
+   }
+  ],
+  "55:1": [],
+  "36:1": [],
+  "3:7": [
+   {
+    "ayah": "9:117",
+    "weight": 6.659,
+    "shared_concepts": [
+     {
+      "root_bw": "zyg",
+      "root_ar": "زيغ"
+     }
+    ]
+   },
+   {
+    "ayah": "33:10",
+    "weight": 6.659,
+    "shared_concepts": [
+     {
+      "root_bw": "zyg",
+      "root_ar": "زيغ"
+     }
+    ]
+   },
+   {
+    "ayah": "34:12",
+    "weight": 6.659,
+    "shared_concepts": [
+     {
+      "root_bw": "zyg",
+      "root_ar": "زيغ"
+     }
+    ]
+   }
+  ],
+  "17:1": [
+   {
+    "ayah": "27:8",
+    "weight": 10.966,
+    "shared_concepts": [
+     {
+      "root_bw": "Hwl",
+      "root_ar": "حول"
+     },
+     {
+      "root_bw": "brk",
+      "root_ar": "برك"
+     }
+    ]
+   },
+   {
+    "ayah": "8:42",
+    "weight": 7.129,
+    "shared_concepts": [
+     {
+      "root_bw": "qSw",
+      "root_ar": "قصو"
+     }
+    ]
+   },
+   {
+    "ayah": "19:22",
+    "weight": 7.129,
+    "shared_concepts": [
+     {
+      "root_bw": "qSw",
+      "root_ar": "قصو"
+     }
+    ]
+   }
+  ],
+  "53:1": [
+   {
+    "ayah": "6:97",
+    "weight": 6.173,
+    "shared_concepts": [
+     {
+      "root_bw": "njm",
+      "root_ar": "نجم"
+     }
+    ]
+   },
+   {
+    "ayah": "7:54",
+    "weight": 6.173,
+    "shared_concepts": [
+     {
+      "root_bw": "njm",
+      "root_ar": "نجم"
+     }
+    ]
+   },
+   {
+    "ayah": "16:12",
+    "weight": 6.173,
+    "shared_concepts": [
+     {
+      "root_bw": "njm",
+      "root_ar": "نجم"
+     }
+    ]
+   }
+  ]
+ }
+}

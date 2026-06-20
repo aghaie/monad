@@ -1,0 +1,12 @@
+{
+ "method": "L8-interpret-1.0",
+ "topk": 10,
+ "tested_roots": 512,
+ "question": "do self-derived concept neighbourhoods replicate across two independent corpus halves?",
+ "real_mean_jaccard": 0.1185,
+ "mismatched_null_mean": 0.0118,
+ "null_max": 0.0163,
+ "p": 0.005,
+ "fold_factor": 10.1,
+ "verdict": "concept definitions are STABLE"
+}
