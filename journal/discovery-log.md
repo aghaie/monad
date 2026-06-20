@@ -181,3 +181,28 @@ with a name ≥3×); the rest rely on relational fingerprint. `validate_L3_roots
 12/12, byte-identical re-run.
 
 ---
+
+## 2026-06-20 — Robustness study + L2 correction (revisability in action)
+
+**Type:** Falsification study + result revision (Charter Article D / §17)
+
+Before building further layers, ran adversarial nulls on L2 and L3
+(`scripts/build_robustness.py`, deterministic):
+
+- **L2 permutation null:** real 31.18% vs null 4.10%±1.08% (p=0.020) → real
+  content→name structure exists.
+- **L2 leakage test:** removing the sealing name's OWN root from the ayah content
+  drops accuracy to **16.13%, below the 21.64% frequency baseline**. ⇒ ~half the
+  headline was root-repetition leakage (رحمة→رحیم).
+- **L3 mismatched-context null:** real 4.93% vs null 0.18% (p=0.048) → masked-root
+  recovery is genuinely contextual. **L3 robust.**
+
+**Revision:** The earlier L2 claim "thesis supported at 30.9%" is **downgraded**.
+L2 shows real but modest structure; the clean content→*exact*-name signal is weak
+(≈ at/below baseline), partly because synonymous names are mutually confusable.
+The thesis should be tested at the name-*family*/ayah level (L6) with leakage
+controls built in. `docs/L2-names-report.md` annotated;
+`docs/L2-L3-robustness-report.md` added. The discipline caught an inflated result
+before it propagated — which is the point.
+
+---

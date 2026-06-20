@@ -1,0 +1,34 @@
+{
+ "method": "robustness-1.0",
+ "seed": 12345,
+ "L2_permutation_null": {
+  "real_top1_pct": 31.183,
+  "n_perm": 50,
+  "null": {
+   "mean": 4.102,
+   "sd": 1.078,
+   "max": 6.855,
+   "min": 2.419
+  },
+  "empirical_p": 0.0196,
+  "verdict": "REAL (beats null)"
+ },
+ "L2_leakage_test": {
+  "real_top1_pct": 31.183,
+  "without_name_own_root_top1_pct": 16.129,
+  "drop_pct_points": 15.054,
+  "note": "if accuracy survives removing the name's own root, it is not mere leakage"
+ },
+ "L3_mismatched_context_null": {
+  "real_top1_pct": 4.93,
+  "n_perm": 20,
+  "null": {
+   "mean": 0.175,
+   "sd": 0.055,
+   "max": 0.296,
+   "min": 0.085
+  },
+  "empirical_p": 0.0476,
+  "verdict": "REAL (context informative)"
+ }
+}

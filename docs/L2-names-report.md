@@ -87,6 +87,17 @@ mercy-themed ayat could end in غفور *or* رحیم), and this is a single, si
 model. It is evidence *for* the thesis, not proof; it will be strengthened (or
 bounded) by L3–L8 and the final held-out scorecard.
 
+> ### ⚠️ Correction (robustness study, same day)
+> A later falsification study ([L2-L3-robustness-report.md](L2-L3-robustness-report.md))
+> shows this 30.91% is **inflated ~2× by leakage**: about half of it is the
+> name's **own root** repeating elsewhere in the ayah (e.g. رحمة → رحیم). With
+> the name's own root removed, the residual content signal drops to **16.1%,
+> *below* the 21.6% frequency baseline**. A permutation null confirms some real
+> structure exists, but the clean content→*exact*-name claim is **downgraded**:
+> this is evidence that content coheres with the name *family/space*, not that it
+> pinpoints the specific name. The proper test belongs at the ayah/name-family
+> level (L6) with leakage controls. Read the headline above with this correction.
+
 ## Prohibitions observed
 
 No traditional name list, no external dictionaries, no tafsir, no translations,
