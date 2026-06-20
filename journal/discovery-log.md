@@ -135,3 +135,26 @@ still supports it, the reading stands and our grasp of the aim is revised — th
 Quran remains the criterion.
 
 ---
+
+## 2026-06-20 — Phase L2: Divine Names / Anchors (keystone result)
+
+**Type:** Layer build + first thesis test
+
+**Method:** Names discovered PURELY internally (no 99-list — quarantined) via
+three signals: predicate-of-Allah (INDEF NOM/ACC within 5 words of "Allah"),
+name-community pairing (names sit beside names), and predicate-dominance
+(seed/frequency). No syntactic treebank in QAC v0.4 → ranked candidates with
+confidence tiers, not a closed list; confounds flagged honestly.
+
+**Discovered:** 16 قوی/strong names — غفور علیم رحیم حکیم سمیع خبیر واسع قدیر
+حلیم بصیر عفوّ رؤوف قوی محیط شهید وکیل. Famous but ambiguous names (عزیز، عظیم،
+حمید) fall to محتمل due to substantial non-divine usage — an honest finding, not
+an error. Confounds (شیء، قرض، ثمن) correctly kept out of قوی.
+
+**THESIS TEST (keystone):** predict which divine name seals an ayah from the
+ayah's content roots, held-out 5-fold. Model **30.91% top-1 / 68.55% top-3** vs
+baseline 21.64% / 50.13% vs random 6.25%. **Model beats baseline and random →
+first internal empirical support for "concepts cohere with the names" (Charter
+Article B).** `validate_L2_names.py` 11/11, byte-identical re-run.
+
+---

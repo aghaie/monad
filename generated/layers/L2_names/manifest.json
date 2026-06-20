@@ -1,0 +1,33 @@
+{
+ "layer": "L2",
+ "name": "divine names / anchors",
+ "method": "L2-names-1.0",
+ "source_db": "monad.db",
+ "claim_level": "anchor discovery — RANKED candidates with confidence tiers",
+ "confidence_tiers": "صریح/قوی/محتمل/نامشخص",
+ "prohibitions_observed": [
+  "no external name list",
+  "no dictionaries",
+  "no tafsir",
+  "no translations",
+  "no pretrained models"
+ ],
+ "totals": {
+  "candidate_pool": 85,
+  "qawi_names": 16,
+  "sealed_instances": 744
+ },
+ "self_prediction": {
+  "model_top1_pct": 30.91,
+  "model_top3_pct": 68.55,
+  "baseline_top1_pct": 21.64,
+  "baseline_top3_pct": 50.13,
+  "random_floor_top1_pct": 6.25,
+  "verdict": "model_beats_baseline"
+ },
+ "output_bytes": {
+  "discovered_names.json": 29991,
+  "name_signatures.json": 18689,
+  "self_prediction.json": 597
+ }
+}

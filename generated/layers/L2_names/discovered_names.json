@@ -1,0 +1,1477 @@
+{
+ "method": "L2-names-1.0",
+ "discovery_signals": [
+  "predicate-of-Allah (INDEF NOM/ACC, window 5)",
+  "name-community pairing",
+  "predicate-dominance ratio"
+ ],
+ "thresholds": {
+  "seed_min": 3,
+  "window": 5,
+  "qawi_seed_min": 5,
+  "qawi_ratio_min": 0.3,
+  "qawi_partnerseed_min": 12.0
+ },
+ "caveat": "No syntactic treebank in QAC v0.4 → automatic name extraction has irreducible noise (e.g. شيء in 'على كل شيء قدير'). Output is a RANKED candidate set with confidence tiers, not a closed assertion. The traditional 99-name list is NOT used (quarantined for L8).",
+ "pool_size": 85,
+ "qawi_count": 16,
+ "names_ranked": [
+  {
+   "lemma_bw": "gafuwr",
+   "lemma_ar": "غَفُور",
+   "lemma_id": 1736,
+   "seed_predicate_of_allah": 62,
+   "frequency": 91,
+   "predicate_ratio": 0.681,
+   "avg_partner_seed": 52.12,
+   "pair_partners": 4,
+   "name_score": 2201.6,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "r~aHiym",
+    "Haliym",
+    "Eafuw~",
+    "Eaziyz"
+   ]
+  },
+  {
+   "lemma_bw": "Ealiym",
+   "lemma_ar": "عَلِيم",
+   "lemma_id": 818,
+   "seed_predicate_of_allah": 100,
+   "frequency": 163,
+   "predicate_ratio": 0.613,
+   "avg_partner_seed": 29.17,
+   "pair_partners": 8,
+   "name_score": 1789.55,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "Hakiym",
+    "samiyE",
+    "$aYo'",
+    "wa`siE",
+    "Eaziyz",
+    "xabiyr",
+    "qadiyr",
+    "Haliym"
+   ]
+  },
+  {
+   "lemma_bw": "r~aHiym",
+   "lemma_ar": "رَّحِيم",
+   "lemma_id": 3394,
+   "seed_predicate_of_allah": 59,
+   "frequency": 116,
+   "predicate_ratio": 0.509,
+   "avg_partner_seed": 47.75,
+   "pair_partners": 4,
+   "name_score": 1432.84,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "gafuwr",
+    "Eaziyz",
+    "taw~aAb",
+    "ra'uwf"
+   ]
+  },
+  {
+   "lemma_bw": "Hakiym",
+   "lemma_ar": "حَكِيم",
+   "lemma_id": 1005,
+   "seed_predicate_of_allah": 45,
+   "frequency": 97,
+   "predicate_ratio": 0.464,
+   "avg_partner_seed": 53.84,
+   "pair_partners": 9,
+   "name_score": 1123.99,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "Eaziyz",
+    "Ealiym",
+    "xabiyr",
+    "kita`b",
+    "*ikor",
+    "wa`siE",
+    "taw~aAb",
+    "Hamiyd"
+   ]
+  },
+  {
+   "lemma_bw": "samiyE",
+   "lemma_ar": "سَمِيع",
+   "lemma_id": 3499,
+   "seed_predicate_of_allah": 23,
+   "frequency": 47,
+   "predicate_ratio": 0.489,
+   "avg_partner_seed": 78.38,
+   "pair_partners": 3,
+   "name_score": 882.17,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "Ealiym",
+    "baSiyr",
+    "qariyb"
+   ]
+  },
+  {
+   "lemma_bw": "xabiyr",
+   "lemma_ar": "خَبِير",
+   "lemma_id": 4145,
+   "seed_predicate_of_allah": 28,
+   "frequency": 45,
+   "predicate_ratio": 0.622,
+   "avg_partner_seed": 40.83,
+   "pair_partners": 4,
+   "name_score": 711.41,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "laTiyf",
+    "baSiyr",
+    "Ealiym",
+    "Hakiym"
+   ]
+  },
+  {
+   "lemma_bw": "wa`siE",
+   "lemma_ar": "وَٰسِع",
+   "lemma_id": 4012,
+   "seed_predicate_of_allah": 8,
+   "frequency": 9,
+   "predicate_ratio": 0.889,
+   "avg_partner_seed": 83.22,
+   "pair_partners": 3,
+   "name_score": 591.8,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "Ealiym",
+    "Hakiym",
+    "m~agofirap"
+   ]
+  },
+  {
+   "lemma_bw": "qadiyr",
+   "lemma_ar": "قَدِير",
+   "lemma_id": 3166,
+   "seed_predicate_of_allah": 27,
+   "frequency": 45,
+   "predicate_ratio": 0.6,
+   "avg_partner_seed": 29.38,
+   "pair_partners": 3,
+   "name_score": 475.88,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "$aYo'",
+    "Ealiym",
+    "Eafuw~"
+   ]
+  },
+  {
+   "lemma_bw": "Haliym",
+   "lemma_ar": "حَلِيم",
+   "lemma_id": 1010,
+   "seed_predicate_of_allah": 9,
+   "frequency": 15,
+   "predicate_ratio": 0.6,
+   "avg_partner_seed": 68.1,
+   "pair_partners": 3,
+   "name_score": 367.74,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "gafuwr",
+    "Ealiym",
+    "ganiY~"
+   ]
+  },
+  {
+   "lemma_bw": "Eaziyz",
+   "lemma_ar": "عَزِيز",
+   "lemma_id": 873,
+   "seed_predicate_of_allah": 28,
+   "frequency": 101,
+   "predicate_ratio": 0.277,
+   "avg_partner_seed": 45.98,
+   "pair_partners": 8,
+   "name_score": 356.88,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "Hakiym",
+    "r~aHiym",
+    "qawiY~",
+    "Ealiym",
+    "Hamiyd",
+    "gafuwr",
+    "nafos",
+    "kita`b"
+   ]
+  },
+  {
+   "lemma_bw": "baSiyr",
+   "lemma_ar": "بَصِير",
+   "lemma_id": 1383,
+   "seed_predicate_of_allah": 27,
+   "frequency": 51,
+   "predicate_ratio": 0.529,
+   "avg_partner_seed": 24.33,
+   "pair_partners": 3,
+   "name_score": 347.82,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "samiyE",
+    "xabiyr",
+    "$aYo'"
+   ]
+  },
+  {
+   "lemma_bw": "Eafuw~",
+   "lemma_ar": "عَفُوّ",
+   "lemma_id": 800,
+   "seed_predicate_of_allah": 5,
+   "frequency": 5,
+   "predicate_ratio": 1.0,
+   "avg_partner_seed": 55.0,
+   "pair_partners": 2,
+   "name_score": 275.0,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "gafuwr",
+    "qadiyr"
+   ]
+  },
+  {
+   "lemma_bw": "ra'uwf",
+   "lemma_ar": "رَءُوف",
+   "lemma_id": 3263,
+   "seed_predicate_of_allah": 6,
+   "frequency": 11,
+   "predicate_ratio": 0.545,
+   "avg_partner_seed": 59.0,
+   "pair_partners": 1,
+   "name_score": 193.09,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "r~aHiym"
+   ]
+  },
+  {
+   "lemma_bw": "qawiY~",
+   "lemma_ar": "قَوِىّ",
+   "lemma_id": 3209,
+   "seed_predicate_of_allah": 7,
+   "frequency": 11,
+   "predicate_ratio": 0.636,
+   "avg_partner_seed": 23.33,
+   "pair_partners": 2,
+   "name_score": 103.94,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "Eaziyz",
+    "$adiyd"
+   ]
+  },
+  {
+   "lemma_bw": "muHiyT",
+   "lemma_ar": "مُحِيط",
+   "lemma_id": 2474,
+   "seed_predicate_of_allah": 6,
+   "frequency": 9,
+   "predicate_ratio": 0.667,
+   "avg_partner_seed": 22.0,
+   "pair_partners": 1,
+   "name_score": 88.0,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "$aYo'"
+   ]
+  },
+  {
+   "lemma_bw": "taw~aAb",
+   "lemma_ar": "تَوَّاب",
+   "lemma_id": 3851,
+   "seed_predicate_of_allah": 4,
+   "frequency": 12,
+   "predicate_ratio": 0.333,
+   "avg_partner_seed": 57.6,
+   "pair_partners": 2,
+   "name_score": 76.8,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "r~aHiym",
+    "Hakiym"
+   ]
+  },
+  {
+   "lemma_bw": "$ahiyd",
+   "lemma_ar": "شَهِيد",
+   "lemma_id": 31,
+   "seed_predicate_of_allah": 17,
+   "frequency": 56,
+   "predicate_ratio": 0.304,
+   "avg_partner_seed": 14.36,
+   "pair_partners": 4,
+   "name_score": 74.09,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "$aYo'",
+    ">um~ap",
+    "Sa`liH",
+    "rasuwl"
+   ]
+  },
+  {
+   "lemma_bw": "laTiyf",
+   "lemma_ar": "لَطِيف",
+   "lemma_id": 2101,
+   "seed_predicate_of_allah": 4,
+   "frequency": 7,
+   "predicate_ratio": 0.571,
+   "avg_partner_seed": 28.0,
+   "pair_partners": 1,
+   "name_score": 64.0,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "xabiyr"
+   ]
+  },
+  {
+   "lemma_bw": "kaviyr",
+   "lemma_ar": "كَثِير",
+   "lemma_id": 2045,
+   "seed_predicate_of_allah": 14,
+   "frequency": 63,
+   "predicate_ratio": 0.222,
+   "avg_partner_seed": 19.5,
+   "pair_partners": 3,
+   "name_score": 60.67,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "xayor",
+    "*ikor",
+    ">ajor"
+   ]
+  },
+  {
+   "lemma_bw": "wakiyl",
+   "lemma_ar": "وَكِيل",
+   "lemma_id": 4037,
+   "seed_predicate_of_allah": 8,
+   "frequency": 24,
+   "predicate_ratio": 0.333,
+   "avg_partner_seed": 22.0,
+   "pair_partners": 1,
+   "name_score": 58.67,
+   "tier": "قوی/strong",
+   "partners_bw": [
+    "$aYo'"
+   ]
+  },
+  {
+   "lemma_bw": "EaZiym",
+   "lemma_ar": "عَظِيم",
+   "lemma_id": 770,
+   "seed_predicate_of_allah": 19,
+   "frequency": 120,
+   "predicate_ratio": 0.158,
+   "avg_partner_seed": 18.11,
+   "pair_partners": 4,
+   "name_score": 54.49,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    ">ajor",
+    "Ea*aAb",
+    "$aYo'",
+    "Zulom"
+   ]
+  },
+  {
+   "lemma_bw": "Hasiyb",
+   "lemma_ar": "حَسِيب",
+   "lemma_id": 1052,
+   "seed_predicate_of_allah": 3,
+   "frequency": 4,
+   "predicate_ratio": 0.75,
+   "avg_partner_seed": 22.0,
+   "pair_partners": 1,
+   "name_score": 49.5,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "$aYo'"
+   ]
+  },
+  {
+   "lemma_bw": "qaroD",
+   "lemma_ar": "قَرْض",
+   "lemma_id": 3190,
+   "seed_predicate_of_allah": 6,
+   "frequency": 6,
+   "predicate_ratio": 1.0,
+   "avg_partner_seed": 8.0,
+   "pair_partners": 1,
+   "name_score": 48.0,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "Hasan"
+   ]
+  },
+  {
+   "lemma_bw": "xayor",
+   "lemma_ar": "خَيْر",
+   "lemma_id": 4193,
+   "seed_predicate_of_allah": 31,
+   "frequency": 178,
+   "predicate_ratio": 0.174,
+   "avg_partner_seed": 6.67,
+   "pair_partners": 8,
+   "name_score": 35.99,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "nafos",
+    "kaviyr",
+    "m~agofirap",
+    ">um~ap",
+    "riDowa`n",
+    "fariyq",
+    "<ila`h",
+    "$adiyd"
+   ]
+  },
+  {
+   "lemma_bw": "$aYo'",
+   "lemma_ar": "شَىْء",
+   "lemma_id": 15,
+   "seed_predicate_of_allah": 22,
+   "frequency": 283,
+   "predicate_ratio": 0.078,
+   "avg_partner_seed": 18.37,
+   "pair_partners": 16,
+   "name_score": 31.42,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "kul~",
+    "qadiyr",
+    "Ealiym",
+    "$ahiyd",
+    "nafos",
+    ">amor",
+    "wakiyl",
+    "muHiyT"
+   ]
+  },
+  {
+   "lemma_bw": "jamiyE",
+   "lemma_ar": "جَمِيع",
+   "lemma_id": 1901,
+   "seed_predicate_of_allah": 19,
+   "frequency": 53,
+   "predicate_ratio": 0.358,
+   "avg_partner_seed": 4.5,
+   "pair_partners": 2,
+   "name_score": 30.65,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "kul~",
+    ">amor"
+   ]
+  },
+  {
+   "lemma_bw": "vaman",
+   "lemma_ar": "ثَمَن",
+   "lemma_id": 3948,
+   "seed_predicate_of_allah": 6,
+   "frequency": 11,
+   "predicate_ratio": 0.545,
+   "avg_partner_seed": 9.27,
+   "pair_partners": 2,
+   "name_score": 30.35,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "qaliyl",
+    "'aAyap"
+   ]
+  },
+  {
+   "lemma_bw": "Hamiyd",
+   "lemma_ar": "حَمِيد",
+   "lemma_id": 1014,
+   "seed_predicate_of_allah": 5,
+   "frequency": 17,
+   "predicate_ratio": 0.294,
+   "avg_partner_seed": 15.07,
+   "pair_partners": 4,
+   "name_score": 22.16,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "ganiY~",
+    "Eaziyz",
+    "Hakiym",
+    "waliY~"
+   ]
+  },
+  {
+   "lemma_bw": ">ajor",
+   "lemma_ar": "أَجْر",
+   "lemma_id": 402,
+   "seed_predicate_of_allah": 13,
+   "frequency": 105,
+   "predicate_ratio": 0.124,
+   "avg_partner_seed": 12.61,
+   "pair_partners": 5,
+   "name_score": 20.29,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "EaZiym",
+    "m~agofirap",
+    "muHosin",
+    "Hasan",
+    "kaviyr"
+   ]
+  },
+  {
+   "lemma_bw": "Hasan",
+   "lemma_ar": "حَسَن",
+   "lemma_id": 1048,
+   "seed_predicate_of_allah": 8,
+   "frequency": 21,
+   "predicate_ratio": 0.381,
+   "avg_partner_seed": 6.5,
+   "pair_partners": 3,
+   "name_score": 19.81,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "qaroD",
+    "rizoq",
+    ">ajor"
+   ]
+  },
+  {
+   "lemma_bw": "<ila`h",
+   "lemma_ar": "إِلَٰه",
+   "lemma_id": 191,
+   "seed_predicate_of_allah": 15,
+   "frequency": 147,
+   "predicate_ratio": 0.102,
+   "avg_partner_seed": 12.67,
+   "pair_partners": 3,
+   "name_score": 19.39,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "suw^'",
+    "kul~",
+    "xayor"
+   ]
+  },
+  {
+   "lemma_bw": "$adiyd",
+   "lemma_ar": "شَدِيد",
+   "lemma_id": 21,
+   "seed_predicate_of_allah": 7,
+   "frequency": 56,
+   "predicate_ratio": 0.125,
+   "avg_partner_seed": 21.82,
+   "pair_partners": 6,
+   "name_score": 19.09,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "Ea*aAb",
+    "qawiY~",
+    ">aliym",
+    ">amor",
+    "m~agofirap",
+    "xayor"
+   ]
+  },
+  {
+   "lemma_bw": "ganiY~",
+   "lemma_ar": "غَنِىّ",
+   "lemma_id": 1749,
+   "seed_predicate_of_allah": 9,
+   "frequency": 24,
+   "predicate_ratio": 0.375,
+   "avg_partner_seed": 5.36,
+   "pair_partners": 2,
+   "name_score": 18.1,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "Hamiyd",
+    "Haliym"
+   ]
+  },
+  {
+   "lemma_bw": "bagotap",
+   "lemma_ar": "بَغْتَة",
+   "lemma_id": 1416,
+   "seed_predicate_of_allah": 3,
+   "frequency": 13,
+   "predicate_ratio": 0.231,
+   "avg_partner_seed": 25.0,
+   "pair_partners": 1,
+   "name_score": 17.31,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "Ea*aAb"
+   ]
+  },
+  {
+   "lemma_bw": ">aliym",
+   "lemma_ar": "أَلِيم",
+   "lemma_id": 428,
+   "seed_predicate_of_allah": 7,
+   "frequency": 72,
+   "predicate_ratio": 0.097,
+   "avg_partner_seed": 24.73,
+   "pair_partners": 2,
+   "name_score": 16.83,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "Ea*aAb",
+    "$adiyd"
+   ]
+  },
+  {
+   "lemma_bw": "Ea*aAb",
+   "lemma_ar": "عَذَاب",
+   "lemma_id": 731,
+   "seed_predicate_of_allah": 25,
+   "frequency": 322,
+   "predicate_ratio": 0.078,
+   "avg_partner_seed": 7.89,
+   "pair_partners": 12,
+   "name_score": 15.31,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    ">aliym",
+    "$adiyd",
+    "EaZiym",
+    "suw^'",
+    "na*iyr",
+    "qariyb",
+    "m~agofirap",
+    "TaA^}ifap"
+   ]
+  },
+  {
+   "lemma_bw": "muSad~iq",
+   "lemma_ar": "مُصَدِّق",
+   "lemma_id": 2482,
+   "seed_predicate_of_allah": 5,
+   "frequency": 19,
+   "predicate_ratio": 0.263,
+   "avg_partner_seed": 10.83,
+   "pair_partners": 3,
+   "name_score": 14.25,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "Haq~",
+    "rasuwl",
+    "kita`b"
+   ]
+  },
+  {
+   "lemma_bw": "qaliyl",
+   "lemma_ar": "قَلِيل",
+   "lemma_id": 3176,
+   "seed_predicate_of_allah": 10,
+   "frequency": 70,
+   "predicate_ratio": 0.143,
+   "avg_partner_seed": 9.0,
+   "pair_partners": 4,
+   "name_score": 12.86,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "vaman",
+    "waliY~",
+    "$aYo'",
+    "Ea*aAb"
+   ]
+  },
+  {
+   "lemma_bw": "tabodiyl",
+   "lemma_ar": "تَبْدِيل",
+   "lemma_id": 3719,
+   "seed_predicate_of_allah": 3,
+   "frequency": 7,
+   "predicate_ratio": 0.429,
+   "avg_partner_seed": 9.0,
+   "pair_partners": 1,
+   "name_score": 11.57,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "maval"
+   ]
+  },
+  {
+   "lemma_bw": "TaA^}ifap",
+   "lemma_ar": "طَا^ئِفَة",
+   "lemma_id": 1250,
+   "seed_predicate_of_allah": 3,
+   "frequency": 24,
+   "predicate_ratio": 0.125,
+   "avg_partner_seed": 25.0,
+   "pair_partners": 1,
+   "name_score": 9.38,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "Ea*aAb"
+   ]
+  },
+  {
+   "lemma_bw": "riDowa`n",
+   "lemma_ar": "رِضْوَٰن",
+   "lemma_id": 3346,
+   "seed_predicate_of_allah": 3,
+   "frequency": 13,
+   "predicate_ratio": 0.231,
+   "avg_partner_seed": 13.33,
+   "pair_partners": 3,
+   "name_score": 9.23,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "sabiyl",
+    "jan~ap",
+    "xayor"
+   ]
+  },
+  {
+   "lemma_bw": "qariyb",
+   "lemma_ar": "قَرِيب",
+   "lemma_id": 3188,
+   "seed_predicate_of_allah": 3,
+   "frequency": 26,
+   "predicate_ratio": 0.115,
+   "avg_partner_seed": 24.33,
+   "pair_partners": 2,
+   "name_score": 8.42,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "Ea*aAb",
+    "samiyE"
+   ]
+  },
+  {
+   "lemma_bw": "Sa`liH",
+   "lemma_ar": "صَٰلِح",
+   "lemma_id": 1144,
+   "seed_predicate_of_allah": 8,
+   "frequency": 65,
+   "predicate_ratio": 0.123,
+   "avg_partner_seed": 7.5,
+   "pair_partners": 3,
+   "name_score": 7.38,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "nafos",
+    "qawom",
+    "$ahiyd"
+   ]
+  },
+  {
+   "lemma_bw": ">aHad",
+   "lemma_ar": "أَحَد",
+   "lemma_id": 289,
+   "seed_predicate_of_allah": 7,
+   "frequency": 74,
+   "predicate_ratio": 0.095,
+   "avg_partner_seed": 11.0,
+   "pair_partners": 3,
+   "name_score": 7.28,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "rasuwl",
+    "jan~ap",
+    "Ea*aAb"
+   ]
+  },
+  {
+   "lemma_bw": "fariyq",
+   "lemma_ar": "فَرِيق",
+   "lemma_id": 1636,
+   "seed_predicate_of_allah": 4,
+   "frequency": 33,
+   "predicate_ratio": 0.121,
+   "avg_partner_seed": 14.67,
+   "pair_partners": 3,
+   "name_score": 7.11,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "nafos",
+    "maval",
+    "xayor"
+   ]
+  },
+  {
+   "lemma_bw": "m~agofirap",
+   "lemma_ar": "مَّغْفِرَة",
+   "lemma_id": 2736,
+   "seed_predicate_of_allah": 4,
+   "frequency": 28,
+   "predicate_ratio": 0.143,
+   "avg_partner_seed": 11.47,
+   "pair_partners": 6,
+   "name_score": 6.55,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    ">ajor",
+    "rizoq",
+    "Ea*aAb",
+    "xayor",
+    "wa`siE",
+    "$adiyd"
+   ]
+  },
+  {
+   "lemma_bw": "na*iyr",
+   "lemma_ar": "نَذِير",
+   "lemma_id": 2915,
+   "seed_predicate_of_allah": 5,
+   "frequency": 58,
+   "predicate_ratio": 0.086,
+   "avg_partner_seed": 13.26,
+   "pair_partners": 3,
+   "name_score": 5.72,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "m~ubiyn",
+    "Ea*aAb",
+    "'aAyap"
+   ]
+  },
+  {
+   "lemma_bw": "Haq~",
+   "lemma_ar": "حَقّ",
+   "lemma_id": 1027,
+   "seed_predicate_of_allah": 14,
+   "frequency": 247,
+   "predicate_ratio": 0.057,
+   "avg_partner_seed": 6.81,
+   "pair_partners": 7,
+   "name_score": 5.4,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "kita`b",
+    "muSad~iq",
+    "rasuwl",
+    "qawom",
+    "$aYo'",
+    "m~ubiyn",
+    "kul~"
+   ]
+  },
+  {
+   "lemma_bw": "Zulom",
+   "lemma_ar": "ظُلْم",
+   "lemma_id": 1335,
+   "seed_predicate_of_allah": 3,
+   "frequency": 20,
+   "predicate_ratio": 0.15,
+   "avg_partner_seed": 11.5,
+   "pair_partners": 2,
+   "name_score": 5.17,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "nafos",
+    "EaZiym"
+   ]
+  },
+  {
+   "lemma_bw": "maval",
+   "lemma_ar": "مَثَل",
+   "lemma_id": 2373,
+   "seed_predicate_of_allah": 9,
+   "frequency": 88,
+   "predicate_ratio": 0.102,
+   "avg_partner_seed": 4.87,
+   "pair_partners": 9,
+   "name_score": 4.48,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "kul~",
+    "qawom",
+    "nafos",
+    "jan~ap",
+    ">um~ap",
+    "fariyq",
+    "waliY~",
+    "walad"
+   ]
+  },
+  {
+   "lemma_bw": "naSiyr",
+   "lemma_ar": "نَصِير",
+   "lemma_id": 2946,
+   "seed_predicate_of_allah": 6,
+   "frequency": 35,
+   "predicate_ratio": 0.171,
+   "avg_partner_seed": 4.0,
+   "pair_partners": 1,
+   "name_score": 4.11,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "suloTa`n"
+   ]
+  },
+  {
+   "lemma_bw": "huzuw",
+   "lemma_ar": "هُزُو",
+   "lemma_id": 1850,
+   "seed_predicate_of_allah": 3,
+   "frequency": 11,
+   "predicate_ratio": 0.273,
+   "avg_partner_seed": 5.0,
+   "pair_partners": 1,
+   "name_score": 4.09,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "rasuwl"
+   ]
+  },
+  {
+   "lemma_bw": "walad",
+   "lemma_ar": "وَلَد",
+   "lemma_id": 4039,
+   "seed_predicate_of_allah": 5,
+   "frequency": 56,
+   "predicate_ratio": 0.089,
+   "avg_partner_seed": 9.0,
+   "pair_partners": 1,
+   "name_score": 4.02,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "maval"
+   ]
+  },
+  {
+   "lemma_bw": "waliY~",
+   "lemma_ar": "وَلِىّ",
+   "lemma_id": 4041,
+   "seed_predicate_of_allah": 7,
+   "frequency": 86,
+   "predicate_ratio": 0.081,
+   "avg_partner_seed": 7.0,
+   "pair_partners": 4,
+   "name_score": 3.99,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "qaliyl",
+    "suloTa`n",
+    "maval",
+    "Hamiyd"
+   ]
+  },
+  {
+   "lemma_bw": "suw^'",
+   "lemma_ar": "سُو^ء",
+   "lemma_id": 3595,
+   "seed_predicate_of_allah": 3,
+   "frequency": 50,
+   "predicate_ratio": 0.06,
+   "avg_partner_seed": 20.0,
+   "pair_partners": 4,
+   "name_score": 3.6,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "Ea*aAb",
+    "'aAyap",
+    "<ila`h",
+    "qawom"
+   ]
+  },
+  {
+   "lemma_bw": "suloTa`n",
+   "lemma_ar": "سُلْطَٰن",
+   "lemma_id": 3582,
+   "seed_predicate_of_allah": 4,
+   "frequency": 37,
+   "predicate_ratio": 0.108,
+   "avg_partner_seed": 7.47,
+   "pair_partners": 4,
+   "name_score": 3.23,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "m~ubiyn",
+    "'aAyap",
+    "waliY~",
+    "naSiyr"
+   ]
+  },
+  {
+   "lemma_bw": "muHosin",
+   "lemma_ar": "مُحْسِن",
+   "lemma_id": 2479,
+   "seed_predicate_of_allah": 3,
+   "frequency": 38,
+   "predicate_ratio": 0.079,
+   "avg_partner_seed": 13.0,
+   "pair_partners": 1,
+   "name_score": 3.08,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    ">ajor"
+   ]
+  },
+  {
+   "lemma_bw": "*ikor",
+   "lemma_ar": "ذِكْر",
+   "lemma_id": 145,
+   "seed_predicate_of_allah": 3,
+   "frequency": 76,
+   "predicate_ratio": 0.039,
+   "avg_partner_seed": 21.67,
+   "pair_partners": 3,
+   "name_score": 2.57,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "'aAyap",
+    "Hakiym",
+    "kaviyr"
+   ]
+  },
+  {
+   "lemma_bw": "m~ubiyn",
+   "lemma_ar": "مُّبِين",
+   "lemma_id": 2832,
+   "seed_predicate_of_allah": 8,
+   "frequency": 119,
+   "predicate_ratio": 0.067,
+   "avg_partner_seed": 4.54,
+   "pair_partners": 8,
+   "name_score": 2.44,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "Dala`l",
+    "suloTa`n",
+    "kita`b",
+    "na*iyr",
+    "Haq~",
+    "rasuwl",
+    "$aYo'",
+    "nafos"
+   ]
+  },
+  {
+   "lemma_bw": "rizoq",
+   "lemma_ar": "رِزْق",
+   "lemma_id": 3365,
+   "seed_predicate_of_allah": 4,
+   "frequency": 55,
+   "predicate_ratio": 0.073,
+   "avg_partner_seed": 7.4,
+   "pair_partners": 3,
+   "name_score": 2.15,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "m~agofirap",
+    "Hasan",
+    "$aYo'"
+   ]
+  },
+  {
+   "lemma_bw": "Dala`l",
+   "lemma_ar": "ضَلَٰل",
+   "lemma_id": 697,
+   "seed_predicate_of_allah": 3,
+   "frequency": 38,
+   "predicate_ratio": 0.079,
+   "avg_partner_seed": 8.85,
+   "pair_partners": 2,
+   "name_score": 2.1,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "m~ubiyn",
+    "Ea*aAb"
+   ]
+  },
+  {
+   "lemma_bw": ">amor",
+   "lemma_ar": "أَمْر",
+   "lemma_id": 460,
+   "seed_predicate_of_allah": 5,
+   "frequency": 166,
+   "predicate_ratio": 0.03,
+   "avg_partner_seed": 12.25,
+   "pair_partners": 7,
+   "name_score": 1.84,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "kul~",
+    "$aYo'",
+    "nafos",
+    "jamiyE",
+    "$adiyd",
+    "rasuwl",
+    "Hakiym"
+   ]
+  },
+  {
+   "lemma_bw": "qawom",
+   "lemma_ar": "قَوْم",
+   "lemma_id": 3211,
+   "seed_predicate_of_allah": 8,
+   "frequency": 383,
+   "predicate_ratio": 0.021,
+   "avg_partner_seed": 6.55,
+   "pair_partners": 6,
+   "name_score": 1.09,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "'aAyap",
+    "maval",
+    "Sa`liH",
+    "Haq~",
+    "kul~",
+    "suw^'"
+   ]
+  },
+  {
+   "lemma_bw": "maA^'",
+   "lemma_ar": "مَا^ء",
+   "lemma_id": 2186,
+   "seed_predicate_of_allah": 4,
+   "frequency": 63,
+   "predicate_ratio": 0.063,
+   "avg_partner_seed": 4.0,
+   "pair_partners": 1,
+   "name_score": 1.02,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "kul~"
+   ]
+  },
+  {
+   "lemma_bw": "wa`Hidap",
+   "lemma_ar": "وَٰحِدَة",
+   "lemma_id": 4008,
+   "seed_predicate_of_allah": 3,
+   "frequency": 31,
+   "predicate_ratio": 0.097,
+   "avg_partner_seed": 3.4,
+   "pair_partners": 3,
+   "name_score": 0.99,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    ">um~ap",
+    "nafos",
+    "kul~"
+   ]
+  },
+  {
+   "lemma_bw": ">um~ap",
+   "lemma_ar": "أُمَّة",
+   "lemma_id": 658,
+   "seed_predicate_of_allah": 3,
+   "frequency": 64,
+   "predicate_ratio": 0.047,
+   "avg_partner_seed": 6.32,
+   "pair_partners": 7,
+   "name_score": 0.89,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "kul~",
+    "wa`Hidap",
+    "$ahiyd",
+    "rasuwl",
+    "xayor",
+    "kita`b",
+    "maval"
+   ]
+  },
+  {
+   "lemma_bw": "sabiyl",
+   "lemma_ar": "سَبِيل",
+   "lemma_id": 3464,
+   "seed_predicate_of_allah": 6,
+   "frequency": 176,
+   "predicate_ratio": 0.034,
+   "avg_partner_seed": 4.0,
+   "pair_partners": 2,
+   "name_score": 0.82,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "riDowa`n",
+    "rasuwl"
+   ]
+  },
+  {
+   "lemma_bw": "kul~",
+   "lemma_ar": "كُلّ",
+   "lemma_id": 2082,
+   "seed_predicate_of_allah": 4,
+   "frequency": 358,
+   "predicate_ratio": 0.011,
+   "avg_partner_seed": 15.93,
+   "pair_partners": 13,
+   "name_score": 0.71,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "$aYo'",
+    "nafos",
+    ">um~ap",
+    "'aAyap",
+    ">amor",
+    "maval",
+    "kita`b",
+    "Haq~"
+   ]
+  },
+  {
+   "lemma_bw": "kita`b",
+   "lemma_ar": "كِتَٰب",
+   "lemma_id": 2068,
+   "seed_predicate_of_allah": 4,
+   "frequency": 260,
+   "predicate_ratio": 0.015,
+   "avg_partner_seed": 10.69,
+   "pair_partners": 9,
+   "name_score": 0.66,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "m~ubiyn",
+    "Haq~",
+    "'aAyap",
+    "rasuwl",
+    "kul~",
+    "Hakiym",
+    ">um~ap",
+    "Eaziyz"
+   ]
+  },
+  {
+   "lemma_bw": "'aAyap",
+   "lemma_ar": "ءَايَة",
+   "lemma_id": 122,
+   "seed_predicate_of_allah": 6,
+   "frequency": 382,
+   "predicate_ratio": 0.016,
+   "avg_partner_seed": 6.4,
+   "pair_partners": 12,
+   "name_score": 0.6,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "qawom",
+    "kul~",
+    "kita`b",
+    "suloTa`n",
+    "vaman",
+    "suw^'",
+    "rasuwl",
+    "*ikor"
+   ]
+  },
+  {
+   "lemma_bw": "jan~ap",
+   "lemma_ar": "جَنَّة",
+   "lemma_id": 1912,
+   "seed_predicate_of_allah": 3,
+   "frequency": 96,
+   "predicate_ratio": 0.031,
+   "avg_partner_seed": 6.25,
+   "pair_partners": 4,
+   "name_score": 0.59,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "maval",
+    "riDowa`n",
+    ">aHad",
+    "'aAyap"
+   ]
+  },
+  {
+   "lemma_bw": "rasuwl",
+   "lemma_ar": "رَسُول",
+   "lemma_id": 3335,
+   "seed_predicate_of_allah": 5,
+   "frequency": 332,
+   "predicate_ratio": 0.015,
+   "avg_partner_seed": 6.85,
+   "pair_partners": 11,
+   "name_score": 0.52,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    ">um~ap",
+    "kita`b",
+    "Haq~",
+    "'aAyap",
+    "m~ubiyn",
+    "muSad~iq",
+    ">aHad",
+    "huzuw"
+   ]
+  },
+  {
+   "lemma_bw": "nafos",
+   "lemma_ar": "نَفْس",
+   "lemma_id": 2976,
+   "seed_predicate_of_allah": 4,
+   "frequency": 295,
+   "predicate_ratio": 0.014,
+   "avg_partner_seed": 9.13,
+   "pair_partners": 12,
+   "name_score": 0.5,
+   "tier": "محتمل/probable",
+   "partners_bw": [
+    "kul~",
+    "$aYo'",
+    "wa`Hidap",
+    "xayor",
+    "Sa`liH",
+    ">amor",
+    "maval",
+    "fariyq"
+   ]
+  },
+  {
+   "lemma_bw": "Hasorap",
+   "lemma_ar": "حَسْرَة",
+   "lemma_id": 1056,
+   "seed_predicate_of_allah": 3,
+   "frequency": 7,
+   "predicate_ratio": 0.429,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  },
+  {
+   "lemma_bw": "qaA^}im",
+   "lemma_ar": "قَا^ئِم",
+   "lemma_id": 3119,
+   "seed_predicate_of_allah": 4,
+   "frequency": 17,
+   "predicate_ratio": 0.235,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  },
+  {
+   "lemma_bw": "xawof",
+   "lemma_ar": "خَوْف",
+   "lemma_id": 4188,
+   "seed_predicate_of_allah": 3,
+   "frequency": 26,
+   "predicate_ratio": 0.115,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  },
+  {
+   "lemma_bw": "muxoliS",
+   "lemma_ar": "مُخْلِص",
+   "lemma_id": 2690,
+   "seed_predicate_of_allah": 3,
+   "frequency": 11,
+   "predicate_ratio": 0.273,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  },
+  {
+   "lemma_bw": "mafoEuwl",
+   "lemma_ar": "مَفْعُول",
+   "lemma_id": 2250,
+   "seed_predicate_of_allah": 4,
+   "frequency": 7,
+   "predicate_ratio": 0.571,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  },
+  {
+   "lemma_bw": "m~ay~it",
+   "lemma_ar": "مَّيِّت",
+   "lemma_id": 2798,
+   "seed_predicate_of_allah": 3,
+   "frequency": 38,
+   "predicate_ratio": 0.079,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  },
+  {
+   "lemma_bw": "yasiyr",
+   "lemma_ar": "يَسِير",
+   "lemma_id": 4374,
+   "seed_predicate_of_allah": 9,
+   "frequency": 15,
+   "predicate_ratio": 0.6,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  },
+  {
+   "lemma_bw": "jahorap",
+   "lemma_ar": "جَهْرَة",
+   "lemma_id": 1890,
+   "seed_predicate_of_allah": 3,
+   "frequency": 3,
+   "predicate_ratio": 1.0,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  },
+  {
+   "lemma_bw": "saHaAb",
+   "lemma_ar": "سَحَاب",
+   "lemma_id": 3450,
+   "seed_predicate_of_allah": 3,
+   "frequency": 9,
+   "predicate_ratio": 0.333,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  },
+  {
+   "lemma_bw": "Eiwaj",
+   "lemma_ar": "عِوَج",
+   "lemma_id": 902,
+   "seed_predicate_of_allah": 5,
+   "frequency": 9,
+   "predicate_ratio": 0.556,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  },
+  {
+   "lemma_bw": "ka*ib",
+   "lemma_ar": "كَذِب",
+   "lemma_id": 1969,
+   "seed_predicate_of_allah": 14,
+   "frequency": 33,
+   "predicate_ratio": 0.424,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  },
+  {
+   "lemma_bw": ">andaAd",
+   "lemma_ar": "أَندَاد",
+   "lemma_id": 478,
+   "seed_predicate_of_allah": 5,
+   "frequency": 6,
+   "predicate_ratio": 0.833,
+   "avg_partner_seed": 0.0,
+   "pair_partners": 0,
+   "name_score": 0.0,
+   "tier": "محتمل/probable",
+   "partners_bw": []
+  }
+ ]
+}

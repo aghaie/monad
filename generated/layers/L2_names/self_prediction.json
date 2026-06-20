@@ -1,0 +1,20 @@
+{
+ "method": "L2-names-1.0",
+ "task": "predict the divine name sealing an ayah from the ayah's content roots",
+ "kfold": 5,
+ "sealed_instances": 744,
+ "candidate_names": 16,
+ "random_floor_top1_pct": 6.25,
+ "model": {
+  "top1_pct": 30.91,
+  "top3_pct": 68.55,
+  "desc": "argmax over names of Σ PPMI(name, content-root), held-out"
+ },
+ "baseline": {
+  "top1_pct": 21.64,
+  "top3_pct": 50.13,
+  "desc": "most frequent name"
+ },
+ "verdict": "model_beats_baseline",
+ "thesis_note": "H1 (names cohere with content) is supported iff the model beats baseline AND random; reported honestly either way."
+}

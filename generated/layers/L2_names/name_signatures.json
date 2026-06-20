@@ -1,0 +1,1157 @@
+{
+ "method": "L2-names-1.0",
+ "signatures": {
+  "gafuwr": {
+   "lemma_ar": "غَفُور",
+   "ayat": 91,
+   "top_roots": [
+    {
+     "root_bw": "hll",
+     "root_ar": "هلل",
+     "cooc": 4,
+     "ppmi": 4.0041
+    },
+    {
+     "root_bw": "xnzr",
+     "root_ar": "خنزر",
+     "cooc": 4,
+     "ppmi": 4.0041
+    },
+    {
+     "root_bw": "dmw",
+     "root_ar": "دمو",
+     "cooc": 4,
+     "ppmi": 3.3109
+    },
+    {
+     "root_bw": "lHm",
+     "root_ar": "لحم",
+     "cooc": 4,
+     "ppmi": 3.1286
+    },
+    {
+     "root_bw": "twb",
+     "root_ar": "توب",
+     "cooc": 15,
+     "ppmi": 2.7012
+    },
+    {
+     "root_bw": "nkH",
+     "root_ar": "نكح",
+     "cooc": 4,
+     "ppmi": 2.6691
+    },
+    {
+     "root_bw": "hjr",
+     "root_ar": "هجر",
+     "cooc": 5,
+     "ppmi": 2.5408
+    },
+    {
+     "root_bw": "Efw",
+     "root_ar": "عفو",
+     "cooc": 5,
+     "ppmi": 2.5045
+    },
+    {
+     "root_bw": "gfr",
+     "root_ar": "غفر",
+     "cooc": 19,
+     "ppmi": 2.3041
+    },
+    {
+     "root_bw": "nsw",
+     "root_ar": "نسو",
+     "cooc": 7,
+     "ppmi": 2.2029
+    },
+    {
+     "root_bw": "mrD",
+     "root_ar": "مرض",
+     "cooc": 3,
+     "ppmi": 2.1904
+    },
+    {
+     "root_bw": "wdd",
+     "root_ar": "ودد",
+     "cooc": 3,
+     "ppmi": 2.03
+    },
+    {
+     "root_bw": "Esy",
+     "root_ar": "عسي",
+     "cooc": 3,
+     "ppmi": 1.9936
+    },
+    {
+     "root_bw": "wjd",
+     "root_ar": "وجد",
+     "cooc": 10,
+     "ppmi": 1.9347
+    },
+    {
+     "root_bw": "Hrm",
+     "root_ar": "حرم",
+     "cooc": 7,
+     "ppmi": 1.9105
+    }
+   ]
+  },
+  "Ealiym": {
+   "lemma_ar": "عَلِيم",
+   "ayat": 163,
+   "top_roots": [
+    {
+     "root_bw": "sds",
+     "root_ar": "سدس",
+     "cooc": 3,
+     "ppmi": 3.3567
+    },
+    {
+     "root_bw": "nzg",
+     "root_ar": "نزغ",
+     "cooc": 3,
+     "ppmi": 3.3567
+    },
+    {
+     "root_bw": "nSf",
+     "root_ar": "نصف",
+     "cooc": 3,
+     "ppmi": 2.9512
+    },
+    {
+     "root_bw": "fqr",
+     "root_ar": "فقر",
+     "cooc": 4,
+     "ppmi": 2.3916
+    },
+    {
+     "root_bw": "frD",
+     "root_ar": "فرض",
+     "cooc": 4,
+     "ppmi": 2.3916
+    },
+    {
+     "root_bw": "Sdr",
+     "root_ar": "صدر",
+     "cooc": 12,
+     "ppmi": 2.3681
+    },
+    {
+     "root_bw": "jnH",
+     "root_ar": "جنح",
+     "cooc": 8,
+     "ppmi": 2.258
+    },
+    {
+     "root_bw": "glm",
+     "root_ar": "غلم",
+     "cooc": 3,
+     "ppmi": 2.178
+    },
+    {
+     "root_bw": "mny",
+     "root_ar": "مني",
+     "cooc": 4,
+     "ppmi": 2.1403
+    },
+    {
+     "root_bw": "nkH",
+     "root_ar": "نكح",
+     "cooc": 4,
+     "ppmi": 2.0862
+    },
+    {
+     "root_bw": "vlv",
+     "root_ar": "ثلث",
+     "cooc": 5,
+     "ppmi": 1.9957
+    },
+    {
+     "root_bw": "rjw",
+     "root_ar": "رجو",
+     "cooc": 5,
+     "ppmi": 1.9579
+    },
+    {
+     "root_bw": "Anv",
+     "root_ar": "انث",
+     "cooc": 4,
+     "ppmi": 1.7725
+    },
+    {
+     "root_bw": "nsw",
+     "root_ar": "نسو",
+     "cooc": 8,
+     "ppmi": 1.7535
+    },
+    {
+     "root_bw": "jhl",
+     "root_ar": "جهل",
+     "cooc": 3,
+     "ppmi": 1.6984
+    }
+   ]
+  },
+  "r~aHiym": {
+   "lemma_ar": "رَّحِيم",
+   "ayat": 116,
+   "top_roots": [
+    {
+     "root_bw": "hll",
+     "root_ar": "هلل",
+     "cooc": 4,
+     "ppmi": 3.7614
+    },
+    {
+     "root_bw": "xnzr",
+     "root_ar": "خنزر",
+     "cooc": 4,
+     "ppmi": 3.7614
+    },
+    {
+     "root_bw": "lHm",
+     "root_ar": "لحم",
+     "cooc": 5,
+     "ppmi": 3.109
+    },
+    {
+     "root_bw": "dmw",
+     "root_ar": "دمو",
+     "cooc": 4,
+     "ppmi": 3.0682
+    },
+    {
+     "root_bw": "twb",
+     "root_ar": "توب",
+     "cooc": 26,
+     "ppmi": 3.0085
+    },
+    {
+     "root_bw": "hjr",
+     "root_ar": "هجر",
+     "cooc": 6,
+     "ppmi": 2.4804
+    },
+    {
+     "root_bw": "gfr",
+     "root_ar": "غفر",
+     "cooc": 23,
+     "ppmi": 2.2525
+    },
+    {
+     "root_bw": "nkH",
+     "root_ar": "نكح",
+     "cooc": 3,
+     "ppmi": 2.1387
+    },
+    {
+     "root_bw": "Ezz",
+     "root_ar": "عزز",
+     "cooc": 14,
+     "ppmi": 1.87
+    },
+    {
+     "root_bw": "Hrm",
+     "root_ar": "حرم",
+     "cooc": 7,
+     "ppmi": 1.6677
+    },
+    {
+     "root_bw": "Avm",
+     "root_ar": "اثم",
+     "cooc": 4,
+     "ppmi": 1.6331
+    },
+    {
+     "root_bw": "Hll",
+     "root_ar": "حلل",
+     "cooc": 4,
+     "ppmi": 1.6096
+    },
+    {
+     "root_bw": "wjd",
+     "root_ar": "وجد",
+     "cooc": 9,
+     "ppmi": 1.5866
+    },
+    {
+     "root_bw": "bgy",
+     "root_ar": "بغي",
+     "cooc": 8,
+     "ppmi": 1.5641
+    },
+    {
+     "root_bw": "*nb",
+     "root_ar": "ذنب",
+     "cooc": 3,
+     "ppmi": 1.4722
+    }
+   ]
+  },
+  "Hakiym": {
+   "lemma_ar": "حَكِيم",
+   "ayat": 97,
+   "top_roots": [
+    {
+     "root_bw": "Ezz",
+     "root_ar": "عزز",
+     "cooc": 47,
+     "ppmi": 3.2599
+    },
+    {
+     "root_bw": "frD",
+     "root_ar": "فرض",
+     "cooc": 4,
+     "ppmi": 2.9106
+    },
+    {
+     "root_bw": "Tmn",
+     "root_ar": "طمن",
+     "cooc": 3,
+     "ppmi": 2.7771
+    },
+    {
+     "root_bw": "Swr",
+     "root_ar": "صور",
+     "cooc": 4,
+     "ppmi": 2.7165
+    },
+    {
+     "root_bw": "jnH",
+     "root_ar": "جنح",
+     "cooc": 4,
+     "ppmi": 2.0839
+    },
+    {
+     "root_bw": "vlv",
+     "root_ar": "ثلث",
+     "cooc": 3,
+     "ppmi": 2.0039
+    },
+    {
+     "root_bw": "jnd",
+     "root_ar": "جند",
+     "cooc": 3,
+     "ppmi": 1.9662
+    },
+    {
+     "root_bw": "rfE",
+     "root_ar": "رفع",
+     "cooc": 3,
+     "ppmi": 1.8947
+    },
+    {
+     "root_bw": "Hll",
+     "root_ar": "حلل",
+     "cooc": 4,
+     "ppmi": 1.7885
+    },
+    {
+     "root_bw": "twb",
+     "root_ar": "توب",
+     "cooc": 6,
+     "ppmi": 1.721
+    },
+    {
+     "root_bw": "Elw",
+     "root_ar": "علو",
+     "cooc": 5,
+     "ppmi": 1.5533
+    },
+    {
+     "root_bw": "sbH",
+     "root_ar": "سبح",
+     "cooc": 6,
+     "ppmi": 1.4892
+    },
+    {
+     "root_bw": "nfq",
+     "root_ar": "نفق",
+     "cooc": 5,
+     "ppmi": 1.3185
+    },
+    {
+     "root_bw": "qlb",
+     "root_ar": "قلب",
+     "cooc": 9,
+     "ppmi": 1.3172
+    },
+    {
+     "root_bw": "Erf",
+     "root_ar": "عرف",
+     "cooc": 3,
+     "ppmi": 1.1349
+    }
+   ]
+  },
+  "samiyE": {
+   "lemma_ar": "سَمِيع",
+   "ayat": 47,
+   "top_roots": [
+    {
+     "root_bw": "Ew*",
+     "root_ar": "عوذ",
+     "cooc": 3,
+     "ppmi": 3.1533
+    },
+    {
+     "root_bw": "qEd",
+     "root_ar": "قعد",
+     "cooc": 3,
+     "ppmi": 2.7285
+    },
+    {
+     "root_bw": "lyl",
+     "root_ar": "ليل",
+     "cooc": 3,
+     "ppmi": 1.6045
+    },
+    {
+     "root_bw": "qtl",
+     "root_ar": "قتل",
+     "cooc": 3,
+     "ppmi": 1.1825
+    },
+    {
+     "root_bw": "nEm",
+     "root_ar": "نعم",
+     "cooc": 3,
+     "ppmi": 1.1345
+    },
+    {
+     "root_bw": "gyr",
+     "root_ar": "غير",
+     "cooc": 3,
+     "ppmi": 1.003
+    },
+    {
+     "root_bw": "mvl",
+     "root_ar": "مثل",
+     "cooc": 3,
+     "ppmi": 0.9893
+    },
+    {
+     "root_bw": "dEw",
+     "root_ar": "دعو",
+     "cooc": 3,
+     "ppmi": 0.7826
+    },
+    {
+     "root_bw": "nfs",
+     "root_ar": "نفس",
+     "cooc": 4,
+     "ppmi": 0.6758
+    },
+    {
+     "root_bw": "nws",
+     "root_ar": "نوس",
+     "cooc": 3,
+     "ppmi": 0.5705
+    },
+    {
+     "root_bw": "Amr",
+     "root_ar": "امر",
+     "cooc": 3,
+     "ppmi": 0.566
+    },
+    {
+     "root_bw": "rbb",
+     "root_ar": "ربب",
+     "cooc": 9,
+     "ppmi": 0.3155
+    },
+    {
+     "root_bw": "Amn",
+     "root_ar": "امن",
+     "cooc": 7,
+     "ppmi": 0.2504
+    },
+    {
+     "root_bw": "jEl",
+     "root_ar": "جعل",
+     "cooc": 3,
+     "ppmi": 0.2468
+    },
+    {
+     "root_bw": "qwl",
+     "root_ar": "قول",
+     "cooc": 8,
+     "ppmi": 0.0
+    }
+   ]
+  },
+  "xabiyr": {
+   "lemma_ar": "خَبِير",
+   "ayat": 45,
+   "top_roots": [
+    {
+     "root_bw": "lTf",
+     "root_ar": "لطف",
+     "cooc": 5,
+     "ppmi": 4.4614
+    },
+    {
+     "root_bw": "kfy",
+     "root_ar": "كفي",
+     "cooc": 3,
+     "ppmi": 2.5643
+    },
+    {
+     "root_bw": "Eml",
+     "root_ar": "عمل",
+     "cooc": 21,
+     "ppmi": 2.2298
+    },
+    {
+     "root_bw": "Erf",
+     "root_ar": "عرف",
+     "cooc": 4,
+     "ppmi": 2.1906
+    },
+    {
+     "root_bw": "Ajl",
+     "root_ar": "اجل",
+     "cooc": 3,
+     "ppmi": 2.1588
+    },
+    {
+     "root_bw": "ErD",
+     "root_ar": "عرض",
+     "cooc": 4,
+     "ppmi": 2.0411
+    },
+    {
+     "root_bw": "Hkm",
+     "root_ar": "حكم",
+     "cooc": 3,
+     "ppmi": 1.4657
+    },
+    {
+     "root_bw": "fEl",
+     "root_ar": "فعل",
+     "cooc": 3,
+     "ppmi": 1.4051
+    },
+    {
+     "root_bw": "Hsb",
+     "root_ar": "حسب",
+     "cooc": 3,
+     "ppmi": 1.4051
+    },
+    {
+     "root_bw": "Ebd",
+     "root_ar": "عبد",
+     "cooc": 7,
+     "ppmi": 1.3519
+    },
+    {
+     "root_bw": "smw",
+     "root_ar": "سمو",
+     "cooc": 8,
+     "ppmi": 1.1472
+    },
+    {
+     "root_bw": "nfs",
+     "root_ar": "نفس",
+     "cooc": 6,
+     "ppmi": 1.1248
+    },
+    {
+     "root_bw": "Sdq",
+     "root_ar": "صدق",
+     "cooc": 3,
+     "ppmi": 1.0602
+    },
+    {
+     "root_bw": "ArD",
+     "root_ar": "ارض",
+     "cooc": 9,
+     "ppmi": 1.0419
+    },
+    {
+     "root_bw": "xlq",
+     "root_ar": "خلق",
+     "cooc": 4,
+     "ppmi": 0.9332
+    }
+   ]
+  },
+  "wa`siE": {
+   "lemma_ar": "وَٰسِع",
+   "ayat": 9,
+   "top_roots": [
+    {
+     "root_bw": "fDl",
+     "root_ar": "فضل",
+     "cooc": 4,
+     "ppmi": 3.4054
+    },
+    {
+     "root_bw": "$yA",
+     "root_ar": "شيا",
+     "cooc": 4,
+     "ppmi": 1.8201
+    },
+    {
+     "root_bw": "Aty",
+     "root_ar": "اتي",
+     "cooc": 3,
+     "ppmi": 1.4533
+    },
+    {
+     "root_bw": "kwn",
+     "root_ar": "كون",
+     "cooc": 3,
+     "ppmi": 0.5713
+    }
+   ]
+  },
+  "qadiyr": {
+   "lemma_ar": "قَدِير",
+   "ayat": 45,
+   "top_roots": [
+    {
+     "root_bw": "bdw",
+     "root_ar": "بدو",
+     "cooc": 3,
+     "ppmi": 2.6627
+    },
+    {
+     "root_bw": "kll",
+     "root_ar": "كلل",
+     "cooc": 35,
+     "ppmi": 2.6549
+    },
+    {
+     "root_bw": "xfy",
+     "root_ar": "خفي",
+     "cooc": 3,
+     "ppmi": 2.5961
+    },
+    {
+     "root_bw": "$yA",
+     "root_ar": "شيا",
+     "cooc": 41,
+     "ppmi": 2.538
+    },
+    {
+     "root_bw": "mwh",
+     "root_ar": "موه",
+     "cooc": 3,
+     "ppmi": 1.9357
+    },
+    {
+     "root_bw": "mwt",
+     "root_ar": "موت",
+     "cooc": 7,
+     "ppmi": 1.9145
+    },
+    {
+     "root_bw": "mlk",
+     "root_ar": "ملك",
+     "cooc": 9,
+     "ppmi": 1.8816
+    },
+    {
+     "root_bw": "xlq",
+     "root_ar": "خلق",
+     "cooc": 10,
+     "ppmi": 1.8495
+    },
+    {
+     "root_bw": "Hyy",
+     "root_ar": "حيي",
+     "cooc": 7,
+     "ppmi": 1.7959
+    },
+    {
+     "root_bw": "ArD",
+     "root_ar": "ارض",
+     "cooc": 18,
+     "ppmi": 1.735
+    },
+    {
+     "root_bw": "smw",
+     "root_ar": "سمو",
+     "cooc": 14,
+     "ppmi": 1.7069
+    },
+    {
+     "root_bw": "nZr",
+     "root_ar": "نظر",
+     "cooc": 4,
+     "ppmi": 1.5728
+    },
+    {
+     "root_bw": "jmE",
+     "root_ar": "جمع",
+     "cooc": 4,
+     "ppmi": 1.5137
+    },
+    {
+     "root_bw": "xyr",
+     "root_ar": "خير",
+     "cooc": 5,
+     "ppmi": 1.3591
+    },
+    {
+     "root_bw": "ydy",
+     "root_ar": "يدي",
+     "cooc": 3,
+     "ppmi": 1.3296
+    }
+   ]
+  },
+  "Haliym": {
+   "lemma_ar": "حَلِيم",
+   "ayat": 15,
+   "top_roots": [
+    {
+     "root_bw": "gfr",
+     "root_ar": "غفر",
+     "cooc": 3,
+     "ppmi": 2.2611
+    },
+    {
+     "root_bw": "$yA",
+     "root_ar": "شيا",
+     "cooc": 4,
+     "ppmi": 1.3093
+    },
+    {
+     "root_bw": "kwn",
+     "root_ar": "كون",
+     "cooc": 5,
+     "ppmi": 0.5713
+    },
+    {
+     "root_bw": "qwl",
+     "root_ar": "قول",
+     "cooc": 3,
+     "ppmi": 0.0
+    }
+   ]
+  },
+  "baSiyr": {
+   "lemma_ar": "بَصِير",
+   "ayat": 51,
+   "top_roots": [
+    {
+     "root_bw": "Emy",
+     "root_ar": "عمي",
+     "cooc": 7,
+     "ppmi": 3.351
+    },
+    {
+     "root_bw": "swy",
+     "root_ar": "سوي",
+     "cooc": 6,
+     "ppmi": 2.216
+    },
+    {
+     "root_bw": "Eml",
+     "root_ar": "عمل",
+     "cooc": 20,
+     "ppmi": 2.0558
+    },
+    {
+     "root_bw": "ftn",
+     "root_ar": "فتن",
+     "cooc": 3,
+     "ppmi": 1.8444
+    },
+    {
+     "root_bw": "rDw",
+     "root_ar": "رضو",
+     "cooc": 3,
+     "ppmi": 1.746
+    },
+    {
+     "root_bw": "wjh",
+     "root_ar": "وجه",
+     "cooc": 3,
+     "ppmi": 1.6564
+    },
+    {
+     "root_bw": "zwj",
+     "root_ar": "زوج",
+     "cooc": 3,
+     "ppmi": 1.6282
+    },
+    {
+     "root_bw": "Ebd",
+     "root_ar": "عبد",
+     "cooc": 10,
+     "ppmi": 1.5834
+    },
+    {
+     "root_bw": "qdr",
+     "root_ar": "قدر",
+     "cooc": 3,
+     "ppmi": 1.5482
+    },
+    {
+     "root_bw": "rzq",
+     "root_ar": "رزق",
+     "cooc": 3,
+     "ppmi": 1.2135
+    },
+    {
+     "root_bw": "ydy",
+     "root_ar": "يدي",
+     "cooc": 3,
+     "ppmi": 1.2044
+    },
+    {
+     "root_bw": "mvl",
+     "root_ar": "مثل",
+     "cooc": 4,
+     "ppmi": 1.1954
+    },
+    {
+     "root_bw": "nfs",
+     "root_ar": "نفس",
+     "cooc": 7,
+     "ppmi": 1.1538
+    },
+    {
+     "root_bw": "nEm",
+     "root_ar": "نعم",
+     "cooc": 3,
+     "ppmi": 1.0529
+    },
+    {
+     "root_bw": "xlq",
+     "root_ar": "خلق",
+     "cooc": 5,
+     "ppmi": 1.0312
+    }
+   ]
+  },
+  "Eafuw~": {
+   "lemma_ar": "عَفُوّ",
+   "ayat": 5,
+   "top_roots": [
+    {
+     "root_bw": "kwn",
+     "root_ar": "كون",
+     "cooc": 3,
+     "ppmi": 1.1591
+    }
+   ]
+  },
+  "ra'uwf": {
+   "lemma_ar": "رَءُوف",
+   "ayat": 11,
+   "top_roots": [
+    {
+     "root_bw": "qlb",
+     "root_ar": "قلب",
+     "cooc": 3,
+     "ppmi": 2.3954
+    },
+    {
+     "root_bw": "bEd",
+     "root_ar": "بعد",
+     "cooc": 3,
+     "ppmi": 2.3699
+    },
+    {
+     "root_bw": "nfs",
+     "root_ar": "نفس",
+     "cooc": 4,
+     "ppmi": 2.1281
+    },
+    {
+     "root_bw": "nws",
+     "root_ar": "نوس",
+     "cooc": 3,
+     "ppmi": 2.0227
+    },
+    {
+     "root_bw": "Ebd",
+     "root_ar": "عبد",
+     "cooc": 3,
+     "ppmi": 1.9134
+    },
+    {
+     "root_bw": "Amn",
+     "root_ar": "امن",
+     "cooc": 3,
+     "ppmi": 0.8554
+    },
+    {
+     "root_bw": "rbb",
+     "root_ar": "ربب",
+     "cooc": 3,
+     "ppmi": 0.6692
+    }
+   ]
+  },
+  "qawiY~": {
+   "lemma_ar": "قَوِىّ",
+   "ayat": 11,
+   "top_roots": [
+    {
+     "root_bw": "Ezz",
+     "root_ar": "عزز",
+     "cooc": 7,
+     "ppmi": 3.5325
+    },
+    {
+     "root_bw": "$dd",
+     "root_ar": "شدد",
+     "cooc": 3,
+     "ppmi": 2.8437
+    },
+    {
+     "root_bw": "rsl",
+     "root_ar": "رسل",
+     "cooc": 3,
+     "ppmi": 1.3774
+    },
+    {
+     "root_bw": "kfr",
+     "root_ar": "كفر",
+     "cooc": 3,
+     "ppmi": 1.2968
+    },
+    {
+     "root_bw": "Amn",
+     "root_ar": "امن",
+     "cooc": 4,
+     "ppmi": 1.1431
+    },
+    {
+     "root_bw": "qwl",
+     "root_ar": "قول",
+     "cooc": 3,
+     "ppmi": 0.2068
+    }
+   ]
+  },
+  "muHiyT": {
+   "lemma_ar": "مُحِيط",
+   "ayat": 9,
+   "top_roots": [
+    {
+     "root_bw": "Eml",
+     "root_ar": "عمل",
+     "cooc": 4,
+     "ppmi": 2.181
+    },
+    {
+     "root_bw": "$yA",
+     "root_ar": "شيا",
+     "cooc": 3,
+     "ppmi": 1.5325
+    },
+    {
+     "root_bw": "kwn",
+     "root_ar": "كون",
+     "cooc": 3,
+     "ppmi": 0.5713
+    },
+    {
+     "root_bw": "qwl",
+     "root_ar": "قول",
+     "cooc": 3,
+     "ppmi": 0.4075
+    }
+   ]
+  },
+  "$ahiyd": {
+   "lemma_ar": "شَهِيد",
+   "ayat": 47,
+   "top_roots": [
+    {
+     "root_bw": "kfy",
+     "root_ar": "كفي",
+     "cooc": 9,
+     "ppmi": 3.6194
+    },
+    {
+     "root_bw": "Edl",
+     "root_ar": "عدل",
+     "cooc": 4,
+     "ppmi": 3.0962
+    },
+    {
+     "root_bw": "rbE",
+     "root_ar": "ربع",
+     "cooc": 3,
+     "ppmi": 2.9908
+    },
+    {
+     "root_bw": "qsT",
+     "root_ar": "قسط",
+     "cooc": 3,
+     "ppmi": 2.8955
+    },
+    {
+     "root_bw": "$hd",
+     "root_ar": "شهد",
+     "cooc": 6,
+     "ppmi": 2.273
+    },
+    {
+     "root_bw": "fry",
+     "root_ar": "فري",
+     "cooc": 3,
+     "ppmi": 1.9976
+    },
+    {
+     "root_bw": "bEv",
+     "root_ar": "بعث",
+     "cooc": 3,
+     "ppmi": 1.8277
+    },
+    {
+     "root_bw": "Amm",
+     "root_ar": "امم",
+     "cooc": 5,
+     "ppmi": 1.8246
+    },
+    {
+     "root_bw": "kll",
+     "root_ar": "كلل",
+     "cooc": 15,
+     "ppmi": 1.7641
+    },
+    {
+     "root_bw": "dyn",
+     "root_ar": "دين",
+     "cooc": 3,
+     "ppmi": 1.5207
+    },
+    {
+     "root_bw": "qrb",
+     "root_ar": "قرب",
+     "cooc": 3,
+     "ppmi": 1.4757
+    },
+    {
+     "root_bw": "Abw",
+     "root_ar": "ابو",
+     "cooc": 3,
+     "ppmi": 1.3422
+    },
+    {
+     "root_bw": "ktb",
+     "root_ar": "كتب",
+     "cooc": 8,
+     "ppmi": 1.3362
+    },
+    {
+     "root_bw": "Sdq",
+     "root_ar": "صدق",
+     "cooc": 4,
+     "ppmi": 1.3044
+    },
+    {
+     "root_bw": "$yA",
+     "root_ar": "شيا",
+     "cooc": 12,
+     "ppmi": 1.2658
+    }
+   ]
+  },
+  "wakiyl": {
+   "lemma_ar": "وَكِيل",
+   "ayat": 24,
+   "top_roots": [
+    {
+     "root_bw": "kfy",
+     "root_ar": "كفي",
+     "cooc": 6,
+     "ppmi": 3.8861
+    },
+    {
+     "root_bw": "wkl",
+     "root_ar": "وكل",
+     "cooc": 3,
+     "ppmi": 2.9698
+    },
+    {
+     "root_bw": "Alh",
+     "root_ar": "اله",
+     "cooc": 4,
+     "ppmi": 2.1261
+    },
+    {
+     "root_bw": "Ax*",
+     "root_ar": "اخذ",
+     "cooc": 4,
+     "ppmi": 1.4492
+    },
+    {
+     "root_bw": "Hqq",
+     "root_ar": "حقق",
+     "cooc": 4,
+     "ppmi": 1.3742
+    },
+    {
+     "root_bw": "ktb",
+     "root_ar": "كتب",
+     "cooc": 4,
+     "ppmi": 1.3151
+    },
+    {
+     "root_bw": "$yA",
+     "root_ar": "شيا",
+     "cooc": 6,
+     "ppmi": 1.2448
+    },
+    {
+     "root_bw": "nws",
+     "root_ar": "نوس",
+     "cooc": 3,
+     "ppmi": 1.2426
+    },
+    {
+     "root_bw": "hdy",
+     "root_ar": "هدي",
+     "cooc": 3,
+     "ppmi": 1.0677
+    },
+    {
+     "root_bw": "rsl",
+     "root_ar": "رسل",
+     "cooc": 4,
+     "ppmi": 0.8849
+    },
+    {
+     "root_bw": "kll",
+     "root_ar": "كلل",
+     "cooc": 3,
+     "ppmi": 0.8268
+    },
+    {
+     "root_bw": "qwl",
+     "root_ar": "قول",
+     "cooc": 8,
+     "ppmi": 0.4075
+    },
+    {
+     "root_bw": "rbb",
+     "root_ar": "ربب",
+     "cooc": 5,
+     "ppmi": 0.3998
+    },
+    {
+     "root_bw": "Amn",
+     "root_ar": "امن",
+     "cooc": 3,
+     "ppmi": 0.0752
+    },
+    {
+     "root_bw": "kwn",
+     "root_ar": "كون",
+     "cooc": 3,
+     "ppmi": 0.0
+    }
+   ]
+  }
+ }
+}
