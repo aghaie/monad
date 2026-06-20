@@ -90,12 +90,19 @@ text's internal evidence governs.
 4. All processes are deterministic and reproducible (fixed seeds, pinned
    inputs, no network access).
 
-## Article F — Validation
+## Article F — Validation (updated 2026-06-20)
 
-- **Primary:** internal self-prediction — mask a unit, recover it from the rest
-  of the corpus, score against baselines (frequency; name-agnostic).
-- **Secondary (once, at the end):** a held-out external scorecard, as a
-  demonstration of the thesis, never as a training signal.
+- **Primary and sufficient:** internal self-prediction and stability — mask a unit
+  and recover it from the rest of the corpus; require results to beat frequency
+  baselines and permutation nulls, and to replicate across two independent halves
+  of the corpus (held-out). This is the project's standard of proof and, per the
+  self-sufficiency premise, is **sufficient on its own**.
+- **External scorecard (run once, 2026-06-20 — now closed):** the held-out
+  comparison against a human reference (*mutashābihāt*) gave only partial,
+  mismatched corroboration — that reference measures phrase-parallels, a different
+  relation than the thematic network. External validation is therefore **optional**
+  and is not required for the project's conclusions. The internal validation
+  carries the proof.
 
 ## Article G — Phasing (supersedes Constitution Article V's list for this track)
 

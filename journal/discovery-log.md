@@ -399,3 +399,22 @@ proof. A thematic/tafsir-based reference would be needed for a cleaner external
 check (optional future work).
 
 ---
+
+## 2026-06-20 — External validation CLOSED; internal self-validation is the standard (user: option الف)
+
+The user chose option (الف): internal validation is sufficient; close the external
+work. Charter **Article F updated**: internal self-prediction + cross-half
+stability (held-out; beats nulls; replicates ~10×) is the project's standard of
+proof and is **sufficient on its own** — consistent with the self-sufficiency
+premise the project began with. The one-time external scorecard (mutashābihāt)
+gave only partial, mismatched corroboration and is now closed; external validation
+is optional.
+
+**This concludes the core project.** Outcome: a validated, self-interpreting
+**relational network** of the Quran — verses explain one another (L6), suras are
+coherent communities (L7), and the self-derived concept-meanings are stable across
+independent halves of the corpus (L8) — proven entirely internally, with honest
+negatives recorded (letters L1, word-forms L4, divine-name-anchoring L2). The
+Quran's internal self-sufficiency, the founding premise, is what carried the proof.
+
+---
