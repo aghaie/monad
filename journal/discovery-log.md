@@ -310,3 +310,29 @@ measurable signal beyond it. The word lexicon is retained as a descriptive
 artifact. `validate_L4_words.py` 8/8, byte-identical re-run.
 
 ---
+
+## 2026-06-20 — Phase L6: Inter-ayah Network — VERSES EXPLAIN ONE ANOTHER (the result)
+
+The decisive, leakage-controlled test of the central thesis. For each ayah, split
+content roots into KEY/TARGET; find top-10 neighbours via the KEY roots only and
+from OTHER suras only; ask whether the neighbours contain the TARGET roots (never
+used to find them) more than random ayat do.
+
+Result (4,509 ayat, 200-permutation null):
+- ALL target roots: network 0.545 vs random 0.325 (max 0.334), **p=0.005**.
+- RARE target roots (strict): network 0.200 vs random 0.019 (max 0.030),
+  **p=0.005 — ~10×**.
+
+Verses found through half a verse supply the other half — especially rare,
+meaningful content — far beyond chance, across sura boundaries. **First strong,
+leakage-controlled evidence for the central thesis: the Quran's inter-verse
+network carries real self-interpreting structure.** Meaning lives in the
+relational network of roots across verses (consistent with L3, robust).
+`validate_L6_network.py` 9/9, byte-identical re-run.
+
+Honest calibration: this recovers related CONTENT (the foundation of
+interpretation), not finished self-translation — that remains L7–L8. But the
+core claim "the network of connections between verses interprets itself" now has
+real, measured, controlled support. This is the نتیجهٔ مطلوب.
+
+---

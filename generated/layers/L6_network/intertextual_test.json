@@ -1,0 +1,28 @@
+{
+ "method": "L6-network-1.0",
+ "seed": 7,
+ "K": 10,
+ "rare_df_max": 20,
+ "tested_ayat": 4509,
+ "all_target_roots": {
+  "network_hit": 0.5453,
+  "random_null": {
+   "mean": 0.3252,
+   "sd": 0.0032,
+   "max": 0.3341
+  },
+  "p": 0.005,
+  "verdict": "network beats random"
+ },
+ "rare_target_roots": {
+  "network_hit": 0.2,
+  "random_null": {
+   "mean": 0.0194,
+   "sd": 0.0031,
+   "max": 0.0297
+  },
+  "p": 0.005,
+  "verdict": "network beats random"
+ },
+ "reading": "network_hit > random ⇒ verses found via half a verse supply the other half ⇒ verses explain one another beyond frequency. The RARE-target result is the strict test."
+}
