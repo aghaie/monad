@@ -1,0 +1,74 @@
+{
+ "method": "L1-letters-1.0",
+ "total_roots": 1642,
+ "length_distribution": {
+  "3": 1602,
+  "4": 40
+ },
+ "classes": {
+  "contains_alif_waw_ya": 590,
+  "contains_breakdown": {
+   "A_alif": 135,
+   "w_waw": 312,
+   "y_ya": 203
+  },
+  "geminate_muḍaʿʿaf_R2eqR3": 153,
+  "strong_no_weak_no_gemination": 914,
+  "hamzated_mahmuz": {
+   "status": "UNKNOWN",
+   "tier": "نامشخص/unclear (C4 = abstain)",
+   "reason": "QAC ROOT field normalizes hamza (ء/أ/إ/ؤ/ئ) to alif 'A'; hamzated roots are not separable from alif/weak roots here."
+  }
+ },
+ "examples": {
+  "contains_alif_waw_ya": [
+   "$Am",
+   "$An",
+   "$TA",
+   "$fw",
+   "$fy",
+   "$hw",
+   "$kw",
+   "$nA"
+  ],
+  "strong": [
+   "$Eb",
+   "$El",
+   "$Er",
+   "$Hm",
+   "$Hn",
+   "$Tn",
+   "$Tr",
+   "$bh"
+  ],
+  "geminate": [
+   "$HH",
+   "$TT",
+   "$dd",
+   "$kk",
+   "$qq",
+   "$rr",
+   "$tt",
+   "*bb"
+  ]
+ },
+ "triliteral_count": 1602,
+ "radical_identity_OCP": {
+  "note": "Arabic phonotactics: R1=R2 strongly avoided, R2=R3 (gemination) allowed. ratio<1 = avoided vs chance, ratio>1 = preferred.",
+  "R1=R2": {
+   "observed": 0.0,
+   "expected_if_independent": 0.040038,
+   "ratio_obs_over_exp": 0.0
+  },
+  "R2=R3": {
+   "observed": 0.095506,
+   "expected_if_independent": 0.051036,
+   "ratio_obs_over_exp": 1.8713
+  },
+  "R1=R3": {
+   "observed": 0.004994,
+   "expected_if_independent": 0.040782,
+   "ratio_obs_over_exp": 0.1225
+  }
+ }
+}

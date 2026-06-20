@@ -35,3 +35,103 @@ Initial repository structure established. Ten source data files inventoried from
 **Constitution status:** v1 adopted. See `constitution/monad-constitution.md`.
 
 ---
+
+## 2026-06-20 — Architecture Reset: Self-Interpretation Track (Monad v2)
+
+**Type:** Constitution amendment + architecture decision
+
+**Directive (user):** Start anew with a new phasing. Build, from the ground up
+(letters → roots → words → phrases → ayat → suras → whole), the most correct
+possible understanding of the Quran. Thesis: the Quran needs no external
+reference; the network of relations among all verses can interpret and
+translate itself, and this network must be discovered. Premise (axiom): God
+exists and is the Author; the names/attributes of God are inscribed in the
+text, and all concepts cohere with the names — this coherence is the law of
+interpretation. Existing human interpretations may err; no mistake shall occur.
+
+**Locked decisions:**
+
+1. Validation = internal self-prediction (masked recovery) as primary, plus a
+   single held-out external scorecard at the end (demonstration only, never
+   input).
+2. Letters = phonological / structural only; semantic induction begins at the
+   root level.
+3. Divine names = discovered from the text (attributes predicated of God),
+   established as the semantic anchors / axes; the traditional 99-name list is
+   quarantined for final cross-check only.
+4. "No mistake" = abstention over error: the system marks `UNKNOWN` /
+   low-confidence rather than asserting beyond evidence; confidence tiers,
+   provenance, falsification, and determinism are mandatory.
+5. Human interpretations are never ground truth; on divergence, the text's
+   internal evidence governs and the divergence is flagged.
+
+**Constitution amendments (per Article VII):** Article VI's exclusion of
+"translation" is amended — self-derived (internal) translation/understanding is
+now the goal; external translation remains excluded as input (held-out
+scorecard only). New governing charter adopted:
+`constitution/self-interpretation-charter.md`. Articles II–IV and VII retained.
+
+**Phasing (supersedes Article V list for this track):**
+L0 substrate → L1 letters → L2 names → L3 roots → L4 words → L5 phrases →
+L6 ayat → L7 sura/whole → L8 self-translation + scorecard.
+
+**Design spec:** `docs/superpowers/specs/2026-06-20-self-interpreting-quran-design.md`.
+
+**Legacy:** Prior `generated/*` discovery engines (≈30) and their reports are
+retained for provenance (Constitution III.4) but are superseded; new work uses
+the L-layer namespace. The canonical substrate `generated/monad.db` (built by
+`scripts/build_database.py`) is reused as L0 — pure structure (no semantics),
+already validated.
+
+---
+
+## 2026-06-20 — Adoption of the Researcher-Agent Charter
+
+**Type:** Constitution amendment (governing principles)
+
+**Summary:** The user issued the *Researcher-Agent Charter*
+(منشور عامل پژوهشگر قرآن) — 22 principles plus a final principle defining the
+agent's purpose, methodology, epistemics, and output discipline. Adopted
+verbatim as the **governing operating constitution**:
+`constitution/researcher-agent-charter.md`. It sits above the technical
+`self-interpretation-charter.md` and the design spec, which implement it.
+
+**Reconciliations applied:**
+
+1. **Confidence tiers** unified to the charter's four named tiers:
+   صریح/explicit (C1) → قوی/strong (C2) → محتمل/probable (C3) →
+   نامشخص/unclear (C4 = abstain). Replaces the prior generic C1–C4 labels in the
+   technical charter and the spec.
+2. **Muḥkam → mutashābih** (charter §5) adopted as a **second anchoring axis**
+   alongside the divine names: interpretation propagates from high-clarity
+   (muḥkam) verses to low-clarity (mutashābih) ones. "Clarity" is an internal,
+   measured quantity (attestation, recovery score, construction commonness), so
+   it respects the no-external-reference boundary. Added as Article B-2 of the
+   technical charter and §7.1 of the spec. Affects L6–L8.
+3. **Analysis & output protocol** (gather all related verses; never interpret
+   in isolation; list all candidate interpretations with tiers; apparent-
+   contradiction protocol; accept Quranic silence) bound to L6–L8 and to all
+   interpretive output (spec §7.1).
+
+**Governing principle (overrides all):** «قرآن معیار است؛ برداشت تو از قرآن
+معیار نیست.» — the Quran is the criterion; the agent's understanding is not.
+
+---
+
+## 2026-06-20 — Guidance Principle (Purpose-Coherence Re-Test)
+
+**Type:** Constitution amendment (governing principle)
+
+**Principle (user, verbatim):** «هدف قرآن هدایت انسان به سوی حق، عدالت، رحمت،
+آگاهی و مسئولیت‌پذیری است؛ هر برداشتی که به نفی این اصول منجر شود باید دوباره با
+کل قرآن آزموده شود.»
+
+**Integration:** Recorded in the Researcher-Agent Charter (Guidance Principle)
+and as Article H of the technical charter; bound into the analysis protocol
+(spec §7.1). Framed as a *re-test trigger*, not a content filter, to preserve
+falsifiability: the five guidance-aims are Quran-derived (not imported); a
+reading that negates one triggers a re-test against the whole Quran; if the text
+still supports it, the reading stands and our grasp of the aim is revised — the
+Quran remains the criterion.
+
+---

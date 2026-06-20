@@ -1,0 +1,45 @@
+{
+ "layer": "L1",
+ "name": "letters / phonology",
+ "method": "L1-letters-1.0",
+ "source_db": "monad.db",
+ "claim_level": "STRUCTURAL ONLY — no semantic induction at this layer",
+ "confidence_tier": "قوی/strong (C2) — structurally derived",
+ "data_caveats": [
+  "QAC ROOT field normalizes hamza to alif 'A'; hamzated count is UNKNOWN (abstain).",
+  "Roots use 28 consonantal symbols; short vowels/diacritics are not part of roots."
+ ],
+ "prohibitions_observed": [
+  "no external dictionaries",
+  "no translations",
+  "no tafsir",
+  "no semantics",
+  "no interpretation of muqattaʿat",
+  "no pretrained models"
+ ],
+ "totals": {
+  "roots": 1642,
+  "alphabet_size": 28,
+  "triliteral_roots": 1602,
+  "quadriliteral_roots": 40,
+  "suras_with_muqattaat": 29
+ },
+ "self_prediction": {
+  "model_top1_pct": 2.25,
+  "model_top3_pct": 11.36,
+  "baseline_top1_pct": 9.24,
+  "baseline_top3_pct": 24.72,
+  "verdict": "no_improvement_over_baseline"
+ },
+ "headline_structural_finding": {
+  "OCP_R1eqR2_ratio": 0.0,
+  "OCP_R2eqR3_ratio": 1.8713,
+  "OCP_R1eqR3_ratio": 0.1225
+ },
+ "output_bytes": {
+  "letter_inventory.json": 9182,
+  "root_morphophonology.json": 1410,
+  "muqattaat.json": 5085,
+  "self_prediction.json": 759
+ }
+}

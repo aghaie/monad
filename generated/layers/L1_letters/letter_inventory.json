@@ -1,0 +1,748 @@
+{
+ "method": "L1-letters-1.0",
+ "note": "STRUCTURAL ONLY — no semantic claim. Letters are phonological atoms.",
+ "alphabet_size": 28,
+ "alphabet": [
+  "$",
+  "*",
+  "A",
+  "D",
+  "E",
+  "H",
+  "S",
+  "T",
+  "Z",
+  "b",
+  "d",
+  "f",
+  "g",
+  "h",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "q",
+  "r",
+  "s",
+  "t",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z"
+ ],
+ "nonstandard_symbols": [],
+ "letter_frequency_type": [
+  {
+   "bw": "r",
+   "ar": "ر",
+   "root_occurrences": 448
+  },
+  {
+   "bw": "w",
+   "ar": "و",
+   "root_occurrences": 314
+  },
+  {
+   "bw": "l",
+   "ar": "ل",
+   "root_occurrences": 302
+  },
+  {
+   "bw": "b",
+   "ar": "ب",
+   "root_occurrences": 300
+  },
+  {
+   "bw": "m",
+   "ar": "م",
+   "root_occurrences": 278
+  },
+  {
+   "bw": "n",
+   "ar": "ن",
+   "root_occurrences": 266
+  },
+  {
+   "bw": "d",
+   "ar": "د",
+   "root_occurrences": 241
+  },
+  {
+   "bw": "f",
+   "ar": "ف",
+   "root_occurrences": 236
+  },
+  {
+   "bw": "s",
+   "ar": "س",
+   "root_occurrences": 236
+  },
+  {
+   "bw": "E",
+   "ar": "ع",
+   "root_occurrences": 228
+  },
+  {
+   "bw": "q",
+   "ar": "ق",
+   "root_occurrences": 210
+  },
+  {
+   "bw": "y",
+   "ar": "ي",
+   "root_occurrences": 207
+  },
+  {
+   "bw": "H",
+   "ar": "ح",
+   "root_occurrences": 197
+  },
+  {
+   "bw": "j",
+   "ar": "ج",
+   "root_occurrences": 153
+  },
+  {
+   "bw": "k",
+   "ar": "ك",
+   "root_occurrences": 138
+  },
+  {
+   "bw": "A",
+   "ar": "ا",
+   "root_occurrences": 136
+  },
+  {
+   "bw": "S",
+   "ar": "ص",
+   "root_occurrences": 131
+  },
+  {
+   "bw": "h",
+   "ar": "ه",
+   "root_occurrences": 118
+  },
+  {
+   "bw": "T",
+   "ar": "ط",
+   "root_occurrences": 114
+  },
+  {
+   "bw": "z",
+   "ar": "ز",
+   "root_occurrences": 107
+  },
+  {
+   "bw": "x",
+   "ar": "خ",
+   "root_occurrences": 104
+  },
+  {
+   "bw": "$",
+   "ar": "ش",
+   "root_occurrences": 98
+  },
+  {
+   "bw": "t",
+   "ar": "ت",
+   "root_occurrences": 96
+  },
+  {
+   "bw": "D",
+   "ar": "ض",
+   "root_occurrences": 85
+  },
+  {
+   "bw": "g",
+   "ar": "غ",
+   "root_occurrences": 79
+  },
+  {
+   "bw": "v",
+   "ar": "ث",
+   "root_occurrences": 70
+  },
+  {
+   "bw": "*",
+   "ar": "ذ",
+   "root_occurrences": 51
+  },
+  {
+   "bw": "Z",
+   "ar": "ظ",
+   "root_occurrences": 23
+  }
+ ],
+ "letter_frequency_token": [
+  {
+   "bw": "l",
+   "ar": "ل",
+   "weighted_occurrences": 15269
+  },
+  {
+   "bw": "r",
+   "ar": "ر",
+   "weighted_occurrences": 12390
+  },
+  {
+   "bw": "w",
+   "ar": "و",
+   "weighted_occurrences": 11452
+  },
+  {
+   "bw": "A",
+   "ar": "ا",
+   "weighted_occurrences": 9797
+  },
+  {
+   "bw": "b",
+   "ar": "ب",
+   "weighted_occurrences": 9755
+  },
+  {
+   "bw": "n",
+   "ar": "ن",
+   "weighted_occurrences": 9006
+  },
+  {
+   "bw": "y",
+   "ar": "ي",
+   "weighted_occurrences": 8834
+  },
+  {
+   "bw": "m",
+   "ar": "م",
+   "weighted_occurrences": 8776
+  },
+  {
+   "bw": "E",
+   "ar": "ع",
+   "weighted_occurrences": 7039
+  },
+  {
+   "bw": "q",
+   "ar": "ق",
+   "weighted_occurrences": 6875
+  },
+  {
+   "bw": "k",
+   "ar": "ك",
+   "weighted_occurrences": 5730
+  },
+  {
+   "bw": "d",
+   "ar": "د",
+   "weighted_occurrences": 5655
+  },
+  {
+   "bw": "s",
+   "ar": "س",
+   "weighted_occurrences": 5113
+  },
+  {
+   "bw": "h",
+   "ar": "ه",
+   "weighted_occurrences": 4699
+  },
+  {
+   "bw": "f",
+   "ar": "ف",
+   "weighted_occurrences": 3936
+  },
+  {
+   "bw": "H",
+   "ar": "ح",
+   "weighted_occurrences": 3828
+  },
+  {
+   "bw": "j",
+   "ar": "ج",
+   "weighted_occurrences": 3250
+  },
+  {
+   "bw": "x",
+   "ar": "خ",
+   "weighted_occurrences": 2495
+  },
+  {
+   "bw": "t",
+   "ar": "ت",
+   "weighted_occurrences": 2351
+  },
+  {
+   "bw": "$",
+   "ar": "ش",
+   "weighted_occurrences": 2113
+  },
+  {
+   "bw": "S",
+   "ar": "ص",
+   "weighted_occurrences": 2083
+  },
+  {
+   "bw": "*",
+   "ar": "ذ",
+   "weighted_occurrences": 1895
+  },
+  {
+   "bw": "D",
+   "ar": "ض",
+   "weighted_occurrences": 1702
+  },
+  {
+   "bw": "z",
+   "ar": "ز",
+   "weighted_occurrences": 1611
+  },
+  {
+   "bw": "g",
+   "ar": "غ",
+   "weighted_occurrences": 1220
+  },
+  {
+   "bw": "T",
+   "ar": "ط",
+   "weighted_occurrences": 1214
+  },
+  {
+   "bw": "v",
+   "ar": "ث",
+   "weighted_occurrences": 1052
+  },
+  {
+   "bw": "Z",
+   "ar": "ظ",
+   "weighted_occurrences": 860
+  }
+ ],
+ "positional_distribution_triliteral": {
+  "R1": [
+   {
+    "bw": "n",
+    "ar": "ن",
+    "count": 105
+   },
+   {
+    "bw": "s",
+    "ar": "س",
+    "count": 100
+   },
+   {
+    "bw": "E",
+    "ar": "ع",
+    "count": 98
+   },
+   {
+    "bw": "H",
+    "ar": "ح",
+    "count": 96
+   },
+   {
+    "bw": "r",
+    "ar": "ر",
+    "count": 86
+   },
+   {
+    "bw": "b",
+    "ar": "ب",
+    "count": 81
+   },
+   {
+    "bw": "w",
+    "ar": "و",
+    "count": 76
+   },
+   {
+    "bw": "q",
+    "ar": "ق",
+    "count": 74
+   },
+   {
+    "bw": "f",
+    "ar": "ف",
+    "count": 72
+   },
+   {
+    "bw": "j",
+    "ar": "ج",
+    "count": 69
+   },
+   {
+    "bw": "A",
+    "ar": "ا",
+    "count": 68
+   },
+   {
+    "bw": "x",
+    "ar": "خ",
+    "count": 68
+   },
+   {
+    "bw": "m",
+    "ar": "م",
+    "count": 67
+   },
+   {
+    "bw": "$",
+    "ar": "ش",
+    "count": 62
+   },
+   {
+    "bw": "S",
+    "ar": "ص",
+    "count": 60
+   },
+   {
+    "bw": "k",
+    "ar": "ك",
+    "count": 59
+   },
+   {
+    "bw": "l",
+    "ar": "ل",
+    "count": 54
+   },
+   {
+    "bw": "g",
+    "ar": "غ",
+    "count": 50
+   },
+   {
+    "bw": "d",
+    "ar": "د",
+    "count": 44
+   },
+   {
+    "bw": "h",
+    "ar": "ه",
+    "count": 38
+   },
+   {
+    "bw": "T",
+    "ar": "ط",
+    "count": 36
+   },
+   {
+    "bw": "z",
+    "ar": "ز",
+    "count": 35
+   },
+   {
+    "bw": "D",
+    "ar": "ض",
+    "count": 24
+   },
+   {
+    "bw": "*",
+    "ar": "ذ",
+    "count": 21
+   },
+   {
+    "bw": "v",
+    "ar": "ث",
+    "count": 21
+   },
+   {
+    "bw": "t",
+    "ar": "ت",
+    "count": 20
+   },
+   {
+    "bw": "y",
+    "ar": "ي",
+    "count": 11
+   },
+   {
+    "bw": "Z",
+    "ar": "ظ",
+    "count": 7
+   }
+  ],
+  "R2": [
+   {
+    "bw": "r",
+    "ar": "ر",
+    "count": 148
+   },
+   {
+    "bw": "w",
+    "ar": "و",
+    "count": 143
+   },
+   {
+    "bw": "l",
+    "ar": "ل",
+    "count": 105
+   },
+   {
+    "bw": "b",
+    "ar": "ب",
+    "count": 99
+   },
+   {
+    "bw": "m",
+    "ar": "م",
+    "count": 96
+   },
+   {
+    "bw": "y",
+    "ar": "ي",
+    "count": 95
+   },
+   {
+    "bw": "f",
+    "ar": "ف",
+    "count": 85
+   },
+   {
+    "bw": "s",
+    "ar": "س",
+    "count": 73
+   },
+   {
+    "bw": "d",
+    "ar": "د",
+    "count": 68
+   },
+   {
+    "bw": "n",
+    "ar": "ن",
+    "count": 63
+   },
+   {
+    "bw": "h",
+    "ar": "ه",
+    "count": 58
+   },
+   {
+    "bw": "q",
+    "ar": "ق",
+    "count": 57
+   },
+   {
+    "bw": "j",
+    "ar": "ج",
+    "count": 53
+   },
+   {
+    "bw": "H",
+    "ar": "ح",
+    "count": 48
+   },
+   {
+    "bw": "k",
+    "ar": "ك",
+    "count": 48
+   },
+   {
+    "bw": "E",
+    "ar": "ع",
+    "count": 45
+   },
+   {
+    "bw": "S",
+    "ar": "ص",
+    "count": 44
+   },
+   {
+    "bw": "T",
+    "ar": "ط",
+    "count": 41
+   },
+   {
+    "bw": "z",
+    "ar": "ز",
+    "count": 38
+   },
+   {
+    "bw": "t",
+    "ar": "ت",
+    "count": 37
+   },
+   {
+    "bw": "D",
+    "ar": "ض",
+    "count": 30
+   },
+   {
+    "bw": "A",
+    "ar": "ا",
+    "count": 23
+   },
+   {
+    "bw": "x",
+    "ar": "خ",
+    "count": 22
+   },
+   {
+    "bw": "$",
+    "ar": "ش",
+    "count": 22
+   },
+   {
+    "bw": "v",
+    "ar": "ث",
+    "count": 20
+   },
+   {
+    "bw": "g",
+    "ar": "غ",
+    "count": 18
+   },
+   {
+    "bw": "*",
+    "ar": "ذ",
+    "count": 16
+   },
+   {
+    "bw": "Z",
+    "ar": "ظ",
+    "count": 7
+   }
+  ],
+  "R3": [
+   {
+    "bw": "r",
+    "ar": "ر",
+    "count": 190
+   },
+   {
+    "bw": "l",
+    "ar": "ل",
+    "count": 132
+   },
+   {
+    "bw": "d",
+    "ar": "د",
+    "count": 120
+   },
+   {
+    "bw": "b",
+    "ar": "ب",
+    "count": 109
+   },
+   {
+    "bw": "m",
+    "ar": "م",
+    "count": 106
+   },
+   {
+    "bw": "y",
+    "ar": "ي",
+    "count": 101
+   },
+   {
+    "bw": "w",
+    "ar": "و",
+    "count": 92
+   },
+   {
+    "bw": "n",
+    "ar": "ن",
+    "count": 91
+   },
+   {
+    "bw": "E",
+    "ar": "ع",
+    "count": 77
+   },
+   {
+    "bw": "f",
+    "ar": "ف",
+    "count": 73
+   },
+   {
+    "bw": "q",
+    "ar": "ق",
+    "count": 71
+   },
+   {
+    "bw": "s",
+    "ar": "س",
+    "count": 50
+   },
+   {
+    "bw": "H",
+    "ar": "ح",
+    "count": 48
+   },
+   {
+    "bw": "A",
+    "ar": "ا",
+    "count": 43
+   },
+   {
+    "bw": "t",
+    "ar": "ت",
+    "count": 39
+   },
+   {
+    "bw": "T",
+    "ar": "ط",
+    "count": 31
+   },
+   {
+    "bw": "D",
+    "ar": "ض",
+    "count": 30
+   },
+   {
+    "bw": "j",
+    "ar": "ج",
+    "count": 29
+   },
+   {
+    "bw": "v",
+    "ar": "ث",
+    "count": 28
+   },
+   {
+    "bw": "z",
+    "ar": "ز",
+    "count": 27
+   },
+   {
+    "bw": "k",
+    "ar": "ك",
+    "count": 26
+   },
+   {
+    "bw": "S",
+    "ar": "ص",
+    "count": 19
+   },
+   {
+    "bw": "h",
+    "ar": "ه",
+    "count": 17
+   },
+   {
+    "bw": "$",
+    "ar": "ش",
+    "count": 12
+   },
+   {
+    "bw": "*",
+    "ar": "ذ",
+    "count": 11
+   },
+   {
+    "bw": "g",
+    "ar": "غ",
+    "count": 11
+   },
+   {
+    "bw": "x",
+    "ar": "خ",
+    "count": 10
+   },
+   {
+    "bw": "Z",
+    "ar": "ظ",
+    "count": 9
+   }
+  ]
+ }
+}

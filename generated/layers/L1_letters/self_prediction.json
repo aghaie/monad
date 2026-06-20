@@ -1,0 +1,18 @@
+{
+ "method": "L1-letters-1.0",
+ "task": "masked middle radical (R2) recovery from (R1,R3), held-out K-fold",
+ "kfold": 5,
+ "model_desc": "Katz-style backoff: P(R2|R1,R3) → P(R2|R1)+P(R2|R3) → marginal P(R2)",
+ "triliteral_types_tested": 1602,
+ "model": {
+  "top1_pct": 2.25,
+  "top3_pct": 11.36
+ },
+ "baseline": {
+  "top1_pct": 9.24,
+  "top3_pct": 24.72,
+  "desc": "marginal R2 frequency (no context)"
+ },
+ "verdict": "no_improvement_over_baseline",
+ "interpretation": "Structural only: tests whether the middle radical is recoverable from the outer radicals beyond base rates. The strong root structure is CATEGORICAL (see OCP), not combinatorially predictive — consistent with the decision that letters are non-semantic and meaning begins at roots."
+}
