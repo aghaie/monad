@@ -1,0 +1,37 @@
+{
+  "underived_axioms": [
+    "A-000001",
+    "A-000011",
+    "A-000012"
+  ],
+  "underived_all_secular": true,
+  "grounding_counts": {
+    "secular_rational": 6,
+    "bridge": 2,
+    "theological_quranic": 7
+  },
+  "secular_only_kernel": [
+    "A-000001",
+    "A-000011",
+    "A-000012"
+  ],
+  "secular_kernel_coverage": 0.6735,
+  "theological_axioms": [
+    "A-000004",
+    "A-000005",
+    "A-000006",
+    "A-000007",
+    "A-000009",
+    "A-000010",
+    "A-000015"
+  ],
+  "theological_with_verse_anchor": [
+    "A-000004",
+    "A-000005",
+    "A-000006",
+    "A-000007",
+    "A-000009",
+    "A-000010",
+    "A-000015"
+  ]
+}

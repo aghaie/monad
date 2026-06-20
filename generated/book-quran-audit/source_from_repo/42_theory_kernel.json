@@ -1,0 +1,173 @@
+{
+  "description": "The irreducible kernel of the Theory of Liberty: what remains after removing all secondary material, illustrations, polemics, historical claims, and biographical content.",
+  "kernel_axiom_count": 6,
+  "kernel_claim_count": 14,
+  "kernel_definition_count": 8,
+  "kernel_axioms": [
+    {
+      "id": "A-000001",
+      "text": "Human free will exists and is universally presupposed.",
+      "why_kernel": "Root of entire derivation"
+    },
+    {
+      "id": "A-000011",
+      "text": "A valid formal system must have finite and minimal axioms.",
+      "why_kernel": "Grounds the axiom-minimality argument and Tawhid necessity proof"
+    },
+    {
+      "id": "A-000012",
+      "text": "A valid system must be internally consistent (Gödel).",
+      "why_kernel": "Grounds the CFS methodology and religion=CFS claim"
+    },
+    {
+      "id": "A-000004",
+      "text": "Tawhid: no servitude to anything other than God.",
+      "why_kernel": "Gateway to theology, market, political theory"
+    },
+    {
+      "id": "A-000006",
+      "text": "Resurrection exists; it stabilizes liberty.",
+      "why_kernel": "Required to solve last-round problem; cannot be derived secularly"
+    },
+    {
+      "id": "A-000007",
+      "text": "Prophethood is real; it is the barrier against false messiahs.",
+      "why_kernel": "Required to block false messiah problem; cannot be derived secularly"
+    }
+  ],
+  "kernel_claims": [
+    {
+      "id": "C-000001",
+      "text": "Liberty = individual property rights.",
+      "why_kernel": "The theory's central definition"
+    },
+    {
+      "id": "C-000015",
+      "text": "Free will is the axiom everyone is forced to presuppose.",
+      "why_kernel": "Establishes A-000001 as genuinely foundational"
+    },
+    {
+      "id": "C-000039",
+      "text": "Denial of free will is self-refuting.",
+      "why_kernel": "Closes the free will argument against determinism"
+    },
+    {
+      "id": "C-000016",
+      "text": "Tawhid guarantees liberty by eliminating servitude to other-than-God.",
+      "why_kernel": "Core theological-political bridge claim"
+    },
+    {
+      "id": "C-000017",
+      "text": "Eliminating Tawhid proliferates axioms and leads to totalitarianism.",
+      "why_kernel": "The negative proof: removing Tawhid destroys liberty"
+    },
+    {
+      "id": "C-000021",
+      "text": "Liberty is unstable without Resurrection (last-round problem).",
+      "why_kernel": "Game-theoretic stability argument: requires Resurrection"
+    },
+    {
+      "id": "C-000028",
+      "text": "A consistent formal system is necessary for understanding true religion.",
+      "why_kernel": "CFS requirement for religion"
+    },
+    {
+      "id": "C-000029",
+      "text": "The formal system of liberty is equivalent to religion.",
+      "why_kernel": "The theory's central equivalence thesis"
+    },
+    {
+      "id": "C-000013",
+      "text": "Liberty → property rights → religion (master derivation chain).",
+      "why_kernel": "Master derivation chain"
+    },
+    {
+      "id": "C-000004",
+      "text": "True religion purified of mysticism is the most precise system for liberty's defense.",
+      "why_kernel": "Primary practical conclusion"
+    },
+    {
+      "id": "C-000055",
+      "text": "Religion is the antithesis of the state.",
+      "why_kernel": "Religion vs. state antithesis"
+    },
+    {
+      "id": "C-000043",
+      "text": "Democracy does not legitimize violating individual rights.",
+      "why_kernel": "Democracy's proper scope"
+    },
+    {
+      "id": "C-000071",
+      "text": "Theory of liberty is the only existing solution for AI ethics.",
+      "why_kernel": "Terminal conclusion for AI ethics"
+    },
+    {
+      "id": "C-000051",
+      "text": "Without Mahdism, the theory of liberty cannot be completed.",
+      "why_kernel": "Terminal condition for theory completeness"
+    }
+  ],
+  "kernel_definitions": [
+    {
+      "term": "liberty",
+      "canonical": "Liberty in its objective form is identical to individual property rights. It is the condition under which a person exercises sovereignty over their own body, labor, and acquired possessions, free from coercion by other human beings."
+    },
+    {
+      "term": "religion",
+      "canonical": "True religion is a consistent formal axiomatic system for individual liberty and property rights, purified of mysticism. It is not an institution, not a state-structure, and not a set of rituals. It is an axiomatic framework whose core axioms are Tawhid, Resurrection, and Prophethood."
+    },
+    {
+      "term": "property_rights",
+      "canonical": "Individual property rights are the exclusive authority of a person over their own body and legitimately acquired external goods. The Rule of Taslīṭ formalizes this: 'People are sovereign over their own property.' Property begins with the body."
+    },
+    {
+      "term": "mysticism",
+      "canonical": "Mysticism is any system — philosophical, religious, political, or cultural — that separates human beings from their body, reason, property, or individual identity, and delivers them to a collective entity (state, movement, mystical union, 'unity of being')."
+    },
+    {
+      "term": "tawhid",
+      "canonical": "Tawhid is the principle that no human being has the right — in any way — to strip others of their power of choice and free will. Its negative definition: God is certainly not any of the humans or entities we see with our eyes. Its operational consequence: no servitude to anything other than God, which means no servitude to other humans."
+    },
+    {
+      "term": "free_will",
+      "canonical": "Free will is the power of self-directed choice that every human being possesses and which is universally presupposed by all rational discourse, all contracts, and all moral claims. It is not derived; it is the necessary presupposition of derivation itself."
+    },
+    {
+      "term": "consistent_formal_system",
+      "canonical": "A consistent formal axiomatic system (CFS) is a system that is: (1) formally expressible in a language, (2) governed by logical rules, (3) whose definitions and concepts are objective (agreement-admissible), (4) axiomatic (derivation proceeds from a small set of unprovable but accepted premises), and (5) free of internal contradiction. Religion, purified, is such a system for liberty."
+    },
+    {
+      "term": "resurrection",
+      "canonical": "Resurrection (Ma'ad) functions in the theory as the game-theoretic solution to the last-round problem: because there is a final accounting whose timing is unknown, no agent can rationally defect in the 'last round.' This makes cooperation (liberty-respecting behavior) the dominant long-run strategy."
+    }
+  ],
+  "non_kernel_material": {
+    "historical_claims": [
+      "Iran as land of proprietors (C-000010, C-000060)",
+      "Shahnameh as civilizational memory (C-000053)",
+      "Ghadir interpretation (C-000056)",
+      "Islam entering Iran (C-000057)",
+      "Safavid period analysis",
+      "1979 revolution as intellectual culmination"
+    ],
+    "illustrative_examples": [
+      "The unsupervised store / surveillance camera example",
+      "The tree-roots / graph-edges analogy",
+      "Moses and the magicians illustration",
+      "The Bahram Gur charter claim",
+      "The Suffolk Bank example (C-000036)"
+    ],
+    "polemical_claims": [
+      "Iranian communists mock classical liberals with 'invisible hand = Hand of God'",
+      "Yuval Noah Harari as example of godlike-human thinking",
+      "Climate change as state-expanding ideology",
+      "De-dollarization as servitude mechanism"
+    ],
+    "biographical_memoir": [
+      "P-0183: Dey and Bahman 1402 arrest narrative",
+      "P-0003: The letter-to-all-Iranians introduction",
+      "Personal reflections on the journey of writing"
+    ]
+  },
+  "kernel_summary": "The irreducible kernel consists of 6 axioms, 14 claims, and 8 definitions. Together they constitute the complete logical spine of the theory: Free Will → Property → Liberty → (Tawhid + Consistency) → Religion-as-CFS → Anti-Statism → AI-Ethics. The game-theoretic stability argument (Resurrection) and the anti-fraud argument (Prophethood) are required to close the secular-to-theological gap. All historical, civilizational, and illustrative material is in the protective belt, not the hard core."
+}
