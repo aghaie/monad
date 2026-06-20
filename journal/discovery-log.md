@@ -158,3 +158,26 @@ first internal empirical support for "concepts cohere with the names" (Charter
 Article B).** `validate_L2_names.py` 11/11, byte-identical re-run.
 
 ---
+
+## 2026-06-20 — Phase L3: Self-grounded Root Lexicon (name-coordinates)
+
+**Type:** Layer build — first full meaning layer
+
+**Method:** For every root, "meaning" = internal relations + coordinates in the
+L2 name-space (no external gloss). name_coordinates (PPMI vs the 16 anchor
+names), relational_neighbors (root-root PPMI), field_neighbors (cosine over
+name-profiles), defining_ayat, and an attestation tier (قوی 593 / محتمل 453 /
+نامشخص-abstain 589). L2 outputs used as permitted source data.
+
+**Meaningfulness (zero external input):** رحم → رحیم/رؤوف/غفور; علم →
+علیم/واسع/سمیع/حکیم; کتب → شهید/وکیل. Each root sits next to the names it should.
+
+**Self-prediction:** masked content-root recovery from ayah context, held-out
+5-fold (35,596 instances, 1,635 roots). Model **9.70% top-1 / 17.73% top-3** vs
+baseline 3.54% / 8.68% vs random 0.061%. **Model beats baseline and random ⇒ the
+relational network recovers its own roots; self-interpretation works at the root
+level.** Honest coverage: only 221 roots are directly name-anchored (co-occur
+with a name ≥3×); the rest rely on relational fingerprint. `validate_L3_roots.py`
+12/12, byte-identical re-run.
+
+---

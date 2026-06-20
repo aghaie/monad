@@ -1,0 +1,17 @@
+{
+ "method": "L3-roots-1.0",
+ "task": "masked content-root recovery from ayah context (root-root PPMI), held-out 5-fold",
+ "instances": 35596,
+ "candidate_roots": 1635,
+ "random_floor_top1_pct": 0.061,
+ "model": {
+  "top1_pct": 9.7,
+  "top3_pct": 17.73
+ },
+ "baseline": {
+  "top1_pct": 3.54,
+  "top3_pct": 8.68,
+  "desc": "most frequent root"
+ },
+ "verdict": "model_beats_baseline"
+}

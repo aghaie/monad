@@ -1,0 +1,56 @@
+{
+ "layer": "L3",
+ "name": "self-grounded root lexicon (name-coordinates)",
+ "method": "L3-roots-1.0",
+ "source": [
+  "monad.db",
+  "L2_names/discovered_names.json"
+ ],
+ "claim_level": "first full meaning layer — meaning = internal relations + name-coordinates",
+ "confidence_tiers": {
+  "محتمل/probable": 453,
+  "نامشخص/abstain": 589,
+  "قوی/strong": 593
+ },
+ "anchor_names": [
+  "gafuwr",
+  "Ealiym",
+  "r~aHiym",
+  "Hakiym",
+  "samiyE",
+  "xabiyr",
+  "wa`siE",
+  "qadiyr",
+  "Haliym",
+  "baSiyr",
+  "Eafuw~",
+  "ra'uwf",
+  "qawiY~",
+  "muHiyT",
+  "$ahiyd",
+  "wakiyl"
+ ],
+ "prohibitions_observed": [
+  "no external glosses",
+  "no dictionaries",
+  "no tafsir",
+  "no translations",
+  "no pretrained models"
+ ],
+ "totals": {
+  "roots": 1635,
+  "attested_roots": 221
+ },
+ "self_prediction": {
+  "model_top1_pct": 9.7,
+  "model_top3_pct": 17.73,
+  "baseline_top1_pct": 3.54,
+  "baseline_top3_pct": 8.68,
+  "random_floor_top1_pct": 0.061,
+  "verdict": "model_beats_baseline"
+ },
+ "output_bytes": {
+  "root_lexicon.json": 961735,
+  "self_prediction.json": 383
+ }
+}
