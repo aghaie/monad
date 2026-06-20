@@ -376,3 +376,26 @@ positives. Negatives (honestly recorded): letters (L1), word-forms (L4), and
 name-anchoring (L2). `validate_L8_interpret.py` 8/8, byte-identical re-run.
 
 ---
+
+## 2026-06-20 — External scorecard (one-time, quarantined): partial corroboration, mismatched reference
+
+User authorised downloading an external reference. Downloaded human *mutashābihāt*
+(parallel verses, Waqar144/Quran_Mutashabihat_Data) to `external/` (quarantined —
+only `scripts/build_scorecard.py` reads it; the L0–L8 pipeline never does).
+
+Result (1,635 human verse pairs): the internal network recovers them **14–31×
+above chance** (rare-concept recall@5 2.51% vs random 0.08%), but absolute recall
+is low (~5%); an all-root surface variant reaches ~11%.
+
+**Honest diagnosis:** *mutashābihāt* are phrase/sequence parallels for memorisers
+— a DIFFERENT relation than our thematic rare-content network. Above-chance
+overlap = real intersection; low absolute overlap = the reference measures
+something else. So it partially corroborates but is a mismatched yardstick. Our
+extra links are potential discoveries, not errors (text = criterion).
+
+**Standing conclusion:** the strongest validation remains INTERNAL (L8 stability,
+~10×, p=0.005) — the self-sufficiency the project assumed is what carries the
+proof. A thematic/tafsir-based reference would be needed for a cleaner external
+check (optional future work).
+
+---

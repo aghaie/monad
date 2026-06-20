@@ -1,0 +1,32 @@
+{
+ "method": "scorecard-1.0",
+ "reference": "mutashabiha (human parallel verses)",
+ "human_pairs_evaluated": 1635,
+ "rare_concept_network": {
+  "recall": {
+   "recall@5": 2.51,
+   "recall@10": 3.18,
+   "recall@20": 4.59,
+   "recall@50": 5.08
+  },
+  "found_anywhere_pct": 5.2,
+  "median_rank_when_found": 6,
+  "fold_over_random@20": 14.3
+ },
+ "all_root_surface_overlap": {
+  "recall": {
+   "recall@5": 6.48,
+   "recall@10": 7.71,
+   "recall@20": 8.93,
+   "recall@50": 11.01
+  },
+  "found_anywhere_pct": 44.65
+ },
+ "random_baseline": {
+  "recall@5": 0.08,
+  "recall@10": 0.16,
+  "recall@20": 0.321,
+  "recall@50": 0.802
+ },
+ "interpretation": "mutashābihāt are textual/PHRASE parallels (memorisation confusions). The rare-concept network targets specific shared content, not common phrasing, so its overlap is modest but far above chance. The all-root (surface) variant recovers many more — confirming the reference captures lexical phrase-overlap, a DIFFERENT relation than the thematic network. Links our network finds beyond the reference are potential discoveries, not errors (charter: the text is the criterion)."
+}
