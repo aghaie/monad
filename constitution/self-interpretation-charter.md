@@ -21,25 +21,41 @@ relations among all its verses is sufficient to interpret and self-translate
 it. Discovering this network, and reaching the maximal internally-grounded
 understanding, is the goal.
 
-## Article B — Names as Anchors (The Law of Interpretation)
+## Article B — The Divine Names (revised 2026-06-20)
 
-1. The names and attributes of God are inscribed in the text and are the
-   internal semantic anchors — the axes of the meaning space.
-2. **Law of interpretation:** the meaning of any unit is the reading most
-   coherent with the divine names it connects to.
-3. The names are **discovered from the text** (attributes predicated of God),
-   never imported. The traditional enumeration (al-asmāʾ al-ḥusnā) is held out
-   for final cross-check only, and is treated as fallible.
+1. The names and attributes of God are inscribed in the text — a real,
+   internally discovered feature (Phase L2), studied on its own terms.
+2. **Original hypothesis, now UNCONFIRMED:** that the names are THE semantic
+   anchors / axes of meaning (the computational "law of interpretation"). Two
+   independent fair tests — distributional (the thesis test) and structural
+   (coverage + centrality) — found no signal that the names organize the
+   corpus's meaning beyond word frequency. The claim is therefore **downgraded
+   to an unconfirmed hypothesis and is NOT load-bearing.**
+3. This concerns the computational model only. Per Article D and the
+   Researcher-Agent Charter, the text remains the criterion; the coherence, if
+   real, may operate at a level these co-occurrence instruments cannot measure.
+   It is **not declared false** — only unsupported by available methods, and
+   revisable on new evidence.
+4. The names are discovered from the text, never imported; the traditional
+   enumeration stays quarantined for the L8 scorecard.
 
-## Article B-2 — Clarity Anchors (muḥkam → mutashābih)
+## Article B-2 — Clarity Anchors (muḥkam → mutashābih) [untested design principle]
 
 Clear, decisive verses are the basis for understanding ambiguous ones
-(Researcher-Agent Charter §5). Interpretation propagates **from high-clarity
+(Researcher-Agent Charter §5): interpretation propagates **from high-clarity
 (muḥkam) verses to low-clarity (mutashābih) ones**, never the reverse. Clarity
 is an internal, measured quantity (attestation, recovery score, construction
-commonness) — so this anchoring respects Article C. Together with the divine
-names (Article B), it forms the project's **dual anchoring system**: names
-anchor the *semantic* space; muḥkam verses anchor the *interpretive* space.
+commonness). This remains an **untested design principle**, to be validated
+before it is relied upon.
+
+## Article B-3 — The Relational Foundation (empirically grounded)
+
+The meaning of a unit is carried by its position in the corpus's internal
+**relational network** (context / co-occurrence). This is the empirically
+supported basis: held-out masked-root recovery (Phase L3; robustness Test C)
+shows the network recovers its own roots from context far above chance. All
+meaning layers (L3 onward) build on this relational structure, **with leakage
+controls built in from the start.**
 
 ## Article C — The Boundary (Internal vs External)
 

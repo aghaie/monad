@@ -5,6 +5,17 @@
 - **Governing operating constitution:** [researcher-agent-charter.md](../../../constitution/researcher-agent-charter.md)
 - **Technical charter:** [self-interpretation-charter.md](../../../constitution/self-interpretation-charter.md)
 
+> ## ⚠️ Major revision — 2026-06-20 (foundation re-based)
+> The name-anchoring thesis (§2, H1) was **falsified** by two independent fair
+> tests (distributional + structural): the divine names do not organize the
+> corpus's meaning beyond word frequency. Charter **Article B is downgraded**;
+> the divine names are retained as a *studied feature*, not the axis of meaning.
+> **The empirically-grounded foundation is the relational self-interpreting
+> network** — held-out masked-root recovery (L3) is robust (robustness Test C).
+> Sections below that treat name-coordinates as load-bearing are **superseded**;
+> read them as the original (now-revised) design. Layers L3+ build on the
+> relational structure, with leakage controls built in from the start.
+
 ## 1. Premise & Thesis
 
 - **Premise (axiom, not under test):** the Quran is the speech of God.

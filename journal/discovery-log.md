@@ -268,3 +268,28 @@ names are retained as a studied internal feature, not the organizing axis.
 reframes a principle the user stated, so it is not amended unilaterally).
 
 ---
+
+## 2026-06-20 — Charter amendment CONFIRMED: Article B downgraded; relational foundation adopted
+
+**Type:** Constitution amendment (Article VII), user-confirmed (option الف)
+
+The user confirmed option (الف). Formal amendments to
+`constitution/self-interpretation-charter.md`:
+
+- **Article B (name-anchoring):** downgraded from load-bearing axiom ("names =
+  semantic axes / law of interpretation") to an **unconfirmed hypothesis**,
+  after two independent fair tests (distributional + structural) found no signal
+  beyond frequency. Not declared false (the text remains the criterion; the
+  coherence may be non-computational); divine names retained as a studied
+  internal feature.
+- **Article B-2 (muḥkam→mutashābih):** marked as an untested design principle.
+- **Article B-3 (new):** the empirically-grounded foundation is the **relational
+  self-interpreting network** (L3 robust); all meaning layers build on it, with
+  leakage controls from the start.
+- Design spec annotated: central claim H1 (name-anchoring) recorded as FALSIFIED;
+  supported thesis restated as relational self-interpretation.
+
+**Next:** L4 (word/form meaning) built on the relational representation, with
+leakage controls designed in from the start.
+
+---
