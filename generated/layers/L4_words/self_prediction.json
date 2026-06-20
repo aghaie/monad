@@ -1,0 +1,20 @@
+{
+ "method": "L4-words-1.0",
+ "task": "within-root form disambiguation from context (root fixed → no root leakage)",
+ "kfold": 5,
+ "window": 4,
+ "instances": 41035,
+ "polysemous_roots": 923,
+ "model_ayah_bag": {
+  "top1_pct": 59.79
+ },
+ "model_local_window": {
+  "top1_pct": 57.64
+ },
+ "baseline": {
+  "top1_pct": 62.13,
+  "desc": "most frequent form of the root"
+ },
+ "verdict": "no_improvement_over_baseline",
+ "reading": "if a model > baseline, context determines which word-form of a root is used ⇒ forms carry contextual meaning beyond the root. Negative ⇒ at this granularity the root, not the specific form, is the carrier of relational meaning."
+}

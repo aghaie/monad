@@ -293,3 +293,20 @@ The user confirmed option (الف). Formal amendments to
 leakage controls designed in from the start.
 
 ---
+
+## 2026-06-20 — Phase L4: Word/form meaning — the root is the locus of meaning
+
+Relational word lexicon built (4,627 lemmas, 68 morphological patterns) on the
+relational foundation. Self-prediction = within-root form disambiguation (root
+held FIXED → no leakage by design), held-out 5-fold, two instruments:
+
+- ayah-bag 59.79%, local ±4 window 57.64% vs most-frequent-form baseline 62.13%
+  → **no improvement.** Which form of a root is used is governed by the
+  dominant-form prior, not context.
+
+**Emerging coherent picture:** relational meaning is concentrated at the ROOT
+level (L3 robust); letters (L1), word-forms (L4), and name-anchoring (L2) add no
+measurable signal beyond it. The word lexicon is retained as a descriptive
+artifact. `validate_L4_words.py` 8/8, byte-identical re-run.
+
+---

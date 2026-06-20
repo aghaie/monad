@@ -1,0 +1,278 @@
+{
+ "method": "L4-words-1.0",
+ "distinct_patterns": 68,
+ "patterns": [
+  {
+   "pattern": "N",
+   "lemmas": 2008
+  },
+  {
+   "pattern": "ACT-PCPL",
+   "lemmas": 358
+  },
+  {
+   "pattern": "V-IMPF-ACT",
+   "lemmas": 346
+  },
+  {
+   "pattern": "V-PERF-ACT",
+   "lemmas": 239
+  },
+  {
+   "pattern": "ADJ",
+   "lemmas": 198
+  },
+  {
+   "pattern": "PASS-PCPL",
+   "lemmas": 122
+  },
+  {
+   "pattern": "V-IMPF-ACT|IV",
+   "lemmas": 121
+  },
+  {
+   "pattern": "V-PERF-ACT|IV",
+   "lemmas": 106
+  },
+  {
+   "pattern": "ACT-PCPL|IV",
+   "lemmas": 96
+  },
+  {
+   "pattern": "V-PERF-ACT|II",
+   "lemmas": 74
+  },
+  {
+   "pattern": "V-IMPF-ACT|II",
+   "lemmas": 54
+  },
+  {
+   "pattern": "N|II",
+   "lemmas": 49
+  },
+  {
+   "pattern": "V-IMPF-ACT|V",
+   "lemmas": 48
+  },
+  {
+   "pattern": "V-IMPV-ACT",
+   "lemmas": 46
+  },
+  {
+   "pattern": "PASS-PCPL|II",
+   "lemmas": 43
+  },
+  {
+   "pattern": "V-PERF-ACT|VIII",
+   "lemmas": 43
+  },
+  {
+   "pattern": "V-IMPF-ACT|VIII",
+   "lemmas": 41
+  },
+  {
+   "pattern": "V-IMPF-ACT|X",
+   "lemmas": 38
+  },
+  {
+   "pattern": "PASS-PCPL|IV",
+   "lemmas": 38
+  },
+  {
+   "pattern": "ACT-PCPL|VIII",
+   "lemmas": 34
+  },
+  {
+   "pattern": "V-IMPF-ACT|III",
+   "lemmas": 33
+  },
+  {
+   "pattern": "ACT-PCPL|II",
+   "lemmas": 32
+  },
+  {
+   "pattern": "N|IV",
+   "lemmas": 27
+  },
+  {
+   "pattern": "V-PERF-ACT|X",
+   "lemmas": 24
+  },
+  {
+   "pattern": "V-PERF-PASS",
+   "lemmas": 24
+  },
+  {
+   "pattern": "ACT-PCPL|V",
+   "lemmas": 24
+  },
+  {
+   "pattern": "V-PERF-ACT|V",
+   "lemmas": 22
+  },
+  {
+   "pattern": "V-IMPV-ACT|IV",
+   "lemmas": 21
+  },
+  {
+   "pattern": "V-IMPF-PASS",
+   "lemmas": 21
+  },
+  {
+   "pattern": "ACT-PCPL|X",
+   "lemmas": 19
+  },
+  {
+   "pattern": "V-IMPF-ACT|VI",
+   "lemmas": 19
+  },
+  {
+   "pattern": "V-PERF-PASS|II",
+   "lemmas": 19
+  },
+  {
+   "pattern": "ACT-PCPL|III",
+   "lemmas": 16
+  },
+  {
+   "pattern": "V-PERF-ACT|III",
+   "lemmas": 16
+  },
+  {
+   "pattern": "V-PERF-ACT|VI",
+   "lemmas": 14
+  },
+  {
+   "pattern": "N|III",
+   "lemmas": 14
+  },
+  {
+   "pattern": "V-IMPV-ACT|VIII",
+   "lemmas": 13
+  },
+  {
+   "pattern": "V-IMPF-PASS|II",
+   "lemmas": 13
+  },
+  {
+   "pattern": "PASS-PCPL|VIII",
+   "lemmas": 13
+  },
+  {
+   "pattern": "V-PERF-ACT|VII",
+   "lemmas": 12
+  },
+  {
+   "pattern": "V-IMPV-ACT|III",
+   "lemmas": 12
+  },
+  {
+   "pattern": "V-IMPV-ACT|II",
+   "lemmas": 11
+  },
+  {
+   "pattern": "N|VI",
+   "lemmas": 11
+  },
+  {
+   "pattern": "V-IMPV-ACT|V",
+   "lemmas": 10
+  },
+  {
+   "pattern": "ACT-PCPL|VI",
+   "lemmas": 8
+  },
+  {
+   "pattern": "V-PERF-PASS|IV",
+   "lemmas": 8
+  },
+  {
+   "pattern": "N|V",
+   "lemmas": 8
+  },
+  {
+   "pattern": "N|VIII",
+   "lemmas": 7
+  },
+  {
+   "pattern": "V-IMPV-ACT|X",
+   "lemmas": 6
+  },
+  {
+   "pattern": "ACT-PCPL|VII",
+   "lemmas": 6
+  },
+  {
+   "pattern": "PASS-PCPL|X",
+   "lemmas": 5
+  },
+  {
+   "pattern": "V-IMPF-PASS|IV",
+   "lemmas": 5
+  },
+  {
+   "pattern": "N|X",
+   "lemmas": 5
+  },
+  {
+   "pattern": "V-PERF-PASS|VIII",
+   "lemmas": 4
+  },
+  {
+   "pattern": "V-IMPF-ACT|VII",
+   "lemmas": 3
+  },
+  {
+   "pattern": "ACT-PCPL|IX",
+   "lemmas": 3
+  },
+  {
+   "pattern": "N|VII",
+   "lemmas": 2
+  },
+  {
+   "pattern": "PASS-PCPL|III",
+   "lemmas": 2
+  },
+  {
+   "pattern": "ADJ|III",
+   "lemmas": 2
+  },
+  {
+   "pattern": "V-IMPV-ACT|VI",
+   "lemmas": 2
+  },
+  {
+   "pattern": "V-PERF-PASS|X",
+   "lemmas": 2
+  },
+  {
+   "pattern": "V-IMPF-PASS|III",
+   "lemmas": 1
+  },
+  {
+   "pattern": "V-PERF-ACT|IX",
+   "lemmas": 1
+  },
+  {
+   "pattern": "V-IMPF-ACT|IX",
+   "lemmas": 1
+  },
+  {
+   "pattern": "V-IMPF-PASS|V",
+   "lemmas": 1
+  },
+  {
+   "pattern": "V-IMPF-PASS|X",
+   "lemmas": 1
+  },
+  {
+   "pattern": "PASS-PCPL|VII",
+   "lemmas": 1
+  },
+  {
+   "pattern": "PASS-PCPL|V",
+   "lemmas": 1
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "layer": "L4",
+ "name": "word / form meaning (relational)",
+ "method": "L4-words-1.0",
+ "foundation": "relational network (Charter Article B-3)",
+ "source": "monad.db",
+ "leakage_control": "self-prediction holds the root fixed; the root cannot be a cue",
+ "confidence_tiers": {
+  "محتمل/probable": 1194,
+  "قوی/strong": 763,
+  "نامشخص/abstain": 2670
+ },
+ "totals": {
+  "lemmas": 4627,
+  "distinct_patterns": 68,
+  "polysemous_roots": 923
+ },
+ "self_prediction": {
+  "model_ayah_top1_pct": 59.79,
+  "model_local_top1_pct": 57.64,
+  "baseline_top1_pct": 62.13,
+  "verdict": "no_improvement_over_baseline"
+ },
+ "output_bytes": {
+  "word_lexicon.json": 1627791,
+  "pattern_stats.json": 3739,
+  "self_prediction.json": 661
+ }
+}
