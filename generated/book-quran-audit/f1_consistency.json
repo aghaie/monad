@@ -1,0 +1,20 @@
+{
+  "leg": "consistent",
+  "evidence": {
+    "global_consistency_index": 0.954508,
+    "mean_stability": 0.777902,
+    "n_relations_tested": 6832,
+    "genuine_proposition_contradictions_surviving": 0,
+    "tendency_candidates_falsified": 39,
+    "surviving_contradictions_per_1000_relations": 0.0,
+    "concepts_semantically_stable": "80/89",
+    "mean_cross_half_neighbour_cosine": 0.809
+  },
+  "checks": {
+    "global_consistency_index>=0.9": true,
+    "zero_genuine_proposition_contradictions": true,
+    "majority_concepts_semantically_stable": true
+  },
+  "checks_passed": "3/3",
+  "verdict": "SUPPORTED — the Quran's relational/semantic network is internally consistent to a high degree (0 surviving genuine contradictions across 6832 relations; consistency index 0.95)."
+}

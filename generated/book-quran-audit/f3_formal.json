@@ -1,0 +1,54 @@
+{
+  "leg": "formal",
+  "criteria": [
+    {
+      "requirement": "FR-01 formal language / alphabet / grammar",
+      "status": "ABSENT",
+      "score": 10,
+      "evidence": "Natural-language Arabic; no formal symbolic alphabet or WFF grammar. L1 letter-layer test was a negative finding (letters carry no recoverable structure)."
+    },
+    {
+      "requirement": "FR-02 explicit, finite, minimal axioms",
+      "status": "PARTIAL",
+      "score": 40,
+      "evidence": "A single dominant generative core exists, but no explicit axiom list and recovering 80% of structure needs 57% of concepts (F2: proto-axiomatic, residue 0.901)."
+    },
+    {
+      "requirement": "FR-03 explicit inference rules",
+      "status": "ABSENT",
+      "score": 5,
+      "evidence": "No stated inference rules; none are formalised in the text."
+    },
+    {
+      "requirement": "FR-04 proof calculus / derivation system",
+      "status": "ABSENT",
+      "score": 5,
+      "evidence": "No proof calculus (no Hilbert / natural-deduction / sequent structure)."
+    },
+    {
+      "requirement": "FR-05 derivable theorems (verses entail/explain others)",
+      "status": "PARTIAL",
+      "score": 55,
+      "evidence": "Derivation-LIKE structure is real and validated: the L6 network predicts a verse's content from related verses at 0.545 vs random 0.325 (p=0.005); rare-content 0.20 vs 0.019. But this is semantic entailment, not formal proof."
+    },
+    {
+      "requirement": "FR-06 consistency",
+      "status": "MET",
+      "score": 95,
+      "evidence": "F1: global consistency 0.95, 0 surviving genuine contradictions across 6832 relations."
+    },
+    {
+      "requirement": "FR-09 arithmetic encodability (Gödel eligibility)",
+      "status": "ABSENT",
+      "score": 5,
+      "evidence": "Numerics layer: 0 of 499 well-posed tests survive Bonferroni/FDR (min p=0.0057); number-blind protocol. No robust arithmetic structure -> Gödel's theorems do not apply."
+    }
+  ],
+  "summary": {
+    "met": 1,
+    "partial": 2,
+    "absent": 4,
+    "mean_score_0_100": 31
+  },
+  "verdict": "NOT A FORMAL SYSTEM (in the mathematical-logic sense). The Quran MEETS consistency (strong) and shows real, validated derivation-LIKE semantic structure, but lacks a formal language, explicit inference rules, and a proof calculus, and has no arithmetic encoding. Correct classification: a CONSISTENT, PROTO-FORMAL semantic system with a coherent generative core — the same class the author's own audit assigned to the book (Proto-Formal Axiomatic System). The word 'formal' in the author's claim is an over-statement; 'consistent and axiom-structured' is accurate."
+}
