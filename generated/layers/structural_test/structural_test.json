@@ -1,0 +1,45 @@
+{
+ "method": "structural-test-1.0",
+ "seed": 2024,
+ "n_null": 300,
+ "name_roots": [
+  "$hd",
+  "Efw",
+  "Elm",
+  "Hkm",
+  "Hlm",
+  "HwT",
+  "bSr",
+  "gfr",
+  "qdr",
+  "qwy",
+  "rAf",
+  "rHm",
+  "smE",
+  "wkl",
+  "wsE",
+  "xbr"
+ ],
+ "coverage": {
+  "question": "is every concept nearer a name than a freq-matched random word-set?",
+  "real_mean_max_ppmi": 0.5232,
+  "null": {
+   "mean": 0.5986,
+   "sd": 0.0445,
+   "max": 0.7337
+  },
+  "empirical_p": 0.9601,
+  "verdict": "no structural advantage"
+ },
+ "centrality": {
+  "question": "are name-roots more central than freq-matched random roots?",
+  "real_mean_percentile": 0.8813,
+  "null": {
+   "mean": 0.8727,
+   "sd": 0.0188,
+   "max": 0.9075
+  },
+  "empirical_p": 0.3256,
+  "verdict": "no structural advantage"
+ }
+}

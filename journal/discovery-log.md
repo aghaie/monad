@@ -238,3 +238,33 @@ root↔context level. That, not name-anchoring, is the empirically-grounded
 foundation going forward.
 
 ---
+
+## 2026-06-20 — Structural test: name-anchoring also NOT supported
+
+Gave the name-coherence principle its fairest STRUCTURAL chance (user-approved),
+on the relational root network, with frequency-matched controls + permutation
+null (`scripts/build_structural_test.py`):
+
+- **COVERAGE** (do the 16 name-roots cover concepts better than freq-matched
+  random word-sets?): real 0.523 vs null 0.599±0.045, p=0.96 — NO (names cover
+  slightly *worse* than random comparable words).
+- **CENTRALITY** (are name-roots more central, weighted PageRank?): real 0.881 vs
+  null 0.873±0.019, p=0.33 — name-roots are central (88th pctile) but only as
+  much as any frequency-matched word; no name-specific advantage.
+
+**Two independent fair instruments (distributional + structural) now both find no
+signal that the divine names organize the corpus's meaning beyond what frequency
+explains. Name-anchoring is not computationally supported.**
+
+Per the researcher charter (the text is the criterion; our derivations are
+fallible and revisable; do not conclude beyond the evidence) this does NOT declare
+the spiritual principle false — it means the coherence, if real, is not a
+word-co-occurrence phenomenon these instruments can measure.
+
+**Engineering decision (made):** the meaning architecture re-bases on the
+relational self-interpreting network (L3, robust), NOT on name-anchoring. Divine
+names are retained as a studied internal feature, not the organizing axis.
+**Charter Article B amendment: PROPOSED, pending the user's confirmation** (it
+reframes a principle the user stated, so it is not amended unilaterally).
+
+---
