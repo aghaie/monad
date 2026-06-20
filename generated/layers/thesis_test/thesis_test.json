@@ -1,0 +1,72 @@
+{
+ "method": "thesis-test-1.0",
+ "question": "leakage-free: does ayah content cohere with the divine name FAMILY that seals it?",
+ "controls": [
+  "ALL 16 name-roots removed from content (zero leakage)",
+  "families clustered per-fold on training only",
+  "held-out 5-fold",
+  "honest baselines"
+ ],
+ "sealed_instances": 744,
+ "example_families_k4_fold0": {
+  "0": [
+   "muHiyT",
+   "xabiyr",
+   "baSiyr",
+   "ra'uwf",
+   "$ahiyd",
+   "wakiyl",
+   "Hakiym",
+   "qawiY~",
+   "wa`siE",
+   "qadiyr"
+  ],
+  "1": [
+   "Eafuw~"
+  ],
+  "2": [
+   "gafuwr",
+   "r~aHiym",
+   "Ealiym",
+   "samiyE"
+  ],
+  "3": [
+   "Haliym"
+  ]
+ },
+ "results": {
+  "families_3": {
+   "exact": {
+    "model_top1_pct": 11.42,
+    "baseline_pct": 21.64
+   },
+   "family": {
+    "model_pct": 71.91,
+    "baseline_pct": 76.88,
+    "verdict": "no_improvement"
+   }
+  },
+  "families_4": {
+   "exact": {
+    "model_top1_pct": 11.42,
+    "baseline_pct": 21.64
+   },
+   "family": {
+    "model_pct": 53.36,
+    "baseline_pct": 55.38,
+    "verdict": "no_improvement"
+   }
+  },
+  "families_5": {
+   "exact": {
+    "model_top1_pct": 11.42,
+    "baseline_pct": 21.64
+   },
+   "family": {
+    "model_pct": 47.98,
+    "baseline_pct": 45.7,
+    "verdict": "model_beats_baseline"
+   }
+  }
+ }
+}

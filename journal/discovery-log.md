@@ -206,3 +206,35 @@ controls built in. `docs/L2-names-report.md` annotated;
 before it propagated — which is the point.
 
 ---
+
+## 2026-06-20 — Fair thesis test: name-anchoring NOT supported under leakage control
+
+**Type:** Falsification — central premise
+
+Leakage-free, family-level test of "content coheres with the divine names"
+(`scripts/build_thesis_test.py`): ALL 16 name-roots removed from ayah content;
+names clustered into families per-fold; held-out 5-fold.
+
+- exact name: model **11.42%** vs baseline 21.64% (model WORSE than baseline).
+- family (k=3/4/5): model 71.9 / 53.4 / 48.0 vs baseline 76.9 / 55.4 / 45.7 —
+  ties or loses except a marginal +2 pts at k=5.
+
+**Finding:** once root-repetition leakage is removed, ayah content does NOT
+predict the sealing name (or family) better than a frequency baseline. The
+earlier L2 "thesis support" was essentially leakage. **The name-anchoring premise
+(Charter Article B / "concepts cohere with the names") is not empirically
+supported by this distributional instrument.**
+
+**Epistemic humility (researcher charter §§6–7, 16):** this falsifies one
+OPERATIONALIZATION (distributional sealing-name prediction from a bag of roots),
+not necessarily the principle itself; the coherence, if real, may be structural
+rather than distributional. We do NOT declare the principle false — we report
+that this instrument finds no signal, and we must not rest the architecture on
+an unconfirmed premise.
+
+**What IS supported:** the relational self-prediction (L3 masked-root recovery;
+robustness Test C) — the self-interpreting network has real structure at the
+root↔context level. That, not name-anchoring, is the empirically-grounded
+foundation going forward.
+
+---
