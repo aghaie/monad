@@ -418,3 +418,19 @@ negatives recorded (letters L1, word-forms L4, divine-name-anchoring L2). The
 Quran's internal self-sufficiency, the founding premise, is what carried the proof.
 
 ---
+
+## 2026-06-21 — Canonical reference consolidated (CLAUDE.md + reference/)
+
+Wrote the standard Claude project memory `CLAUDE.md` (auto-loaded each session)
+and the full reference `reference/FINDINGS.md`, to be the durable basis for
+future prompts in new chats. Consolidates: the four validated positives (L3 roots,
+L6 verses-explain-each-other ~10×, L7 sura-coherence ~3×, L8 stability ~10×, all
+p=0.005, leakage-controlled); the falsified premises (name-anchoring — two fair
+tests; letters; word-forms); the external scorecard (mismatched reference,
+internal validation is the standard); the Jannatkhah book audit (rationally
+axiomatized & Quran-confirmed, not Quran-axiomatized); and a caution that the
+~200 legacy `docs/` reports (30-engine track, q1–q14, Greek phases) were NOT held
+to the current discipline and are suggestive only. The method itself (Section 2 of
+FINDINGS) is recorded as the real reusable asset.
+
+---
