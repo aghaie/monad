@@ -1,0 +1,2805 @@
+{
+ "method": "engine-graph-1.0",
+ "nodes": [
+  {
+   "sura": 1,
+   "name_ar": "الفاتحة",
+   "ayah_count": 7,
+   "x": -6.49833,
+   "y": -1.68517
+  },
+  {
+   "sura": 2,
+   "name_ar": "البقرة",
+   "ayah_count": 286,
+   "x": 0.18427,
+   "y": -0.04491
+  },
+  {
+   "sura": 3,
+   "name_ar": "ال عمران",
+   "ayah_count": 200,
+   "x": 0.09721,
+   "y": 0.05251
+  },
+  {
+   "sura": 4,
+   "name_ar": "النساء",
+   "ayah_count": 176,
+   "x": 0.11061,
+   "y": -0.01449
+  },
+  {
+   "sura": 5,
+   "name_ar": "المائدة",
+   "ayah_count": 120,
+   "x": 0.07168,
+   "y": 0.0515
+  },
+  {
+   "sura": 6,
+   "name_ar": "الانعام",
+   "ayah_count": 165,
+   "x": 0.05889,
+   "y": -0.01506
+  },
+  {
+   "sura": 7,
+   "name_ar": "الاعراف",
+   "ayah_count": 206,
+   "x": 0.09193,
+   "y": 0.02247
+  },
+  {
+   "sura": 8,
+   "name_ar": "الانفال",
+   "ayah_count": 75,
+   "x": 0.07498,
+   "y": -0.06537
+  },
+  {
+   "sura": 9,
+   "name_ar": "التوبة",
+   "ayah_count": 129,
+   "x": 0.12938,
+   "y": -0.02193
+  },
+  {
+   "sura": 10,
+   "name_ar": "يونس",
+   "ayah_count": 109,
+   "x": -0.03765,
+   "y": 0.02049
+  },
+  {
+   "sura": 11,
+   "name_ar": "هود",
+   "ayah_count": 123,
+   "x": 0.03287,
+   "y": 0.05338
+  },
+  {
+   "sura": 12,
+   "name_ar": "يوسف",
+   "ayah_count": 111,
+   "x": 0.00983,
+   "y": 0.0038
+  },
+  {
+   "sura": 13,
+   "name_ar": "الرعد",
+   "ayah_count": 43,
+   "x": 0.13257,
+   "y": 0.11267
+  },
+  {
+   "sura": 14,
+   "name_ar": "ابراهيم",
+   "ayah_count": 52,
+   "x": 0.1849,
+   "y": 0.12444
+  },
+  {
+   "sura": 15,
+   "name_ar": "الحجر",
+   "ayah_count": 99,
+   "x": 0.10725,
+   "y": 0.19863
+  },
+  {
+   "sura": 16,
+   "name_ar": "النحل",
+   "ayah_count": 128,
+   "x": 0.0397,
+   "y": 0.02139
+  },
+  {
+   "sura": 17,
+   "name_ar": "الاسراء",
+   "ayah_count": 111,
+   "x": 0.02455,
+   "y": -0.03704
+  },
+  {
+   "sura": 18,
+   "name_ar": "الكهف",
+   "ayah_count": 110,
+   "x": 0.06241,
+   "y": 0.01328
+  },
+  {
+   "sura": 19,
+   "name_ar": "مريم",
+   "ayah_count": 98,
+   "x": 0.07323,
+   "y": 0.1421
+  },
+  {
+   "sura": 20,
+   "name_ar": "طه",
+   "ayah_count": 135,
+   "x": 0.00119,
+   "y": 0.1008
+  },
+  {
+   "sura": 21,
+   "name_ar": "الانبياء",
+   "ayah_count": 112,
+   "x": -0.04893,
+   "y": 0.06242
+  },
+  {
+   "sura": 22,
+   "name_ar": "الحج",
+   "ayah_count": 78,
+   "x": 0.01613,
+   "y": -0.07455
+  },
+  {
+   "sura": 23,
+   "name_ar": "المؤمنون",
+   "ayah_count": 118,
+   "x": -0.02318,
+   "y": -0.02684
+  },
+  {
+   "sura": 24,
+   "name_ar": "النور",
+   "ayah_count": 64,
+   "x": 0.05059,
+   "y": -0.08657
+  },
+  {
+   "sura": 25,
+   "name_ar": "الفرقان",
+   "ayah_count": 77,
+   "x": 0.12004,
+   "y": -0.13798
+  },
+  {
+   "sura": 26,
+   "name_ar": "الشعراء",
+   "ayah_count": 227,
+   "x": 0.04965,
+   "y": 0.09978
+  },
+  {
+   "sura": 27,
+   "name_ar": "النمل",
+   "ayah_count": 93,
+   "x": -0.05482,
+   "y": -0.01336
+  },
+  {
+   "sura": 28,
+   "name_ar": "القصص",
+   "ayah_count": 88,
+   "x": -0.00356,
+   "y": 0.03509
+  },
+  {
+   "sura": 29,
+   "name_ar": "العنكبوت",
+   "ayah_count": 69,
+   "x": 0.16538,
+   "y": 0.0134
+  },
+  {
+   "sura": 30,
+   "name_ar": "الروم",
+   "ayah_count": 60,
+   "x": -0.11265,
+   "y": 0.00748
+  },
+  {
+   "sura": 31,
+   "name_ar": "لقمان",
+   "ayah_count": 34,
+   "x": -0.0677,
+   "y": -0.12385
+  },
+  {
+   "sura": 32,
+   "name_ar": "السجدة",
+   "ayah_count": 30,
+   "x": 7.36233,
+   "y": 2.34734
+  },
+  {
+   "sura": 33,
+   "name_ar": "الاحزاب",
+   "ayah_count": 73,
+   "x": 0.10621,
+   "y": -0.06866
+  },
+  {
+   "sura": 34,
+   "name_ar": "سبا",
+   "ayah_count": 54,
+   "x": 0.0766,
+   "y": -0.19082
+  },
+  {
+   "sura": 35,
+   "name_ar": "فاطر",
+   "ayah_count": 45,
+   "x": 0.17784,
+   "y": 0.06417
+  },
+  {
+   "sura": 36,
+   "name_ar": "يس",
+   "ayah_count": 83,
+   "x": -0.02081,
+   "y": -0.13397
+  },
+  {
+   "sura": 37,
+   "name_ar": "الصافات",
+   "ayah_count": 182,
+   "x": -0.02565,
+   "y": 0.09383
+  },
+  {
+   "sura": 38,
+   "name_ar": "ص",
+   "ayah_count": 88,
+   "x": 0.04458,
+   "y": 0.17588
+  },
+  {
+   "sura": 39,
+   "name_ar": "الزمر",
+   "ayah_count": 75,
+   "x": 0.01079,
+   "y": 0.14207
+  },
+  {
+   "sura": 40,
+   "name_ar": "غافر",
+   "ayah_count": 85,
+   "x": -0.01669,
+   "y": -0.05966
+  },
+  {
+   "sura": 41,
+   "name_ar": "فصلت",
+   "ayah_count": 54,
+   "x": 0.37923,
+   "y": -0.06224
+  },
+  {
+   "sura": 42,
+   "name_ar": "الشورىٰ",
+   "ayah_count": 53,
+   "x": 0.15263,
+   "y": 0.16216
+  },
+  {
+   "sura": 43,
+   "name_ar": "الزخرف",
+   "ayah_count": 89,
+   "x": 0.22886,
+   "y": 0.08393
+  },
+  {
+   "sura": 44,
+   "name_ar": "الدخان",
+   "ayah_count": 59,
+   "x": 0.27516,
+   "y": 0.22974
+  },
+  {
+   "sura": 45,
+   "name_ar": "الجاثية",
+   "ayah_count": 37,
+   "x": 0.46656,
+   "y": 0.14905
+  },
+  {
+   "sura": 46,
+   "name_ar": "الاحقاف",
+   "ayah_count": 35,
+   "x": 0.29556,
+   "y": -0.14273
+  },
+  {
+   "sura": 47,
+   "name_ar": "محمد",
+   "ayah_count": 38,
+   "x": 0.24529,
+   "y": 0.03175
+  },
+  {
+   "sura": 48,
+   "name_ar": "الفتح",
+   "ayah_count": 29,
+   "x": 0.21222,
+   "y": -0.15484
+  },
+  {
+   "sura": 49,
+   "name_ar": "الحجرات",
+   "ayah_count": 18,
+   "x": -7.49577,
+   "y": 0.59358
+  },
+  {
+   "sura": 50,
+   "name_ar": "ق",
+   "ayah_count": 45,
+   "x": 0.29264,
+   "y": 0.11519
+  },
+  {
+   "sura": 51,
+   "name_ar": "الذاريات",
+   "ayah_count": 60,
+   "x": 0.38838,
+   "y": -0.30979
+  },
+  {
+   "sura": 52,
+   "name_ar": "الطور",
+   "ayah_count": 49,
+   "x": 0.50396,
+   "y": -0.1469
+  },
+  {
+   "sura": 53,
+   "name_ar": "النجم",
+   "ayah_count": 62,
+   "x": 0.09933,
+   "y": -0.24022
+  },
+  {
+   "sura": 54,
+   "name_ar": "القمر",
+   "ayah_count": 55,
+   "x": 0.256,
+   "y": -0.37893
+  },
+  {
+   "sura": 55,
+   "name_ar": "الرحمٰن",
+   "ayah_count": 78,
+   "x": 0.24525,
+   "y": 0.18748
+  },
+  {
+   "sura": 56,
+   "name_ar": "الواقعة",
+   "ayah_count": 96,
+   "x": -0.01332,
+   "y": -0.19022
+  },
+  {
+   "sura": 57,
+   "name_ar": "الحديد",
+   "ayah_count": 29,
+   "x": 0.29501,
+   "y": -0.07053
+  },
+  {
+   "sura": 58,
+   "name_ar": "المجادلة",
+   "ayah_count": 22,
+   "x": 0.29604,
+   "y": 0.00991
+  },
+  {
+   "sura": 59,
+   "name_ar": "الحشر",
+   "ayah_count": 24,
+   "x": 0.47546,
+   "y": -0.20872
+  },
+  {
+   "sura": 60,
+   "name_ar": "الممتحنة",
+   "ayah_count": 13,
+   "x": 0.21183,
+   "y": -0.25974
+  },
+  {
+   "sura": 61,
+   "name_ar": "الصف",
+   "ayah_count": 14,
+   "x": -5.28107,
+   "y": 6.00744
+  },
+  {
+   "sura": 62,
+   "name_ar": "الجمعة",
+   "ayah_count": 11,
+   "x": -5.90947,
+   "y": 4.37383
+  },
+  {
+   "sura": 63,
+   "name_ar": "المنافقون",
+   "ayah_count": 11,
+   "x": -4.192,
+   "y": 6.22328
+  },
+  {
+   "sura": 64,
+   "name_ar": "التغابن",
+   "ayah_count": 18,
+   "x": 3.06508,
+   "y": -6.45765
+  },
+  {
+   "sura": 65,
+   "name_ar": "الطلاق",
+   "ayah_count": 12,
+   "x": 0.50215,
+   "y": 0.06993
+  },
+  {
+   "sura": 66,
+   "name_ar": "التحريم",
+   "ayah_count": 12,
+   "x": 0.15972,
+   "y": -0.38967
+  },
+  {
+   "sura": 67,
+   "name_ar": "الملك",
+   "ayah_count": 30,
+   "x": 0.48515,
+   "y": 7.38649
+  },
+  {
+   "sura": 68,
+   "name_ar": "القلم",
+   "ayah_count": 52,
+   "x": 0.32968,
+   "y": -0.34912
+  },
+  {
+   "sura": 69,
+   "name_ar": "الحاقة",
+   "ayah_count": 52,
+   "x": 0.43686,
+   "y": -0.26314
+  },
+  {
+   "sura": 70,
+   "name_ar": "المعارج",
+   "ayah_count": 44,
+   "x": -6.45221,
+   "y": -4.27728
+  },
+  {
+   "sura": 71,
+   "name_ar": "نوح",
+   "ayah_count": 28,
+   "x": -0.91503,
+   "y": -7.51253
+  },
+  {
+   "sura": 72,
+   "name_ar": "الجن",
+   "ayah_count": 28,
+   "x": -5.49486,
+   "y": -4.82285
+  },
+  {
+   "sura": 73,
+   "name_ar": "المزمل",
+   "ayah_count": 20,
+   "x": 2.02882,
+   "y": -7.15922
+  },
+  {
+   "sura": 74,
+   "name_ar": "المدثر",
+   "ayah_count": 56,
+   "x": 0.51892,
+   "y": -0.00468
+  },
+  {
+   "sura": 75,
+   "name_ar": "القيامة",
+   "ayah_count": 40,
+   "x": 7.64468,
+   "y": 0.02305
+  },
+  {
+   "sura": 76,
+   "name_ar": "الانسان",
+   "ayah_count": 31,
+   "x": 0.51964,
+   "y": -0.07793
+  },
+  {
+   "sura": 77,
+   "name_ar": "المرسلات",
+   "ayah_count": 50,
+   "x": -4.04712,
+   "y": -6.72378
+  },
+  {
+   "sura": 78,
+   "name_ar": "النبا",
+   "ayah_count": 40,
+   "x": -6.37848,
+   "y": 4.75893
+  },
+  {
+   "sura": 79,
+   "name_ar": "النازعات",
+   "ayah_count": 46,
+   "x": -0.12292,
+   "y": 0.39973
+  },
+  {
+   "sura": 80,
+   "name_ar": "عبس",
+   "ayah_count": 42,
+   "x": -7.53529,
+   "y": 1.47632
+  },
+  {
+   "sura": 81,
+   "name_ar": "التكوير",
+   "ayah_count": 29,
+   "x": 1.3191,
+   "y": 7.01077
+  },
+  {
+   "sura": 82,
+   "name_ar": "الانفطار",
+   "ayah_count": 19,
+   "x": -2.57509,
+   "y": 7.31549
+  },
+  {
+   "sura": 83,
+   "name_ar": "المطففين",
+   "ayah_count": 36,
+   "x": -7.41376,
+   "y": -1.2095
+  },
+  {
+   "sura": 84,
+   "name_ar": "الانشقاق",
+   "ayah_count": 25,
+   "x": 2.92362,
+   "y": 7.02566
+  },
+  {
+   "sura": 85,
+   "name_ar": "البروج",
+   "ayah_count": 22,
+   "x": 6.46355,
+   "y": 3.32362
+  },
+  {
+   "sura": 86,
+   "name_ar": "الطارق",
+   "ayah_count": 17,
+   "x": 3.80161,
+   "y": 6.68936
+  },
+  {
+   "sura": 87,
+   "name_ar": "الاعلىٰ",
+   "ayah_count": 19,
+   "x": -3.39036,
+   "y": 6.26813
+  },
+  {
+   "sura": 88,
+   "name_ar": "الغاشية",
+   "ayah_count": 26,
+   "x": 6.09345,
+   "y": 4.83971
+  },
+  {
+   "sura": 89,
+   "name_ar": "الفجر",
+   "ayah_count": 30,
+   "x": -2.17805,
+   "y": 6.96128
+  },
+  {
+   "sura": 90,
+   "name_ar": "البلد",
+   "ayah_count": 20,
+   "x": 7.17957,
+   "y": -1.59423
+  },
+  {
+   "sura": 91,
+   "name_ar": "الشمس",
+   "ayah_count": 15,
+   "x": 4.08567,
+   "y": -5.70846
+  },
+  {
+   "sura": 92,
+   "name_ar": "الليل",
+   "ayah_count": 21,
+   "x": 5.60391,
+   "y": 4.07615
+  },
+  {
+   "sura": 93,
+   "name_ar": "الضحىٰ",
+   "ayah_count": 11,
+   "x": -7.19842,
+   "y": 2.28287
+  },
+  {
+   "sura": 94,
+   "name_ar": "الشرح",
+   "ayah_count": 8,
+   "x": 6.97704,
+   "y": 3.74256
+  },
+  {
+   "sura": 95,
+   "name_ar": "التين",
+   "ayah_count": 8,
+   "x": 5.28217,
+   "y": -4.86015
+  },
+  {
+   "sura": 96,
+   "name_ar": "العلق",
+   "ayah_count": 19,
+   "x": 7.13266,
+   "y": -0.13041
+  },
+  {
+   "sura": 97,
+   "name_ar": "القدر",
+   "ayah_count": 5,
+   "x": -0.4913,
+   "y": 7.02994
+  },
+  {
+   "sura": 98,
+   "name_ar": "البينة",
+   "ayah_count": 8,
+   "x": -6.80604,
+   "y": 3.51313
+  },
+  {
+   "sura": 99,
+   "name_ar": "الزلزلة",
+   "ayah_count": 8,
+   "x": -7.61129,
+   "y": -0.27191
+  },
+  {
+   "sura": 100,
+   "name_ar": "العاديات",
+   "ayah_count": 11,
+   "x": -0.19574,
+   "y": -7.22143
+  },
+  {
+   "sura": 101,
+   "name_ar": "القارعة",
+   "ayah_count": 11,
+   "x": 6.50797,
+   "y": -2.71081
+  },
+  {
+   "sura": 102,
+   "name_ar": "التكاثر",
+   "ayah_count": 8,
+   "x": 1.96036,
+   "y": 7.30249
+  },
+  {
+   "sura": 103,
+   "name_ar": "العصر",
+   "ayah_count": 3,
+   "x": -2.54549,
+   "y": -7.34684
+  },
+  {
+   "sura": 104,
+   "name_ar": "الهمزة",
+   "ayah_count": 9,
+   "x": -4.99237,
+   "y": 5.20116
+  },
+  {
+   "sura": 105,
+   "name_ar": "الفيل",
+   "ayah_count": 5,
+   "x": -4.53246,
+   "y": -6.06646
+  },
+  {
+   "sura": 106,
+   "name_ar": "قريش",
+   "ayah_count": 4,
+   "x": 7.43416,
+   "y": 1.28055
+  },
+  {
+   "sura": 107,
+   "name_ar": "الماعون",
+   "ayah_count": 7,
+   "x": -1.0083,
+   "y": 7.41695
+  },
+  {
+   "sura": 108,
+   "name_ar": "الكوثر",
+   "ayah_count": 3,
+   "x": -6.50065,
+   "y": 2.87579
+  },
+  {
+   "sura": 109,
+   "name_ar": "الكافرون",
+   "ayah_count": 6,
+   "x": -6.45716,
+   "y": -3.32582
+  },
+  {
+   "sura": 110,
+   "name_ar": "النصر",
+   "ayah_count": 3,
+   "x": 4.61097,
+   "y": 6.19282
+  },
+  {
+   "sura": 111,
+   "name_ar": "المسد",
+   "ayah_count": 5,
+   "x": 6.39509,
+   "y": -3.83738
+  },
+  {
+   "sura": 112,
+   "name_ar": "الاخلاص",
+   "ayah_count": 4,
+   "x": 1.08874,
+   "y": -6.99571
+  },
+  {
+   "sura": 113,
+   "name_ar": "الفلق",
+   "ayah_count": 5,
+   "x": -6.97881,
+   "y": -2.29799
+  },
+  {
+   "sura": 114,
+   "name_ar": "الناس",
+   "ayah_count": 6,
+   "x": 5.29902,
+   "y": 5.53083
+  }
+ ],
+ "edges": [
+  {
+   "source": 2,
+   "target": 4,
+   "weight": 4540.622
+  },
+  {
+   "source": 2,
+   "target": 3,
+   "weight": 3485.801
+  },
+  {
+   "source": 2,
+   "target": 7,
+   "weight": 3237.947
+  },
+  {
+   "source": 2,
+   "target": 5,
+   "weight": 2919.06
+  },
+  {
+   "source": 2,
+   "target": 6,
+   "weight": 2616.106
+  },
+  {
+   "source": 2,
+   "target": 9,
+   "weight": 2423.22
+  },
+  {
+   "source": 3,
+   "target": 4,
+   "weight": 1951.808
+  },
+  {
+   "source": 2,
+   "target": 16,
+   "weight": 1810.661
+  },
+  {
+   "source": 4,
+   "target": 5,
+   "weight": 1723.533
+  },
+  {
+   "source": 2,
+   "target": 18,
+   "weight": 1694.471
+  },
+  {
+   "source": 2,
+   "target": 24,
+   "weight": 1693.376
+  },
+  {
+   "source": 6,
+   "target": 7,
+   "weight": 1693.109
+  },
+  {
+   "source": 2,
+   "target": 33,
+   "weight": 1615.314
+  },
+  {
+   "source": 4,
+   "target": 7,
+   "weight": 1579.023
+  },
+  {
+   "source": 2,
+   "target": 12,
+   "weight": 1511.558
+  },
+  {
+   "source": 3,
+   "target": 5,
+   "weight": 1472.422
+  },
+  {
+   "source": 4,
+   "target": 9,
+   "weight": 1467.615
+  },
+  {
+   "source": 3,
+   "target": 7,
+   "weight": 1424.194
+  },
+  {
+   "source": 2,
+   "target": 28,
+   "weight": 1396.913
+  },
+  {
+   "source": 4,
+   "target": 33,
+   "weight": 1359.071
+  },
+  {
+   "source": 3,
+   "target": 9,
+   "weight": 1349.023
+  },
+  {
+   "source": 2,
+   "target": 11,
+   "weight": 1338.485
+  },
+  {
+   "source": 2,
+   "target": 20,
+   "weight": 1319.277
+  },
+  {
+   "source": 4,
+   "target": 6,
+   "weight": 1279.217
+  },
+  {
+   "source": 2,
+   "target": 17,
+   "weight": 1195.962
+  },
+  {
+   "source": 2,
+   "target": 22,
+   "weight": 1190.102
+  },
+  {
+   "source": 5,
+   "target": 9,
+   "weight": 1188.262
+  },
+  {
+   "source": 7,
+   "target": 12,
+   "weight": 1173.298
+  },
+  {
+   "source": 4,
+   "target": 24,
+   "weight": 1164.757
+  },
+  {
+   "source": 5,
+   "target": 7,
+   "weight": 1162.379
+  },
+  {
+   "source": 7,
+   "target": 11,
+   "weight": 1121.406
+  },
+  {
+   "source": 3,
+   "target": 6,
+   "weight": 1109.49
+  },
+  {
+   "source": 7,
+   "target": 16,
+   "weight": 1098.356
+  },
+  {
+   "source": 4,
+   "target": 18,
+   "weight": 1068.604
+  },
+  {
+   "source": 7,
+   "target": 18,
+   "weight": 1031.772
+  },
+  {
+   "source": 2,
+   "target": 8,
+   "weight": 1030.898
+  },
+  {
+   "source": 7,
+   "target": 9,
+   "weight": 1007.865
+  },
+  {
+   "source": 2,
+   "target": 10,
+   "weight": 1001.073
+  },
+  {
+   "source": 4,
+   "target": 17,
+   "weight": 998.689
+  },
+  {
+   "source": 5,
+   "target": 6,
+   "weight": 991.406
+  },
+  {
+   "source": 6,
+   "target": 16,
+   "weight": 972.062
+  },
+  {
+   "source": 7,
+   "target": 28,
+   "weight": 965.072
+  },
+  {
+   "source": 6,
+   "target": 18,
+   "weight": 927.921
+  },
+  {
+   "source": 2,
+   "target": 26,
+   "weight": 918.706
+  },
+  {
+   "source": 7,
+   "target": 10,
+   "weight": 901.175
+  },
+  {
+   "source": 2,
+   "target": 39,
+   "weight": 888.037
+  },
+  {
+   "source": 7,
+   "target": 20,
+   "weight": 885.981
+  },
+  {
+   "source": 4,
+   "target": 12,
+   "weight": 879.87
+  },
+  {
+   "source": 4,
+   "target": 11,
+   "weight": 879.25
+  },
+  {
+   "source": 6,
+   "target": 12,
+   "weight": 873.706
+  },
+  {
+   "source": 7,
+   "target": 27,
+   "weight": 872.203
+  },
+  {
+   "source": 4,
+   "target": 28,
+   "weight": 870.962
+  },
+  {
+   "source": 2,
+   "target": 13,
+   "weight": 857.839
+  },
+  {
+   "source": 3,
+   "target": 8,
+   "weight": 852.148
+  },
+  {
+   "source": 7,
+   "target": 23,
+   "weight": 843.115
+  },
+  {
+   "source": 4,
+   "target": 16,
+   "weight": 838.065
+  },
+  {
+   "source": 2,
+   "target": 37,
+   "weight": 837.019
+  },
+  {
+   "source": 7,
+   "target": 26,
+   "weight": 835.815
+  },
+  {
+   "source": 2,
+   "target": 27,
+   "weight": 829.869
+  },
+  {
+   "source": 2,
+   "target": 23,
+   "weight": 808.208
+  },
+  {
+   "source": 12,
+   "target": 18,
+   "weight": 786.484
+  },
+  {
+   "source": 2,
+   "target": 40,
+   "weight": 785.384
+  },
+  {
+   "source": 2,
+   "target": 19,
+   "weight": 774.649
+  },
+  {
+   "source": 6,
+   "target": 9,
+   "weight": 766.63
+  },
+  {
+   "source": 9,
+   "target": 17,
+   "weight": 754.063
+  },
+  {
+   "source": 7,
+   "target": 17,
+   "weight": 747.166
+  },
+  {
+   "source": 3,
+   "target": 33,
+   "weight": 747.136
+  },
+  {
+   "source": 3,
+   "target": 12,
+   "weight": 744.835
+  },
+  {
+   "source": 2,
+   "target": 35,
+   "weight": 743.595
+  },
+  {
+   "source": 3,
+   "target": 40,
+   "weight": 728.95
+  },
+  {
+   "source": 3,
+   "target": 18,
+   "weight": 719.865
+  },
+  {
+   "source": 3,
+   "target": 24,
+   "weight": 718.384
+  },
+  {
+   "source": 9,
+   "target": 11,
+   "weight": 718.206
+  },
+  {
+   "source": 2,
+   "target": 21,
+   "weight": 702.501
+  },
+  {
+   "source": 18,
+   "target": 20,
+   "weight": 697.99
+  },
+  {
+   "source": 3,
+   "target": 16,
+   "weight": 695.901
+  },
+  {
+   "source": 9,
+   "target": 16,
+   "weight": 695.16
+  },
+  {
+   "source": 4,
+   "target": 8,
+   "weight": 691.716
+  },
+  {
+   "source": 17,
+   "target": 18,
+   "weight": 689.495
+  },
+  {
+   "source": 3,
+   "target": 11,
+   "weight": 688.792
+  },
+  {
+   "source": 5,
+   "target": 18,
+   "weight": 682.696
+  },
+  {
+   "source": 2,
+   "target": 38,
+   "weight": 678.401
+  },
+  {
+   "source": 7,
+   "target": 24,
+   "weight": 676.004
+  },
+  {
+   "source": 6,
+   "target": 17,
+   "weight": 672.983
+  },
+  {
+   "source": 7,
+   "target": 21,
+   "weight": 663.185
+  },
+  {
+   "source": 2,
+   "target": 14,
+   "weight": 662.69
+  },
+  {
+   "source": 3,
+   "target": 28,
+   "weight": 662.369
+  },
+  {
+   "source": 9,
+   "target": 24,
+   "weight": 661.835
+  },
+  {
+   "source": 3,
+   "target": 22,
+   "weight": 658.213
+  },
+  {
+   "source": 8,
+   "target": 9,
+   "weight": 656.558
+  },
+  {
+   "source": 9,
+   "target": 18,
+   "weight": 655.764
+  },
+  {
+   "source": 11,
+   "target": 18,
+   "weight": 643.515
+  },
+  {
+   "source": 7,
+   "target": 22,
+   "weight": 642.328
+  },
+  {
+   "source": 9,
+   "target": 33,
+   "weight": 638.533
+  },
+  {
+   "source": 2,
+   "target": 29,
+   "weight": 635.393
+  },
+  {
+   "source": 6,
+   "target": 11,
+   "weight": 630.368
+  },
+  {
+   "source": 6,
+   "target": 20,
+   "weight": 627.515
+  },
+  {
+   "source": 2,
+   "target": 42,
+   "weight": 625.777
+  },
+  {
+   "source": 2,
+   "target": 36,
+   "weight": 624.525
+  },
+  {
+   "source": 5,
+   "target": 20,
+   "weight": 622.775
+  },
+  {
+   "source": 4,
+   "target": 20,
+   "weight": 622.284
+  },
+  {
+   "source": 3,
+   "target": 10,
+   "weight": 611.104
+  },
+  {
+   "source": 7,
+   "target": 40,
+   "weight": 609.19
+  },
+  {
+   "source": 2,
+   "target": 47,
+   "weight": 608.234
+  },
+  {
+   "source": 7,
+   "target": 37,
+   "weight": 607.191
+  },
+  {
+   "source": 6,
+   "target": 23,
+   "weight": 606.612
+  },
+  {
+   "source": 4,
+   "target": 22,
+   "weight": 605.49
+  },
+  {
+   "source": 7,
+   "target": 55,
+   "weight": 603.258
+  },
+  {
+   "source": 5,
+   "target": 24,
+   "weight": 600.477
+  },
+  {
+   "source": 4,
+   "target": 40,
+   "weight": 597.806
+  },
+  {
+   "source": 6,
+   "target": 10,
+   "weight": 594.221
+  },
+  {
+   "source": 2,
+   "target": 25,
+   "weight": 585.731
+  },
+  {
+   "source": 7,
+   "target": 38,
+   "weight": 575.657
+  },
+  {
+   "source": 5,
+   "target": 12,
+   "weight": 575.413
+  },
+  {
+   "source": 16,
+   "target": 22,
+   "weight": 575.059
+  },
+  {
+   "source": 6,
+   "target": 40,
+   "weight": 573.95
+  },
+  {
+   "source": 3,
+   "target": 19,
+   "weight": 573.161
+  },
+  {
+   "source": 5,
+   "target": 11,
+   "weight": 567.466
+  },
+  {
+   "source": 4,
+   "target": 19,
+   "weight": 563.95
+  },
+  {
+   "source": 9,
+   "target": 22,
+   "weight": 561.295
+  },
+  {
+   "source": 7,
+   "target": 33,
+   "weight": 557.849
+  },
+  {
+   "source": 6,
+   "target": 39,
+   "weight": 549.837
+  },
+  {
+   "source": 2,
+   "target": 30,
+   "weight": 547.744
+  },
+  {
+   "source": 4,
+   "target": 10,
+   "weight": 540.652
+  },
+  {
+   "source": 6,
+   "target": 28,
+   "weight": 540.443
+  },
+  {
+   "source": 3,
+   "target": 17,
+   "weight": 538.931
+  },
+  {
+   "source": 11,
+   "target": 12,
+   "weight": 535.866
+  },
+  {
+   "source": 4,
+   "target": 29,
+   "weight": 532.099
+  },
+  {
+   "source": 4,
+   "target": 37,
+   "weight": 530.813
+  },
+  {
+   "source": 5,
+   "target": 16,
+   "weight": 529.052
+  },
+  {
+   "source": 2,
+   "target": 58,
+   "weight": 528.95
+  },
+  {
+   "source": 6,
+   "target": 22,
+   "weight": 526.199
+  },
+  {
+   "source": 5,
+   "target": 33,
+   "weight": 524.96
+  },
+  {
+   "source": 3,
+   "target": 20,
+   "weight": 521.266
+  },
+  {
+   "source": 6,
+   "target": 27,
+   "weight": 521.212
+  },
+  {
+   "source": 7,
+   "target": 39,
+   "weight": 520.751
+  },
+  {
+   "source": 18,
+   "target": 28,
+   "weight": 519.181
+  },
+  {
+   "source": 6,
+   "target": 21,
+   "weight": 517.538
+  },
+  {
+   "source": 2,
+   "target": 15,
+   "weight": 515.875
+  },
+  {
+   "source": 9,
+   "target": 10,
+   "weight": 513.847
+  },
+  {
+   "source": 10,
+   "target": 11,
+   "weight": 512.222
+  },
+  {
+   "source": 7,
+   "target": 14,
+   "weight": 510.283
+  },
+  {
+   "source": 7,
+   "target": 29,
+   "weight": 509.093
+  },
+  {
+   "source": 7,
+   "target": 19,
+   "weight": 508.811
+  },
+  {
+   "source": 17,
+   "target": 20,
+   "weight": 501.85
+  },
+  {
+   "source": 5,
+   "target": 22,
+   "weight": 500.827
+  },
+  {
+   "source": 7,
+   "target": 8,
+   "weight": 500.588
+  },
+  {
+   "source": 12,
+   "target": 20,
+   "weight": 499.314
+  },
+  {
+   "source": 2,
+   "target": 48,
+   "weight": 499.02
+  },
+  {
+   "source": 7,
+   "target": 13,
+   "weight": 495.482
+  },
+  {
+   "source": 24,
+   "target": 33,
+   "weight": 494.379
+  },
+  {
+   "source": 7,
+   "target": 15,
+   "weight": 490.741
+  },
+  {
+   "source": 5,
+   "target": 28,
+   "weight": 490.733
+  },
+  {
+   "source": 2,
+   "target": 43,
+   "weight": 487.031
+  },
+  {
+   "source": 11,
+   "target": 28,
+   "weight": 482.126
+  },
+  {
+   "source": 7,
+   "target": 25,
+   "weight": 481.933
+  },
+  {
+   "source": 12,
+   "target": 16,
+   "weight": 481.67
+  },
+  {
+   "source": 10,
+   "target": 18,
+   "weight": 480.871
+  },
+  {
+   "source": 17,
+   "target": 25,
+   "weight": 480.444
+  },
+  {
+   "source": 12,
+   "target": 28,
+   "weight": 478.566
+  },
+  {
+   "source": 10,
+   "target": 17,
+   "weight": 475.384
+  },
+  {
+   "source": 3,
+   "target": 13,
+   "weight": 472.591
+  },
+  {
+   "source": 20,
+   "target": 28,
+   "weight": 472.291
+  },
+  {
+   "source": 6,
+   "target": 24,
+   "weight": 470.803
+  },
+  {
+   "source": 11,
+   "target": 40,
+   "weight": 465.715
+  },
+  {
+   "source": 4,
+   "target": 21,
+   "weight": 464.645
+  },
+  {
+   "source": 4,
+   "target": 42,
+   "weight": 464.074
+  },
+  {
+   "source": 11,
+   "target": 20,
+   "weight": 462.756
+  },
+  {
+   "source": 9,
+   "target": 20,
+   "weight": 460.161
+  },
+  {
+   "source": 16,
+   "target": 23,
+   "weight": 456.666
+  },
+  {
+   "source": 11,
+   "target": 16,
+   "weight": 456.085
+  },
+  {
+   "source": 2,
+   "target": 65,
+   "weight": 455.274
+  },
+  {
+   "source": 11,
+   "target": 23,
+   "weight": 454.554
+  },
+  {
+   "source": 9,
+   "target": 29,
+   "weight": 454.085
+  },
+  {
+   "source": 16,
+   "target": 35,
+   "weight": 453.897
+  },
+  {
+   "source": 18,
+   "target": 40,
+   "weight": 451.973
+  },
+  {
+   "source": 4,
+   "target": 39,
+   "weight": 448.224
+  },
+  {
+   "source": 2,
+   "target": 31,
+   "weight": 446.594
+  },
+  {
+   "source": 16,
+   "target": 18,
+   "weight": 444.284
+  },
+  {
+   "source": 27,
+   "target": 28,
+   "weight": 443.085
+  },
+  {
+   "source": 2,
+   "target": 56,
+   "weight": 441.547
+  },
+  {
+   "source": 18,
+   "target": 27,
+   "weight": 439.211
+  },
+  {
+   "source": 2,
+   "target": 41,
+   "weight": 438.979
+  },
+  {
+   "source": 4,
+   "target": 35,
+   "weight": 438.245
+  },
+  {
+   "source": 9,
+   "target": 28,
+   "weight": 438.089
+  },
+  {
+   "source": 5,
+   "target": 17,
+   "weight": 435.263
+  },
+  {
+   "source": 16,
+   "target": 39,
+   "weight": 432.594
+  },
+  {
+   "source": 6,
+   "target": 25,
+   "weight": 432.167
+  },
+  {
+   "source": 12,
+   "target": 40,
+   "weight": 427.073
+  },
+  {
+   "source": 5,
+   "target": 8,
+   "weight": 425.072
+  },
+  {
+   "source": 7,
+   "target": 56,
+   "weight": 423.931
+  },
+  {
+   "source": 5,
+   "target": 13,
+   "weight": 421.913
+  },
+  {
+   "source": 9,
+   "target": 12,
+   "weight": 420.702
+  },
+  {
+   "source": 4,
+   "target": 13,
+   "weight": 420.255
+  },
+  {
+   "source": 2,
+   "target": 34,
+   "weight": 419.556
+  },
+  {
+   "source": 3,
+   "target": 42,
+   "weight": 419.36
+  },
+  {
+   "source": 7,
+   "target": 43,
+   "weight": 417.766
+  },
+  {
+   "source": 16,
+   "target": 27,
+   "weight": 417.591
+  },
+  {
+   "source": 12,
+   "target": 39,
+   "weight": 417.55
+  },
+  {
+   "source": 2,
+   "target": 57,
+   "weight": 416.673
+  },
+  {
+   "source": 4,
+   "target": 25,
+   "weight": 415.447
+  },
+  {
+   "source": 12,
+   "target": 21,
+   "weight": 413.994
+  },
+  {
+   "source": 5,
+   "target": 10,
+   "weight": 412.753
+  },
+  {
+   "source": 3,
+   "target": 39,
+   "weight": 412.312
+  },
+  {
+   "source": 11,
+   "target": 27,
+   "weight": 411.312
+  },
+  {
+   "source": 12,
+   "target": 37,
+   "weight": 409.707
+  },
+  {
+   "source": 3,
+   "target": 23,
+   "weight": 409.009
+  },
+  {
+   "source": 6,
+   "target": 13,
+   "weight": 408.983
+  },
+  {
+   "source": 7,
+   "target": 35,
+   "weight": 408.691
+  },
+  {
+   "source": 3,
+   "target": 21,
+   "weight": 406.522
+  },
+  {
+   "source": 11,
+   "target": 26,
+   "weight": 406.328
+  },
+  {
+   "source": 18,
+   "target": 23,
+   "weight": 402.16
+  },
+  {
+   "source": 20,
+   "target": 23,
+   "weight": 401.866
+  },
+  {
+   "source": 2,
+   "target": 46,
+   "weight": 400.991
+  },
+  {
+   "source": 4,
+   "target": 15,
+   "weight": 400.935
+  },
+  {
+   "source": 4,
+   "target": 26,
+   "weight": 400.915
+  },
+  {
+   "source": 9,
+   "target": 47,
+   "weight": 400.628
+  },
+  {
+   "source": 13,
+   "target": 16,
+   "weight": 400.11
+  },
+  {
+   "source": 3,
+   "target": 27,
+   "weight": 399.735
+  },
+  {
+   "source": 3,
+   "target": 14,
+   "weight": 398.737
+  },
+  {
+   "source": 18,
+   "target": 19,
+   "weight": 396.498
+  },
+  {
+   "source": 4,
+   "target": 23,
+   "weight": 396.296
+  },
+  {
+   "source": 12,
+   "target": 17,
+   "weight": 394.63
+  },
+  {
+   "source": 3,
+   "target": 29,
+   "weight": 394.495
+  },
+  {
+   "source": 4,
+   "target": 27,
+   "weight": 394.334
+  },
+  {
+   "source": 18,
+   "target": 24,
+   "weight": 394.28
+  },
+  {
+   "source": 18,
+   "target": 22,
+   "weight": 392.692
+  },
+  {
+   "source": 4,
+   "target": 58,
+   "weight": 391.277
+  },
+  {
+   "source": 12,
+   "target": 23,
+   "weight": 390.392
+  },
+  {
+   "source": 7,
+   "target": 34,
+   "weight": 389.24
+  },
+  {
+   "source": 6,
+   "target": 14,
+   "weight": 388.556
+  },
+  {
+   "source": 2,
+   "target": 54,
+   "weight": 387.653
+  },
+  {
+   "source": 2,
+   "target": 52,
+   "weight": 384.893
+  },
+  {
+   "source": 18,
+   "target": 37,
+   "weight": 384.694
+  },
+  {
+   "source": 26,
+   "target": 28,
+   "weight": 384.25
+  },
+  {
+   "source": 4,
+   "target": 14,
+   "weight": 381.082
+  },
+  {
+   "source": 5,
+   "target": 39,
+   "weight": 380.403
+  },
+  {
+   "source": 9,
+   "target": 13,
+   "weight": 380.309
+  },
+  {
+   "source": 19,
+   "target": 28,
+   "weight": 379.67
+  },
+  {
+   "source": 9,
+   "target": 35,
+   "weight": 379.473
+  },
+  {
+   "source": 6,
+   "target": 37,
+   "weight": 377.669
+  },
+  {
+   "source": 21,
+   "target": 23,
+   "weight": 377.608
+  },
+  {
+   "source": 2,
+   "target": 55,
+   "weight": 377.309
+  },
+  {
+   "source": 12,
+   "target": 27,
+   "weight": 375.436
+  },
+  {
+   "source": 2,
+   "target": 53,
+   "weight": 374.793
+  },
+  {
+   "source": 6,
+   "target": 33,
+   "weight": 373.975
+  },
+  {
+   "source": 2,
+   "target": 76,
+   "weight": 372.881
+  },
+  {
+   "source": 6,
+   "target": 43,
+   "weight": 369.863
+  },
+  {
+   "source": 23,
+   "target": 28,
+   "weight": 367.858
+  },
+  {
+   "source": 11,
+   "target": 29,
+   "weight": 367.339
+  },
+  {
+   "source": 11,
+   "target": 17,
+   "weight": 366.185
+  },
+  {
+   "source": 17,
+   "target": 27,
+   "weight": 366.17
+  },
+  {
+   "source": 16,
+   "target": 26,
+   "weight": 365.327
+  },
+  {
+   "source": 10,
+   "target": 27,
+   "weight": 365.215
+  },
+  {
+   "source": 9,
+   "target": 48,
+   "weight": 363.395
+  },
+  {
+   "source": 3,
+   "target": 38,
+   "weight": 362.75
+  },
+  {
+   "source": 2,
+   "target": 45,
+   "weight": 361.571
+  },
+  {
+   "source": 5,
+   "target": 21,
+   "weight": 361.09
+  },
+  {
+   "source": 5,
+   "target": 23,
+   "weight": 359.873
+  },
+  {
+   "source": 6,
+   "target": 19,
+   "weight": 359.579
+  },
+  {
+   "source": 20,
+   "target": 26,
+   "weight": 359.221
+  },
+  {
+   "source": 10,
+   "target": 23,
+   "weight": 357.972
+  },
+  {
+   "source": 12,
+   "target": 24,
+   "weight": 357.125
+  },
+  {
+   "source": 9,
+   "target": 40,
+   "weight": 356.412
+  },
+  {
+   "source": 14,
+   "target": 16,
+   "weight": 355.419
+  },
+  {
+   "source": 7,
+   "target": 47,
+   "weight": 352.769
+  },
+  {
+   "source": 19,
+   "target": 20,
+   "weight": 352.448
+  },
+  {
+   "source": 7,
+   "target": 30,
+   "weight": 351.139
+  },
+  {
+   "source": 23,
+   "target": 37,
+   "weight": 349.374
+  },
+  {
+   "source": 7,
+   "target": 36,
+   "weight": 349.344
+  },
+  {
+   "source": 2,
+   "target": 60,
+   "weight": 348.898
+  },
+  {
+   "source": 18,
+   "target": 26,
+   "weight": 348.779
+  },
+  {
+   "source": 12,
+   "target": 26,
+   "weight": 348.613
+  },
+  {
+   "source": 16,
+   "target": 37,
+   "weight": 348.399
+  },
+  {
+   "source": 11,
+   "target": 22,
+   "weight": 347.987
+  },
+  {
+   "source": 8,
+   "target": 11,
+   "weight": 347.892
+  },
+  {
+   "source": 6,
+   "target": 29,
+   "weight": 347.217
+  },
+  {
+   "source": 17,
+   "target": 28,
+   "weight": 345.306
+  },
+  {
+   "source": 2,
+   "target": 59,
+   "weight": 343.658
+  },
+  {
+   "source": 6,
+   "target": 36,
+   "weight": 341.988
+  },
+  {
+   "source": 2,
+   "target": 69,
+   "weight": 341.222
+  },
+  {
+   "source": 11,
+   "target": 21,
+   "weight": 340.012
+  },
+  {
+   "source": 16,
+   "target": 17,
+   "weight": 339.279
+  },
+  {
+   "source": 7,
+   "target": 42,
+   "weight": 338.791
+  },
+  {
+   "source": 17,
+   "target": 24,
+   "weight": 337.422
+  },
+  {
+   "source": 3,
+   "target": 47,
+   "weight": 336.93
+  },
+  {
+   "source": 3,
+   "target": 26,
+   "weight": 333.662
+  },
+  {
+   "source": 3,
+   "target": 37,
+   "weight": 333.124
+  },
+  {
+   "source": 11,
+   "target": 24,
+   "weight": 332.475
+  },
+  {
+   "source": 5,
+   "target": 40,
+   "weight": 332.044
+  },
+  {
+   "source": 4,
+   "target": 48,
+   "weight": 331.905
+  },
+  {
+   "source": 2,
+   "target": 50,
+   "weight": 330.535
+  },
+  {
+   "source": 10,
+   "target": 16,
+   "weight": 330.292
+  },
+  {
+   "source": 18,
+   "target": 36,
+   "weight": 330.063
+  },
+  {
+   "source": 24,
+   "target": 28,
+   "weight": 329.379
+  },
+  {
+   "source": 8,
+   "target": 18,
+   "weight": 329.26
+  },
+  {
+   "source": 6,
+   "target": 35,
+   "weight": 328.531
+  },
+  {
+   "source": 4,
+   "target": 41,
+   "weight": 328.003
+  },
+  {
+   "source": 6,
+   "target": 53,
+   "weight": 327.821
+  },
+  {
+   "source": 16,
+   "target": 40,
+   "weight": 327.345
+  },
+  {
+   "source": 16,
+   "target": 28,
+   "weight": 326.126
+  },
+  {
+   "source": 22,
+   "target": 24,
+   "weight": 325.466
+  },
+  {
+   "source": 6,
+   "target": 26,
+   "weight": 325.057
+  },
+  {
+   "source": 17,
+   "target": 33,
+   "weight": 325.015
+  },
+  {
+   "source": 22,
+   "target": 40,
+   "weight": 324.12
+  },
+  {
+   "source": 6,
+   "target": 42,
+   "weight": 322.955
+  },
+  {
+   "source": 2,
+   "target": 68,
+   "weight": 322.895
+  },
+  {
+   "source": 8,
+   "target": 16,
+   "weight": 322.322
+  },
+  {
+   "source": 9,
+   "target": 25,
+   "weight": 320.996
+  },
+  {
+   "source": 4,
+   "target": 53,
+   "weight": 318.297
+  },
+  {
+   "source": 12,
+   "target": 29,
+   "weight": 317.527
+  },
+  {
+   "source": 20,
+   "target": 21,
+   "weight": 317.383
+  },
+  {
+   "source": 11,
+   "target": 33,
+   "weight": 316.609
+  },
+  {
+   "source": 5,
+   "target": 47,
+   "weight": 315.101
+  },
+  {
+   "source": 18,
+   "target": 33,
+   "weight": 314.765
+  },
+  {
+   "source": 26,
+   "target": 37,
+   "weight": 313.772
+  },
+  {
+   "source": 12,
+   "target": 22,
+   "weight": 313.393
+  },
+  {
+   "source": 2,
+   "target": 74,
+   "weight": 313.152
+  },
+  {
+   "source": 16,
+   "target": 24,
+   "weight": 311.727
+  },
+  {
+   "source": 9,
+   "target": 23,
+   "weight": 311.709
+  },
+  {
+   "source": 28,
+   "target": 37,
+   "weight": 311.425
+  },
+  {
+   "source": 38,
+   "target": 39,
+   "weight": 310.599
+  },
+  {
+   "source": 11,
+   "target": 19,
+   "weight": 310.268
+  },
+  {
+   "source": 16,
+   "target": 20,
+   "weight": 309.498
+  },
+  {
+   "source": 11,
+   "target": 38,
+   "weight": 309.462
+  },
+  {
+   "source": 18,
+   "target": 25,
+   "weight": 307.777
+  },
+  {
+   "source": 8,
+   "target": 12,
+   "weight": 307.574
+  },
+  {
+   "source": 19,
+   "target": 26,
+   "weight": 306.433
+  },
+  {
+   "source": 23,
+   "target": 27,
+   "weight": 304.382
+  },
+  {
+   "source": 6,
+   "target": 34,
+   "weight": 303.839
+  },
+  {
+   "source": 5,
+   "target": 42,
+   "weight": 303.471
+  },
+  {
+   "source": 4,
+   "target": 38,
+   "weight": 303.05
+  },
+  {
+   "source": 11,
+   "target": 15,
+   "weight": 302.201
+  },
+  {
+   "source": 9,
+   "target": 26,
+   "weight": 301.412
+  },
+  {
+   "source": 9,
+   "target": 58,
+   "weight": 300.519
+  },
+  {
+   "source": 37,
+   "target": 38,
+   "weight": 299.623
+  },
+  {
+   "source": 8,
+   "target": 17,
+   "weight": 299.581
+  },
+  {
+   "source": 2,
+   "target": 66,
+   "weight": 299.185
+  },
+  {
+   "source": 11,
+   "target": 37,
+   "weight": 298.033
+  },
+  {
+   "source": 8,
+   "target": 24,
+   "weight": 297.443
+  },
+  {
+   "source": 17,
+   "target": 26,
+   "weight": 296.7
+  },
+  {
+   "source": 5,
+   "target": 26,
+   "weight": 295.475
+  },
+  {
+   "source": 3,
+   "target": 55,
+   "weight": 295.38
+  },
+  {
+   "source": 9,
+   "target": 43,
+   "weight": 294.504
+  },
+  {
+   "source": 11,
+   "target": 13,
+   "weight": 294.078
+  },
+  {
+   "source": 10,
+   "target": 20,
+   "weight": 293.336
+  },
+  {
+   "source": 18,
+   "target": 38,
+   "weight": 291.656
+  },
+  {
+   "source": 4,
+   "target": 60,
+   "weight": 290.348
+  },
+  {
+   "source": 8,
+   "target": 29,
+   "weight": 290.113
+  },
+  {
+   "source": 4,
+   "target": 46,
+   "weight": 288.195
+  },
+  {
+   "source": 7,
+   "target": 44,
+   "weight": 288.02
+  },
+  {
+   "source": 8,
+   "target": 22,
+   "weight": 287.176
+  },
+  {
+   "source": 12,
+   "target": 33,
+   "weight": 286.636
+  },
+  {
+   "source": 19,
+   "target": 38,
+   "weight": 286.243
+  },
+  {
+   "source": 16,
+   "target": 21,
+   "weight": 285.306
+  },
+  {
+   "source": 4,
+   "target": 31,
+   "weight": 284.141
+  },
+  {
+   "source": 16,
+   "target": 31,
+   "weight": 284.037
+  },
+  {
+   "source": 23,
+   "target": 56,
+   "weight": 283.448
+  },
+  {
+   "source": 10,
+   "target": 12,
+   "weight": 282.491
+  },
+  {
+   "source": 16,
+   "target": 43,
+   "weight": 280.776
+  },
+  {
+   "source": 6,
+   "target": 56,
+   "weight": 280.765
+  },
+  {
+   "source": 3,
+   "target": 35,
+   "weight": 280.581
+  },
+  {
+   "source": 4,
+   "target": 34,
+   "weight": 280.307
+  },
+  {
+   "source": 20,
+   "target": 37,
+   "weight": 278.942
+  },
+  {
+   "source": 18,
+   "target": 50,
+   "weight": 278.712
+  },
+  {
+   "source": 6,
+   "target": 8,
+   "weight": 278.356
+  },
+  {
+   "source": 18,
+   "target": 21,
+   "weight": 277.8
+  },
+  {
+   "source": 6,
+   "target": 30,
+   "weight": 276.475
+  },
+  {
+   "source": 8,
+   "target": 28,
+   "weight": 274.08
+  },
+  {
+   "source": 20,
+   "target": 27,
+   "weight": 273.339
+  },
+  {
+   "source": 9,
+   "target": 46,
+   "weight": 272.97
+  },
+  {
+   "source": 22,
+   "target": 27,
+   "weight": 272.933
+  },
+  {
+   "source": 2,
+   "target": 51,
+   "weight": 272.696
+  },
+  {
+   "source": 27,
+   "target": 40,
+   "weight": 272.506
+  },
+  {
+   "source": 7,
+   "target": 31,
+   "weight": 272.457
+  },
+  {
+   "source": 16,
+   "target": 29,
+   "weight": 272.087
+  },
+  {
+   "source": 7,
+   "target": 50,
+   "weight": 272.061
+  },
+  {
+   "source": 17,
+   "target": 23,
+   "weight": 271.866
+  },
+  {
+   "source": 25,
+   "target": 33,
+   "weight": 270.39
+  },
+  {
+   "source": 5,
+   "target": 30,
+   "weight": 269.431
+  },
+  {
+   "source": 10,
+   "target": 40,
+   "weight": 269.154
+  },
+  {
+   "source": 22,
+   "target": 28,
+   "weight": 269.021
+  },
+  {
+   "source": 10,
+   "target": 28,
+   "weight": 268.387
+  },
+  {
+   "source": 10,
+   "target": 21,
+   "weight": 268.307
+  },
+  {
+   "source": 4,
+   "target": 47,
+   "weight": 267.722
+  },
+  {
+   "source": 4,
+   "target": 57,
+   "weight": 267.181
+  },
+  {
+   "source": 16,
+   "target": 36,
+   "weight": 266.282
+  },
+  {
+   "source": 20,
+   "target": 79,
+   "weight": 266.211
+  },
+  {
+   "source": 18,
+   "target": 35,
+   "weight": 266.176
+  },
+  {
+   "source": 23,
+   "target": 36,
+   "weight": 264.461
+  },
+  {
+   "source": 5,
+   "target": 15,
+   "weight": 264.447
+  },
+  {
+   "source": 3,
+   "target": 57,
+   "weight": 264.335
+  },
+  {
+   "source": 20,
+   "target": 33,
+   "weight": 264.332
+  },
+  {
+   "source": 7,
+   "target": 48,
+   "weight": 264.116
+  },
+  {
+   "source": 10,
+   "target": 30,
+   "weight": 264.035
+  },
+  {
+   "source": 5,
+   "target": 35,
+   "weight": 263.171
+  },
+  {
+   "source": 5,
+   "target": 37,
+   "weight": 262.128
+  },
+  {
+   "source": 5,
+   "target": 29,
+   "weight": 261.71
+  },
+  {
+   "source": 2,
+   "target": 44,
+   "weight": 261.503
+  },
+  {
+   "source": 5,
+   "target": 58,
+   "weight": 260.867
+  }
+ ]
+}
