@@ -1,5 +1,3 @@
-import json
-
 from app.server.main import build_routes, dispatch
 
 

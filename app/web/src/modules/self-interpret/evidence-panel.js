@@ -1,8 +1,3 @@
-function highlight(text, rootForms) {
-  // shared roots are surfaced as chips; the verse text itself is shown verbatim.
-  return text;
-}
-
 export function createPanel(el) {
   function hide() { el.classList.remove("open"); el.innerHTML = ""; }
 
