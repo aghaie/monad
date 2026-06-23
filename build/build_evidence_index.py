@@ -19,7 +19,6 @@ Deterministic (seeded), offline, no external semantics.
 import argparse
 import json
 import math
-import random
 import sqlite3
 from collections import Counter, defaultdict
 from itertools import combinations
@@ -32,10 +31,8 @@ GRAPH_OUT = REPO / "generated" / "layers" / "L7_global" / "graph_communities.jso
 
 ALLAH = "{ll~ah"
 DF_LO, DF_HI = 3, 40
-SEED = 11
 TOPN = 12          # explainers kept per ayah (vs L7's 5) — same method, less truncation
 TOP_EDGES = 400    # strongest inter-sura edges kept for the constellation
-LAYOUT_ITERS = 400
 
 
 def load_ayah_roots(db):
@@ -60,40 +57,19 @@ def load_ayah_roots(db):
     return ayah_roots, root_bw, root_ar, suras
 
 
-def fr_layout(nodes, edges, seed, iters):
-    """Compact deterministic Fruchterman-Reingold on a small node set."""
-    rnd = random.Random(seed)
-    pos = {n: [rnd.uniform(-1.0, 1.0), rnd.uniform(-1.0, 1.0)] for n in nodes}
-    area = 1.0
-    k = math.sqrt(area / max(1, len(nodes)))
-    t = 0.1
-    adj = [(e["source"], e["target"]) for e in edges]
-    for _ in range(iters):
-        disp = {n: [0.0, 0.0] for n in nodes}
-        for i in range(len(nodes)):
-            for j in range(i + 1, len(nodes)):
-                a, b = nodes[i], nodes[j]
-                dx = pos[a][0] - pos[b][0]
-                dy = pos[a][1] - pos[b][1]
-                dist = math.hypot(dx, dy) or 1e-4
-                rep = (k * k) / dist
-                ux, uy = dx / dist, dy / dist
-                disp[a][0] += ux * rep; disp[a][1] += uy * rep
-                disp[b][0] -= ux * rep; disp[b][1] -= uy * rep
-        for a, b in adj:
-            dx = pos[a][0] - pos[b][0]
-            dy = pos[a][1] - pos[b][1]
-            dist = math.hypot(dx, dy) or 1e-4
-            att = (dist * dist) / k
-            ux, uy = dx / dist, dy / dist
-            disp[a][0] -= ux * att; disp[a][1] -= uy * att
-            disp[b][0] += ux * att; disp[b][1] += uy * att
-        for n in nodes:
-            d = math.hypot(*disp[n]) or 1e-4
-            pos[n][0] += (disp[n][0] / d) * min(d, t)
-            pos[n][1] += (disp[n][1] / d) * min(d, t)
-        t = max(t * 0.985, 0.001)
-    return {n: [round(pos[n][0], 5), round(pos[n][1], 5)] for n in nodes}
+def sunflower_layout(order):
+    """Deterministic phyllotaxis (sunflower) layout: nodes placed on a golden-angle
+    spiral that fills a disk evenly with no overlap. `order` is the node list from
+    most-central (placed near the center) to most-peripheral. We sort by connection
+    strength, so the most-connected suras sit at the heart of the constellation."""
+    n = len(order)
+    golden = math.pi * (3.0 - math.sqrt(5.0))   # ~137.5°
+    pos = {}
+    for i, node in enumerate(order):
+        r = math.sqrt((i + 0.5) / n)
+        th = i * golden
+        pos[node] = [round(r * math.cos(th), 5), round(r * math.sin(th), 5)]
+    return pos
 
 
 def main():
@@ -154,7 +130,13 @@ def main():
     node_ids = sorted(suras)
     top_edges = sorted(inter.items(), key=lambda kv: -kv[1])[:TOP_EDGES]
     edges = [{"source": a, "target": b, "weight": round(w, 3)} for (a, b), w in top_edges]
-    pos = fr_layout(node_ids, edges, SEED, LAYOUT_ITERS)
+    # order suras by total inter-sura connection strength (hubs first → near center);
+    # ties broken by sura number so the layout is fully deterministic.
+    strength = defaultdict(float)
+    for (a, b), w in inter.items():
+        strength[a] += w; strength[b] += w
+    order = sorted(node_ids, key=lambda s: (-strength[s], s))
+    pos = sunflower_layout(order)
     nodes = [{"sura": s, "name_ar": suras[s][0], "ayah_count": suras[s][1],
               "x": pos[s][0], "y": pos[s][1]} for s in node_ids]
 
