@@ -1,24 +1,83 @@
+:root {
+  --paper: #f4efe4;      /* warm cream background */
+  --surface: #fbf8f1;    /* panels / sidebar */
+  --surface-2: #efe8d8;  /* active / hover */
+  --ink: #34302a;        /* primary text */
+  --muted: #8a8270;      /* secondary text */
+  --line: #e4ddcc;       /* borders / dividers */
+  --sage: #5d977a;       /* sura accent */
+  --sky: #5f8cbf;        /* verse accent */
+  --accent: #c2763f;     /* links, refs, active */
+  --chip-bg: #ece4d3;
+}
+
 * { box-sizing: border-box; }
-body { margin: 0; display: flex; height: 100vh; font-family: "Vazirmatn", system-ui, sans-serif;
-       background: #0d1117; color: #e6edf3; }
-#sidebar { width: 200px; background: #161b22; padding: 16px; border-left: 1px solid #30363d;
-           display: flex; flex-direction: column; gap: 8px; }
-#brand { font-size: 22px; font-weight: 700; margin-bottom: 16px; color: #d2a8ff; }
-#modules button { background: transparent; color: #e6edf3; border: 1px solid #30363d;
-                  border-radius: 8px; padding: 10px; text-align: right; cursor: pointer; font-size: 15px; }
-#modules button.active { background: #1f6feb33; border-color: #1f6feb; }
-#canvas { flex: 1; position: relative; overflow: hidden; }
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  font-family: "Vazirmatn", Tahoma, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+#sidebar {
+  width: 210px;
+  background: var(--surface);
+  padding: 18px 16px;
+  border-left: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#brand { font-size: 24px; font-weight: 800; margin-bottom: 16px; color: var(--sage); letter-spacing: .5px; }
+#modules button {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 11px 12px;
+  text-align: right;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+  transition: background .15s, border-color .15s;
+}
+#modules button:hover { background: var(--surface-2); }
+#modules button.active { background: var(--surface-2); border-color: var(--sage); color: var(--sage); font-weight: 700; }
+
+#canvas { flex: 1; position: relative; overflow: hidden; background: var(--paper); }
 #graph { width: 100%; height: 100%; }
-#panel { position: absolute; top: 0; left: 0; width: 380px; height: 100%; overflow-y: auto;
-         background: #161b22ee; border-left: 1px solid #30363d; padding: 20px; transform: translateX(-100%);
-         transition: transform .2s; }
+
+.crumbs {
+  padding: 10px 16px; color: var(--muted); font-size: 14px;
+  position: absolute; top: 0; right: 0; left: 0; z-index: 2; pointer-events: none;
+}
+.crumbs a { color: var(--accent); cursor: pointer; pointer-events: auto; text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+
+#panel {
+  position: absolute; top: 0; left: 0; width: 400px; height: 100%;
+  overflow-y: auto; background: var(--surface);
+  border-right: 1px solid var(--line);
+  box-shadow: 8px 0 28px rgba(52,48,42,.08);
+  padding: 22px; transform: translateX(-100%); transition: transform .22s ease;
+  z-index: 3;
+}
 #panel.open { transform: translateX(0); }
-.verse-main { font-size: 26px; line-height: 2; text-align: center; margin-bottom: 8px; }
-.explainer { border-top: 1px solid #30363d; padding: 12px 0; }
-.explainer .ref { color: #58a6ff; cursor: pointer; font-weight: 700; }
-.root-chip { display: inline-block; background: #d2a8ff22; border: 1px solid #d2a8ff66;
-             border-radius: 6px; padding: 1px 8px; margin: 2px; font-size: 14px; }
-.hl { color: #d2a8ff; font-weight: 700; }
-.dim { opacity: .35; }
-.crumbs { padding: 8px 12px; color: #8b949e; }
-.crumbs a { color: #58a6ff; cursor: pointer; }
+.panel-close { float: left; background: none; border: none; color: var(--muted); cursor: pointer; font-size: 18px; line-height: 1; }
+.panel-close:hover { color: var(--accent); }
+.panel-ref { color: var(--muted); font-size: 13px; text-align: center; margin-bottom: 4px; }
+
+.verse-main { font-size: 27px; line-height: 2.1; text-align: center; margin: 6px 0 10px; color: var(--ink); }
+.explainer { border-top: 1px solid var(--line); padding: 14px 0; }
+.explainer .ref { color: var(--accent); cursor: pointer; font-weight: 700; }
+.explainer .ref:hover { text-decoration: underline; }
+.explainer .verse-main { font-size: 20px; line-height: 1.95; }
+
+.root-chip {
+  display: inline-block; background: var(--chip-bg); border: 1px solid var(--line);
+  border-radius: 7px; padding: 2px 9px; margin: 3px; font-size: 14px; color: var(--sage); font-weight: 600;
+}
+.dim { opacity: .6; }

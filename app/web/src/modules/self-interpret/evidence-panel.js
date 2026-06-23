@@ -3,12 +3,11 @@ export function createPanel(el) {
 
   async function show(ref, api, onFollow) {
     el.classList.add("open");
-    el.innerHTML = `<div class="crumbs">${ref}</div><div>در حال بارگذاری…</div>`;
+    el.innerHTML = `<div class="panel-ref">${ref}</div><div class="dim">در حال بارگذاری…</div>`;
     const [verse, refs] = await Promise.all([api.verse(ref), api.interpret(ref)]);
-    const head = `<button onclick="this.closest('#panel').classList.remove('open')"
-                   style="float:left;background:none;border:none;color:#8b949e;cursor:pointer">✕</button>
+    const head = `<button class="panel-close" onclick="this.closest('#panel').classList.remove('open')">✕</button>
       <div class="verse-main">${verse.text.uthmani}</div>
-      <div class="crumbs">${ref}</div>`;
+      <div class="panel-ref">${ref}</div>`;
     if (!refs.length) {
       el.innerHTML = head + `<p class="dim">هیچ آیه‌ی روشن‌گری با شاهدِ ریشه‌ی مشترک یافت نشد — امتناع.</p>`;
       return;
