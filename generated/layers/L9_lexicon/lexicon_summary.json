@@ -1,0 +1,25 @@
+{
+ "method": "L9-lexicon-1.0",
+ "params": {
+  "CLUSTER_CUT": 0.85,
+  "MAX_COROOTS": 40,
+  "MIN_SUPPORT": 2,
+  "NEIGHBOURHOOD_K": 10,
+  "NULL_SAMPLES": 8000,
+  "SEED": 99
+ },
+ "n_roots": 1635,
+ "n_ayahs": 6236,
+ "note_coverage": "1635 roots occur as content stems (of 1642 total); 22 ayahs have no content root (e.g. مقطعات) and get an empty dossier.",
+ "null_p90": 0.5,
+ "null_p95": 0.5,
+ "null_p99": 1.0,
+ "tier_counts": {
+  "نامشخص": 1589,
+  "قوی": 43,
+  "محتمل": 3
+ },
+ "roots_with_resolved_senses": 46,
+ "ayahs_with_explaining_verses": 4416,
+ "note": "senses emitted only where they replicate across halves; otherwise single stable L8 neighbourhood with finer_senses=نامشخص. Persian glosses pending (quarantined output step)."
+}
