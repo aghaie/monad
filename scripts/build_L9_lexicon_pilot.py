@@ -78,7 +78,8 @@ def load_ayah_roots(db):
     return {k: sorted(v) for k, v in by.items()}, root_bw, root_ar, bw_root
 
 
-def induce_facets(rid, ayahs, ayah_roots, df_global, inv_set, N, cut=CLUSTER_CUT):
+def induce_facets(rid, ayahs, ayah_roots, df_global, inv_set, N, cut=CLUSTER_CUT,
+                  min_pmi=MIN_PMI):
     """ayahs: list of ayah-keys containing root rid. Return facets, ctx, co_in_R.
 
     Co-roots are clustered by their GLOBAL meaning-neighbourhood (corpus-wide
@@ -91,18 +92,21 @@ def induce_facets(rid, ayahs, ayah_roots, df_global, inv_set, N, cut=CLUSTER_CUT
     for k in ayahs:
         for c in ctx[k]:
             co_in_R[c] += 1
-    # significant co-roots: support + positive PMI (R vs c over the whole corpus)
+    # significant co-roots: support + DISTINCTIVE association (PMI of R vs c over
+    # the whole corpus). Rank by PMI so generic high-frequency co-roots (قول, ربب…
+    # that co-occur with everything) are suppressed in favour of root-specific ones.
     cand = []
     for c, cnt in co_in_R.items():
         if cnt < MIN_SUPPORT:
             continue
         pmi = math.log((cnt * N) / (nR * df_global[c])) if df_global[c] else 0.0
-        if pmi > MIN_PMI:
-            cand.append((cnt, pmi, c))
+        if pmi > min_pmi:
+            cand.append((pmi, cnt, c))
     if len(cand) < 2:
         return [], ctx, co_in_R
-    cand.sort(reverse=True)
+    cand.sort(reverse=True)                       # by distinctiveness (PMI), then support
     C = [c for _, _, c in cand[:MAX_COROOTS]]
+    pmi_of = {c: p for p, _, c in cand}
     n = len(C)
 
     # global Jaccard distance matrix among candidate co-roots
@@ -156,7 +160,8 @@ def induce_facets(rid, ayahs, ayah_roots, df_global, inv_set, N, cut=CLUSTER_CUT
         if not scored:
             continue
         scored.sort(reverse=True)
-        top = sorted(cl, key=lambda c: (-co_in_R[c], c))[:TOP_COROOTS]
+        # characterise the facet by its most DISTINCTIVE co-roots (highest PMI)
+        top = sorted(cl, key=lambda c: (-pmi_of.get(c, 0.0), c))[:TOP_COROOTS]
         facets.append({
             "coroots": cl, "top_coroots": top,
             "support": len(scored),
@@ -196,10 +201,11 @@ def main():
     ap.add_argument("--db", default=str(DB_DEFAULT))
     ap.add_argument("--out", default=str(OUT_DEFAULT))
     ap.add_argument("--cut", type=float, default=CLUSTER_CUT)
+    ap.add_argument("--minpmi", type=float, default=MIN_PMI)
     ap.add_argument("--quiet", action="store_true")
     args = ap.parse_args()
     db = Path(args.db); out = Path(args.out); out.mkdir(parents=True, exist_ok=True)
-    cut = args.cut
+    cut = args.cut; min_pmi = args.minpmi
 
     ayah_roots, root_bw, root_ar, bw_root = load_ayah_roots(db)
     keys = sorted(ayah_roots)
@@ -219,9 +225,9 @@ def main():
         if rid is None:
             continue
         ayahs = inv[rid]
-        facets, ctx, co_in_R = induce_facets(rid, ayahs, ayah_roots, df_global, inv_set, N, cut)
-        fA, _, _ = induce_facets(rid, ayahs[0::2], ayah_roots, df_global, inv_set, N, cut)
-        fB, _, _ = induce_facets(rid, ayahs[1::2], ayah_roots, df_global, inv_set, N, cut)
+        facets, ctx, co_in_R = induce_facets(rid, ayahs, ayah_roots, df_global, inv_set, N, cut, min_pmi)
+        fA, _, _ = induce_facets(rid, ayahs[0::2], ayah_roots, df_global, inv_set, N, cut, min_pmi)
+        fB, _, _ = induce_facets(rid, ayahs[1::2], ayah_roots, df_global, inv_set, N, cut, min_pmi)
         induced[bw] = {"rid": rid, "n_ayahs": len(ayahs), "facets": facets,
                        "co_in_R": co_in_R,
                        "sigA": facet_signature(fA), "sigB": facet_signature(fB)}
@@ -293,8 +299,8 @@ def main():
         "note": "sense induction for pilot roots; facets are clusters of the "
                 "stable meaning-neighbourhood; validated by cross-half replication.",
         "params": {"MIN_SUPPORT": MIN_SUPPORT, "MAX_COROOTS": MAX_COROOTS,
-                   "CLUSTER_CUT": cut, "MIN_FACET_COROOTS": MIN_FACET_COROOTS,
-                   "SEED": SEED},
+                   "CLUSTER_CUT": cut, "MIN_PMI": min_pmi,
+                   "MIN_FACET_COROOTS": MIN_FACET_COROOTS, "SEED": SEED},
         "n_pilot_roots": len(stab_rows),
         "roots_with_multiple_senses": sum(1 for r in stab_rows if r["n_senses"] > 1),
         "roots_beating_null_mean": n_beats,
