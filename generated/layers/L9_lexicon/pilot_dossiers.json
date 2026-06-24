@@ -1,0 +1,1215 @@
+{
+ "method": "L9-lexicon-pilot-1.0",
+ "dossiers": {
+  "qwl": {
+   "root_ar": "قول",
+   "root_bw": "qwl",
+   "n_ayahs": 1383,
+   "n_senses": 0,
+   "senses": []
+  },
+  "Elm": {
+   "root_ar": "علم",
+   "root_bw": "Elm",
+   "n_ayahs": 728,
+   "n_senses": 3,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 302,
+     "characteristic_coroots": [
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 230
+      },
+      {
+       "root_bw": "rbb",
+       "root_ar": "ربب",
+       "shared_ayahs": 129
+      }
+     ],
+     "representative_ayahs": [
+      "74:31",
+      "59:16",
+      "51:30",
+      "43:46"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 2,
+     "support": 125,
+     "characteristic_coroots": [
+      {
+       "root_bw": "$yA",
+       "root_ar": "شيا",
+       "shared_ayahs": 95
+      },
+      {
+       "root_bw": "kll",
+       "root_ar": "كلل",
+       "shared_ayahs": 73
+      }
+     ],
+     "representative_ayahs": [
+      "72:28",
+      "65:12",
+      "64:11",
+      "58:7"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 3,
+     "support": 98,
+     "characteristic_coroots": [
+      {
+       "root_bw": "ArD",
+       "root_ar": "ارض",
+       "shared_ayahs": 85
+      },
+      {
+       "root_bw": "smw",
+       "root_ar": "سمو",
+       "shared_ayahs": 72
+      }
+     ],
+     "representative_ayahs": [
+      "65:12",
+      "64:4",
+      "58:7",
+      "57:4"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    }
+   ]
+  },
+  "Amn": {
+   "root_ar": "امن",
+   "root_bw": "Amn",
+   "n_ayahs": 723,
+   "n_senses": 3,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 247,
+     "characteristic_coroots": [
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 185
+      },
+      {
+       "root_bw": "rbb",
+       "root_ar": "ربب",
+       "shared_ayahs": 112
+      }
+     ],
+     "representative_ayahs": [
+      "74:31",
+      "66:11",
+      "66:8",
+      "60:4"
+     ],
+     "persian_gloss": null,
+     "confidence": "صریح"
+    },
+    {
+     "facet_id": 2,
+     "support": 111,
+     "characteristic_coroots": [
+      {
+       "root_bw": "Eml",
+       "root_ar": "عمل",
+       "shared_ayahs": 101
+      },
+      {
+       "root_bw": "SlH",
+       "root_ar": "صلح",
+       "shared_ayahs": 80
+      }
+     ],
+     "representative_ayahs": [
+      "103:3",
+      "98:7",
+      "95:6",
+      "85:11"
+     ],
+     "persian_gloss": null,
+     "confidence": "صریح"
+    },
+    {
+     "facet_id": 3,
+     "support": 89,
+     "characteristic_coroots": [
+      {
+       "root_bw": "rHm",
+       "root_ar": "رحم",
+       "shared_ayahs": 59
+      },
+      {
+       "root_bw": "gfr",
+       "root_ar": "غفر",
+       "shared_ayahs": 50
+      }
+     ],
+     "representative_ayahs": [
+      "64:14",
+      "60:12",
+      "59:10",
+      "58:12"
+     ],
+     "persian_gloss": null,
+     "confidence": "صریح"
+    }
+   ]
+  },
+  "Ayy": {
+   "root_ar": "ايي",
+   "root_bw": "Ayy",
+   "n_ayahs": 353,
+   "n_senses": 2,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 42,
+     "characteristic_coroots": [
+      {
+       "root_bw": "ArD",
+       "root_ar": "ارض",
+       "shared_ayahs": 32
+      },
+      {
+       "root_bw": "smw",
+       "root_ar": "سمو",
+       "shared_ayahs": 28
+      }
+     ],
+     "representative_ayahs": [
+      "45:13",
+      "45:5",
+      "45:3",
+      "42:29"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    },
+    {
+     "facet_id": 2,
+     "support": 19,
+     "characteristic_coroots": [
+      {
+       "root_bw": "lyl",
+       "root_ar": "ليل",
+       "shared_ayahs": 17
+      },
+      {
+       "root_bw": "nhr",
+       "root_ar": "نهر",
+       "shared_ayahs": 15
+      }
+     ],
+     "representative_ayahs": [
+      "45:5",
+      "41:37",
+      "36:37",
+      "30:23"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    }
+   ]
+  },
+  "ktb": {
+   "root_ar": "كتب",
+   "root_bw": "ktb",
+   "n_ayahs": 279,
+   "n_senses": 3,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 90,
+     "characteristic_coroots": [
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 63
+      },
+      {
+       "root_bw": "rbb",
+       "root_ar": "ربب",
+       "shared_ayahs": 43
+      }
+     ],
+     "representative_ayahs": [
+      "74:31",
+      "42:15",
+      "34:3",
+      "27:40"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 2,
+     "support": 37,
+     "characteristic_coroots": [
+      {
+       "root_bw": "$yA",
+       "root_ar": "شيا",
+       "shared_ayahs": 28
+      },
+      {
+       "root_bw": "kll",
+       "root_ar": "كلل",
+       "shared_ayahs": 22
+      }
+     ],
+     "representative_ayahs": [
+      "78:29",
+      "36:12",
+      "16:89",
+      "8:75"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 3,
+     "support": 27,
+     "characteristic_coroots": [
+      {
+       "root_bw": "ArD",
+       "root_ar": "ارض",
+       "shared_ayahs": 21
+      },
+      {
+       "root_bw": "smw",
+       "root_ar": "سمو",
+       "shared_ayahs": 17
+      }
+     ],
+     "representative_ayahs": [
+      "46:4",
+      "35:40",
+      "34:3",
+      "31:20"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    }
+   ]
+  },
+  "hdy": {
+   "root_ar": "هدي",
+   "root_bw": "hdy",
+   "n_ayahs": 268,
+   "n_senses": 2,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 110,
+     "characteristic_coroots": [
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 79
+      },
+      {
+       "root_bw": "rbb",
+       "root_ar": "ربب",
+       "shared_ayahs": 61
+      }
+     ],
+     "representative_ayahs": [
+      "74:31",
+      "43:49",
+      "40:28",
+      "37:99"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 2,
+     "support": 53,
+     "characteristic_coroots": [
+      {
+       "root_bw": "$yA",
+       "root_ar": "شيا",
+       "shared_ayahs": 42
+      },
+      {
+       "root_bw": "kll",
+       "root_ar": "كلل",
+       "shared_ayahs": 22
+      }
+     ],
+     "representative_ayahs": [
+      "64:11",
+      "32:13",
+      "28:57",
+      "24:35"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    }
+   ]
+  },
+  "xlq": {
+   "root_ar": "خلق",
+   "root_bw": "xlq",
+   "n_ayahs": 218,
+   "n_senses": 4,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 71,
+     "characteristic_coroots": [
+      {
+       "root_bw": "smw",
+       "root_ar": "سمو",
+       "shared_ayahs": 66
+      },
+      {
+       "root_bw": "ArD",
+       "root_ar": "ارض",
+       "shared_ayahs": 64
+      }
+     ],
+     "representative_ayahs": [
+      "65:12",
+      "64:3",
+      "59:24",
+      "57:4"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 2,
+     "support": 51,
+     "characteristic_coroots": [
+      {
+       "root_bw": "$yA",
+       "root_ar": "شيا",
+       "shared_ayahs": 41
+      },
+      {
+       "root_bw": "kll",
+       "root_ar": "كلل",
+       "shared_ayahs": 29
+      }
+     ],
+     "representative_ayahs": [
+      "65:12",
+      "54:49",
+      "51:49",
+      "46:33"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 3,
+     "support": 11,
+     "characteristic_coroots": [
+      {
+       "root_bw": "Ewd",
+       "root_ar": "عود",
+       "shared_ayahs": 9
+      },
+      {
+       "root_bw": "bdA",
+       "root_ar": "بدا",
+       "shared_ayahs": 9
+      }
+     ],
+     "representative_ayahs": [
+      "30:27",
+      "30:11",
+      "29:19",
+      "27:64"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 4,
+     "support": 11,
+     "characteristic_coroots": [
+      {
+       "root_bw": "Hyy",
+       "root_ar": "حيي",
+       "shared_ayahs": 9
+      },
+      {
+       "root_bw": "mwt",
+       "root_ar": "موت",
+       "shared_ayahs": 9
+      }
+     ],
+     "representative_ayahs": [
+      "67:2",
+      "46:33",
+      "30:40",
+      "25:49"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    }
+   ]
+  },
+  "nwr": {
+   "root_ar": "نور",
+   "root_bw": "nwr",
+   "n_ayahs": 174,
+   "n_senses": 1,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 60,
+     "characteristic_coroots": [
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 46
+      },
+      {
+       "root_bw": "rbb",
+       "root_ar": "ربب",
+       "shared_ayahs": 34
+      }
+     ],
+     "representative_ayahs": [
+      "74:31",
+      "66:8",
+      "46:34",
+      "40:49"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    }
+   ]
+  },
+  "bSr": {
+   "root_ar": "بصر",
+   "root_bw": "bSr",
+   "n_ayahs": 139,
+   "n_senses": 3,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 20,
+     "characteristic_coroots": [
+      {
+       "root_bw": "$yA",
+       "root_ar": "شيا",
+       "shared_ayahs": 17
+      },
+      {
+       "root_bw": "kll",
+       "root_ar": "كلل",
+       "shared_ayahs": 8
+      }
+     ],
+     "representative_ayahs": [
+      "67:19",
+      "17:12",
+      "16:77",
+      "13:16"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 2,
+     "support": 16,
+     "characteristic_coroots": [
+      {
+       "root_bw": "ArD",
+       "root_ar": "ارض",
+       "shared_ayahs": 13
+      },
+      {
+       "root_bw": "smw",
+       "root_ar": "سمو",
+       "shared_ayahs": 11
+      }
+     ],
+     "representative_ayahs": [
+      "57:4",
+      "49:18",
+      "42:11",
+      "18:26"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 3,
+     "support": 10,
+     "characteristic_coroots": [
+      {
+       "root_bw": "nhr",
+       "root_ar": "نهر",
+       "shared_ayahs": 9
+      },
+      {
+       "root_bw": "lyl",
+       "root_ar": "ليل",
+       "shared_ayahs": 8
+      }
+     ],
+     "representative_ayahs": [
+      "40:61",
+      "28:72",
+      "27:86",
+      "24:44"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    }
+   ]
+  },
+  "slm": {
+   "root_ar": "سلم",
+   "root_bw": "slm",
+   "n_ayahs": 108,
+   "n_senses": 2,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 54,
+     "characteristic_coroots": [
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 41
+      },
+      {
+       "root_bw": "rbb",
+       "root_ar": "ربب",
+       "shared_ayahs": 26
+      }
+     ],
+     "representative_ayahs": [
+      "40:66",
+      "39:73",
+      "36:58",
+      "28:53"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 2,
+     "support": 11,
+     "characteristic_coroots": [
+      {
+       "root_bw": "Hyy",
+       "root_ar": "حيي",
+       "shared_ayahs": 8
+      },
+      {
+       "root_bw": "mwt",
+       "root_ar": "موت",
+       "shared_ayahs": 5
+      }
+     ],
+     "representative_ayahs": [
+      "19:33",
+      "19:15",
+      "33:44",
+      "25:75"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    }
+   ]
+  },
+  "wjh": {
+   "root_ar": "وجه",
+   "root_bw": "wjh",
+   "n_ayahs": 70,
+   "n_senses": 2,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 7,
+     "characteristic_coroots": [
+      {
+       "root_bw": "Axr",
+       "root_ar": "اخر",
+       "shared_ayahs": 5
+      },
+      {
+       "root_bw": "dnw",
+       "root_ar": "دنو",
+       "shared_ayahs": 4
+      }
+     ],
+     "representative_ayahs": [
+      "22:11",
+      "3:45",
+      "28:88",
+      "18:28"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    },
+    {
+     "facet_id": 2,
+     "support": 6,
+     "characteristic_coroots": [
+      {
+       "root_bw": "Drb",
+       "root_ar": "ضرب",
+       "shared_ayahs": 4
+      },
+      {
+       "root_bw": "mvl",
+       "root_ar": "مثل",
+       "shared_ayahs": 4
+      }
+     ],
+     "representative_ayahs": [
+      "43:17",
+      "16:76",
+      "48:29",
+      "47:27"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    }
+   ]
+  },
+  "Eyn": {
+   "root_ar": "عين",
+   "root_bw": "Eyn",
+   "n_ayahs": 63,
+   "n_senses": 1,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 13,
+     "characteristic_coroots": [
+      {
+       "root_bw": "jnn",
+       "root_ar": "جنن",
+       "shared_ayahs": 10
+      },
+      {
+       "root_bw": "jry",
+       "root_ar": "جري",
+       "shared_ayahs": 3
+      }
+     ],
+     "representative_ayahs": [
+      "88:12",
+      "55:50",
+      "54:14",
+      "51:15"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    }
+   ]
+  },
+  "Drb": {
+   "root_ar": "ضرب",
+   "root_bw": "Drb",
+   "n_ayahs": 54,
+   "n_senses": 2,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 23,
+     "characteristic_coroots": [
+      {
+       "root_bw": "kwn",
+       "root_ar": "كون",
+       "shared_ayahs": 14
+      },
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 13
+      }
+     ],
+     "representative_ayahs": [
+      "66:10",
+      "4:94",
+      "3:156",
+      "2:61"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    },
+    {
+     "facet_id": 2,
+     "support": 16,
+     "characteristic_coroots": [
+      {
+       "root_bw": "kll",
+       "root_ar": "كلل",
+       "shared_ayahs": 12
+      },
+      {
+       "root_bw": "$yA",
+       "root_ar": "شيا",
+       "shared_ayahs": 7
+      }
+     ],
+     "representative_ayahs": [
+      "24:35",
+      "18:45",
+      "16:76",
+      "66:10"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    }
+   ]
+  },
+  "rwH": {
+   "root_ar": "روح",
+   "root_bw": "rwH",
+   "n_ayahs": 52,
+   "n_senses": 4,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 13,
+     "characteristic_coroots": [
+      {
+       "root_bw": "$yA",
+       "root_ar": "شيا",
+       "shared_ayahs": 9
+      },
+      {
+       "root_bw": "kll",
+       "root_ar": "كلل",
+       "shared_ayahs": 7
+      }
+     ],
+     "representative_ayahs": [
+      "42:33",
+      "21:81",
+      "18:45",
+      "97:4"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 2,
+     "support": 10,
+     "characteristic_coroots": [
+      {
+       "root_bw": "smw",
+       "root_ar": "سمو",
+       "shared_ayahs": 8
+      },
+      {
+       "root_bw": "ArD",
+       "root_ar": "ارض",
+       "shared_ayahs": 6
+      }
+     ],
+     "representative_ayahs": [
+      "45:5",
+      "18:45",
+      "4:171",
+      "2:164"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 3,
+     "support": 8,
+     "characteristic_coroots": [
+      {
+       "root_bw": "Hyy",
+       "root_ar": "حيي",
+       "shared_ayahs": 6
+      },
+      {
+       "root_bw": "mwt",
+       "root_ar": "موت",
+       "shared_ayahs": 5
+      }
+     ],
+     "representative_ayahs": [
+      "45:5",
+      "35:9",
+      "2:164",
+      "41:16"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    },
+    {
+     "facet_id": 4,
+     "support": 5,
+     "characteristic_coroots": [
+      {
+       "root_bw": "Ayd",
+       "root_ar": "ايد",
+       "shared_ayahs": 4
+      },
+      {
+       "root_bw": "qds",
+       "root_ar": "قدس",
+       "shared_ayahs": 4
+      }
+     ],
+     "representative_ayahs": [
+      "5:110",
+      "2:253",
+      "2:87",
+      "58:22"
+     ],
+     "persian_gloss": null,
+     "confidence": "قوی"
+    }
+   ]
+  },
+  "ftH": {
+   "root_ar": "فتح",
+   "root_bw": "ftH",
+   "n_ayahs": 33,
+   "n_senses": 4,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 11,
+     "characteristic_coroots": [
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 10
+      },
+      {
+       "root_bw": "rbb",
+       "root_ar": "ربب",
+       "shared_ayahs": 5
+      }
+     ],
+     "representative_ayahs": [
+      "39:73",
+      "39:71",
+      "34:26",
+      "2:76"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    },
+    {
+     "facet_id": 2,
+     "support": 7,
+     "characteristic_coroots": [
+      {
+       "root_bw": "smw",
+       "root_ar": "سمو",
+       "shared_ayahs": 6
+      },
+      {
+       "root_bw": "ArD",
+       "root_ar": "ارض",
+       "shared_ayahs": 3
+      }
+     ],
+     "representative_ayahs": [
+      "57:10",
+      "7:96",
+      "78:19",
+      "54:11"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    },
+    {
+     "facet_id": 3,
+     "support": 7,
+     "characteristic_coroots": [
+      {
+       "root_bw": "kll",
+       "root_ar": "كلل",
+       "shared_ayahs": 5
+      },
+      {
+       "root_bw": "$yA",
+       "root_ar": "شيا",
+       "shared_ayahs": 4
+      }
+     ],
+     "representative_ayahs": [
+      "7:89",
+      "6:44",
+      "57:10",
+      "48:27"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    },
+    {
+     "facet_id": 4,
+     "support": 2,
+     "characteristic_coroots": [
+      {
+       "root_bw": "xzn",
+       "root_ar": "خزن",
+       "shared_ayahs": 2
+      },
+      {
+       "root_bw": "zmr",
+       "root_ar": "زمر",
+       "shared_ayahs": 2
+      }
+     ],
+     "representative_ayahs": [
+      "39:73",
+      "39:71"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    }
+   ]
+  },
+  "ktm": {
+   "root_ar": "كتم",
+   "root_bw": "ktm",
+   "n_ayahs": 20,
+   "n_senses": 2,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 10,
+     "characteristic_coroots": [
+      {
+       "root_bw": "kwn",
+       "root_ar": "كون",
+       "shared_ayahs": 8
+      },
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 6
+      }
+     ],
+     "representative_ayahs": [
+      "40:28",
+      "5:61",
+      "2:140",
+      "2:33"
+     ],
+     "persian_gloss": null,
+     "confidence": "محتمل"
+    },
+    {
+     "facet_id": 2,
+     "support": 3,
+     "characteristic_coroots": [
+      {
+       "root_bw": "$ry",
+       "root_ar": "شري",
+       "shared_ayahs": 3
+      },
+      {
+       "root_bw": "vmn",
+       "root_ar": "ثمن",
+       "shared_ayahs": 3
+      }
+     ],
+     "representative_ayahs": [
+      "5:106",
+      "3:187",
+      "2:174"
+     ],
+     "persian_gloss": null,
+     "confidence": "محتمل"
+    }
+   ]
+  },
+  "$rq": {
+   "root_ar": "شرق",
+   "root_bw": "$rq",
+   "n_ayahs": 17,
+   "n_senses": 2,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 10,
+     "characteristic_coroots": [
+      {
+       "root_bw": "rbb",
+       "root_ar": "ربب",
+       "shared_ayahs": 8
+      },
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 4
+      }
+     ],
+     "representative_ayahs": [
+      "26:28",
+      "2:258",
+      "73:9",
+      "70:40"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    },
+    {
+     "facet_id": 2,
+     "support": 4,
+     "characteristic_coroots": [
+      {
+       "root_bw": "ArD",
+       "root_ar": "ارض",
+       "shared_ayahs": 4
+      },
+      {
+       "root_bw": "smw",
+       "root_ar": "سمو",
+       "shared_ayahs": 2
+      }
+     ],
+     "representative_ayahs": [
+      "37:5",
+      "24:35",
+      "39:69",
+      "7:137"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    }
+   ]
+  },
+  "grb": {
+   "root_ar": "غرب",
+   "root_bw": "grb",
+   "n_ayahs": 17,
+   "n_senses": 2,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 11,
+     "characteristic_coroots": [
+      {
+       "root_bw": "rbb",
+       "root_ar": "ربب",
+       "shared_ayahs": 8
+      },
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 7
+      }
+     ],
+     "representative_ayahs": [
+      "50:39",
+      "26:28",
+      "20:130",
+      "2:258"
+     ],
+     "persian_gloss": null,
+     "confidence": "محتمل"
+    },
+    {
+     "facet_id": 2,
+     "support": 4,
+     "characteristic_coroots": [
+      {
+       "root_bw": "ArD",
+       "root_ar": "ارض",
+       "shared_ayahs": 3
+      },
+      {
+       "root_bw": "smw",
+       "root_ar": "سمو",
+       "shared_ayahs": 2
+      }
+     ],
+     "representative_ayahs": [
+      "24:35",
+      "35:27",
+      "7:137",
+      "5:31"
+     ],
+     "persian_gloss": null,
+     "confidence": "محتمل"
+    }
+   ]
+  },
+  "nwm": {
+   "root_ar": "نوم",
+   "root_bw": "nwm",
+   "n_ayahs": 9,
+   "n_senses": 1,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 2,
+     "characteristic_coroots": [
+      {
+       "root_bw": "lyl",
+       "root_ar": "ليل",
+       "shared_ayahs": 2
+      },
+      {
+       "root_bw": "nhr",
+       "root_ar": "نهر",
+       "shared_ayahs": 2
+      }
+     ],
+     "representative_ayahs": [
+      "30:23",
+      "25:47"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    }
+   ]
+  },
+  "zyg": {
+   "root_ar": "زيغ",
+   "root_bw": "zyg",
+   "n_ayahs": 8,
+   "n_senses": 1,
+   "senses": [
+    {
+     "facet_id": 1,
+     "support": 4,
+     "characteristic_coroots": [
+      {
+       "root_bw": "rbb",
+       "root_ar": "ربب",
+       "shared_ayahs": 3
+      },
+      {
+       "root_bw": "qwl",
+       "root_ar": "قول",
+       "shared_ayahs": 2
+      }
+     ],
+     "representative_ayahs": [
+      "3:7",
+      "61:5",
+      "34:12",
+      "3:8"
+     ],
+     "persian_gloss": null,
+     "confidence": "نامشخص"
+    }
+   ]
+  }
+ }
+}
