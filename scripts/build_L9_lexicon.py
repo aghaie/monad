@@ -233,79 +233,102 @@ def main():
         if not args.quiet and (n_done + 1) % 250 == 0:
             print(f"  … {n_done + 1}/{len(all_roots)}")
 
-    # ── global between-root null: random A_i vs B_j (i != j) ──
-    # restrict the pool to MULTI-FACET roots — the only ones that get tiered — so
-    # degenerate single-facet 1.0 matches do not inflate the null percentiles.
+    # ── PER-FACET refinement: tier each facet on its OWN replication ──
+    # A facet is real if (a) it recurs in BOTH independent halves of R's ayahs,
+    # and (b) that recurrence beats a between-root facet null (random pairs of
+    # facets from DIFFERENT roots). This keeps a root's genuinely-replicating
+    # senses (e.g. خلق) and drops one-off facets — unlike whole-root agreement.
     rnd = random.Random(SEED)
-    pool = [rid for rid in all_roots
-            if len(induced[rid]["sigA"]) >= 2 and len(induced[rid]["sigB"]) >= 2]
+    all_facets = [(rid, set(f["coroots"]))
+                  for rid in all_roots for f in induced[rid]["facets"]]
     null = []
-    if len(pool) > 1:
+    if len(all_facets) > 1:
         for _ in range(NULL_SAMPLES):
-            a = rnd.choice(pool); b = rnd.choice(pool)
-            if a != b:
-                null.append(match_agreement(induced[a]["sigA"], induced[b]["sigB"]))
+            ra, fa = rnd.choice(all_facets); rb, fb = rnd.choice(all_facets)
+            if ra != rb:
+                u = len(fa | fb)
+                null.append(len(fa & fb) / u if u else 0.0)
     null.sort()
     nn = len(null)
 
-    def pct(p):
+    def emp_p(x):
+        """empirical p-value: fraction of the between-root facet null >= x."""
         if not null:
             return 1.0
-        return null[min(nn - 1, int(p * nn))]
-    p90, p95, p99 = pct(0.90), pct(0.95), pct(0.99)
-
-    def emp_p(real):
-        """empirical p-value: fraction of the between-root null >= real."""
-        if not null:
-            return 1.0
-        # null is sorted ascending; count entries >= real
         lo, hi = 0, nn
         while lo < hi:
             mid = (lo + hi) // 2
-            if null[mid] < real:
+            if null[mid] < x:
                 lo = mid + 1
             else:
                 hi = mid
         return (nn - lo + 1) / (nn + 1)
 
-    def tier(rid):
+    def best_match(fset, sig):
+        best = 0.0
+        for s in sig:
+            u = len(fset | s)
+            if u:
+                j = len(fset & s) / u
+                if j > best:
+                    best = j
+        return best
+
+    def facet_replication(rid, fset):
+        """min over the two halves of the facet's best match there — the facet
+        must show up in BOTH halves to count as replicating."""
         d = induced[rid]
-        if not d["facets"] or len(d["facets"]) < 2:
-            return "نامشخص"
-        real = d["real"]; nay = len(inv[rid]); p = emp_p(real)
+        return min(best_match(fset, d["sigA"]), best_match(fset, d["sigB"]))
+
+    def facet_tier(repl, nay):
+        p = emp_p(repl)
         if p < 0.01 and nay >= 30:
-            return "صریح"
+            return "صریح", p
         if p < 0.05 and nay >= 15:
-            return "قوی"
+            return "قوی", p
         if p < 0.10:
-            return "محتمل"
-        return "نامشخص"
+            return "محتمل", p
+        return "نامشخص", p
+
+    TIER_RANK = {"صریح": 3, "قوی": 2, "محتمل": 1, "نامشخص": 0}
 
     # ── root dossiers ──
     dossiers = {}
     tier_counts = Counter()
+    facet_kept = 0
     for rid in all_roots:
         d = induced[rid]
-        t = tier(rid)
-        tier_counts[t] += 1
-        emit_senses = t != "نامشخص"
+        nay = len(inv[rid])
+        kept = []
+        for f in d["facets"]:
+            fset = set(f["coroots"])
+            repl = facet_replication(rid, fset)
+            ft, fp = facet_tier(repl, nay)
+            if ft != "نامشخص":
+                kept.append((f, repl, fp, ft))
+        kept.sort(key=lambda x: (-TIER_RANK[x[3]], -x[0]["support"]))
+        root_conf = kept[0][3] if kept else "نامشخص"
+        tier_counts[root_conf] += 1
+        facet_kept += len(kept)
         dossiers[root_bw[rid]] = {
-            "root_ar": root_ar[rid], "n_ayahs": len(inv[rid]),
+            "root_ar": root_ar[rid], "n_ayahs": nay,
             "neighbourhood": [{"root_bw": root_bw[b], "root_ar": root_ar[b]}
                               for b in neighbourhood(rid)],
-            "confidence": t,
-            "cross_half_agreement": round(d["real"], 3),
-            "replication_p": round(emp_p(d["real"]), 4) if len(d["facets"]) >= 2 else None,
-            "n_senses": len(d["facets"]) if emit_senses else 0,
-            "finer_senses": "resolved" if emit_senses else "نامشخص",
-            "senses": ([{
-                "facet_id": i + 1, "support": f["support"],
+            "confidence": root_conf,
+            "n_senses": len(kept),
+            "finer_senses": "resolved" if kept else "نامشخص",
+            "senses": [{
+                "facet_id": i + 1,
+                "confidence": ft,
+                "replication": round(repl, 3),
+                "replication_p": round(fp, 4),
+                "support": f["support"],
                 "characteristic_coroots": [
                     {"root_bw": root_bw[c], "root_ar": root_ar[c],
                      "shared_ayahs": d["co_in_R"][c]} for c in f["top_coroots"]],
                 "representative_ayahs": [f"{k[0]}:{k[1]}" for k in f["rep_ayahs"]],
                 "persian_gloss": None,
-            } for i, f in enumerate(d["facets"])] if emit_senses else []),
+            } for i, (f, repl, fp, ft) in enumerate(kept)],
             "persian_gloss": None,
         }
 
@@ -327,7 +350,7 @@ def main():
         }
 
     summary = {
-        "method": "L9-lexicon-1.0",
+        "method": "L9-lexicon-1.1-perfacet",
         "params": {"CLUSTER_CUT": CLUSTER_CUT, "MAX_COROOTS": MAX_COROOTS,
                    "MIN_SUPPORT": MIN_SUPPORT, "NEIGHBOURHOOD_K": NEIGHBOURHOOD_K,
                    "NULL_SAMPLES": NULL_SAMPLES, "SEED": SEED},
@@ -335,13 +358,16 @@ def main():
         "note_coverage": f"{len(all_roots)} roots occur as content stems (of "
                          f"{len(root_bw)} total); {len(all_ayahs) - len(keys)} ayahs "
                          "have no content root (e.g. مقطعات) and get an empty dossier.",
-        "null_p90": round(p90, 3), "null_p95": round(p95, 3), "null_p99": round(p99, 3),
+        "facet_null_p90": round(null[min(nn - 1, int(0.90 * nn))], 3) if nn else None,
+        "facet_null_p95": round(null[min(nn - 1, int(0.95 * nn))], 3) if nn else None,
         "tier_counts": dict(tier_counts),
         "roots_with_resolved_senses": sum(v for t, v in tier_counts.items() if t != "نامشخص"),
+        "facets_kept": facet_kept,
         "ayahs_with_explaining_verses": sum(1 for a in ayah_dossiers.values() if a["explaining_verses"]),
-        "note": "senses emitted only where they replicate across halves; otherwise "
-                "single stable L8 neighbourhood with finer_senses=نامشخص. Persian "
-                "glosses pending (quarantined output step).",
+        "note": "PER-FACET tiering: each sense kept only if it replicates in BOTH "
+                "halves above a between-root facet null. Roots with no replicating "
+                "facet → نامشخص (single stable L8 neighbourhood). Persian glosses "
+                "pending (quarantined output step).",
     }
 
     (out / "root_dossiers.json").write_text(
@@ -355,11 +381,12 @@ def main():
 
     if not args.quiet:
         print(f"\n  roots: {summary['n_roots']}   ayahs: {summary['n_ayahs']}")
-        print(f"  null percentiles: p90={summary['null_p90']} p95={summary['null_p95']} p99={summary['null_p99']}")
-        print("  confidence tiers:")
+        print(f"  facet null: p90={summary['facet_null_p90']} p95={summary['facet_null_p95']}")
+        print("  confidence tiers (per root, best facet):")
         for t in ("صریح", "قوی", "محتمل", "نامشخص"):
             print(f"     {t}: {tier_counts.get(t, 0)}")
         print(f"  roots with resolved senses : {summary['roots_with_resolved_senses']}")
+        print(f"  facets kept (replicating)  : {summary['facets_kept']}")
         print(f"  ayahs with explaining verses: {summary['ayahs_with_explaining_verses']}")
         print(f"\n  Wrote 3 files to {out}")
 
