@@ -1,0 +1,1915 @@
+{
+ "method": "L9-glosses-1.0",
+ "policy": "Persian glosses are OUTPUT labels on already-derived facets (quarantined); never fed back into derivation. نوع: معنا=distinct sense, بافت=recurring Quranic context/frame.",
+ "n_facets": 142,
+ "n_glossed": 142,
+ "n_sense": 11,
+ "n_frame": 131,
+ "n_unresolved": 0,
+ "glosses": {
+  "qwm": {
+   "root_ar": "قوم",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نماز و زکات",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "صلو",
+      "زكو"
+     ]
+    }
+   }
+  },
+  "Ayy": {
+   "root_ar": "ايي",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ باغ‌ها: نخل و انگور و زیتون",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "عنب",
+      "زيت",
+      "نخل"
+     ]
+    }
+   }
+  },
+  "rHm": {
+   "root_ar": "رحم",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ محرّماتِ خوراکی: مردار، خون، گوشتِ خوک",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "هلل",
+      "خنزر",
+      "لحم",
+      "دمو"
+     ]
+    }
+   }
+  },
+  "Eml": {
+   "root_ar": "عمل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ باغ‌هایی که نهرها از زیرشان روان است",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "تحت",
+      "جري"
+     ]
+    }
+   }
+  },
+  "ywm": {
+   "root_ar": "يوم",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ عرش و آفرینش در شش روز",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ستت",
+      "عرش"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ نفخِ صور (رستاخیز)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "صور",
+      "نفخ"
+     ]
+    }
+   }
+  },
+  "ktb": {
+   "root_ar": "كتب",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خرید و فروش (بهای اندک)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ثمن",
+      "شري"
+     ]
+    }
+   }
+  },
+  "nfs": {
+   "root_ar": "نفس",
+   "facets": {
+    "1": {
+     "persian_gloss": "معنا: تکلیف به‌اندازهٔ توان (وُسع)",
+     "gloss_type": "معنا",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "كلف",
+      "وسع"
+     ]
+    }
+   }
+  },
+  "qbl": {
+   "root_ar": "قبل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ سنّت‌های گذشتگان",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "خلو",
+      "سنن"
+     ]
+    }
+   }
+  },
+  "Amr": {
+   "root_ar": "امر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نهی از منکر",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "نكر",
+      "نهي"
+     ]
+    }
+   }
+  },
+  "xlq": {
+   "root_ar": "خلق",
+   "facets": {
+    "1": {
+     "persian_gloss": "معنا: آغاز و بازگرداندنِ آفرینش (مبدأ و معاد)",
+     "gloss_type": "معنا",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "بدا",
+      "عود"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ پراکندنِ جنبندگان در زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "بثث",
+      "دبب"
+     ]
+    },
+    "3": {
+     "persian_gloss": "بافتِ خورشید و ماه (اجرامِ آسمانی)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قمر",
+      "شمس"
+     ]
+    }
+   }
+  },
+  "gfr": {
+   "root_ar": "غفر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ محرّماتِ خوراکی: مردار، خون، گوشتِ خوک",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "هلل",
+      "خنزر",
+      "دمو",
+      "لحم"
+     ]
+    }
+   }
+  },
+  "mlk": {
+   "root_ar": "ملك",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ سود و زیان (ناتوانیِ غیرِ خدا)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "نفع",
+      "ضرر"
+     ]
+    }
+   }
+  },
+  "dEw": {
+   "root_ar": "دعو",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ رسیدنِ زیان و آسیب",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ضرر",
+      "مسس"
+     ]
+    }
+   }
+  },
+  "smE": {
+   "root_ar": "سمع",
+   "facets": {
+    "1": {
+     "persian_gloss": "معنا: کری و کوری (ناشنوایی/نابیناییِ معنوی)",
+     "gloss_type": "معنا",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "صمم",
+      "عمي"
+     ]
+    }
+   }
+  },
+  "SlH": {
+   "root_ar": "صلح",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ بهشت: باغ‌هایی که از زیرِ آنها نهرها روان است",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "تحت",
+      "جري",
+      "جنن",
+      "نهر"
+     ]
+    }
+   }
+  },
+  "Hyy": {
+   "root_ar": "حيي",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ زندگیِ دنیا: بازی و سرگرمی",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "لهو",
+      "لعب"
+     ]
+    }
+   }
+  },
+  "swA": {
+   "root_ar": "سوا",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ رستگاری و بهشت",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "فوز",
+      "تحت"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ استهزا و فرودآمدنِ کیفر",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "حيق",
+      "هزا"
+     ]
+    }
+   }
+  },
+  "gyr": {
+   "root_ar": "غير",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ محرّماتِ خوراکی: مردار، خون، گوشتِ خوک",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "هلل",
+      "خنزر",
+      "دمو",
+      "لحم"
+     ]
+    }
+   }
+  },
+  "jnn": {
+   "root_ar": "جنن",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ بهشتِ جاودان: نهرها از زیر روان، در آن همیشگی",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "تحت",
+      "جري",
+      "نهر",
+      "خلد"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ کشت‌وزرع: نخل و انگور و زراعت",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "عنب",
+      "نخل",
+      "زرع"
+     ]
+    }
+   }
+  },
+  "$rk": {
+   "root_ar": "شرك",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آیینِ حنیف و ملتِ ابراهیم",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "حنف",
+      "ملل"
+     ]
+    }
+   }
+  },
+  "lqy": {
+   "root_ar": "لقي",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ عصا و اژدها (معجزهٔ موسی)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ثعب",
+      "عصو"
+     ]
+    }
+   }
+  },
+  "dwn": {
+   "root_ar": "دون",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ سود و زیان (ناتوانیِ غیرِ خدا)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "نفع",
+      "ضرر"
+     ]
+    }
+   }
+  },
+  "EZm": {
+   "root_ar": "عظم",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ بهشتِ جاودان: نهرها از زیر روان، در آن همیشگی",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "تحت",
+      "جري",
+      "خلد",
+      "نهر"
+     ]
+    }
+   }
+  },
+  "dnw": {
+   "root_ar": "دنو",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ زندگیِ دنیا: بازی و سرگرمی",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "لهو",
+      "لعب"
+     ]
+    }
+   }
+  },
+  "qdr": {
+   "root_ar": "قدر",
+   "facets": {
+    "1": {
+     "persian_gloss": "معنا: احاطهٔ علم/قدرت بر همه‌چیز",
+     "gloss_type": "معنا",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "شيا",
+      "كلل"
+     ]
+    },
+    "2": {
+     "persian_gloss": "معنا: مَثَل‌زدن",
+     "gloss_type": "معنا",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ضرب",
+      "مثل"
+     ]
+    }
+   }
+  },
+  "dxl": {
+   "root_ar": "دخل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ بهشت: باغ‌هایی که از زیرِ آنها نهرها روان است",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "تحت",
+      "جري",
+      "جنن",
+      "نهر"
+     ]
+    }
+   }
+  },
+  "jzy": {
+   "root_ar": "جزي",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ ایمان و عملِ صالح",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "عمل",
+      "صلح"
+     ]
+    }
+   }
+  },
+  "nhr": {
+   "root_ar": "نهر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ باغ‌هایی که نهرها از زیرشان روان است",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "تحت",
+      "جري",
+      "جنن",
+      "خلد"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ خورشید و ماه (اجرامِ آسمانی)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قمر",
+      "شمس"
+     ]
+    }
+   }
+  },
+  "Ajr": {
+   "root_ar": "اجر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ ایمان و عملِ صالح",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "صلح",
+      "عمل"
+     ]
+    }
+   }
+  },
+  "$dd": {
+   "root_ar": "شدد",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ هلاکتِ شهرها (اقوامِ پیشین)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قري",
+      "هلك"
+     ]
+    }
+   }
+  },
+  "fDl": {
+   "root_ar": "فضل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ کشتی‌رانی در دریا",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "فلك",
+      "بحر"
+     ]
+    }
+   }
+  },
+  "Slw": {
+   "root_ar": "صلو",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نهی از منکر",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "نكر",
+      "نهي"
+     ]
+    }
+   }
+  },
+  "bgy": {
+   "root_ar": "بغي",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ حلال و حرام",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "حرم",
+      "حلل"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ کشتی‌رانی در دریا",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "فلك",
+      "بحر"
+     ]
+    }
+   }
+  },
+  "dyn": {
+   "root_ar": "دين",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آیینِ حنیف و ملتِ ابراهیم",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "حنف",
+      "ملل"
+     ]
+    }
+   }
+  },
+  "sbH": {
+   "root_ar": "سبح",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ شب و روز (گردشِ زمان)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ليل",
+      "نهر"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ تسبیح برای خدای عزیزِ حکیم",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "عزز",
+      "حكم"
+     ]
+    }
+   }
+  },
+  "xld": {
+   "root_ar": "خلد",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ بهشت: باغ‌هایی که از زیرِ آنها نهرها روان است",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "تحت",
+      "جري",
+      "نهر",
+      "جنن"
+     ]
+    }
+   }
+  },
+  "lyl": {
+   "root_ar": "ليل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نهرهای روان",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "نهر",
+      "جري"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ خورشید و ماه (اجرامِ آسمانی)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قمر",
+      "شمس"
+     ]
+    }
+   }
+  },
+  "qll": {
+   "root_ar": "قلل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خرید و فروش (بهای اندک)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ثمن",
+      "شري"
+     ]
+    }
+   }
+  },
+  "bAs": {
+   "root_ar": "باس",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ سود و زیان (ناتوانیِ غیرِ خدا)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "نفع",
+      "ضرر"
+     ]
+    }
+   }
+  },
+  "twb": {
+   "root_ar": "توب",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آمرزش و رحمت",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "غفر",
+      "رحم"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ ایمان و عملِ صالح",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "صلح",
+      "عمل"
+     ]
+    }
+   }
+  },
+  "$kr": {
+   "root_ar": "شكر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ کشتی‌رانی در دریا",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "فلك",
+      "بحر"
+     ]
+    }
+   }
+  },
+  "skn": {
+   "root_ar": "سكن",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ باغ‌هایی که نهرها از زیرشان روان است",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "نهر",
+      "تحت"
+     ]
+    }
+   }
+  },
+  "mtE": {
+   "root_ar": "متع",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ زندگیِ دنیا (در برابرِ آخرت)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "دنو",
+      "حيي"
+     ]
+    }
+   }
+  },
+  "jry": {
+   "root_ar": "جري",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ بهشت: باغ‌هایی که نهرها از زیرشان روان است",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "تحت",
+      "نهر",
+      "جنن"
+     ]
+    }
+   }
+  },
+  "bEv": {
+   "root_ar": "بعث",
+   "facets": {
+    "1": {
+     "persian_gloss": "معنا: مرگ و زندگی (مرگ و احیا)",
+     "gloss_type": "معنا",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "موت",
+      "حيي"
+     ]
+    }
+   }
+  },
+  "rDw": {
+   "root_ar": "رضو",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ بهشتِ جاودان: نهرها از زیر روان، در آن همیشگی",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "تحت",
+      "جري",
+      "خلد",
+      "نهر"
+     ]
+    }
+   }
+  },
+  "Erf": {
+   "root_ar": "عرف",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نهی از منکر",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "نكر",
+      "نهي"
+     ]
+    }
+   }
+  },
+  "Hmd": {
+   "root_ar": "حمد",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ارض",
+      "سمو"
+     ]
+    }
+   }
+  },
+  "*wq": {
+   "root_ar": "ذوق",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ عذابِ دردناک",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "عذب",
+      "الم"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ رسیدنِ زیان و آسیب",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "مسس",
+      "ضرر"
+     ]
+    }
+   }
+  },
+  "gyb": {
+   "root_ar": "غيب",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "mss": {
+   "root_ar": "مسس",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ عذابِ دردناک",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "الم",
+      "عذب"
+     ]
+    }
+   }
+  },
+  "nhy": {
+   "root_ar": "نهي",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ معروف و منکر",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "نكر",
+      "عرف"
+     ]
+    }
+   }
+  },
+  "Eql": {
+   "root_ar": "عقل",
+   "facets": {
+    "1": {
+     "persian_gloss": "معنا: مرگ و زندگی (مرگ و احیا)",
+     "gloss_type": "معنا",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "حيي",
+      "موت"
+     ]
+    }
+   }
+  },
+  "tHt": {
+   "root_ar": "تحت",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ بهشت: باغ‌هایی با نهرهای روان",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "جري",
+      "نهر",
+      "جنن"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ ایمان و عملِ صالح",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "صلح",
+      "عمل"
+     ]
+    }
+   }
+  },
+  "Ajl": {
+   "root_ar": "اجل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خورشید و ماه (اجرامِ آسمانی)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قمر",
+      "شمس"
+     ]
+    }
+   }
+  },
+  "Tyb": {
+   "root_ar": "طيب",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ حلال و حرام",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "حلل",
+      "حرم"
+     ]
+    }
+   }
+  },
+  "Ejl": {
+   "root_ar": "عجل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قول",
+      "ربب"
+     ]
+    }
+   }
+  },
+  "zyn": {
+   "root_ar": "زين",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ زندگیِ دنیا (در برابرِ آخرت)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "دنو",
+      "حيي"
+     ]
+    }
+   }
+  },
+  "swE": {
+   "root_ar": "سوع",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "*rr": {
+   "root_ar": "ذرر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ ایمان و عملِ صالح",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "صلح",
+      "عمل"
+     ]
+    }
+   }
+  },
+  "sxr": {
+   "root_ar": "سخر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ نهرهای روان",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "جري",
+      "ليل",
+      "نهر"
+     ]
+    },
+    "3": {
+     "persian_gloss": "بافتِ خورشید و ماه (اجرامِ آسمانی)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قمر",
+      "شمس"
+     ]
+    },
+    "4": {
+     "persian_gloss": "بافتِ کشتی‌رانی در دریا",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "فلك",
+      "بحر"
+     ]
+    }
+   }
+  },
+  "Ewd": {
+   "root_ar": "عود",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قول",
+      "ربب"
+     ]
+    }
+   }
+  },
+  "bTl": {
+   "root_ar": "بطل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "mrr": {
+   "root_ar": "مرر",
+   "facets": {
+    "1": {
+     "persian_gloss": "معنا: احاطهٔ علم/قدرت بر همه‌چیز",
+     "gloss_type": "معنا",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "كلل",
+      "شيا"
+     ]
+    }
+   }
+  },
+  "$ms": {
+   "root_ar": "شمس",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ تسخیرِ خورشید و ماه",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قمر",
+      "سخر"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ نهرهای روان",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ليل",
+      "نهر",
+      "جري"
+     ]
+    }
+   }
+  },
+  "Er$": {
+   "root_ar": "عرش",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "brk": {
+   "root_ar": "برك",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "xfy": {
+   "root_ar": "خفي",
+   "facets": {
+    "1": {
+     "persian_gloss": "معنا: آشکار و نهان",
+     "gloss_type": "معنا",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "علن",
+      "سرر"
+     ]
+    }
+   }
+  },
+  "wsE": {
+   "root_ar": "وسع",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آمرزش و رحمت",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "غفر",
+      "رحم"
+     ]
+    }
+   }
+  },
+  "Syr": {
+   "root_ar": "صير",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ارض",
+      "سمو"
+     ]
+    }
+   }
+  },
+  "Afk": {
+   "root_ar": "افك",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نقلِ سخن و واقع‌شدن (گفتن/بودن)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قول",
+      "كون"
+     ]
+    }
+   }
+  },
+  "yqn": {
+   "root_ar": "يقن",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "xlw": {
+   "root_ar": "خلو",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نقلِ سخن و واقع‌شدن (گفتن/بودن)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "كون",
+      "قول"
+     ]
+    }
+   }
+  },
+  "glb": {
+   "root_ar": "غلب",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نقلِ سخن و واقع‌شدن (گفتن/بودن)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قول",
+      "كون"
+     ]
+    }
+   }
+  },
+  "HwT": {
+   "root_ar": "حوط",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قول",
+      "ربب"
+     ]
+    },
+    "2": {
+     "persian_gloss": "معنا: احاطهٔ علم/قدرت بر همه‌چیز",
+     "gloss_type": "معنا",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "شيا",
+      "كلل"
+     ]
+    }
+   }
+  },
+  "rjw": {
+   "root_ar": "رجو",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "fwz": {
+   "root_ar": "فوز",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ بهشت: باغ‌هایی که از زیرِ آنها نهرها روان است",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "تحت",
+      "جري",
+      "نهر",
+      "جنن"
+     ]
+    }
+   }
+  },
+  "$fE": {
+   "root_ar": "شفع",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "qEd": {
+   "root_ar": "قعد",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نقلِ سخن و واقع‌شدن (گفتن/بودن)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "كون",
+      "قول"
+     ]
+    }
+   }
+  },
+  "qmr": {
+   "root_ar": "قمر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نهرهای روان",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ليل",
+      "نهر",
+      "جري"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "flk": {
+   "root_ar": "فلك",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نهرهای روان",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "جري",
+      "نهر",
+      "ليل"
+     ]
+    }
+   }
+  },
+  "Ejb": {
+   "root_ar": "عجب",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قول",
+      "ربب"
+     ]
+    }
+   }
+  },
+  "nbt": {
+   "root_ar": "نبت",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ارض",
+      "سمو"
+     ]
+    },
+    "2": {
+     "persian_gloss": "معنا: احاطهٔ علم/قدرت بر همه‌چیز",
+     "gloss_type": "معنا",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "كلل",
+      "شيا"
+     ]
+    }
+   }
+  },
+  "bsT": {
+   "root_ar": "بسط",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "vmr": {
+   "root_ar": "ثمر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ بهشت: باغ‌هایی که از زیرِ آنها نهرها روان است",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "نهر",
+      "جري",
+      "تحت",
+      "جنن"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ کشت‌وزرع: نخل و انگور و زراعت",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "عنب",
+      "نخل",
+      "زرع"
+     ]
+    }
+   }
+  },
+  "trb": {
+   "root_ar": "ترب",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نقلِ سخن و واقع‌شدن (گفتن/بودن)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "كون",
+      "قول"
+     ]
+    }
+   }
+  },
+  "jhl": {
+   "root_ar": "جهل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قول",
+      "ربب"
+     ]
+    }
+   }
+  },
+  "grr": {
+   "root_ar": "غرر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نقلِ سخن و واقع‌شدن (گفتن/بودن)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قول",
+      "كون"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ زندگیِ دنیا (در برابرِ آخرت)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "دنو",
+      "حيي"
+     ]
+    }
+   }
+  },
+  "ktm": {
+   "root_ar": "كتم",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نقلِ سخن و واقع‌شدن (گفتن/بودن)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "كون",
+      "قول"
+     ]
+    }
+   }
+  },
+  "fqh": {
+   "root_ar": "فقه",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نقلِ سخن و واقع‌شدن (گفتن/بودن)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قول",
+      "كون"
+     ]
+    }
+   }
+  },
+  "lEb": {
+   "root_ar": "لعب",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ زندگیِ دنیا (در برابرِ آخرت)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "دنو",
+      "حيي"
+     ]
+    }
+   }
+  },
+  "snw": {
+   "root_ar": "سنو",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "r$d": {
+   "root_ar": "رشد",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قول",
+      "ربب"
+     ]
+    }
+   }
+  },
+  "fTr": {
+   "root_ar": "فطر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "dbb": {
+   "root_ar": "دبب",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ارض",
+      "سمو"
+     ]
+    }
+   }
+  },
+  "fkr": {
+   "root_ar": "فكر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "Ew*": {
+   "root_ar": "عوذ",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "grb": {
+   "root_ar": "غرب",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "rAs": {
+   "root_ar": "راس",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "Swr": {
+   "root_ar": "صور",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "mll": {
+   "root_ar": "ملل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "zEm": {
+   "root_ar": "زعم",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نقلِ سخن و واقع‌شدن (گفتن/بودن)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "قول",
+      "كون"
+     ]
+    }
+   }
+  },
+  "$kk": {
+   "root_ar": "شكك",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "lhw": {
+   "root_ar": "لهو",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ زندگیِ دنیا (در برابرِ آخرت)",
+     "gloss_type": "بافت",
+     "confidence": "قوی",
+     "characteristic_coroots": [
+      "دنو",
+      "حيي"
+     ]
+    }
+   }
+  },
+  "wSf": {
+   "root_ar": "وصف",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "wqt": {
+   "root_ar": "وقت",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "Sgr": {
+   "root_ar": "صغر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "glm": {
+   "root_ar": "غلم",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "قول",
+      "ربب"
+     ]
+    }
+   }
+  },
+  "gll": {
+   "root_ar": "غلل",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "xzn": {
+   "root_ar": "خزن",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "lHm": {
+   "root_ar": "لحم",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ محرّماتِ خوراکی (خون و گوشتِ خوک)",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "هلل",
+      "خنزر",
+      "دمو"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ آمرزش و رحمت",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "غفر",
+      "رحم"
+     ]
+    }
+   }
+  },
+  "Dyq": {
+   "root_ar": "ضيق",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نقلِ سخن و واقع‌شدن (گفتن/بودن)",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "كون",
+      "قول"
+     ]
+    }
+   }
+  },
+  "sjn": {
+   "root_ar": "سجن",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "Ayd": {
+   "root_ar": "ايد",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ نقلِ سخن و واقع‌شدن (گفتن/بودن)",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "كون",
+      "قول"
+     ]
+    }
+   }
+  },
+  "Enb": {
+   "root_ar": "عنب",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ کشت‌وزرع: نخل و زراعت و زیتون",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "نخل",
+      "زيت",
+      "زرع"
+     ]
+    }
+   }
+  },
+  "nSH": {
+   "root_ar": "نصح",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ خطاب و گفتارِ پروردگار",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "ربب",
+      "قول"
+     ]
+    }
+   }
+  },
+  "stt": {
+   "root_ar": "ستت",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ آفرینشِ آسمان‌ها و زمین",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "سمو",
+      "ارض"
+     ]
+    }
+   }
+  },
+  "xnzr": {
+   "root_ar": "خنزر",
+   "facets": {
+    "1": {
+     "persian_gloss": "بافتِ محرّماتِ خوراکی (مردار، خون، گوشت)",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "هلل",
+      "دمو",
+      "لحم"
+     ]
+    },
+    "2": {
+     "persian_gloss": "بافتِ آمرزش و رحمت",
+     "gloss_type": "بافت",
+     "confidence": "محتمل",
+     "characteristic_coroots": [
+      "غفر",
+      "رحم"
+     ]
+    }
+   }
+  }
+ }
+}

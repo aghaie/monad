@@ -206,6 +206,8 @@ def main():
     ap.add_argument("--db", default=str(DB_DEFAULT))
     ap.add_argument("--out", default=str(OUT_DEFAULT))
     ap.add_argument("--quiet", action="store_true")
+    ap.add_argument("--write-db", action="store_true",
+                    help="persist per-ayah/per-sura stylometry into monad.db for later reference")
     args = ap.parse_args()
     db = Path(args.db); out = Path(args.out); out.mkdir(parents=True, exist_ok=True)
 
@@ -324,7 +326,7 @@ def main():
     obs_C = kmeans2_varexp(resid_rows, random.Random(SEED))
     null_C = []
     for _ in range(N_NULL):
-        cols = [c[:] for c in zip(*resid_rows)]
+        cols = [list(c) for c in zip(*resid_rows)]
         for c in cols:
             rnd.shuffle(c)
         permrows = [list(r) for r in zip(*cols)]
@@ -402,6 +404,35 @@ def main():
         json.dumps({"method": "L11-stylometry-1.0",
                     "suras": {str(s): sura_feat[s] for s in sura_ids}},
                    ensure_ascii=False, indent=1), encoding="utf-8")
+
+    # ── enrich monad.db (idempotent) so features are queryable later ──
+    if args.write_db:
+        con = sqlite3.connect(db)
+        con.execute("DROP TABLE IF EXISTS ayah_stylometry")
+        con.execute("DROP TABLE IF EXISTS sura_stylometry")
+        con.execute(
+            "CREATE TABLE ayah_stylometry (surah_number INT, ayah_number INT, fasila TEXT, "
+            "rhyme TEXT, n_words INT, n_letters INT, mean_word_len REAL, vowel_consonant_ratio REAL, "
+            "PRIMARY KEY (surah_number, ayah_number))")
+        con.executemany(
+            "INSERT INTO ayah_stylometry VALUES (?,?,?,?,?,?,?,?)",
+            [(s, a, feats[(s, a)]["fasila"], feats[(s, a)]["rhyme"], feats[(s, a)]["nw"],
+              feats[(s, a)]["nl"], round(feats[(s, a)]["mwl"], 6), round(feats[(s, a)]["vc"], 6))
+             for (s, a) in keys])
+        con.execute(
+            "CREATE TABLE sura_stylometry (surah_number INT PRIMARY KEY, revelation_type TEXT, "
+            "n_ayat INT, mean_ayah_words REAL, mean_ayah_letters REAL, mean_word_len REAL, "
+            "mean_vowel_consonant_ratio REAL, fasila_variety_index REAL, fasila_entropy REAL, "
+            "modal_fasila TEXT, modal_fasila_share REAL, process_share REAL)")
+        con.executemany(
+            "INSERT INTO sura_stylometry VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+            [(s, sura_feat[s]["type"], sura_feat[s]["n_ayat"], round(sura_feat[s]["mean_nw"], 6),
+              round(sura_feat[s]["mean_nl"], 6), round(sura_feat[s]["mean_mwl"], 6),
+              round(sura_feat[s]["mean_vc"], 6), round(sura_feat[s]["fvi"], 6),
+              round(sura_feat[s]["fasila_entropy"], 6), sura_feat[s]["modal_fasila"],
+              round(sura_feat[s]["modal_share"], 6),
+              round(per_sura[s], 6) if s in per_sura else None) for s in sura_ids])
+        con.commit(); con.close()
 
     if not args.quiet:
         print("L11 — Stylometric & prosodic self-structure\n")

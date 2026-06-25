@@ -1,0 +1,81 @@
+{
+ "method": "L11-stylometry-1.0",
+ "seed": 11,
+ "n_null": 1000,
+ "ayat": 6236,
+ "suras": 114,
+ "scope_note": "Internal-only. No control corpus => NO claim of distinctiveness from human writing. 'Superhuman/i'jaz' is OUT OF SCOPE and marked UNKNOWN — stylometry cannot reach it.",
+ "test_A_fawasil_cohesion": {
+  "question": "are ayah-final letters more homogeneous within suras than chance?",
+  "statistic": "corpus mean within-sura modal-fasila share",
+  "observed": 0.73,
+  "null": {
+   "mean": 0.5018,
+   "sd": 0.0005,
+   "max": 0.5038
+  },
+  "p": 0.001,
+  "fold": 1.45,
+  "verdict": "fawasil cohere within suras",
+  "confidence": "صریح"
+ },
+ "test_B_meccan_medinan_separability": {
+  "question": "does revelation period (meccan/medinan) separate in stylometric space?",
+  "with_length": {
+   "feature_set": "shape+length",
+   "balanced_accuracy": 0.7886,
+   "null": {
+    "mean": 0.5026,
+    "sd": 0.0731,
+    "max": 0.7002
+   },
+   "p": 0.001,
+   "majority_baseline": 0.7544,
+   "separates": true
+  },
+  "shape_only": {
+   "feature_set": "shape-only",
+   "balanced_accuracy": 0.588,
+   "null": {
+    "mean": 0.4991,
+    "sd": 0.0733,
+    "max": 0.7047
+   },
+   "p": 0.0939,
+   "majority_baseline": 0.7544,
+   "separates": false
+  },
+  "interpretation": "style EVOLVES meccan->medinan; this is the honest opposite of 'perfectly uniform style'. Shape-only result shows whether the separation survives removing raw length.",
+  "confidence": "محتمل"
+ },
+ "test_C_hidden_heterogeneity": {
+  "question": "after removing period+length, is there latent multi-style structure?",
+  "statistic": "2-means variance explained on residual shape features",
+  "observed": 0.3063,
+  "null": {
+   "mean": 0.2067,
+   "sd": 0.0092,
+   "max": 0.2495
+  },
+  "p": 0.001,
+  "verdict": "excess latent clustering — inspect",
+  "confidence": "محتمل"
+ },
+ "test_D_register_by_period": {
+  "question": "is the corpus process/command-leaning, and does register shift by period?",
+  "overall_process_share": 0.5273,
+  "legacy_claim_52_7pct": "confirmed",
+  "meccan_mean_process_share": 0.4933,
+  "medinan_mean_process_share": 0.5659,
+  "diff_meccan_minus_medinan": -0.0726,
+  "null_abs_diff": {
+   "mean": 0.0262,
+   "sd": 0.0199,
+   "max": 0.1063
+  },
+  "p": 0.03,
+  "verdict": "register differs by period",
+  "note": "overall share confirms the legacy 52.7% descriptively; '>0.5' alone is a neutral reference, not a 'static text' model — a true distinctiveness test needs control corpora (deferred).",
+  "confidence": "محتمل"
+ }
+}

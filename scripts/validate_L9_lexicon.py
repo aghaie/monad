@@ -21,6 +21,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 BUILD = REPO / "scripts" / "build_L9_lexicon.py"
+GLOSS = REPO / "scripts" / "build_L9_glosses.py"
 OUT = REPO / "generated" / "layers" / "L9_lexicon"
 TIERS = {"صریح", "قوی", "محتمل", "نامشخص"}
 
@@ -72,6 +73,25 @@ def main():
         fails.append(f"نامشخص roots emitting senses (unsupported claims): {leak[:5]}")
     else:
         print("  ✓ no sense claims under نامشخص (abstention honoured)")
+
+    # ── gloss layer: deterministic, covers every kept facet ──
+    with tempfile.TemporaryDirectory() as td:
+        for name in ("root_dossiers.json", "ayah_dossiers.json", "lexicon_summary.json"):
+            (Path(td) / name).write_bytes((OUT / name).read_bytes())
+        subprocess.run([sys.executable, str(GLOSS), "--out", td, "--quiet"],
+                       check=True, cwd=str(REPO))
+        if (OUT / "glosses.json").exists() and sha(OUT / "glosses.json") == sha(Path(td) / "glosses.json"):
+            print("  ✓ deterministic: glosses.json")
+        else:
+            fails.append("glosses.json missing or non-deterministic")
+    gl = json.loads((OUT / "glosses.json").read_text(encoding="utf-8"))
+    total_senses = sum(len(o["senses"]) for o in roots.values())
+    if gl["n_facets"] == total_senses and gl["n_unresolved"] == 0:
+        print(f"  ✓ every kept facet glossed: {gl['n_glossed']}/{gl['n_facets']} "
+              f"({gl['n_sense']} معنا, {gl['n_frame']} بافت)")
+    else:
+        fails.append(f"gloss coverage gap: {gl['n_glossed']}/{gl['n_facets']}, "
+                     f"unresolved={gl['n_unresolved']}, dossier senses={total_senses}")
 
     resolved = summ["roots_with_resolved_senses"]
     print(f"\n  tiers: {summ['tier_counts']}")
