@@ -1,0 +1,75 @@
+{
+ "method": "L11b-controls-1.0",
+ "seed": 11,
+ "n_null": 1000,
+ "note": "QUARANTINED external scorecard. These corpora are never input to derivation. 'Superhuman' remains OUT OF SCOPE / UNKNOWN.",
+ "corpora": {
+  "quran": {
+   "docs": 114,
+   "verse_units": 6236,
+   "mean_word_len": 4.28,
+   "mean_vc_ratio": 0.671,
+   "mean_verse_letters": 52.2,
+   "rhyme": {
+    "rhyme_cohesion": 0.73,
+    "null_mean": 0.5018,
+    "null_sd": 0.0005,
+    "null_max": 0.5038,
+    "fold_over_chance": 1.45,
+    "p": 0.001,
+    "per_doc_mean": 0.6957,
+    "per_doc_sd": 0.2308
+   },
+   "length_freedom_cv": 0.4244
+  },
+  "poetry_classical": {
+   "docs": 391,
+   "verse_units": 6299,
+   "mean_word_len": 4.161,
+   "mean_vc_ratio": 0.318,
+   "mean_verse_letters": 39.2,
+   "rhyme": {
+    "rhyme_cohesion": 0.97,
+    "null_mean": 0.4731,
+    "null_sd": 0.0016,
+    "null_max": 0.4779,
+    "fold_over_chance": 2.05,
+    "p": 0.001,
+    "per_doc_mean": 0.9445,
+    "per_doc_sd": 0.1302
+   },
+   "length_freedom_cv": 0.0544
+  },
+  "bible_arabic": {
+   "docs": 1188,
+   "verse_units": 31100,
+   "mean_word_len": 4.357,
+   "mean_vc_ratio": 0.669,
+   "mean_verse_letters": 60.0,
+   "rhyme": {
+    "rhyme_cohesion": 0.2395,
+    "null_mean": 0.1956,
+    "null_sd": 0.0011,
+    "null_max": 0.1992,
+    "fold_over_chance": 1.22,
+    "p": 0.001,
+    "per_doc_mean": 0.2488,
+    "per_doc_sd": 0.0885
+   },
+   "length_freedom_cv": 0.3262
+  }
+ },
+ "quran_placement": {
+  "rhyme_fold": 1.45,
+  "poetry_rhyme_fold": 2.05,
+  "bible_rhyme_fold": 1.22,
+  "sd_below_poetry": 1.38,
+  "sd_above_bible": 2.8,
+  "length_freedom_cv": {
+   "quran": 0.4244,
+   "poetry_classical": 0.0544,
+   "bible_arabic": 0.3262
+  },
+  "verdict": "Quran rhyme is real and above chance, but classical poetry is MORE rhyme-cohesive (strict monorhyme); Bible prose is near chance. The Quran sits in a middle register — rhymed yet more length-free than poetry (saj'). Rhyme does NOT set the Quran apart as superhuman; that remains UNKNOWN."
+ }
+}
