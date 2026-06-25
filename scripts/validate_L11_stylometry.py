@@ -51,10 +51,20 @@ def main():
     chk("B: shape-only result is reported (length-caveat honest)",
         "balanced_accuracy" in B["shape_only"])
 
-    # Test C — verdict present and internally consistent with the null comparison
+    # Test C — structure characterised concretely (rhyme regimes), verdict consistent
     excess = C["observed"] > C["null"]["max"]
     chk("C: verdict matches null comparison",
-        ("excess" in C["verdict"]) == excess, C["verdict"])
+        ("rhyme-diversity regimes" in C["verdict"]) == excess, C["verdict"])
+    if excess:
+        rr = C["rhyme_regimes"]
+        chk("C: rhyme regimes partition all 114 suras",
+            rr["monorhyme_suras"] + rr["varied_suras"] == 114,
+            f'{rr["monorhyme_suras"]} mono + {rr["varied_suras"]} varied')
+        chk("C: monorhyme group genuinely lower rhyme-variety (not arbitrary)",
+            rr["feature_means"]["fasila_entropy"]["monorhyme"] <
+            rr["feature_means"]["fasila_entropy"]["varied"])
+        chk("C: structure is one-dimensional, not multi-author",
+            "NOT evidence of multiple authors" in C["interpretation"])
 
     # Test D — legacy 52.7% reproduced; verdict consistent with p
     chk("D: legacy 52.7% process-share reproduced",

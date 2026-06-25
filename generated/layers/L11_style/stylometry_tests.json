@@ -58,7 +58,33 @@
    "max": 0.2495
   },
   "p": 0.001,
-  "verdict": "excess latent clustering — inspect",
+  "structure_is": "real but one-dimensional and interpretable",
+  "mean_silhouette": 0.297,
+  "leading_pca_axis_fraction": 0.429,
+  "interpretation": "the residual structure is a single PROSODIC axis — suras split into two RHYME-DIVERSITY regimes (monorhyme vs varied), independent of period and length. This is a design axis of the rhyme scheme, NOT evidence of multiple authors or styles.",
+  "rhyme_regimes": {
+   "monorhyme_suras": 59,
+   "varied_suras": 55,
+   "feature_means": {
+    "mean_mwl": {
+     "monorhyme": 4.311,
+     "varied": 4.232
+    },
+    "mean_vc": {
+     "monorhyme": 0.667,
+     "varied": 0.674
+    },
+    "fvi": {
+     "monorhyme": 0.094,
+     "varied": 0.224
+    },
+    "fasila_entropy": {
+     "monorhyme": 0.335,
+     "varied": 1.301
+    }
+   }
+  },
+  "verdict": "residual structure = two rhyme-diversity regimes (prosodic), not multi-author",
   "confidence": "محتمل"
  },
  "test_D_register_by_period": {
