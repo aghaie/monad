@@ -10,7 +10,7 @@ REPO = Path(__file__).resolve().parents[1]
 DEFAULT_RUN_ROOT = REPO / "engine" / "runs"
 
 # مراحل به‌ترتیب فعال می‌شوند؛ هر Task یک ردیف را روشن می‌کند.
-STAGES = [(1, "extract"), (2, "cluster"), (3, "observe"), (4, "hypothesis"), (5, "attack"), (6, "verify"), (7, "reduce"), (8, "graph")]
+STAGES = [(1, "extract"), (2, "cluster"), (3, "observe"), (4, "hypothesis"), (5, "attack"), (6, "verify"), (7, "reduce"), (8, "graph"), (9, "commit")]
 
 
 def _worker_config(worker_name):
@@ -113,5 +113,18 @@ def run(domain, unit_ref, worker_name="statistical", run_root=None):
     core.write_artifact(run_dir, 8, "graph", genv)
     done.append("graph")
 
+    from engine.store import Store
+    from engine.stages import commit as _commit
+    store = Store(REPO / "store")
+    arts = {"extract": env, "verify": venv, "reduce": renv, "graph": genv}
+    cmt = _commit.run(store, unit, run_id, arts)
+    validate_payload("commit", cmt)
+    cmenv = core.build_envelope(
+        "commit", 9, unit, substrate, core.PROTOCOL_VERSION, run_id,
+        {"layer": "deterministic", "tool": "engine.stages.commit"},
+        {"prev_artifact": core.sha256_of(genv["payload"])}, cmt)
+    core.write_artifact(run_dir, 9, "commit", cmenv)
+    done.append("commit")
+
     return {"run_id": run_id, "run_dir": str(run_dir),
-            "stages_done": done, "status": "ok"}
+            "stages_done": done, "status": "ok", "committed": cmt["committed"]}
