@@ -21,3 +21,6 @@ def test_golden_cluster(tmp_path):
 
 def test_golden_observe(tmp_path):
     _check(3, "observe", tmp_path)
+
+def test_golden_hypothesis(tmp_path):
+    _check(4, "hypothesis", tmp_path)

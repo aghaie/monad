@@ -1,0 +1,103 @@
+{
+  "envelope_version": "1.0",
+  "stage": "hypothesis",
+  "stage_index": 4,
+  "unit": {
+    "domain": "quran-root",
+    "ref": "Elm",
+    "display": "علم",
+    "unit_id": 218
+  },
+  "substrate": {
+    "id": "quran-hafs",
+    "hash": "sha256:463f3487e2af0c23fd583d4ae27b2e2e2fd556b8e6138aa6ef31b6e30098aaa3"
+  },
+  "protocol_version": "0.1.0",
+  "run_id": "0b4891b72a439663",
+  "produced_by": {
+    "layer": "discovery",
+    "worker": "StatisticalWorker",
+    "capability": "hypothesize"
+  },
+  "inputs": {
+    "prev_artifact": "sha256:c082baed4353869c59435aa8af06bd5d0ba0bd62ec9d55c73956f83dd533bc3c"
+  },
+  "produced_at": "2026-06-26T19:13:39.218469+00:00",
+  "payload": {
+    "hypotheses": [
+      {
+        "hypothesis_id": "h_recover",
+        "status": "PROPOSED",
+        "claim": "این ریشه از بافتِ آیه‌اش بازیابی‌پذیر است.",
+        "supported_by": [
+          "o_c0",
+          "o_c1",
+          "o_c2"
+        ],
+        "prediction": {
+          "predicate": "masked_recovery",
+          "params": {}
+        }
+      },
+      {
+        "hypothesis_id": "h_p0",
+        "status": "PROPOSED",
+        "claim": "این ریشه به‌طورِ معنادار با «علم» هم‌می‌آید.",
+        "supported_by": [
+          "p0"
+        ],
+        "prediction": {
+          "predicate": "cooccurrence_constraint",
+          "params": {
+            "with_root_id": 218,
+            "with": "علم"
+          }
+        }
+      },
+      {
+        "hypothesis_id": "h_p13",
+        "status": "PROPOSED",
+        "claim": "این ریشه به‌طورِ معنادار با «حكم» هم‌می‌آید.",
+        "supported_by": [
+          "p13"
+        ],
+        "prediction": {
+          "predicate": "cooccurrence_constraint",
+          "params": {
+            "with_root_id": 316,
+            "with": "حكم"
+          }
+        }
+      },
+      {
+        "hypothesis_id": "h_p14",
+        "status": "PROPOSED",
+        "claim": "این ریشه به‌طورِ معنادار با «كتب» هم‌می‌آید.",
+        "supported_by": [
+          "p14"
+        ],
+        "prediction": {
+          "predicate": "cooccurrence_constraint",
+          "params": {
+            "with_root_id": 891,
+            "with": "كتب"
+          }
+        }
+      },
+      {
+        "hypothesis_id": "h_stable",
+        "status": "PROPOSED",
+        "claim": "هم‌آییِ «علم» در دو نیمهٔ قرآن پایدار است.",
+        "supported_by": [
+          "p0"
+        ],
+        "prediction": {
+          "predicate": "two_half_stability",
+          "params": {
+            "with_root_id": 218
+          }
+        }
+      }
+    ]
+  }
+}

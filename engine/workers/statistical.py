@@ -25,3 +25,29 @@ class StatisticalWorker(ReasoningWorker):
                 "cites": [p["pattern_id"]],
             })
         return {"observations": obs}
+
+    def _hypothesize(self, inp):
+        patterns = inp.get("_patterns", [])
+        hs = []
+        # یک فرضیهٔ بازیابی برای کلِ unit
+        hs.append({"hypothesis_id": "h_recover", "status": "PROPOSED",
+                   "claim": "این ریشه از بافتِ آیه‌اش بازیابی‌پذیر است.",
+                   "supported_by": [o["observation_id"] for o in inp["observations"][:3]],
+                   "prediction": {"predicate": "masked_recovery", "params": {}}})
+        # فرضیه‌های هم‌آییِ برترین الگوها
+        for p in sorted(patterns, key=lambda x: -x["lift"])[:3]:
+            hs.append({"hypothesis_id": f"h_{p['pattern_id']}", "status": "PROPOSED",
+                       "claim": f"این ریشه به‌طورِ معنادار با «{p['with']}» هم‌می‌آید.",
+                       "supported_by": [p["pattern_id"]],
+                       "prediction": {"predicate": "cooccurrence_constraint",
+                                      "params": {"with_root_id": p["with_root_id"],
+                                                 "with": p["with"]}}})
+        # یک فرضیهٔ پایداریِ دونیمه‌ای
+        if patterns:
+            top = max(patterns, key=lambda x: x["lift"])
+            hs.append({"hypothesis_id": "h_stable", "status": "PROPOSED",
+                       "claim": f"هم‌آییِ «{top['with']}» در دو نیمهٔ قرآن پایدار است.",
+                       "supported_by": [top["pattern_id"]],
+                       "prediction": {"predicate": "two_half_stability",
+                                      "params": {"with_root_id": top["with_root_id"]}}})
+        return {"hypotheses": hs[:5]}
