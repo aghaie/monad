@@ -1,0 +1,3 @@
+{ "false_hypotheses": [
+  {"hypothesis_id": "rt_fil", "prediction": {"predicate": "cooccurrence_constraint",
+   "params": {"with_root_id": null, "with_arabic": "فيل"}}} ] }
