@@ -74,6 +74,68 @@ docs/superpowers/backlog-v2.md           (T1)  مقصدِ ایده‌های خا
 
 ---
 
+## Definition of Done (هر Task)
+
+هیچ Task تمام‌شده تلقی نمی‌شود مگر هر چهار شرط برقرار باشد:
+
+1. **تستِ خودِ Task** PASS.
+2. **همهٔ تست‌های قبلی همچنان PASS** — `python3 -m pytest tests/engine -q` کاملاً سبز (تشخیصِ زودِ regression).
+3. **`monad run quran-root علم` تا همان مرحله بدونِ خطا** اجرا شود (از Task 3 به بعد که CLI زنده است).
+4. **هیچ فایلِ قبلی تغییرِ فرمت ندهد** مگر همان Task رسماً مسئولِ آن باشد — `git diff --stat` فقط فایل‌های اعلام‌شدهٔ همان Task را نشان دهد؛ هیچ آرتیفکتِ Golden یا envelope به‌طورِ ناخواسته تغییر نکند.
+
+> هر Task پیش از commit این چهار را به‌صورتِ یک checklist بررسی می‌کند. شکست در هر کدام = Task ناتمام.
+
+## Version Lock
+
+سه نسخه از ابتدا قفل‌اند و در `engine/core.py` تعریف می‌شوند. هر تغییرِ ناخواسته باید تست را **عمداً** بشکند تا ناسازگاریِ نسخه‌ها پنهان نماند:
+
+```python
+PROTOCOL_VERSION = "0.1.0"
+ENVELOPE_VERSION = "1.0"
+SCHEMA_VERSION   = "1.0"
+```
+تستِ قفل (در `tests/engine/test_core.py`، Task 1):
+```python
+def test_version_lock():
+    from engine import core
+    assert core.PROTOCOL_VERSION == "0.1.0"
+    assert core.ENVELOPE_VERSION == "1.0"
+    assert core.SCHEMA_VERSION == "1.0"
+```
+هر آرتیفکت باید `schema_version` را در payload یا envelope حمل کند؛ تغییرِ هر یک از این سه ثابت بدونِ به‌روزرسانیِ عمدیِ تست = شکستِ آگاهانه.
+
+## Golden Artifacts (Snapshot)
+
+علاوه بر assertionهای ساختاری، هر مرحله یک **Golden Artifact** نگه می‌دارد تا بازتولیدپذیری بایت‌سطح تضمین شود (هر تغییرِ ناخواسته در ترتیبِ JSON یا hashing فوراً آشکار شود).
+
+- **مکانیزم:** هنگام سبزشدنِ هر Taskِ مرحله‌ای (Task 2,4,5,6,7,9,10,11,12)، یک‌بار آرتیفکتِ تولیدشده را پس از حذفِ `produced_at` در `tests/golden/0N_<stage>.json` ذخیره کن (capture-on-first-green).
+- **رگرسیون:** یک تستِ مشترک در `tests/engine/test_golden.py` (در Task 2 ساخته، در هر Taskِ بعدی گسترش می‌یابد):
+```python
+# tests/engine/test_golden.py
+import json
+from pathlib import Path
+from engine import orchestrator, core
+
+GOLDEN = Path(__file__).resolve().parents[1] / "golden"
+
+def _strip(env):
+    env = dict(env); env.pop("produced_at", None); return env
+
+def _check(stage_index, stage, tmp_path):
+    res = orchestrator.run("quran-root", "علم", run_root=tmp_path)
+    got = _strip(core.read_artifact(f"{res['run_dir']}/0{stage_index}_{stage}.json"))
+    gold = json.loads((GOLDEN / f"0{stage_index}_{stage}.json").read_text("utf-8"))
+    assert got == _strip(gold), f"golden drift in stage {stage}"
+
+def test_golden_extract(tmp_path):
+    _check(1, "extract", tmp_path)
+# با هر Taskِ مرحله‌ای یک test_golden_<stage> اضافه کن.
+```
+- اگر تغییری *عمدی* بود، Golden را در همان Task به‌روزرسانی کن و در پیامِ commit ذکر کن. drift غیرعمدی = شکستِ تست.
+- `tests/golden/` در git **ردیابی می‌شود** (برخلافِ `store/`,`memory/`,`engine/runs/`).
+
+---
+
 ## Task 1: هستهٔ موتور — envelope، hashing، run_id، اعتبارسنجی، scaffolding
 
 **Files:**
@@ -155,6 +217,7 @@ from pathlib import Path
 
 ENVELOPE_VERSION = "1.0"
 PROTOCOL_VERSION = "0.1.0"
+SCHEMA_VERSION = "1.0"
 
 
 class SchemaError(ValueError):
