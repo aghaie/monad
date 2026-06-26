@@ -6,3 +6,8 @@
 
 # Full extracted text of the copyrighted source book (regenerate with pdftotext)
 generated/book-quran-audit/raw/
+
+# Discovery engine transient outputs
+store/
+memory/
+engine/runs/
