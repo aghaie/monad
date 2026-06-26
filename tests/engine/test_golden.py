@@ -15,3 +15,6 @@ def _check(stage_index, stage, tmp_path):
 
 def test_golden_extract(tmp_path):
     _check(1, "extract", tmp_path)
+
+def test_golden_cluster(tmp_path):
+    _check(2, "cluster", tmp_path)

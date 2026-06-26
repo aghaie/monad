@@ -10,7 +10,7 @@ REPO = Path(__file__).resolve().parents[1]
 DEFAULT_RUN_ROOT = REPO / "engine" / "runs"
 
 # مراحل به‌ترتیب فعال می‌شوند؛ هر Task یک ردیف را روشن می‌کند.
-STAGES = [(1, "extract")]
+STAGES = [(1, "extract"), (2, "cluster")]
 
 
 def _worker_config(worker_name):
@@ -37,6 +37,16 @@ def run(domain, unit_ref, worker_name="statistical", run_root=None):
         {"substrate": substrate["hash"]}, payload)
     core.write_artifact(run_dir, 1, "extract", env)
     done.append("extract")
+
+    from engine.stages import cluster as _cluster
+    cpay = _cluster.run(payload)
+    validate_payload("cluster", cpay)
+    cenv = core.build_envelope(
+        "cluster", 2, unit, substrate, core.PROTOCOL_VERSION, run_id,
+        {"layer": "deterministic", "tool": "engine.stages.cluster"},
+        {"prev_artifact": core.sha256_of(env["payload"])}, cpay)
+    core.write_artifact(run_dir, 2, "cluster", cenv)
+    done.append("cluster")
 
     return {"run_id": run_id, "run_dir": str(run_dir),
             "stages_done": done, "status": "ok"}
