@@ -1,0 +1,90 @@
+{
+  "envelope_version": "1.0",
+  "stage": "graph",
+  "stage_index": 8,
+  "unit": {
+    "domain": "quran-root",
+    "ref": "Elm",
+    "display": "علم",
+    "unit_id": 218
+  },
+  "substrate": {
+    "id": "quran-hafs",
+    "hash": "sha256:463f3487e2af0c23fd583d4ae27b2e2e2fd556b8e6138aa6ef31b6e30098aaa3"
+  },
+  "protocol_version": "0.1.0",
+  "run_id": "0b4891b72a439663",
+  "produced_by": {
+    "layer": "deterministic",
+    "tool": "engine.stages.graph"
+  },
+  "inputs": {
+    "prev_artifact": "sha256:08e4f53dc39c00ecdaf93928a19f09b126bf5a9bdcad8910de83619c505227b3",
+    "kb_snapshot": "sha256:empty"
+  },
+  "produced_at": "2026-06-26T19:42:26.985200+00:00",
+  "payload": {
+    "links": [
+      {
+        "to_unit": "علم",
+        "to_root_id": 218,
+        "relation": "co-defines",
+        "weight": 8.566,
+        "evidence": [
+          "علم"
+        ]
+      },
+      {
+        "to_unit": "حكم",
+        "to_root_id": 316,
+        "relation": "co-defines",
+        "weight": 3.218,
+        "evidence": [
+          "حكم"
+        ]
+      },
+      {
+        "to_unit": "كتب",
+        "to_root_id": 891,
+        "relation": "co-defines",
+        "weight": 1.873,
+        "evidence": [
+          "كتب"
+        ]
+      },
+      {
+        "to_unit": "اله",
+        "to_root_id": 110,
+        "relation": "co-defines",
+        "weight": 1.86,
+        "evidence": [
+          "اله"
+        ]
+      },
+      {
+        "to_unit": "نوس",
+        "to_root_id": 1123,
+        "relation": "co-defines",
+        "weight": 1.827,
+        "evidence": [
+          "نوس"
+        ]
+      }
+    ],
+    "network_coherence": {
+      "conflicts": [],
+      "passed": true
+    },
+    "predictive_check": {
+      "applied_to": [
+        "علم",
+        "حكم",
+        "كتب",
+        "اله",
+        "نوس"
+      ],
+      "hits": 5,
+      "score": 1.0
+    }
+  }
+}

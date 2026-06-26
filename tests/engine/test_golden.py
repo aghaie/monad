@@ -33,3 +33,6 @@ def test_golden_verify(tmp_path):
 
 def test_golden_reduce(tmp_path):
     _check(7, "reduce", tmp_path)
+
+def test_golden_graph(tmp_path):
+    _check(8, "graph", tmp_path)

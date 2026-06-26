@@ -10,7 +10,7 @@ REPO = Path(__file__).resolve().parents[1]
 DEFAULT_RUN_ROOT = REPO / "engine" / "runs"
 
 # مراحل به‌ترتیب فعال می‌شوند؛ هر Task یک ردیف را روشن می‌کند.
-STAGES = [(1, "extract"), (2, "cluster"), (3, "observe"), (4, "hypothesis"), (5, "attack"), (6, "verify"), (7, "reduce")]
+STAGES = [(1, "extract"), (2, "cluster"), (3, "observe"), (4, "hypothesis"), (5, "attack"), (6, "verify"), (7, "reduce"), (8, "graph")]
 
 
 def _worker_config(worker_name):
@@ -102,6 +102,16 @@ def run(domain, unit_ref, worker_name="statistical", run_root=None):
         {"prev_artifact": core.sha256_of(venv["payload"])}, rpay)
     core.write_artifact(run_dir, 7, "reduce", renv)
     done.append("reduce")
+
+    from engine.stages import graph as _graph
+    gpay = _graph.run(rpay, cpay["patterns"], unit)
+    validate_payload("graph", gpay)
+    genv = core.build_envelope(
+        "graph", 8, unit, substrate, core.PROTOCOL_VERSION, run_id,
+        {"layer": "deterministic", "tool": "engine.stages.graph"},
+        {"prev_artifact": core.sha256_of(rpay), "kb_snapshot": "sha256:empty"}, gpay)
+    core.write_artifact(run_dir, 8, "graph", genv)
+    done.append("graph")
 
     return {"run_id": run_id, "run_dir": str(run_dir),
             "stages_done": done, "status": "ok"}
