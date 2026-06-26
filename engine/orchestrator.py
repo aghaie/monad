@@ -139,6 +139,13 @@ def run(domain, unit_ref, worker_name="statistical", run_root=None):
         core.write_artifact(run_dir, 9, "commit", cmenv)
         done.append("commit")
 
+        # RFC Generator — Publication Layer (پس از Commit، پیش از ثبت memory)
+        from rfc import generator as _rfc_gen
+        rfc_doc = _rfc_gen.generate(store, unit, run_id, core.PROTOCOL_VERSION)
+        res = {"run_id": run_id, "run_dir": str(run_dir),
+               "stages_done": done, "status": "ok", "committed": cmt["committed"],
+               "rfc_id": rfc_doc["rfc_id"]}
+
         # ثبتِ discoveries پس از commit
         accepted_ids = [v["knowledge_id"] for v in vpay["verifications"]
                         if v["decision"] == "ACCEPTED"]
@@ -147,8 +154,7 @@ def run(domain, unit_ref, worker_name="statistical", run_root=None):
         # ثبتِ موفقیتِ کل
         mem.record_attempt(run_id, unit, "ok")
 
-        return {"run_id": run_id, "run_dir": str(run_dir),
-                "stages_done": done, "status": "ok", "committed": cmt["committed"]}
+        return res
 
     except Exception as e:
         mem.record_failed_run(run_id, e)

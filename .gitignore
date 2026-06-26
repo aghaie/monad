@@ -11,3 +11,6 @@ generated/book-quran-audit/raw/
 store/
 memory/
 engine/runs/
+
+# Generated RFC output (deterministically regenerable from store; not tracked in v1)
+rfc/quran-root/

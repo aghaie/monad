@@ -23,6 +23,8 @@ def main():
         print(f"run_id={res['run_id']}  status={res['status']}")
         print(f"stages={res['stages_done']}")
         print(f"dir={res['run_dir']}")
+        if "rfc_id" in res:
+            print(f"rfc_id={res['rfc_id']}")
 
 
 if __name__ == "__main__":
