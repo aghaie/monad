@@ -30,3 +30,6 @@ def test_golden_attack(tmp_path):
 
 def test_golden_verify(tmp_path):
     _check(6, "verify", tmp_path)
+
+def test_golden_reduce(tmp_path):
+    _check(7, "reduce", tmp_path)

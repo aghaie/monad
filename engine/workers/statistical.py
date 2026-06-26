@@ -52,6 +52,13 @@ class StatisticalWorker(ReasoningWorker):
                                       "params": {"with_root_id": top["with_root_id"]}}})
         return {"hypotheses": hs[:5]}
 
+    def _reduce_propose(self, inp):
+        # primitiveها = برترین هم‌ریشه‌های تأییدشده به‌عنوانِ هستهٔ معنایی
+        prims = inp.get("_top_coroots", [])[:3] or ["<sense>"]
+        return {"proposed_definition": {
+            "statement": "تعریفِ کمینه بر پایهٔ هم‌آیی‌های تأییدشده.",
+            "primitives": prims, "relations": []}}
+
     def _attack(self, inp):
         pat = {p["pattern_id"]: p for p in inp.get("_patterns", [])}
         attacks = []

@@ -1,0 +1,60 @@
+{
+  "envelope_version": "1.0",
+  "stage": "reduce",
+  "stage_index": 7,
+  "unit": {
+    "domain": "quran-root",
+    "ref": "Elm",
+    "display": "علم",
+    "unit_id": 218
+  },
+  "substrate": {
+    "id": "quran-hafs",
+    "hash": "sha256:463f3487e2af0c23fd583d4ae27b2e2e2fd556b8e6138aa6ef31b6e30098aaa3"
+  },
+  "protocol_version": "0.1.0",
+  "run_id": "0b4891b72a439663",
+  "produced_by": {
+    "layer": "deterministic",
+    "tool": "engine.stages.reduce_measure"
+  },
+  "inputs": {
+    "prev_artifact": "sha256:684de8c98f4ea90e32994c8dd5f30085f182e82ad8ebc04e7651186505b9a903"
+  },
+  "produced_at": "2026-06-26T19:37:26.097483+00:00",
+  "payload": {
+    "proposed_definition": {
+      "statement": "تعریفِ کمینه بر پایهٔ هم‌آیی‌های تأییدشده.",
+      "primitives": [
+        "علم",
+        "حكم",
+        "كتب"
+      ],
+      "relations": []
+    },
+    "compression": {
+      "n_primitives": 3,
+      "coverage": 1.0,
+      "mdl_bits": 6.0,
+      "predicts_heldout": {
+        "score": 0.5604,
+        "passed": true
+      }
+    },
+    "accepted_definition": {
+      "statement": "تعریفِ کمینه بر پایهٔ هم‌آیی‌های تأییدشده.",
+      "primitives": [
+        "علم",
+        "حكم",
+        "كتب"
+      ],
+      "covers_knowledge": [
+        "k_Elm_0",
+        "k_Elm_1",
+        "k_Elm_2",
+        "k_Elm_3",
+        "k_Elm_4"
+      ]
+    }
+  }
+}
