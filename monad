@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+# monad
+"""Monad CLI — monad run <domain> <unit_ref> [--worker ...]"""
+import argparse
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from engine import orchestrator
+
+
+def main():
+    p = argparse.ArgumentParser(prog="monad")
+    sub = p.add_subparsers(dest="cmd", required=True)
+    r = sub.add_parser("run", help="discover one unit")
+    r.add_argument("domain")
+    r.add_argument("unit_ref")
+    r.add_argument("--worker", default="statistical",
+                   choices=["statistical", "claude", "human"])
+    args = p.parse_args()
+    if args.cmd == "run":
+        res = orchestrator.run(args.domain, args.unit_ref, worker_name=args.worker)
+        print(f"run_id={res['run_id']}  status={res['status']}")
+        print(f"stages={res['stages_done']}")
+        print(f"dir={res['run_dir']}")
+
+
+if __name__ == "__main__":
+    main()
