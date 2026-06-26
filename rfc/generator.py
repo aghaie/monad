@@ -30,7 +30,7 @@ def generate(store, unit, run_id, protocol_version, benchmark=None, out_root=Non
             "confidence": {k["knowledge_id"]: k["formal_representation"]["confidence_tier"]
                            for k in knowledge},
             "scope": {"unit": unit["ref"]},
-            "limitations": {"note": "v1 minimal-fidelity; KB empty."},
+            "limitations": {"note": "v1 minimal-fidelity; KB empty. two_half_stability is a presence check across mushaf halves, not a statistical replication test; knowledge resting on it is bounded accordingly."},
             "relationships": {"links": [r for k in knowledge
                                         for r in k["formal_representation"]["relations"]]},
             "history": {"protocol_version": protocol_version, "supersedes": None}},

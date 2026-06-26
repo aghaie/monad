@@ -19,9 +19,9 @@
     "tool": "engine.stages.reduce_measure"
   },
   "inputs": {
-    "prev_artifact": "sha256:684de8c98f4ea90e32994c8dd5f30085f182e82ad8ebc04e7651186505b9a903"
+    "prev_artifact": "sha256:8cc50be706cca7bdc7d1a2225be9ed47c1f674c7c3b6deb100bc69a062f4a44f"
   },
-  "produced_at": "2026-06-26T19:37:26.097483+00:00",
+  "produced_at": "2026-06-26T21:14:48.618094+00:00",
   "payload": {
     "proposed_definition": {
       "statement": "تعریفِ کمینه بر پایهٔ هم‌آیی‌های تأییدشده.",

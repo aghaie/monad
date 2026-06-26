@@ -115,7 +115,8 @@ def execute_predicate(name, params, unit):
             half = 57  # سورهٔ میانه؛ نیمهٔ اول 1..57
             h1 = any(s <= half for (s, a) in (mine & other))
             h2 = any(s > half for (s, a) in (mine & other))
-            return {"score": 1.0 if (h1 and h2) else 0.0, "null_p": 0.0,
+            return {"score": 1.0 if (h1 and h2) else 0.0, "null_p": None,
+                    "method": "presence_in_both_halves",
                     "passed": bool(h1 and h2), "half1": h1, "half2": h2}
         if name == "masked_recovery":
             mine = _ayat_of_root(c, rid)

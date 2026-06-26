@@ -22,7 +22,7 @@
     "prev_artifact": "sha256:f7b8217531837c80e98a1e68e7b8d797df4348315d96a164e9b84ebbe146e581",
     "substrate": "sha256:463f3487e2af0c23fd583d4ae27b2e2e2fd556b8e6138aa6ef31b6e30098aaa3"
   },
-  "produced_at": "2026-06-26T19:30:08.427126+00:00",
+  "produced_at": "2026-06-26T21:14:48.598978+00:00",
   "payload": {
     "verifications": [
       {
@@ -96,7 +96,8 @@
         "tests": {
           "two_half_stability": {
             "score": 1.0,
-            "null_p": 0.0,
+            "null_p": null,
+            "method": "presence_in_both_halves",
             "passed": true,
             "half1": true,
             "half2": true
