@@ -51,3 +51,18 @@ class StatisticalWorker(ReasoningWorker):
                        "prediction": {"predicate": "two_half_stability",
                                       "params": {"with_root_id": top["with_root_id"]}}})
         return {"hypotheses": hs[:5]}
+
+    def _attack(self, inp):
+        pat = {p["pattern_id"]: p for p in inp.get("_patterns", [])}
+        attacks = []
+        for h in inp["hypotheses"]:
+            verdict, refs = "SURVIVES", []
+            for sid in h.get("supported_by", []):
+                p = pat.get(sid)
+                if p and (p.get("lift", 0) < 1.5 or p.get("null_p", 1) > 0.05):
+                    verdict = "WEAKENED"
+                    refs.append({"argument": "lift پایین یا null_p بالا.",
+                                 "counter_evidence": [sid]})
+            attacks.append({"hypothesis_id": h["hypothesis_id"],
+                            "refutations": refs, "worker_verdict": verdict})
+        return {"attacks": attacks}

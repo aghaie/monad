@@ -1,0 +1,55 @@
+{
+  "envelope_version": "1.0",
+  "stage": "attack",
+  "stage_index": 5,
+  "unit": {
+    "domain": "quran-root",
+    "ref": "Elm",
+    "display": "علم",
+    "unit_id": 218
+  },
+  "substrate": {
+    "id": "quran-hafs",
+    "hash": "sha256:463f3487e2af0c23fd583d4ae27b2e2e2fd556b8e6138aa6ef31b6e30098aaa3"
+  },
+  "protocol_version": "0.1.0",
+  "run_id": "0b4891b72a439663",
+  "produced_by": {
+    "layer": "discovery",
+    "worker": "StatisticalWorker",
+    "capability": "attack"
+  },
+  "inputs": {
+    "prev_artifact": "sha256:347b1c59c0920783dfd50b7789c950a0048c3cf4ae90fc0226353621a8b4514e"
+  },
+  "produced_at": "2026-06-26T19:18:38.454106+00:00",
+  "payload": {
+    "attacks": [
+      {
+        "hypothesis_id": "h_recover",
+        "refutations": [],
+        "worker_verdict": "SURVIVES"
+      },
+      {
+        "hypothesis_id": "h_p0",
+        "refutations": [],
+        "worker_verdict": "SURVIVES"
+      },
+      {
+        "hypothesis_id": "h_p13",
+        "refutations": [],
+        "worker_verdict": "SURVIVES"
+      },
+      {
+        "hypothesis_id": "h_p14",
+        "refutations": [],
+        "worker_verdict": "SURVIVES"
+      },
+      {
+        "hypothesis_id": "h_stable",
+        "refutations": [],
+        "worker_verdict": "SURVIVES"
+      }
+    ]
+  }
+}
