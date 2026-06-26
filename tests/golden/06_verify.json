@@ -1,0 +1,108 @@
+{
+  "envelope_version": "1.0",
+  "stage": "verify",
+  "stage_index": 6,
+  "unit": {
+    "domain": "quran-root",
+    "ref": "Elm",
+    "display": "علم",
+    "unit_id": 218
+  },
+  "substrate": {
+    "id": "quran-hafs",
+    "hash": "sha256:463f3487e2af0c23fd583d4ae27b2e2e2fd556b8e6138aa6ef31b6e30098aaa3"
+  },
+  "protocol_version": "0.1.0",
+  "run_id": "0b4891b72a439663",
+  "produced_by": {
+    "layer": "deterministic",
+    "tool": "engine.stages.verify"
+  },
+  "inputs": {
+    "prev_artifact": "sha256:f7b8217531837c80e98a1e68e7b8d797df4348315d96a164e9b84ebbe146e581",
+    "substrate": "sha256:463f3487e2af0c23fd583d4ae27b2e2e2fd556b8e6138aa6ef31b6e30098aaa3"
+  },
+  "produced_at": "2026-06-26T19:30:08.427126+00:00",
+  "payload": {
+    "verifications": [
+      {
+        "hypothesis_id": "h_recover",
+        "decision": "ACCEPTED",
+        "confidence_tier": "محتمل",
+        "knowledge_id": "k_Elm_0",
+        "tests": {
+          "masked_recovery": {
+            "score": 0.5604,
+            "baseline": 0.3013,
+            "best_coroot": 110,
+            "null_p": 0.0,
+            "passed": true
+          }
+        }
+      },
+      {
+        "hypothesis_id": "h_p0",
+        "decision": "ACCEPTED",
+        "confidence_tier": "صریح",
+        "knowledge_id": "k_Elm_1",
+        "tests": {
+          "cooccurrence_constraint": {
+            "score": 8.566,
+            "lift": 8.566,
+            "baseline": 1.0,
+            "null_p": 0.0,
+            "observed": 728,
+            "passed": true
+          }
+        }
+      },
+      {
+        "hypothesis_id": "h_p13",
+        "decision": "ACCEPTED",
+        "confidence_tier": "صریح",
+        "knowledge_id": "k_Elm_2",
+        "tests": {
+          "cooccurrence_constraint": {
+            "score": 3.218,
+            "lift": 3.218,
+            "baseline": 1.0,
+            "null_p": 0.0,
+            "observed": 71,
+            "passed": true
+          }
+        }
+      },
+      {
+        "hypothesis_id": "h_p14",
+        "decision": "ACCEPTED",
+        "confidence_tier": "قوی",
+        "knowledge_id": "k_Elm_3",
+        "tests": {
+          "cooccurrence_constraint": {
+            "score": 1.873,
+            "lift": 1.873,
+            "baseline": 1.0,
+            "null_p": 0.0,
+            "observed": 61,
+            "passed": true
+          }
+        }
+      },
+      {
+        "hypothesis_id": "h_stable",
+        "decision": "ACCEPTED",
+        "confidence_tier": "محتمل",
+        "knowledge_id": "k_Elm_4",
+        "tests": {
+          "two_half_stability": {
+            "score": 1.0,
+            "null_p": 0.0,
+            "passed": true,
+            "half1": true,
+            "half2": true
+          }
+        }
+      }
+    ]
+  }
+}

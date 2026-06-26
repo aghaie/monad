@@ -10,7 +10,7 @@ REPO = Path(__file__).resolve().parents[1]
 DEFAULT_RUN_ROOT = REPO / "engine" / "runs"
 
 # مراحل به‌ترتیب فعال می‌شوند؛ هر Task یک ردیف را روشن می‌کند.
-STAGES = [(1, "extract"), (2, "cluster"), (3, "observe"), (4, "hypothesis"), (5, "attack")]
+STAGES = [(1, "extract"), (2, "cluster"), (3, "observe"), (4, "hypothesis"), (5, "attack"), (6, "verify")]
 
 
 def _worker_config(worker_name):
@@ -80,6 +80,16 @@ def run(domain, unit_ref, worker_name="statistical", run_root=None):
         {"prev_artifact": core.sha256_of(hpay)}, apay)
     core.write_artifact(run_dir, 5, "attack", aenv)
     done.append("attack")
+
+    from engine.stages import verify as _verify
+    vpay = _verify.run(hpay["hypotheses"], apay["attacks"], unit, adp)
+    validate_payload("verify", vpay)
+    venv = core.build_envelope(
+        "verify", 6, unit, substrate, core.PROTOCOL_VERSION, run_id,
+        {"layer": "deterministic", "tool": "engine.stages.verify"},
+        {"prev_artifact": core.sha256_of(apay), "substrate": substrate["hash"]}, vpay)
+    core.write_artifact(run_dir, 6, "verify", venv)
+    done.append("verify")
 
     return {"run_id": run_id, "run_dir": str(run_dir),
             "stages_done": done, "status": "ok"}

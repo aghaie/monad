@@ -27,3 +27,6 @@ def test_golden_hypothesis(tmp_path):
 
 def test_golden_attack(tmp_path):
     _check(5, "attack", tmp_path)
+
+def test_golden_verify(tmp_path):
+    _check(6, "verify", tmp_path)
