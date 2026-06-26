@@ -1,0 +1,14 @@
+"id","lang","translator","priority","style","notes"
+1,"fa","Ayati",10,"literal","نزدیک به لفظ"
+2,"fa","Khorramdel",20,"literal","نزدیک به لفظ، با توضیح گاهی داخل متن"
+3,"fa","Fooladvand",30,"balanced","معادل‌گزینی دقیق"
+4,"fa","Makarem",40,"balanced",NULL
+5,"fa","Ansarian",50,"balanced",NULL
+6,"fa","Gharaati",60,"balanced",NULL
+7,"fa","Khorramshahi",70,"balanced",NULL
+8,"fa","Mojtabavi",80,"balanced",NULL
+9,"fa","Moezzi",90,"balanced",NULL
+10,"fa","Sadeqi",100,"balanced",NULL
+11,"fa","Safavi",110,"balanced",NULL
+12,"fa","Elahi-Ghomshei",120,"literary","ادبی‌تر"
+13,"fa","Bahrampour",130,"literary","سبک روان/نزدیک ادبیات گفتار"
