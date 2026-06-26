@@ -14,3 +14,6 @@ engine/runs/
 
 # Generated RFC output (deterministically regenerable from store; not tracked in v1)
 rfc/quran-root/
+
+# Benchmark ledger (runtime log; deterministically regenerable — not tracked)
+engine/benchmark/ledger/

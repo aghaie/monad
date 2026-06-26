@@ -1,1 +1,16 @@
-{ "current_stable": null, "versions": {} }
+{
+  "current_stable": "0.1.0",
+  "versions": {
+    "0.1.0": {
+      "score": {
+        "Recoverability": 0.5604,
+        "Reproducibility": 1.0,
+        "Falsifiability": 1.0,
+        "Compression": 1.0,
+        "Coherence": 1.0,
+        "PredictivePower": 1.0
+      },
+      "status": "candidate"
+    }
+  }
+}

@@ -159,3 +159,46 @@ def run(domain, unit_ref, worker_name="statistical", run_root=None):
     except Exception as e:
         mem.record_failed_run(run_id, e)
         raise
+
+
+def run_and_score(domain, unit_ref, worker_name="statistical"):
+    """اجرای کاملِ ۹ مرحله + benchmark + RFC با امتیاز + Meta-Protocol.
+
+    CRITICAL — بدون بازگشت: run_and_score فقط run را یک‌بار صدا می‌زند؛
+    benchmark فقط اینجا محاسبه می‌شود، نه داخل run.
+    """
+    res = run(domain, unit_ref, worker_name=worker_name)
+    adp = ADAPTERS[domain]
+    unit = adp.resolve_unit(unit_ref)
+
+    # بارگذاری redteam اگر وجود داشت
+    import json as _json
+    rt_path = REPO / "engine" / "benchmark" / "redteam" / f"{unit['ref']}.json"
+    redteam = None
+    if rt_path.exists():
+        redteam = _json.loads(rt_path.read_text("utf-8"))
+
+    from engine.benchmark import score as _score
+    vec = _score.score_run(res["run_dir"], adp, unit, redteam)
+
+    # RFC را با امتیاز بازتولید
+    from engine.store import Store
+    from rfc import generator as _rfc_gen
+    store = Store(REPO / "store")
+    rfc = _rfc_gen.generate(store, unit, res["run_id"], core.PROTOCOL_VERSION,
+                            benchmark=vec)
+
+    # ثبتِ ledger
+    led_dir = REPO / "engine" / "benchmark" / "ledger"
+    led_dir.mkdir(parents=True, exist_ok=True)
+    (led_dir / f"{core.PROTOCOL_VERSION}.json").write_text(
+        _json.dumps({"unit": unit["ref"], "score": vec}, ensure_ascii=False, indent=2),
+        "utf-8")
+
+    # Meta-Protocol
+    from engine import metaprotocol as _mp
+    mp = _mp.evaluate_candidate(core.PROTOCOL_VERSION, vec,
+                                REPO / "protocol" / "registry.json")
+
+    res.update({"benchmark": vec, "rfc_id": rfc["rfc_id"], "metaprotocol": mp})
+    return res

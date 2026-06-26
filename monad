@@ -19,12 +19,16 @@ def main():
                    choices=["statistical", "claude", "human"])
     args = p.parse_args()
     if args.cmd == "run":
-        res = orchestrator.run(args.domain, args.unit_ref, worker_name=args.worker)
+        res = orchestrator.run_and_score(args.domain, args.unit_ref, worker_name=args.worker)
         print(f"run_id={res['run_id']}  status={res['status']}")
         print(f"stages={res['stages_done']}")
         print(f"dir={res['run_dir']}")
         if "rfc_id" in res:
             print(f"rfc_id={res['rfc_id']}")
+        if "benchmark" in res:
+            print("benchmark:")
+            for dim, val in res["benchmark"].items():
+                print(f"  {dim}: {val}")
 
 
 if __name__ == "__main__":
