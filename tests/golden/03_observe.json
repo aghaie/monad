@@ -1,0 +1,150 @@
+{
+  "envelope_version": "1.0",
+  "stage": "observe",
+  "stage_index": 3,
+  "unit": {
+    "domain": "quran-root",
+    "ref": "Elm",
+    "display": "علم",
+    "unit_id": 218
+  },
+  "substrate": {
+    "id": "quran-hafs",
+    "hash": "sha256:463f3487e2af0c23fd583d4ae27b2e2e2fd556b8e6138aa6ef31b6e30098aaa3"
+  },
+  "protocol_version": "0.1.0",
+  "run_id": "0b4891b72a439663",
+  "produced_by": {
+    "layer": "discovery",
+    "worker": "StatisticalWorker",
+    "capability": "observe"
+  },
+  "inputs": {
+    "prev_artifact": "sha256:9a2c788483e2a5b967028f3763d276d5a3429e26686c28f7487b1dffd50af1bd"
+  },
+  "produced_at": "2026-06-26T19:08:12.913105+00:00",
+  "payload": {
+    "observations": [
+      {
+        "observation_id": "o_c0",
+        "type": "description",
+        "statement": "123 رخداد با امضای pos=ADJ|aspect=NA.",
+        "cites": [
+          "c0"
+        ]
+      },
+      {
+        "observation_id": "o_c1",
+        "type": "description",
+        "statement": "306 رخداد با امضای pos=N|aspect=NA.",
+        "cites": [
+          "c1"
+        ]
+      },
+      {
+        "observation_id": "o_c2",
+        "type": "description",
+        "statement": "334 رخداد با امضای pos=V|aspect=IMPF.",
+        "cites": [
+          "c2"
+        ]
+      },
+      {
+        "observation_id": "o_c3",
+        "type": "description",
+        "statement": "31 رخداد با امضای pos=V|aspect=IMPV.",
+        "cites": [
+          "c3"
+        ]
+      },
+      {
+        "observation_id": "o_c4",
+        "type": "description",
+        "statement": "60 رخداد با امضای pos=V|aspect=PERF.",
+        "cites": [
+          "c4"
+        ]
+      },
+      {
+        "observation_id": "o_p0",
+        "type": "description",
+        "statement": "هم‌آییِ پایدار با «علم» (lift=8.566).",
+        "cites": [
+          "p0"
+        ]
+      },
+      {
+        "observation_id": "o_p1",
+        "type": "description",
+        "statement": "هم‌آییِ پایدار با «اله» (lift=1.86).",
+        "cites": [
+          "p1"
+        ]
+      },
+      {
+        "observation_id": "o_p2",
+        "type": "description",
+        "statement": "هم‌آییِ پایدار با «قول» (lift=1.425).",
+        "cites": [
+          "p2"
+        ]
+      },
+      {
+        "observation_id": "o_p3",
+        "type": "description",
+        "statement": "هم‌آییِ پایدار با «كون» (lift=1.144).",
+        "cites": [
+          "p3"
+        ]
+      },
+      {
+        "observation_id": "o_p4",
+        "type": "description",
+        "statement": "هم‌آییِ پایدار با «ربب» (lift=1.269).",
+        "cites": [
+          "p4"
+        ]
+      },
+      {
+        "observation_id": "o_p5",
+        "type": "description",
+        "statement": "هم‌آییِ پایدار با «امن» (lift=1.173).",
+        "cites": [
+          "p5"
+        ]
+      },
+      {
+        "observation_id": "o_p6",
+        "type": "description",
+        "statement": "هم‌آییِ پایدار با «شيا» (lift=1.812).",
+        "cites": [
+          "p6"
+        ]
+      },
+      {
+        "observation_id": "o_p7",
+        "type": "description",
+        "statement": "هم‌آییِ پایدار با «اتي» (lift=1.516).",
+        "cites": [
+          "p7"
+        ]
+      },
+      {
+        "observation_id": "o_p8",
+        "type": "description",
+        "statement": "هم‌آییِ پایدار با «ارض» (lift=1.655).",
+        "cites": [
+          "p8"
+        ]
+      },
+      {
+        "observation_id": "o_p9",
+        "type": "description",
+        "statement": "هم‌آییِ پایدار با «بين» (lift=1.547).",
+        "cites": [
+          "p9"
+        ]
+      }
+    ]
+  }
+}
