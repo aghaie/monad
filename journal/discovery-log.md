@@ -434,3 +434,32 @@ to the current discipline and are suggestive only. The method itself (Section 2 
 FINDINGS) is recorded as the real reusable asset.
 
 ---
+## 2026-07-06 — L12: سنت‌ها — قوانین موتور جهان از لاگ اجرا (مثبت معتبر)
+
+User reframed the project: the ayat are the EXECUTION LOG of a universe whose
+maker documented no rules; reverse-engineer the engine's laws from the log
+alone. Chosen target (user delegated the decision): the laws of the world
+INSIDE the log (sunan, "if X then Y"), not the text's generative grammar.
+
+Method: the substrate's own morphology marks conditional constructions
+(COND/idha + RSLT fa-of-apodosis) → 330 events (264 ayahs), protasis roots →
+apodosis roots; directed pairs, support ≥3; apodosis-shuffling permutation
+null (N=2000, marginals preserved), BH-FDR, two-half presence, reverse-
+direction count.
+
+Results: GLOBAL law-likeness positive — 117 pairs at support≥3 vs null mean
+83.3, p=0.0005. 38 verified laws (2 صریح + 36 قوی, all q≤0.031); 34/38 have
+ZERO reverse-direction occurrences (one-way, as causal laws should be).
+صریح: اصلاح←رحمت (5 events, both halves), کفر←گمراهی (4, both halves).
+Families: fear/grief-removal (امن/صلح←خوف/حزن), repentance←forgiveness,
+work←wage (عمل←اجر), duress←exemption (ضرر←غفر), symmetric retribution
+(قتل←قتل), inheritance block (local, honestly NOT صریح), iddah←ma'ruf,
+end-of-rite←dhikr. Honest negatives: raw max-support pair p=0.72 (frequency
+giants «←اله» correctly killed by the null); 64/117 candidates rejected.
+
+Artifacts: scripts/build_L12_laws.py + validate_L12_laws.py (15/15 PASS,
+byte-identical rebuild), generated/layers/L12_laws/, docs/L12-sunan-laws-report.md.
+Backlog v2: multi-ayah conditionals, fa-/thumma narrative chains, CAUS/PRP
+purpose clauses, concept-level laws, quran-law domain in Discovery Protocol.
+
+---

@@ -1,0 +1,987 @@
+{
+  "laws": [
+    {
+      "antecedent": "ولي",
+      "consequent": "علم",
+      "evidence": [
+        "2:115",
+        "2:137",
+        "2:137",
+        "3:63",
+        "5:49",
+        "5:92",
+        "8:40"
+      ],
+      "half1_support": 4,
+      "half2_support": 3,
+      "p": 0.015492,
+      "q": 0.046476,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 7,
+      "tier": "محتمل",
+      "two_half_stable": true
+    },
+    {
+      "antecedent": "اله",
+      "consequent": "اجر",
+      "evidence": [
+        "2:112",
+        "2:62",
+        "4:100",
+        "4:114",
+        "4:74"
+      ],
+      "half1_support": 4,
+      "half2_support": 1,
+      "p": 0.009995,
+      "q": 0.030774,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 5,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "خير",
+      "consequent": "علم",
+      "evidence": [
+        "2:158",
+        "2:215",
+        "2:273",
+        "3:115",
+        "4:127"
+      ],
+      "half1_support": 4,
+      "half2_support": 1,
+      "p": 0.002999,
+      "q": 0.013496,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 5,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "صلح",
+      "consequent": "رحم",
+      "evidence": [
+        "2:182",
+        "4:129",
+        "4:16",
+        "5:39",
+        "6:54"
+      ],
+      "half1_support": 2,
+      "half2_support": 3,
+      "p": 0.001,
+      "q": 0.006158,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 5,
+      "tier": "صریح",
+      "two_half_stable": true
+    },
+    {
+      "antecedent": "فعل",
+      "consequent": "علم",
+      "evidence": [
+        "2:215",
+        "2:231",
+        "2:282",
+        "3:115",
+        "4:127"
+      ],
+      "half1_support": 4,
+      "half2_support": 1,
+      "p": 0.02049,
+      "q": 0.055752,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 5,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "فعل",
+      "consequent": "وقي",
+      "evidence": [
+        "2:231",
+        "2:24",
+        "2:282",
+        "3:115",
+        "3:28"
+      ],
+      "half1_support": 5,
+      "half2_support": 0,
+      "p": 0.0005,
+      "q": 0.005318,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 5,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "كون",
+      "consequent": "ترك",
+      "evidence": [
+        "4:11",
+        "4:11",
+        "4:12",
+        "4:12",
+        "4:176"
+      ],
+      "half1_support": 4,
+      "half2_support": 1,
+      "p": 0.0005,
+      "q": 0.005318,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 5,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "اله",
+      "consequent": "عظم",
+      "evidence": [
+        "4:114",
+        "4:48",
+        "4:74",
+        "5:41"
+      ],
+      "half1_support": 2,
+      "half2_support": 2,
+      "p": 0.008996,
+      "q": 0.029237,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "قوی",
+      "two_half_stable": true
+    },
+    {
+      "antecedent": "امن",
+      "consequent": "اجر",
+      "evidence": [
+        "2:62",
+        "3:179",
+        "3:57",
+        "4:173"
+      ],
+      "half1_support": 3,
+      "half2_support": 1,
+      "p": 0.003498,
+      "q": 0.013642,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "امن",
+      "consequent": "خوف",
+      "evidence": [
+        "2:62",
+        "5:69",
+        "6:48",
+        "72:13"
+      ],
+      "half1_support": 1,
+      "half2_support": 3,
+      "p": 0.003498,
+      "q": 0.013642,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "امن",
+      "consequent": "ربب",
+      "evidence": [
+        "2:26",
+        "2:283",
+        "2:62",
+        "6:54"
+      ],
+      "half1_support": 3,
+      "half2_support": 1,
+      "p": 0.026987,
+      "q": 0.064317,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "صلح",
+      "consequent": "حزن",
+      "evidence": [
+        "2:62",
+        "5:69",
+        "6:48",
+        "7:35"
+      ],
+      "half1_support": 1,
+      "half2_support": 3,
+      "p": 0.0005,
+      "q": 0.005318,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "صلح",
+      "consequent": "خوف",
+      "evidence": [
+        "2:62",
+        "5:69",
+        "6:48",
+        "7:35"
+      ],
+      "half1_support": 1,
+      "half2_support": 3,
+      "p": 0.001,
+      "q": 0.006158,
+      "reflexive": false,
+      "reverse_support": 1,
+      "support": 4,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "صلح",
+      "consequent": "غفر",
+      "evidence": [
+        "2:182",
+        "4:129",
+        "5:39",
+        "6:54"
+      ],
+      "half1_support": 1,
+      "half2_support": 3,
+      "p": 0.003498,
+      "q": 0.013642,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "كفر",
+      "consequent": "ضلل",
+      "evidence": [
+        "2:108",
+        "2:26",
+        "4:136",
+        "5:12"
+      ],
+      "half1_support": 2,
+      "half2_support": 2,
+      "p": 0.0005,
+      "q": 0.005318,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "صریح",
+      "two_half_stable": true
+    },
+    {
+      "antecedent": "كون",
+      "consequent": "ثلث",
+      "evidence": [
+        "4:11",
+        "4:11",
+        "4:12",
+        "4:176"
+      ],
+      "half1_support": 3,
+      "half2_support": 1,
+      "p": 0.006497,
+      "q": 0.022357,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "كون",
+      "consequent": "دين",
+      "evidence": [
+        "4:11",
+        "4:12",
+        "4:12",
+        "4:12"
+      ],
+      "half1_support": 4,
+      "half2_support": 0,
+      "p": 0.0005,
+      "q": 0.005318,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "كون",
+      "consequent": "وجه",
+      "evidence": [
+        "2:144",
+        "2:150",
+        "4:43",
+        "5:6"
+      ],
+      "half1_support": 3,
+      "half2_support": 1,
+      "p": 0.005997,
+      "q": 0.021262,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "كون",
+      "consequent": "وصي",
+      "evidence": [
+        "4:11",
+        "4:12",
+        "4:12",
+        "4:12"
+      ],
+      "half1_support": 4,
+      "half2_support": 0,
+      "p": 0.0005,
+      "q": 0.005318,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "كون",
+      "consequent": "ولي",
+      "evidence": [
+        "2:144",
+        "2:150",
+        "2:282",
+        "4:135"
+      ],
+      "half1_support": 3,
+      "half2_support": 1,
+      "p": 0.025487,
+      "q": 0.062125,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 4,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "اتي",
+      "consequent": "اخذ",
+      "evidence": [
+        "4:20",
+        "59:7",
+        "5:41"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.003998,
+      "q": 0.014618,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "اتي",
+      "consequent": "خير",
+      "evidence": [
+        "2:269",
+        "2:271",
+        "4:25"
+      ],
+      "half1_support": 3,
+      "half2_support": 0,
+      "p": 0.002499,
+      "q": 0.01329,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "اجل",
+      "consequent": "عرف",
+      "evidence": [
+        "2:231",
+        "2:234",
+        "65:2"
+      ],
+      "half1_support": 2,
+      "half2_support": 1,
+      "p": 0.0005,
+      "q": 0.005318,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "اله",
+      "consequent": "عقب",
+      "evidence": [
+        "2:211",
+        "59:4",
+        "8:13"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.023488,
+      "q": 0.059741,
+      "reflexive": false,
+      "reverse_support": 2,
+      "support": 3,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "اله",
+      "consequent": "عند",
+      "evidence": [
+        "2:112",
+        "2:62",
+        "4:94"
+      ],
+      "half1_support": 3,
+      "half2_support": 0,
+      "p": 0.038981,
+      "q": 0.086052,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "اله",
+      "consequent": "وجد",
+      "evidence": [
+        "4:143",
+        "4:52",
+        "4:88"
+      ],
+      "half1_support": 2,
+      "half2_support": 1,
+      "p": 0.032484,
+      "q": 0.074522,
+      "reflexive": false,
+      "reverse_support": 3,
+      "support": 3,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "امن",
+      "consequent": "حزن",
+      "evidence": [
+        "2:62",
+        "5:69",
+        "6:48"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.016992,
+      "q": 0.047335,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "بعد",
+      "consequent": "عذب",
+      "evidence": [
+        "2:178",
+        "5:115",
+        "5:94"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.008496,
+      "q": 0.028401,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "بلغ",
+      "consequent": "عرف",
+      "evidence": [
+        "2:231",
+        "2:234",
+        "65:2"
+      ],
+      "half1_support": 2,
+      "half2_support": 1,
+      "p": 0.0005,
+      "q": 0.005318,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "توب",
+      "consequent": "رحم",
+      "evidence": [
+        "4:16",
+        "5:39",
+        "6:54"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.003998,
+      "q": 0.014618,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "صلح",
+      "consequent": "اجر",
+      "evidence": [
+        "2:62",
+        "3:57",
+        "4:173"
+      ],
+      "half1_support": 2,
+      "half2_support": 1,
+      "p": 0.003498,
+      "q": 0.013642,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "صلو",
+      "consequent": "ذكر",
+      "evidence": [
+        "4:103",
+        "62:10",
+        "62:9"
+      ],
+      "half1_support": 0,
+      "half2_support": 3,
+      "p": 0.001,
+      "q": 0.006158,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "ضرر",
+      "consequent": "رحم",
+      "evidence": [
+        "2:173",
+        "5:3",
+        "6:145"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.002999,
+      "q": 0.013496,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "ضرر",
+      "consequent": "غفر",
+      "evidence": [
+        "2:173",
+        "5:3",
+        "6:145"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.001499,
+      "q": 0.008769,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "عمل",
+      "consequent": "اجر",
+      "evidence": [
+        "2:62",
+        "3:57",
+        "4:173"
+      ],
+      "half1_support": 2,
+      "half2_support": 1,
+      "p": 0.001,
+      "q": 0.006158,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "غير",
+      "consequent": "رحم",
+      "evidence": [
+        "2:173",
+        "5:3",
+        "6:145"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.001999,
+      "q": 0.011137,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "غير",
+      "consequent": "غفر",
+      "evidence": [
+        "2:173",
+        "5:3",
+        "6:145"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.0005,
+      "q": 0.005318,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "فعل",
+      "consequent": "شيا",
+      "evidence": [
+        "2:231",
+        "2:282",
+        "3:28"
+      ],
+      "half1_support": 3,
+      "half2_support": 0,
+      "p": 0.027486,
+      "q": 0.064317,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "فعل",
+      "consequent": "كفر",
+      "evidence": [
+        "2:24",
+        "3:115",
+        "5:67"
+      ],
+      "half1_support": 2,
+      "half2_support": 1,
+      "p": 0.022489,
+      "q": 0.059741,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "قتل",
+      "consequent": "جزي",
+      "evidence": [
+        "2:191",
+        "4:93",
+        "5:95"
+      ],
+      "half1_support": 2,
+      "half2_support": 1,
+      "p": 0.001,
+      "q": 0.006158,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "قتل",
+      "consequent": "قتل",
+      "evidence": [
+        "2:191",
+        "5:32",
+        "5:95"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.0005,
+      "q": 0.005318,
+      "reflexive": true,
+      "reverse_support": 3,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "قضي",
+      "consequent": "ذكر",
+      "evidence": [
+        "2:200",
+        "4:103",
+        "62:10"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.001,
+      "q": 0.006158,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "قضي",
+      "consequent": "قول",
+      "evidence": [
+        "2:117",
+        "2:200",
+        "3:47"
+      ],
+      "half1_support": 3,
+      "half2_support": 0,
+      "p": 0.001,
+      "q": 0.006158,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "كفر",
+      "consequent": "اخر",
+      "evidence": [
+        "2:217",
+        "3:56",
+        "5:5"
+      ],
+      "half1_support": 2,
+      "half2_support": 1,
+      "p": 0.022989,
+      "q": 0.059741,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "كفر",
+      "consequent": "عذب",
+      "evidence": [
+        "2:126",
+        "3:56",
+        "5:115"
+      ],
+      "half1_support": 2,
+      "half2_support": 1,
+      "p": 0.025487,
+      "q": 0.062125,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "كفر",
+      "consequent": "مثل",
+      "evidence": [
+        "2:26",
+        "4:140",
+        "60:11"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.016492,
+      "q": 0.047063,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "كون",
+      "consequent": "سدس",
+      "evidence": [
+        "4:11",
+        "4:11",
+        "4:12"
+      ],
+      "half1_support": 3,
+      "half2_support": 0,
+      "p": 0.002999,
+      "q": 0.013496,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "كون",
+      "consequent": "يدي",
+      "evidence": [
+        "2:97",
+        "4:43",
+        "5:6"
+      ],
+      "half1_support": 2,
+      "half2_support": 1,
+      "p": 0.016492,
+      "q": 0.047063,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "محتمل",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "نفق",
+      "consequent": "علم",
+      "evidence": [
+        "2:270",
+        "2:273",
+        "3:92"
+      ],
+      "half1_support": 3,
+      "half2_support": 0,
+      "p": 0.009995,
+      "q": 0.030774,
+      "reflexive": false,
+      "reverse_support": 1,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "هدي",
+      "consequent": "هدي",
+      "evidence": [
+        "2:38",
+        "6:157",
+        "7:178"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.001,
+      "q": 0.006158,
+      "reflexive": true,
+      "reverse_support": 3,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "ولد",
+      "consequent": "ترك",
+      "evidence": [
+        "4:12",
+        "4:12",
+        "4:176"
+      ],
+      "half1_support": 2,
+      "half2_support": 1,
+      "p": 0.0005,
+      "q": 0.005318,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "ولي",
+      "consequent": "بلغ",
+      "evidence": [
+        "3:20",
+        "5:92",
+        "64:12"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.002999,
+      "q": 0.013496,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "قوی",
+      "two_half_stable": false
+    },
+    {
+      "antecedent": "ولي",
+      "consequent": "رسل",
+      "evidence": [
+        "4:80",
+        "5:92",
+        "64:12"
+      ],
+      "half1_support": 1,
+      "half2_support": 2,
+      "p": 0.033983,
+      "q": 0.076462,
+      "reflexive": false,
+      "reverse_support": 0,
+      "support": 3,
+      "tier": "محتمل",
+      "two_half_stable": false
+    }
+  ]
+}

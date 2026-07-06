@@ -1,0 +1,28 @@
+{
+  "global_test": {
+    "null_max_support_max": 34,
+    "null_max_support_mean": 22.211,
+    "null_n_pairs_max": 110,
+    "null_n_pairs_mean": 83.278,
+    "observed_max_support": 21,
+    "observed_n_pairs_at_support": 117,
+    "p_max_support": 0.724138,
+    "p_n_pairs": 0.0005
+  },
+  "min_support": 3,
+  "n_ayahs_with_events": 261,
+  "n_candidate_pairs": 117,
+  "n_events": 330,
+  "n_events_dropped_empty": 0,
+  "n_half1_events": 165,
+  "n_half2_events": 165,
+  "n_null": 2000,
+  "seed": 12,
+  "tiers": {
+    "صریح": 2,
+    "قوی": 36,
+    "محتمل": 15,
+    "نامشخص": 64
+  },
+  "two_half_split_seq": 596
+}

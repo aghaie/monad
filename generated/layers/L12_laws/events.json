@@ -1,0 +1,6321 @@
+{
+  "events": [
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اله",
+        "دعو",
+        "دون",
+        "سور",
+        "شهد",
+        "مثل"
+      ],
+      "ayah": 23,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "ريب",
+        "عبد",
+        "كون",
+        "نزل"
+      ],
+      "rslt_pos": 9,
+      "seq": 30,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "حجر",
+        "عدد",
+        "كفر",
+        "نور",
+        "نوس",
+        "وقد",
+        "وقي"
+      ],
+      "ayah": 24,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "فعل"
+      ],
+      "rslt_pos": 6,
+      "seq": 31,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "حقق",
+        "ربب",
+        "علم"
+      ],
+      "ayah": 26,
+      "marker": "{l~a*iyna",
+      "marker_pos": 13,
+      "protasis_roots": [
+        "امن"
+      ],
+      "rslt_pos": 15,
+      "seq": 33,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "رود",
+        "ضلل",
+        "فسق",
+        "قول",
+        "كثر",
+        "مثل",
+        "هدي"
+      ],
+      "ayah": 26,
+      "marker": "{l~a*iyna",
+      "marker_pos": 21,
+      "protasis_roots": [
+        "كفر"
+      ],
+      "rslt_pos": 23,
+      "seq": 33,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "تبع",
+        "حزن",
+        "خوف",
+        "هدي"
+      ],
+      "ayah": 38,
+      "marker": "<im~aA",
+      "marker_pos": 5,
+      "protasis_roots": [
+        "اتي",
+        "هدي"
+      ],
+      "rslt_pos": 9,
+      "seq": 45,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "حزن",
+        "خوف"
+      ],
+      "ayah": 38,
+      "marker": "man",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "تبع",
+        "هدي"
+      ],
+      "rslt_pos": 12,
+      "seq": 45,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اجر",
+        "حزن",
+        "خوف",
+        "ربب",
+        "عند"
+      ],
+      "ayah": 62,
+      "marker": "mano",
+      "marker_pos": 8,
+      "protasis_roots": [
+        "اخر",
+        "اله",
+        "امن",
+        "صلح",
+        "عمل",
+        "يوم"
+      ],
+      "rslt_pos": 15,
+      "seq": 69,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "خلد",
+        "صحب",
+        "نور"
+      ],
+      "ayah": 81,
+      "marker": "man",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "حوط",
+        "خطا",
+        "سوا",
+        "كسب"
+      ],
+      "rslt_pos": 8,
+      "seq": 88,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "مني",
+        "موت"
+      ],
+      "ayah": 94,
+      "marker": "<in",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "اخر",
+        "اله",
+        "خلص",
+        "دور",
+        "دون",
+        "عند",
+        "كون",
+        "نوس"
+      ],
+      "rslt_pos": 13,
+      "seq": 101,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اذن",
+        "اله",
+        "امن",
+        "بشر",
+        "بين",
+        "صدق",
+        "قلب",
+        "نزل",
+        "هدي",
+        "يدي"
+      ],
+      "ayah": 97,
+      "marker": "man",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "عدو",
+        "كون"
+      ],
+      "rslt_pos": 6,
+      "seq": 104,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "عدو",
+        "كفر"
+      ],
+      "ayah": 98,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اله",
+        "رسل",
+        "عدو",
+        "كون",
+        "ملك"
+      ],
+      "rslt_pos": 9,
+      "seq": 105,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "سبل",
+        "سوي",
+        "ضلل"
+      ],
+      "ayah": 108,
+      "marker": "man",
+      "marker_pos": 11,
+      "protasis_roots": [
+        "امن",
+        "بدل",
+        "كفر"
+      ],
+      "rslt_pos": 15,
+      "seq": 115,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اجر",
+        "حزن",
+        "خوف",
+        "ربب",
+        "عند"
+      ],
+      "ayah": 112,
+      "marker": "mano",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "اله",
+        "حسن",
+        "سلم",
+        "وجه"
+      ],
+      "rslt_pos": 8,
+      "seq": 119,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "علم",
+        "وجه",
+        "وسع"
+      ],
+      "ayah": 115,
+      "marker": ">ayonamaA",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 6,
+      "seq": 122,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "قول",
+        "كون"
+      ],
+      "ayah": 117,
+      "marker": "<i*aA",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "امر",
+        "قضي"
+      ],
+      "rslt_pos": 7,
+      "seq": 124,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "خسر"
+      ],
+      "ayah": 121,
+      "marker": "man",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "كفر"
+      ],
+      "rslt_pos": 13,
+      "seq": 128,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "باس",
+        "صير",
+        "ضرر",
+        "عذب",
+        "قلل",
+        "متع",
+        "نور"
+      ],
+      "ayah": 126,
+      "marker": "man",
+      "marker_pos": 20,
+      "protasis_roots": [
+        "كفر"
+      ],
+      "rslt_pos": 22,
+      "seq": 133,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "هدي"
+      ],
+      "ayah": 137,
+      "marker": "<ino",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "امن",
+        "مثل"
+      ],
+      "rslt_pos": 7,
+      "seq": 144,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "سمع",
+        "شقق",
+        "علم",
+        "كفي"
+      ],
+      "ayah": 137,
+      "marker": "<in",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 11,
+      "seq": 144,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "سمع",
+        "علم",
+        "كفي"
+      ],
+      "ayah": 137,
+      "marker": "<in",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "شقق",
+        "ولي"
+      ],
+      "rslt_pos": 15,
+      "seq": 144,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اله",
+        "حقق",
+        "ربب",
+        "شطر",
+        "علم",
+        "عمل",
+        "غفل",
+        "كتب",
+        "وجه",
+        "ولي"
+      ],
+      "ayah": 144,
+      "marker": "Hayovu",
+      "marker_pos": 15,
+      "protasis_roots": [
+        "حيث",
+        "كون"
+      ],
+      "rslt_pos": 18,
+      "seq": 151,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "تمم",
+        "حجج",
+        "خشي",
+        "شطر",
+        "ظلم",
+        "كون",
+        "نعم",
+        "نوس",
+        "هدي",
+        "وجه",
+        "ولي"
+      ],
+      "ayah": 150,
+      "marker": "Hayovu",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "حيث",
+        "كون"
+      ],
+      "rslt_pos": 12,
+      "seq": 157,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "جنح",
+        "طوف"
+      ],
+      "ayah": 158,
+      "marker": "mano",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "بيت",
+        "حجج",
+        "عمر"
+      ],
+      "rslt_pos": 12,
+      "seq": 165,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "شكر",
+        "علم"
+      ],
+      "ayah": 158,
+      "marker": "man",
+      "marker_pos": 18,
+      "protasis_roots": [
+        "خير",
+        "طوع"
+      ],
+      "rslt_pos": 21,
+      "seq": 165,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "برا",
+        "حسر",
+        "خرج",
+        "راي",
+        "عمل",
+        "نور"
+      ],
+      "ayah": 167,
+      "marker": "lawo",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "كرر"
+      ],
+      "rslt_pos": 8,
+      "seq": 174,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اثم",
+        "اله",
+        "رحم",
+        "غفر"
+      ],
+      "ayah": 173,
+      "marker": "mani",
+      "marker_pos": 13,
+      "protasis_roots": [
+        "بغي",
+        "ضرر",
+        "عدو",
+        "غير"
+      ],
+      "rslt_pos": 19,
+      "seq": 180,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "الم",
+        "عذب"
+      ],
+      "ayah": 178,
+      "marker": "mani",
+      "marker_pos": 31,
+      "protasis_roots": [
+        "بعد",
+        "عدو"
+      ],
+      "rslt_pos": 35,
+      "seq": 185,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اثم",
+        "اله",
+        "بدل",
+        "سمع",
+        "علم"
+      ],
+      "ayah": 181,
+      "marker": "man[",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "بدل",
+        "بعد",
+        "سمع"
+      ],
+      "rslt_pos": 5,
+      "seq": 188,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اثم",
+        "اله",
+        "رحم",
+        "غفر"
+      ],
+      "ayah": 182,
+      "marker": "mano",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اثم",
+        "بين",
+        "جنف",
+        "خوف",
+        "صلح",
+        "وصي"
+      ],
+      "rslt_pos": 10,
+      "seq": 189,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "خير",
+        "صوم"
+      ],
+      "ayah": 184,
+      "marker": "man",
+      "marker_pos": 20,
+      "protasis_roots": [
+        "خير",
+        "طوع"
+      ],
+      "rslt_pos": 23,
+      "seq": 191,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "صوم"
+      ],
+      "ayah": 185,
+      "marker": "man",
+      "marker_pos": 13,
+      "protasis_roots": [
+        "شهد",
+        "شهر"
+      ],
+      "rslt_pos": 17,
+      "seq": 192,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "جوب",
+        "دعو",
+        "قرب"
+      ],
+      "ayah": 186,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "سال",
+        "عبد"
+      ],
+      "rslt_pos": 5,
+      "seq": 193,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "جزي",
+        "قتل",
+        "كفر"
+      ],
+      "ayah": 191,
+      "marker": "<in",
+      "marker_pos": 20,
+      "protasis_roots": [
+        "قتل"
+      ],
+      "rslt_pos": 22,
+      "seq": 198,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "رحم",
+        "غفر"
+      ],
+      "ayah": 192,
+      "marker": "<ini",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "نهي"
+      ],
+      "rslt_pos": 3,
+      "seq": 199,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "ظلم",
+        "عدو"
+      ],
+      "ayah": 193,
+      "marker": "<ini",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "نهي"
+      ],
+      "rslt_pos": 11,
+      "seq": 200,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "عدو",
+        "علم",
+        "مثل",
+        "وقي"
+      ],
+      "ayah": 194,
+      "marker": "mani",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "عدو"
+      ],
+      "rslt_pos": 10,
+      "seq": 201,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "جدل",
+        "حجج",
+        "رفث",
+        "فسق"
+      ],
+      "ayah": 197,
+      "marker": "man",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "حجج",
+        "فرض"
+      ],
+      "rslt_pos": 8,
+      "seq": 204,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حرم",
+        "ذكر",
+        "شعر",
+        "عند",
+        "هدي"
+      ],
+      "ayah": 198,
+      "marker": "<i*aA^",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "فيض"
+      ],
+      "rslt_pos": 13,
+      "seq": 205,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "ابو",
+        "اتي",
+        "اخر",
+        "اله",
+        "خلق",
+        "دنو",
+        "ذكر",
+        "ربب",
+        "شدد",
+        "قول",
+        "نوس"
+      ],
+      "ayah": 200,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "قضي",
+        "نسك"
+      ],
+      "rslt_pos": 4,
+      "seq": 207,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اثم"
+      ],
+      "ayah": 203,
+      "marker": "man",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "عجل",
+        "يوم"
+      ],
+      "rslt_pos": 10,
+      "seq": 210,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اثم",
+        "اله",
+        "حشر",
+        "علم",
+        "وقي"
+      ],
+      "ayah": 203,
+      "marker": "man",
+      "marker_pos": 13,
+      "protasis_roots": [
+        "اخر"
+      ],
+      "rslt_pos": 15,
+      "seq": 210,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حكم",
+        "عزز",
+        "علم"
+      ],
+      "ayah": 209,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "بعد",
+        "بين",
+        "جيا",
+        "زلل"
+      ],
+      "rslt_pos": 8,
+      "seq": 216,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "شدد",
+        "عقب"
+      ],
+      "ayah": 211,
+      "marker": "man",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "اله",
+        "بدل",
+        "بعد",
+        "جيا",
+        "نعم"
+      ],
+      "rslt_pos": 17,
+      "seq": 218,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "بني",
+        "سبل",
+        "سكن",
+        "قرب",
+        "ولد",
+        "يتم"
+      ],
+      "ayah": 215,
+      "marker": "maA^",
+      "marker_pos": 5,
+      "protasis_roots": [
+        "خير",
+        "نفق"
+      ],
+      "rslt_pos": 9,
+      "seq": 222,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "علم"
+      ],
+      "ayah": 215,
+      "marker": "maA",
+      "marker_pos": 15,
+      "protasis_roots": [
+        "خير",
+        "فعل"
+      ],
+      "rslt_pos": 19,
+      "seq": 222,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اخر",
+        "حبط",
+        "خلد",
+        "دنو",
+        "صحب",
+        "عمل",
+        "نور"
+      ],
+      "ayah": 217,
+      "marker": "man",
+      "marker_pos": 38,
+      "protasis_roots": [
+        "دين",
+        "ردد",
+        "كفر",
+        "موت"
+      ],
+      "rslt_pos": 46,
+      "seq": 224,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اله",
+        "امر",
+        "توب",
+        "حبب",
+        "حيث",
+        "طهر"
+      ],
+      "ayah": 222,
+      "marker": "<i*aA",
+      "marker_pos": 15,
+      "protasis_roots": [
+        "طهر"
+      ],
+      "rslt_pos": 17,
+      "seq": 229,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "رحم",
+        "غفر"
+      ],
+      "ayah": 226,
+      "marker": "<in",
+      "marker_pos": 8,
+      "protasis_roots": [
+        "فيا"
+      ],
+      "rslt_pos": 10,
+      "seq": 233,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "سمع",
+        "علم"
+      ],
+      "ayah": 227,
+      "marker": "<ino",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "طلق",
+        "عزم"
+      ],
+      "rslt_pos": 4,
+      "seq": 234,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "جنح",
+        "حدد",
+        "عدو",
+        "فدي"
+      ],
+      "ayah": 229,
+      "marker": "<ino",
+      "marker_pos": 23,
+      "protasis_roots": [
+        "اله",
+        "حدد",
+        "خوف",
+        "قوم"
+      ],
+      "rslt_pos": 29,
+      "seq": 236,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "ظلم"
+      ],
+      "ayah": 229,
+      "marker": "man",
+      "marker_pos": 40,
+      "protasis_roots": [
+        "اله",
+        "حدد",
+        "عدو"
+      ],
+      "rslt_pos": 44,
+      "seq": 236,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "بعد",
+        "حلل",
+        "زوج",
+        "غير",
+        "نكح"
+      ],
+      "ayah": 230,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "طلق"
+      ],
+      "rslt_pos": 3,
+      "seq": 237,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "جنح",
+        "رجع"
+      ],
+      "ayah": 230,
+      "marker": "<in",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "طلق"
+      ],
+      "rslt_pos": 14,
+      "seq": 237,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "سرح",
+        "ضرر",
+        "عدو",
+        "عرف",
+        "مسك"
+      ],
+      "ayah": 231,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اجل",
+        "بلغ",
+        "طلق",
+        "نسو"
+      ],
+      "rslt_pos": 6,
+      "seq": 238,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اخذ",
+        "اله",
+        "ايي",
+        "حكم",
+        "ذكر",
+        "شيا",
+        "ظلم",
+        "علم",
+        "كتب",
+        "كلل",
+        "نزل",
+        "نعم",
+        "نفس",
+        "هزا",
+        "وعظ",
+        "وقي"
+      ],
+      "ayah": 231,
+      "marker": "man",
+      "marker_pos": 15,
+      "protasis_roots": [
+        "فعل"
+      ],
+      "rslt_pos": 18,
+      "seq": 238,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "زوج",
+        "عضل",
+        "نكح"
+      ],
+      "ayah": 232,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اجل",
+        "بلغ",
+        "طلق",
+        "نسو"
+      ],
+      "rslt_pos": 6,
+      "seq": 239,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "جنح"
+      ],
+      "ayah": 233,
+      "marker": "<ino",
+      "marker_pos": 34,
+      "protasis_roots": [
+        "رضو",
+        "رود",
+        "شور",
+        "فصل"
+      ],
+      "rslt_pos": 41,
+      "seq": 240,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "جنح"
+      ],
+      "ayah": 233,
+      "marker": "<ino",
+      "marker_pos": 44,
+      "protasis_roots": [
+        "رضع",
+        "رود",
+        "ولد"
+      ],
+      "rslt_pos": 49,
+      "seq": 240,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "جنح",
+        "خبر",
+        "عرف",
+        "عمل",
+        "فعل",
+        "نفس"
+      ],
+      "ayah": 234,
+      "marker": "<i*aA",
+      "marker_pos": 11,
+      "protasis_roots": [
+        "اجل",
+        "بلغ"
+      ],
+      "rslt_pos": 14,
+      "seq": 241,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "ذكر",
+        "علم",
+        "كون"
+      ],
+      "ayah": 239,
+      "marker": "<i*aA^",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "امن"
+      ],
+      "rslt_pos": 8,
+      "seq": 246,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "جنح",
+        "حكم",
+        "عرف",
+        "عزز",
+        "فعل",
+        "نفس"
+      ],
+      "ayah": 240,
+      "marker": "<ino",
+      "marker_pos": 13,
+      "protasis_roots": [
+        "خرج"
+      ],
+      "rslt_pos": 15,
+      "seq": 247,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "ليس"
+      ],
+      "ayah": 249,
+      "marker": "man",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "شرب"
+      ],
+      "rslt_pos": 13,
+      "seq": 256,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اذن",
+        "اله",
+        "امن",
+        "جند",
+        "جوز",
+        "شرب",
+        "صبر",
+        "طوق",
+        "ظنن",
+        "غرف",
+        "غلب",
+        "فاي",
+        "قلل",
+        "قول",
+        "كثر",
+        "لقي",
+        "يدي",
+        "يوم"
+      ],
+      "ayah": 249,
+      "marker": "man",
+      "marker_pos": 15,
+      "protasis_roots": [
+        "طعم"
+      ],
+      "rslt_pos": 18,
+      "seq": 256,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "سمع",
+        "عرو",
+        "علم",
+        "فصم",
+        "مسك",
+        "وثق"
+      ],
+      "ayah": 256,
+      "marker": "man",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "اله",
+        "امن",
+        "طغي",
+        "كفر"
+      ],
+      "rslt_pos": 15,
+      "seq": 263,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بصر",
+        "طلل",
+        "عمل"
+      ],
+      "ayah": 265,
+      "marker": "<in",
+      "marker_pos": 19,
+      "protasis_roots": [
+        "صوب",
+        "وبل"
+      ],
+      "rslt_pos": 23,
+      "seq": 272,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اول",
+        "خير",
+        "ذكر",
+        "كثر",
+        "لبب"
+      ],
+      "ayah": 269,
+      "marker": "man",
+      "marker_pos": 5,
+      "protasis_roots": [
+        "اتي",
+        "حكم"
+      ],
+      "rslt_pos": 8,
+      "seq": 276,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "ظلم",
+        "علم",
+        "نصر"
+      ],
+      "ayah": 270,
+      "marker": "maA^",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "نذر",
+        "نفق"
+      ],
+      "rslt_pos": 9,
+      "seq": 277,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "نعم"
+      ],
+      "ayah": 271,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "بدو",
+        "صدق"
+      ],
+      "rslt_pos": 4,
+      "seq": 278,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "خبر",
+        "خير",
+        "سوا",
+        "عمل",
+        "كفر"
+      ],
+      "ayah": 271,
+      "marker": "<in",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "اتي",
+        "خفي",
+        "فقر"
+      ],
+      "rslt_pos": 10,
+      "seq": 278,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "علم"
+      ],
+      "ayah": 273,
+      "marker": "maA",
+      "marker_pos": 23,
+      "protasis_roots": [
+        "خير",
+        "نفق"
+      ],
+      "rslt_pos": 27,
+      "seq": 280,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "امر",
+        "سلف"
+      ],
+      "ayah": 275,
+      "marker": "man",
+      "marker_pos": 26,
+      "protasis_roots": [
+        "جيا",
+        "ربب",
+        "نهي",
+        "وعظ"
+      ],
+      "rslt_pos": 32,
+      "seq": 282,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "خلد",
+        "صحب",
+        "نور"
+      ],
+      "ayah": 275,
+      "marker": "mano",
+      "marker_pos": 38,
+      "protasis_roots": [
+        "عود"
+      ],
+      "rslt_pos": 40,
+      "seq": 282,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اذن",
+        "اله",
+        "حرب",
+        "رسل"
+      ],
+      "ayah": 279,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "فعل"
+      ],
+      "rslt_pos": 4,
+      "seq": 286,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "راس",
+        "ظلم",
+        "مول"
+      ],
+      "ayah": 279,
+      "marker": "<in",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "توب"
+      ],
+      "rslt_pos": 11,
+      "seq": 286,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "ابي",
+        "اله",
+        "بخس",
+        "بين",
+        "حقق",
+        "ربب",
+        "شيا",
+        "عدل",
+        "علم",
+        "كتب",
+        "ملل",
+        "وقي"
+      ],
+      "ayah": 282,
+      "marker": "<i*aA",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "اجل",
+        "دين",
+        "سمو"
+      ],
+      "rslt_pos": 10,
+      "seq": 289,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "رجل",
+        "شهد",
+        "عدل",
+        "ملل",
+        "ولي"
+      ],
+      "ayah": 282,
+      "marker": "<in",
+      "marker_pos": 35,
+      "protasis_roots": [
+        "حقق",
+        "سفه",
+        "ضعف",
+        "طوع",
+        "كون",
+        "ملل"
+      ],
+      "rslt_pos": 49,
+      "seq": 289,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "شيا",
+        "علم",
+        "فسق",
+        "كلل",
+        "وقي"
+      ],
+      "ayah": 282,
+      "marker": "<in",
+      "marker_pos": 116,
+      "protasis_roots": [
+        "فعل"
+      ],
+      "rslt_pos": 118,
+      "seq": 289,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "رهن",
+        "قبض"
+      ],
+      "ayah": 283,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "سفر",
+        "كتب",
+        "كون",
+        "وجد"
+      ],
+      "rslt_pos": 8,
+      "seq": 290,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "ادي",
+        "اله",
+        "امن",
+        "ربب",
+        "شهد",
+        "كتم",
+        "وقي"
+      ],
+      "ayah": 283,
+      "marker": "<ino",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "امن",
+        "بعض"
+      ],
+      "rslt_pos": 14,
+      "seq": 290,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اثم",
+        "اله",
+        "علم",
+        "عمل",
+        "قلب"
+      ],
+      "ayah": 283,
+      "marker": "man",
+      "marker_pos": 24,
+      "protasis_roots": [
+        "كتم"
+      ],
+      "rslt_pos": 26,
+      "seq": 290,
+      "sura": 2
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "امن",
+        "اول",
+        "بغي",
+        "تبع",
+        "ذكر",
+        "ربب",
+        "رسخ",
+        "شبه",
+        "علم",
+        "عند",
+        "فتن",
+        "قول",
+        "كلل",
+        "لبب"
+      ],
+      "ayah": 7,
+      "marker": "{l~a*iyna",
+      "marker_pos": 15,
+      "protasis_roots": [
+        "زيغ",
+        "قلب"
+      ],
+      "rslt_pos": 19,
+      "seq": 300,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حسب",
+        "سرع"
+      ],
+      "ayah": 19,
+      "marker": "man",
+      "marker_pos": 19,
+      "protasis_roots": [
+        "اله",
+        "ايي",
+        "كفر"
+      ],
+      "rslt_pos": 23,
+      "seq": 312,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اله",
+        "امم",
+        "تبع",
+        "سلم",
+        "قول",
+        "كتب",
+        "وجه"
+      ],
+      "ayah": 20,
+      "marker": "<ino",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "حجج"
+      ],
+      "rslt_pos": 3,
+      "seq": 313,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "هدي"
+      ],
+      "ayah": 20,
+      "marker": "<ino",
+      "marker_pos": 15,
+      "protasis_roots": [
+        "سلم"
+      ],
+      "rslt_pos": 17,
+      "seq": 313,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بصر",
+        "بلغ",
+        "عبد"
+      ],
+      "ayah": 20,
+      "marker": "<in",
+      "marker_pos": 19,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 21,
+      "seq": 313,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حذر",
+        "شيا",
+        "صير",
+        "ليس",
+        "نفس",
+        "وقي"
+      ],
+      "ayah": 28,
+      "marker": "man",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "فعل"
+      ],
+      "rslt_pos": 12,
+      "seq": 321,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "تبع",
+        "حبب",
+        "ذنب",
+        "رحم",
+        "غفر"
+      ],
+      "ayah": 31,
+      "marker": "<in",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "اله",
+        "حبب",
+        "كون"
+      ],
+      "rslt_pos": 6,
+      "seq": 324,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حبب",
+        "كفر"
+      ],
+      "ayah": 32,
+      "marker": "<in",
+      "marker_pos": 5,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 7,
+      "seq": 325,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "قول",
+        "كون"
+      ],
+      "ayah": 47,
+      "marker": "<i*aA",
+      "marker_pos": 16,
+      "protasis_roots": [
+        "امر",
+        "قضي"
+      ],
+      "rslt_pos": 19,
+      "seq": 340,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اخر",
+        "دنو",
+        "شدد",
+        "عذب",
+        "نصر"
+      ],
+      "ayah": 56,
+      "marker": "{l~a*iyna",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "كفر"
+      ],
+      "rslt_pos": 4,
+      "seq": 349,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اجر",
+        "اله",
+        "حبب",
+        "ظلم",
+        "وفي"
+      ],
+      "ayah": 57,
+      "marker": "{l~a*iyna",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "امن",
+        "صلح",
+        "عمل"
+      ],
+      "rslt_pos": 6,
+      "seq": 350,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بني",
+        "بهل",
+        "جعل",
+        "دعو",
+        "علو",
+        "قول",
+        "كذب",
+        "لعن",
+        "نسو",
+        "نفس"
+      ],
+      "ayah": 61,
+      "marker": "mano",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "بعد",
+        "جيا",
+        "حجج",
+        "علم"
+      ],
+      "rslt_pos": 10,
+      "seq": 354,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "علم",
+        "فسد"
+      ],
+      "ayah": 63,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 3,
+      "seq": 356,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "سلم",
+        "شهد",
+        "قول"
+      ],
+      "ayah": 64,
+      "marker": "<in",
+      "marker_pos": 26,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 28,
+      "seq": 357,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حبب",
+        "وقي"
+      ],
+      "ayah": 76,
+      "marker": "mano",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "عهد",
+        "وفي",
+        "وقي"
+      ],
+      "rslt_pos": 6,
+      "seq": 369,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "فسق"
+      ],
+      "ayah": 82,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "بعد",
+        "ولي"
+      ],
+      "rslt_pos": 5,
+      "seq": 375,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اخر",
+        "خسر",
+        "قبل"
+      ],
+      "ayah": 85,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "بغي",
+        "دين",
+        "سلم",
+        "غير"
+      ],
+      "rslt_pos": 6,
+      "seq": 378,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "علم"
+      ],
+      "ayah": 92,
+      "marker": "maA",
+      "marker_pos": 8,
+      "protasis_roots": [
+        "شيا",
+        "نفق"
+      ],
+      "rslt_pos": 12,
+      "seq": 385,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "ظلم"
+      ],
+      "ayah": 94,
+      "marker": "mani",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اله",
+        "بعد",
+        "فري",
+        "كذب"
+      ],
+      "rslt_pos": 9,
+      "seq": 387,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "علم",
+        "غني"
+      ],
+      "ayah": 97,
+      "marker": "man",
+      "marker_pos": 19,
+      "protasis_roots": [
+        "كفر"
+      ],
+      "rslt_pos": 21,
+      "seq": 390,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "صرط",
+        "قوم",
+        "هدي"
+      ],
+      "ayah": 101,
+      "marker": "man",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "اله",
+        "عصم"
+      ],
+      "rslt_pos": 13,
+      "seq": 394,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "خلد",
+        "رحم"
+      ],
+      "ayah": 107,
+      "marker": "{l~a*iyna",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "بيض",
+        "وجه"
+      ],
+      "rslt_pos": 5,
+      "seq": 400,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "علم",
+        "كفر",
+        "وقي"
+      ],
+      "ayah": 115,
+      "marker": "maA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "خير",
+        "فعل"
+      ],
+      "rslt_pos": 5,
+      "seq": 408,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اخذ",
+        "اله",
+        "امن",
+        "بين",
+        "حبب",
+        "دول",
+        "شهد",
+        "ظلم",
+        "علم",
+        "قرح",
+        "قوم",
+        "مثل",
+        "مسس",
+        "نوس",
+        "يوم"
+      ],
+      "ayah": 140,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "قرح",
+        "مسس"
+      ],
+      "rslt_pos": 4,
+      "seq": 433,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "جزي",
+        "شكر",
+        "شيا",
+        "ضرر"
+      ],
+      "ayah": 144,
+      "marker": "man",
+      "marker_pos": 17,
+      "protasis_roots": [
+        "عقب",
+        "قلب"
+      ],
+      "rslt_pos": 21,
+      "seq": 437,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حبب",
+        "وكل"
+      ],
+      "ayah": 159,
+      "marker": "<i*aA",
+      "marker_pos": 22,
+      "protasis_roots": [
+        "عزم"
+      ],
+      "rslt_pos": 24,
+      "seq": 452,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "غلب"
+      ],
+      "ayah": 160,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اله",
+        "نصر"
+      ],
+      "rslt_pos": 4,
+      "seq": 453,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "امن",
+        "بعد",
+        "نصر",
+        "وكل"
+      ],
+      "ayah": 160,
+      "marker": "<in",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "خذل"
+      ],
+      "rslt_pos": 9,
+      "seq": 453,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "اجر",
+        "عظم"
+      ],
+      "ayah": 179,
+      "marker": "<in",
+      "marker_pos": 31,
+      "protasis_roots": [
+        "امن",
+        "وقي"
+      ],
+      "rslt_pos": 34,
+      "seq": 472,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "بين",
+        "جيا",
+        "رسل",
+        "زبر",
+        "قبل",
+        "كتب",
+        "كذب",
+        "نور"
+      ],
+      "ayah": 184,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "كذب"
+      ],
+      "rslt_pos": 3,
+      "seq": 477,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "حيي",
+        "دنو",
+        "غرر",
+        "فوز",
+        "متع"
+      ],
+      "ayah": 185,
+      "marker": "man",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "جنن",
+        "دخل",
+        "زحزح",
+        "نور"
+      ],
+      "rslt_pos": 16,
+      "seq": 478,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "امر",
+        "عزم"
+      ],
+      "ayah": 186,
+      "marker": "<in",
+      "marker_pos": 17,
+      "protasis_roots": [
+        "صبر",
+        "وقي"
+      ],
+      "rslt_pos": 20,
+      "seq": 479,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "خزي",
+        "ظلم",
+        "نصر"
+      ],
+      "ayah": 192,
+      "marker": "man",
+      "marker_pos": 3,
+      "protasis_roots": [
+        "دخل",
+        "نور"
+      ],
+      "rslt_pos": 6,
+      "seq": 485,
+      "sura": 3
+    },
+    {
+      "apodosis_roots": [
+        "ثلث",
+        "ثني",
+        "ربع",
+        "طيب",
+        "نسو",
+        "نكح"
+      ],
+      "ayah": 3,
+      "marker": "<ino",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "خوف",
+        "قسط",
+        "يتم"
+      ],
+      "rslt_pos": 7,
+      "seq": 496,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اكل",
+        "مرا",
+        "هنا"
+      ],
+      "ayah": 4,
+      "marker": "<in",
+      "marker_pos": 5,
+      "protasis_roots": [
+        "شيا",
+        "طيب",
+        "نفس"
+      ],
+      "rslt_pos": 12,
+      "seq": 497,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اكل",
+        "بدر",
+        "دفع",
+        "سرف",
+        "كبر",
+        "مول"
+      ],
+      "ayah": 6,
+      "marker": "<ino",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "انس",
+        "رشد"
+      ],
+      "rslt_pos": 11,
+      "seq": 499,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "عفف"
+      ],
+      "ayah": 6,
+      "marker": "man",
+      "marker_pos": 20,
+      "protasis_roots": [
+        "غني",
+        "كون"
+      ],
+      "rslt_pos": 23,
+      "seq": 499,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اكل",
+        "عرف"
+      ],
+      "ayah": 6,
+      "marker": "man",
+      "marker_pos": 24,
+      "protasis_roots": [
+        "فقر",
+        "كون"
+      ],
+      "rslt_pos": 27,
+      "seq": 499,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حسب",
+        "شهد",
+        "كفي"
+      ],
+      "ayah": 6,
+      "marker": "<i*aA",
+      "marker_pos": 29,
+      "protasis_roots": [
+        "دفع",
+        "مول"
+      ],
+      "rslt_pos": 33,
+      "seq": 499,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "رزق",
+        "عرف",
+        "قول"
+      ],
+      "ayah": 8,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اول",
+        "حضر",
+        "سكن",
+        "قرب",
+        "قسم",
+        "يتم"
+      ],
+      "rslt_pos": 8,
+      "seq": 501,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "ترك",
+        "ثلث"
+      ],
+      "ayah": 11,
+      "marker": "<in",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "ثني",
+        "فوق",
+        "كون",
+        "نسو"
+      ],
+      "rslt_pos": 14,
+      "seq": 504,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "ابو",
+        "ترك",
+        "سدس",
+        "كلل",
+        "نصف",
+        "وحد"
+      ],
+      "ayah": 11,
+      "marker": "<in",
+      "marker_pos": 18,
+      "protasis_roots": [
+        "كون",
+        "وحد"
+      ],
+      "rslt_pos": 21,
+      "seq": 504,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "امم",
+        "ثلث"
+      ],
+      "ayah": 11,
+      "marker": "<in",
+      "marker_pos": 34,
+      "protasis_roots": [
+        "ابو",
+        "كون",
+        "ورث",
+        "ولد"
+      ],
+      "rslt_pos": 41,
+      "seq": 504,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "ابو",
+        "اله",
+        "امم",
+        "بعد",
+        "بني",
+        "حكم",
+        "دري",
+        "دين",
+        "سدس",
+        "علم",
+        "فرض",
+        "قرب",
+        "كون",
+        "نفع",
+        "وصي"
+      ],
+      "ayah": 11,
+      "marker": "<in",
+      "marker_pos": 43,
+      "protasis_roots": [
+        "اخو",
+        "كون"
+      ],
+      "rslt_pos": 47,
+      "seq": 504,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "بعد",
+        "ترك",
+        "دين",
+        "ربع",
+        "وصي"
+      ],
+      "ayah": 12,
+      "marker": "<in",
+      "marker_pos": 11,
+      "protasis_roots": [
+        "كون",
+        "ولد"
+      ],
+      "rslt_pos": 15,
+      "seq": 505,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "بعد",
+        "ترك",
+        "ثمن",
+        "دين",
+        "وصي"
+      ],
+      "ayah": 12,
+      "marker": "<in",
+      "marker_pos": 35,
+      "protasis_roots": [
+        "كون",
+        "ولد"
+      ],
+      "rslt_pos": 39,
+      "seq": 505,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "سدس",
+        "كلل",
+        "وحد"
+      ],
+      "ayah": 12,
+      "marker": "<in",
+      "marker_pos": 50,
+      "protasis_roots": [
+        "اخو",
+        "رجل",
+        "كلل",
+        "كون",
+        "مرا",
+        "ورث"
+      ],
+      "rslt_pos": 61,
+      "seq": 505,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بعد",
+        "ثلث",
+        "حلم",
+        "دين",
+        "شرك",
+        "ضرر",
+        "علم",
+        "غير",
+        "وصي"
+      ],
+      "ayah": 12,
+      "marker": "<in",
+      "marker_pos": 65,
+      "protasis_roots": [
+        "كثر",
+        "كون"
+      ],
+      "rslt_pos": 70,
+      "seq": 505,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بيت",
+        "جعل",
+        "سبل",
+        "مسك",
+        "موت",
+        "وفي"
+      ],
+      "ayah": 15,
+      "marker": "<in",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "شهد"
+      ],
+      "rslt_pos": 12,
+      "seq": 508,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "توب",
+        "رحم",
+        "عرض",
+        "كون"
+      ],
+      "ayah": 16,
+      "marker": "<in",
+      "marker_pos": 5,
+      "protasis_roots": [
+        "توب",
+        "صلح"
+      ],
+      "rslt_pos": 8,
+      "seq": 509,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "جعل",
+        "خير",
+        "شيا",
+        "عسي",
+        "كثر",
+        "كره"
+      ],
+      "ayah": 19,
+      "marker": "<in",
+      "marker_pos": 24,
+      "protasis_roots": [
+        "كره"
+      ],
+      "rslt_pos": 26,
+      "seq": 512,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اثم",
+        "اخذ",
+        "بهت",
+        "بين",
+        "شيا"
+      ],
+      "ayah": 20,
+      "marker": "<ino",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اتي",
+        "احد",
+        "بدل",
+        "رود",
+        "زوج",
+        "قنطر",
+        "كون"
+      ],
+      "rslt_pos": 10,
+      "seq": 513,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اخو",
+        "اله",
+        "بني",
+        "بين",
+        "جمع",
+        "جنح",
+        "حلل",
+        "رحم",
+        "سلف",
+        "صلب",
+        "غفر",
+        "كون"
+      ],
+      "ayah": 23,
+      "marker": "<in",
+      "marker_pos": 29,
+      "protasis_roots": [
+        "دخل",
+        "كون"
+      ],
+      "rslt_pos": 34,
+      "seq": 516,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اجر",
+        "اله",
+        "بعد",
+        "جنح",
+        "حكم",
+        "رضو",
+        "علم",
+        "فرض",
+        "كون"
+      ],
+      "ayah": 24,
+      "marker": "maA",
+      "marker_pos": 22,
+      "protasis_roots": [
+        "متع"
+      ],
+      "rslt_pos": 26,
+      "seq": 517,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حصن",
+        "خشي",
+        "خير",
+        "رحم",
+        "صبر",
+        "عذب",
+        "عنت",
+        "غفر",
+        "نصف"
+      ],
+      "ayah": 25,
+      "marker": "<ino",
+      "marker_pos": 37,
+      "protasis_roots": [
+        "اتي",
+        "فحش"
+      ],
+      "rslt_pos": 40,
+      "seq": 518,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "صلي",
+        "كون",
+        "نور",
+        "يسر"
+      ],
+      "ayah": 30,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "ظلم",
+        "عدو",
+        "فعل"
+      ],
+      "rslt_pos": 6,
+      "seq": 523,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اله",
+        "شهد",
+        "شيا",
+        "كلل",
+        "كون",
+        "نصب"
+      ],
+      "ayah": 33,
+      "marker": "{l~a*iyna",
+      "marker_pos": 8,
+      "protasis_roots": [
+        "عقد",
+        "يمن"
+      ],
+      "rslt_pos": 11,
+      "seq": 526,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "ضجع",
+        "ضرب",
+        "هجر",
+        "وعظ"
+      ],
+      "ayah": 34,
+      "marker": "{l~a`tiY",
+      "marker_pos": 22,
+      "protasis_roots": [
+        "خوف",
+        "نشز"
+      ],
+      "rslt_pos": 25,
+      "seq": 527,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بغي",
+        "سبل",
+        "علو",
+        "كبر",
+        "كون"
+      ],
+      "ayah": 34,
+      "marker": "<ino",
+      "marker_pos": 30,
+      "protasis_roots": [
+        "طوع"
+      ],
+      "rslt_pos": 32,
+      "seq": 527,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اهل",
+        "بعث",
+        "حكم"
+      ],
+      "ayah": 35,
+      "marker": "<ino",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "بين",
+        "خوف",
+        "شقق"
+      ],
+      "rslt_pos": 5,
+      "seq": 528,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "سوا",
+        "قرن"
+      ],
+      "ayah": 38,
+      "marker": "man",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "شطن",
+        "قرن",
+        "كون"
+      ],
+      "rslt_pos": 17,
+      "seq": 531,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "صعد",
+        "طيب",
+        "عفو",
+        "غفر",
+        "كون",
+        "مسح",
+        "وجه",
+        "يدي",
+        "يمم"
+      ],
+      "ayah": 43,
+      "marker": "<in",
+      "marker_pos": 20,
+      "protasis_roots": [
+        "احد",
+        "جيا",
+        "سفر",
+        "غوط",
+        "كون",
+        "لمس",
+        "مرض",
+        "موه",
+        "نسو",
+        "وجد"
+      ],
+      "rslt_pos": 38,
+      "seq": 536,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اثم",
+        "عظم",
+        "فري"
+      ],
+      "ayah": 48,
+      "marker": "man",
+      "marker_pos": 14,
+      "protasis_roots": [
+        "اله",
+        "شرك"
+      ],
+      "rslt_pos": 17,
+      "seq": 541,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "نصر",
+        "وجد"
+      ],
+      "ayah": 52,
+      "marker": "man",
+      "marker_pos": 5,
+      "protasis_roots": [
+        "اله",
+        "لعن"
+      ],
+      "rslt_pos": 8,
+      "seq": 545,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "ردد",
+        "رسل"
+      ],
+      "ayah": 59,
+      "marker": "<in",
+      "marker_pos": 11,
+      "protasis_roots": [
+        "شيا",
+        "نزع"
+      ],
+      "rslt_pos": 15,
+      "seq": 552,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حسن",
+        "رفق",
+        "شهد",
+        "صدق",
+        "صلح",
+        "نبا",
+        "نعم"
+      ],
+      "ayah": 69,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اله",
+        "رسل",
+        "طوع"
+      ],
+      "rslt_pos": 5,
+      "seq": 562,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اجر",
+        "عظم"
+      ],
+      "ayah": 74,
+      "marker": "man",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "اله",
+        "سبل",
+        "غلب",
+        "قتل"
+      ],
+      "rslt_pos": 18,
+      "seq": 567,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله"
+      ],
+      "ayah": 79,
+      "marker": "m~aA^",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "حسن",
+        "صوب"
+      ],
+      "rslt_pos": 5,
+      "seq": 572,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "رسل",
+        "شهد",
+        "كفي",
+        "نفس",
+        "نوس"
+      ],
+      "ayah": 79,
+      "marker": "maA^",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "سوا",
+        "صوب"
+      ],
+      "rslt_pos": 11,
+      "seq": 572,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "طوع"
+      ],
+      "ayah": 80,
+      "marker": "m~an",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "رسل",
+        "طوع"
+      ],
+      "rslt_pos": 4,
+      "seq": 573,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "حفظ",
+        "رسل"
+      ],
+      "ayah": 80,
+      "marker": "man",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 9,
+      "seq": 573,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حسب",
+        "حسن",
+        "حيي",
+        "ردد",
+        "شيا",
+        "كلل",
+        "كون"
+      ],
+      "ayah": 86,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "حيي"
+      ],
+      "rslt_pos": 4,
+      "seq": 579,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "سبل",
+        "وجد"
+      ],
+      "ayah": 88,
+      "marker": "man",
+      "marker_pos": 16,
+      "protasis_roots": [
+        "اله",
+        "ضلل"
+      ],
+      "rslt_pos": 19,
+      "seq": 581,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اخذ",
+        "حيث",
+        "قتل",
+        "نصر",
+        "وجد",
+        "ولي"
+      ],
+      "ayah": 89,
+      "marker": "<in",
+      "marker_pos": 17,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 19,
+      "seq": 582,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "جعل",
+        "سبل"
+      ],
+      "ayah": 90,
+      "marker": "<ini",
+      "marker_pos": 24,
+      "protasis_roots": [
+        "سلم",
+        "عزل",
+        "قتل",
+        "لقي"
+      ],
+      "rslt_pos": 31,
+      "seq": 583,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اخذ",
+        "بين",
+        "ثقف",
+        "جعل",
+        "حيث",
+        "سلط",
+        "قتل"
+      ],
+      "ayah": 91,
+      "marker": "<in",
+      "marker_pos": 15,
+      "protasis_roots": [
+        "سلم",
+        "عزل",
+        "كفف",
+        "لقي",
+        "يدي"
+      ],
+      "rslt_pos": 23,
+      "seq": 584,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "امن",
+        "حرر",
+        "رقب"
+      ],
+      "ayah": 92,
+      "marker": "<in",
+      "marker_pos": 23,
+      "protasis_roots": [
+        "امن",
+        "عدو",
+        "قوم",
+        "كون"
+      ],
+      "rslt_pos": 31,
+      "seq": 585,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "امن",
+        "اهل",
+        "حرر",
+        "رقب",
+        "سلم",
+        "ودي"
+      ],
+      "ayah": 92,
+      "marker": "<in",
+      "marker_pos": 34,
+      "protasis_roots": [
+        "بين",
+        "قوم",
+        "كون",
+        "وثق"
+      ],
+      "rslt_pos": 41,
+      "seq": 585,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "تبع",
+        "توب",
+        "حكم",
+        "شهر",
+        "صوم",
+        "علم",
+        "كون"
+      ],
+      "ayah": 92,
+      "marker": "man",
+      "marker_pos": 48,
+      "protasis_roots": [
+        "وجد"
+      ],
+      "rslt_pos": 51,
+      "seq": 585,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "جزي",
+        "خلد",
+        "عدد",
+        "عذب",
+        "عظم",
+        "غضب",
+        "لعن"
+      ],
+      "ayah": 93,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "امن",
+        "عمد",
+        "قتل"
+      ],
+      "rslt_pos": 5,
+      "seq": 586,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "امن",
+        "بغي",
+        "بين",
+        "حيي",
+        "خبر",
+        "دنو",
+        "سلم",
+        "عرض",
+        "عمل",
+        "عند",
+        "غنم",
+        "قبل",
+        "قول",
+        "كثر",
+        "كون",
+        "لقي",
+        "ليس",
+        "منن"
+      ],
+      "ayah": 94,
+      "marker": "<i*aA",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "اله",
+        "سبل",
+        "ضرب"
+      ],
+      "rslt_pos": 9,
+      "seq": 587,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اجر",
+        "اله",
+        "رحم",
+        "غفر",
+        "كون",
+        "وقع"
+      ],
+      "ayah": 100,
+      "marker": "man",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "اله",
+        "بيت",
+        "خرج",
+        "درك",
+        "رسل",
+        "موت",
+        "هجر"
+      ],
+      "rslt_pos": 23,
+      "seq": 593,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "جنح",
+        "صلو",
+        "قصر",
+        "ليس"
+      ],
+      "ayah": 101,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "ارض",
+        "ضرب"
+      ],
+      "rslt_pos": 5,
+      "seq": 594,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اخذ",
+        "سلح",
+        "طوف",
+        "قوم"
+      ],
+      "ayah": 102,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "صلو",
+        "قوم",
+        "كون"
+      ],
+      "rslt_pos": 7,
+      "seq": 595,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اخذ",
+        "اخر",
+        "جنح",
+        "حذر",
+        "سلح",
+        "صلو",
+        "طوف",
+        "غفل",
+        "كفر",
+        "كون",
+        "متع",
+        "ميل",
+        "وحد",
+        "ودد",
+        "وري"
+      ],
+      "ayah": 102,
+      "marker": "<i*aA",
+      "marker_pos": 13,
+      "protasis_roots": [
+        "سجد"
+      ],
+      "rslt_pos": 15,
+      "seq": 595,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "جنب",
+        "ذكر",
+        "قعد",
+        "قوم"
+      ],
+      "ayah": 103,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "صلو",
+        "قضي"
+      ],
+      "rslt_pos": 4,
+      "seq": 596,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "امن",
+        "صلو",
+        "قوم",
+        "كتب",
+        "كون",
+        "وقت"
+      ],
+      "ayah": 103,
+      "marker": "<i*aA",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "طمن"
+      ],
+      "rslt_pos": 12,
+      "seq": 596,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "الم",
+        "اله",
+        "حكم",
+        "رجو",
+        "علم",
+        "كون"
+      ],
+      "ayah": 104,
+      "marker": "<in",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "الم",
+        "كون"
+      ],
+      "rslt_pos": 9,
+      "seq": 597,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اثم",
+        "بهت",
+        "بين",
+        "حمل"
+      ],
+      "ayah": 112,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اثم",
+        "برا",
+        "خطا",
+        "رمي",
+        "كسب"
+      ],
+      "rslt_pos": 10,
+      "seq": 605,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اجر",
+        "عظم"
+      ],
+      "ayah": 114,
+      "marker": "man",
+      "marker_pos": 17,
+      "protasis_roots": [
+        "اله",
+        "بغي",
+        "رضو",
+        "فعل"
+      ],
+      "rslt_pos": 23,
+      "seq": 607,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "بعد",
+        "ضلل"
+      ],
+      "ayah": 116,
+      "marker": "man",
+      "marker_pos": 14,
+      "protasis_roots": [
+        "اله",
+        "شرك"
+      ],
+      "rslt_pos": 17,
+      "seq": 609,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "بين",
+        "خسر"
+      ],
+      "ayah": 119,
+      "marker": "man",
+      "marker_pos": 11,
+      "protasis_roots": [
+        "اخذ",
+        "اله",
+        "دون",
+        "شطن",
+        "ولي"
+      ],
+      "rslt_pos": 18,
+      "seq": 612,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "جنن",
+        "دخل",
+        "ظلم",
+        "نقر"
+      ],
+      "ayah": 124,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "امن",
+        "انث",
+        "ذكر",
+        "صلح",
+        "عمل"
+      ],
+      "rslt_pos": 11,
+      "seq": 617,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "علم",
+        "كون"
+      ],
+      "ayah": 127,
+      "marker": "maA",
+      "marker_pos": 32,
+      "protasis_roots": [
+        "خير",
+        "فعل"
+      ],
+      "rslt_pos": 36,
+      "seq": 620,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "بين",
+        "جنح",
+        "حضر",
+        "خير",
+        "شحح",
+        "صلح",
+        "نفس"
+      ],
+      "ayah": 128,
+      "marker": "<ini",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "بعل",
+        "خوف",
+        "عرض",
+        "مرا",
+        "نشز"
+      ],
+      "rslt_pos": 9,
+      "seq": 621,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "خبر",
+        "عمل",
+        "كون"
+      ],
+      "ayah": 128,
+      "marker": "<in",
+      "marker_pos": 21,
+      "protasis_roots": [
+        "حسن",
+        "وقي"
+      ],
+      "rslt_pos": 24,
+      "seq": 621,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "علق",
+        "كلل",
+        "ميل",
+        "وذر"
+      ],
+      "ayah": 129,
+      "marker": "lawo",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "حرص"
+      ],
+      "rslt_pos": 9,
+      "seq": 622,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "رحم",
+        "غفر",
+        "كون"
+      ],
+      "ayah": 129,
+      "marker": "<in",
+      "marker_pos": 15,
+      "protasis_roots": [
+        "صلح",
+        "وقي"
+      ],
+      "rslt_pos": 18,
+      "seq": 622,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "ارض",
+        "اله",
+        "حمد",
+        "سمو",
+        "غني",
+        "كون"
+      ],
+      "ayah": 131,
+      "marker": "<in",
+      "marker_pos": 19,
+      "protasis_roots": [
+        "كفر"
+      ],
+      "rslt_pos": 21,
+      "seq": 624,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اخر",
+        "اله",
+        "بصر",
+        "ثوب",
+        "دنو",
+        "سمع",
+        "عند",
+        "كون"
+      ],
+      "ayah": 134,
+      "marker": "m~an",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "ثوب",
+        "دنو",
+        "رود",
+        "كون"
+      ],
+      "rslt_pos": 6,
+      "seq": 627,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "تبع",
+        "عدل",
+        "هوي",
+        "ولي"
+      ],
+      "ayah": 135,
+      "marker": "<in",
+      "marker_pos": 15,
+      "protasis_roots": [
+        "غني",
+        "فقر",
+        "كون"
+      ],
+      "rslt_pos": 20,
+      "seq": 628,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "خبر",
+        "عمل",
+        "كون"
+      ],
+      "ayah": 135,
+      "marker": "<in",
+      "marker_pos": 28,
+      "protasis_roots": [
+        "عرض",
+        "لوي"
+      ],
+      "rslt_pos": 32,
+      "seq": 628,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "بعد",
+        "ضلل"
+      ],
+      "ayah": 136,
+      "marker": "man",
+      "marker_pos": 17,
+      "protasis_roots": [
+        "اخر",
+        "اله",
+        "رسل",
+        "كتب",
+        "كفر",
+        "ملك",
+        "يوم"
+      ],
+      "rslt_pos": 25,
+      "seq": 629,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "جمع",
+        "حدث",
+        "خوض",
+        "غير",
+        "قعد",
+        "كفر",
+        "مثل",
+        "نفق"
+      ],
+      "ayah": 140,
+      "marker": "<i*aA",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "اله",
+        "ايي",
+        "سمع",
+        "كفر",
+        "هزا"
+      ],
+      "rslt_pos": 15,
+      "seq": 633,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "سبل",
+        "وجد"
+      ],
+      "ayah": 143,
+      "marker": "man",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "اله",
+        "ضلل"
+      ],
+      "rslt_pos": 13,
+      "seq": 636,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "عفو",
+        "قدر",
+        "كون"
+      ],
+      "ayah": 149,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "بدو",
+        "خفي",
+        "خير",
+        "سوا",
+        "عفو"
+      ],
+      "rslt_pos": 10,
+      "seq": 642,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "ارض",
+        "اله",
+        "حكم",
+        "سمو",
+        "علم",
+        "كون"
+      ],
+      "ayah": 170,
+      "marker": "<in",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "كفر"
+      ],
+      "rslt_pos": 14,
+      "seq": 663,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "جمع",
+        "حشر"
+      ],
+      "ayah": 172,
+      "marker": "man",
+      "marker_pos": 11,
+      "protasis_roots": [
+        "عبد",
+        "كبر",
+        "نكف"
+      ],
+      "rslt_pos": 16,
+      "seq": 665,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اجر",
+        "زيد",
+        "فضل",
+        "وفي"
+      ],
+      "ayah": 173,
+      "marker": "{l~a*iyna",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "امن",
+        "صلح",
+        "عمل"
+      ],
+      "rslt_pos": 6,
+      "seq": 666,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "الم",
+        "اله",
+        "دون",
+        "عذب",
+        "نصر",
+        "وجد",
+        "ولي"
+      ],
+      "ayah": 173,
+      "marker": "{l~a*iyna",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "كبر",
+        "نكف"
+      ],
+      "rslt_pos": 15,
+      "seq": 666,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "دخل",
+        "رحم",
+        "صرط",
+        "فضل",
+        "قوم",
+        "هدي"
+      ],
+      "ayah": 175,
+      "marker": "{l~a*iyna",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "اله",
+        "امن",
+        "عصم"
+      ],
+      "rslt_pos": 7,
+      "seq": 668,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "ترك",
+        "نصف",
+        "ورث"
+      ],
+      "ayah": 176,
+      "marker": "<ini",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "اخو",
+        "ليس",
+        "مرا",
+        "هلك",
+        "ولد"
+      ],
+      "rslt_pos": 15,
+      "seq": 669,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "ترك",
+        "ثلث"
+      ],
+      "ayah": 176,
+      "marker": "<in",
+      "marker_pos": 26,
+      "protasis_roots": [
+        "ثني",
+        "كون"
+      ],
+      "rslt_pos": 29,
+      "seq": 669,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "انث",
+        "بين",
+        "حظظ",
+        "ذكر",
+        "شيا",
+        "ضلل",
+        "علم",
+        "كلل",
+        "مثل"
+      ],
+      "ayah": 176,
+      "marker": "<in",
+      "marker_pos": 33,
+      "protasis_roots": [
+        "اخو",
+        "رجل",
+        "كون",
+        "نسو"
+      ],
+      "rslt_pos": 38,
+      "seq": 669,
+      "sura": 4
+    },
+    {
+      "apodosis_roots": [
+        "اثم",
+        "اله",
+        "برر",
+        "جرم",
+        "حرم",
+        "سجد",
+        "شدد",
+        "شنا",
+        "صدد",
+        "صيد",
+        "عدو",
+        "عقب",
+        "عون",
+        "قوم",
+        "وقي"
+      ],
+      "ayah": 2,
+      "marker": "<i*aA",
+      "marker_pos": 24,
+      "protasis_roots": [
+        "حلل"
+      ],
+      "rslt_pos": 26,
+      "seq": 671,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "رحم",
+        "غفر"
+      ],
+      "ayah": 3,
+      "marker": "mani",
+      "marker_pos": 51,
+      "protasis_roots": [
+        "اثم",
+        "جنف",
+        "خمص",
+        "ضرر",
+        "غير"
+      ],
+      "rslt_pos": 58,
+      "seq": 672,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اخر",
+        "حبط",
+        "خسر",
+        "عمل"
+      ],
+      "ayah": 5,
+      "marker": "man",
+      "marker_pos": 33,
+      "protasis_roots": [
+        "امن",
+        "كفر"
+      ],
+      "rslt_pos": 36,
+      "seq": 674,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "راس",
+        "رجل",
+        "رفق",
+        "غسل",
+        "كعب",
+        "مسح",
+        "وجه",
+        "يدي"
+      ],
+      "ayah": 6,
+      "marker": "<i*aA",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "صلو",
+        "قوم"
+      ],
+      "rslt_pos": 8,
+      "seq": 675,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "طهر"
+      ],
+      "ayah": 6,
+      "marker": "<in",
+      "marker_pos": 18,
+      "protasis_roots": [
+        "جنب",
+        "كون"
+      ],
+      "rslt_pos": 21,
+      "seq": 675,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "تمم",
+        "جعل",
+        "حرج",
+        "رود",
+        "شكر",
+        "صعد",
+        "طهر",
+        "طيب",
+        "مسح",
+        "نعم",
+        "وجه",
+        "يدي",
+        "يمم"
+      ],
+      "ayah": 6,
+      "marker": "<in",
+      "marker_pos": 22,
+      "protasis_roots": [
+        "احد",
+        "جيا",
+        "سفر",
+        "غوط",
+        "كون",
+        "لمس",
+        "مرض",
+        "موه",
+        "نسو",
+        "وجد"
+      ],
+      "rslt_pos": 40,
+      "seq": 675,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "سبل",
+        "سوي",
+        "ضلل"
+      ],
+      "ayah": 12,
+      "marker": "man",
+      "marker_pos": 37,
+      "protasis_roots": [
+        "بعد",
+        "كفر"
+      ],
+      "rslt_pos": 42,
+      "seq": 681,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "دخل"
+      ],
+      "ayah": 22,
+      "marker": "<in",
+      "marker_pos": 13,
+      "protasis_roots": [
+        "خرج"
+      ],
+      "rslt_pos": 16,
+      "seq": 691,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "غلب",
+        "وكل"
+      ],
+      "ayah": 23,
+      "marker": "<i*aA",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "دخل"
+      ],
+      "rslt_pos": 14,
+      "seq": 692,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "جمع",
+        "قتل",
+        "نوس"
+      ],
+      "ayah": 32,
+      "marker": "man",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "ارض",
+        "غير",
+        "فسد",
+        "قتل",
+        "نفس"
+      ],
+      "rslt_pos": 18,
+      "seq": 701,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "ارض",
+        "بعد",
+        "بين",
+        "جمع",
+        "جيا",
+        "حيي",
+        "رسل",
+        "سرف",
+        "كثر",
+        "نوس"
+      ],
+      "ayah": 32,
+      "marker": "mano",
+      "marker_pos": 22,
+      "protasis_roots": [
+        "حيي"
+      ],
+      "rslt_pos": 24,
+      "seq": 701,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "توب",
+        "رحم",
+        "غفر"
+      ],
+      "ayah": 39,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "بعد",
+        "توب",
+        "صلح",
+        "ظلم"
+      ],
+      "rslt_pos": 7,
+      "seq": 708,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اخذ"
+      ],
+      "ayah": 41,
+      "marker": "<ino",
+      "marker_pos": 33,
+      "protasis_roots": [
+        "اتي"
+      ],
+      "rslt_pos": 36,
+      "seq": 710,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "حذر"
+      ],
+      "ayah": 41,
+      "marker": "<in",
+      "marker_pos": 37,
+      "protasis_roots": [
+        "اتي"
+      ],
+      "rslt_pos": 40,
+      "seq": 710,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اخر",
+        "اله",
+        "خزي",
+        "دنو",
+        "رود",
+        "شيا",
+        "طهر",
+        "عذب",
+        "عظم",
+        "قلب",
+        "ملك"
+      ],
+      "ayah": 41,
+      "marker": "man",
+      "marker_pos": 41,
+      "protasis_roots": [
+        "اله",
+        "رود",
+        "فتن"
+      ],
+      "rslt_pos": 45,
+      "seq": 710,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "بين",
+        "حكم",
+        "عرض"
+      ],
+      "ayah": 42,
+      "marker": "<in",
+      "marker_pos": 5,
+      "protasis_roots": [
+        "جيا"
+      ],
+      "rslt_pos": 7,
+      "seq": 711,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "شيا",
+        "ضرر"
+      ],
+      "ayah": 42,
+      "marker": "<in",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "عرض"
+      ],
+      "rslt_pos": 15,
+      "seq": 711,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بين",
+        "حبب",
+        "حكم",
+        "قسط"
+      ],
+      "ayah": 42,
+      "marker": "<ino",
+      "marker_pos": 18,
+      "protasis_roots": [
+        "حكم"
+      ],
+      "rslt_pos": 20,
+      "seq": 711,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "كفر"
+      ],
+      "ayah": 44,
+      "marker": "man",
+      "marker_pos": 33,
+      "protasis_roots": [
+        "اله",
+        "حكم",
+        "نزل"
+      ],
+      "rslt_pos": 39,
+      "seq": 713,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "كفر"
+      ],
+      "ayah": 45,
+      "marker": "man",
+      "marker_pos": 17,
+      "protasis_roots": [
+        "صدق"
+      ],
+      "rslt_pos": 20,
+      "seq": 714,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "ظلم"
+      ],
+      "ayah": 45,
+      "marker": "man",
+      "marker_pos": 23,
+      "protasis_roots": [
+        "اله",
+        "حكم",
+        "نزل"
+      ],
+      "rslt_pos": 29,
+      "seq": 714,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "فسق"
+      ],
+      "ayah": 47,
+      "marker": "man",
+      "marker_pos": 8,
+      "protasis_roots": [
+        "اله",
+        "حكم",
+        "نزل"
+      ],
+      "rslt_pos": 14,
+      "seq": 716,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بعض",
+        "ذنب",
+        "رود",
+        "صوب",
+        "علم",
+        "فسق",
+        "كثر",
+        "نوس"
+      ],
+      "ayah": 49,
+      "marker": "<in",
+      "marker_pos": 19,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 21,
+      "seq": 718,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "ظلم",
+        "قوم",
+        "هدي"
+      ],
+      "ayah": 51,
+      "marker": "man",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 15,
+      "seq": 720,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اله",
+        "امن",
+        "جهد",
+        "حبب",
+        "خوف",
+        "ذلل",
+        "سبل",
+        "شيا",
+        "عزز",
+        "علم",
+        "فضل",
+        "قوم",
+        "كفر",
+        "لوم",
+        "وسع"
+      ],
+      "ayah": 54,
+      "marker": "man",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "دين",
+        "ردد"
+      ],
+      "rslt_pos": 9,
+      "seq": 723,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حزب",
+        "غلب"
+      ],
+      "ayah": 56,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اله",
+        "امن",
+        "رسل",
+        "ولي"
+      ],
+      "rslt_pos": 7,
+      "seq": 725,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بلغ",
+        "رسل",
+        "عصم",
+        "قوم",
+        "كفر",
+        "نوس",
+        "هدي"
+      ],
+      "ayah": 67,
+      "marker": "<in",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "فعل"
+      ],
+      "rslt_pos": 12,
+      "seq": 736,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "حزن",
+        "خوف"
+      ],
+      "ayah": 69,
+      "marker": "mano",
+      "marker_pos": 8,
+      "protasis_roots": [
+        "اخر",
+        "اله",
+        "امن",
+        "صلح",
+        "عمل",
+        "يوم"
+      ],
+      "rslt_pos": 15,
+      "seq": 738,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "اوي",
+        "جنن",
+        "حرم",
+        "ظلم",
+        "نصر",
+        "نور"
+      ],
+      "ayah": 72,
+      "marker": "man",
+      "marker_pos": 20,
+      "protasis_roots": [
+        "اله",
+        "شرك"
+      ],
+      "rslt_pos": 23,
+      "seq": 741,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "ثلث",
+        "صوم",
+        "كفر",
+        "يمن",
+        "يوم"
+      ],
+      "ayah": 89,
+      "marker": "man",
+      "marker_pos": 26,
+      "protasis_roots": [
+        "وجد"
+      ],
+      "rslt_pos": 29,
+      "seq": 758,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "بلغ",
+        "بين",
+        "رسل",
+        "علم"
+      ],
+      "ayah": 92,
+      "marker": "<in",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 8,
+      "seq": 761,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "الم",
+        "عذب"
+      ],
+      "ayah": 94,
+      "marker": "mani",
+      "marker_pos": 17,
+      "protasis_roots": [
+        "بعد",
+        "عدو"
+      ],
+      "rslt_pos": 21,
+      "seq": 763,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "امر",
+        "بلغ",
+        "جزي",
+        "حكم",
+        "ذوق",
+        "سكن",
+        "سلف",
+        "صوم",
+        "طعم",
+        "عدل",
+        "عفو",
+        "قتل",
+        "كعب",
+        "كفر",
+        "مثل",
+        "نعم",
+        "هدي",
+        "وبل"
+      ],
+      "ayah": 95,
+      "marker": "man",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "عمد",
+        "قتل"
+      ],
+      "rslt_pos": 13,
+      "seq": 764,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "عزز",
+        "نقم"
+      ],
+      "ayah": 95,
+      "marker": "mano",
+      "marker_pos": 42,
+      "protasis_roots": [
+        "عود"
+      ],
+      "rslt_pos": 44,
+      "seq": 764,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "اخر",
+        "اله",
+        "حقق",
+        "شهد",
+        "ظلم",
+        "عدو",
+        "قسم",
+        "قوم",
+        "ولي"
+      ],
+      "ayah": 107,
+      "marker": "<ino",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اثم",
+        "حقق",
+        "عثر"
+      ],
+      "rslt_pos": 7,
+      "seq": 776,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "احد",
+        "عذب",
+        "علم"
+      ],
+      "ayah": 115,
+      "marker": "man",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "بعد",
+        "كفر"
+      ],
+      "rslt_pos": 10,
+      "seq": 784,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "علم",
+        "غيب",
+        "نفس"
+      ],
+      "ayah": 116,
+      "marker": "<in",
+      "marker_pos": 27,
+      "protasis_roots": [
+        "قول",
+        "كون"
+      ],
+      "rslt_pos": 30,
+      "seq": 785,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "عبد"
+      ],
+      "ayah": 118,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "عذب"
+      ],
+      "rslt_pos": 3,
+      "seq": 787,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "حكم",
+        "عزز"
+      ],
+      "ayah": 118,
+      "marker": "<in",
+      "marker_pos": 5,
+      "protasis_roots": [
+        "غفر"
+      ],
+      "rslt_pos": 8,
+      "seq": 787,
+      "sura": 5
+    },
+    {
+      "apodosis_roots": [
+        "بين",
+        "رحم",
+        "فوز"
+      ],
+      "ayah": 16,
+      "marker": "m~an",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "صرف"
+      ],
+      "rslt_pos": 5,
+      "seq": 805,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "كشف"
+      ],
+      "ayah": 17,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اله",
+        "ضرر",
+        "مسس"
+      ],
+      "rslt_pos": 5,
+      "seq": 806,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "شيا",
+        "قدر",
+        "كلل"
+      ],
+      "ayah": 17,
+      "marker": "<in",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "خير",
+        "مسس"
+      ],
+      "rslt_pos": 13,
+      "seq": 806,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "حزن",
+        "خوف"
+      ],
+      "ayah": 48,
+      "marker": "mano",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "امن",
+        "صلح"
+      ],
+      "rslt_pos": 10,
+      "seq": 837,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "ربب",
+        "رحم",
+        "سلم",
+        "قول",
+        "كتب",
+        "نفس"
+      ],
+      "ayah": 54,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "امن",
+        "ايي",
+        "جيا"
+      ],
+      "rslt_pos": 6,
+      "seq": 843,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "رحم",
+        "غفر"
+      ],
+      "ayah": 54,
+      "marker": "mano",
+      "marker_pos": 15,
+      "protasis_roots": [
+        "بعد",
+        "توب",
+        "جهل",
+        "سوا",
+        "صلح",
+        "عمل"
+      ],
+      "rslt_pos": 25,
+      "seq": 843,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "حدث",
+        "خوض",
+        "عرض",
+        "غير"
+      ],
+      "ayah": 68,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "ايي",
+        "خوض",
+        "راي"
+      ],
+      "rslt_pos": 7,
+      "seq": 857,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "بعد",
+        "ذكر",
+        "ظلم",
+        "قعد",
+        "قوم"
+      ],
+      "ayah": 68,
+      "marker": "<i",
+      "marker_pos": 14,
+      "protasis_roots": [
+        "شطن",
+        "نسي"
+      ],
+      "rslt_pos": 17,
+      "seq": 857,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "قوم",
+        "كفر",
+        "ليس",
+        "وكل"
+      ],
+      "ayah": 89,
+      "marker": "<in",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "كفر"
+      ],
+      "rslt_pos": 11,
+      "seq": 878,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "نفس"
+      ],
+      "ayah": 104,
+      "marker": "mano",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "بصر"
+      ],
+      "rslt_pos": 8,
+      "seq": 893,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "حفظ"
+      ],
+      "ayah": 104,
+      "marker": "mano",
+      "marker_pos": 9,
+      "protasis_roots": [
+        "عمي"
+      ],
+      "rslt_pos": 11,
+      "seq": 893,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "جزي",
+        "حكم",
+        "شرك",
+        "علم",
+        "وصف"
+      ],
+      "ayah": 139,
+      "marker": "<in",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "كون",
+        "موت"
+      ],
+      "rslt_pos": 15,
+      "seq": 928,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "ربب",
+        "رحم",
+        "غفر"
+      ],
+      "ayah": 145,
+      "marker": "mani",
+      "marker_pos": 30,
+      "protasis_roots": [
+        "بغي",
+        "ضرر",
+        "عدو",
+        "غير"
+      ],
+      "rslt_pos": 36,
+      "seq": 934,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "باس",
+        "جرم",
+        "ربب",
+        "رحم",
+        "ردد",
+        "قول",
+        "قوم",
+        "وسع"
+      ],
+      "ayah": 147,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "كذب"
+      ],
+      "rslt_pos": 3,
+      "seq": 936,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "اخر",
+        "امن",
+        "ايي",
+        "تبع",
+        "ربب",
+        "شهد",
+        "عدل",
+        "كذب",
+        "هوي"
+      ],
+      "ayah": 150,
+      "marker": "<in",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "شهد"
+      ],
+      "rslt_pos": 12,
+      "seq": 939,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "عدل"
+      ],
+      "ayah": 152,
+      "marker": "<i*aA",
+      "marker_pos": 21,
+      "protasis_roots": [
+        "قول"
+      ],
+      "rslt_pos": 23,
+      "seq": 941,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "ايي",
+        "بين",
+        "جزي",
+        "جيا",
+        "ربب",
+        "رحم",
+        "سوا",
+        "صدف",
+        "ظلم",
+        "عذب",
+        "كذب",
+        "كون",
+        "هدي"
+      ],
+      "ayah": 157,
+      "marker": "lawo",
+      "marker_pos": 3,
+      "protasis_roots": [
+        "كتب",
+        "كون",
+        "نزل",
+        "هدي"
+      ],
+      "rslt_pos": 11,
+      "seq": 946,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "عشر",
+        "مثل"
+      ],
+      "ayah": 160,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "جيا",
+        "حسن"
+      ],
+      "rslt_pos": 4,
+      "seq": 949,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "جزي",
+        "ظلم",
+        "مثل"
+      ],
+      "ayah": 160,
+      "marker": "man",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "جيا",
+        "سوا"
+      ],
+      "rslt_pos": 10,
+      "seq": 949,
+      "sura": 6
+    },
+    {
+      "apodosis_roots": [
+        "فلح"
+      ],
+      "ayah": 8,
+      "marker": "man",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "ثقل",
+        "وزن"
+      ],
+      "rslt_pos": 7,
+      "seq": 962,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "ايي",
+        "خسر",
+        "ظلم",
+        "كون",
+        "نفس"
+      ],
+      "ayah": 9,
+      "marker": "mano",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "خفف",
+        "وزن"
+      ],
+      "rslt_pos": 4,
+      "seq": 963,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "حزن",
+        "خوف",
+        "صلح",
+        "وقي"
+      ],
+      "ayah": 35,
+      "marker": "<i",
+      "marker_pos": 3,
+      "protasis_roots": [
+        "اتي",
+        "ايي",
+        "رسل",
+        "قصص"
+      ],
+      "rslt_pos": 10,
+      "seq": 989,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "حزن",
+        "خوف"
+      ],
+      "ayah": 35,
+      "marker": "mani",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "صلح",
+        "وقي"
+      ],
+      "rslt_pos": 13,
+      "seq": 989,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بين",
+        "حكم",
+        "خير",
+        "صبر"
+      ],
+      "ayah": 87,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "امن",
+        "رسل",
+        "طوف",
+        "كون"
+      ],
+      "rslt_pos": 12,
+      "seq": 1041,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "اتي"
+      ],
+      "ayah": 106,
+      "marker": "<in",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "ايي",
+        "جيا",
+        "كون"
+      ],
+      "rslt_pos": 6,
+      "seq": 1060,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "امن"
+      ],
+      "ayah": 132,
+      "marker": "mahomaA",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "اتي",
+        "ايي",
+        "سحر"
+      ],
+      "rslt_pos": 9,
+      "seq": 1086,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "امن",
+        "اول",
+        "توب",
+        "جبل",
+        "جعل",
+        "جلو",
+        "خرر",
+        "دكك",
+        "راي",
+        "ربب",
+        "سبح",
+        "صعق",
+        "فوق",
+        "قول"
+      ],
+      "ayah": 143,
+      "marker": "<ini",
+      "marker_pos": 19,
+      "protasis_roots": [
+        "قرر",
+        "كون"
+      ],
+      "rslt_pos": 22,
+      "seq": 1097,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "هدي"
+      ],
+      "ayah": 178,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اله",
+        "هدي"
+      ],
+      "rslt_pos": 4,
+      "seq": 1132,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "خسر"
+      ],
+      "ayah": 178,
+      "marker": "man",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "ضلل"
+      ],
+      "rslt_pos": 8,
+      "seq": 1132,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "طغي",
+        "عمه",
+        "هدي",
+        "وذر"
+      ],
+      "ayah": 186,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اله",
+        "ضلل"
+      ],
+      "rslt_pos": 4,
+      "seq": 1140,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "سمع",
+        "علم",
+        "عوذ"
+      ],
+      "ayah": 200,
+      "marker": "<i",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "شطن",
+        "نزغ"
+      ],
+      "rslt_pos": 6,
+      "seq": 1154,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "رحم",
+        "سمع",
+        "نصت"
+      ],
+      "ayah": 204,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "قرا"
+      ],
+      "rslt_pos": 4,
+      "seq": 1158,
+      "sura": 7
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "شدد",
+        "عقب"
+      ],
+      "ayah": 13,
+      "marker": "man",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "اله",
+        "رسل",
+        "شقق"
+      ],
+      "rslt_pos": 10,
+      "seq": 1173,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "دبر",
+        "ولي"
+      ],
+      "ayah": 15,
+      "marker": "<i*aA",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "زحف",
+        "كفر",
+        "لقي"
+      ],
+      "rslt_pos": 9,
+      "seq": 1175,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "اوي",
+        "باس",
+        "بوا",
+        "صير",
+        "غضب"
+      ],
+      "ayah": 16,
+      "marker": "man",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "حرف",
+        "حوز",
+        "دبر",
+        "فاي",
+        "قتل",
+        "ولي"
+      ],
+      "rslt_pos": 12,
+      "seq": 1176,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "جيا",
+        "فتح"
+      ],
+      "ayah": 19,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "فتح"
+      ],
+      "rslt_pos": 3,
+      "seq": 1179,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "خير"
+      ],
+      "ayah": 19,
+      "marker": "<in",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "نهي"
+      ],
+      "rslt_pos": 8,
+      "seq": 1179,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "الم",
+        "حجر",
+        "سمو",
+        "عذب",
+        "مطر"
+      ],
+      "ayah": 32,
+      "marker": "<in",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "حقق",
+        "عند",
+        "كون"
+      ],
+      "rslt_pos": 11,
+      "seq": 1192,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اول",
+        "سنن",
+        "مضي"
+      ],
+      "ayah": 38,
+      "marker": "<in",
+      "marker_pos": 11,
+      "protasis_roots": [
+        "عود"
+      ],
+      "rslt_pos": 13,
+      "seq": 1198,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بصر",
+        "عمل"
+      ],
+      "ayah": 39,
+      "marker": "<ini",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "نهي"
+      ],
+      "rslt_pos": 12,
+      "seq": 1199,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "علم",
+        "نصر",
+        "نعم",
+        "ولي"
+      ],
+      "ayah": 40,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 3,
+      "seq": 1200,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "ثبت",
+        "ذكر",
+        "فلح",
+        "كثر"
+      ],
+      "ayah": 45,
+      "marker": "<i*aA",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "فاي",
+        "لقي"
+      ],
+      "rslt_pos": 7,
+      "seq": 1205,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حكم",
+        "عزز"
+      ],
+      "ayah": 49,
+      "marker": "man",
+      "marker_pos": 11,
+      "protasis_roots": [
+        "اله",
+        "وكل"
+      ],
+      "rslt_pos": 15,
+      "seq": 1209,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "خلف",
+        "ذكر",
+        "شرد"
+      ],
+      "ayah": 57,
+      "marker": "<i",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "ثقف",
+        "حرب"
+      ],
+      "rslt_pos": 5,
+      "seq": 1217,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حبب",
+        "خون",
+        "سوي",
+        "نبذ"
+      ],
+      "ayah": 58,
+      "marker": "<i",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "خوف",
+        "خون",
+        "قوم"
+      ],
+      "rslt_pos": 6,
+      "seq": 1218,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "جنح",
+        "سمع",
+        "علم",
+        "وكل"
+      ],
+      "ayah": 61,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "جنح",
+        "سلم"
+      ],
+      "rslt_pos": 4,
+      "seq": 1221,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "امن",
+        "ايد",
+        "حسب",
+        "نصر"
+      ],
+      "ayah": 62,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "خدع",
+        "رود"
+      ],
+      "rslt_pos": 5,
+      "seq": 1222,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حكم",
+        "خون",
+        "علم",
+        "قبل",
+        "مكن"
+      ],
+      "ayah": 71,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "خون",
+        "رود"
+      ],
+      "rslt_pos": 4,
+      "seq": 1231,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بصر",
+        "بين",
+        "عمل",
+        "قوم",
+        "نصر",
+        "وثق"
+      ],
+      "ayah": 72,
+      "marker": "<ini",
+      "marker_pos": 30,
+      "protasis_roots": [
+        "دين",
+        "نصر"
+      ],
+      "rslt_pos": 34,
+      "seq": 1232,
+      "sura": 8
+    },
+    {
+      "apodosis_roots": [
+        "هوي"
+      ],
+      "ayah": 81,
+      "marker": "man",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "حلل",
+        "غضب"
+      ],
+      "rslt_pos": 16,
+      "seq": 2429,
+      "sura": 20
+    },
+    {
+      "apodosis_roots": [
+        "رحم",
+        "عظم",
+        "فوز"
+      ],
+      "ayah": 9,
+      "marker": "man",
+      "marker_pos": 3,
+      "protasis_roots": [
+        "سوا",
+        "وقي"
+      ],
+      "rslt_pos": 7,
+      "seq": 4142,
+      "sura": 40
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "شدد",
+        "عقب"
+      ],
+      "ayah": 4,
+      "marker": "man",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "اله",
+        "شقق"
+      ],
+      "rslt_pos": 9,
+      "seq": 5130,
+      "sura": 59
+    },
+    {
+      "apodosis_roots": [
+        "اذن",
+        "اله",
+        "خزي",
+        "فسق"
+      ],
+      "ayah": 5,
+      "marker": "maA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اصل",
+        "ترك",
+        "قطع",
+        "قوم",
+        "لين"
+      ],
+      "rslt_pos": 10,
+      "seq": 5131,
+      "sura": 59
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "خيل",
+        "رسل",
+        "ركب",
+        "سلط",
+        "شيا",
+        "قدر",
+        "كلل",
+        "وجف"
+      ],
+      "ayah": 6,
+      "marker": "maA^",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اله",
+        "رسل",
+        "فيا"
+      ],
+      "rslt_pos": 7,
+      "seq": 5132,
+      "sura": 59
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بني",
+        "بين",
+        "دول",
+        "رسل",
+        "سبل",
+        "سكن",
+        "غني",
+        "قرب",
+        "كون",
+        "يتم"
+      ],
+      "ayah": 7,
+      "marker": "m~aA^",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اله",
+        "اهل",
+        "رسل",
+        "فيا",
+        "قري"
+      ],
+      "rslt_pos": 9,
+      "seq": 5133,
+      "sura": 59
+    },
+    {
+      "apodosis_roots": [
+        "اخذ"
+      ],
+      "ayah": 7,
+      "marker": "maA^",
+      "marker_pos": 24,
+      "protasis_roots": [
+        "اتي",
+        "رسل"
+      ],
+      "rslt_pos": 27,
+      "seq": 5133,
+      "sura": 59
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "شدد",
+        "عقب",
+        "نهي",
+        "وقي"
+      ],
+      "ayah": 7,
+      "marker": "maA",
+      "marker_pos": 28,
+      "protasis_roots": [
+        "نهي"
+      ],
+      "rslt_pos": 31,
+      "seq": 5133,
+      "sura": 59
+    },
+    {
+      "apodosis_roots": [
+        "فلح"
+      ],
+      "ayah": 9,
+      "marker": "man",
+      "marker_pos": 25,
+      "protasis_roots": [
+        "شحح",
+        "نفس",
+        "وقي"
+      ],
+      "rslt_pos": 29,
+      "seq": 5135,
+      "sura": 59
+    },
+    {
+      "apodosis_roots": [
+        "سبل",
+        "سوي",
+        "ضلل"
+      ],
+      "ayah": 1,
+      "marker": "man",
+      "marker_pos": 42,
+      "protasis_roots": [
+        "فعل"
+      ],
+      "rslt_pos": 45,
+      "seq": 5151,
+      "sura": 60
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "حمد",
+        "غني"
+      ],
+      "ayah": 6,
+      "marker": "man",
+      "marker_pos": 13,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 15,
+      "seq": 5156,
+      "sura": 60
+    },
+    {
+      "apodosis_roots": [
+        "ظلم"
+      ],
+      "ayah": 9,
+      "marker": "man",
+      "marker_pos": 17,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 19,
+      "seq": 5159,
+      "sura": 60
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "امن",
+        "علم",
+        "محن"
+      ],
+      "ayah": 10,
+      "marker": "<i*aA",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "امن",
+        "جيا",
+        "هجر"
+      ],
+      "rslt_pos": 8,
+      "seq": 5160,
+      "sura": 60
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "جنح",
+        "حلل",
+        "رجع",
+        "كفر",
+        "نفق",
+        "نكح"
+      ],
+      "ayah": 10,
+      "marker": "<ino",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "امن",
+        "علم"
+      ],
+      "rslt_pos": 15,
+      "seq": 5160,
+      "sura": 60
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اله",
+        "امن",
+        "ذهب",
+        "زوج",
+        "مثل",
+        "نفق",
+        "وقي"
+      ],
+      "ayah": 11,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "زوج",
+        "شيا",
+        "عقب",
+        "فوت",
+        "كفر"
+      ],
+      "rslt_pos": 9,
+      "seq": 5161,
+      "sura": 60
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بيع",
+        "رحم",
+        "غفر"
+      ],
+      "ayah": 12,
+      "marker": "<i*aA",
+      "marker_pos": 3,
+      "protasis_roots": [
+        "اتي",
+        "اله",
+        "امن",
+        "بهت",
+        "بيع",
+        "بين",
+        "جيا",
+        "رجل",
+        "زني",
+        "سرق",
+        "شرك",
+        "شيا",
+        "عرف",
+        "عصي",
+        "فري",
+        "قتل",
+        "ولد",
+        "يدي"
+      ],
+      "rslt_pos": 31,
+      "seq": 5162,
+      "sura": 60
+    },
+    {
+      "apodosis_roots": [
+        "مني",
+        "موت"
+      ],
+      "ayah": 6,
+      "marker": "<in",
+      "marker_pos": 5,
+      "protasis_roots": [
+        "اله",
+        "دون",
+        "زعم",
+        "نوس",
+        "ولي"
+      ],
+      "rslt_pos": 13,
+      "seq": 5183,
+      "sura": 62
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "بيع",
+        "خير",
+        "ذكر",
+        "سعي",
+        "وذر"
+      ],
+      "ayah": 9,
+      "marker": "<i*aA",
+      "marker_pos": 4,
+      "protasis_roots": [
+        "جمع",
+        "صلو",
+        "ندو",
+        "يوم"
+      ],
+      "rslt_pos": 10,
+      "seq": 5186,
+      "sura": 62
+    },
+    {
+      "apodosis_roots": [
+        "ارض",
+        "اله",
+        "بغي",
+        "ذكر",
+        "فضل",
+        "فلح",
+        "كثر",
+        "نشر"
+      ],
+      "ayah": 10,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "صلو",
+        "قضي"
+      ],
+      "rslt_pos": 4,
+      "seq": 5187,
+      "sura": 62
+    },
+    {
+      "apodosis_roots": [
+        "خسر"
+      ],
+      "ayah": 9,
+      "marker": "man",
+      "marker_pos": 12,
+      "protasis_roots": [
+        "فعل"
+      ],
+      "rslt_pos": 15,
+      "seq": 5197,
+      "sura": 63
+    },
+    {
+      "apodosis_roots": [
+        "بلغ",
+        "بين",
+        "رسل"
+      ],
+      "ayah": 12,
+      "marker": "<in",
+      "marker_pos": 5,
+      "protasis_roots": [
+        "ولي"
+      ],
+      "rslt_pos": 7,
+      "seq": 5211,
+      "sura": 64
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "رحم",
+        "غفر"
+      ],
+      "ayah": 14,
+      "marker": "<in",
+      "marker_pos": 11,
+      "protasis_roots": [
+        "صفح",
+        "عفو",
+        "غفر"
+      ],
+      "rslt_pos": 15,
+      "seq": 5213,
+      "sura": 64
+    },
+    {
+      "apodosis_roots": [
+        "فلح"
+      ],
+      "ayah": 16,
+      "marker": "man",
+      "marker_pos": 10,
+      "protasis_roots": [
+        "شحح",
+        "نفس",
+        "وقي"
+      ],
+      "rslt_pos": 14,
+      "seq": 5215,
+      "sura": 64
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اله",
+        "بيت",
+        "بين",
+        "حدد",
+        "حصي",
+        "خرج",
+        "ربب",
+        "طلق",
+        "عدد",
+        "فحش",
+        "وقي"
+      ],
+      "ayah": 1,
+      "marker": "<i*aA",
+      "marker_pos": 3,
+      "protasis_roots": [
+        "طلق",
+        "نسو"
+      ],
+      "rslt_pos": 6,
+      "seq": 5218,
+      "sura": 65
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "امر",
+        "بعد",
+        "حدث",
+        "دري",
+        "ظلم",
+        "نفس"
+      ],
+      "ayah": 1,
+      "marker": "man",
+      "marker_pos": 27,
+      "protasis_roots": [
+        "اله",
+        "حدد",
+        "عدو"
+      ],
+      "rslt_pos": 31,
+      "seq": 5218,
+      "sura": 65
+    },
+    {
+      "apodosis_roots": [
+        "اخر",
+        "اله",
+        "امن",
+        "شهد",
+        "عدل",
+        "عرف",
+        "فرق",
+        "قوم",
+        "كون",
+        "مسك",
+        "وعظ",
+        "يوم"
+      ],
+      "ayah": 2,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اجل",
+        "بلغ"
+      ],
+      "rslt_pos": 4,
+      "seq": 5219,
+      "sura": 65
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "امر",
+        "بلغ",
+        "جعل",
+        "حسب",
+        "شيا",
+        "قدر",
+        "كلل"
+      ],
+      "ayah": 3,
+      "marker": "man",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "اله",
+        "وكل"
+      ],
+      "rslt_pos": 10,
+      "seq": 5220,
+      "sura": 65
+    },
+    {
+      "apodosis_roots": [
+        "اجل",
+        "اول",
+        "ثلث",
+        "حمل",
+        "حيض",
+        "شهر",
+        "عدد",
+        "وضع"
+      ],
+      "ayah": 4,
+      "marker": "<ini",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "ريب"
+      ],
+      "rslt_pos": 9,
+      "seq": 5221,
+      "sura": 65
+    },
+    {
+      "apodosis_roots": [
+        "حمل",
+        "نفق",
+        "وضع"
+      ],
+      "ayah": 6,
+      "marker": "<in",
+      "marker_pos": 11,
+      "protasis_roots": [
+        "اول",
+        "حمل",
+        "كون"
+      ],
+      "rslt_pos": 15,
+      "seq": 5223,
+      "sura": 65
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اجر",
+        "امر",
+        "بين",
+        "عرف"
+      ],
+      "ayah": 6,
+      "marker": "<ino",
+      "marker_pos": 20,
+      "protasis_roots": [
+        "رضع"
+      ],
+      "rslt_pos": 23,
+      "seq": 5223,
+      "sura": 65
+    },
+    {
+      "apodosis_roots": [
+        "اخر",
+        "رضع"
+      ],
+      "ayah": 6,
+      "marker": "<in",
+      "marker_pos": 28,
+      "protasis_roots": [
+        "عسر"
+      ],
+      "rslt_pos": 30,
+      "seq": 5223,
+      "sura": 65
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "اله",
+        "بعد",
+        "جعل",
+        "عسر",
+        "كلف",
+        "نفس",
+        "نفق",
+        "يسر"
+      ],
+      "ayah": 7,
+      "marker": "man",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "رزق",
+        "قدر"
+      ],
+      "rslt_pos": 10,
+      "seq": 5224,
+      "sura": 65
+    },
+    {
+      "apodosis_roots": [
+        "صغو",
+        "قلب"
+      ],
+      "ayah": 4,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "اله",
+        "توب"
+      ],
+      "rslt_pos": 5,
+      "seq": 5233,
+      "sura": 66
+    },
+    {
+      "apodosis_roots": [
+        "اله",
+        "امن",
+        "بعد",
+        "صلح",
+        "ظهر",
+        "ملك",
+        "ولي"
+      ],
+      "ayah": 4,
+      "marker": "<in",
+      "marker_pos": 8,
+      "protasis_roots": [
+        "ظهر"
+      ],
+      "rslt_pos": 11,
+      "seq": 5233,
+      "sura": 66
+    },
+    {
+      "apodosis_roots": [
+        "الم",
+        "جور",
+        "عذب",
+        "كفر"
+      ],
+      "ayah": 28,
+      "marker": "<ino",
+      "marker_pos": 3,
+      "protasis_roots": [
+        "اله",
+        "رحم",
+        "هلك"
+      ],
+      "rslt_pos": 10,
+      "seq": 5269,
+      "sura": 67
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "عين",
+        "موه"
+      ],
+      "ayah": 30,
+      "marker": "<ino",
+      "marker_pos": 3,
+      "protasis_roots": [
+        "صبح",
+        "غور",
+        "موه"
+      ],
+      "rslt_pos": 7,
+      "seq": 5271,
+      "sura": 67
+    },
+    {
+      "apodosis_roots": [
+        "قرا",
+        "قول",
+        "كتب"
+      ],
+      "ayah": 19,
+      "marker": "mano",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "اتي",
+        "كتب",
+        "يمن"
+      ],
+      "rslt_pos": 6,
+      "seq": 5342,
+      "sura": 69
+    },
+    {
+      "apodosis_roots": [
+        "اتي",
+        "قول",
+        "كتب"
+      ],
+      "ayah": 25,
+      "marker": "mano",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "اتي",
+        "شمل",
+        "كتب"
+      ],
+      "rslt_pos": 6,
+      "seq": 5348,
+      "sura": 69
+    },
+    {
+      "apodosis_roots": [
+        "عدو"
+      ],
+      "ayah": 31,
+      "marker": "mani",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "بغي",
+        "وري"
+      ],
+      "rslt_pos": 5,
+      "seq": 5406,
+      "sura": 70
+    },
+    {
+      "apodosis_roots": [
+        "بخس",
+        "خوف",
+        "رهق"
+      ],
+      "ayah": 13,
+      "marker": "man",
+      "marker_pos": 7,
+      "protasis_roots": [
+        "امن",
+        "ربب"
+      ],
+      "rslt_pos": 10,
+      "seq": 5460,
+      "sura": 72
+    },
+    {
+      "apodosis_roots": [
+        "حري",
+        "رشد"
+      ],
+      "ayah": 14,
+      "marker": "mano",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "سلم"
+      ],
+      "rslt_pos": 8,
+      "seq": 5461,
+      "sura": 72
+    },
+    {
+      "apodosis_roots": [
+        "ابد",
+        "خلد",
+        "نور"
+      ],
+      "ayah": 23,
+      "marker": "man",
+      "marker_pos": 6,
+      "protasis_roots": [
+        "اله",
+        "رسل",
+        "عصي"
+      ],
+      "rslt_pos": 10,
+      "seq": 5470,
+      "sura": 72
+    },
+    {
+      "apodosis_roots": [
+        "ضعف",
+        "عدد",
+        "علم",
+        "قلل",
+        "نصر"
+      ],
+      "ayah": 24,
+      "marker": "<i*aA",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "راي",
+        "وعد"
+      ],
+      "rslt_pos": 6,
+      "seq": 5471,
+      "sura": 72
+    },
+    {
+      "apodosis_roots": [
+        "تبع",
+        "قرا"
+      ],
+      "ayah": 18,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "قرا"
+      ],
+      "rslt_pos": 3,
+      "seq": 5569,
+      "sura": 75
+    },
+    {
+      "apodosis_roots": [
+        "كيد"
+      ],
+      "ayah": 39,
+      "marker": "<in",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "كون",
+        "كيد"
+      ],
+      "rslt_pos": 5,
+      "seq": 5661,
+      "sura": 77
+    },
+    {
+      "apodosis_roots": [
+        "ربب",
+        "قول",
+        "كرم"
+      ],
+      "ayah": 15,
+      "marker": "<i*aA",
+      "marker_pos": 3,
+      "protasis_roots": [
+        "بلو",
+        "ربب",
+        "كرم",
+        "نعم"
+      ],
+      "rslt_pos": 9,
+      "seq": 6008,
+      "sura": 89
+    },
+    {
+      "apodosis_roots": [
+        "ربب",
+        "قول",
+        "هون"
+      ],
+      "ayah": 16,
+      "marker": "<i*aA",
+      "marker_pos": 2,
+      "protasis_roots": [
+        "بلو",
+        "رزق",
+        "قدر"
+      ],
+      "rslt_pos": 8,
+      "seq": 6009,
+      "sura": 89
+    },
+    {
+      "apodosis_roots": [
+        "نصب"
+      ],
+      "ayah": 7,
+      "marker": "<i*aA",
+      "marker_pos": 1,
+      "protasis_roots": [
+        "فرغ"
+      ],
+      "rslt_pos": 3,
+      "seq": 6097,
+      "sura": 94
+    }
+  ]
+}
